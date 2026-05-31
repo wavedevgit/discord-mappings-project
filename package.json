@@ -1,0 +1,21 @@
+{
+    "name": "discord-mappings-project",
+    "version": "1.0.0",
+    "description": "An attempt at creating mappings for the `discord_web` client, and possibily others too! I'm trying to make mappings for each chunk and its name, module path, variables names, etc.",
+    "main": "generate_mappings_paths_assets_android.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wavedevgit/discord-mappings-project.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "bugs": {
+        "url": "https://github.com/wavedevgit/discord-mappings-project/issues"
+    },
+    "homepage": "https://github.com/wavedevgit/discord-mappings-project#readme"
+}

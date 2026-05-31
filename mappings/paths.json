@@ -1,0 +1,22 @@
+[
+    {
+        "find_with": "\"HTTPUtils\"",
+        "paths": ["discord_common/js/packages/http-utils/HTTPUtils.tsx"]
+    },
+    {
+        "find_with": ".shiftRight(32).toJSNumber()",
+        "paths": ["discord_common/js/packages/id-generator/IdGenerator.tsx"]
+    },
+    {
+        "find_with": ["phoneCountryCode", "alpha2", "Afghanistan", "+93", "AF"],
+        "paths": ["discord_common/js/shared/Countries.tsx"]
+    },
+    {
+        "find_with": ["discord.com", "HINT_PURPLE", "\"#c9d2f0\","],
+        "paths": ["discord_common/js/shared/Constants.tsx"]
+    },
+    {
+        "find_with": ["X-Discord-MFA-Authorization", ".post"],
+        "paths": ["discord_common/js/shared/MFA.tsx"]
+    }
+]
