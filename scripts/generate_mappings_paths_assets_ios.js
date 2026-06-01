@@ -1,7 +1,7 @@
 import fs from 'fs/promises';
 
-// you need download latest ipa and extract manifest.json to ./ios_manifest.json
-const manifest = JSON.parse(await fs.readFile('./ios_manifest.json', 'utf-8'));
+// you need download latest ipa and extract manifest.json to ./data/ios_manifest.json
+const manifest = JSON.parse(await fs.readFile('./data/ios_manifest.json', 'utf-8'));
 const result = [];
 
 for (let asset of Object.entries(manifest.hashes)) {

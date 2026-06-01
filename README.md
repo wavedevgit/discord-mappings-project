@@ -15,3 +15,4 @@ Please avoid wasting your time on adding these, they are auto generated.
 
 -   Stores have auto generated finders, there is false positives, but it doesn't matter as the script has to find the exact `static displayName = '...'` thing
 -   Assets are auto generated, by using the list of assets in android, ios etc
+-   Experiments are auto generated, so please dont waste your time on them.

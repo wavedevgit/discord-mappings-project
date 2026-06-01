@@ -651,7 +651,6 @@ app/design/components/LottieIcon/native/generated/ServerTabLottie.tsx
 app/design/components/LottieIcon/native/generated/SpendEarnOrbsLightThemeLottie.tsx
 app/design/components/LottieIcon/native/generated/SpendEarnOrbsLottie.tsx
 app/design/components/LottieIcon/native/generated/YouTabLottie.tsx
-app/design/components/LottieIcon/native/LottieIcon.tsx
 app/design/components/mana-assets/native/generated/ActivatedGem3dIllustration.native.tsx
 app/design/components/mana-assets/native/generated/ActivitiesIllocon.native.tsx
 app/design/components/mana-assets/native/generated/AgeVerificationSpotIllustration.native.tsx
@@ -1192,7 +1191,6 @@ app/lib/AutomaticLifecycleManager.tsx
 app/lib/CachedEntriesMap.tsx
 app/lib/ChannelMessages.tsx
 app/lib/DiscordNative.tsx
-app/lib/EnsureReceivedMessagesAddedInOrderExperiment.tsx
 app/lib/Frecency.tsx
 app/lib/getOnClick.tsx
 app/lib/getTimeZone.native.tsx
@@ -1273,7 +1271,6 @@ app/modules/a11y/AccessibilityActionCreators.tsx
 app/modules/a11y/AccessibilityConstants.tsx
 app/modules/a11y/native/AccessibilityCallManager.tsx
 app/modules/a11y/native/AccessibilityFocusLockManager.tsx
-app/modules/a11y/native/AccessibilityLabelOptimizationExperiment.tsx
 app/modules/a11y/native/AccessibilityManager.tsx
 app/modules/a11y/native/AccessibilityPreferencesContextProvider.native.tsx
 app/modules/a11y/native/AccessibilityPreferencesSharedValue.tsx
@@ -1478,7 +1475,6 @@ app/modules/activities/utils/usePresenceActivityInviteCoverImageURL.tsx
 app/modules/activities/utils/useRefocusOrLaunchActivity.tsx
 app/modules/activities/utils/useTransitionToConnectedActivityInVoice.tsx
 app/modules/activity_privacy/ActivityPrivacy.messages.js
-app/modules/activity_privacy/ActivityPrivacyMatchingExperiment.tsx
 app/modules/activity_privacy/ActivityPrivacyUpsellUtils.tsx
 app/modules/activity_privacy/native/ActivityPrivacyUpsellActionSheet.tsx
 app/modules/activity_privacy/native/BaseUpsellActionSheet.tsx
@@ -1505,13 +1501,10 @@ app/modules/age_assurance/AgeAssurance.messages.js
 app/modules/age_assurance/AgeVerificationActionCreators.native.tsx
 app/modules/age_assurance/AgeVerificationAnalyticsUtils.tsx
 app/modules/age_assurance/AgeVerificationConstants.tsx
-app/modules/age_assurance/AgeVerificationExpressiveModalEverywhereExperiment.tsx
 app/modules/age_assurance/AgeVerificationManager.tsx
 app/modules/age_assurance/AgeVerificationURLActionCreators.tsx
 app/modules/age_assurance/AgeVerificationUtils.tsx
 app/modules/age_assurance/GoogleWalletActionCreators.native.tsx
-app/modules/age_assurance/GoogleWalletExperiment.tsx
-app/modules/age_assurance/HideManualAgeVerificationExperiment.tsx
 app/modules/age_assurance/hooks/useAgeVerificationMethods.tsx
 app/modules/age_assurance/native/AgeVerificationEmbeddedIntroScreen.tsx
 app/modules/age_assurance/native/AgeVerificationGetStartedModal.tsx
@@ -1521,7 +1514,6 @@ app/modules/age_assurance/native/AgeVerificationModal.tsx
 app/modules/age_assurance/native/AgeVerificationQuestUnsupportedAlertModal.tsx
 app/modules/age_assurance/native/AgeVerificationRetryScreen.tsx
 app/modules/age_assurance/native/GoogleWalletVerificationScreen.tsx
-app/modules/age_assurance/native/ParentalConsentExperiment.tsx
 app/modules/age_assurance/native/ParentalConsentManager.tsx
 app/modules/age_assurance/ReactiveCheckActionCreators.tsx
 app/modules/age_assurance/tooling/AgeVerificationTestActionCreators.tsx
@@ -1544,7 +1536,6 @@ app/modules/age_gate/native/components/NsfwGateGuild.tsx
 app/modules/age_gate/native/components/NsfwGateGuildSettingsActionSheet.tsx
 app/modules/age_gate/native/components/NsfwGateGuildSidebar.tsx
 app/modules/age_gate/native/ExistingUserAgeGateConstants.tsx
-app/modules/age_gate/ServerNSFWLevelExperiment.tsx
 app/modules/age_gate/useIsNsfwGated.tsx
 app/modules/analytics_sessions/ClientHeartbeatPiggyback.tsx
 app/modules/analytics_sessions/SessionAdGenerator.tsx
@@ -1552,7 +1543,6 @@ app/modules/analytics_sessions/SessionAdManager.tsx
 app/modules/analytics_sessions/SessionForegroundUtils.native.tsx
 app/modules/analytics_sessions/SessionHeartbeatScheduler.tsx
 app/modules/analytics_sessions/SessionUtils.tsx
-app/modules/analytics_sessions/SkippedClientHeartbeatExperiment.tsx
 app/modules/analytics/updateDynamicSuperProperties.tsx
 app/modules/animations/native/DeprecatedLayoutAnimation.tsx
 app/modules/app_analytics/AnalyticsLocation.tsx
@@ -1746,9 +1736,7 @@ app/modules/app_state/DiscordAppState.native.tsx
 app/modules/application_account_linking/AccountLinking.messages.js
 app/modules/application_account_linking/ApplicationAccountLinking.messages.js
 app/modules/application_account_linking/ApplicationAccountLinkingConstants.tsx
-app/modules/application_account_linking/experiments/mobileAccountLinkingExperiment.tsx
 app/modules/application_account_linking/experiments/riotSocialSDKMigration.tsx
-app/modules/application_account_linking/experiments/valorantSocialSDKExperiment.tsx
 app/modules/application_account_linking/hooks/useAuthorizationApp.tsx
 app/modules/application_account_linking/hooks/useAuthorizedAppsToken.tsx
 app/modules/application_account_linking/hooks/useProviderConnection.tsx
@@ -1760,7 +1748,6 @@ app/modules/application_account_linking/native/startAuthorizationNoHook.tsx
 app/modules/application_account_linking/native/useDefaultAuthorizationNotifiers.tsx
 app/modules/application_account_linking/native/useStartAuthorize.tsx
 app/modules/application_account_linking/native/useStartProviderConnection.tsx
-app/modules/application_commands/AgeRestrictedApplicationCommandsExperiment.tsx
 app/modules/application_commands/ApplicationCommandActionCreators.tsx
 app/modules/application_commands/ApplicationCommandBuiltIns.tsx
 app/modules/application_commands/ApplicationCommandChoiceUtils.tsx
@@ -1932,8 +1919,6 @@ app/modules/billing/actions/BillingSharedActionCreators.tsx
 app/modules/billing/actions/StripeActionCreators.tsx
 app/modules/billing/Constants.tsx
 app/modules/billing/errors/InvalidGooglePlayPurchase.tsx
-app/modules/billing/experiments/BlockedPaymentsCountryExperiment.tsx
-app/modules/billing/experiments/StoreCountryExperiment.tsx
 app/modules/billing/hooks/useFPDurationLeft.tsx
 app/modules/billing/hooks/useFractionalPremiumInfo.tsx
 app/modules/billing/hooks/useSubscriptionPlansLoaded.tsx
@@ -1956,7 +1941,6 @@ app/modules/blocked_domains/BlockedDomainModalActionCreators.native.tsx
 app/modules/blocked_domains/components/native/BlockedDomainActionSheet.tsx
 app/modules/blocking/BlockedUserUtils.tsx
 app/modules/blocking/useDiscoverableApplicationStream.tsx
-app/modules/bug_reporter/BugReporterExperiment.tsx
 app/modules/bug_reporter/BugReportUtils.tsx
 app/modules/bug_reporter/native/BugReporterNotification.tsx
 app/modules/bug_reporter/native/BugReportManager.tsx
@@ -1974,10 +1958,8 @@ app/modules/cache/CacheManager.native.tsx
 app/modules/cache/ClientStateStoreStorage.native.tsx
 app/modules/cache/deserializeChannels.tsx
 app/modules/cache/isCacheEnabled.native.tsx
-app/modules/cache/NotificationLoadMessagesExperiment.tsx
 app/modules/cache/trackCacheSkipped.native.tsx
 app/modules/call_feedback_tutorials/web/CallFeedbackTutorials.messages.js
-app/modules/calls/AutoOpenTIVExperiment.tsx
 app/modules/calls/CallConstants.tsx
 app/modules/calls/ChannelCallManager.tsx
 app/modules/calls/ChannelRTCParticipants.tsx
@@ -1986,7 +1968,6 @@ app/modules/calls/HideSelfStreamAndVideoConstants.tsx
 app/modules/calls/mediaEngineContextFromParticipantType.tsx
 app/modules/calls/mobile/CallKitManager.android.tsx
 app/modules/calls/mobile/useIsCallActive.tsx
-app/modules/calls/MobileMuteIndicatorExperiment.tsx
 app/modules/calls/native/getPrivateChannelCall.tsx
 app/modules/calls/native/TelecomManager.android.tsx
 app/modules/calls/native/usePrivateChannelCall.tsx
@@ -1994,12 +1975,10 @@ app/modules/calls/native/VideoBackground.tsx
 app/modules/calls/native/VideoBackgroundManager.tsx
 app/modules/calls/NativeMuteManager.native.tsx
 app/modules/calls/ParticipantFocusManager.tsx
-app/modules/calls/ProportionalVadIndicatorExperiment.tsx
 app/modules/calls/useCallA11yState.tsx
 app/modules/calls/useCanRing.tsx
 app/modules/calls/useCanSetVoiceChannelStatus.tsx
 app/modules/calls/useHideSelfVideo.tsx
-app/modules/calls/VideoStabilizationExperiment.tsx
 app/modules/captcha/CaptchaConstants.tsx
 app/modules/captcha/CaptchaUtils.native.tsx
 app/modules/captcha/native/CaptchaModal.tsx
@@ -2071,7 +2050,6 @@ app/modules/channel/canJoinVoiceChannel.tsx
 app/modules/channel/ChannelConstants.tsx
 app/modules/channel/ChannelInfoActionCreators.tsx
 app/modules/channel/ChannelMuteUtils.tsx
-app/modules/channel/ChannelPinningExperiment.tsx
 app/modules/channel/FakePlaceholderPrivateChannel.tsx
 app/modules/channel/getChannelA11yLabel.tsx
 app/modules/channel/getChannelIcon.tsx
@@ -2096,8 +2074,6 @@ app/modules/channel/useCreateChannelSubmit.tsx
 app/modules/channel/usePrivateChannelWave.native.tsx
 app/modules/channel/useTextareaPlaceholderAndLabels.tsx
 app/modules/channel/useVoiceChannelStartTime.tsx
-app/modules/channel/VoiceChannelBadgeExperiment.tsx
-app/modules/channel/VoiceChannelHoistingExperiment.tsx
 app/modules/chat_input/native/accessories/ChatInputAccessibilityDivider.tsx
 app/modules/chat_input/native/accessories/ChatInputCharCounter.tsx
 app/modules/chat_input/native/accessories/ChatInputCover.tsx
@@ -2144,7 +2120,6 @@ app/modules/chat_input/native/useChatInputRefs.tsx
 app/modules/chat/native/Chat.android.tsx
 app/modules/chat/native/ChatChangesetUpdateTracker.tsx
 app/modules/chat/native/ChatLoadingIndicator.tsx
-app/modules/chat/native/ChatLoadingIndicatorExperiment.tsx
 app/modules/chat/native/ChatTTITracker.tsx
 app/modules/chat/native/ChatUpdatesQueue.tsx
 app/modules/chat/native/ChatView.tsx
@@ -2210,11 +2185,8 @@ app/modules/client_themes/SavedCustomThemeActionCreators.tsx
 app/modules/clips/clipPayloadUtils.tsx
 app/modules/clips/Clips.messages.js
 app/modules/clips/ClipsConstants.tsx
-app/modules/clips/ClipsExperiment.tsx
 app/modules/clips/ClipsManager.tsx
-app/modules/clips/ClipsTimelineExperiment.tsx
 app/modules/clips/ClipsTypes.tsx
-app/modules/clips/ClipsV3RuntimeExperiment.tsx
 app/modules/clips/isClientClipsCapable.tsx
 app/modules/clips/isClipsEnabled.tsx
 app/modules/clips/native/ClipsManager.tsx
@@ -2238,13 +2210,6 @@ app/modules/collectibles/CollectiblesMarketingManager.native.tsx
 app/modules/collectibles/CollectiblesShopConstants.tsx
 app/modules/collectibles/CollectiblesUtils.tsx
 app/modules/collectibles/createUseCollectiblesShopStyles.tsx
-app/modules/collectibles/experiments/CollectiblesMobileFlexibleBundlesExperiment.tsx
-app/modules/collectibles/experiments/CollectiblesOrbsRedeemShortTextExperiment.tsx
-app/modules/collectibles/experiments/CollectiblesProfileFrameGiftingExperiment.tsx
-app/modules/collectibles/experiments/CollectiblesProfileFramesEAMarketingExperiment.tsx
-app/modules/collectibles/experiments/CollectiblesProfileFramesExperiment.tsx
-app/modules/collectibles/experiments/CollectiblesProfileFramesPurchaseExperiment.tsx
-app/modules/collectibles/experiments/CollectiblesShopCardImpressionMobileExperiment.tsx
 app/modules/collectibles/hooks/useBadBundleFilter.tsx
 app/modules/collectibles/hooks/useCanPurchaseFrames.tsx
 app/modules/collectibles/hooks/useCollectiblesData.tsx
@@ -2459,7 +2424,6 @@ app/modules/connections/ConnectionsUtils.tsx
 app/modules/connections/Constants.tsx
 app/modules/connections/CrunchyrollConnectionConstants.tsx
 app/modules/connections/DomainVerifyUtils.tsx
-app/modules/connections/experiments/ApplicationIdentityLinkedRolesExperiment.tsx
 app/modules/connections/FederatedSocialUtils.tsx
 app/modules/connections/native/ConnectionMetadataVanityItems.tsx
 app/modules/connections/native/ConnectionPlatformUtils.native.tsx
@@ -2508,7 +2472,6 @@ app/modules/content_inventory/ContentInventoryManager.tsx
 app/modules/content_inventory/ContentInventoryPlatformActionCreators.native.tsx
 app/modules/content_inventory/ContentInventoryTypes.tsx
 app/modules/content_inventory/matchUtils.tsx
-app/modules/content_inventory/memberlist/ActiveTimestampStylingExperiment.tsx
 app/modules/content_inventory/memberlist/getFallbackHeroColor.native.tsx
 app/modules/content_inventory/memberlist/useHeroColors.tsx
 app/modules/content_inventory/memberlist/useTimestampTickedNow.tsx
@@ -2562,7 +2525,6 @@ app/modules/creator_monetization/CreatorMonetizationSettingsDisabledContext.tsx
 app/modules/creator_monetization/guild_shop/useGuildShopPreviewVisible.tsx
 app/modules/creator_monetization/guild_shop/useGuildShopVisibleInGuild.tsx
 app/modules/croissant/crepe/Crepe.messages.js
-app/modules/croissant/crepe/CrepeExperiment.tsx
 app/modules/croissant/Croissant.messages.js
 app/modules/custom_status/Constants.tsx
 app/modules/custom_status/CustomStatusManager.tsx
@@ -2595,8 +2557,6 @@ app/modules/debug/native/ShareLogsButton.tsx
 app/modules/debug/serializeAppStartLogs.tsx
 app/modules/debug/serializePushNotifcationLogs.tsx
 app/modules/deep_link/DeepLinkTypes.tsx
-app/modules/design/PlaygroundAccessExperiment.tsx
-app/modules/design/RiveMobileRendererExperiment.tsx
 app/modules/device/BillingPlatformUtils.tsx
 app/modules/device/constants/DeviceState.tsx
 app/modules/device/DeviceState.tsx
@@ -2729,7 +2689,6 @@ app/modules/double_tap_to_react/native/DoubleTapChatInputBannerActionCreators.ts
 app/modules/double_tap_to_react/native/DoubleTapEmojiEditNudge.tsx
 app/modules/double_tap_to_react/native/DoubleTapEmojiUpdatedToast.tsx
 app/modules/double_tap_to_react/native/DoubleTapErrorToast.tsx
-app/modules/double_tap_to_react/native/DoubleTapExpandExperiment.tsx
 app/modules/double_tap_to_react/native/DoubleTapNitroAlert.tsx
 app/modules/double_tap_to_react/native/DoubleTapReminderToast.tsx
 app/modules/double_tap_to_react/native/DoubleTapToReactActionSheet.tsx
@@ -2771,7 +2730,6 @@ app/modules/emoji_terms/EmojiTermsImporter.js
 app/modules/emoji_terms/LazyPromiseInitializer.tsx
 app/modules/emojis/EmojiActionCreators.tsx
 app/modules/emojis/EmojiConstants.tsx
-app/modules/emojis/EmojiSearchRankingTweaksExperiment.tsx
 app/modules/emojis/EmojiTypes.tsx
 app/modules/emojis/hooks/useEmojiAndSource.tsx
 app/modules/emojis/hooks/useEmojiColorPalette.tsx
@@ -2820,10 +2778,7 @@ app/modules/errors/InteractionCallbackError.tsx
 app/modules/errors/native/SentryInitUtils.tsx
 app/modules/errors/UploaderError.tsx
 app/modules/errors/VideoStreamReadyActionCreators.tsx
-app/modules/experiments/apex/ApexActionCreators.tsx
 app/modules/experiments/apex/ApexExperiment.tsx
-app/modules/experiments/apex/ApexTypes.tsx
-app/modules/experiments/apex/DebugExperiment.tsx
 app/modules/experiments/apex/index.tsx
 app/modules/experiments/client_override_hooks/useApexExperiments.tsx
 app/modules/experiments/client_override_hooks/useCodedLinksExperimentEmbeds.tsx
@@ -2874,7 +2829,6 @@ app/modules/explicit_media_redaction/native/false_positive_reporting/ExplicitMed
 app/modules/explicit_media_redaction/native/false_positive_reporting/ExplicitMediaSenderFalsePositiveActionSheet.tsx
 app/modules/explicit_media_redaction/ObscuredMediaUtils.tsx
 app/modules/explicit_media_redaction/ObscureMediaModels.tsx
-app/modules/explicit_media_redaction/SensitiveContentSelfHarmExperiment.tsx
 app/modules/explicit_media_redaction/SensitiveMediaExplicitRedactionSettingsUtils.tsx
 app/modules/explicit_media_redaction/SensitiveMediaGoreRedactionSettingsUtils.tsx
 app/modules/explicit_media_redaction/SensitiveMediaRedactionSettingUtils.tsx
@@ -2917,7 +2871,6 @@ app/modules/favorites/createFavoritesChannelRecord.tsx
 app/modules/favorites/FavoritesAnalytics.tsx
 app/modules/favorites/FavoritesConstants.tsx
 app/modules/favorites/FavoritesGuild.messages.js
-app/modules/favorites/FavoritesGuildExperiment.tsx
 app/modules/favorites/FavoritesHooks.tsx
 app/modules/favorites/FavoritesUtils.tsx
 app/modules/favorites/useFavoriteGuildUnreads.tsx
@@ -2935,7 +2888,6 @@ app/modules/feedback/native/FeedbackManager.tsx
 app/modules/feedback/native/FeedbackModal.tsx
 app/modules/feedback/native/RatingSelector.tsx
 app/modules/feedback/native/requestReviewModal.tsx
-app/modules/feedback/native/RequestReviewNoTTIExperiment.tsx
 app/modules/feedback/native/UploadLogsActionSheet.tsx
 app/modules/feedback/shouldShowLogUploadForCategory.tsx
 app/modules/foreground_service/mobile/ForegroundServiceManager.android.tsx
@@ -3058,7 +3010,6 @@ app/modules/friend_suggestions/FriendSuggestionActionCreators.tsx
 app/modules/friend_suggestions/FriendSuggestionUtils.tsx
 app/modules/friend_suggestions/maybeDispatchDevOnlyDummyFriendSuggestions.tsx
 app/modules/friends/getFriendStatusCounts.tsx
-app/modules/game_claim/experiments/GameClaimCoachmarkExperiment.tsx
 app/modules/game_claim/native/GameClaimCardStack.tsx
 app/modules/game_claim/native/GameClaimCoachmark.tsx
 app/modules/game_claim/UnclaimedGamesActionCreators.tsx
@@ -3067,7 +3018,6 @@ app/modules/game_community_upsell/native/GameCommunityConfig.tsx
 app/modules/game_community_upsell/native/GameCommunityMultiGuildUpsellCard.tsx
 app/modules/game_community_upsell/native/GameCommunityMultiGuildUpsellModal.tsx
 app/modules/game_community_upsell/native/GameCommunityUpsellDevTools.tsx
-app/modules/game_community_upsell/native/GameCommunityUpsellExperiment.tsx
 app/modules/game_community_upsell/native/GuildUpsellChannelList.tsx
 app/modules/game_community_upsell/native/MobileGameCommunitiesActionCreators.tsx
 app/modules/game_community_upsell/native/MobileGameCommunitiesManager.tsx
@@ -3092,7 +3042,6 @@ app/modules/game_console/native/getConsoleIcon.tsx
 app/modules/game_console/native/transferToXbox.tsx
 app/modules/game_console/native/useShouldDisplayCancelConsoleTransfer.tsx
 app/modules/game_console/native/XboxInstallAlert.tsx
-app/modules/game_console/PlayStationVoiceExperiment.tsx
 app/modules/game_console/trackVoiceCallTransfer.tsx
 app/modules/game_console/useConsoleConnectedAccountForVoiceUpsell.tsx
 app/modules/game_console/useGameConsoleAccounts.tsx
@@ -3105,7 +3054,6 @@ app/modules/game_detection/RunningGameStore.native.tsx
 app/modules/game_invite_channels/GameInviteChannels.messages.js
 app/modules/game_invite_channels/GameInvitesChannelUtils.tsx
 app/modules/game_profile/AnnouncementMessageUtils.tsx
-app/modules/game_profile/experiments/GameProfileMobileExperiment.tsx
 app/modules/game_profile/GameProfileActionCreators.native.tsx
 app/modules/game_profile/GameProfileAnalyticUtils.tsx
 app/modules/game_profile/GameProfileHttpUtils.tsx
@@ -3156,7 +3104,6 @@ app/modules/game_store/getAnalyticsDataForSKU.tsx
 app/modules/game_store/TestModeUtils.tsx
 app/modules/game_update/GameUpdate.messages.js
 app/modules/game_update/GameUpdateActionCreators.tsx
-app/modules/game_update/GameUpdateExperiment.tsx
 app/modules/game_update/GameUpdateNotificationUtils.tsx
 app/modules/game_update/native/GameUpdateFeedbackModule.tsx
 app/modules/game_update/native/GameUpdateInviteFooter.tsx
@@ -3199,7 +3146,6 @@ app/modules/gateway/LocalPresenceStateManager.tsx
 app/modules/gateway/LocalVoiceStateManager.tsx
 app/modules/gateway/native/fast_connect.tsx
 app/modules/gateway/PauseGatewaySocket.tsx
-app/modules/gateway/PrivateChannelHidingExperiment.tsx
 app/modules/gateway/PrivateChannelHidingExperimentCache.tsx
 app/modules/gateway/RequestGatewaySocket.tsx
 app/modules/gateway/useRequestGatewaySocket.tsx
@@ -3208,7 +3154,6 @@ app/modules/generated_test_users/GeneratedTestUserActionCreators.tsx
 app/modules/generated_test_users/GeneratedTestUsersModels.tsx
 app/modules/gesture_handlers/native/NonCollapsableGestureDetector.tsx
 app/modules/gif_picker/experiments/GifProviderConfig.tsx
-app/modules/gif_picker/experiments/GifProvidersExperiment.tsx
 app/modules/gif_picker/FavoriteGIFHooks.tsx
 app/modules/gif_picker/GifPickerUtils.tsx
 app/modules/gif_picker/native/GIFPicker.tsx
@@ -3220,7 +3165,6 @@ app/modules/gif_picker/native/GIFPickerItemView.tsx
 app/modules/gif_picker/native/GIFPickerResultsList.tsx
 app/modules/gif_picker/native/GIFPickerSearchSuggestions.tsx
 app/modules/gif_picker/native/GIFPickerUtils.tsx
-app/modules/global_discovery_apps/AllowNonStaffToPreviewAppCollectionsExperiment.tsx
 app/modules/global_discovery_apps/ApplicationDirectoryActionCreators.tsx
 app/modules/global_discovery_apps/applicationDirectoryAnalytics.tsx
 app/modules/global_discovery_apps/GlobalDiscoveryAppsConstants.tsx
@@ -3231,16 +3175,11 @@ app/modules/global_discovery_servers/GlobalDiscoveryServersUtils.tsx
 app/modules/global_discovery_servers/GuildDiscoveryCategoryActionCreators.tsx
 app/modules/go_live/ApplicationStreamingManager.tsx
 app/modules/go_live/Constants.tsx
-app/modules/go_live/GoLiveAutoQualityExperiment.tsx
 app/modules/go_live/GoLiveNotificationUtils.tsx
 app/modules/go_live/GoLiveQualityManager.tsx
-app/modules/go_live/GoLiveVideoPresetResolutionExperiment.tsx
 app/modules/go_live/MobileGoLiveActionSheet.messages.js
-app/modules/go_live/MobileGoLiveEntrypointExperiment.tsx
-app/modules/go_live/native/AndroidAudioCaptureBugWarningExperiment.tsx
 app/modules/go_live/native/ApplicationStreamingManager.tsx
 app/modules/go_live/native/MobileGoLiveActionSheet.tsx
-app/modules/go_live/native/MobileGoLiveUpsellExperiment.tsx
 app/modules/go_live/native/StreamQualityLiveIndicator.tsx
 app/modules/go_live/native/VoiceEngineStreamingManager.tsx
 app/modules/go_live/StreamRTCConnection.tsx
@@ -3301,7 +3240,6 @@ app/modules/guild_antiraid/native/GuildRaidResolveActionSheet.tsx
 app/modules/guild_automod/AutomodActionUtils.tsx
 app/modules/guild_automod/AutomodAlert.tsx
 app/modules/guild_automod/AutomodErrorUtils.tsx
-app/modules/guild_automod/AutomodExperiment.tsx
 app/modules/guild_automod/AutomodFeedback.tsx
 app/modules/guild_automod/AutomodMessageUtils.tsx
 app/modules/guild_automod/AutomodPermissionUtils.tsx
@@ -3443,7 +3381,6 @@ app/modules/guild_mod_dash_member_safety/MemberSafetyPermissionsUtils.tsx
 app/modules/guild_mod_dash_member_safety/MemberSafetyStoreSupplemental.tsx
 app/modules/guild_mod_dash_member_safety/MemberSafetySupplementalUtils.tsx
 app/modules/guild_mod_dash_member_safety/SortUtils.tsx
-app/modules/guild_mod_dash_member_safety/web/BulkBanPubSubExperiment.tsx
 app/modules/guild_moderation/native/AuditLogActionIcon.tsx
 app/modules/guild_moderation/native/BanConfirm.tsx
 app/modules/guild_moderation/native/BanConfirmModal.tsx
@@ -3926,7 +3863,6 @@ app/modules/guild/native/GuildIconUploader.tsx
 app/modules/guild/native/GuildIconWithChannelType.tsx
 app/modules/guild/native/GuildInviteIcon.tsx
 app/modules/guild/native/InvitesDisabledBadge.tsx
-app/modules/guild/TidaWebformExperiment.tsx
 app/modules/guild/usePostableChannelCount.tsx
 app/modules/guilds_bar/GuildsBarConstants.tsx
 app/modules/guilds_bar/GuildsBarTypes.tsx
@@ -3975,7 +3911,6 @@ app/modules/guilds_bar/native/utils/transitionGuildsBarToGuildOrOpenSelectedChan
 app/modules/guilds_bar/useGuildMediaState.tsx
 app/modules/guilds_bar/usePendingFolderGuildIds.tsx
 app/modules/hangout_window/HangoutWindow.messages.js
-app/modules/hangout_window/HangoutWindowExperiment.tsx
 app/modules/haptics/HapticFeedbackTypes.tsx
 app/modules/haptics/HapticUtils.native.tsx
 app/modules/harvester/DataHarvestActionCreators.tsx
@@ -3984,7 +3919,6 @@ app/modules/harvester/HarvesterUtils.tsx
 app/modules/haven/constants.tsx
 app/modules/haven/Haven.messages.js
 app/modules/haven/HavenUtils.tsx
-app/modules/header_bar/FrictionlessGDMsExperiment.tsx
 app/modules/headless_tasks/android/BackgroundSync.tsx
 app/modules/headless_tasks/android/DirectReply.tsx
 app/modules/headless_tasks/android/Disconnect.tsx
@@ -4003,7 +3937,6 @@ app/modules/holidays/HolidayEventsUtils.tsx
 app/modules/holidays/setIncomingRingtone.android.tsx
 app/modules/home_drawer/native/HomeDrawerDirectMessagesRow.tsx
 app/modules/home_drawer/native/HomeDrawerDM.tsx
-app/modules/home_drawer/native/HomeDrawerExperiment.tsx
 app/modules/home_drawer/native/HomeDrawerFavoritesRow.tsx
 app/modules/home_drawer/native/HomeDrawerFolderRow.tsx
 app/modules/home_drawer/native/HomeDrawerGuildRow.tsx
@@ -4044,7 +3977,6 @@ app/modules/icymi/ICYMIActionCreators.tsx
 app/modules/icymi/ICYMIAnalytics.tsx
 app/modules/icymi/ICYMIAttachmentUploadTarget.tsx
 app/modules/icymi/ICYMIConstants.tsx
-app/modules/icymi/ICYMIExperiment.tsx
 app/modules/icymi/ICYMIItemTypes.tsx
 app/modules/icymi/ICYMIManager.tsx
 app/modules/icymi/ICYMITypes.tsx
@@ -4104,9 +4036,7 @@ app/modules/icymi/useICYMIReloadHandler.tsx
 app/modules/icymi/useICYMITabBadge.tsx
 app/modules/icymi/useSharedICYMILogic.tsx
 app/modules/image_cropping/web/ImageCroppingConstants.tsx
-app/modules/image_upload/ForceSdrEmojisStickersExperiment.tsx
 app/modules/image_upload/ImageLoaderUtils.tsx
-app/modules/image_upload/MobileLosslessImageUploadV2Experiment.tsx
 app/modules/image_upload/native/AddImageDescriptionModal.tsx
 app/modules/image_upload/native/AddImageDescriptionModalActionCreators.tsx
 app/modules/image/native/APNGPlayer.android.tsx
@@ -4125,9 +4055,6 @@ app/modules/in_app_notifications/native/hooks/usePreviewableMedia.tsx
 app/modules/in_app_notifications/native/hooks/usePreviewableMediaText.tsx
 app/modules/in_app_notifications/native/InAppNotificationConstants.tsx
 app/modules/in_app_notifications/native/InAppNotificationContainer.tsx
-app/modules/in_app_notifications/native/InAppNotificationExpandExperiment.tsx
-app/modules/in_app_notifications/native/InAppNotificationReactExperiment.tsx
-app/modules/in_app_notifications/native/InAppNotificationRedesignExperiment.tsx
 app/modules/in_app_notifications/native/MediaPreviewRightAccessory.tsx
 app/modules/in_app_notifications/native/MessageFailedToSendNotification.tsx
 app/modules/in_app_notifications/native/MessageNotification.tsx
@@ -4140,7 +4067,6 @@ app/modules/in_app_notifications/native/Notification.tsx
 app/modules/in_app_notifications/native/ReactionNotification.tsx
 app/modules/in_app_notifications/native/ReminderNotification.tsx
 app/modules/in_app_notifications/native/RestrictedHoursWarningNotification.tsx
-app/modules/in_app_notifications/ShowInAppReactionNotificationExperiment.tsx
 app/modules/in_app_reports/getInAppReportsFeedbackOptions.tsx
 app/modules/in_app_reports/IarSettingsUpsellsConfigDmSpamFilter.tsx
 app/modules/in_app_reports/IarSettingsUpsellsConfigRegistry.tsx
@@ -4178,7 +4104,6 @@ app/modules/in_app_reports/native/components/InAppReportsUserPreview.tsx
 app/modules/in_app_reports/native/components/NodeView.tsx
 app/modules/in_app_reports/ReportModals.tsx
 app/modules/in_app_reports/ReportUtils.tsx
-app/modules/in_app_reports/SafetyExperienceIarUserReportingExperiment.tsx
 app/modules/in_app_reports/showReportModal.native.tsx
 app/modules/in_app_reports/trackInAppReportsFeedback.tsx
 app/modules/install_size_tracker/native/DiskUsageManager.android.tsx
@@ -4212,7 +4137,6 @@ app/modules/instant_invite/native/useInviteSuggestionRows.tsx
 app/modules/instant_invite/resolveInvite.tsx
 app/modules/instant_invite/useInviteApplicationBypassInfo.tsx
 app/modules/instant_invite/useInviteAssignableRoles.tsx
-app/modules/instant_invite/VoiceInviteSuggestionsPlacementExperiment.tsx
 app/modules/integration_settings/native/IntegrationsSettingsEditLinkedLobby.tsx
 app/modules/integration_settings/native/IntegrationsSettingsEditWebhook.tsx
 app/modules/integration_settings/native/IntegrationsSettingsWebhooksOverview.tsx
@@ -4264,7 +4188,6 @@ app/modules/intl/overrides/getDeviceSpecificString.tsx
 app/modules/jank_stats/native/JankStatsManager.android.tsx
 app/modules/js_watchdog/native/JSWatchdogManager.android.tsx
 app/modules/keyboard/KeyboardStateDebugging.tsx
-app/modules/keyboard/native/AnimatedKeyboardExperiment.tsx
 app/modules/keyboard/native/AnimatedKeyboardProvider.android.tsx
 app/modules/keyboard/native/AnimatedKeyboardProviderController.tsx
 app/modules/keyboard/native/ChatInputFocused.tsx
@@ -4388,7 +4311,6 @@ app/modules/main_tabs_v2/native/channel/useChannelSafeAreaBottomStyles.tsx
 app/modules/main_tabs_v2/native/channel/useChannelSafeAreaHeightSharedValue.android.tsx
 app/modules/main_tabs_v2/native/channel/useSafeAreaBottomKeyboardInfoController.tsx
 app/modules/main_tabs_v2/native/ConnectionBanner.tsx
-app/modules/main_tabs_v2/native/ConnectionIndicatorExperiment.tsx
 app/modules/main_tabs_v2/native/friends/components/ActionStatusSubLabel.tsx
 app/modules/main_tabs_v2/native/friends/components/AddFriendsContactSyncEmptyState.tsx
 app/modules/main_tabs_v2/native/friends/components/AddFriendsScreenUtils.tsx
@@ -4408,7 +4330,6 @@ app/modules/main_tabs_v2/native/friends/screens/FriendRequestsScreen.tsx
 app/modules/main_tabs_v2/native/friends/screens/FriendRequestsSettingsScreen.tsx
 app/modules/main_tabs_v2/native/friends/screens/FriendsScreen.tsx
 app/modules/main_tabs_v2/native/friends/screens/FriendsScreenConstants.tsx
-app/modules/main_tabs_v2/native/friends/screens/GDMSuggestedFriendsExperiment.tsx
 app/modules/main_tabs_v2/native/friends/screens/IgnoredUserRequestsScreen.tsx
 app/modules/main_tabs_v2/native/friends/screens/NewGroupDMScreen.tsx
 app/modules/main_tabs_v2/native/friends/screens/NewMessageScreen.tsx
@@ -4417,7 +4338,6 @@ app/modules/main_tabs_v2/native/friends/screens/SuggestedFriendsScreen.tsx
 app/modules/main_tabs_v2/native/friends/screens/UsernameSearchScreen.tsx
 app/modules/main_tabs_v2/native/getChannelDetailsFromRoute.tsx
 app/modules/main_tabs_v2/native/getInitialNavigationState.tsx
-app/modules/main_tabs_v2/native/HideCoveredChannelsExperiment.tsx
 app/modules/main_tabs_v2/native/MainNavigator.tsx
 app/modules/main_tabs_v2/native/MainTabs.tsx
 app/modules/main_tabs_v2/native/MainTabsConstants.tsx
@@ -4546,7 +4466,6 @@ app/modules/main_tabs_v2/native/tabs/guilds/GuildProgressButton.tsx
 app/modules/main_tabs_v2/native/tabs/guilds/Guilds.tsx
 app/modules/main_tabs_v2/native/tabs/guilds/HomePanelContent.tsx
 app/modules/main_tabs_v2/native/tabs/guilds/useGuildsTabBadge.tsx
-app/modules/main_tabs_v2/native/tabs/messages/CreateDMLocationExperiment.tsx
 app/modules/main_tabs_v2/native/tabs/messages/items/channel/MessagesItemChannelAvatar.tsx
 app/modules/main_tabs_v2/native/tabs/messages/items/channel/MessagesItemChannelBase.tsx
 app/modules/main_tabs_v2/native/tabs/messages/items/channel/MessagesItemChannelContent.tsx
@@ -4576,14 +4495,12 @@ app/modules/main_tabs_v2/native/tabs/TabsPerformanceTracker.tsx
 app/modules/main_tabs_v2/native/tabs/you/FocusModeOptionsActionSheet.tsx
 app/modules/main_tabs_v2/native/tabs/you/hooks/useShouldShowExpiringTrialOfferCard.tsx
 app/modules/main_tabs_v2/native/tabs/you/hooks/useYouTabBarTheme.tsx
-app/modules/main_tabs_v2/native/tabs/you/MobileReferralSubscriberProfileEntrypointButtonExperiment.tsx
 app/modules/main_tabs_v2/native/tabs/you/tracking/Tracking.tsx
 app/modules/main_tabs_v2/native/tabs/you/utils/showYouAccountActionSheet.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouAccountActionSheet.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouBannerDecorations.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouConstants.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouExpiringTrialOfferCard.tsx
-app/modules/main_tabs_v2/native/tabs/you/YouNavFloatingExperiment.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouNavigator.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouScreen.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouScreenNavIcon.tsx
@@ -4606,7 +4523,6 @@ app/modules/main_tabs_v2/useMessagePreviews.tsx
 app/modules/main_tabs_v2/useRecentlyActiveChannelsEnabled.tsx
 app/modules/main_tabs_v2/useRecipientsLabel.tsx
 app/modules/main_tabs_v2/UserSearchUtils.tsx
-app/modules/main_tabs_v2/YouBarExperiment.tsx
 app/modules/markup/BioMarkupUtils.tsx
 app/modules/markup/ChannelUtils.tsx
 app/modules/markup/combineMarkupRules.tsx
@@ -4653,37 +4569,14 @@ app/modules/media_channel/native/useSetMediaPostThumbnail.tsx
 app/modules/media_channel/useCanSetThumbnail.tsx
 app/modules/media_channel/useIsFirstMessageInMediaPost.tsx
 app/modules/media_channel/useShouldHideMediaOptions.tsx
-app/modules/media_engine/AGC2Experiment.tsx
-app/modules/media_engine/AudioEffectsExperiment.tsx
-app/modules/media_engine/AV1BitrateTuningExperiment.tsx
 app/modules/media_engine/AV1DecodeExperimentAndroid.tsx
-app/modules/media_engine/BandwidthEstimationExperiment.tsx
-app/modules/media_engine/BrowserHevcExperiment.tsx
-app/modules/media_engine/BrowserInvertedWantsExperiment.tsx
-app/modules/media_engine/BrowserTransceiverPaddingRemovalExperiment.tsx
-app/modules/media_engine/DisableCameraSimulcastExperiment.tsx
-app/modules/media_engine/DisableHookFramePacerExperiment.tsx
 app/modules/media_engine/dispatchAutoDisableVideo.tsx
-app/modules/media_engine/GlobalFramePoolLockExperiment.tsx
-app/modules/media_engine/GoLiveHdrExperiment.tsx
 app/modules/media_engine/InputWatcher.tsx
-app/modules/media_engine/IOSAudioInterruptExperiment.tsx
-app/modules/media_engine/LinuxVulkanCaptureExperiment.tsx
-app/modules/media_engine/LowLatencyRateControlExperiment.tsx
 app/modules/media_engine/MediaEngineActionCreators.tsx
-app/modules/media_engine/MobileAudioOutputExperiment.tsx
 app/modules/media_engine/native/VoiceProcessingErrorManager.tsx
-app/modules/media_engine/ProcessBoostExperiment.tsx
-app/modules/media_engine/SilenceWarningExperiment.tsx
 app/modules/media_engine/trackVideoToggle.tsx
 app/modules/media_engine/useMuteAwareLocalVolume.tsx
-app/modules/media_engine/VADBeforeProcessingExperiment.tsx
 app/modules/media_engine/VideoCaptureDeviceNoReuse.tsx
-app/modules/media_engine/VideoHookDX12Experiment.tsx
-app/modules/media_engine/VideoStutterMitigationExperiment.tsx
-app/modules/media_engine/VoiceTimeoutMitigationsExperiment.tsx
-app/modules/media_engine/WGCDirtyRegionsAllExperiment.tsx
-app/modules/media_engine/WGCDirtyRegionsExperiment.tsx
 app/modules/media_engine/WindowsMediaFoundationGpuEncode.tsx
 app/modules/media_engine/WindowsMediaFoundationGpuEncodeIntel.tsx
 app/modules/media_keyboard/native/components/MediaKeyboard.tsx
@@ -4713,15 +4606,6 @@ app/modules/media_panel/native/MediaPlaybackPanelStateContext.tsx
 app/modules/media_panel/native/MediaPlaybackPanelUI.tsx
 app/modules/media_panel/native/MediaPlaybackPip.tsx
 app/modules/media_uploads/DetectedFileSize.tsx
-app/modules/media_uploads/experiments/AndroidExoPlayerHttpEngineExperiment.tsx
-app/modules/media_uploads/experiments/AndroidRNVHttpEngineExperiment.tsx
-app/modules/media_uploads/experiments/AttachmentQualityMetricsExperiment.tsx
-app/modules/media_uploads/experiments/ImageAttachmentMezzanineV2Experiment.tsx
-app/modules/media_uploads/experiments/IosJpegliExperiment.tsx
-app/modules/media_uploads/experiments/KestrelExperiment.tsx
-app/modules/media_uploads/experiments/MobileImageEncodingLadderExperiment.tsx
-app/modules/media_uploads/experiments/VideoFrameRateValidationExperiment.tsx
-app/modules/media_uploads/experiments/VideoUploadBitrateExperiment.tsx
 app/modules/media_uploads/getAttachmentUploadAbortAlert.tsx
 app/modules/media_uploads/handleUploadAttachmentErrors.native.tsx
 app/modules/media_uploads/ImageEncodingLadder.tsx
@@ -4782,7 +4666,6 @@ app/modules/media/native/MediaPlayerManager.tsx
 app/modules/media/VideoActionCreators.tsx
 app/modules/media/web/utils/DiscordImageFactory.tsx
 app/modules/media/web/utils/DiscordImagePng.tsx
-app/modules/memory/MemoryExperiment.tsx
 app/modules/message_previews/MessagePreviewManager.tsx
 app/modules/message_previews/native/MessagePreviewMarkup.tsx
 app/modules/message_previews/PreviewData.tsx
@@ -4824,7 +4707,6 @@ app/modules/messages/countContentTypes.tsx
 app/modules/messages/createMessage.tsx
 app/modules/messages/createNonce.tsx
 app/modules/messages/CtaButtonUtils.tsx
-app/modules/messages/DmErrorMessageExperiment.tsx
 app/modules/messages/EmbedConstants.tsx
 app/modules/messages/EmbeddedApplicationInstanceUtils.tsx
 app/modules/messages/getAdaptiveMessageLimit.native.tsx
@@ -4834,7 +4716,6 @@ app/modules/messages/getEmojiPopoutMessage.tsx
 app/modules/messages/getHeaderTextForInvite.tsx
 app/modules/messages/getHumanizedCallDuration.tsx
 app/modules/messages/getStickerDiscoverableGuild.tsx
-app/modules/messages/GuildOfficialMessagesExperiment.tsx
 app/modules/messages/GuildOfficialMessageUtils.tsx
 app/modules/messages/isCrosspost.tsx
 app/modules/messages/isMessageMentioned.tsx
@@ -5024,10 +4905,8 @@ app/modules/messages/useOnMessageSend.tsx
 app/modules/messages/useReactionPermissions.tsx
 app/modules/messages/useShowConvoStarterInDM.tsx
 app/modules/messages/validateJumpWithAlert.tsx
-app/modules/messages/VoiceChannelListInviteExperiment.tsx
 app/modules/messages/VoiceSessionUtils.tsx
 app/modules/messages/WebViewWebmSupportTest.native.tsx
-app/modules/messages/YYTextReplacementExperiment.tsx
 app/modules/metric_kit_tracker/native/MetricKitManager.android.tsx
 app/modules/mfa/MFAActionCreators.tsx
 app/modules/mfa/MFAConstants.tsx
@@ -5071,7 +4950,6 @@ app/modules/multi_account/setUserStatus.tsx
 app/modules/multi_account/StatusUtils.tsx
 app/modules/multi_account/useMultiAccount.tsx
 app/modules/native_intents/IntentsBindings.android.tsx
-app/modules/native_intents/NativeIntentsExperiment.tsx
 app/modules/native_intents/NativeIntentsManager.tsx
 app/modules/native_menu/native/NativeMenuActionCreators.tsx
 app/modules/native_menu/native/NativeMenuPresenter.tsx
@@ -5095,7 +4973,6 @@ app/modules/noise_cancellation/KrispUtils.tsx
 app/modules/noise_cancellation/native/KrispUtils.tsx
 app/modules/noise_cancellation/NoiseCancellationUtils.tsx
 app/modules/noise_cancellation/queryAudioEffects.tsx
-app/modules/noise_cancellation/WindowsEffectsExperiment.tsx
 app/modules/notification_center/Constants.tsx
 app/modules/notification_center/getNotificationCenterItemBody.tsx
 app/modules/notification_center/getTimestampString.tsx
@@ -5117,7 +4994,6 @@ app/modules/notification_center/native/NotificationCenterActionButton.tsx
 app/modules/notification_center/native/NotificationCenterActionSheet.tsx
 app/modules/notification_center/native/NotificationCenterForYou.tsx
 app/modules/notification_center/native/NotificationCenterPermissionNudge.tsx
-app/modules/notification_center/native/NotificationCenterPermissionNudgeExperiment.tsx
 app/modules/notification_center/NotificationCenterItemsActions.tsx
 app/modules/notification_center/NotificationCenterItemsTypes.tsx
 app/modules/notification_center/NotificationCenterStoreActions.tsx
@@ -5132,14 +5008,9 @@ app/modules/notifications_inbox/NotificationsInbox.messages.js
 app/modules/notifications_inbox/NotificationsInboxConstants.tsx
 app/modules/notifications/FocusModeUtils.tsx
 app/modules/notifications/friend_gaming_activity/FriendGamingActivityNotificationUtils.tsx
-app/modules/notifications/friend_online/FriendOnlineNotificationExperiment.tsx
 app/modules/notifications/friend_online/FriendOnlineNotificationUtils.tsx
 app/modules/notifications/friend_online/FriendOnlineTimer.tsx
-app/modules/notifications/friend_online/NotifyFriendsOnComeOnlineExperiment.tsx
-app/modules/notifications/gdm_all_reaction_notifications/GdmAllReactionNotificationsExperiment.tsx
 app/modules/notifications/gdm_all_reaction_notifications/GdmAllReactionNotificationsUtils.tsx
-app/modules/notifications/IOSPushNotificationRawPayloadFixExperiment.tsx
-app/modules/notifications/native/ClearChannelNotificationsOnAppForegroundExperiment.tsx
 app/modules/notifications/native/Constants.tsx
 app/modules/notifications/native/GuildHighlightsNotificationsActionCreators.tsx
 app/modules/notifications/native/GuildHighlightsNotificationsActionSheet.tsx
@@ -5157,7 +5028,6 @@ app/modules/notifications/NotificationSettingsExperiments.tsx
 app/modules/notifications/NotificationSettingsUtils.tsx
 app/modules/notifications/NotificationTextUtils.tsx
 app/modules/notifications/NotificationUtils.tsx
-app/modules/notifications/profile_updates/ProfileUpdatesNotificationExperiment.tsx
 app/modules/notifications/profile_updates/ProfileUpdatesNotificationUtils.tsx
 app/modules/notifications/server_trending/ServerTrendingNotificationUtils.tsx
 app/modules/notifications/settings_unread_notice/native/UnreadSettingNotice.tsx
@@ -5186,7 +5056,6 @@ app/modules/notifications/settings/utils/notificationSettingsGuildFlagUtils.tsx
 app/modules/notifications/settings/utils/notificationSettingsPresetOptionUtils.tsx
 app/modules/notifications/settings/utils/notificationSettingsPresetUtils.tsx
 app/modules/notifications/summary_reminder/SummaryReminderNotificationUtils.tsx
-app/modules/notifications/upcoming_server_event/UpcomingServerEventExperiment.tsx
 app/modules/notifications/upcoming_server_event/UpcomingServerEventNotificationUtils.tsx
 app/modules/now_playing/getApplicationIdForActivity.tsx
 app/modules/now_playing/native/UserActivitySpotify.tsx
@@ -5214,16 +5083,12 @@ app/modules/nuf/native/components/NUFGuildTemplates.tsx
 app/modules/nuf/native/components/RedesignDiscoverabilityLanding.tsx
 app/modules/nuf/native/components/RedesignDiscoverabilityModal.tsx
 app/modules/nuf/native/components/SkipHeaderButton.tsx
-app/modules/nuf/native/GuildPushNotificationNudgeExperiment.tsx
 app/modules/nuf/native/NewUserAnalyticsUtils.tsx
 app/modules/nuf/native/NewUserManager.tsx
 app/modules/nuf/native/NewUserUtils.tsx
 app/modules/nuf/native/NotificationPermissionManager.tsx
 app/modules/nuf/native/NotificationPermissionUtil.tsx
-app/modules/nuf/native/NotificationSettingsPermissionHeaderExperiment.tsx
 app/modules/nuf/native/NUFActionCreators.tsx
-app/modules/nuf/native/PostCallDisconnectNudgeExperiment.tsx
-app/modules/nuf/native/PostReactionPermissionNudgeExperiment.tsx
 app/modules/nuf/native/RedesignNewUserManager.tsx
 app/modules/nuf/native/showPushNotificationPromptModal.tsx
 app/modules/nuf/native/useNotificationPermissionPrompt.tsx
@@ -5266,7 +5131,6 @@ app/modules/overlay/getOverlayMessageAnaylticsLocation.native.tsx
 app/modules/overlay/OverlaySupported.tsx
 app/modules/overlay/OverlayTrackingUtils.native.tsx
 app/modules/overlay/OverlayTypes.tsx
-app/modules/overlay/OverlayV3Experiment.tsx
 app/modules/overlay/OverlayVisibility.native.tsx
 app/modules/overlay/web/v3/OverlayWidgets.messages.js
 app/modules/panels/isChannelFocused.native.tsx
@@ -5288,7 +5152,6 @@ app/modules/parent_tools/FamilyCenterControlledSettingsUtils.tsx
 app/modules/parent_tools/FamilyCenterModels.tsx
 app/modules/parent_tools/FamilyCenterRestrictedHoursUtils.tsx
 app/modules/parent_tools/FamilyCenterUtils.tsx
-app/modules/parent_tools/FamilyCenterV3Experiment.tsx
 app/modules/parent_tools/hooks/useAgeSpecificText.tsx
 app/modules/parent_tools/hooks/useFamilyCenterActions.tsx
 app/modules/parent_tools/hooks/useFamilyCenterActivities.tsx
@@ -5361,7 +5224,6 @@ app/modules/payments/utils/BillingStandaloneUtils.tsx
 app/modules/payments/utils/MobileWebRedirectCheckoutUtils.tsx
 app/modules/people/ClearAllIncomingRequestsConfirmationModal.tsx
 app/modules/people/Constants.tsx
-app/modules/people/FriendRequestMessageExperiment.tsx
 app/modules/people/hooks/useFriendRequestActions.tsx
 app/modules/people/hooks/useFriendRequestCounts.tsx
 app/modules/people/native/ClearAllIncomingRequestsConfirmation.tsx
@@ -5427,25 +5289,13 @@ app/modules/premium_apps/ApplicationSubscriptionsHttpApi.tsx
 app/modules/premium_apps/ApplicationSubscriptionSystemMessageUtils.tsx
 app/modules/premium/enhanced_role_colors/EnhancedRoleColorUtils.tsx
 app/modules/premium/enhanced_role_colors/native/EnhancedRoleColorUtils.tsx
-app/modules/premium/experiments/BogoPromotionExperiment.tsx
 app/modules/premium/experiments/BOGOPromotionMarketingMaterialsExperiments.tsx
-app/modules/premium/experiments/CalculatedYearlyDiscountPercentageExperiment.tsx
-app/modules/premium/experiments/DenormalizedPerksReadExperiment.tsx
-app/modules/premium/experiments/FriendAnniversariesExperiment.tsx
-app/modules/premium/experiments/PremiumOfferReminderExperiment.tsx
-app/modules/premium/experiments/PremiumTrialOfferActionSheetKillSwitchExperiment.tsx
-app/modules/premium/experiments/ReferralReminderDCExperiment.tsx
-app/modules/premium/experiments/TrialContinuationDiscountExperiment.tsx
 app/modules/premium/fractional/native/BoostingCountDownPill.tsx
 app/modules/premium/fractional/native/LargeCountDownPill.tsx
 app/modules/premium/fractional/native/NitroCreditEducationActionSheet.tsx
-app/modules/premium/game_server/experiments/GameServerPricingExperiment.tsx
-app/modules/premium/game_server/experiments/GameServerTabAlwaysOnExperiment.tsx
-app/modules/premium/game_server/experiments/NewGamesCoachmarkExperiment.tsx
 app/modules/premium/game_server/GameServer.messages.js
 app/modules/premium/game_server/GameServerActionCreators.tsx
 app/modules/premium/game_server/GameServerConstants.tsx
-app/modules/premium/game_server/GameServerExperiment.tsx
 app/modules/premium/game_server/hooks/useGameServerFeaturedGameNames.tsx
 app/modules/premium/game_server/hooks/useGameServerGetExpiringEntitlements.tsx
 app/modules/premium/game_server/hooks/useGameServerPerk.tsx
@@ -5455,8 +5305,6 @@ app/modules/premium/game_server/utils/gameServerResponseToInstance.tsx
 app/modules/premium/game_server/utils/productToGameServerGame.tsx
 app/modules/premium/game_server/utils/regionResponseToRegion.tsx
 app/modules/premium/getNumSubscriptionsPurchasedFromSystemMessage.tsx
-app/modules/premium/gifting/experiments/GiftingBadgeExperiment.tsx
-app/modules/premium/gifting/experiments/GiftPromotionReminderExperiment.tsx
 app/modules/premium/gifting/GiftingBadge.messages.js
 app/modules/premium/gifting/GiftingBadgeConstants.tsx
 app/modules/premium/gifting/GiftingBadgeTier.messages.js
@@ -5570,15 +5418,6 @@ app/modules/premium/powerups/analytics/GuildPowerupAnalytics.tsx
 app/modules/premium/powerups/constants/EnhancedRoleColorConstants.tsx
 app/modules/premium/powerups/constants/GuildPowerupsConstants.tsx
 app/modules/premium/powerups/constants/GuildPowerupsNotification.tsx
-app/modules/premium/powerups/experiments/BoostToUnlockCoachmarkExperiment.tsx
-app/modules/premium/powerups/experiments/ExpiringBoostsExperiment.tsx
-app/modules/premium/powerups/experiments/ExpiringPowerupCoachmarkExperiment.tsx
-app/modules/premium/powerups/experiments/FileUpload250MbPowerupExperiment.tsx
-app/modules/premium/powerups/experiments/FileUploadPowerupHoldoutExperiment.tsx
-app/modules/premium/powerups/experiments/MobileBoostProgressBarExperiment.tsx
-app/modules/premium/powerups/experiments/ServerBoostStreamQualityMarketingExperiment.tsx
-app/modules/premium/powerups/experiments/ServerThemeExperiment.tsx
-app/modules/premium/powerups/experiments/ServerThemeUserExperiment.tsx
 app/modules/premium/powerups/GuildPowerups.messages.js
 app/modules/premium/powerups/GuildPowerupsActionCreators.tsx
 app/modules/premium/powerups/GuildPowerupsManager.tsx
@@ -5728,14 +5567,11 @@ app/modules/premium/roadblocks/native/views/PremiumUpsellSectionDivider.tsx
 app/modules/premium/SKUListing.tsx
 app/modules/premium/sounds/soundmoji/native/utils/openSoundmojiActionSheet.tsx
 app/modules/premium/sounds/soundmoji/native/views/SoundmojiActionSheet.tsx
-app/modules/premium/sounds/soundmoji/SoundmojiRenderingExperiment.tsx
-app/modules/premium/sounds/soundmoji/SoundmojiSendingExperiment.tsx
 app/modules/premium/sounds/soundmoji/utils/getSoundFromMessage.tsx
 app/modules/premium/sounds/soundmoji/utils/getSoundmojiASTFromString.tsx
 app/modules/premium/sounds/soundmoji/utils/getSoundString.tsx
 app/modules/premium/sounds/soundmoji/utils/isSoundValid.tsx
 app/modules/premium/SubscriptionManager.tsx
-app/modules/premium/tenure_reward/experiments/PremiumRewardsOrbsExperiment.tsx
 app/modules/premium/tenure_reward/TenureReward.messages.js
 app/modules/premium/tiered_tenure_badging/Constants.tsx
 app/modules/premium/tiered_tenure_badging/hooks/useMaybeFetchTieredTenureBadgeData.tsx
@@ -5754,7 +5590,6 @@ app/modules/premium/UserOfferActionCreators.tsx
 app/modules/premium/UserTrialActionCreators.android.tsx
 app/modules/premium/useTrialOffer.tsx
 app/modules/presence_subscriptions/PresenceSubscriptionsActionCreators.tsx
-app/modules/presence/ContentClassificationPresenceFilterExperiment.tsx
 app/modules/presence/splitAgeRestrictedActivities.tsx
 app/modules/private_channel_creation/maybeConvertPrivateChannel.tsx
 app/modules/private_channel_integrations/PrivateChannelIntegrationSystemMessageUtils.tsx
@@ -5798,9 +5633,6 @@ app/modules/queries/ArraySearch.tsx
 app/modules/quests/BountyActionCreators.tsx
 app/modules/quests/EarnedDecisionRoundtripTracker.tsx
 app/modules/quests/experiments/index.tsx
-app/modules/quests/experiments/LessPersonalizedAdsExperiment.tsx
-app/modules/quests/experiments/NewAdRequestBehaviorExperiment.tsx
-app/modules/quests/experiments/QuestHomeBountiesExperiment.tsx
 app/modules/quests/hooks/QuestCopyHooks.tsx
 app/modules/quests/hooks/QuestHooks.tsx
 app/modules/quests/hooks/QuestOrbMultiplierHooks.tsx
@@ -5996,7 +5828,6 @@ app/modules/replies/PendingReplyActionCreators.tsx
 app/modules/replies/trackRepliedMessageClicked.tsx
 app/modules/reply_nudge/ReplyNudgeActionCreators.tsx
 app/modules/reply_nudge/ReplyNudgeConstants.tsx
-app/modules/reply_nudge/ReplyNudgeExperiment.tsx
 app/modules/reply_nudge/ReplyNudgeManager.tsx
 app/modules/reply_nudge/trackReplyNudgesShown.tsx
 app/modules/report_to_mod/getGuildModeratorReportChannelId.tsx
@@ -6110,7 +5941,6 @@ app/modules/rtc/native/SecureFramesVerificationBottomSheet.tsx
 app/modules/rtc/RTCLatencyTestManager.tsx
 app/modules/rtc/SecureFramesActionCreators.tsx
 app/modules/rtc/SecureFramesConstants.tsx
-app/modules/rtc/SecureFramesDeeplinkExperiment.tsx
 app/modules/rtc/SecureFramesPlatformUtils.native.tsx
 app/modules/rtc/SecureFramesTracking.tsx
 app/modules/rtc/SecureFramesUtils.tsx
@@ -6145,7 +5975,6 @@ app/modules/safety_flows/native/UpdateAppScreen.tsx
 app/modules/safety_flows/openSafetyFlow.native.tsx
 app/modules/safety_flows/SafetyFlows.messages.js
 app/modules/safety_flows/SafetyFlowsActionCreators.tsx
-app/modules/safety_flows/SafetyFlowsExperiment.tsx
 app/modules/safety_flows/SafetyFlowsManager.tsx
 app/modules/safety_flows/SafetyFlowsTaskContext.tsx
 app/modules/safety_flows/types.tsx
@@ -6186,7 +6015,6 @@ app/modules/safety_hub/SafetyHubConstants.tsx
 app/modules/safety_hub/SafetyHubModels.tsx
 app/modules/safety_hub/SafetyHubUtils.tsx
 app/modules/samsung/native/SamsungManager.android.tsx
-app/modules/saved_messages/ForLaterExperiment.tsx
 app/modules/saved_messages/hasForLaterPremiumType.tsx
 app/modules/saved_messages/message_reminders/MessageRemindersNotificationManager.tsx
 app/modules/saved_messages/message_reminders/MessageRemindersTypes.tsx
@@ -6228,7 +6056,6 @@ app/modules/screen/subscribeToWindowDimensions.native.tsx
 app/modules/screen/useIsScreenLandscape.native.tsx
 app/modules/screen/useWindowDimensions.native.tsx
 app/modules/screen/useWindowDimensionsSharedValue.native.tsx
-app/modules/search/experiments/SearchResultsFeedbackExperiment.tsx
 app/modules/search/managers/AbstractSearchFetchManager.tsx
 app/modules/search/managers/AbstractSearchSessionAnalyticsManager.tsx
 app/modules/search/managers/native/SearchSessionAnalyticsManager.tsx
@@ -6352,7 +6179,6 @@ app/modules/self_mod/inappropriate_conversation/native/components/TakeActionScre
 app/modules/self_mod/inappropriate_conversation/native/InappropriateConversationBlockAndReportAlert.tsx
 app/modules/self_mod/inappropriate_conversation/native/SafetyToolsButton.tsx
 app/modules/self_mod/inappropriate_conversation/native/VibingWumpusModal.tsx
-app/modules/self_mod/inappropriate_conversation/SelfModInappropriateConversationExperiment.tsx
 app/modules/self_mod/inappropriate_conversation/takeover_modal/showTakeoverModal.native.tsx
 app/modules/self_mod/inappropriate_conversation/updateDmSafetyAlertsSetting.tsx
 app/modules/self_mod/SafetyToolsActionCreators.native.tsx
@@ -6427,8 +6253,6 @@ app/modules/skus/SKUConstants.tsx
 app/modules/skus/SKURecord.tsx
 app/modules/skus/utils/getPricesFromServer.tsx
 app/modules/skus/utils/transformSKUTenantMetadata.tsx
-app/modules/slayer_storefront/experiments/SocialLayerStorefrontMobilePurchasingExperiment.tsx
-app/modules/slayer_storefront/experiments/SocialLayerStorefrontShopShimExperiment.tsx
 app/modules/slayer_storefront/hooks/SocialLayerStorefrontEligibilityHooks.tsx
 app/modules/slayer_storefront/hooks/useDisplayProfileSocialLayerStorefrontApplicationIds.tsx
 app/modules/slayer_storefront/hooks/useSlayerStorefrontDevApplicationIdOverride.tsx
@@ -6570,7 +6394,6 @@ app/modules/stage_channels/StageMediaHooks.tsx
 app/modules/stage_channels/StageMusicActionCreators.tsx
 app/modules/stage_channels/StageMusicManager.tsx
 app/modules/stage_channels/StageTileTypes.tsx
-app/modules/stage_channels/StageVoicePanelExperiment.tsx
 app/modules/stage_channels/useAudienceRequestToSpeakState.tsx
 app/modules/stage_channels/useCanRaiseHand.tsx
 app/modules/stage_channels/useCanSpeakInChannel.tsx
@@ -6623,7 +6446,6 @@ app/modules/stickers/StickersSuggestionUtils.tsx
 app/modules/stickers/StickersTypes.tsx
 app/modules/stickers/StickersUtils.tsx
 app/modules/stickers/useLoadGuildStickerWithCreator.tsx
-app/modules/storefront/experiments/StorefrontPricingExperiment.tsx
 app/modules/storefront/hooks/useGetOrFetchStorefrontPrices.tsx
 app/modules/storefront/native/StorefrontNativeUtils.android.tsx
 app/modules/storefront/records/StorefrontCollectionRecord.tsx
@@ -6645,7 +6467,6 @@ app/modules/svg/native/getReactNativeSVGImageSource.tsx
 app/modules/system_analytics/SystemAnalyticsStore.native.tsx
 app/modules/system_date_format/SystemDateFormatter.native.tsx
 app/modules/systrace/native/installSystrace.tsx
-app/modules/telemetry_ring/HttpRequestSampleExperiment.tsx
 app/modules/telemetry_ring/native/channels/BaseTelemetryChannel.tsx
 app/modules/telemetry_ring/native/channels/BaseTelemetryExportChannel.tsx
 app/modules/telemetry_ring/native/channels/NormalTelemetry.tsx
@@ -6655,11 +6476,9 @@ app/modules/telemetry_ring/native/channels/ZoomedInTelemetry.tsx
 app/modules/telemetry_ring/native/index.tsx
 app/modules/telemetry_ring/native/TelemetryRingLifecycle.tsx
 app/modules/telemetry_ring/native/TelemetryRingNative.android.tsx
-app/modules/telemetry_ring/native/ZoomedInAnalyticsExperiment.tsx
 app/modules/telemetry_ring/trackHttpRequest.tsx
 app/modules/telemetry_ring/trackZoomedInHttpRequest.android.tsx
 app/modules/text_in_voice/GuildTiVPlatformUtils.native.tsx
-app/modules/themes/experiments/MobileVisualRefreshExperiment.tsx
 app/modules/themes/getSystemTheme.native.tsx
 app/modules/themes/native/updateSaturation.tsx
 app/modules/themes/native/updateTheme.tsx
@@ -6727,7 +6546,6 @@ app/modules/unique_usernames/UniqueUsernamesTypes.tsx
 app/modules/unique_usernames/UniqueUsernamesUtils.tsx
 app/modules/unique_usernames/useUsernameLiveCheck.tsx
 app/modules/unique_usernames/useUsernameStatus.tsx
-app/modules/upsell_tooltip/experiments/MainViewTooltipActionSheetsDisabledExperiment.tsx
 app/modules/upsell_tooltip/native/MainViewTooltipActionSheetsV2.tsx
 app/modules/upsell_tooltip/native/PremiumUpsellTooltipActionSheet.tsx
 app/modules/upsell_tooltip/native/useMainViewTooltipActionSheetEligibilityMap.tsx
@@ -6738,19 +6556,15 @@ app/modules/urgent_system_dm/UrgentSystemDMManagerBase.tsx
 app/modules/user_affinities/maybeSortByProbability.tsx
 app/modules/user_affinities/UserAffinitiesActionCreators.tsx
 app/modules/user_affinities/UserAffinitiesConstants.tsx
-app/modules/user_affinities/VoiceUserAffinityExperiment.tsx
 app/modules/user_application_identity/hooks/useConnectionFilteredAppIdentities.tsx
 app/modules/user_application_identity/UserApplicationIdentityActionCreators.tsx
 app/modules/user_application_identity/UserApplicationIdentityConstants.tsx
 app/modules/user_application_identity/UserApplicationIdentityManager.tsx
-app/modules/user_identifiers/native/IOSAppTransactionIdExperiment.tsx
 app/modules/user_identifiers/native/IOSUserIdentifiersManager.tsx
 app/modules/user_limited_access/UserLimitedAccessUtils.tsx
 app/modules/user_offers/records/UserDiscountOfferRecord.tsx
 app/modules/user_profile/Constants.tsx
 app/modules/user_profile/DisplayProfile.tsx
-app/modules/user_profile/experiments/UserProfilePerformanceAnalyticsExperiment.tsx
-app/modules/user_profile/experiments/UserProfileWYSIWYGEditingExperiment.tsx
 app/modules/user_profile/hooks/native/useCardGridLayout.tsx
 app/modules/user_profile/hooks/native/useScrollToUserProfileEditFormSection.tsx
 app/modules/user_profile/hooks/native/useTrackUserProfileActivityView.tsx
@@ -6881,8 +6695,6 @@ app/modules/user_profile/native/UserProfileYourFriendsCard.tsx
 app/modules/user_profile/native/WishlistViewerCoachmark.tsx
 app/modules/user_profile/native/YouScreenUserProfileContent.tsx
 app/modules/user_profile/preloadUserBannerImage.tsx
-app/modules/user_profile/PrivateProfilesExperiment.tsx
-app/modules/user_profile/PrivateProfilesStrictExperiment.tsx
 app/modules/user_profile/ProfileUpdateRequestUtils.tsx
 app/modules/user_profile/TieredTenureBadgeUtils.tsx
 app/modules/user_profile/useBotProfileCommands.tsx
@@ -7409,7 +7221,6 @@ app/modules/user_settings/UserSettingsMigrationsByType.tsx
 app/modules/user_settings/UserSettingsProtoActionCreators.tsx
 app/modules/user_settings/UserSettingsProtoManager.tsx
 app/modules/user_settings/UserSettingsProtoUtils.tsx
-app/modules/user_settings/UserSettingsRedesignExperiment.tsx
 app/modules/user_settings/UserSettingsURLUtils.tsx
 app/modules/user_settings/UserSettingsUtils.tsx
 app/modules/user_settings/voice/AudioSettingsManager.tsx
@@ -7506,7 +7317,6 @@ app/modules/video_calls/native/components/UserTile.tsx
 app/modules/video_calls/native/components/UserVideoFailed.tsx
 app/modules/video_calls/native/components/useShouldForcePipOrientation.tsx
 app/modules/video_calls/native/components/VideoRenderer.tsx
-app/modules/video_calls/native/SurfaceDirectRendererExperiment.tsx
 app/modules/video_calls/native/useActionBarHeight.tsx
 app/modules/video_calls/native/useBottomVoiceControlsSheetWidth.tsx
 app/modules/video_calls/native/useChannelFloatingCTAContent.tsx
@@ -7532,7 +7342,6 @@ app/modules/video_calls/useSelectedParticipant.tsx
 app/modules/video_calls/useVideoSpinnerTimer.tsx
 app/modules/video_player/useVideoSegmentAnalytics.tsx
 app/modules/video_player/VideoPlayer.messages.js
-app/modules/video-qoe/experiments/VideoQoEMetricsExperiment.tsx
 app/modules/video-qoe/index.tsx
 app/modules/video-qoe/integrations/MobileCustomMuxIntegration.tsx
 app/modules/video-qoe/integrations/MuxIntegration.tsx
@@ -7544,9 +7353,6 @@ app/modules/virtual_currency/checkout/native/OrbCheckoutModal.tsx
 app/modules/virtual_currency/checkout/native/OrbCheckoutModalComponents.tsx
 app/modules/virtual_currency/checkout/OrbCheckoutModalContext.tsx
 app/modules/virtual_currency/checkout/OrbCheckoutUtils.tsx
-app/modules/virtual_currency/experiments/native/VirtualCurrencyMobileExperiment.tsx
-app/modules/virtual_currency/experiments/OrbRedemptionOrdersExperiment.tsx
-app/modules/virtual_currency/experiments/VirtualCurrencyRolloutExperiment.tsx
 app/modules/virtual_currency/hooks/index.tsx
 app/modules/virtual_currency/hooks/native/useVirtualCurrencyBalanceAnimationData.tsx
 app/modules/virtual_currency/hooks/native/useVirtualCurrencyMobileEnabled.tsx
@@ -7581,10 +7387,7 @@ app/modules/visual_effect_view/native/VisualEffectViewTarget.tsx
 app/modules/visual_effect_view/native/VisualEffectViewThemed.tsx
 app/modules/voice_calls/AudioRouteStore.native.tsx
 app/modules/voice_calls/CallIdleManager.tsx
-app/modules/voice_calls/CallKitMetricCollectionExperiment.tsx
 app/modules/voice_calls/collectCallFeedback.tsx
-app/modules/voice_calls/DefaultAudioRouteExperiment.tsx
-app/modules/voice_calls/GuildVoiceRingingExperiment.tsx
 app/modules/voice_calls/native/action_sheet/JoinVoiceChannelButton.tsx
 app/modules/voice_calls/native/action_sheet/VoiceActionSheet.tsx
 app/modules/voice_calls/native/action_sheet/VoiceChannelHeader.tsx
@@ -7593,7 +7396,6 @@ app/modules/voice_calls/native/action_sheet/VoiceFeedbackActionSheet.tsx
 app/modules/voice_calls/native/action_sheet/VoiceMemberEmbeddedActivity.tsx
 app/modules/voice_calls/native/action_sheet/VoiceMemberList.tsx
 app/modules/voice_calls/native/action_sheet/VoiceMemberUser.tsx
-app/modules/voice_calls/native/AndroidVoiceNotificationExperiment.tsx
 app/modules/voice_calls/native/audio_output_selector/showAudioOutputSelector.tsx
 app/modules/voice_calls/native/AudioManagerActionCreator.tsx
 app/modules/voice_calls/native/AudioManagerStore.android.tsx
@@ -7604,18 +7406,14 @@ app/modules/voice_calls/native/components/OngoingCallStatusLabel.tsx
 app/modules/voice_calls/native/components/OngoingCallTimer.tsx
 app/modules/voice_calls/native/components/Timer.tsx
 app/modules/voice_calls/native/ConfirmStartCall.tsx
-app/modules/voice_calls/native/IOSVoiceLiveActivityExperiment.tsx
 app/modules/voice_calls/native/ProximitySensorManager.tsx
 app/modules/voice_calls/native/VoiceActionSheetManager.tsx
 app/modules/voice_calls/native/VoiceNotificationManager.android.tsx
-app/modules/voice_calls/PastVcActivityMessagesExperiment.tsx
-app/modules/voice_calls/PTTEducationExperiment.tsx
 app/modules/voice_calls/RTCConnectionDesyncHooks.tsx
 app/modules/voice_calls/showActivitiesInvalidPermissionsAlert.tsx
 app/modules/voice_calls/trackVoiceFeedback.tsx
 app/modules/voice_calls/useIsVoiceChannelFull.tsx
 app/modules/voice_calls/utils/setAudioInputEnabled.android.tsx
-app/modules/voice_calls/VoiceCallTriggerPointExperiment.tsx
 app/modules/voice_calls/VoiceCallTypes.tsx
 app/modules/voice_calls/VoicePermissionManager.tsx
 app/modules/voice_channel_effects/native/AnimatedEffectEmoji.tsx
@@ -8398,8 +8196,6 @@ discord_common/js/packages/analytics-utils/clientLaunchId.tsx
 discord_common/js/packages/analytics-utils/encodeProperties.tsx
 discord_common/js/packages/analytics-utils/getSuperProperties.tsx
 discord_common/js/packages/analytics-utils/StandardAnalyticsConstants.tsx
-discord_common/js/packages/apex/ApexExperiment.tsx
-discord_common/js/packages/apex/ApexTypes.tsx
 discord_common/js/packages/app-start-performance/AppStartPerformance.tsx
 discord_common/js/packages/backoff/Backoff.tsx
 discord_common/js/packages/code-splitting/CodeSplittingUtils.tsx
@@ -8440,7 +8236,6 @@ discord_common/js/packages/discord-native-types/IPCEvents.tsx
 discord_common/js/packages/dynamic-links/DynamicLinkTemplates.tsx
 discord_common/js/packages/dynamic-links/generateDynamicLink.tsx
 discord_common/js/packages/dynamic-links/getDescription.tsx
-discord_common/js/packages/fingerprint-utils/FingerprintUtils.tsx
 discord_common/js/packages/flash-list/index.js
 discord_common/js/packages/flux/BatchedStoreListener.tsx
 discord_common/js/packages/flux/ChangeListeners.tsx
