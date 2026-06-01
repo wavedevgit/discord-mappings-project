@@ -60,7 +60,7 @@ export default [
     // fingerprints
     {
         // \i is automatically replaced with a regex pattern
-        find_with: [/return\s*\i.split(".")[0]/, '==', 'null', '?'],
+        find_with: [/return\s*\w.split(".")[0]/, '==', 'null', '?'],
         paths: [
             'discord_common/js/packages/fingerprint-utils/FingerprintUtils.tsx',
         ],

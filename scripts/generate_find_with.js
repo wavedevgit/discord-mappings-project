@@ -46,7 +46,8 @@ for (let file of client) {
     if (file?.raw) {
         const paths = [ios, android]
             .map((src) => src.filter((p) => p?.hash == file?.hash))
-            .flat();
+            .flat()
+            .map((e) => e.path);
         if (paths.length > 0)
             intl.push({
                 id: file.raw,

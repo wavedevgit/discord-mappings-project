@@ -6,4 +6,5 @@ node scripts/generate_mappings_paths_assets_android.js
 node scripts/generate_mappings_paths_assets_ios.js
 node scripts/generate_hashes_client.js
 node scripts/generate_list_of_done.js
-node src/generate_find_with.js
+node scripts/generate_find_with.js
+node src/main.js
