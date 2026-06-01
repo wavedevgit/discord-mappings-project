@@ -18,7 +18,6 @@ while IFS= read -r path || [ -n "$path" ]; do
 
     echo "Downloading: $url"
 
-    # curl is just built-in-in-spirit on linux systems at this point
     curl -fsSL "$url" -o "$dest" || {
         echo "Failed: $path"
     }
