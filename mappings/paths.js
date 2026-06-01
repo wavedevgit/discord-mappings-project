@@ -26,16 +26,18 @@ export default [
     // lotte icon
     {
         find_with: ['--__lottieIconColor'],
-        paths: ['app/design/components/LottieIcon/native/LottieIcon.tsx'],
+        paths: [
+            'discord_web/design/components/LottieIcon/native/LottieIcon.tsx',
+        ],
     },
     // apex experiments
     {
         find_with: ['=', '__installation__'],
-        paths: ['app/modules/experiments/apex/ApexTypes.tsx'],
+        paths: ['discord_web/modules/experiments/apex/ApexTypes.tsx'],
     },
     {
         find_with: ['.get', '.APEX_EXPERIMENTS_METADATA', 'surface:'],
-        paths: ['app/modules/experiments/apex/ApexActionCreators.tsx'],
+        paths: ['discord_web/modules/experiments/apex/ApexActionCreators.tsx'],
     },
     {
         find_with: [
@@ -64,5 +66,14 @@ export default [
         paths: [
             'discord_common/js/packages/fingerprint-utils/FingerprintUtils.tsx',
         ],
+    },
+    // messages actions creator
+    {
+        find_with: [
+            'sendMessage',
+            'Waiting for channel ',
+            'to to be ready before sending.',
+        ],
+        paths: ['discord_web/actions/MessageActionCreators.tsx'],
     },
 ];
