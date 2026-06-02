@@ -584,12 +584,6 @@
         "keyRequired": "variations"
     },
     {
-        "path": "app/modules/media_engine/LinuxVulkanCaptureExperiment.tsx",
-        "kind": "user",
-        "id": "2026-03-linux-vulkan-capture",
-        "keyRequired": "variations"
-    },
-    {
         "path": "app/modules/media_engine/LowLatencyRateControlExperiment.tsx",
         "kind": "user",
         "id": "2025-10-low-latency-rate-control",
@@ -695,12 +689,6 @@
         "path": "app/modules/media_uploads/experiments/VideoFrameRateValidationExperiment.tsx",
         "kind": "user",
         "id": "2025-10-video-frame-rate-validation",
-        "keyRequired": "variations"
-    },
-    {
-        "path": "app/modules/media_uploads/experiments/VideoUploadBitrateExperiment.tsx",
-        "kind": "user",
-        "id": "2025-10-video-upload-bitrate-reduction",
         "keyRequired": "variations"
     },
     {
@@ -995,6 +983,12 @@
         "path": "app/modules/presence/ContentClassificationPresenceFilterExperiment.tsx",
         "kind": "user",
         "id": "2026-02-content-classification-presence-filter",
+        "keyRequired": "variations"
+    },
+    {
+        "path": "app/modules/quests/experiments/BountiesStage1Experiment.tsx",
+        "kind": "user",
+        "id": "2026-05-bounties-stage-1",
         "keyRequired": "variations"
     },
     {
