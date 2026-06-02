@@ -27,17 +27,17 @@ export default [
     {
         find_with: ['--__lottieIconColor'],
         paths: [
-            'discord_web/design/components/LottieIcon/native/LottieIcon.tsx',
+            'app/design/components/LottieIcon/native/LottieIcon.tsx',
         ],
     },
     // apex experiments
     {
         find_with: ['=', '__installation__'],
-        paths: ['discord_web/modules/experiments/apex/ApexTypes.tsx'],
+        paths: ['app/modules/experiments/apex/ApexTypes.tsx'],
     },
     {
         find_with: ['.get', '.APEX_EXPERIMENTS_METADATA', 'surface:'],
-        paths: ['discord_web/modules/experiments/apex/ApexActionCreators.tsx'],
+        paths: ['app/modules/experiments/apex/ApexActionCreators.tsx'],
     },
     {
         find_with: [
@@ -74,6 +74,6 @@ export default [
             'Waiting for channel ',
             'to to be ready before sending.',
         ],
-        paths: ['discord_web/actions/MessageActionCreators.tsx'],
+        paths: ['app/actions/MessageActionCreators.tsx'],
     },
 ];
