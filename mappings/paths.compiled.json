@@ -44,7 +44,7 @@
     },
     {
         "paths": [
-            "discord_web/design/components/LottieIcon/native/LottieIcon.tsx"
+            "app/design/components/LottieIcon/native/LottieIcon.tsx"
         ],
         "find_with": [
             "--__lottieIconColor"
@@ -52,7 +52,7 @@
     },
     {
         "paths": [
-            "discord_web/modules/experiments/apex/ApexTypes.tsx"
+            "app/modules/experiments/apex/ApexTypes.tsx"
         ],
         "find_with": [
             "=",
@@ -61,7 +61,7 @@
     },
     {
         "paths": [
-            "discord_web/modules/experiments/apex/ApexActionCreators.tsx"
+            "app/modules/experiments/apex/ApexActionCreators.tsx"
         ],
         "find_with": [
             ".get",
@@ -110,7 +110,7 @@
     },
     {
         "paths": [
-            "discord_web/actions/MessageActionCreators.tsx"
+            "app/actions/MessageActionCreators.tsx"
         ],
         "find_with": [
             "sendMessage",
