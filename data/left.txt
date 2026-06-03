@@ -1233,7 +1233,6 @@ app/lib/search/EnglishAnalyzer.tsx
 app/lib/search/snowballStemmer.tsx
 app/lib/SoundshareStatsAggregator.tsx
 app/lib/spellcheck/fallbackLocales.tsx
-app/lib/spellcheck/LanguageDetector.tsx
 app/lib/spellcheck/Spellchecker.tsx
 app/lib/StateManager.tsx
 app/lib/superagentPatch.tsx
@@ -7805,7 +7804,6 @@ app/utils/URLUtils.tsx
 app/utils/UserSettingsUtils.tsx
 app/utils/UserUtils.tsx
 app/utils/ValidationUtils.tsx
-app/utils/web/DesktopNativeUtils.tsx
 app/utils/web/KeyboardLayoutMapUtils.tsx
 app/utils/web/KeyboardUtils.tsx
 app/utils/web/ProtocolUtils.tsx
@@ -8641,12 +8639,7 @@ discord_common/js/shared/shared-constants/WidgetGameTag.tsx
 discord_common/js/shared/shared-constants/WidgetType.tsx
 discord_common/js/shared/shared-constants/WishlistVisibility.tsx
 discord_common/js/shared/timeRequire.native.tsx
-discord_common/js/shared/utils/BigFlagUtils.tsx
 discord_common/js/shared/utils/BrowserConstants.tsx
-discord_common/js/shared/utils/ClientModDetectionUtils.tsx
-discord_common/js/shared/utils/ColorUtils.tsx
-discord_common/js/shared/utils/ComponentDispatchUtils.tsx
-discord_common/js/shared/utils/DOMUtils.tsx
 discord_common/js/shared/utils/FlagUtils.tsx
 discord_common/js/shared/utils/Future.tsx
 discord_common/js/shared/utils/GlobalUtils.tsx

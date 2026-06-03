@@ -119,7 +119,99 @@ export default [
             '../discord_common/js/shared/activities/utils/CustomActivityLinkUtils.tsx',
         ],
     },
-
+    /** ../discord_common/js/shared/utils */
+    {
+        find_with: ['class', 'Number(BigInt.asUintN(', 'BigInt(1) <<'],
+        paths: ['../discord_common/js/shared/utils/BigFlagUtils.tsx'],
+    },
+    {
+        find_with: [
+            'OculusBrowser',
+            'window.WebSocket',
+            'createEncodedStreams',
+        ],
+        paths: ['../discord_common/js/shared/utils/BigFlagUtils.tsx'],
+    },
+    {
+        find_with: ['.BdApi', '.Vencord', 'null', '=', 'window', '||'],
+        paths: [
+            '../discord_common/js/shared/utils/ClientModDetectionUtils.tsx',
+        ],
+    },
+    {
+        find_with: ['calc(var(--saturation-factor, 1) *'],
+        paths: ['../discord_common/js/shared/utils/ColorUtils.tsx'],
+    },
+    {
+        find_with: ['ComponentDispatch.resubscribe:', 'safeDispatch'],
+        paths: ['../discord_common/js/shared/utils/ComponentDispatchUtils.tsx'],
+    },
+    {
+        find_with: ['Unable to determine render window for element', 'Element'],
+        paths: ['../discord_common/js/shared/utils/DOMUtils.tsx'],
+    },
+    // worst shit
+    {
+        find_with: [/return \(\w & \w\) === \w/, /return \w+ & \w+/],
+        paths: ['../ùdiscord_common/js/shared/utils/FlagUtils.tsx'],
+    },
+    {
+        find_with: [
+            'class',
+            'this.promise = new Promise',
+            'this.resolve',
+            'this.reject',
+        ],
+        paths: ['../ùdiscord_common/js/shared/utils/Future.tsx'],
+    },
+    {
+        find_with: [
+            'typeof globalThis',
+            'typeof window',
+            'typeof self',
+            'Object.create',
+        ],
+        paths: ['../ùdiscord_common/js/shared/utils/GlobalUtils.tsx'],
+    },
+    {
+        find_with: [
+            'GLOBAL_ENV.WEBAPP_ENDPOINT',
+            '?redirect_to=',
+            'encodeURIComponent',
+        ],
+        paths: ['../ùdiscord_common/js/shared/utils/PathUtils.tsx'],
+    },
+    {
+        find_with: ['(android ).+chrome/[.0-9]* mobile', 'LINUX', 'WEB'],
+        paths: ['../ùdiscord_common/js/shared/utils/PlatformUtils.tsx'],
+    },
+    {
+        find_with: ['.DISCORD_ORB', 'convertToMajorUnits'],
+        paths: ['../ùdiscord_common/js/shared/utils/PriceUtils.tsx'],
+    },
+    {
+        find_with: ['.unstable_batchedUpdates)'],
+        // guessed file name from ReactBatchUpdates.native.tsx, its probably ReactBatchUpdates.tsx
+        paths: ['../ùdiscord_common/js/shared/utils/ReactBatchUpdates.tsx'],
+    },
+    {
+        find_with: ['size !==', 'for', '.has(', 'instanceof Set', 'new Set()'],
+        paths: ['../ùdiscord_common/js/shared/utils/SetUtils.tsx'],
+    },
+    {
+        find_with: ['Snowflake sequence number overflow:'],
+        paths: ['../ùdiscord_common/js/shared/utils/SnowflakeUtils.tsx'],
+    },
+    /** app/utils/web/ */
+    {
+        find_with: ['lastImageSaveDirectory', 'discord_rpc'],
+        paths: ['app/utils/web/DesktopNativeUtils.tsx'],
+    },
+    /** app/lib/spellcheck/ */
+    {
+        find_with: ['Not enough reliable text.', 'discord_spellcheck'],
+        paths: ['app/lib/spellcheck/LanguageDetector.tsx'],
+    },
     // content classifcation
     {
         find_with: [

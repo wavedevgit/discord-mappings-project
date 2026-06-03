@@ -2,6 +2,7 @@ app/actions/MessageActionCreators.tsx
 app/design/components/LottieIcon/native/LottieIcon.tsx
 app/intl/IntlLoaderStore.tsx
 app/lib/EnsureReceivedMessagesAddedInOrderExperiment.tsx
+app/lib/spellcheck/LanguageDetector.tsx
 app/lib/ZustandStore.tsx
 app/modules/a11y/AccessibilityStore.tsx
 app/modules/a11y/native/AccessibilityLabelOptimizationExperiment.tsx
@@ -709,6 +710,7 @@ app/stores/views/SortedVoiceStateStore.tsx
 app/stores/VoiceStateStore.tsx
 app/stores/web/WindowStore.tsx
 app/stores/WebhooksStore.tsx
+app/utils/web/DesktopNativeUtils.tsx
 discord_common/js/packages/analytics-utils/AnalyticsTrackingStore.tsx
 discord_common/js/packages/apex/ApexExperiment.tsx
 discord_common/js/packages/apex/ApexTypes.tsx
@@ -729,4 +731,9 @@ discord_common/js/shared/lib/RPCError.tsx
 discord_common/js/shared/lib/TokenManager.tsx
 discord_common/js/shared/MFA.tsx
 discord_common/js/shared/modules/content_classification/lib/ContentClassificationToAgeRestriction.tsx
+discord_common/js/shared/utils/BigFlagUtils.tsx
+discord_common/js/shared/utils/ClientModDetectionUtils.tsx
+discord_common/js/shared/utils/ColorUtils.tsx
+discord_common/js/shared/utils/ComponentDispatchUtils.tsx
+discord_common/js/shared/utils/DOMUtils.tsx
 node_modules/.pnpm/@discordapp+twemoji@16.0.1/node_modules/@discordapp/twemoji/dist/twemoji.npm.js
