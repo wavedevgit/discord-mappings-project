@@ -105,6 +105,12 @@ export default [
         find_with: ['shift+tab', 'KEYBOARD_KEY', 'MOUSE_BUTTON'],
         paths: ['../discord_common/js/shared/constants/KeyboardConstants.tsx'],
     },
+    {
+        find_with: ['DEPRECATED_SIZE_60', 'BLACK', 'black', 'number'],
+        paths: [
+            '../discord_common/js/shared/constants/web/AvatarConstants.tsx',
+        ],
+    },
     /** ../discord_common/js/shared/config/colors/generated/ */
     {
         find_with: ['DARK', 'dark', 'MIDNIGHT', 'midnight'],
@@ -227,7 +233,7 @@ export default [
     // devtools
     {
         find_with: ['__DISCORD_DEVTOOLS'],
-        paths: ['.../discord_common/js/shared/DevtoolsExtension.tsx'],
+        paths: ['../discord_common/js/shared/DevtoolsExtension.tsx'],
     },
     // twemeoji
     {

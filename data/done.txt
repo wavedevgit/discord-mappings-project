@@ -725,7 +725,9 @@ discord_common/js/shared/activities/utils/CustomActivityLinkUtils.tsx
 discord_common/js/shared/config/colors/generated/ThemeTypes.tsx
 discord_common/js/shared/Constants.tsx
 discord_common/js/shared/constants/KeyboardConstants.tsx
+discord_common/js/shared/constants/web/AvatarConstants.tsx
 discord_common/js/shared/Countries.tsx
+discord_common/js/shared/DevtoolsExtension.tsx
 discord_common/js/shared/lib/PlatformUtils.tsx
 discord_common/js/shared/lib/RPCError.tsx
 discord_common/js/shared/lib/TokenManager.tsx
