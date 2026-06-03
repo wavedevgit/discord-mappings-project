@@ -568,9 +568,7 @@ export default [
             'GIFTING',
             'GIFTING',
         ],
-        paths: [
-            '../discord_common/js/shared/shared-constants/BadgeId.tsx',
-        ],
+        paths: ['../discord_common/js/shared/shared-constants/BadgeId.tsx'],
     },
     {
         find_with: [
@@ -585,9 +583,7 @@ export default [
             'MYTHIC',
             'MYTHIC',
         ],
-        paths: [
-            '../discord_common/js/shared/shared-constants/BadgeRarity.tsx',
-        ],
+        paths: ['../discord_common/js/shared/shared-constants/BadgeRarity.tsx'],
     },
     {
         find_with: [
@@ -2051,9 +2047,7 @@ export default [
             'YOU_BAR_IA',
             'YOU_BAR_IA',
         ],
-        paths: [
-            '../discord_common/js/shared/shared-constants/DesignIds.tsx',
-        ],
+        paths: ['../discord_common/js/shared/shared-constants/DesignIds.tsx'],
     },
     {
         find_with: [
@@ -2320,9 +2314,7 @@ export default [
             'GRID',
             'ALL',
         ],
-        paths: [
-            '../discord_common/js/shared/shared-constants/ForumLayout.tsx',
-        ],
+        paths: ['../discord_common/js/shared/shared-constants/ForumLayout.tsx'],
     },
     {
         find_with: [
@@ -2341,9 +2333,7 @@ export default [
     },
     {
         find_with: ['GAME_PROFILE_DISABLED', 'GAME_PROFILE_DISABLED'],
-        paths: [
-            '../discord_common/js/shared/shared-constants/GameFlags.tsx',
-        ],
+        paths: ['../discord_common/js/shared/shared-constants/GameFlags.tsx'],
     },
     {
         find_with: [
@@ -2497,9 +2487,7 @@ export default [
             'MISCELLANEOUS_GENRES',
             'ALL',
         ],
-        paths: [
-            '../discord_common/js/shared/shared-constants/GameGenres.tsx',
-        ],
+        paths: ['../discord_common/js/shared/shared-constants/GameGenres.tsx'],
     },
     {
         find_with: ['shockbyte', 'SHOCKBYTE'],
@@ -3169,9 +3157,7 @@ export default [
             'TEST',
             'TEST',
         ],
-        paths: [
-            '../discord_common/js/shared/shared-constants/NotifTypes.tsx',
-        ],
+        paths: ['../discord_common/js/shared/shared-constants/NotifTypes.tsx'],
     },
     {
         find_with: [
@@ -3408,9 +3394,7 @@ export default [
             '1354906318279807056',
             'GUILD_POWERUP_ROLE_COLOR_SKU_ID',
         ],
-        paths: [
-            '../discord_common/js/shared/shared-constants/Powerups.tsx',
-        ],
+        paths: ['../discord_common/js/shared/shared-constants/Powerups.tsx'],
     },
     {
         find_with: ['MAX_STICKER_SLOTS', 'MAX_STICKER_SLOTS'],
@@ -3616,6 +3600,15 @@ export default [
     },
     {
         find_with: [
+            'PREMIUM_TIER_2_MULTIPLIER_PERCENTAGE_POINTS',
+            'PREMIUM_TIER_2_MULTIPLIER_PERCENTAGE_POINTS',
+        ],
+        paths: [
+            '../discord_common/js/shared/shared-constants/QuestOrbsMultiplier.tsx',
+        ],
+    },
+    {
+        find_with: [
             'INVALID_PLACEMENT',
             'INVALID_PLACEMENT',
             'DESKTOP_ACCOUNT_PANEL_AREA',
@@ -3709,9 +3702,7 @@ export default [
     },
     {
         find_with: ['GAMEPLAY', 'GAMEPLAY', 'VIDEO', 'VIDEO'],
-        paths: [
-            '../discord_common/js/shared/shared-constants/QuestType.tsx',
-        ],
+        paths: ['../discord_common/js/shared/shared-constants/QuestType.tsx'],
     },
     {
         find_with: [
@@ -3901,9 +3892,7 @@ export default [
             'STOREFRONT_UPDATE_MASK',
             'STOREFRONT_UPDATE_MASK',
         ],
-        paths: [
-            '../discord_common/js/shared/shared-constants/SKUFlags.tsx',
-        ],
+        paths: ['../discord_common/js/shared/shared-constants/SKUFlags.tsx'],
     },
     {
         find_with: ['SAVED_MESSAGES_MAX'],
@@ -3917,9 +3906,7 @@ export default [
             'SEARCH_PARTIAL_NAME_MATCH_MIN_QUERY_LENGTH',
             'SEARCH_PARTIAL_NAME_MATCH_MAX_QUERY_LENGTH',
         ],
-        paths: [
-            '../discord_common/js/shared/shared-constants/Search.tsx',
-        ],
+        paths: ['../discord_common/js/shared/shared-constants/Search.tsx'],
     },
     {
         find_with: [
@@ -4286,20 +4273,9 @@ export default [
         ],
     },
     {
-        find_with: [
-            'current_games',
-            'CURRENT_GAMES',
-            'want_to_play_games',
-            'WANT_TO_PLAY_GAMES',
-            'played_games',
-            'PLAYED_GAMES',
-            'favorite_games',
-            'FAVORITE_GAMES',
-            'application',
-            'APPLICATION',
-        ],
+        find_with: ['StreamNotificationsGuildMaxSize', '50'],
         paths: [
-            '../discord_common/js/shared/shared-constants/WidgetType.tsx',
+            '../discord_common/js/shared/shared-constants/Notifications.tsx',
         ],
     },
     {
