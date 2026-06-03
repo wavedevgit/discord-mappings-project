@@ -133,7 +133,6 @@
 {"id":"256331.js","paths":["discord_app/modules/conversations/ConversationVisibilityStore.tsx"]}
 {"id":"25639.js","paths":["discord_app/modules/channel/VoiceChannelAnimationStateStore.tsx"]}
 {"id":"258585.js","paths":["discord_app/modules/go_live/GoLiveAutoQualityExperiment.tsx"]}
-{"id":"259160.js","paths":["discord_app/modules/premium/gifting/experiments/GiftingBadgeExperiment.tsx"]}
 {"id":"264322.js","paths":["discord_app/modules/application_commands/ApplicationCommandIndexStore.tsx"]}
 {"id":"265059.js","paths":["discord_app/modules/devtools/DevToolsSettingsStore.tsx"]}
 {"id":"265704.js","paths":["discord_app/modules/quests/BountyStore.tsx"]}
@@ -669,7 +668,6 @@
 {"id":"851746.js","paths":["discord_app/modules/premium/ReferralTrialStore.tsx"]}
 {"id":"853145.js","paths":["discord_app/modules/replies/PendingReplyStore.tsx"]}
 {"id":"853504.js","paths":["assets/images/platforms/img_account_sync_riot_white.png","discord_app/src/main/res/drawable-mdpi/images_platforms_img_account_sync_riot_white.png"]}
-{"id":"85451.js","paths":["discord_app/modules/content_inventory/memberlist/ActiveTimestampStylingExperiment.tsx"]}
 {"id":"857071.js","paths":["discord_app/modules/lurker_mode/LurkingStore.tsx"]}
 {"id":"859040.js","paths":["discord_app/modules/main_tabs_v2/YouBarExperiment.tsx"]}
 {"id":"859241.js","paths":["discord_app/stores/AppliedGuildBoostStore.tsx"]}
@@ -791,3 +789,4 @@
 {"id":"997187.js","paths":["discord_app/modules/user_settings/notifications/EmailSettingsStore.tsx"]}
 {"id":"99753.js","paths":["discord_app/modules/content_inventory/ContentInventoryStore.tsx"]}
 {"id":"997590.js","paths":["discord_app/modules/global_discovery_servers/GuildDiscoveryCategoryStore.tsx"]}
+{"id":"998370.js","paths":["discord_app/modules/premium/gifting/experiments/GiftingBadgeExperiment.tsx"]}
