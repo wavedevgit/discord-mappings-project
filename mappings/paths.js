@@ -153,7 +153,7 @@ export default [
     // worst shit
     {
         find_with: [/return \(\w & \w\) === \w/, /return \w+ & \w+/],
-        paths: ['../ùdiscord_common/js/shared/utils/FlagUtils.tsx'],
+        paths: ['../discord_common/js/shared/utils/FlagUtils.tsx'],
     },
     {
         find_with: [
@@ -162,7 +162,7 @@ export default [
             'this.resolve',
             'this.reject',
         ],
-        paths: ['../ùdiscord_common/js/shared/utils/Future.tsx'],
+        paths: ['../discord_common/js/shared/utils/Future.tsx'],
     },
     {
         find_with: [
@@ -171,7 +171,7 @@ export default [
             'typeof self',
             'Object.create',
         ],
-        paths: ['../ùdiscord_common/js/shared/utils/GlobalUtils.tsx'],
+        paths: ['../discord_common/js/shared/utils/GlobalUtils.tsx'],
     },
     {
         find_with: [
@@ -179,28 +179,28 @@ export default [
             '?redirect_to=',
             'encodeURIComponent',
         ],
-        paths: ['../ùdiscord_common/js/shared/utils/PathUtils.tsx'],
+        paths: ['../discord_common/js/shared/utils/PathUtils.tsx'],
     },
     {
         find_with: ['(android ).+chrome/[.0-9]* mobile', 'LINUX', 'WEB'],
-        paths: ['../ùdiscord_common/js/shared/utils/PlatformUtils.tsx'],
+        paths: ['../discord_common/js/shared/utils/PlatformUtils.tsx'],
     },
     {
         find_with: ['.DISCORD_ORB', 'convertToMajorUnits'],
-        paths: ['../ùdiscord_common/js/shared/utils/PriceUtils.tsx'],
+        paths: ['../discord_common/js/shared/utils/PriceUtils.tsx'],
     },
     {
         find_with: ['.unstable_batchedUpdates)'],
         // guessed file name from ReactBatchUpdates.native.tsx, its probably ReactBatchUpdates.tsx
-        paths: ['../ùdiscord_common/js/shared/utils/ReactBatchUpdates.tsx'],
+        paths: ['../discord_common/js/shared/utils/ReactBatchUpdates.tsx'],
     },
     {
         find_with: ['size !==', 'for', '.has(', 'instanceof Set', 'new Set()'],
-        paths: ['../ùdiscord_common/js/shared/utils/SetUtils.tsx'],
+        paths: ['../discord_common/js/shared/utils/SetUtils.tsx'],
     },
     {
         find_with: ['Snowflake sequence number overflow:'],
-        paths: ['../ùdiscord_common/js/shared/utils/SnowflakeUtils.tsx'],
+        paths: ['../discord_common/js/shared/utils/SnowflakeUtils.tsx'],
     },
     /** app/utils/web/ */
     {

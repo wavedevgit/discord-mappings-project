@@ -8640,17 +8640,9 @@ discord_common/js/shared/shared-constants/WidgetType.tsx
 discord_common/js/shared/shared-constants/WishlistVisibility.tsx
 discord_common/js/shared/timeRequire.native.tsx
 discord_common/js/shared/utils/BrowserConstants.tsx
-discord_common/js/shared/utils/FlagUtils.tsx
-discord_common/js/shared/utils/Future.tsx
-discord_common/js/shared/utils/GlobalUtils.tsx
 discord_common/js/shared/utils/MathUtils.tsx
 discord_common/js/shared/utils/MutexUtils.tsx
-discord_common/js/shared/utils/PathUtils.tsx
-discord_common/js/shared/utils/PlatformUtils.tsx
-discord_common/js/shared/utils/PriceUtils.tsx
 discord_common/js/shared/utils/profiling.tsx
 discord_common/js/shared/utils/ReactBatchUpdates.native.tsx
-discord_common/js/shared/utils/SetUtils.tsx
-discord_common/js/shared/utils/SnowflakeUtils.tsx
 discord_common/js/shared/utils/StringUtils.tsx
 discord_common/js/shared/utils/TypedEventEmitter.tsx
