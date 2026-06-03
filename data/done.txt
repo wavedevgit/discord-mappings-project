@@ -742,6 +742,7 @@ discord_common/js/shared/utils/GlobalUtils.tsx
 discord_common/js/shared/utils/PathUtils.tsx
 discord_common/js/shared/utils/PlatformUtils.tsx
 discord_common/js/shared/utils/PriceUtils.tsx
+discord_common/js/shared/utils/ReactBatchUpdates.tsx
 discord_common/js/shared/utils/SetUtils.tsx
 discord_common/js/shared/utils/SnowflakeUtils.tsx
 node_modules/.pnpm/@discordapp+twemoji@16.0.1/node_modules/@discordapp/twemoji/dist/twemoji.npm.js
