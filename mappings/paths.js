@@ -158,7 +158,7 @@ export default [
     },
     // worst shit
     {
-        find_with: [/return \(\w & \w\) === \w/, /return \w+ & \w+/],
+        find_with: [/return \(\w & \w\) === \w/, /return \w & \w/],
         paths: ['../discord_common/js/shared/utils/FlagUtils.tsx'],
     },
     {
