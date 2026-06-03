@@ -1,4 +1,7 @@
+import sharedConstants from './paths.constants.js';
+
 export default [
+    ...sharedConstants,
     // http utils
     {
         find_with: '"HTTPUtils"',
@@ -79,6 +82,66 @@ export default [
         find_with: ['PAUSED', 'PLAYBACK_COMPLETE', 'playback_complete'],
         paths: [
             '.../discord_common/js/packages/video-player/DiscordVideoPlayerTypes.tsx',
+        ],
+    },
+    /** ../discord_common/js/shared/lib/ */
+    // platform utils
+    {
+        find_with: ['iPad', 'navigator?.platform', 'MacIntel'],
+        paths: ['../discord_common/js/shared/lib/PlatformUtils.tsx'],
+    },
+    // RPCError
+    {
+        find_with: ['RPCError', 'closeCode'],
+        paths: ['../discord_common/js/shared/lib/RPCError.tsx'],
+    },
+    // token mananger
+    {
+        find_with: ['dQw4w9WgXcQ:', 'showToken', 'getToken'],
+        paths: ['../discord_common/js/shared/lib/TokenManager.tsx'],
+    },
+    /** ../discord_common/js/shared/constants/ */
+    {
+        find_with: ['shift+tab', 'KEYBOARD_KEY', 'MOUSE_BUTTON'],
+        paths: ['../discord_common/js/shared/constants/KeyboardConstants.tsx'],
+    },
+    /** ../discord_common/js/shared/config/colors/generated/ */
+    {
+        find_with: ['DARK', 'dark', 'MIDNIGHT', 'midnight'],
+        paths: [
+            '../discord_common/js/shared/config/colors/generated/ThemeTypes.tsx',
+        ],
+    },
+    /** ../discord_common/js/shared/activities/utils/CustomActivityLinkUtils.tsx */
+    {
+        find_with: ['QUICK', 'type', 'encodedLinkId', 'decodedLinkId'],
+        paths: [
+            '../discord_common/js/shared/activities/utils/CustomActivityLinkUtils.tsx',
+        ],
+    },
+
+    // content classifcation
+    {
+        find_with: [
+            'AUTOMATED_CLASSIFICATION',
+            'IS_ADULT_ONLY',
+            'source',
+            'status',
+        ],
+        paths: [
+            '../discord_common/js/shared/modules/content_classification/lib/ContentClassificationToAgeRestriction.tsx',
+        ],
+    },
+    // devtools
+    {
+        find_with: ['__DISCORD_DEVTOOLS'],
+        paths: ['.../discord_common/js/shared/DevtoolsExtension.tsx'],
+    },
+    // twemeoji
+    {
+        find_with: 'https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets',
+        paths: [
+            'node_modules/.pnpm/@discordapp+twemoji@16.0.1/node_modules/@discordapp/twemoji/dist/twemoji.npm.js',
         ],
     },
 ];

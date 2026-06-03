@@ -1,3 +1,4 @@
+app/actions/MessageActionCreators.tsx
 app/design/components/LottieIcon/native/LottieIcon.tsx
 app/intl/IntlLoaderStore.tsx
 app/lib/EnsureReceivedMessagesAddedInOrderExperiment.tsx
@@ -72,6 +73,7 @@ app/modules/channel/VoiceChannelHoistingExperiment.tsx
 app/modules/channel/VoiceChannelStartTimeStore.tsx
 app/modules/chat_input/native/useChatBottomManagerUIStore.tsx
 app/modules/chat/native/ChatLoadingIndicatorExperiment.tsx
+app/modules/checkout/native/NativeCheckoutStore.tsx
 app/modules/client_themes/ClientThemesBackgroundStore.tsx
 app/modules/client_themes/native/CustomThemeMobileStore.tsx
 app/modules/client_themes/SavedCustomThemeStore.tsx
@@ -103,7 +105,6 @@ app/modules/content_inventory/ContentInventoryActivityStore.tsx
 app/modules/content_inventory/ContentInventoryOutboxStore.tsx
 app/modules/content_inventory/ContentInventoryPersistedStore.tsx
 app/modules/content_inventory/ContentInventoryStore.tsx
-app/modules/content_inventory/memberlist/ActiveTimestampStylingExperiment.tsx
 app/modules/conversations/ConversationsStore.tsx
 app/modules/conversations/ConversationVisibilityStore.tsx
 app/modules/creator_monetization/CreatorMonetizationStore.tsx
@@ -114,6 +115,8 @@ app/modules/devtools/AnalyticsLogStore.tsx
 app/modules/devtools/design_toggles/DesignTogglesStore.tsx
 app/modules/devtools/dev_settings/DevSettingsStore.tsx
 app/modules/devtools/DevToolsSettingsStore.tsx
+app/modules/dice_roll/DiceRollExperiment.tsx
+app/modules/dice_roll/DiceRollStore.tsx
 app/modules/directory_channels/GuildDirectorySearchStore.tsx
 app/modules/directory_channels/GuildDirectoryStore.tsx
 app/modules/dismissible_content/DCFEventStore.tsx
@@ -159,7 +162,7 @@ app/modules/game_community_upsell/native/MobileGameCommunitiesStore.tsx
 app/modules/game_console/ConsoleVoiceUpsellStore.tsx
 app/modules/game_console/GameConsoleStore.tsx
 app/modules/game_console/PlayStationVoiceExperiment.tsx
-app/modules/game_profile/experiments/GameProfileMobileExperiment.tsx
+app/modules/game_mentions/GameMentionsExperiment.tsx
 app/modules/game_profile/GameProfileStore.tsx
 app/modules/game_relationships/GameRelationshipStore.tsx
 app/modules/game_update/GameUpdateExperiment.tsx
@@ -241,6 +244,7 @@ app/modules/guild_themes/GuildThemePreviewStore.tsx
 app/modules/guild/BasicGuildStore.tsx
 app/modules/guild/GuildPromptsStore.tsx
 app/modules/guild/TidaWebformExperiment.tsx
+app/modules/guilds_bar/DontBadgeMutedVcsExperiment.tsx
 app/modules/guilds_bar/native/GuildsBarDnDStore.tsx
 app/modules/hangout_window/HangoutWindowExperiment.tsx
 app/modules/harvester/DataHarvestStore.tsx
@@ -259,7 +263,6 @@ app/modules/image_upload/ForceSdrEmojisStickersExperiment.tsx
 app/modules/image_upload/MobileLosslessImageUploadV2Experiment.tsx
 app/modules/impersonate/ImpersonateStore.tsx
 app/modules/in_app_notifications/native/InAppNotificationExpandExperiment.tsx
-app/modules/in_app_notifications/native/InAppNotificationReactExperiment.tsx
 app/modules/in_app_notifications/native/InAppNotificationRedesignExperiment.tsx
 app/modules/in_app_notifications/ShowInAppReactionNotificationExperiment.tsx
 app/modules/in_app_reports/SafetyExperienceIarUserReportingExperiment.tsx
@@ -277,6 +280,7 @@ app/modules/libdiscore/stores/LibdiscoreStore.tsx
 app/modules/local_app_detection/native/LocalAppDetectionStore.tsx
 app/modules/local_push_notification/native/LocalPushNotificationStore.tsx
 app/modules/location_metadata/stores/LocationMetadataStore.tsx
+app/modules/lurker_mode/experiments/MobileLurkerServerPreviewExperiment.tsx
 app/modules/lurker_mode/LurkingStore.tsx
 app/modules/main_tabs_v2/native/ConnectionIndicatorExperiment.tsx
 app/modules/main_tabs_v2/native/friends/screens/GDMSuggestedFriendsExperiment.tsx
@@ -302,7 +306,6 @@ app/modules/media_engine/DisableHookFramePacerExperiment.tsx
 app/modules/media_engine/GlobalFramePoolLockExperiment.tsx
 app/modules/media_engine/GoLiveHdrExperiment.tsx
 app/modules/media_engine/IOSAudioInterruptExperiment.tsx
-app/modules/media_engine/LinuxVulkanCaptureExperiment.tsx
 app/modules/media_engine/LowLatencyRateControlExperiment.tsx
 app/modules/media_engine/MediaEngineStatsStore.tsx
 app/modules/media_engine/MobileAudioOutputExperiment.tsx
@@ -322,7 +325,6 @@ app/modules/media_uploads/experiments/IosJpegliExperiment.tsx
 app/modules/media_uploads/experiments/KestrelExperiment.tsx
 app/modules/media_uploads/experiments/MobileImageEncodingLadderExperiment.tsx
 app/modules/media_uploads/experiments/VideoFrameRateValidationExperiment.tsx
-app/modules/media_uploads/experiments/VideoUploadBitrateExperiment.tsx
 app/modules/memory/MemoryExperiment.tsx
 app/modules/message_previews/MessagePreviewStore.tsx
 app/modules/message_request/MessageRequestPreviewStore.tsx
@@ -423,6 +425,7 @@ app/modules/qualtrics/QualtricsStore.tsx
 app/modules/quests/AdContentSeenStore.tsx
 app/modules/quests/BountyStore.tsx
 app/modules/quests/ConsoleQuestUIStore.tsx
+app/modules/quests/experiments/BountiesStage1Experiment.tsx
 app/modules/quests/experiments/LessPersonalizedAdsExperiment.tsx
 app/modules/quests/experiments/NewAdRequestBehaviorExperiment.tsx
 app/modules/quests/experiments/QuestHomeBountiesExperiment.tsx
@@ -716,6 +719,14 @@ discord_common/js/packages/flux/PersistedStore.tsx
 discord_common/js/packages/flux/Store.tsx
 discord_common/js/packages/http-utils/HTTPUtils.tsx
 discord_common/js/packages/id-generator/IdGenerator.tsx
+discord_common/js/shared/activities/utils/CustomActivityLinkUtils.tsx
+discord_common/js/shared/config/colors/generated/ThemeTypes.tsx
 discord_common/js/shared/Constants.tsx
+discord_common/js/shared/constants/KeyboardConstants.tsx
 discord_common/js/shared/Countries.tsx
+discord_common/js/shared/lib/PlatformUtils.tsx
+discord_common/js/shared/lib/RPCError.tsx
+discord_common/js/shared/lib/TokenManager.tsx
 discord_common/js/shared/MFA.tsx
+discord_common/js/shared/modules/content_classification/lib/ContentClassificationToAgeRestriction.tsx
+node_modules/.pnpm/@discordapp+twemoji@16.0.1/node_modules/@discordapp/twemoji/dist/twemoji.npm.js

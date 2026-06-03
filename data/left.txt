@@ -44,7 +44,6 @@ app/actions/InviteSuggestionsActionCreators.tsx
 app/actions/LayerActionCreators.tsx
 app/actions/MaskedLinkActionCreators.tsx
 app/actions/MentionActionCreators.tsx
-app/actions/MessageActionCreators.tsx
 app/actions/MFAActionCreators.tsx
 app/actions/ModalActionCreators.tsx
 app/actions/native/AlertActionCreators.tsx
@@ -490,7 +489,6 @@ app/design/components/Icon/native/redesign/generated/PuzzlePieceIcon.tsx
 app/design/components/Icon/native/redesign/generated/QrCodeIcon.tsx
 app/design/components/Icon/native/redesign/generated/QuestsIcon.tsx
 app/design/components/Icon/native/redesign/generated/ReactionIcon.tsx
-app/design/components/Icon/native/redesign/generated/ReactionPlusIcon.tsx
 app/design/components/Icon/native/redesign/generated/RecordPlayerIcon.tsx
 app/design/components/Icon/native/redesign/generated/RedditNeutralIcon.tsx
 app/design/components/Icon/native/redesign/generated/RedoIcon.tsx
@@ -2108,6 +2106,7 @@ app/modules/chat_input/native/guard/ChatInputGuardAutomodUserProfileQuarantine.t
 app/modules/chat_input/native/guard/ChatInputGuardGuildCommunicationDisabled.tsx
 app/modules/chat_input/native/guard/ChatInputGuardGuildMemberVerification.tsx
 app/modules/chat_input/native/guard/ChatInputGuardLurking.tsx
+app/modules/chat_input/native/guard/ChatInputGuardLurkingPreviewBar.tsx
 app/modules/chat_input/native/guard/ChatInputGuardMessageRequest.tsx
 app/modules/chat_input/native/guard/ChatInputGuardQuarantineDM.tsx
 app/modules/chat_input/native/guard/ChatInputGuardReadonly.tsx
@@ -2155,6 +2154,7 @@ app/modules/checkout/native/gifting/UnifiedGiftModalDetailsScreen.tsx
 app/modules/checkout/native/gifting/UnifiedGiftModalRecipientSelectScreen.tsx
 app/modules/checkout/native/gifting/UnifiedGiftModalSuccessScreen.tsx
 app/modules/checkout/native/gifting/UnifiedGiftModalTypes.tsx
+app/modules/checkout/native/stores/NativeCheckoutStoreProvider.tsx
 app/modules/checkpoint/Checkpoint.messages.js
 app/modules/checkpoint/CheckpointColors.native.tsx
 app/modules/checkpoint/CheckpointConstants.tsx
@@ -2318,6 +2318,7 @@ app/modules/collectibles/native/ProductDetailsActionSheetVariants.tsx
 app/modules/collectibles/native/ProductPurchaseSuccessActionCreators.tsx
 app/modules/collectibles/native/ProductPurchaseSuccessModal.tsx
 app/modules/collectibles/native/ProfileEffectSampleV2.tsx
+app/modules/collectibles/native/ShelfBlock.tsx
 app/modules/collectibles/native/ShopBlockItem.tsx
 app/modules/collectibles/native/ShopCategory.tsx
 app/modules/collectibles/native/ShopCoachmark.tsx
@@ -2607,6 +2608,11 @@ app/modules/devtools/native/components/screens/DevToolsRevenuePlaygroundScreen.t
 app/modules/devtools/native/components/screens/DevToolsShopScreen.tsx
 app/modules/devtools/native/components/screens/DevToolsTogglesScreen.tsx
 app/modules/devtools/native/useSortedDevToolsScreens.tsx
+app/modules/dice_roll/DiceRollActionCreators.tsx
+app/modules/dice_roll/DiceRollConstants.tsx
+app/modules/dice_roll/DiceRollLifecycleManager.tsx
+app/modules/dice_roll/DiceRollUtils.tsx
+app/modules/dice_roll/native/DiceRollBar.tsx
 app/modules/directory_channels/GuildDirectoryActionCreators.tsx
 app/modules/directory_channels/GuildDirectoryConstants.tsx
 app/modules/directory_channels/GuildDirectoryUtils.tsx
@@ -3122,6 +3128,7 @@ app/modules/games/hooks/useGame.tsx
 app/modules/games/hooks/useGameArtworkUrls.tsx
 app/modules/games/hooks/useGameNameAndCoverImage.tsx
 app/modules/games/hooks/useResolveGame.tsx
+app/modules/games/utils/getApplicationIdsForGame.tsx
 app/modules/gateway/ActionBatcher.tsx
 app/modules/gateway/BasicWorkScheduler.tsx
 app/modules/gateway/ChannelResyncManager.tsx
@@ -4058,7 +4065,6 @@ app/modules/in_app_notifications/native/InAppNotificationContainer.tsx
 app/modules/in_app_notifications/native/MediaPreviewRightAccessory.tsx
 app/modules/in_app_notifications/native/MessageFailedToSendNotification.tsx
 app/modules/in_app_notifications/native/MessageNotification.tsx
-app/modules/in_app_notifications/native/MessageNotificationAccessory.tsx
 app/modules/in_app_notifications/native/MessageNotificationHeader.tsx
 app/modules/in_app_notifications/native/MessageNotificationReactBar.tsx
 app/modules/in_app_notifications/native/MessagePreviewText.tsx
@@ -4288,6 +4294,12 @@ app/modules/local_message_caching/MessageCacheStats.tsx
 app/modules/local_push_notification/native/Constants.tsx
 app/modules/local_push_notification/native/LocalPushNotificationActionCreators.tsx
 app/modules/lurker_mode/LurkerActionCreators.tsx
+app/modules/lurker_mode/LurkerPreviewAnalytics.tsx
+app/modules/lurker_mode/LurkerPreviewManager.tsx
+app/modules/lurker_mode/native/LurkerPreviewCooldownBadge.tsx
+app/modules/lurker_mode/native/LurkerServerPreviewJoinButton.tsx
+app/modules/lurker_mode/native/ServerPreviewPill.tsx
+app/modules/lurker_mode/openLurkerLeavePrompt.native.tsx
 app/modules/main_app_window/web/AppWindowContext.tsx
 app/modules/main_tabs_v2/channel_emoji/ChannelEmojiConstants.tsx
 app/modules/main_tabs_v2/ChannelListLayoutTypes.tsx
@@ -5210,6 +5222,7 @@ app/modules/parent_tools/RestrictedHoursActionCreators.native.tsx
 app/modules/parent_tools/RestrictedHoursManager.tsx
 app/modules/parent_tools/RestrictedScheduleActionCreators.tsx
 app/modules/parent_tools/RestrictedScheduleNotificationUtils.tsx
+app/modules/parent_tools/SpendingLimitUtils.tsx
 app/modules/payments/hooks/useSubscriptionSelection.tsx
 app/modules/payments/native/hooks/NativePaymentHooks.android.tsx
 app/modules/payments/native/hooks/useOrderContext.tsx
@@ -5645,6 +5658,7 @@ app/modules/quests/lib/analytics/BrandSafetyContext.tsx
 app/modules/quests/lib/analytics/ContentImpressionTracker.tsx
 app/modules/quests/lib/analytics/ContentImpressionTrackerConstants.tsx
 app/modules/quests/lib/analytics/ContentImpressionTrackerHooks.tsx
+app/modules/quests/lib/analytics/QuestHomeSearchSession.tsx
 app/modules/quests/lib/AssetUtils.tsx
 app/modules/quests/lib/FractionalPremiumUtils.tsx
 app/modules/quests/lib/getQuestLogger.tsx
@@ -5659,11 +5673,14 @@ app/modules/quests/native/BountiesModal/BountiesModal.tsx
 app/modules/quests/native/BountiesModal/BountiesModalActionCreators.tsx
 app/modules/quests/native/BountiesModal/BountiesModalAdvertiserCta.tsx
 app/modules/quests/native/BountiesModal/BountiesModalCloseButton.tsx
+app/modules/quests/native/BountiesModal/BountiesModalConstants.tsx
 app/modules/quests/native/BountiesModal/BountiesModalContent.tsx
+app/modules/quests/native/BountiesModal/BountiesModalContentScroll.tsx
 app/modules/quests/native/BountiesModal/BountiesModalEndCard.tsx
 app/modules/quests/native/BountiesModal/BountiesModalEndedCtaButtons.tsx
 app/modules/quests/native/BountiesModal/BountiesModalProgress.tsx
 app/modules/quests/native/BountiesModal/BountiesModalTimer.tsx
+app/modules/quests/native/BountiesModal/BountiesScrollVideoItem.tsx
 app/modules/quests/native/BountiesModal/BountyCtaHelpers.tsx
 app/modules/quests/native/BountiesModal/BountyVideo.tsx
 app/modules/quests/native/BountiesModal/useBountiesModalTiming.tsx
@@ -7011,6 +7028,7 @@ app/modules/user_settings/defs/native/IOSNativePhoneIntegrationSetting.tsx
 app/modules/user_settings/defs/native/LanguageSetting.tsx
 app/modules/user_settings/defs/native/LaunchpadSetting.tsx
 app/modules/user_settings/defs/native/LogoutSetting.tsx
+app/modules/user_settings/defs/native/MobileVisualRefreshSetting.tsx
 app/modules/user_settings/defs/native/NoiseSuppressionKrispSetting.tsx
 app/modules/user_settings/defs/native/NoiseSuppressionSetting.tsx
 app/modules/user_settings/defs/native/NotificationsSetting.tsx
@@ -8124,6 +8142,7 @@ discord_assets/assets/mana/rive/native/CheckpointCard.riv.js
 discord_assets/assets/mana/rive/native/CheckpointFriends.riv.js
 discord_assets/assets/mana/rive/native/CheckpointIntro.riv.js
 discord_assets/assets/mana/rive/native/CheckpointKnickKnacks.riv.js
+discord_assets/assets/mana/rive/native/ExpressiveButton.riv.js
 discord_assets/assets/mana/rive/native/GameServerHosting.riv.js
 discord_assets/assets/mana/rive/native/Microphone.riv.js
 discord_assets/assets/mana/rive/native/NitroQuestOrbsMultiplier.riv.js
@@ -8216,12 +8235,14 @@ discord_common/js/packages/design/components/Rive/native/generated/CheckpointCar
 discord_common/js/packages/design/components/Rive/native/generated/CheckpointFriendsRive.tsx
 discord_common/js/packages/design/components/Rive/native/generated/CheckpointIntroRive.tsx
 discord_common/js/packages/design/components/Rive/native/generated/CheckpointKnickKnacksRive.tsx
+discord_common/js/packages/design/components/Rive/native/generated/ExpressiveButtonRive.tsx
 discord_common/js/packages/design/components/Rive/native/generated/GameServerHostingRive.tsx
 discord_common/js/packages/design/components/Rive/native/generated/index.tsx
 discord_common/js/packages/design/components/Rive/native/generated/MicrophoneRive.tsx
 discord_common/js/packages/design/components/Rive/native/generated/NitroQuestOrbsMultiplierRive.tsx
 discord_common/js/packages/design/components/Rive/native/generated/TeenScreenTimeRive.tsx
 discord_common/js/packages/design/components/Rive/native/generated/ThemeAwareNitroWishlistingWumpusRive.tsx
+discord_common/js/packages/design/components/Rive/native/RiveTypes.tsx
 discord_common/js/packages/design/components/Stickers/StickerTypes.tsx
 discord_common/js/packages/design/components/ThemeContextProvider/ThemeContext.tsx
 discord_common/js/packages/design/components/ThemeContextProvider/ThemeContextFlags.tsx
@@ -8229,6 +8250,7 @@ discord_common/js/packages/design/components/ThemeContextProvider/ThemeContextPr
 discord_common/js/packages/design/components/ThemeContextProvider/ThemeTypes.tsx
 discord_common/js/packages/design/native.tsx
 discord_common/js/packages/design/shared.tsx
+discord_common/js/packages/design/shared/ThemeTypes.tsx
 discord_common/js/packages/design/utils/requestSafeIdleCallback.tsx
 discord_common/js/packages/design/utils/ThemeUtils.tsx
 discord_common/js/packages/discord-native-types/DiscordNative.tsx
@@ -8464,19 +8486,12 @@ discord_common/js/packages/transition-group/TransitionChildMapping.tsx
 discord_common/js/packages/transition-group/TransitionGroup.tsx
 discord_common/js/packages/type-utils/TypeUtils.tsx
 discord_common/js/packages/video-player/DiscordVideoPlayerTypes.tsx
-discord_common/js/shared/activities/utils/CustomActivityLinkUtils.tsx
-discord_common/js/shared/config/colors/generated/ThemeTypes.tsx
-discord_common/js/shared/constants/KeyboardConstants.tsx
 discord_common/js/shared/constants/web/AvatarConstants.tsx
 discord_common/js/shared/DevtoolsExtension.tsx
 discord_common/js/shared/domain-migration/DomainMigrationUtils.tsx
 discord_common/js/shared/hooks/useMountEffect.tsx
 discord_common/js/shared/hooks/useStableCallback.tsx
-discord_common/js/shared/lib/PlatformUtils.tsx
-discord_common/js/shared/lib/RPCError.tsx
-discord_common/js/shared/lib/TokenManager.tsx
 discord_common/js/shared/modules/content_classification/lib/AgeRestrictionUtils.tsx
-discord_common/js/shared/modules/content_classification/lib/ContentClassificationToAgeRestriction.tsx
 discord_common/js/shared/shared-constants/ACRequestOperations.tsx
 discord_common/js/shared/shared-constants/AdCreativeType.tsx
 discord_common/js/shared/shared-constants/AgeGatedFeature.tsx
@@ -8536,6 +8551,7 @@ discord_common/js/shared/shared-constants/ContentRatingESRBRating.tsx
 discord_common/js/shared/shared-constants/ContentRatingPEGIRating.tsx
 discord_common/js/shared/shared-constants/CountryCodes.tsx
 discord_common/js/shared/shared-constants/CountryCodesISO3to2.tsx
+discord_common/js/shared/shared-constants/DefaultProfileFrameDimensions.tsx
 discord_common/js/shared/shared-constants/DesignIds.tsx
 discord_common/js/shared/shared-constants/DiscordContentClassificationFlags.tsx
 discord_common/js/shared/shared-constants/DismissibleQuestContentFlags.tsx
@@ -8645,4 +8661,3 @@ discord_common/js/shared/utils/SetUtils.tsx
 discord_common/js/shared/utils/SnowflakeUtils.tsx
 discord_common/js/shared/utils/StringUtils.tsx
 discord_common/js/shared/utils/TypedEventEmitter.tsx
-node_modules/.pnpm/@discordapp+twemoji@16.0.1/node_modules/@discordapp/twemoji/dist/twemoji.npm.js
