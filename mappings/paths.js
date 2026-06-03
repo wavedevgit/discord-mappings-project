@@ -130,7 +130,7 @@ export default [
             'window.WebSocket',
             'createEncodedStreams',
         ],
-        paths: ['../discord_common/js/shared/utils/BigFlagUtils.tsx'],
+        paths: ['../discord_common/js/shared/utils/BrowserConstants.tsx'],
     },
     {
         find_with: ['.BdApi', '.Vencord', 'null', '=', 'window', '||'],
