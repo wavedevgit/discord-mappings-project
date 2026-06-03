@@ -1,7 +1,7 @@
 [
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ACRequestOperations.tsx"
+            "../discord_common/js/shared/shared-constants/ACRequestOperations.tsx"
         ],
         "find_with": [
             "ac_create",
@@ -18,7 +18,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/APBRequestOperations.tsx"
+            "../discord_common/js/shared/shared-constants/APBRequestOperations.tsx"
         ],
         "find_with": [
             "cancel",
@@ -37,7 +37,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/AdCreativeType.tsx"
+            "../discord_common/js/shared/shared-constants/AdCreativeType.tsx"
         ],
         "find_with": [
             "INVALID",
@@ -52,7 +52,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/AgeGatedFeature.tsx"
+            "../discord_common/js/shared/shared-constants/AgeGatedFeature.tsx"
         ],
         "find_with": [
             "NONE",
@@ -77,7 +77,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/AgeRestrictionSource.tsx"
+            "../discord_common/js/shared/shared-constants/AgeRestrictionSource.tsx"
         ],
         "find_with": [
             "NO_CLASSIFICATION",
@@ -96,7 +96,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/AgeRestrictionStatus.tsx"
+            "../discord_common/js/shared/shared-constants/AgeRestrictionStatus.tsx"
         ],
         "find_with": [
             "EVERYONE",
@@ -108,7 +108,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/AppCrashedReasons.tsx"
+            "../discord_common/js/shared/shared-constants/AppCrashedReasons.tsx"
         ],
         "find_with": [
             "unhandled_native_error",
@@ -122,7 +122,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/AppleProductIds.tsx"
+            "../discord_common/js/shared/shared-constants/AppleProductIds.tsx"
         ],
         "find_with": [
             "api_generic_subscription",
@@ -133,7 +133,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ApplicationCollectionActiveState.tsx"
+            "../discord_common/js/shared/shared-constants/ApplicationCollectionActiveState.tsx"
         ],
         "find_with": [
             "ACTIVE",
@@ -148,7 +148,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ApplicationCollectionFlags.tsx"
+            "../discord_common/js/shared/shared-constants/ApplicationCollectionFlags.tsx"
         ],
         "find_with": [
             "APPENDS_REMAINING_ACTIVITIES",
@@ -159,7 +159,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ApplicationCollectionItemFlags.tsx"
+            "../discord_common/js/shared/shared-constants/ApplicationCollectionItemFlags.tsx"
         ],
         "find_with": [
             "PROMOTED",
@@ -172,7 +172,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ApplicationCollectionPlatforms.tsx"
+            "../discord_common/js/shared/shared-constants/ApplicationCollectionPlatforms.tsx"
         ],
         "find_with": [
             "IOS",
@@ -185,7 +185,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ApplicationCollectionSurface.tsx"
+            "../discord_common/js/shared/shared-constants/ApplicationCollectionSurface.tsx"
         ],
         "find_with": [
             "APPLICATION_DIRECTORY",
@@ -198,7 +198,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ApplicationDirectoryCollectionItemType.tsx"
+            "../discord_common/js/shared/shared-constants/ApplicationDirectoryCollectionItemType.tsx"
         ],
         "find_with": [
             "APPLICATION",
@@ -212,7 +212,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ApplicationDirectoryCollectionType.tsx"
+            "../discord_common/js/shared/shared-constants/ApplicationDirectoryCollectionType.tsx"
         ],
         "find_with": [
             "LIST",
@@ -237,7 +237,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ApplicationDirectorySearchResultType.tsx"
+            "../discord_common/js/shared/shared-constants/ApplicationDirectorySearchResultType.tsx"
         ],
         "find_with": [
             "APPLICATION",
@@ -250,7 +250,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ApplicationDistributors.tsx"
+            "../discord_common/js/shared/shared-constants/ApplicationDistributors.tsx"
         ],
         "find_with": [
             "steam",
@@ -303,7 +303,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ApplicationIntegrationType.tsx"
+            "../discord_common/js/shared/shared-constants/ApplicationIntegrationType.tsx"
         ],
         "find_with": [
             "GUILD_INSTALL",
@@ -314,7 +314,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ApplicationOverlayMethodFlags.tsx"
+            "../discord_common/js/shared/shared-constants/ApplicationOverlayMethodFlags.tsx"
         ],
         "find_with": [
             "DEFAULT",
@@ -325,7 +325,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/AudioSettingsDefaultVolumes.tsx"
+            "../discord_common/js/shared/shared-constants/AudioSettingsDefaultVolumes.tsx"
         ],
         "find_with": [
             "USER",
@@ -336,7 +336,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/AutomodActionType.tsx"
+            "../discord_common/js/shared/shared-constants/AutomodActionType.tsx"
         ],
         "find_with": [
             "BLOCK_MESSAGE",
@@ -351,7 +351,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/AutomodBlockProfileUpdateMessageEmbedKeys.tsx"
+            "../discord_common/js/shared/shared-constants/AutomodBlockProfileUpdateMessageEmbedKeys.tsx"
         ],
         "find_with": [
             "nickname_update",
@@ -362,7 +362,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/AutomodDecisionOutcomeEmbedKeys.tsx"
+            "../discord_common/js/shared/shared-constants/AutomodDecisionOutcomeEmbedKeys.tsx"
         ],
         "find_with": [
             "blocked",
@@ -373,7 +373,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/AutomodEventType.tsx"
+            "../discord_common/js/shared/shared-constants/AutomodEventType.tsx"
         ],
         "find_with": [
             "UNKNOWN",
@@ -386,7 +386,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"
+            "../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"
         ],
         "find_with": [
             "MODAL",
@@ -395,7 +395,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/AutomodMessageEmbedKeys.tsx"
+            "../discord_common/js/shared/shared-constants/AutomodMessageEmbedKeys.tsx"
         ],
         "find_with": [
             "rule_name",
@@ -438,7 +438,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/AutomodNotificationEmbedKeys.tsx"
+            "../discord_common/js/shared/shared-constants/AutomodNotificationEmbedKeys.tsx"
         ],
         "find_with": [
             "join_attempts",
@@ -463,7 +463,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/AutomodNotificationEmbedTypeKeys.tsx"
+            "../discord_common/js/shared/shared-constants/AutomodNotificationEmbedTypeKeys.tsx"
         ],
         "find_with": [
             "raid",
@@ -478,7 +478,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/AutomodQuarantineEventMessageEmbedKeys.tsx"
+            "../discord_common/js/shared/shared-constants/AutomodQuarantineEventMessageEmbedKeys.tsx"
         ],
         "find_with": [
             "message_send",
@@ -493,7 +493,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/AutomodQuarantineUserActionMessageEmbedKeys.tsx"
+            "../discord_common/js/shared/shared-constants/AutomodQuarantineUserActionMessageEmbedKeys.tsx"
         ],
         "find_with": [
             "block_profile_update",
@@ -506,7 +506,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/AutomodQuarantineUserMessageEmbedKeys.tsx"
+            "../discord_common/js/shared/shared-constants/AutomodQuarantineUserMessageEmbedKeys.tsx"
         ],
         "find_with": [
             "bio",
@@ -523,7 +523,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/AutomodRaidAlertTypes.tsx"
+            "../discord_common/js/shared/shared-constants/AutomodRaidAlertTypes.tsx"
         ],
         "find_with": [
             "JOIN_RAID",
@@ -536,7 +536,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/AutomodTriggerType.tsx"
+            "../discord_common/js/shared/shared-constants/AutomodTriggerType.tsx"
         ],
         "find_with": [
             "KEYWORD",
@@ -557,7 +557,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/BadgeId.tsx"
+            "../discord_common/js/shared/shared-constants/BadgeId.tsx"
         ],
         "find_with": [
             "PREMIUM_TENURE",
@@ -598,7 +598,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/BadgeRarity.tsx"
+            "../discord_common/js/shared/shared-constants/BadgeRarity.tsx"
         ],
         "find_with": [
             "COMMON",
@@ -615,7 +615,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ChannelRecipientPrivateUserDataFlags.tsx"
+            "../discord_common/js/shared/shared-constants/ChannelRecipientPrivateUserDataFlags.tsx"
         ],
         "find_with": [
             "DISMISSED_IN_GAME_MESSAGE_NUX",
@@ -626,7 +626,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ChannelTypes.tsx"
+            "../discord_common/js/shared/shared-constants/ChannelTypes.tsx"
         ],
         "find_with": [
             "DM",
@@ -708,7 +708,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ClanGameplayActivity.tsx"
+            "../discord_common/js/shared/shared-constants/ClanGameplayActivity.tsx"
         ],
         "find_with": [
             "NONE",
@@ -721,7 +721,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/CollectibleSearchItemType.tsx"
+            "../discord_common/js/shared/shared-constants/CollectibleSearchItemType.tsx"
         ],
         "find_with": [
             "ALL",
@@ -740,7 +740,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/CollectibleSearchSortDirection.tsx"
+            "../discord_common/js/shared/shared-constants/CollectibleSearchSortDirection.tsx"
         ],
         "find_with": [
             "asc",
@@ -751,7 +751,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/CollectibleSearchSortType.tsx"
+            "../discord_common/js/shared/shared-constants/CollectibleSearchSortType.tsx"
         ],
         "find_with": [
             "price",
@@ -768,7 +768,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/CollectiblesItemType.tsx"
+            "../discord_common/js/shared/shared-constants/CollectiblesItemType.tsx"
         ],
         "find_with": [
             "NONE",
@@ -791,7 +791,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/CollectiblesMarketingPlatform.tsx"
+            "../discord_common/js/shared/shared-constants/CollectiblesMarketingPlatform.tsx"
         ],
         "find_with": [
             "DESKTOP",
@@ -802,7 +802,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/CollectiblesMarketingReleaseType.tsx"
+            "../discord_common/js/shared/shared-constants/CollectiblesMarketingReleaseType.tsx"
         ],
         "find_with": [
             "PROD",
@@ -813,7 +813,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/CollectiblesMarketingSurface.tsx"
+            "../discord_common/js/shared/shared-constants/CollectiblesMarketingSurface.tsx"
         ],
         "find_with": [
             "DESKTOP_SHOP_BUTTON",
@@ -826,7 +826,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/CollectiblesMarketingType.tsx"
+            "../discord_common/js/shared/shared-constants/CollectiblesMarketingType.tsx"
         ],
         "find_with": [
             "COACHTIP",
@@ -843,7 +843,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ConsoleAuthorizationRedirectURIs.tsx"
+            "../discord_common/js/shared/shared-constants/ConsoleAuthorizationRedirectURIs.tsx"
         ],
         "find_with": [
             "https://discord.com/connections/playstation/link",
@@ -855,7 +855,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ConsoleCommands.tsx"
+            "../discord_common/js/shared/shared-constants/ConsoleCommands.tsx"
         ],
         "find_with": [
             "connect_voice",
@@ -865,7 +865,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ConsoleHandoffType.tsx"
+            "../discord_common/js/shared/shared-constants/ConsoleHandoffType.tsx"
         ],
         "find_with": [
             "TRANSFER_EXISTING_CALL",
@@ -877,7 +877,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ConsoleOAuthApplications.tsx"
+            "../discord_common/js/shared/shared-constants/ConsoleOAuthApplications.tsx"
         ],
         "find_with": [
             "622174530214821906",
@@ -892,7 +892,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ContentInventoryAuthorType.tsx"
+            "../discord_common/js/shared/shared-constants/ContentInventoryAuthorType.tsx"
         ],
         "find_with": [
             "AUTHOR_TYPE_UNSPECIFIED",
@@ -903,7 +903,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ContentInventoryEntryType.tsx"
+            "../discord_common/js/shared/shared-constants/ContentInventoryEntryType.tsx"
         ],
         "find_with": [
             "CONTENT_TYPE_UNSPECIFIED",
@@ -930,7 +930,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ContentInventoryFeature.tsx"
+            "../discord_common/js/shared/shared-constants/ContentInventoryFeature.tsx"
         ],
         "find_with": [
             "inbox",
@@ -947,7 +947,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ContentInventoryListenedMediaProvider.tsx"
+            "../discord_common/js/shared/shared-constants/ContentInventoryListenedMediaProvider.tsx"
         ],
         "find_with": [
             "PROVIDER_UNSPECIFIED",
@@ -958,7 +958,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ContentInventoryTraitType.tsx"
+            "../discord_common/js/shared/shared-constants/ContentInventoryTraitType.tsx"
         ],
         "find_with": [
             "TRAIT_TYPE_UNSPECIFIED",
@@ -991,7 +991,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ContentRatingESRBRating.tsx"
+            "../discord_common/js/shared/shared-constants/ContentRatingESRBRating.tsx"
         ],
         "find_with": [
             "UNKNOWN_RATING",
@@ -1014,7 +1014,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ContentRatingPEGIRating.tsx"
+            "../discord_common/js/shared/shared-constants/ContentRatingPEGIRating.tsx"
         ],
         "find_with": [
             "UNKNOWN_RATING",
@@ -1035,7 +1035,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/CountryCodes.tsx"
+            "../discord_common/js/shared/shared-constants/CountryCodes.tsx"
         ],
         "find_with": [
             "AD",
@@ -1586,7 +1586,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/CountryCodesISO3to2.tsx"
+            "../discord_common/js/shared/shared-constants/CountryCodesISO3to2.tsx"
         ],
         "find_with": [
             "AD",
@@ -2077,7 +2077,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/DefaultProfileFrameDimensions.tsx"
+            "../discord_common/js/shared/shared-constants/DefaultProfileFrameDimensions.tsx"
         ],
         "find_with": [
             "INNER_WIDTH",
@@ -2092,7 +2092,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/DesignIds.tsx"
+            "../discord_common/js/shared/shared-constants/DesignIds.tsx"
         ],
         "find_with": [
             "CLASSIC_IA",
@@ -2107,7 +2107,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/DiscordContentClassificationFlags.tsx"
+            "../discord_common/js/shared/shared-constants/DiscordContentClassificationFlags.tsx"
         ],
         "find_with": [
             "EMERGENCY_ONLY_USE_IF_YOU_HAVE_TO_FORCE_MARK_AGE_RESTRICTED",
@@ -2140,7 +2140,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/DisplayNameEffect.tsx"
+            "../discord_common/js/shared/shared-constants/DisplayNameEffect.tsx"
         ],
         "find_with": [
             "SOLID",
@@ -2167,7 +2167,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/DisplayNameFont.tsx"
+            "../discord_common/js/shared/shared-constants/DisplayNameFont.tsx"
         ],
         "find_with": [
             "DEFAULT",
@@ -2198,7 +2198,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/EmbeddedActivityLocationKind.tsx"
+            "../discord_common/js/shared/shared-constants/EmbeddedActivityLocationKind.tsx"
         ],
         "find_with": [
             "gc",
@@ -2215,7 +2215,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/EntitlementFeatureNames.tsx"
+            "../discord_common/js/shared/shared-constants/EntitlementFeatureNames.tsx"
         ],
         "find_with": [
             "ANIMATED_EMOJIS",
@@ -2246,7 +2246,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/EntitlementTenantFulfillmentStatus.tsx"
+            "../discord_common/js/shared/shared-constants/EntitlementTenantFulfillmentStatus.tsx"
         ],
         "find_with": [
             "UNKNOWN",
@@ -2275,7 +2275,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/EphemeralMessageReason.tsx"
+            "../discord_common/js/shared/shared-constants/EphemeralMessageReason.tsx"
         ],
         "find_with": [
             "NONE",
@@ -2320,7 +2320,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ExperimentsConstants.tsx"
+            "../discord_common/js/shared/shared-constants/ExperimentsConstants.tsx"
         ],
         "find_with": [
             "2031446579660906796",
@@ -2329,7 +2329,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"
+            "../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"
         ],
         "find_with": [
             "CATEGORY",
@@ -2338,7 +2338,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/FirstPartyQuestTaskTypes.tsx"
+            "../discord_common/js/shared/shared-constants/FirstPartyQuestTaskTypes.tsx"
         ],
         "find_with": [
             "STREAM_ON_DESKTOP",
@@ -2368,7 +2368,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ForumLayout.tsx"
+            "../discord_common/js/shared/shared-constants/ForumLayout.tsx"
         ],
         "find_with": [
             "DEFAULT",
@@ -2382,7 +2382,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/FractionalPremiumSKUs.tsx"
+            "../discord_common/js/shared/shared-constants/FractionalPremiumSKUs.tsx"
         ],
         "find_with": [
             "1271583180566036480",
@@ -2397,7 +2397,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/GameFlags.tsx"
+            "../discord_common/js/shared/shared-constants/GameFlags.tsx"
         ],
         "find_with": [
             "GAME_PROFILE_DISABLED",
@@ -2406,7 +2406,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/GameGenres.tsx"
+            "../discord_common/js/shared/shared-constants/GameGenres.tsx"
         ],
         "find_with": [
             "ACTION",
@@ -2562,7 +2562,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/GameServerProviderType.tsx"
+            "../discord_common/js/shared/shared-constants/GameServerProviderType.tsx"
         ],
         "find_with": [
             "shockbyte",
@@ -2571,7 +2571,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/GameServerStatus.tsx"
+            "../discord_common/js/shared/shared-constants/GameServerStatus.tsx"
         ],
         "find_with": [
             "starting",
@@ -2594,7 +2594,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/GameWidgetLimits.tsx"
+            "../discord_common/js/shared/shared-constants/GameWidgetLimits.tsx"
         ],
         "find_with": [
             "GAME_WIDGET_LIMITS_BY_TYPE",
@@ -2605,7 +2605,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/GeneratedPaymentCurrencies.tsx"
+            "../discord_common/js/shared/shared-constants/GeneratedPaymentCurrencies.tsx"
         ],
         "find_with": [
             "APPLE_STORE_COUNTRY_CURRENCIES"
@@ -2613,7 +2613,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/GlobalDiscoveryServersLimits.tsx"
+            "../discord_common/js/shared/shared-constants/GlobalDiscoveryServersLimits.tsx"
         ],
         "find_with": [
             "FEATURED_DEFAULT_LIMIT",
@@ -2624,7 +2624,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/GuildFeedItemTypes.tsx"
+            "../discord_common/js/shared/shared-constants/GuildFeedItemTypes.tsx"
         ],
         "find_with": [
             "message",
@@ -2640,7 +2640,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/GuildInviteFlags.tsx"
+            "../discord_common/js/shared/shared-constants/GuildInviteFlags.tsx"
         ],
         "find_with": [
             "IS_GUEST_INVITE",
@@ -2660,7 +2660,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/GuildProfileLimits.tsx"
+            "../discord_common/js/shared/shared-constants/GuildProfileLimits.tsx"
         ],
         "find_with": [
             "MAX_TRAITS",
@@ -2673,7 +2673,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/GuildProfileVisibility.tsx"
+            "../discord_common/js/shared/shared-constants/GuildProfileVisibility.tsx"
         ],
         "find_with": [
             "NOT_SPECIFIED",
@@ -2689,7 +2689,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/IntegrationExpireBehaviorTypes.tsx"
+            "../discord_common/js/shared/shared-constants/IntegrationExpireBehaviorTypes.tsx"
         ],
         "find_with": [
             "REMOVE_ROLE",
@@ -2700,7 +2700,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/IntegrationExpireGracePeriodTypes.tsx"
+            "../discord_common/js/shared/shared-constants/IntegrationExpireGracePeriodTypes.tsx"
         ],
         "find_with": [
             "ONE_DAY",
@@ -2717,7 +2717,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/IntegrationTypes.tsx"
+            "../discord_common/js/shared/shared-constants/IntegrationTypes.tsx"
         ],
         "find_with": [
             "discord",
@@ -2733,7 +2733,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/MarketingComponentPlatform.tsx"
+            "../discord_common/js/shared/shared-constants/MarketingComponentPlatform.tsx"
         ],
         "find_with": [
             "DESKTOP",
@@ -2744,7 +2744,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/MarketingComponentType.tsx"
+            "../discord_common/js/shared/shared-constants/MarketingComponentType.tsx"
         ],
         "find_with": [
             "ANNOUNCEMENT_MODAL",
@@ -2781,7 +2781,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/MessageEmbedTypes.tsx"
+            "../discord_common/js/shared/shared-constants/MessageEmbedTypes.tsx"
         ],
         "find_with": [
             "image",
@@ -2828,7 +2828,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/MessageReferenceTypes.tsx"
+            "../discord_common/js/shared/shared-constants/MessageReferenceTypes.tsx"
         ],
         "find_with": [
             "DEFAULT",
@@ -2839,7 +2839,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/MessageTypes.tsx"
+            "../discord_common/js/shared/shared-constants/MessageTypes.tsx"
         ],
         "find_with": [
             "DEFAULT",
@@ -2997,7 +2997,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/MetricEvents.tsx"
+            "../discord_common/js/shared/shared-constants/MetricEvents.tsx"
         ],
         "find_with": [
             "app_crashed",
@@ -3090,7 +3090,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/NotifSettings.tsx"
+            "../discord_common/js/shared/shared-constants/NotifSettings.tsx"
         ],
         "find_with": [
             "CALLS",
@@ -3139,7 +3139,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/NotifTypes.tsx"
+            "../discord_common/js/shared/shared-constants/NotifTypes.tsx"
         ],
         "find_with": [
             "MESSAGE_CREATE",
@@ -3254,7 +3254,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/OAuth2Scopes.tsx"
+            "../discord_common/js/shared/shared-constants/OAuth2Scopes.tsx"
         ],
         "find_with": [
             "identify",
@@ -3381,7 +3381,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/OAuthConstants.tsx"
+            "../discord_common/js/shared/shared-constants/OAuthConstants.tsx"
         ],
         "find_with": [
             "USER_CODE_LENGTH",
@@ -3390,7 +3390,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/OpenCriticTier.tsx"
+            "../discord_common/js/shared/shared-constants/OpenCriticTier.tsx"
         ],
         "find_with": [
             "MIGHTY",
@@ -3405,7 +3405,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/PasswordResetMethods.tsx"
+            "../discord_common/js/shared/shared-constants/PasswordResetMethods.tsx"
         ],
         "find_with": [
             "one_time_login",
@@ -3416,7 +3416,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/PauseDuration.tsx"
+            "../discord_common/js/shared/shared-constants/PauseDuration.tsx"
         ],
         "find_with": [
             "ONE_MONTH",
@@ -3429,7 +3429,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/PlatformType.tsx"
+            "../discord_common/js/shared/shared-constants/PlatformType.tsx"
         ],
         "find_with": [
             "DESKTOP",
@@ -3452,7 +3452,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/PollLayoutTypes.tsx"
+            "../discord_common/js/shared/shared-constants/PollLayoutTypes.tsx"
         ],
         "find_with": [
             "UNKNOWN",
@@ -3465,7 +3465,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/Powerups.tsx"
+            "../discord_common/js/shared/shared-constants/Powerups.tsx"
         ],
         "find_with": [
             "1387197800336330924",
@@ -3496,7 +3496,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/PremiumGuildOverrides.tsx"
+            "../discord_common/js/shared/shared-constants/PremiumGuildOverrides.tsx"
         ],
         "find_with": [
             "MAX_STICKER_SLOTS",
@@ -3505,7 +3505,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ProfileFrameLayerOrder.tsx"
+            "../discord_common/js/shared/shared-constants/ProfileFrameLayerOrder.tsx"
         ],
         "find_with": [
             "front",
@@ -3516,7 +3516,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ProgramCurrentState.tsx"
+            "../discord_common/js/shared/shared-constants/ProgramCurrentState.tsx"
         ],
         "find_with": [
             "active",
@@ -3533,7 +3533,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/QuestConsoleStartError.tsx"
+            "../discord_common/js/shared/shared-constants/QuestConsoleStartError.tsx"
         ],
         "find_with": [
             "no_game_online",
@@ -3556,7 +3556,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/QuestContent.tsx"
+            "../discord_common/js/shared/shared-constants/QuestContent.tsx"
         ],
         "find_with": [
             "GIFT_INVENTORY_SETTINGS_BADGE",
@@ -3697,7 +3697,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/QuestOrbsMultiplier.tsx"
+            "../discord_common/js/shared/shared-constants/QuestOrbsMultiplier.tsx"
         ],
         "find_with": [
             "PREMIUM_TIER_2_MULTIPLIER_PERCENTAGE_POINTS",
@@ -3706,7 +3706,16 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/QuestPlacement.tsx"
+            "../discord_common/js/shared/shared-constants/QuestOrbsMultiplier.tsx"
+        ],
+        "find_with": [
+            "PREMIUM_TIER_2_MULTIPLIER_PERCENTAGE_POINTS",
+            "PREMIUM_TIER_2_MULTIPLIER_PERCENTAGE_POINTS"
+        ]
+    },
+    {
+        "paths": [
+            "../discord_common/js/shared/shared-constants/QuestPlacement.tsx"
         ],
         "find_with": [
             "INVALID_PLACEMENT",
@@ -3723,7 +3732,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/QuestRewardAssignmentMethods.tsx"
+            "../discord_common/js/shared/shared-constants/QuestRewardAssignmentMethods.tsx"
         ],
         "find_with": [
             "ALL",
@@ -3734,7 +3743,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/QuestRewardCodePlatforms.tsx"
+            "../discord_common/js/shared/shared-constants/QuestRewardCodePlatforms.tsx"
         ],
         "find_with": [
             "CROSS_PLATFORM",
@@ -3751,7 +3760,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/QuestRewardExpirationMode.tsx"
+            "../discord_common/js/shared/shared-constants/QuestRewardExpirationMode.tsx"
         ],
         "find_with": [
             "NORMAL",
@@ -3764,7 +3773,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/QuestRewardTypes.tsx"
+            "../discord_common/js/shared/shared-constants/QuestRewardTypes.tsx"
         ],
         "find_with": [
             "REWARD_CODE",
@@ -3781,7 +3790,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/QuestSharePolicy.tsx"
+            "../discord_common/js/shared/shared-constants/QuestSharePolicy.tsx"
         ],
         "find_with": [
             "shareable_everywhere",
@@ -3792,7 +3801,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/QuestTaskConfigTypes.tsx"
+            "../discord_common/js/shared/shared-constants/QuestTaskConfigTypes.tsx"
         ],
         "find_with": [
             "FIRST_PARTY",
@@ -3803,7 +3812,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"
+            "../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"
         ],
         "find_with": [
             "and",
@@ -3814,7 +3823,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/QuestType.tsx"
+            "../discord_common/js/shared/shared-constants/QuestType.tsx"
         ],
         "find_with": [
             "GAMEPLAY",
@@ -3825,7 +3834,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/QuestVariants.tsx"
+            "../discord_common/js/shared/shared-constants/QuestVariants.tsx"
         ],
         "find_with": [
             "POST_ENROLLMENT_CTA",
@@ -3912,7 +3921,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ReleaseChannels.tsx"
+            "../discord_common/js/shared/shared-constants/ReleaseChannels.tsx"
         ],
         "find_with": [
             "CANARY_RELEASE",
@@ -3944,7 +3953,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ReportMenuType.tsx"
+            "../discord_common/js/shared/shared-constants/ReportMenuType.tsx"
         ],
         "find_with": [
             "message",
@@ -3972,7 +3981,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/RewardProgram.tsx"
+            "../discord_common/js/shared/shared-constants/RewardProgram.tsx"
         ],
         "find_with": [
             "NITRO",
@@ -3983,7 +3992,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/SKUFlags.tsx"
+            "../discord_common/js/shared/shared-constants/SKUFlags.tsx"
         ],
         "find_with": [
             "PREMIUM_PURCHASE",
@@ -4022,7 +4031,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/SavedMessagesConstants.tsx"
+            "../discord_common/js/shared/shared-constants/SavedMessagesConstants.tsx"
         ],
         "find_with": [
             "SAVED_MESSAGES_MAX"
@@ -4030,7 +4039,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/Search.tsx"
+            "../discord_common/js/shared/shared-constants/Search.tsx"
         ],
         "find_with": [
             "MAX_MESSAGE_SEARCH_RESULTS_OFFSET",
@@ -4040,7 +4049,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/SearchAppsRequestSource.tsx"
+            "../discord_common/js/shared/shared-constants/SearchAppsRequestSource.tsx"
         ],
         "find_with": [
             "APP_DIRECTORY",
@@ -4051,7 +4060,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/SettingsDefaultFeature.tsx"
+            "../discord_common/js/shared/shared-constants/SettingsDefaultFeature.tsx"
         ],
         "find_with": [
             "NONE",
@@ -4070,7 +4079,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ShopBlockType.tsx"
+            "../discord_common/js/shared/shared-constants/ShopBlockType.tsx"
         ],
         "find_with": [
             "HERO",
@@ -4099,7 +4108,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ShopHomeSortType.tsx"
+            "../discord_common/js/shared/shared-constants/ShopHomeSortType.tsx"
         ],
         "find_with": [
             "recommended",
@@ -4116,7 +4125,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ShopVariantsReturnStyle.tsx"
+            "../discord_common/js/shared/shared-constants/ShopVariantsReturnStyle.tsx"
         ],
         "find_with": [
             "INDIVIDUAL_PRODUCTS",
@@ -4127,7 +4136,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/SnowflakeSelectDefaultValueTypes.tsx"
+            "../discord_common/js/shared/shared-constants/SnowflakeSelectDefaultValueTypes.tsx"
         ],
         "find_with": [
             "user",
@@ -4140,7 +4149,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/StatusDisplayTypes.tsx"
+            "../discord_common/js/shared/shared-constants/StatusDisplayTypes.tsx"
         ],
         "find_with": [
             "NAME",
@@ -4153,7 +4162,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/SteamReleaseStatus.tsx"
+            "../discord_common/js/shared/shared-constants/SteamReleaseStatus.tsx"
         ],
         "find_with": [
             "PRE_RELEASE",
@@ -4170,7 +4179,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/StorefrontPlatform.tsx"
+            "../discord_common/js/shared/shared-constants/StorefrontPlatform.tsx"
         ],
         "find_with": [
             "desktop",
@@ -4183,7 +4192,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/SurveyActionSamplePercents.tsx"
+            "../discord_common/js/shared/shared-constants/SurveyActionSamplePercents.tsx"
         ],
         "find_with": [
             "SURVEY_ACTION_SAMPLE_PERCENTS"
@@ -4191,7 +4200,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/SurveyActionTypes.tsx"
+            "../discord_common/js/shared/shared-constants/SurveyActionTypes.tsx"
         ],
         "find_with": [
             "nitro_unsubbed",
@@ -4214,7 +4223,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ThirdPartyGameApplicationThemes.tsx"
+            "../discord_common/js/shared/shared-constants/ThirdPartyGameApplicationThemes.tsx"
         ],
         "find_with": [
             "THRILLER",
@@ -4263,7 +4272,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ThirdPartyGameApplicationWebsiteCategory.tsx"
+            "../discord_common/js/shared/shared-constants/ThirdPartyGameApplicationWebsiteCategory.tsx"
         ],
         "find_with": [
             "OFFICIAL",
@@ -4314,7 +4323,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ThreadSearchTagSetting.tsx"
+            "../discord_common/js/shared/shared-constants/ThreadSearchTagSetting.tsx"
         ],
         "find_with": [
             "match_all",
@@ -4326,7 +4335,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/ThreadSortOrder.tsx"
+            "../discord_common/js/shared/shared-constants/ThreadSortOrder.tsx"
         ],
         "find_with": [
             "LATEST_ACTIVITY",
@@ -4338,7 +4347,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/TrendingType.tsx"
+            "../discord_common/js/shared/shared-constants/TrendingType.tsx"
         ],
         "find_with": [
             "TRENDING_TYPE_UNSPECIFIED",
@@ -4349,7 +4358,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/TwoWayLinkType.tsx"
+            "../discord_common/js/shared/shared-constants/TwoWayLinkType.tsx"
         ],
         "find_with": [
             "mobile",
@@ -4365,7 +4374,7 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/WidgetGameTag.tsx"
+            "../discord_common/js/shared/shared-constants/WidgetGameTag.tsx"
         ],
         "find_with": [
             "better_than_you",
@@ -4420,24 +4429,16 @@
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/WidgetType.tsx"
+            "../discord_common/js/shared/shared-constants/Notifications.tsx"
         ],
         "find_with": [
-            "current_games",
-            "CURRENT_GAMES",
-            "want_to_play_games",
-            "WANT_TO_PLAY_GAMES",
-            "played_games",
-            "PLAYED_GAMES",
-            "favorite_games",
-            "FAVORITE_GAMES",
-            "application",
-            "APPLICATION"
+            "StreamNotificationsGuildMaxSize",
+            "50"
         ]
     },
     {
         "paths": [
-            "development/downloaded/source/discord_common/js/shared/shared-constants/WishlistVisibility.tsx"
+            "../discord_common/js/shared/shared-constants/WishlistVisibility.tsx"
         ],
         "find_with": [
             "PRIVATE",
@@ -4616,6 +4617,17 @@
     },
     {
         "paths": [
+            "../discord_common/js/shared/constants/web/AvatarConstants.tsx"
+        ],
+        "find_with": [
+            "DEPRECATED_SIZE_60",
+            "BLACK",
+            "black",
+            "number"
+        ]
+    },
+    {
+        "paths": [
             "../discord_common/js/shared/config/colors/generated/ThemeTypes.tsx"
         ],
         "find_with": [
@@ -4638,6 +4650,179 @@
     },
     {
         "paths": [
+            "../discord_common/js/shared/utils/BigFlagUtils.tsx"
+        ],
+        "find_with": [
+            "class",
+            "Number(BigInt.asUintN(",
+            "BigInt(1) <<"
+        ]
+    },
+    {
+        "paths": [
+            "../discord_common/js/shared/utils/BrowserConstants.tsx"
+        ],
+        "find_with": [
+            "OculusBrowser",
+            "window.WebSocket",
+            "createEncodedStreams"
+        ]
+    },
+    {
+        "paths": [
+            "../discord_common/js/shared/utils/ClientModDetectionUtils.tsx"
+        ],
+        "find_with": [
+            ".BdApi",
+            ".Vencord",
+            "null",
+            "=",
+            "window",
+            "||"
+        ]
+    },
+    {
+        "paths": [
+            "../discord_common/js/shared/utils/ColorUtils.tsx"
+        ],
+        "find_with": [
+            "calc(var(--saturation-factor, 1) *"
+        ]
+    },
+    {
+        "paths": [
+            "../discord_common/js/shared/utils/ComponentDispatchUtils.tsx"
+        ],
+        "find_with": [
+            "ComponentDispatch.resubscribe:",
+            "safeDispatch"
+        ]
+    },
+    {
+        "paths": [
+            "../discord_common/js/shared/utils/DOMUtils.tsx"
+        ],
+        "find_with": [
+            "Unable to determine render window for element",
+            "Element"
+        ]
+    },
+    {
+        "paths": [
+            "../discord_common/js/shared/utils/FlagUtils.tsx"
+        ],
+        "find_with": [
+            {
+                "type": "regexp",
+                "value": "return \\(\\w & \\w\\) === \\w",
+                "flags": ""
+            },
+            {
+                "type": "regexp",
+                "value": "return \\w & \\w",
+                "flags": ""
+            }
+        ]
+    },
+    {
+        "paths": [
+            "../discord_common/js/shared/utils/Future.tsx"
+        ],
+        "find_with": [
+            "class",
+            "this.promise = new Promise",
+            "this.resolve",
+            "this.reject"
+        ]
+    },
+    {
+        "paths": [
+            "../discord_common/js/shared/utils/GlobalUtils.tsx"
+        ],
+        "find_with": [
+            "typeof globalThis",
+            "typeof window",
+            "typeof self",
+            "Object.create"
+        ]
+    },
+    {
+        "paths": [
+            "../discord_common/js/shared/utils/PathUtils.tsx"
+        ],
+        "find_with": [
+            "GLOBAL_ENV.WEBAPP_ENDPOINT",
+            "?redirect_to=",
+            "encodeURIComponent"
+        ]
+    },
+    {
+        "paths": [
+            "../discord_common/js/shared/utils/PlatformUtils.tsx"
+        ],
+        "find_with": [
+            "(android ).+chrome/[.0-9]* mobile",
+            "LINUX",
+            "WEB"
+        ]
+    },
+    {
+        "paths": [
+            "../discord_common/js/shared/utils/PriceUtils.tsx"
+        ],
+        "find_with": [
+            ".DISCORD_ORB",
+            "convertToMajorUnits"
+        ]
+    },
+    {
+        "paths": [
+            "../discord_common/js/shared/utils/ReactBatchUpdates.tsx"
+        ],
+        "find_with": [
+            ".unstable_batchedUpdates)"
+        ]
+    },
+    {
+        "paths": [
+            "../discord_common/js/shared/utils/SetUtils.tsx"
+        ],
+        "find_with": [
+            "size !==",
+            "for",
+            ".has(",
+            "instanceof Set",
+            "new Set()"
+        ]
+    },
+    {
+        "paths": [
+            "../discord_common/js/shared/utils/SnowflakeUtils.tsx"
+        ],
+        "find_with": [
+            "Snowflake sequence number overflow:"
+        ]
+    },
+    {
+        "paths": [
+            "app/utils/web/DesktopNativeUtils.tsx"
+        ],
+        "find_with": [
+            "lastImageSaveDirectory",
+            "discord_rpc"
+        ]
+    },
+    {
+        "paths": [
+            "app/lib/spellcheck/LanguageDetector.tsx"
+        ],
+        "find_with": [
+            "Not enough reliable text.",
+            "discord_spellcheck"
+        ]
+    },
+    {
+        "paths": [
             "../discord_common/js/shared/modules/content_classification/lib/ContentClassificationToAgeRestriction.tsx"
         ],
         "find_with": [
@@ -4649,7 +4834,7 @@
     },
     {
         "paths": [
-            ".../discord_common/js/shared/DevtoolsExtension.tsx"
+            "../discord_common/js/shared/DevtoolsExtension.tsx"
         ],
         "find_with": [
             "__DISCORD_DEVTOOLS"
