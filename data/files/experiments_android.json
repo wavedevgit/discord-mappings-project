@@ -228,12 +228,6 @@
         "keyRequired": "treatments"
     },
     {
-        "path": "app/modules/content_inventory/memberlist/ActiveTimestampStylingExperiment.tsx",
-        "kind": "user",
-        "id": "2025-12-active-timestamp-styling",
-        "keyRequired": "variations"
-    },
-    {
         "path": "app/modules/croissant/crepe/CrepeExperiment.tsx",
         "kind": "user",
         "id": "2026-03-crepe",
@@ -249,6 +243,12 @@
         "path": "app/modules/design/RiveMobileRendererExperiment.tsx",
         "kind": "user",
         "id": "2025-12-rive-mobile-renderer",
+        "keyRequired": "variations"
+    },
+    {
+        "path": "app/modules/dice_roll/DiceRollExperiment.tsx",
+        "kind": "user",
+        "id": "2026-05-dice-roll-slash-command",
         "keyRequired": "variations"
     },
     {
@@ -314,9 +314,9 @@
         "keyRequired": "variations"
     },
     {
-        "path": "app/modules/game_profile/experiments/GameProfileMobileExperiment.tsx",
+        "path": "app/modules/game_mentions/GameMentionsExperiment.tsx",
         "kind": "user",
-        "id": "2026-03-game-profiles-mobile",
+        "id": "2026-05-game-mentions-v2",
         "keyRequired": "variations"
     },
     {
@@ -392,6 +392,12 @@
         "keyRequired": "treatments"
     },
     {
+        "path": "app/modules/guilds_bar/DontBadgeMutedVcsExperiment.tsx",
+        "kind": "user",
+        "id": "2026-06-dont-badge-muted-vcs",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/hangout_window/HangoutWindowExperiment.tsx",
         "kind": "guild",
         "id": "2026-02_hangout_window",
@@ -434,12 +440,6 @@
         "keyRequired": "variations"
     },
     {
-        "path": "app/modules/in_app_notifications/native/InAppNotificationReactExperiment.tsx",
-        "kind": "user",
-        "id": "2026-04-in-app-notification-react",
-        "keyRequired": "variations"
-    },
-    {
         "path": "app/modules/in_app_notifications/native/InAppNotificationRedesignExperiment.tsx",
         "kind": "user",
         "id": "2026-04-in-app-notification-redesign",
@@ -467,6 +467,12 @@
         "path": "app/modules/keyboard/native/AnimatedKeyboardExperiment.tsx",
         "kind": "user",
         "id": "2025-08-animated-keyboard-android",
+        "keyRequired": "variations"
+    },
+    {
+        "path": "app/modules/lurker_mode/experiments/MobileLurkerServerPreviewExperiment.tsx",
+        "kind": "user",
+        "id": "2026-05-mobile-lurker-server-preview",
         "keyRequired": "variations"
     },
     {

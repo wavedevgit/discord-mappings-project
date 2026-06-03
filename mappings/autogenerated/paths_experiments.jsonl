@@ -33,10 +33,10 @@
 {"find_with":["user","2026-04-collectibles-profile-frames-purchase","variations"],"paths":["app/modules/collectibles/experiments/CollectiblesProfileFramesPurchaseExperiment.tsx"]}
 {"find_with":["user","2026-04-shop-card-impression-mobile","variations"],"paths":["app/modules/collectibles/experiments/CollectiblesShopCardImpressionMobileExperiment.tsx"]}
 {"find_with":["guild","2026-04_application_identity_linked_roles","treatments"],"paths":["app/modules/connections/experiments/ApplicationIdentityLinkedRolesExperiment.tsx"]}
-{"find_with":["user","2025-12-active-timestamp-styling","variations"],"paths":["app/modules/content_inventory/memberlist/ActiveTimestampStylingExperiment.tsx"]}
 {"find_with":["user","2026-03-crepe","variations"],"paths":["app/modules/croissant/crepe/CrepeExperiment.tsx"]}
 {"find_with":["user","2026-02-mana-playground-access","variations"],"paths":["app/modules/design/PlaygroundAccessExperiment.tsx"]}
 {"find_with":["user","2025-12-rive-mobile-renderer","variations"],"paths":["app/modules/design/RiveMobileRendererExperiment.tsx"]}
+{"find_with":["user","2026-05-dice-roll-slash-command","variations"],"paths":["app/modules/dice_roll/DiceRollExperiment.tsx"]}
 {"find_with":["user","2026-02-double-tap-expand","variations"],"paths":["app/modules/double_tap_to_react/native/DoubleTapExpandExperiment.tsx"]}
 {"find_with":["user","2025-10-emoji-search-ranking-tweaks","variations"],"paths":["app/modules/emojis/EmojiSearchRankingTweaksExperiment.tsx"]}
 {"find_with":["user","2026-03-debug-experiment","variations"],"paths":["app/modules/experiments/apex/DebugExperiment.tsx"]}
@@ -46,7 +46,7 @@
 {"find_with":["guild","2026-02_game_claim_coachmark","treatments"],"paths":["app/modules/game_claim/experiments/GameClaimCoachmarkExperiment.tsx"]}
 {"find_with":["user","2026-02-game-community-upsell-multi","variations"],"paths":["app/modules/game_community_upsell/native/GameCommunityUpsellExperiment.tsx"]}
 {"find_with":["user","2026-03-churro","variations"],"paths":["app/modules/game_console/PlayStationVoiceExperiment.tsx"]}
-{"find_with":["user","2026-03-game-profiles-mobile","variations"],"paths":["app/modules/game_profile/experiments/GameProfileMobileExperiment.tsx"]}
+{"find_with":["user","2026-05-game-mentions-v2","variations"],"paths":["app/modules/game_mentions/GameMentionsExperiment.tsx"]}
 {"find_with":["user","2026-03-game-update-notification","variations"],"paths":["app/modules/game_update/GameUpdateExperiment.tsx"]}
 {"find_with":["user","2026-02-private-channel-hiding","variations"],"paths":["app/modules/gateway/PrivateChannelHidingExperiment.tsx"]}
 {"find_with":["user","2025-10-gif-providers-multi-treatment","variations"],"paths":["app/modules/gif_picker/experiments/GifProvidersExperiment.tsx"]}
@@ -59,6 +59,7 @@
 {"find_with":["guild","2022-12_mention_raid_limit","treatments"],"paths":["app/modules/guild_automod/AutomodExperiment.tsx"]}
 {"find_with":["user","2026-02-pubsub-bulk-ban-users","variations"],"paths":["app/modules/guild_mod_dash_member_safety/web/BulkBanPubSubExperiment.tsx"]}
 {"find_with":["user","2025-11_tida_webform","treatments"],"paths":["app/modules/guild/TidaWebformExperiment.tsx"]}
+{"find_with":["user","2026-06-dont-badge-muted-vcs","variations"],"paths":["app/modules/guilds_bar/DontBadgeMutedVcsExperiment.tsx"]}
 {"find_with":["guild","2026-02_hangout_window","treatments"],"paths":["app/modules/hangout_window/HangoutWindowExperiment.tsx"]}
 {"find_with":["user","2026-05-frictionless-gdms","variations"],"paths":["app/modules/header_bar/FrictionlessGDMsExperiment.tsx"]}
 {"find_with":["user","2025-10-mobile-home-drawer","variations"],"paths":["app/modules/home_drawer/native/HomeDrawerExperiment.tsx"]}
@@ -66,12 +67,12 @@
 {"find_with":["user","2025-10-force-sdr-emojis-stickers","variations"],"paths":["app/modules/image_upload/ForceSdrEmojisStickersExperiment.tsx"]}
 {"find_with":["user","2025-12-mobile-lossless-image-upload-v2","variations"],"paths":["app/modules/image_upload/MobileLosslessImageUploadV2Experiment.tsx"]}
 {"find_with":["user","2026-05-in-app-notification-expand","variations"],"paths":["app/modules/in_app_notifications/native/InAppNotificationExpandExperiment.tsx"]}
-{"find_with":["user","2026-04-in-app-notification-react","variations"],"paths":["app/modules/in_app_notifications/native/InAppNotificationReactExperiment.tsx"]}
 {"find_with":["user","2026-04-in-app-notification-redesign","variations"],"paths":["app/modules/in_app_notifications/native/InAppNotificationRedesignExperiment.tsx"]}
 {"find_with":["user","2026-03-show-in-app-reaction-notifications","variations"],"paths":["app/modules/in_app_notifications/ShowInAppReactionNotificationExperiment.tsx"]}
 {"find_with":["user","2023-09_iar_user_reporting","treatments"],"paths":["app/modules/in_app_reports/SafetyExperienceIarUserReportingExperiment.tsx"]}
 {"find_with":["guild","2026-04_voice_invite_suggestion_placement","treatments"],"paths":["app/modules/instant_invite/VoiceInviteSuggestionsPlacementExperiment.tsx"]}
 {"find_with":["user","2025-08-animated-keyboard-android","variations"],"paths":["app/modules/keyboard/native/AnimatedKeyboardExperiment.tsx"]}
+{"find_with":["user","2026-05-mobile-lurker-server-preview","variations"],"paths":["app/modules/lurker_mode/experiments/MobileLurkerServerPreviewExperiment.tsx"]}
 {"find_with":["user","2025-12-connection-indicator","variations"],"paths":["app/modules/main_tabs_v2/native/ConnectionIndicatorExperiment.tsx"]}
 {"find_with":["user","2026-04-mobile-gdm-suggested-friends","variations"],"paths":["app/modules/main_tabs_v2/native/friends/screens/GDMSuggestedFriendsExperiment.tsx"]}
 {"find_with":["user","2026-04-hide-covered-channels","variations"],"paths":["app/modules/main_tabs_v2/native/HideCoveredChannelsExperiment.tsx"]}
