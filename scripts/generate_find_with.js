@@ -60,9 +60,11 @@ for (let file of client) {
 const stores = androidsrc
     .filter((f) => path.basename(f.file).endsWith('Store.tsx'))
     .map((f) => ({
-        find_with: `static displayName = "${path
-            .basename(f.file)
-            .replace('.tsx', '')}"`,
+        find_with: new RegExp(
+            `static\\s+displayName\\s*=\\s*["']${path
+                .basename(f.file)
+                .replace('.tsx', '')}["']`,
+        ),
         paths: [f.file],
     }));
 
