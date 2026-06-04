@@ -61,7 +61,7 @@ for (const item of data) {
         experiments.push(res);
     }
     // actions, uses endpoints used and methods
-    if (item.file.endsWith('ActivitiesActionCreators.tsx')) {
+    if (item.file.endsWith('ActionCreators.tsx')) {
         const content = (
             await get(BASE_URL.concat('/source/', item.file))
         ).split('\n');
