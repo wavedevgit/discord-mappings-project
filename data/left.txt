@@ -853,6 +853,7 @@ app/design/components/mana-assets/native/generated/OrbNitroCardSpotIllustration.
 app/design/components/mana-assets/native/generated/OrbNitroMultiplierSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/OrbNitroSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/PaintIllocon.tsx
+app/design/components/mana-assets/native/generated/PasskeysSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/PencilIllocon.tsx
 app/design/components/mana-assets/native/generated/PingPongPaddleIllocon.tsx
 app/design/components/mana-assets/native/generated/PlaneIllocon.tsx
@@ -879,6 +880,7 @@ app/design/components/mana-assets/native/generated/SafetyShieldCenter3dIllustrat
 app/design/components/mana-assets/native/generated/SafetyShieldIllocon.tsx
 app/design/components/mana-assets/native/generated/SafetyShieldLeft3dIllustration.tsx
 app/design/components/mana-assets/native/generated/SafetyShieldRight3dIllustration.tsx
+app/design/components/mana-assets/native/generated/SecurityKeySpotIllustration.tsx
 app/design/components/mana-assets/native/generated/ServerBannerDefaultExample.tsx
 app/design/components/mana-assets/native/generated/ServerBannerStaffServerExample.tsx
 app/design/components/mana-assets/native/generated/ServerBannerTheCrewExample.tsx
@@ -2557,6 +2559,7 @@ app/modules/debug/native/ShareLogsButton.tsx
 app/modules/debug/serializeAppStartLogs.tsx
 app/modules/debug/serializePushNotifcationLogs.tsx
 app/modules/deep_link/DeepLinkTypes.tsx
+app/modules/design/RiveAppStatePlaybackExperiment.tsx
 app/modules/device/BillingPlatformUtils.tsx
 app/modules/device/constants/DeviceState.tsx
 app/modules/device/DeviceState.tsx
@@ -3127,7 +3130,6 @@ app/modules/games/hooks/useGame.tsx
 app/modules/games/hooks/useGameArtworkUrls.tsx
 app/modules/games/hooks/useGameNameAndCoverImage.tsx
 app/modules/games/hooks/useResolveGame.tsx
-app/modules/games/utils/getApplicationIdsForGame.tsx
 app/modules/gateway/ActionBatcher.tsx
 app/modules/gateway/BasicWorkScheduler.tsx
 app/modules/gateway/ChannelResyncManager.tsx
@@ -5154,6 +5156,7 @@ app/modules/panels/morphable/native/triggerIOSHaptic.tsx
 app/modules/panels/morphable/native/useMorphablePanelGesture.tsx
 app/modules/panels/morphable/native/useScreenNameSharedValue.tsx
 app/modules/panels/native/PanelsConfig.tsx
+app/modules/parent_tools/ChangeSpendingLimitFormState.tsx
 app/modules/parent_tools/FamilyCenter.messages.js
 app/modules/parent_tools/FamilyCenterActionCreators.tsx
 app/modules/parent_tools/FamilyCenterActivityPurchaseRowUtils.tsx
@@ -5180,6 +5183,7 @@ app/modules/parent_tools/hooks/useUserAgeGroup.tsx
 app/modules/parent_tools/hooks/useUserIsConsideredAdult.tsx
 app/modules/parent_tools/hooks/useUserIsTeenAgeGroup.tsx
 app/modules/parent_tools/hooks/useUserLinks.tsx
+app/modules/parent_tools/native/ChangeSpendingLimitModal.tsx
 app/modules/parent_tools/native/FamilyCenterAcceptedLinks.tsx
 app/modules/parent_tools/native/FamilyCenterActivityBanner.tsx
 app/modules/parent_tools/native/FamilyCenterActivityCard.tsx
@@ -5221,6 +5225,7 @@ app/modules/parent_tools/RestrictedHoursActionCreators.tsx
 app/modules/parent_tools/RestrictedHoursManager.tsx
 app/modules/parent_tools/RestrictedScheduleActionCreators.tsx
 app/modules/parent_tools/RestrictedScheduleNotificationUtils.tsx
+app/modules/parent_tools/SpendingLimitDisplay.tsx
 app/modules/parent_tools/SpendingLimitUtils.tsx
 app/modules/payments/hooks/useSubscriptionSelection.tsx
 app/modules/payments/native/hooks/NativePaymentHooks.android.tsx
@@ -5301,6 +5306,7 @@ app/modules/premium_apps/ApplicationSubscriptionsHttpApi.tsx
 app/modules/premium_apps/ApplicationSubscriptionSystemMessageUtils.tsx
 app/modules/premium/enhanced_role_colors/EnhancedRoleColorUtils.tsx
 app/modules/premium/enhanced_role_colors/native/EnhancedRoleColorUtils.tsx
+app/modules/premium/experiments/AndroidTwoWeekTrialsExperiment.tsx
 app/modules/premium/experiments/BOGOPromotionMarketingMaterialsExperiments.tsx
 app/modules/premium/fractional/native/BoostingCountDownPill.tsx
 app/modules/premium/fractional/native/LargeCountDownPill.tsx
@@ -5684,6 +5690,7 @@ app/modules/quests/native/BountiesModal/BountyCtaHelpers.tsx
 app/modules/quests/native/BountiesModal/BountyVideo.tsx
 app/modules/quests/native/BountiesModal/useBountiesModalTiming.tsx
 app/modules/quests/native/BountiesModal/useBountiesModalVideoAnalytics.tsx
+app/modules/quests/native/BountiesModal/useBountyVideoProgressPersistence.tsx
 app/modules/quests/native/BountiesNuxPromoSheet.tsx
 app/modules/quests/native/BountyCard.tsx
 app/modules/quests/native/openBountiesNuxPromoSheet.tsx
@@ -8046,6 +8053,7 @@ discord_assets/assets/mana/asset-library/generated/OrbNitroCardSpotIllustration-
 discord_assets/assets/mana/asset-library/generated/OrbNitroMultiplierSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/OrbNitroSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/PaintIllocon-2x.png.js
+discord_assets/assets/mana/asset-library/generated/PasskeysSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/PencilIllocon-2x.png.js
 discord_assets/assets/mana/asset-library/generated/PingPongPaddleIllocon-2x.png.js
 discord_assets/assets/mana/asset-library/generated/PlaneIllocon-2x.png.js
@@ -8072,6 +8080,7 @@ discord_assets/assets/mana/asset-library/generated/SafetyShieldCenter3dIllustrat
 discord_assets/assets/mana/asset-library/generated/SafetyShieldIllocon-2x.png.js
 discord_assets/assets/mana/asset-library/generated/SafetyShieldLeft3dIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/SafetyShieldRight3dIllustration-2x.png.js
+discord_assets/assets/mana/asset-library/generated/SecurityKeySpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/ServerBannerDefaultExample-2x.png.js
 discord_assets/assets/mana/asset-library/generated/ServerBannerStaffServerExample-2x.png.js
 discord_assets/assets/mana/asset-library/generated/ServerBannerTheCrewExample-2x.png.js
