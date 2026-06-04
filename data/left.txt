@@ -2559,7 +2559,6 @@ app/modules/debug/native/ShareLogsButton.tsx
 app/modules/debug/serializeAppStartLogs.tsx
 app/modules/debug/serializePushNotifcationLogs.tsx
 app/modules/deep_link/DeepLinkTypes.tsx
-app/modules/design/RiveAppStatePlaybackExperiment.tsx
 app/modules/device/BillingPlatformUtils.tsx
 app/modules/device/constants/DeviceState.tsx
 app/modules/device/DeviceState.tsx
@@ -5306,7 +5305,6 @@ app/modules/premium_apps/ApplicationSubscriptionsHttpApi.tsx
 app/modules/premium_apps/ApplicationSubscriptionSystemMessageUtils.tsx
 app/modules/premium/enhanced_role_colors/EnhancedRoleColorUtils.tsx
 app/modules/premium/enhanced_role_colors/native/EnhancedRoleColorUtils.tsx
-app/modules/premium/experiments/AndroidTwoWeekTrialsExperiment.tsx
 app/modules/premium/experiments/BOGOPromotionMarketingMaterialsExperiments.tsx
 app/modules/premium/fractional/native/BoostingCountDownPill.tsx
 app/modules/premium/fractional/native/LargeCountDownPill.tsx

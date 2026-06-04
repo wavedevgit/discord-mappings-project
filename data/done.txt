@@ -111,6 +111,7 @@ app/modules/conversations/ConversationVisibilityStore.tsx
 app/modules/creator_monetization/CreatorMonetizationStore.tsx
 app/modules/croissant/crepe/CrepeExperiment.tsx
 app/modules/design/PlaygroundAccessExperiment.tsx
+app/modules/design/RiveAppStatePlaybackExperiment.tsx
 app/modules/design/RiveMobileRendererExperiment.tsx
 app/modules/devtools/AnalyticsLogStore.tsx
 app/modules/devtools/design_toggles/DesignTogglesStore.tsx
@@ -378,6 +379,7 @@ app/modules/phone/PhoneStore.tsx
 app/modules/poggermode/PoggermodeSettingsStore.tsx
 app/modules/poggermode/PoggermodeStore.tsx
 app/modules/polls/PollsInteractionStore.tsx
+app/modules/premium/experiments/AndroidTwoWeekTrialsExperiment.tsx
 app/modules/premium/experiments/BogoPromotionExperiment.tsx
 app/modules/premium/experiments/CalculatedYearlyDiscountPercentageExperiment.tsx
 app/modules/premium/experiments/DenormalizedPerksReadExperiment.tsx
