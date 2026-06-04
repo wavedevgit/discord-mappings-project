@@ -126,6 +126,6 @@ await fs.writeFile(
 );
 await fs.writeFile(
     './data/files/actions_android.json',
-    JSON.stringify(experiments, null, 4),
+    JSON.stringify(actions, null, 4),
     'utf-8',
 );
