@@ -8,6 +8,726 @@
         ]
     },
     {
+        "path": "app/actions/AnalyticsTrackingActionCreators.tsx",
+        "flux_events": [
+            "TRACK"
+        ]
+    },
+    {
+        "path": "app/actions/AudioActionCreators.tsx",
+        "flux_events": [
+            "MEDIA_ENGINE_SET_USE_SYSTEM_SCREENSHARE_PICKER",
+            "MEDIA_ENGINE_SET_ENABLE_HARDWARE_MUTE_NOTICE",
+            "AUDIO_SET_BYPASS_SYSTEM_INPUT_PROCESSING",
+            "AUDIO_SET_SIDECHAIN_COMPRESSION_STRENGTH",
+            "MEDIA_ENGINE_SET_EXPERIMENTAL_SOUNDSHARE"
+        ]
+    },
+    {
+        "path": "app/actions/AuditLogActionCreators.tsx",
+        "flux_events": [
+            "AUDIT_LOG_FETCH_NEXT_PAGE_SUCCESS",
+            "AUDIT_LOG_FETCH_NEXT_PAGE_START",
+            "AUDIT_LOG_FETCH_NEXT_PAGE_FAIL",
+            "AUDIT_LOG_FILTER_BY_ACTION",
+            "AUDIT_LOG_FILTER_BY_TARGET"
+        ]
+    },
+    {
+        "path": "app/actions/AuthenticationActionCreators.tsx",
+        "flux_events": [
+            "LOGIN_PASSWORD_RECOVERY_PHONE_VERIFICATION",
+            "LOGIN_PHONE_IP_AUTHORIZATION_REQUIRED",
+            "LOGIN_ACCOUNT_SCHEDULED_FOR_DELETION",
+            "FORGOT_PASSWORD_REQUEST",
+            "LOGIN_ACCOUNT_DISABLED"
+        ]
+    },
+    {
+        "path": "app/actions/AuthorizedAppsActionCreators.tsx",
+        "flux_events": [
+            "USER_AUTHORIZED_APPS_REQUEST_FAILED",
+            "USER_AUTHORIZED_APPS_REQUEST",
+            "USER_AUTHORIZED_APPS_UPDATE"
+        ]
+    },
+    {
+        "path": "app/actions/BoostingActionCreators.tsx",
+        "flux_events": [
+            "APPLIED_BOOSTS_COOLDOWN_FETCH_SUCCESS",
+            "GUILD_APPLIED_BOOSTS_FETCH_SUCCESS",
+            "USER_APPLIED_BOOSTS_FETCH_SUCCESS",
+            "GUILD_BOOST_SLOTS_FETCH_SUCCESS",
+            "GUILD_BOOST_SLOT_UPDATE_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/actions/CallActionCreators.tsx",
+        "flux_events": [
+            "GUILD_LOCAL_RING_START",
+            "CALL_ENQUEUE_RING"
+        ]
+    },
+    {
+        "path": "app/actions/CategoryCollapseActionCreators.tsx",
+        "flux_events": [
+            "CATEGORY_COLLAPSE_ALL",
+            "CATEGORY_EXPAND_ALL",
+            "CATEGORY_COLLAPSE",
+            "CATEGORY_EXPAND"
+        ]
+    },
+    {
+        "path": "app/actions/CertifiedDeviceActionCreators.tsx",
+        "flux_events": [
+            "CERTIFIED_DEVICES_SET"
+        ]
+    },
+    {
+        "path": "app/actions/ChangeLogActionCreators.tsx",
+        "flux_events": [
+            "CHANGE_LOG_FETCH_SUCCESS",
+            "CHANGE_LOG_SET_OVERRIDE",
+            "CHANGE_LOG_FETCH_FAILED",
+            "CHANGE_LOG_MARK_SEEN",
+            "CHANGE_LOG_UNLOCK"
+        ]
+    },
+    {
+        "path": "app/actions/ChangeVanityURLActionCreators.tsx",
+        "flux_events": [
+            "CHANGE_VANITY_URL_MODAL_SUBMIT",
+            "CHANGE_VANITY_URL_MODAL_CLOSE",
+            "GUILD_SETTINGS_SET_VANITY_URL",
+            "GUILD_SETTINGS_SET_VANITY_URL",
+            "CHANGE_VANITY_URL_MODAL_OPEN"
+        ]
+    },
+    {
+        "path": "app/actions/ChannelActionCreators.tsx",
+        "flux_events": [
+            "CHANNEL_PERMISSIONS_DELETE_OVERWRITE_SUCCESS",
+            "CHANNEL_PERMISSIONS_PUT_OVERWRITE_SUCCESS",
+            "STORE_LISTING_FETCH_SUCCESS",
+            "CHANNEL_PRELOAD",
+            "CHANNEL_CREATE"
+        ]
+    },
+    {
+        "path": "app/actions/ChannelCollapseActionCreators.tsx",
+        "flux_events": [
+            "GUILD_TOGGLE_COLLAPSE_MUTED",
+            "CHANNEL_COLLAPSE"
+        ]
+    },
+    {
+        "path": "app/actions/ChannelFollowerActionCreators.tsx",
+        "flux_events": [
+            "CHANNEL_FOLLOWING_PUBLISH_BUMP_HIDE_PERMANENTLY",
+            "CHANNEL_FOLLOWING_PUBLISH_BUMP_DISMISSED",
+            "CHANNEL_FOLLOWER_STATS_FETCH_SUCCESS",
+            "CHANNEL_FOLLOWER_STATS_FETCH_FAILURE",
+            "CHANNEL_FOLLOWER_STATS_FETCH_START"
+        ]
+    },
+    {
+        "path": "app/actions/ChannelPinActionCreators.tsx",
+        "flux_events": [
+            "LOAD_PINNED_MESSAGES_SUCCESS",
+            "LOAD_PINNED_MESSAGES_FAILURE",
+            "LOAD_PINNED_MESSAGES",
+            "CHANNEL_PINS_ACK"
+        ]
+    },
+    {
+        "path": "app/actions/ChannelRTCActionCreators.tsx",
+        "flux_events": [
+            "CHANNEL_RTC_UPDATE_STAGE_VIDEO_LIMIT_BOOST_UPSELL_DISMISSED",
+            "CHANNEL_RTC_UPDATE_VOICE_PARTICIPANTS_HIDDEN",
+            "CHANNEL_RTC_JUMP_TO_VOICE_CHANNEL_MESSAGE",
+            "CHANNEL_RTC_UPDATE_PARTICIPANTS_OPEN",
+            "CHANNEL_RTC_UPDATE_STAGE_STREAM_SIZE"
+        ]
+    },
+    {
+        "path": "app/actions/ChannelSettingsActionCreators.tsx",
+        "flux_events": [
+            "CHANNEL_SETTINGS_OVERWRITE_SELECT",
+            "CHANNEL_SETTINGS_SUBMIT_SUCCESS",
+            "CHANNEL_SETTINGS_SUBMIT_FAILURE",
+            "CHANNEL_SETTINGS_SET_SECTION",
+            "CHANNEL_SETTINGS_UPDATE"
+        ]
+    },
+    {
+        "path": "app/actions/ChannelSettingsPermissionsActionCreators.tsx",
+        "flux_events": [
+            "CHANNEL_SETTINGS_PERMISSIONS_UPDATE_PERMISSION",
+            "CHANNEL_SETTINGS_PERMISSIONS_SELECT_PERMISSION",
+            "CHANNEL_SETTINGS_PERMISSIONS_SET_ADVANCED_MODE",
+            "CHANNEL_SETTINGS_PERMISSIONS_SAVE_SUCCESS",
+            "CHANNEL_SETTINGS_PERMISSIONS_SUBMITTING"
+        ]
+    },
+    {
+        "path": "app/actions/ConnectedAccountsActionCreators.tsx",
+        "flux_events": [
+            "USER_CONNECTIONS_INTEGRATION_JOINING_ERROR",
+            "USER_CONNECTION_UPDATE",
+            "USER_CONNECTION_UPDATE"
+        ]
+    },
+    {
+        "path": "app/actions/ConsentActionCreators.tsx",
+        "flux_events": [
+            "UPDATE_CONSENTS"
+        ]
+    },
+    {
+        "path": "app/actions/ContextMenuActionCreators.tsx",
+        "flux_events": [
+            "CONTEXT_MENU_OPEN"
+        ]
+    },
+    {
+        "path": "app/actions/CreateChannelActionCreators.tsx",
+        "flux_events": [
+            "CREATE_CHANNEL_MODAL_SUBMIT_FAILURE",
+            "CREATE_CHANNEL_MODAL_SUBMIT"
+        ]
+    },
+    {
+        "path": "app/actions/CreateInviteModalActionCreators.tsx",
+        "flux_events": [
+            "CREATE_INVITE_MODAL_GENERATE_INVITE_SUCCESS",
+            "CREATE_INVITE_MODAL_GENERATE_INVITE_FAILURE",
+            "CREATE_INVITE_MODAL_UPDATE_SETTINGS",
+            "CREATE_INVITE_MODAL_GENERATE_INVITE",
+            "CREATE_INVITE_MODAL_RESET_SETTINGS"
+        ]
+    },
+    {
+        "path": "app/actions/DefaultRouteActionCreators.tsx",
+        "flux_events": [
+            "SAVE_LAST_NON_VOICE_ROUTE",
+            "SAVE_LAST_ROUTE"
+        ]
+    },
+    {
+        "path": "app/actions/DeveloperOptionsActionCreators.tsx",
+        "flux_events": [
+            "DEVELOPER_OPTIONS_UPDATE_SETTINGS"
+        ]
+    },
+    {
+        "path": "app/actions/DimensionActionCreators.tsx",
+        "flux_events": [
+            "UPDATE_CHANNEL_LIST_DIMENSIONS",
+            "UPDATE_CHANNEL_LIST_DIMENSIONS",
+            "UPDATE_GUILD_LIST_DIMENSIONS",
+            "UPDATE_CHANNEL_DIMENSIONS"
+        ]
+    },
+    {
+        "path": "app/actions/DraftActionCreators.tsx",
+        "flux_events": [
+            "THREAD_SETTINGS_DRAFT_CHANGE",
+            "DRAFT_CHANGE",
+            "DRAFT_CLEAR",
+            "DRAFT_SAVE"
+        ]
+    },
+    {
+        "path": "app/actions/EmojiActionCreators.tsx",
+        "flux_events": [
+            "EMOJI_FETCH_SUCCESS",
+            "EMOJI_FETCH_FAILURE",
+            "EMOJI_UPLOAD_START",
+            "EMOJI_UPLOAD_STOP",
+            "EMOJI_UPLOAD_STOP"
+        ]
+    },
+    {
+        "path": "app/actions/EntitlementActionCreators.tsx",
+        "flux_events": [
+            "ENTITLEMENT_FETCH_APPLICATION_SUCCESS",
+            "ENTITLEMENTS_FETCH_FOR_USER_SUCCESS",
+            "ENTITLEMENTS_GIFTABLE_FETCH_SUCCESS",
+            "ENTITLEMENT_FETCH_APPLICATION_START",
+            "ENTITLEMENT_FETCH_APPLICATION_FAIL"
+        ]
+    },
+    {
+        "path": "app/actions/FriendsActionCreators.tsx",
+        "flux_events": [
+            "FRIENDS_SET_INITIAL_SECTION",
+            "FRIENDS_SET_SECTION"
+        ]
+    },
+    {
+        "path": "app/actions/GIFPickerActionCreators.tsx",
+        "flux_events": [
+            "GIF_PICKER_TRENDING_SEARCH_TERMS_SUCCESS",
+            "GIF_PICKER_TRENDING_FETCH_SUCCESS",
+            "GIF_PICKER_SUGGESTIONS_SUCCESS",
+            "GIF_PICKER_QUERY_SUCCESS",
+            "GIF_PICKER_QUERY_FAILURE"
+        ]
+    },
+    {
+        "path": "app/actions/GiftCodeActionCreators.tsx",
+        "flux_events": [
+            "GIFT_CODE_RESOLVE_SUCCESS",
+            "GIFT_CODE_RESOLVE_FAILURE",
+            "GIFT_CODES_FETCH_SUCCESS",
+            "GIFT_CODES_FETCH_FAILURE",
+            "GIFT_CODE_CREATE_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/actions/GuildActionCreators.tsx",
+        "flux_events": [
+            "GUILD_ROLE_CONNECTION_ELIGIBILITY_FETCH_SUCCESS",
+            "ONLINE_GUILD_MEMBER_COUNT_UPDATE",
+            "GUILD_APPLICATIONS_FETCH_SUCCESS",
+            "GUILD_SETTINGS_LOADED_BANS_BATCH",
+            "GUILD_SETTINGS_LOADED_BANS_BATCH"
+        ]
+    },
+    {
+        "path": "app/actions/GuildAffinitiesActionCreators.tsx",
+        "flux_events": [
+            "LOAD_GUILD_AFFINITIES_SUCCESS",
+            "LOAD_GUILD_AFFINITIES_FAILURE"
+        ]
+    },
+    {
+        "path": "app/actions/GuildSubscriptionsActionCreators.tsx",
+        "flux_events": [
+            "GUILD_SUBSCRIPTIONS_REMOVE_MEMBER_UPDATES",
+            "GUILD_SUBSCRIPTIONS_ADD_MEMBER_UPDATES",
+            "GUILD_SUBSCRIPTIONS_MEMBERS_REMOVE",
+            "GUILD_SUBSCRIPTIONS_MEMBERS_ADD",
+            "GUILD_SUBSCRIPTIONS_CHANNEL"
+        ]
+    },
+    {
+        "path": "app/actions/HubActionCreators.tsx",
+        "flux_events": [
+            "HUB_VERIFY_EMAIL_SUCCESS",
+            "HUB_VERIFY_EMAIL_FAILURE",
+            "HUB_VERIFY_EMAIL_SUCCESS",
+            "HUB_VERIFY_EMAIL_FAILURE"
+        ]
+    },
+    {
+        "path": "app/actions/InstantInviteActionCreators.tsx",
+        "flux_events": [
+            "INSTANT_INVITE_RECEIVED_INSTALLATION_ID_CLEAR",
+            "INSTANT_INVITE_RECEIVED_INSTALLATION_ID_SET",
+            "NATIVE_APP_INSTANT_INVITE_GDM_SHARE_FAILED",
+            "INVITE_FRIEND_MEMBERS_FETCH_SUCCESS",
+            "INVITE_FRIEND_MEMBERS_FETCH_FAILURE"
+        ]
+    },
+    {
+        "path": "app/actions/InviteSuggestionsActionCreators.tsx",
+        "flux_events": [
+            "INVITE_SUGGESTIONS_SEARCH",
+            "LOAD_INVITE_SUGGESTIONS"
+        ]
+    },
+    {
+        "path": "app/actions/LayerActionCreators.tsx",
+        "flux_events": [
+            "LAYER_POP_ALL",
+            "LAYER_PUSH",
+            "LAYER_POP"
+        ]
+    },
+    {
+        "path": "app/actions/MaskedLinkActionCreators.tsx",
+        "flux_events": [
+            "MASKED_LINK_ADD_TRUSTED_PROTOCOL",
+            "MASKED_LINK_ADD_TRUSTED_DOMAIN"
+        ]
+    },
+    {
+        "path": "app/actions/MentionActionCreators.tsx",
+        "flux_events": [
+            "LOAD_RECENT_MENTIONS_SUCCESS",
+            "LOAD_RECENT_MENTIONS_FAILURE",
+            "SET_RECENT_MENTIONS_FILTER",
+            "SET_RECENT_MENTIONS_STALE",
+            "RECENT_MENTION_DELETE"
+        ]
+    },
+    {
+        "path": "app/actions/MessageActionCreators.tsx",
+        "flux_events": [
+            "MESSAGE_EXPLICIT_CONTENT_FP_CREATE",
+            "POGGERMODE_TEMPORARILY_DISABLED",
+            "LOAD_MESSAGES_SUCCESS_CACHED",
+            "LOAD_MESSAGES_SUCCESS_CACHED",
+            "LOAD_MESSAGES_SUCCESS_CACHED"
+        ]
+    },
+    {
+        "path": "app/actions/MFAActionCreators.tsx",
+        "flux_events": [
+            "MFA_SEND_VERIFICATION_KEY",
+            "MFA_SMS_TOGGLE_COMPLETE",
+            "MFA_SMS_TOGGLE_COMPLETE",
+            "MFA_SMS_TOGGLE_COMPLETE",
+            "MFA_SMS_TOGGLE_COMPLETE"
+        ]
+    },
+    {
+        "path": "app/actions/ModalActionCreators.tsx",
+        "flux_events": [
+            "NOTIFICATION_SETTINGS_MODAL_CLOSE",
+            "EMAIL_VERIFICATION_MODAL_CLOSE",
+            "CONNECTIONS_GRID_MODAL_HIDE",
+            "USER_SETTINGS_MODAL_CLOSE",
+            "USER_PROFILE_MODAL_CLOSE"
+        ]
+    },
+    {
+        "path": "app/actions/native/AlertActionCreators.tsx",
+        "flux_events": [
+            "ALERT_CLOSE",
+            "ALERT_CLOSE",
+            "ALERT_OPEN"
+        ]
+    },
+    {
+        "path": "app/actions/native/BillingActionCreators.tsx",
+        "flux_events": [
+            "GIFT_PROMOTION_GIFT_OPTIONS_CLEAR_CACHE_ACTION",
+            "GIFT_PROMOTION_GIFT_OPTIONS_CLEAR_CACHE_ACTION",
+            "GIFT_PROMOTION_GIFT_OPTIONS_CLEAR_CACHE_ACTION",
+            "GIFT_PROMOTION_GIFT_OPTIONS_CACHE_ACTION",
+            "GIFT_PROMOTION_GIFT_OPTIONS_CACHE_ACTION"
+        ]
+    },
+    {
+        "path": "app/actions/native/DisplayedInviteActionCreators.tsx",
+        "flux_events": [
+            "DISPLAYED_INVITE_CLEAR",
+            "DISPLAYED_INVITE_SHOW"
+        ]
+    },
+    {
+        "path": "app/actions/native/GiftCodeActionCreators.tsx",
+        "flux_events": [
+            "GIFT_CODE_REDEEM_SUCCESS",
+            "GIFT_CODE_REDEEM_FAILURE",
+            "GIFT_CODE_REDEEM"
+        ]
+    },
+    {
+        "path": "app/actions/native/GPlayActionCreators.tsx",
+        "flux_events": [
+            "GPLAY_FETCH_SUBSCRIPTION_SKUS_FAILED",
+            "GPLAY_FETCH_SUBSCRIPTION_SKUS_START",
+            "GPLAY_SUBSCRIPTION_SKUS_LOADED",
+            "GPLAY_FETCH_IN_APP_SKUS_FAILED",
+            "GPLAY_UPDATE_PENDING_DOWNGRADE"
+        ]
+    },
+    {
+        "path": "app/actions/native/GuildActionCreators.tsx",
+        "flux_events": [
+            "GUILD_SETTINGS_SUBMIT_SUCCESS",
+            "GUILD_SETTINGS_SUBMIT_SUCCESS",
+            "GUILD_SETTINGS_SUBMIT",
+            "GUILD_SETTINGS_SUBMIT"
+        ]
+    },
+    {
+        "path": "app/actions/native/InAppNotificationActionCreators.tsx",
+        "flux_events": [
+            "ENQUEUE_IN_APP_NOTIFICATION",
+            "CLEAR_IN_APP_NOTIFICATION"
+        ]
+    },
+    {
+        "path": "app/actions/native/MessagePreviewActionCreators.tsx",
+        "flux_events": [
+            "CLEAR_MESSAGES_AROUND_SUCCESS",
+            "LOAD_MESSAGES_AROUND_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/actions/native/PhoneVerificationActionCreators.tsx",
+        "flux_events": [
+            "VERIFICATION_CLOSE_COUNTRY_SELECTOR",
+            "VERIFICATION_OPEN_COUNTRY_SELECTOR"
+        ]
+    },
+    {
+        "path": "app/actions/native/PushNotificationActionCreators.tsx",
+        "flux_events": [
+            "PUSH_NOTIFICATION_PERMISSION_REACTIVATION_SEEN",
+            "PUSH_NOTIFICATION_AUTHORIZATION_STATUS_UPDATE",
+            "PUSH_NOTIFICATION_PERMISSION_SET_ELIGIBLE",
+            "PUSH_NOTIFICATION_PERMISSION_SET_STATE"
+        ]
+    },
+    {
+        "path": "app/actions/native/UploadActionCreators.tsx",
+        "flux_events": [
+            "UPLOAD_RESTORE_FAILED_UPLOAD",
+            "UPLOAD_ITEM_CANCEL_REQUEST",
+            "UPLOAD_CANCEL_REQUEST",
+            "DRAFT_SAVE"
+        ]
+    },
+    {
+        "path": "app/actions/NoticeActionCreators.tsx",
+        "flux_events": [
+            "NOTICE_DISMISS",
+            "NOTICE_SHOW"
+        ]
+    },
+    {
+        "path": "app/actions/NotificationActionCreators.tsx",
+        "flux_events": [
+            "NOTIFICATIONS_SET_NOTIFY_MESSAGES_IN_SELECTED_CHANNEL",
+            "NOTIFICATIONS_SET_SCREEN_DOWNTIME_REMINDER",
+            "NOTIFICATIONS_SET_DISABLE_UNREAD_BADGE",
+            "NOTIFICATIONS_SET_PERMISSION_STATE",
+            "NOTIFICATIONS_SET_DISABLED_SOUNDS"
+        ]
+    },
+    {
+        "path": "app/actions/NotificationSettingsModalActionCreators.tsx",
+        "flux_events": [
+            "USER_GUILD_SETTINGS_GUILD_AND_CHANNELS_UPDATE",
+            "USER_GUILD_SETTINGS_CHANNEL_UPDATE_BULK",
+            "USER_GUILD_SETTINGS_CHANNEL_UPDATE",
+            "USER_GUILD_SETTINGS_CHANNEL_UPDATE",
+            "NOTIFICATION_SETTINGS_MODAL_CLOSE"
+        ]
+    },
+    {
+        "path": "app/actions/PermissionActionCreators.tsx",
+        "flux_events": [
+            "PERMISSION_CONTINUE_NONELEVATED_PROCESS",
+            "PERMISSION_REQUEST_ELEVATED_PROCESS",
+            "PERMISSION_CLEAR_PTT_ADMIN_WARNING",
+            "PERMISSION_CLEAR_SUPPRESS_WARNING",
+            "PERMISSION_CLEAR_ELEVATED_PROCESS"
+        ]
+    },
+    {
+        "path": "app/actions/ReadStateActionCreators.tsx",
+        "flux_events": [
+            "CLEAR_OLDEST_UNREAD_MESSAGE",
+            "DISABLE_AUTOMATIC_ACK",
+            "ENABLE_AUTOMATIC_ACK",
+            "USER_NON_CHANNEL_ACK",
+            "CHANNEL_LOCAL_ACK"
+        ]
+    },
+    {
+        "path": "app/actions/RegionActionCreators.tsx",
+        "flux_events": [
+            "LOAD_REGIONS",
+            "LOAD_REGIONS"
+        ]
+    },
+    {
+        "path": "app/actions/RelationshipActionCreators.tsx",
+        "flux_events": [
+            "RELATIONSHIP_PENDING_INCOMING_REMOVED",
+            "RELATIONSHIP_PENDING_INCOMING_REMOVED",
+            "RELATIONSHIP_IGNORE_USER_SUCCESS",
+            "LOAD_RELATIONSHIPS_SUCCESS",
+            "LOAD_RELATIONSHIPS_FAILURE"
+        ]
+    },
+    {
+        "path": "app/actions/RTCDebugActionCreators.tsx",
+        "flux_events": [
+            "RTC_DEBUG_MODAL_OPEN_REPLAY_AT_PATH",
+            "RTC_DEBUG_SET_SIMULCAST_OVERRIDE",
+            "RTC_DEBUG_POPOUT_WINDOW_OPEN",
+            "RTC_DEBUG_SET_RECORDING_FLAG",
+            "RTC_DEBUG_MODAL_OPEN_REPLAY"
+        ]
+    },
+    {
+        "path": "app/actions/RTCLatencyTestActionCreators.tsx",
+        "flux_events": [
+            "RTC_LATENCY_TEST_COMPLETE"
+        ]
+    },
+    {
+        "path": "app/actions/SelectedChannelActionCreators.tsx",
+        "flux_events": [
+            "CHANNEL_SELECT"
+        ]
+    },
+    {
+        "path": "app/actions/SKUActionCreators.tsx",
+        "flux_events": [
+            "SKU_PURCHASE_SHOW_CONFIRMATION_STEP",
+            "SKU_PURCHASE_AWAIT_CONFIRMATION",
+            "STORE_LISTING_FETCH_SUCCESS",
+            "SKU_PURCHASE_UPDATE_IS_GIFT",
+            "SKU_PURCHASE_CLEAR_ERROR"
+        ]
+    },
+    {
+        "path": "app/actions/StoreListingActionCreators.tsx",
+        "flux_events": [
+            "STORE_LISTINGS_FETCH_SUCCESS",
+            "STORE_LISTINGS_FETCH_SUCCESS",
+            "STORE_LISTING_FETCH_SUCCESS",
+            "STORE_LISTINGS_FETCH_START",
+            "SKU_FETCH_FAIL"
+        ]
+    },
+    {
+        "path": "app/actions/StreamActionCreators.tsx",
+        "flux_events": [
+            "STREAM_PREVIEW_FETCH_SUCCESS",
+            "STREAM_PREVIEW_FETCH_START",
+            "STREAM_PREVIEW_FETCH_FAIL",
+            "STREAM_UPDATE_SELF_HIDDEN",
+            "STREAM_UPDATE_SETTINGS"
+        ]
+    },
+    {
+        "path": "app/actions/SubscriptionPlanActionCreators.tsx",
+        "flux_events": [
+            "SUBSCRIPTION_PLANS_FETCH_SUCCESS",
+            "SUBSCRIPTION_PLANS_FETCH_FAILURE",
+            "SUBSCRIPTION_PLANS_FETCH",
+            "SUBSCRIPTION_PLANS_RESET"
+        ]
+    },
+    {
+        "path": "app/actions/SurveyActionCreators.tsx",
+        "flux_events": [
+            "SURVEY_OVERRIDE",
+            "SURVEY_FETCHED",
+            "SURVEY_HIDE",
+            "SURVEY_SEEN"
+        ]
+    },
+    {
+        "path": "app/actions/TypingActionCreators.tsx",
+        "flux_events": [
+            "TYPING_START_LOCAL",
+            "TYPING_STOP_LOCAL"
+        ]
+    },
+    {
+        "path": "app/actions/UploadAttachmentActionCreators.tsx",
+        "flux_events": [
+            "UPLOAD_ATTACHMENT_CLEAR_ALL_FILES",
+            "UPLOAD_ATTACHMENT_REMOVE_FILES",
+            "UPLOAD_ATTACHMENT_REMOVE_FILE",
+            "UPLOAD_ATTACHMENT_UPDATE_FILE",
+            "UPLOAD_ATTACHMENT_SET_UPLOADS"
+        ]
+    },
+    {
+        "path": "app/actions/UserActionCreators.tsx",
+        "flux_events": [
+            "MUTUAL_FRIENDS_FETCH_SUCCESS",
+            "MUTUAL_FRIENDS_FETCH_FAILURE",
+            "GUILD_MEMBER_PROFILE_UPDATE",
+            "USER_PROFILE_FETCH_SUCCESS",
+            "USER_PROFILE_FETCH_FAILURE"
+        ]
+    },
+    {
+        "path": "app/actions/UserActivityActionCreators.tsx",
+        "flux_events": [
+            "ACTIVITY_METADATA_UPDATE",
+            "ACTIVITY_SYNC",
+            "ACTIVITY_PLAY",
+            "ACTIVITY_PLAY"
+        ]
+    },
+    {
+        "path": "app/actions/UserSettingsAccountActionCreators.tsx",
+        "flux_events": [
+            "USER_PROFILE_SETTINGS_RESET_PENDING_LEGACY_USERNAME_DISABLED",
+            "USER_PROFILE_SETTINGS_RESET_PENDING_PRIMARY_GUILD_CHANGES",
+            "USER_PROFILE_SETTINGS_RESET_PENDING_ACCOUNT_CHANGES",
+            "USER_PROFILE_SETTINGS_RESET_TRY_IT_OUT_CHANGES",
+            "USER_PROFILE_SETTINGS_RESET_PENDING_CHANGES"
+        ]
+    },
+    {
+        "path": "app/actions/UserSettingsActionCreators.tsx",
+        "flux_events": [
+            "SELECTIVELY_SYNCED_USER_SETTINGS_UPDATE",
+            "SELECTIVELY_SYNCED_USER_SETTINGS_UPDATE",
+            "SELECTIVELY_SYNCED_USER_SETTINGS_UPDATE",
+            "SELECTIVELY_SYNCED_USER_SETTINGS_UPDATE",
+            "USER_SETTINGS_LOCALE_OVERRIDE"
+        ]
+    },
+    {
+        "path": "app/actions/UserSettingsModalActionCreators.tsx",
+        "flux_events": [
+            "USER_SETTINGS_MODAL_SET_SECTION",
+            "USER_SETTINGS_MODAL_CLOSE"
+        ]
+    },
+    {
+        "path": "app/actions/WebhooksActionCreators.tsx",
+        "flux_events": [
+            "WEBHOOKS_FETCHING",
+            "WEBHOOKS_FETCHING",
+            "WEBHOOKS_UPDATE",
+            "WEBHOOKS_UPDATE",
+            "WEBHOOKS_UPDATE"
+        ]
+    },
+    {
+        "path": "app/modules/a11y/AccessibilityActionCreators.tsx",
+        "flux_events": [
+            "ACCESSIBILITY_SYNC_PROFILE_THEME_WITH_USER_THEME_TOGGLE",
+            "ACCESSIBILITY_SYSTEM_PREFERS_REDUCED_MOTION_CHANGED",
+            "ACCESSIBILITY_SYSTEM_PREFERS_CROSSFADES_CHANGED",
+            "ACCESSIBILITY_SYSTEM_COLOR_PREFERENCES_CHANGED",
+            "ACCESSIBILITY_SET_ALWAYS_SHOW_LINK_DECORATIONS"
+        ]
+    },
+    {
+        "path": "app/modules/action_sheet/native/ActionSheetActionCreators.tsx",
+        "flux_events": [
+            "RESET_ACTION_SHEETS_FOR_APP_ENTRY_KEY",
+            "SET_ACTION_SHEET_Z_INDEX",
+            "HIDE_ALL_ACTION_SHEETS",
+            "SHOW_ACTION_SHEET",
+            "HIDE_ACTION_SHEET"
+        ]
+    },
+    {
+        "path": "app/modules/active_channels/ActiveChannelsActionCreators.tsx",
+        "flux_events": [
+            "ACTIVE_CHANNELS_FETCH_SUCCESS",
+            "ACTIVE_CHANNELS_FETCH_FAILURE",
+            "ACTIVE_CHANNELS_FETCH_START"
+        ]
+    },
+    {
+        "path": "app/modules/activities/DeveloperActivityShelfActionCreators.tsx",
+        "flux_events": [
+            "DEVELOPER_ACTIVITY_SHELF_TOGGLE_USE_ACTIVITY_URL_OVERRIDE",
+            "DEVELOPER_ACTIVITY_SHELF_SET_ACTIVITY_URL_OVERRIDE",
+            "DEVELOPER_ACTIVITY_SHELF_MARK_ACTIVITY_USED",
+            "DEVELOPER_ACTIVITY_SHELF_UPDATE_FILTER"
+        ]
+    },
+    {
         "path": "app/modules/activities/EmbeddedActivitiesActionCreators.tsx",
         "flux_events": [
             "EMBEDDED_ACTIVITY_CONSUME_RESPOND_TO_SERIOUS_THERMAL_STATE_REQUEST",
@@ -15,6 +735,1258 @@
             "EMBEDDED_ACTIVITY_DISREGARD_SERIOUS_THERMAL_STATE",
             "EMBEDDED_ACTIVITY_UPDATE_CONNECTED_PROXY_TICKET",
             "EMBEDDED_ACTIVITY_UPDATE_POPOUT_WINDOW_LAYOUT"
+        ]
+    },
+    {
+        "path": "app/modules/activities/MessageActivityInviteCoverImageActionCreators.tsx",
+        "flux_events": [
+            "SET_MESSAGE_ACTIVITY_INVITE_COVER_IMAGE_URL"
+        ]
+    },
+    {
+        "path": "app/modules/age_assurance/AgeVerificationURLActionCreators.tsx",
+        "flux_events": [
+            "AGE_VERIFICATION_METHODS_LOAD_SUCCESS",
+            "AGE_VERIFICATION_METHODS_LOAD_FAILURE",
+            "AGE_VERIFICATION_METHODS_LOAD_START"
+        ]
+    },
+    {
+        "path": "app/modules/age_assurance/ReactiveCheckActionCreators.tsx",
+        "flux_events": [
+            "AGE_VERIFICATION_CHECK_RESULT_SET",
+            "AGE_VERIFICATION_RESET"
+        ]
+    },
+    {
+        "path": "app/modules/age_gate/AgeGateActionCreators.tsx",
+        "flux_events": [
+            "AGE_GATE_PREVENT_UNDERAGE_REGISTRATION",
+            "AGE_GATE_LOGOUT_UNDERAGE_NEW_USER",
+            "CURRENT_USER_UPDATE"
+        ]
+    },
+    {
+        "path": "app/modules/age_gate/AgeGateModalActionCreators.tsx",
+        "flux_events": [
+            "AGE_GATE_SUCCESS_MODAL_OPEN",
+            "AGE_GATE_FAILURE_MODAL_OPEN",
+            "AGE_GATE_MODAL_CLOSE",
+            "AGE_GATE_MODAL_OPEN"
+        ]
+    },
+    {
+        "path": "app/modules/app_launcher/native/onboarding/AppLauncherOnboardingActionCreators.tsx",
+        "flux_events": [
+            "APP_LAUNCHER_ONBOARDING_SET_TRIGGERED_ONBOARDING_CONTENT_METADATA",
+            "APP_LAUNCHER_ONBOARDING_SET_LAST_SEEN_TIME_MS"
+        ]
+    },
+    {
+        "path": "app/modules/app_launcher/native/screens/home/FrecencySectionStoreActionCreators.tsx",
+        "flux_events": [
+            "FRECENCY_SECTION_SET_SELECTION"
+        ]
+    },
+    {
+        "path": "app/modules/application_commands/ApplicationCommandActionCreators.tsx",
+        "flux_events": [
+            "APPLICATION_COMMANDS_FETCH_FOR_APPLICATION",
+            "APPLICATION_COMMAND_SET_PREFERRED_COMMAND",
+            "APPLICATION_COMMAND_UPDATE_CHANNEL_STATE",
+            "APPLICATION_COMMAND_AUTOCOMPLETE_REQUEST",
+            "APPLICATION_COMMAND_SET_ACTIVE_COMMAND"
+        ]
+    },
+    {
+        "path": "app/modules/application_commands/ApplicationCommandIndexActionCreators.tsx",
+        "flux_events": [
+            "APPLICATION_COMMAND_INDEX_FETCH_FAILURE",
+            "APPLICATION_COMMAND_INDEX_FETCH_SUCCESS",
+            "APPLICATION_COMMAND_INDEX_FETCH_FAILURE",
+            "APPLICATION_COMMAND_INDEX_FETCH_REQUEST"
+        ]
+    },
+    {
+        "path": "app/modules/applications/ApplicationActionCreators.tsx",
+        "flux_events": [
+            "APPLICATIONS_FETCH_SUCCESS",
+            "APPLICATIONS_FETCH_SUCCESS",
+            "APPLICATION_FETCH_SUCCESS",
+            "APPLICATION_FETCH_SUCCESS",
+            "APPLICATIONS_FETCH_FAIL"
+        ]
+    },
+    {
+        "path": "app/modules/auth_sessions/AuthSessionsActionCreators.tsx",
+        "flux_events": [
+            "LOGOUT_AUTH_SESSIONS_SUCCESS",
+            "FETCH_AUTH_SESSIONS_SUCCESS",
+            "FETCH_AUTH_SESSIONS_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/modules/badges/BadgeDirectoryActionCreators.tsx",
+        "flux_events": [
+            "BADGE_DIRECTORY_FETCH_SUCCESS",
+            "BADGE_DIRECTORY_FETCH_FAILURE",
+            "BADGE_DIRECTORY_FETCH_START",
+            "BADGE_FETCH_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/modules/billing/actions/BillingActionCreators.tsx",
+        "flux_events": [
+            "BILLING_PREVIOUS_PREMIUM_SUBSCRIPTION_FETCH_SUCCESS",
+            "PAYMENT_SOURCE_CREATION_CONTEXT_FETCH_SUCCESS",
+            "BILLING_MOST_RECENT_SUBSCRIPTION_FETCH_START",
+            "BILLING_MOST_RECENT_SUBSCRIPTION_FETCH_FAIL",
+            "BILLING_MOST_RECENT_SUBSCRIPTION_FETCH_FAIL"
+        ]
+    },
+    {
+        "path": "app/modules/billing/actions/BillingPaymentGatewayActionCreators.tsx",
+        "flux_events": [
+            "BILLING_PAYMENT_SOURCE_CREATE_START",
+            "BILLING_PAYMENT_SOURCE_CREATE_START",
+            "BILLING_PAYMENT_SOURCE_CREATE_START",
+            "BILLING_PAYMENT_SOURCE_CREATE_START",
+            "BILLING_PAYMENT_SOURCE_CREATE_START"
+        ]
+    },
+    {
+        "path": "app/modules/billing/actions/BillingSharedActionCreators.tsx",
+        "flux_events": [
+            "BILLING_PAYMENT_SOURCE_CREATE_SUCCESS",
+            "BILLING_PAYMENT_SOURCE_CREATE_START",
+            "BILLING_PAYMENT_SOURCE_CREATE_FAIL",
+            "BILLING_PAYMENT_SOURCE_CREATE_FAIL",
+            "BILLING_PAYMENT_SOURCE_CREATE_FAIL"
+        ]
+    },
+    {
+        "path": "app/modules/cache/CacheActionCreators.tsx",
+        "flux_events": [
+            "WRITE_CACHES"
+        ]
+    },
+    {
+        "path": "app/modules/channel/ChannelInfoActionCreators.tsx",
+        "flux_events": [
+            "FETCH_CHANNEL_INFO"
+        ]
+    },
+    {
+        "path": "app/modules/client_themes/ClientThemesBackgroundActionCreators.tsx",
+        "flux_events": [
+            "UPDATE_BACKGROUND_GRADIENT_PRESET",
+            "UPDATE_MOBILE_PENDING_THEME_INDEX",
+            "RESET_PREVIEW_CLIENT_THEME"
+        ]
+    },
+    {
+        "path": "app/modules/client_themes/native/CustomThemeMobileActionCreators.tsx",
+        "flux_events": [
+            "CLEAR_PREVIEW_CUSTOM_THEME",
+            "PREVIEW_CUSTOM_THEME",
+            "UPDATE_CUSTOM_THEME",
+            "RESET_CUSTOM_THEME"
+        ]
+    },
+    {
+        "path": "app/modules/client_themes/SavedCustomThemeActionCreators.tsx",
+        "flux_events": [
+            "SAVED_CUSTOM_THEMES_FETCH_SUCCESS",
+            "SAVED_CUSTOM_THEMES_FETCH_FAILURE",
+            "SAVED_CUSTOM_THEMES_FETCH_START"
+        ]
+    },
+    {
+        "path": "app/modules/coded_links/web/CodedLinkActionCreators.tsx",
+        "flux_events": [
+            "NATIVE_APP_MODAL_OPEN_FAILED",
+            "NATIVE_APP_MODAL_OPENED"
+        ]
+    },
+    {
+        "path": "app/modules/collectibles/CollectiblesActionCreators.tsx",
+        "flux_events": [
+            "COLLECTIBLES_SHOP_TAB_LAYOUT_FETCH_SUCCESS",
+            "COLLECTIBLES_SHOP_TAB_LAYOUT_FETCH_FAILURE",
+            "COLLECTIBLES_SET_SHOP_HOME_CONFIG_OVERRIDE",
+            "COLLECTIBLES_SET_SHOP_LAYOUT_URL_OVERRIDE",
+            "COLLECTIBLES_CATEGORIES_FETCH_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/modules/connections/ConnectionsRoleActionCreators.tsx",
+        "flux_events": [
+            "GUILD_ROLE_CONNECTIONS_CONFIGURATIONS_FETCH_SUCCESS",
+            "GUILD_ROLE_CONNECTIONS_CONFIGURATIONS_FETCH_SUCCESS",
+            "GUILD_ROLE_MEMBER_COUNT_UPDATE"
+        ]
+    },
+    {
+        "path": "app/modules/content_inventory/ContentInventoryActionCreators.tsx",
+        "flux_events": [
+            "CONTENT_INVENTORY_CLEAR_DELETE_HISTORY_ERROR",
+            "CONTENT_INVENTORY_TOGGLE_FEED_HIDDEN",
+            "GAME_PROFILE_OPEN"
+        ]
+    },
+    {
+        "path": "app/modules/creator_monetization_eligibility/CreatorMonetizationEligibilityActionCreators.tsx",
+        "flux_events": [
+            "APPLICATION_FETCH_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/modules/devtools/DevToolsActionCreators.tsx",
+        "flux_events": [
+            "DEV_TOOLS_SETTINGS_UPDATE",
+            "ANALYTICS_LOG_CLEAR"
+        ]
+    },
+    {
+        "path": "app/modules/dice_roll/DiceRollActionCreators.tsx",
+        "flux_events": [
+            "DICE_ROLL_START"
+        ]
+    },
+    {
+        "path": "app/modules/directory_channels/GuildDirectoryActionCreators.tsx",
+        "flux_events": [
+            "GUILD_DIRECTORY_ADMIN_ENTRIES_FETCH_SUCCESS",
+            "GUILD_DIRECTORY_COUNTS_FETCH_SUCCESS",
+            "GUILD_DIRECTORY_CATEGORY_SELECT",
+            "GUILD_DIRECTORY_SEARCH_SUCCESS",
+            "GUILD_DIRECTORY_FETCH_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/modules/dismissible_content/DismissibleContentFrameworkActionCreators.tsx",
+        "flux_events": [
+            "DCF_NEW_USER_MIN_AGE_REQUIRED_OVERRIDE",
+            "DCF_OVERRIDE_LAST_DC_DISMISSED",
+            "DCF_HANDLE_DC_DISMISSED",
+            "DCF_DAILY_CAP_OVERRIDE",
+            "DCF_HANDLE_DC_SHOWN"
+        ]
+    },
+    {
+        "path": "app/modules/double_tap_to_react/native/DoubleTapChatInputBannerActionCreators.tsx",
+        "flux_events": [
+            "UPDATE_FORCE_SHOW_DOUBLE_TAP_TO_REACT_BANNER"
+        ]
+    },
+    {
+        "path": "app/modules/emojis/EmojiActionCreators.tsx",
+        "flux_events": [
+            "TOGGLE_GUILD_EXPANDED_STATE",
+            "EMOJI_INTERACTION_INITIATED"
+        ]
+    },
+    {
+        "path": "app/modules/emojis/top_emojis/TopEmojisActionCreators.tsx",
+        "flux_events": [
+            "NEWLY_ADDED_EMOJI_SEEN_ACKNOWLEDGED",
+            "NEWLY_ADDED_EMOJI_SEEN_UPDATED",
+            "NEWLY_ADDED_EMOJI_SEEN_PENDING",
+            "TOP_EMOJIS_FETCH_SUCCESS",
+            "TOP_EMOJIS_FETCH_FAILURE"
+        ]
+    },
+    {
+        "path": "app/modules/errors/VideoStreamReadyActionCreators.tsx",
+        "flux_events": [
+            "CLEAR_VIDEO_STREAM_READY_TIMEOUT",
+            "VIDEO_STREAM_READY_TIMEOUT"
+        ]
+    },
+    {
+        "path": "app/modules/experiments/apex/ApexActionCreators.tsx",
+        "flux_events": [
+            "APEX_EXPERIMENTS_METADATA_FETCH_SUCCESS",
+            "APEX_EXPERIMENTS_METADATA_FETCH_FAILURE",
+            "APEX_EXPERIMENTS_FETCH_SUCCESS",
+            "APEX_EXPERIMENTS_FETCH_FAILURE",
+            "APEX_EXPERIMENTS_FETCH_FAILURE"
+        ]
+    },
+    {
+        "path": "app/modules/explicit_media_redaction/ExplicitMediaFalsePositiveActionCreators.tsx",
+        "flux_events": [
+            "MESSAGE_EXPLICIT_CONTENT_FP_SUBMIT"
+        ]
+    },
+    {
+        "path": "app/modules/forums/ForumActionCreators.tsx",
+        "flux_events": [
+            "ADMIN_ONBOARDING_GUIDE_HIDE",
+            "FORUM_SEARCH_QUERY_UPDATED",
+            "FORUM_SEARCH_SUCCESS",
+            "FORUM_SEARCH_FAILURE",
+            "FORUM_SEARCH_START"
+        ]
+    },
+    {
+        "path": "app/modules/friend_suggestions/FriendSuggestionActionCreators.tsx",
+        "flux_events": [
+            "LOAD_FRIEND_SUGGESTIONS_SUCCESS",
+            "LOAD_FRIEND_SUGGESTIONS_FAILURE"
+        ]
+    },
+    {
+        "path": "app/modules/game_claim/UnclaimedGamesActionCreators.tsx",
+        "flux_events": [
+            "UNCLAIMED_GAMES_FETCH_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/modules/game_community_upsell/native/MobileGameCommunitiesActionCreators.tsx",
+        "flux_events": [
+            "MOBILE_GAME_COMMUNITIES_FETCH_SUCCESS",
+            "MOBILE_GAME_COMMUNITIES_FETCH_FAILURE",
+            "MOBILE_GAME_COMMUNITIES_DISMISS_GUILD"
+        ]
+    },
+    {
+        "path": "app/modules/game_console/GameConsoleActionCreators.tsx",
+        "flux_events": [
+            "GAME_CONSOLE_DEVICE_CANCEL_COMMAND_SUCCESS",
+            "GAME_CONSOLE_DEVICE_CANCEL_COMMAND_START",
+            "GAME_CONSOLE_DEVICE_CANCEL_COMMAND_FAIL",
+            "GAME_CONSOLE_DEVICE_SEND_COMMAND_START",
+            "GAME_CONSOLE_DEVICE_SEND_COMMAND_FAIL"
+        ]
+    },
+    {
+        "path": "app/modules/game_update/GameUpdateActionCreators.tsx",
+        "flux_events": [
+            "GAME_UPDATE_FETCH_SUCCESS",
+            "GAME_UPDATE_FETCH_FAILURE",
+            "GAME_UPDATE_FETCH_START"
+        ]
+    },
+    {
+        "path": "app/modules/games/GameActionCreators.tsx",
+        "flux_events": [
+            "GAME_FETCH_SUCCESS",
+            "GAME_FETCH_FAILURE",
+            "GAME_FETCH"
+        ]
+    },
+    {
+        "path": "app/modules/generated_test_users/GeneratedTestUserActionCreators.tsx",
+        "flux_events": [
+            "GENERATED_POOL_BY_ID_FETCH_SUCCESS",
+            "GENERATED_POOL_REMOVE_FROM_LIST"
+        ]
+    },
+    {
+        "path": "app/modules/global_discovery_apps/ApplicationDirectoryActionCreators.tsx",
+        "flux_events": [
+            "APPLICATION_DIRECTORY_FETCH_SIMILAR_APPLICATIONS_SUCCESS",
+            "APPLICATION_DIRECTORY_FETCH_SIMILAR_APPLICATIONS_FAILURE",
+            "FETCH_INTEGRATION_APPLICATION_IDS_FOR_MY_GUILDS_SUCCESS",
+            "FETCH_INTEGRATION_APPLICATION_IDS_FOR_MY_GUILDS_FAILURE",
+            "APPLICATION_DIRECTORY_FETCH_SIMILAR_APPLICATIONS"
+        ]
+    },
+    {
+        "path": "app/modules/global_discovery_servers/GuildDiscoveryCategoryActionCreators.tsx",
+        "flux_events": [
+            "GUILD_UPDATE_DISCOVERY_METADATA_FROM_SERVER",
+            "GUILD_UPDATE_DISCOVERY_METADATA_FROM_SERVER",
+            "GUILD_DISCOVERY_CATEGORY_FETCH_SUCCESS",
+            "GUILD_DISCOVERY_CATEGORY_UPDATE_FAIL",
+            "GUILD_DISCOVERY_CATEGORY_UPDATE_FAIL"
+        ]
+    },
+    {
+        "path": "app/modules/guild_automod/GuildAutomodActionCreators.tsx",
+        "flux_events": [
+            "AUTO_MODERATION_MENTION_RAID_NOTICE_DISMISS"
+        ]
+    },
+    {
+        "path": "app/modules/guild_automod/GuildAutomodMessageActionCreators.tsx",
+        "flux_events": [
+            "REMOVE_AUTOMOD_MESSAGE_NOTICE"
+        ]
+    },
+    {
+        "path": "app/modules/guild_boosting/GuildBoostingProgressBarActionCreators.tsx",
+        "flux_events": [
+            "APPLIED_GUILD_BOOST_COUNT_UPDATE",
+            "APPLIED_GUILD_BOOST_COUNT_RESET"
+        ]
+    },
+    {
+        "path": "app/modules/guild_identity/GuildIdentityActionCreators.tsx",
+        "flux_events": [
+            "USER_PROFILE_SETTINGS_RESET_PENDING_ACCOUNT_CHANGES",
+            "USER_PROFILE_SETTINGS_RESET_PENDING_PROFILE_CHANGES",
+            "USER_PROFILE_SETTINGS_RESET_PENDING_CHANGES",
+            "USER_PROFILE_SETTINGS_SUBMIT_SUCCESS",
+            "USER_PROFILE_SETTINGS_SUBMIT_FAILURE"
+        ]
+    },
+    {
+        "path": "app/modules/guild_member_verification/GuildJoinRequestActionCreators.tsx",
+        "flux_events": [
+            "GUILD_JOIN_REQUESTS_FOR_USER_FETCH_SUCCESS",
+            "GUILD_JOIN_REQUESTS_SET_APPLICATION_TAB",
+            "GUILD_JOIN_REQUEST_BY_ID_FETCH_SUCCESS",
+            "GUILD_JOIN_REQUESTS_SET_SORT_ORDER",
+            "GUILD_JOIN_REQUESTS_FETCH_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/modules/guild_member_verification/MemberVerificationActionCreators.tsx",
+        "flux_events": [
+            "USER_GUILD_JOIN_REQUEST_COACHMARK_CLEAR",
+            "USER_GUILD_JOIN_REQUEST_COACHMARK_SHOW",
+            "MEMBER_VERIFICATION_FORM_FETCH_FAIL",
+            "MEMBER_VERIFICATION_FORM_UPDATE",
+            "MEMBER_VERIFICATION_FORM_UPDATE"
+        ]
+    },
+    {
+        "path": "app/modules/guild_member/GuildMemberActionCreators.tsx",
+        "flux_events": [
+            "GUILD_MEMBER_UPDATE_LOCAL"
+        ]
+    },
+    {
+        "path": "app/modules/guild_onboarding_home/GuildOnboardingHomeActionCreators.tsx",
+        "flux_events": [
+            "GUILD_NEW_MEMBER_ACTIONS_DELETE_SUCCESS",
+            "GUILD_NEW_MEMBER_ACTIONS_FETCH_SUCCESS",
+            "GUILD_NEW_MEMBER_ACTIONS_DELETE_START",
+            "GUILD_NEW_MEMBER_ACTIONS_FETCH_START",
+            "GUILD_NEW_MEMBER_ACTIONS_DELETE_FAIL"
+        ]
+    },
+    {
+        "path": "app/modules/guild_onboarding/GuildOnboardingActionCreators.tsx",
+        "flux_events": [
+            "GUILD_ONBOARDING_UPDATE_RESPONSES_SUCCESS",
+            "GUILD_ONBOARDING_UPDATE_RESPONSES_SUCCESS",
+            "GUILD_ONBOARDING_SELECT_OPTION",
+            "GUILD_MEMBER_UPDATE_LOCAL",
+            "GUILD_ONBOARDING_COMPLETE"
+        ]
+    },
+    {
+        "path": "app/modules/guild_onboarding/GuildOnboardingPromptsActionCreators.tsx",
+        "flux_events": [
+            "GUILD_ONBOARDING_PROMPTS_FETCH_SUCCESS",
+            "GUILD_ONBOARDING_PROMPTS_FETCH_FAILURE",
+            "GUILD_ONBOARDING_PROMPTS_FETCH_START",
+            "GUILD_ONBOARDING_START"
+        ]
+    },
+    {
+        "path": "app/modules/guild_profile/GuildPopoutActionCreators.tsx",
+        "flux_events": [
+            "GUILD_POPOUT_FETCH_SUCCESS",
+            "GUILD_POPOUT_FETCH_FAILURE",
+            "GUILD_POPOUT_FETCH_START"
+        ]
+    },
+    {
+        "path": "app/modules/guild_profile/GuildProfileActionCreators.tsx",
+        "flux_events": [
+            "GUILD_PROFILE_UPDATE_VISIBILITY_SUCCESS",
+            "GUILD_PROFILE_UPDATE_VISIBILITY_FAILURE",
+            "GUILD_PROFILE_UPDATE_VISIBILITY",
+            "GUILD_PROFILE_UPDATE_SUCCESS",
+            "GUILD_PROFILE_UPDATE_FAILURE"
+        ]
+    },
+    {
+        "path": "app/modules/guild_progress/GuildProgressActionCreators.tsx",
+        "flux_events": [
+            "GUILD_PROGRESS_COMPLETED_SEEN",
+            "GUILD_PROGRESS_INITIALIZE",
+            "GUILD_PROGRESS_DISMISS"
+        ]
+    },
+    {
+        "path": "app/modules/guild_role_subscriptions/GuildRoleSubscriptionsActionCreators.tsx",
+        "flux_events": [
+            "GUILD_ROLE_SUBSCRIPTIONS_FETCH_LISTING_FOR_PLAN_SUCCESS",
+            "GUILD_ROLE_SUBSCRIPTIONS_UPDATE_SUBSCRIPTIONS_SETTINGS",
+            "GUILD_ROLE_SUBSCRIPTIONS_UPDATE_SUBSCRIPTIONS_SETTINGS",
+            "GUILD_ROLE_SUBSCRIPTIONS_FETCH_RESTRICTIONS_SUCCESS",
+            "GUILD_ROLE_SUBSCRIPTIONS_FETCH_RESTRICTIONS_ABORTED"
+        ]
+    },
+    {
+        "path": "app/modules/guild_role_subscriptions/tier_templates/GuildRoleSubscriptionTierTemplateActionCreators.tsx",
+        "flux_events": [
+            "GUILD_ROLE_SUBSCRIPTIONS_STASH_TEMPLATE_CHANNELS",
+            "GUILD_ROLE_SUBSCRIPTIONS_FETCH_TEMPLATES"
+        ]
+    },
+    {
+        "path": "app/modules/guild_scheduled_events/GuildScheduledEventsActionCreators.tsx",
+        "flux_events": [
+            "GUILD_SCHEDULED_EVENT_USER_COUNTS_FETCH_SUCCESS",
+            "GUILD_SCHEDULED_EVENT_USERS_FETCH_SUCCESS",
+            "GUILD_SCHEDULED_EVENT_RSVPS_FETCH_SUCESS",
+            "GUILD_SCHEDULED_EVENT_USER_REMOVE",
+            "GUILD_SCHEDULED_EVENT_USER_REMOVE"
+        ]
+    },
+    {
+        "path": "app/modules/guild_scheduled_events/GuildScheduledEventsNoticesActionCreators.tsx",
+        "flux_events": [
+            "UPCOMING_GUILD_EVENT_NOTICE_HIDE",
+            "UPCOMING_GUILD_EVENT_NOTICE_SEEN",
+            "LIVE_CHANNEL_NOTICE_HIDE",
+            "EVENT_BANNER_DISMISS"
+        ]
+    },
+    {
+        "path": "app/modules/guild_settings/GuildRoleMemberActionCreators.tsx",
+        "flux_events": [
+            "GUILD_ROLE_MEMBER_COUNT_FETCH_SUCCESS",
+            "GUILD_ROLE_MEMBER_COUNT_FETCH_FAILURE",
+            "GUILD_ROLE_MEMBER_COUNT_FETCH_START"
+        ]
+    },
+    {
+        "path": "app/modules/guild_settings/GuildSettingsActionCreators.tsx",
+        "flux_events": [
+            "GUILD_SETTINGS_SLOWMODE_PERMISSION_MIGRATED",
+            "GUILD_SETTINGS_PIN_PERMISSION_MIGRATED",
+            "GUILD_SETTINGS_SAVE_ROUTE_STACK",
+            "GUILD_SETTINGS_SET_SEARCH_QUERY",
+            "GUILD_SETTINGS_SET_MFA_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/modules/guild_settings/GuildSettingsFetchActionCreators.tsx",
+        "flux_events": [
+            "GUILD_SETTINGS_LOADED_INTEGRATIONS",
+            "GUILD_SETTINGS_SET_WIDGET"
+        ]
+    },
+    {
+        "path": "app/modules/guild_settings/GuildSettingsModalChannelsActionCreators.tsx",
+        "flux_events": [
+            "GUILD_SETTINGS_MODAL_CHANNELS_START_REORDER",
+            "GUILD_SETTINGS_MODAL_CHANNELS_STOP_REORDER",
+            "GUILD_SETTINGS_MODAL_CHANNELS_TERMINATE",
+            "GUILD_SETTINGS_MODAL_LOCAL_SORT_CHANGE"
+        ]
+    },
+    {
+        "path": "app/modules/guild_settings/GuildSettingsModalMembersActionCreators.tsx",
+        "flux_events": [
+            "GUILD_SETTINGS_MODAL_MEMBERS_CHANGE_NICKNAME_SUCCESS",
+            "GUILD_SETTINGS_MODAL_MEMBERS_CHANGE_NICKNAME_FAILURE",
+            "GUILD_SETTINGS_MODAL_MEMBERS_START_EDITING_NICKNAME",
+            "GUILD_SETTINGS_MODAL_MEMBERS_ROLES_SAVE_COMPLETE",
+            "GUILD_SETTINGS_MODAL_MEMBERS_CHANGE_NICKNAME"
+        ]
+    },
+    {
+        "path": "app/modules/guild_settings/roles/GuildSettingsModalRolesActionCreators.tsx",
+        "flux_events": [
+            "GUILD_SETTINGS_MODAL_ROLES_PERMISSIONS_SUBMITTING_SUCCESS",
+            "GUILD_SETTINGS_MODAL_ROLES_PERMISSIONS_SUBMITTING_FAILURE",
+            "GUILD_SETTINGS_MODAL_ROLES_PERMISSIONS_START_EDITING",
+            "GUILD_SETTINGS_MODAL_ROLES_PERMISSIONS_STOP_EDITING",
+            "GUILD_SETTINGS_MODAL_ROLES_PERMISSIONS_SUBMITTING"
+        ]
+    },
+    {
+        "path": "app/modules/guild_settings/roles/GuildSettingsRolesActionCreators.tsx",
+        "flux_events": [
+            "GUILD_SETTINGS_ROLES_UPDATE_ROLE_CONNECTION_CONFIGURATIONS",
+            "GUILD_SETTINGS_ROLES_UPDATE_PERMISSION_SET",
+            "GUILD_SETTINGS_ROLES_UPDATE_PERMISSIONS",
+            "GUILD_SETTINGS_ROLES_UPDATE_DESCRIPTION",
+            "GUILD_SETTINGS_ROLES_CLEAR_PERMISSIONS"
+        ]
+    },
+    {
+        "path": "app/modules/guild_settings/server_monetization/boost_perks/GuildSettingsVanityURLActionCreators.tsx",
+        "flux_events": [
+            "GUILD_SETTINGS_VANITY_URL_RESET",
+            "GUILD_SETTINGS_VANITY_URL_ERROR",
+            "GUILD_SETTINGS_SET_VANITY_URL",
+            "GUILD_SETTINGS_VANITY_URL_SET",
+            "GUILD_SETTINGS_SET_VANITY_URL"
+        ]
+    },
+    {
+        "path": "app/modules/guild_tag/GuildTagActionCreators.tsx",
+        "flux_events": [
+            "CURRENT_USER_UPDATE"
+        ]
+    },
+    {
+        "path": "app/modules/guild_templates/AcceptGuildTemplateActionCreators.tsx",
+        "flux_events": [
+            "GUILD_TEMPLATE_ACCEPT_SUCCESS",
+            "GUILD_TEMPLATE_ACCEPT_FAILURE",
+            "GUILD_TEMPLATE_ACCEPT"
+        ]
+    },
+    {
+        "path": "app/modules/guild_templates/GuildTemplateActionCreators.tsx",
+        "flux_events": [
+            "GUILD_TEMPLATE_LOAD_FOR_GUILD_SUCCESS",
+            "GUILD_TEMPLATE_RESOLVE_SUCCESS",
+            "GUILD_TEMPLATE_RESOLVE_FAILURE",
+            "GUILD_TEMPLATE_CREATE_SUCCESS",
+            "GUILD_TEMPLATE_DELETE_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/modules/guild_templates/GuildTemplateTooltipActionCreators.tsx",
+        "flux_events": [
+            "GUILD_TEMPLATE_PROMOTION_TOOLTIP_HIDE",
+            "GUILD_TEMPLATE_DIRTY_TOOLTIP_HIDE"
+        ]
+    },
+    {
+        "path": "app/modules/guild_templates/native/GuildTemplateActionCreators.tsx",
+        "flux_events": [
+            "GUILD_TEMPLATE_MODAL_SHOW",
+            "GUILD_TEMPLATE_MODAL_HIDE"
+        ]
+    },
+    {
+        "path": "app/modules/guild/BasicGuildActionCreators.tsx",
+        "flux_events": [
+            "BASIC_GUILD_FETCH_SUCCESS",
+            "BASIC_GUILD_FETCH_FAILURE",
+            "BASIC_GUILD_FETCH"
+        ]
+    },
+    {
+        "path": "app/modules/guild/GuildPromptsActionCreators.tsx",
+        "flux_events": [
+            "GUILD_PROMPT_VIEWED"
+        ]
+    },
+    {
+        "path": "app/modules/harvester/DataHarvestActionCreators.tsx",
+        "flux_events": [
+            "LOAD_DATA_HARVEST_TYPE_FAILURE",
+            "LOAD_DATA_HARVEST_TYPE_START",
+            "UPDATE_DATA_HARVEST_TYPE",
+            "UPDATE_DATA_HARVEST_TYPE"
+        ]
+    },
+    {
+        "path": "app/modules/hotspot/HotspotActionCreators.tsx",
+        "flux_events": [
+            "HOTSPOT_OVERRIDE_CLEAR",
+            "HOTSPOT_OVERRIDE_SET",
+            "HOTSPOT_HIDE"
+        ]
+    },
+    {
+        "path": "app/modules/icymi/ICYMIActionCreators.tsx",
+        "flux_events": [
+            "LOAD_ICYMI_CURRENT_STATUS_MEDIA",
+            "ICYMI_JOINED_RECOMMENDED_GUILD",
+            "LOAD_ICYMI_RECOMMENDED_GUILDS",
+            "LOAD_ICYMI_FROM_NOTIFICATION",
+            "LOAD_ICYMI_FROM_NOTIFICATION"
+        ]
+    },
+    {
+        "path": "app/modules/icymi/native/NativeICYMIActionCreators.tsx",
+        "flux_events": [
+            "ICYMI_CUSTOM_SCORES_UPDATED"
+        ]
+    },
+    {
+        "path": "app/modules/impersonate/ImpersonateActionCreators.tsx",
+        "flux_events": [
+            "IMPERSONATE_UPDATE",
+            "IMPERSONATE_UPDATE",
+            "IMPERSONATE_STOP"
+        ]
+    },
+    {
+        "path": "app/modules/interactions/InteractionActionCreators.tsx",
+        "flux_events": [
+            "LOAD_MESSAGE_INTERACTION_DATA_SUCCESS",
+            "QUEUE_INTERACTION_COMPONENT_STATE",
+            "INTERACTION_FAILURE",
+            "INTERACTION_QUEUE"
+        ]
+    },
+    {
+        "path": "app/modules/local_push_notification/native/LocalPushNotificationActionCreators.tsx",
+        "flux_events": [
+            "PUSH_NOTIFICATION_CLICK"
+        ]
+    },
+    {
+        "path": "app/modules/lurker_mode/LurkerActionCreators.tsx",
+        "flux_events": [
+            "GUILD_STOP_LURKING_FOR_GUILD",
+            "GUILD_STOP_LURKING_FAILURE",
+            "GUILD_STOP_LURKING_FAILURE",
+            "GUILD_STOP_LURKING"
+        ]
+    },
+    {
+        "path": "app/modules/media_channel/MediaChannelActionCreators.tsx",
+        "flux_events": [
+            "DISMISS_MEDIA_POST_SHARE_PROMPT",
+            "MEDIA_POST_EMBED_FETCH_SUCCESS",
+            "MEDIA_POST_EMBED_FETCH_FAILURE",
+            "MEDIA_POST_EMBED_FETCH"
+        ]
+    },
+    {
+        "path": "app/modules/media_engine/MediaEngineActionCreators.tsx",
+        "flux_events": [
+            "PUSH_TO_TALK_STATE_CHANGE"
+        ]
+    },
+    {
+        "path": "app/modules/media/VideoActionCreators.tsx",
+        "flux_events": [
+            "VIDEO_SIZE_UPDATE"
+        ]
+    },
+    {
+        "path": "app/modules/message_request/MessageRequestActionCreators.tsx",
+        "flux_events": [
+            "MESSAGE_REQUEST_ACCEPT_OPTIMISTIC"
+        ]
+    },
+    {
+        "path": "app/modules/multi_account/MultiAccountActionCreators.tsx",
+        "flux_events": [
+            "MULTI_ACCOUNT_INVALIDATE_PUSH_SYNC_TOKENS",
+            "MULTI_ACCOUNT_VALIDATE_TOKEN_FAILURE",
+            "MULTI_ACCOUNT_VALIDATE_TOKEN_REQUEST",
+            "MULTI_ACCOUNT_VALIDATE_TOKEN_SUCCESS",
+            "MULTI_ACCOUNT_VALIDATE_TOKEN_FAILURE"
+        ]
+    },
+    {
+        "path": "app/modules/native_menu/native/NativeMenuActionCreators.tsx",
+        "flux_events": [
+            "SHOW_NATIVE_MENU",
+            "HIDE_NATIVE_MENU"
+        ]
+    },
+    {
+        "path": "app/modules/native_permissions/NativePermissionActionCreators.tsx",
+        "flux_events": [
+            "SET_NATIVE_PERMISSION"
+        ]
+    },
+    {
+        "path": "app/modules/nuf/native/NUFActionCreators.tsx",
+        "flux_events": [
+            "ONBOARDING_START",
+            "ONBOARDING_STEP",
+            "ONBOARDING_STEP",
+            "ONBOARDING_STEP"
+        ]
+    },
+    {
+        "path": "app/modules/nuf/NUFActionCreators.tsx",
+        "flux_events": [
+            "NUF_NEW_USER",
+            "NUF_COMPLETE"
+        ]
+    },
+    {
+        "path": "app/modules/opt_in_channels/OptInChannelsActionCreators.tsx",
+        "flux_events": [
+            "USER_GUILD_SETTINGS_REMOVE_PENDING_CHANNEL_UPDATES",
+            "USER_GUILD_SETTINGS_CHANNEL_UPDATE",
+            "USER_GUILD_SETTINGS_CHANNEL_UPDATE",
+            "SET_RECENTLY_ACTIVE_COLLAPSED",
+            "DISMISS_FAVORITE_SUGGESTION"
+        ]
+    },
+    {
+        "path": "app/modules/parent_tools/FamilyCenterActionCreators.tsx",
+        "flux_events": [
+            "FAMILY_CENTER_TEEN_SETTINGS_AND_CONSENTS_FETCH_SUCCESS",
+            "FAMILY_CENTER_TEEN_ACTIVITY_MORE_FETCH_SUCCESS",
+            "FAMILY_CENTER_TEEN_UPDATE_SETTINGS_SUCCESS",
+            "FAMILY_CENTER_TEEN_CONSENTS_UPDATE_SUCCESS",
+            "FAMILY_CENTER_REQUEST_LINK_UPDATE_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/modules/parent_tools/RestrictedScheduleActionCreators.tsx",
+        "flux_events": [
+            "USER_RESTRICTED_SCHEDULE_UPDATE",
+            "USER_RESTRICTED_SCHEDULE_UPDATE",
+            "USER_RESTRICTED_SCHEDULE_UPDATE"
+        ]
+    },
+    {
+        "path": "app/modules/payments/native/OrderActionCreators.tsx",
+        "flux_events": [
+            "ORDER_MARK_SIGNING_SUCCESS",
+            "ORDER_MARK_SIGNING_START",
+            "ORDER_MARK_SIGNING_FAIL",
+            "ORDER_CREATE_SUCCESS",
+            "ORDER_UPDATE_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/modules/phone/PhoneActionCreators.tsx",
+        "flux_events": [
+            "PHONE_SET_COUNTRY_CODE",
+            "MODAL_POP"
+        ]
+    },
+    {
+        "path": "app/modules/poggermode/PoggermodeActionCreators.tsx",
+        "flux_events": [
+            "POGGERMODE_UPDATE_MESSAGE_COMBO",
+            "POGGERMODE_UPDATE_MESSAGE_COMBO",
+            "POGGERMODE_SETTINGS_UPDATE",
+            "POGGERMODE_UPDATE_COMBO",
+            "POGGERMODE_UPDATE_COMBO"
+        ]
+    },
+    {
+        "path": "app/modules/premium_apps/ApplicationSubscriptionsActionCreators.tsx",
+        "flux_events": [
+            "APPLICATION_SUBSCRIPTIONS_FETCH_LISTING_FOR_PLAN_SUCCESS",
+            "APPLICATION_SUBSCRIPTIONS_FETCH_ENTITLEMENTS_SUCCESS",
+            "APPLICATION_SUBSCRIPTIONS_FETCH_ENTITLEMENTS_FAILURE",
+            "APPLICATION_SUBSCRIPTIONS_CHANNEL_NOTICE_DISMISSED",
+            "APPLICATION_SUBSCRIPTIONS_FETCH_LISTINGS_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/modules/premium/game_server/GameServerActionCreators.tsx",
+        "flux_events": [
+            "GAME_SERVER_FETCH_GAME_INSTRUCTIONS_SUCCESS",
+            "GAME_SERVER_FETCH_GLOBAL_CATALOG_SUCCESS",
+            "GAME_SERVER_REGION_PING_STATE_UPDATE",
+            "GAME_SERVER_FETCH_INSTANCES_SUCCESS",
+            "GAME_SERVER_FETCH_INSTANCES_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/modules/premium/powerups/GuildPowerupsActionCreators.tsx",
+        "flux_events": [
+            "GUILD_BOOST_ENTITLEMENTS_FETCH_SUCCESS",
+            "GUILD_POWERUP_CATALOG_FETCH_SUCCESS",
+            "GUILD_POWERUP_CATALOG_FETCH_SUCCESS",
+            "GUILD_POWERUPS_RESET_NOTIFICATIONS",
+            "GUILD_POWERUPS_ACK_NOTIFICATION"
+        ]
+    },
+    {
+        "path": "app/modules/premium/premium_group/PremiumGroupActionCreators.tsx",
+        "flux_events": [
+            "PREMIUM_GROUP_MEMBERSHIP_FETCH_SUCCESS",
+            "PREMIUM_GROUP_MEMBERSHIP_FETCH_FAILURE",
+            "PREMIUM_GROUP_MEMBERSHIP_FETCH_START",
+            "PREMIUM_GROUP_REMOVE_MEMBER_SUCCESS",
+            "PREMIUM_GROUP_REMOVE_MEMBER_FAILURE"
+        ]
+    },
+    {
+        "path": "app/modules/premium/promotions/PromotionsActionCreators.tsx",
+        "flux_events": [
+            "CLAIMED_OUTBOUND_PROMOTION_CODES_FETCH_SUCCESS",
+            "CLAIMED_OUTBOUND_PROMOTION_CODES_FETCH_FAIL",
+            "ACTIVE_BOGO_PROMOTION_FETCH_SUCCESS",
+            "CLAIMED_OUTBOUND_PROMOTION_CODE_ADD",
+            "OUTBOUND_PROMOTION_NOTICE_DISMISS"
+        ]
+    },
+    {
+        "path": "app/modules/premium/ReferralTrialActionCreators.tsx",
+        "flux_events": [
+            "BILLING_REFERRALS_REMAINING_FETCH_SUCCESS",
+            "BILLING_REFERRALS_REMAINING_FETCH_START",
+            "BILLING_REFERRALS_REMAINING_FETCH_FAIL",
+            "BILLING_REFERRAL_RESOLVE_SUCCESS",
+            "BILLING_CREATE_REFERRAL_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/modules/premium/UserOfferActionCreators.tsx",
+        "flux_events": [
+            "BILLING_USER_OFFER_ACKNOWLEDGED_SUCCESS",
+            "BILLING_USER_OFFER_FETCH_SUCCESS",
+            "BILLING_USER_OFFER_FETCH_SUCCESS",
+            "BILLING_USER_OFFER_FETCH_SUCCESS",
+            "BILLING_USER_OFFER_FETCH_START"
+        ]
+    },
+    {
+        "path": "app/modules/presence_subscriptions/PresenceSubscriptionsActionCreators.tsx",
+        "flux_events": [
+            "PRESENCE_SUBSCRIPTIONS_ADD"
+        ]
+    },
+    {
+        "path": "app/modules/qualtrics/QualtricsActionCreators.tsx",
+        "flux_events": [
+            "QUALTRICS_SURVEY_FETCH_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/modules/quests/BountyActionCreators.tsx",
+        "flux_events": [
+            "BOUNTIES_FETCH_QUEST_HOME_BOUNTIES_SUCCESS",
+            "BOUNTIES_FETCH_QUEST_HOME_BOUNTIES_FAILURE",
+            "BOUNTIES_FETCH_QUEST_HOME_BOUNTIES_BEGIN",
+            "BOUNTIES_VIDEO_PROGRESS_UPDATE",
+            "BOUNTIES_CLAIM_REWARD_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/modules/quests/QuestActionCreators.tsx",
+        "flux_events": [
+            "QUESTS_DISMISS_PROGRESS_TRACKING_FAILURE_NOTICE",
+            "QUESTS_FETCH_EARNED_QUEST_TO_DELIVER_SUCCESS",
+            "QUESTS_FETCH_EARNED_QUEST_TO_DELIVER_FAILURE",
+            "QUESTS_FETCH_EARNED_QUEST_TO_DELIVER_BEGIN",
+            "QUESTS_PREV_RESTING_QUEST_DOCK_MODE_UPDATE"
+        ]
+    },
+    {
+        "path": "app/modules/quickswitcher/QuickSwitcherActionCreators.tsx",
+        "flux_events": [
+            "QUICKSWITCHER_SWITCH_TO",
+            "QUICKSWITCHER_SEARCH",
+            "QUICKSWITCHER_SELECT",
+            "QUICKSWITCHER_HIDE",
+            "QUICKSWITCHER_SHOW"
+        ]
+    },
+    {
+        "path": "app/modules/reactions/ReactionActionCreators.tsx",
+        "flux_events": [
+            "MESSAGE_REACTION_ADD_USERS",
+            "BURST_REACTION_EFFECT_PLAY"
+        ]
+    },
+    {
+        "path": "app/modules/recent_channels/RecentChannelsActionCreators.tsx",
+        "flux_events": [
+            "BULK_CLEAR_RECENTS"
+        ]
+    },
+    {
+        "path": "app/modules/replies/PendingReplyActionCreators.tsx",
+        "flux_events": [
+            "SET_PENDING_REPLY_SHOULD_MENTION",
+            "CREATE_SHALLOW_PENDING_REPLY",
+            "CREATE_PENDING_REPLY",
+            "DELETE_PENDING_REPLY"
+        ]
+    },
+    {
+        "path": "app/modules/reply_nudge/ReplyNudgeActionCreators.tsx",
+        "flux_events": [
+            "REPLY_NUDGES_INITIALIZED",
+            "REPLY_NUDGE_CLEAR",
+            "REPLY_NUDGE_SET"
+        ]
+    },
+    {
+        "path": "app/modules/rtc/SecureFramesActionCreators.tsx",
+        "flux_events": [
+            "SECURE_FRAMES_UPLOADED_KEY_VERSION_CLEAR",
+            "SECURE_FRAMES_USER_VERIFIED_KEYS_DELETE",
+            "SECURE_FRAMES_UPLOADED_KEY_VERSION_ADD",
+            "SECURE_FRAMES_TRANSIENT_KEY_CREATE",
+            "SECURE_FRAMES_TRANSIENT_KEY_DELETE"
+        ]
+    },
+    {
+        "path": "app/modules/safety_hub/native/AppealIngestionModalActionCreators.tsx",
+        "flux_events": [
+            "SAFETY_HUB_APPEAL_CLOSE",
+            "SAFETY_HUB_APPEAL_OPEN"
+        ]
+    },
+    {
+        "path": "app/modules/safety_hub/SafetyHubActionCreators.tsx",
+        "flux_events": [
+            "SAFETY_HUB_REQUEST_AUTOMATED_UNDERAGE_APPEAL_SUCCESS",
+            "SAFETY_HUB_REQUEST_AUTOMATED_UNDERAGE_APPEAL_FAILURE",
+            "SAFETY_HUB_REQUEST_AUTOMATED_UNDERAGE_APPEAL_START",
+            "SAFETY_HUB_CHECK_AUTOMATED_UNDERAGE_APPEAL_SUCCESS",
+            "SAFETY_HUB_CHECK_AUTOMATED_UNDERAGE_APPEAL_FAILURE"
+        ]
+    },
+    {
+        "path": "app/modules/search/native/SearchPlatformActionCreators.tsx",
+        "flux_events": [
+            "SEARCH_HISTORY_NATIVE_REMOVE_ITEM",
+            "SEARCH_HISTORY_NATIVE_CLEAR_ITEMS",
+            "SEARCH_GUILD_CHANNEL_TAB_CLEANUP",
+            "SEARCH_GUILD_MEMBER_TAB_CLEANUP",
+            "SEARCH_GUILD_CHANNEL_TAB_SEARCH"
+        ]
+    },
+    {
+        "path": "app/modules/search/SearchActionCreators.tsx",
+        "flux_events": [
+            "SEARCH_AUTOCOMPLETE_QUERY_UPDATE",
+            "SEARCH_AUTOCOMPLETE_INITIALIZE",
+            "SEARCH_RECENT_MESSAGES_CLEAR",
+            "SEARCH_MESSAGES_CLEAR_ALL",
+            "SEARCH_MESSAGES_INDEXING"
+        ]
+    },
+    {
+        "path": "app/modules/self_mod/ChannelSafetyWarningsActionCreators.tsx",
+        "flux_events": [
+            "ACKNOWLEDGE_CHANNEL_SAFETY_WARNING_TOOLTIP",
+            "DISMISS_CHANNEL_SAFETY_WARNINGS",
+            "CHANNEL_SAFETY_WARNING_FEEDBACK",
+            "CLEAR_CHANNEL_SAFETY_WARNINGS"
+        ]
+    },
+    {
+        "path": "app/modules/self_mod/inappropriate_conversation/InappropriateConversationsActionCreators.tsx",
+        "flux_events": [
+            "VIBING_WUMPUS_PAUSE_MUSIC",
+            "VIBING_WUMPUS_PLAY_MUSIC",
+            "VIBING_WUMPUS_STOP_MUSIC"
+        ]
+    },
+    {
+        "path": "app/modules/slayer_storefront/SocialLayerStorefrontActionCreators.tsx",
+        "flux_events": [
+            "SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_FAILURE",
+            "SOCIAL_LAYER_STOREFRONT_ANNOUNCEMENT_FETCH_SUCCESS",
+            "SOCIAL_LAYER_STOREFRONT_ANNOUNCEMENT_FETCH_FAILURE",
+            "SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_CREATE",
+            "SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_START"
+        ]
+    },
+    {
+        "path": "app/modules/soundboard/SoundboardActionCreators.tsx",
+        "flux_events": [
+            "SOUNDBOARD_FETCH_DEFAULT_SOUNDS_SUCCESS",
+            "SOUNDBOARD_FETCH_DEFAULT_SOUNDS_FAILURE",
+            "GUILD_SOUNDBOARD_SOUND_PLAY_LOCALLY",
+            "GUILD_SOUNDBOARD_SOUND_PLAY_START",
+            "SOUNDBOARD_FETCH_DEFAULT_SOUNDS"
+        ]
+    },
+    {
+        "path": "app/modules/spotify/SpotifyActionCreators.tsx",
+        "flux_events": [
+            "SPOTIFY_ACCOUNT_ACCESS_TOKEN_REVOKE",
+            "SPOTIFY_SET_PROTOCOL_REGISTERED",
+            "SPOTIFY_ACCOUNT_ACCESS_TOKEN",
+            "SPOTIFY_SET_ACTIVE_DEVICE",
+            "SPOTIFY_PROFILE_UPDATE"
+        ]
+    },
+    {
+        "path": "app/modules/stage_channels/StageMusicActionCreators.tsx",
+        "flux_events": [
+            "STAGE_MUSIC_MUTE",
+            "STAGE_MUSIC_PLAY"
+        ]
+    },
+    {
+        "path": "app/modules/stickers/StickersActionCreators.tsx",
+        "flux_events": [
+            "GUILD_STICKERS_CREATE_SUCCESS",
+            "GUILD_STICKERS_FETCH_SUCCESS",
+            "STICKER_PACKS_FETCH_SUCCESS",
+            "GUILD_STICKER_FETCH_SUCCESS",
+            "STICKER_PACK_FETCH_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/modules/storefront/StorefrontActionCreators.tsx",
+        "flux_events": [
+            "STOREFRONT_PROMOTIONS_FETCH_SUCCESS",
+            "STOREFRONT_PROMOTIONS_FETCH_START",
+            "STOREFRONT_PROMOTIONS_FETCH_FAIL",
+            "SKUS_PRICING_FETCH_SUCCESS",
+            "SKUS_PRICING_FETCH_START"
+        ]
+    },
+    {
+        "path": "app/modules/summaries/SummaryActionCreators.tsx",
+        "flux_events": [
+            "REQUEST_CHANNEL_SUMMARIES_BULK",
+            "RECEIVE_CHANNEL_SUMMARIES_BULK",
+            "REQUEST_CHANNEL_AFFINITIES",
+            "RECEIVE_CHANNEL_AFFINITIES",
+            "REQUEST_CHANNEL_SUMMARIES"
+        ]
+    },
+    {
+        "path": "app/modules/threads/ThreadActionCreators.tsx",
+        "flux_events": [
+            "LOAD_ARCHIVED_THREADS_SUCCESS",
+            "THREAD_MEMBER_LOCAL_UPDATE",
+            "LOAD_ARCHIVED_THREADS_FAIL",
+            "LOAD_ARCHIVED_THREADS_FAIL",
+            "SUMMARIZE_THREAD_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/modules/toast/native/ToastActionCreators.tsx",
+        "flux_events": [
+            "TOAST_CLOSE",
+            "TOAST_OPEN"
+        ]
+    },
+    {
+        "path": "app/modules/tooltip/TooltipActionCreators.tsx",
+        "flux_events": [
+            "TOOLTIP_SHOW_ATTEMPT",
+            "TOOLTIP_ACKNOWLEDGE"
+        ]
+    },
+    {
+        "path": "app/modules/tti_analytics/native/PerformanceAnalyticsActionCreators.tsx",
+        "flux_events": [
+            "TTI_RECORDED"
+        ]
+    },
+    {
+        "path": "app/modules/unique_usernames/UniqueUsernamesActionCreators.tsx",
+        "flux_events": [
+            "UNIQUE_USERNAME_REGISTRATION_SUGGESTIONS_SUCCESS",
+            "UNIQUE_USERNAME_SUGGESTIONS_RESET",
+            "UNIQUE_USERNAME_SUGGESTIONS_RESET",
+            "UNIQUE_USERNAME_ATTEMPT_SUCCESS",
+            "UNIQUE_USERNAME_ATTEMPT_FAILURE"
+        ]
+    },
+    {
+        "path": "app/modules/user_application_identity/UserApplicationIdentityActionCreators.tsx",
+        "flux_events": [
+            "USER_APPLICATION_IDENTITY_FETCH_USER_SUCCESS",
+            "USER_APPLICATION_IDENTITY_FETCH_USER_FAILURE",
+            "USER_APPLICATION_IDENTITY_FETCH_USER_START"
+        ]
+    },
+    {
+        "path": "app/modules/user_profile/UserProfileActionCreators.tsx",
+        "flux_events": [
+            "USER_PROFILE_SETTINGS_SET_TRY_IT_OUT_DISPLAY_NAME_STYLES",
+            "USER_PROFILE_SETTINGS_SET_TRY_IT_OUT_AVATAR_DECORATION",
+            "USER_PROFILE_APPLICATION_WIDGET_CONFIGS_FETCH_SUCCESS",
+            "USER_PROFILE_APPLICATION_WIDGET_CONFIGS_FETCH_FAILURE",
+            "USER_PROFILE_APPLICATION_WIDGET_CONFIGS_FETCH_START"
+        ]
+    },
+    {
+        "path": "app/modules/user_profile/UserProfileSettingsActionCreators.tsx",
+        "flux_events": [
+            "USER_PROFILE_SETTINGS_SET_PENDING_CHANGES"
+        ]
+    },
+    {
+        "path": "app/modules/user_profile/WidgetActionCreators.tsx",
+        "flux_events": [
+            "WIDGET_SUGGESTED_FETCH_SUCCESS",
+            "WIDGET_SUGGESTED_FETCH_FAILURE",
+            "WIDGET_SUGGESTED_FETCH_START",
+            "WIDGET_SUGGESTED_REMOVE_GAME",
+            "WIDGET_PENDING_SAVE_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/modules/user_settings/ThemeActionCreators.tsx",
+        "flux_events": [
+            "UNSYNCED_USER_SETTINGS_UPDATE",
+            "UPDATE_THEME_PREFERENCES",
+            "CLEAR_THEME_OVERRIDE",
+            "SYSTEM_THEME_CHANGE",
+            "SET_THEME_OVERRIDE"
+        ]
+    },
+    {
+        "path": "app/modules/user_settings/UserSettingsProtoActionCreators.tsx",
+        "flux_events": [
+            "USER_SETTINGS_PROTO_UPDATE_EDIT_INFO",
+            "USER_SETTINGS_PROTO_UPDATE"
+        ]
+    },
+    {
+        "path": "app/modules/video_backgrounds/VideoBackgroundActionCreators.tsx",
+        "flux_events": [
+            "MEDIA_ENGINE_APPLY_MEDIA_FILTER_SETTINGS_START",
+            "MEDIA_ENGINE_APPLY_MEDIA_FILTER_SETTINGS_ERROR",
+            "MEDIA_ENGINE_APPLY_MEDIA_FILTER_SETTINGS",
+            "VIDEO_SAVE_LAST_USED_BACKGROUND_OPTION",
+            "VIDEO_SAVE_LAST_USED_BACKGROUND_OPTION"
+        ]
+    },
+    {
+        "path": "app/modules/virtual_currency/VirtualCurrencyActionCreators.tsx",
+        "flux_events": [
+            "VIRTUAL_CURRENCY_SET_BALANCE_PILL_OVERLAY",
+            "VIRTUAL_CURRENCY_BALANCE_FETCH_SUCCESS",
+            "VIRTUAL_CURRENCY_BALANCE_FETCH_FAIL",
+            "VIRTUAL_CURRENCY_REDEEM_SUCCESS",
+            "VIRTUAL_CURRENCY_BALANCE_FETCH"
+        ]
+    },
+    {
+        "path": "app/modules/voice_overlay/native/MobileVoiceOverlayActionCreators.tsx",
+        "flux_events": [
+            "MOBILE_VOICE_OVERLAY_STATE_CHANGED"
+        ]
+    },
+    {
+        "path": "app/modules/webauthn/WebAuthnActionCreators.tsx",
+        "flux_events": [
+            "MFA_WEBAUTHN_CREDENTIALS_LOADED",
+            "WEBAUTHN_CLEAR_REGISTER_TRIGGER",
+            "WEBAUTHN_TRIGGER_REGISTER",
+            "AUTHENTICATOR_DELETE",
+            "AUTHENTICATOR_UPDATE"
+        ]
+    },
+    {
+        "path": "app/modules/welcome_screen/WelcomeScreenActionCreators.tsx",
+        "flux_events": [
+            "WELCOME_SCREEN_SETTINGS_UPDATE",
+            "WELCOME_SCREEN_SUBMIT_SUCCESS",
+            "WELCOME_SCREEN_SUBMIT_FAILURE",
+            "WELCOME_SCREEN_SETTINGS_RESET",
+            "WELCOME_SCREEN_SETTINGS_CLEAR"
+        ]
+    },
+    {
+        "path": "app/modules/wishlists/WishlistActionCreators.tsx",
+        "flux_events": [
+            "WISHLIST_USER_DISCOUNTS_RESPONSE_SUCCESS",
+            "WISHLIST_RECOMMENDATIONS_FETCH_SUCCESS",
+            "WISHLIST_RECOMMENDATIONS_FETCH_FAILURE",
+            "WISHLIST_RECOMMENDATIONS_FETCH_START",
+            "WISHLIST_UPDATE_VISIBILITY_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/utils/AnalyticsFeedItemSeenActionCreators.tsx",
+        "flux_events": [
+            "ANALYTICS_FEED_ITEM_UNSEEN",
+            "ANALYTICS_FEED_ITEM_SEEN",
+            "ANALYTICS_FEED_FLUSH"
         ]
     }
 ]
