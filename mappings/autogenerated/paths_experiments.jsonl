@@ -25,6 +25,7 @@
 {"find_with":["user","2026-03-clips-experiment","variations"],"paths":["app/modules/clips/ClipsExperiment.tsx"]}
 {"find_with":["user","2026-05-clips-timeline","variations"],"paths":["app/modules/clips/ClipsTimelineExperiment.tsx"]}
 {"find_with":["user","2026-04-clips-v3-runtime","variations"],"paths":["app/modules/clips/ClipsV3RuntimeExperiment.tsx"]}
+{"find_with":["user","2026-05-distributed-clips","variations"],"paths":["app/modules/clips/DistributedClipsExperiment.tsx"]}
 {"find_with":["user","2026-05-mobile-collectibles-flexible-bundles","variations"],"paths":["app/modules/collectibles/experiments/CollectiblesMobileFlexibleBundlesExperiment.tsx"]}
 {"find_with":["user","2026-04-collectibles-orbs-redeem-short-text","variations"],"paths":["app/modules/collectibles/experiments/CollectiblesOrbsRedeemShortTextExperiment.tsx"]}
 {"find_with":["user","2026-04-profile-frame-gifting","variations"],"paths":["app/modules/collectibles/experiments/CollectiblesProfileFrameGiftingExperiment.tsx"]}
@@ -97,6 +98,7 @@
 {"find_with":["user","2026-02-mobile-volume-output-slider-removal","variations"],"paths":["app/modules/media_engine/MobileAudioOutputExperiment.tsx"]}
 {"find_with":["user","2026-02-process-boost-on-voice","variations"],"paths":["app/modules/media_engine/ProcessBoostExperiment.tsx"]}
 {"find_with":["user","2026-02-silence-warning-aggression","variations"],"paths":["app/modules/media_engine/SilenceWarningExperiment.tsx"]}
+{"find_with":["user","2026-06-systemwide-echo-cancellation-for-people-who-refuse-to-wear-headphones","variations"],"paths":["app/modules/media_engine/SystemwideEchoCancellationExperiment.tsx"]}
 {"find_with":["user","2025-10-vad-before-processing","variations"],"paths":["app/modules/media_engine/VADBeforeProcessingExperiment.tsx"]}
 {"find_with":["user","2026-04-video-hook-dx12","variations"],"paths":["app/modules/media_engine/VideoHookDX12Experiment.tsx"]}
 {"find_with":["user","2026-03-video-stutter-mitigation","variations"],"paths":["app/modules/media_engine/VideoStutterMitigationExperiment.tsx"]}

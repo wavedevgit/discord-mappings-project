@@ -185,6 +185,7 @@ app/modules/clips/ClipsExperiment.tsx
 app/modules/clips/ClipsStore.tsx
 app/modules/clips/ClipsTimelineExperiment.tsx
 app/modules/clips/ClipsV3RuntimeExperiment.tsx
+app/modules/clips/DistributedClipsExperiment.tsx
 app/modules/coded_links/web/CodedLinkActionCreators.tsx
 app/modules/collectibles/CollectiblesActionCreators.tsx
 app/modules/collectibles/CollectiblesCategoryStore.tsx
@@ -482,6 +483,7 @@ app/modules/media_engine/MediaEngineStatsStore.tsx
 app/modules/media_engine/MobileAudioOutputExperiment.tsx
 app/modules/media_engine/ProcessBoostExperiment.tsx
 app/modules/media_engine/SilenceWarningExperiment.tsx
+app/modules/media_engine/SystemwideEchoCancellationExperiment.tsx
 app/modules/media_engine/VADBeforeProcessingExperiment.tsx
 app/modules/media_engine/VideoHookDX12Experiment.tsx
 app/modules/media_engine/VideoStutterMitigationExperiment.tsx

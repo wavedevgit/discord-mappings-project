@@ -180,6 +180,12 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/clips/DistributedClipsExperiment.tsx",
+        "kind": "user",
+        "id": "2026-05-distributed-clips",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/collectibles/experiments/CollectiblesMobileFlexibleBundlesExperiment.tsx",
         "kind": "user",
         "id": "2026-05-mobile-collectibles-flexible-bundles",
@@ -617,6 +623,12 @@
         "path": "app/modules/media_engine/SilenceWarningExperiment.tsx",
         "kind": "user",
         "id": "2026-02-silence-warning-aggression",
+        "keyRequired": "variations"
+    },
+    {
+        "path": "app/modules/media_engine/SystemwideEchoCancellationExperiment.tsx",
+        "kind": "user",
+        "id": "2026-06-systemwide-echo-cancellation-for-people-who-refuse-to-wear-headphones",
         "keyRequired": "variations"
     },
     {

@@ -2015,6 +2015,7 @@ app/modules/chat_input/native/guard/ChatInputGuardRequiredLobbyApplicationAuthor
 app/modules/chat_input/native/guard/ChatInputGuardReturnToGameProfile.tsx
 app/modules/chat_input/native/guard/ChatInputGuardSpamMessageRequest.tsx
 app/modules/chat_input/native/guard/ChatInputGuardWrapper.tsx
+app/modules/chat_input/native/useAnniversaryPlaceholder.tsx
 app/modules/chat_input/native/useChatInputMaxHeight.tsx
 app/modules/chat_input/native/useChatInputRefs.tsx
 app/modules/chat/native/Chat.android.tsx
@@ -4389,6 +4390,7 @@ app/modules/markup/MarkupTypesDefaultRules.tsx
 app/modules/markup/MarkupUtils.tsx
 app/modules/markup/native/MarkupMessagePreviewReactRules.tsx
 app/modules/markup/native/MarkupReactCommandRule.tsx
+app/modules/markup/native/MarkupReactGameMentionRule.tsx
 app/modules/markup/native/MarkupSearchResultLinkPreviewReactRules.tsx
 app/modules/markup/native/Spoiler.tsx
 app/modules/markup/native/SpoilerIcon.tsx
@@ -4599,6 +4601,7 @@ app/modules/messages/native/emoji/useSharedMessageEmojiStyles.tsx
 app/modules/messages/native/getEmbeddedActivityKey.tsx
 app/modules/messages/native/handlers/handleMessagesLongPressChannel.tsx
 app/modules/messages/native/handlers/handleMessagesTapChannel.tsx
+app/modules/messages/native/handlers/handleMessagesTapGameMention.tsx
 app/modules/messages/native/handlers/handleMessagesTapImage.tsx
 app/modules/messages/native/handlers/handleMessagesTapLink.tsx
 app/modules/messages/native/hooks/useChannelLoading.tsx
@@ -5144,6 +5147,7 @@ app/modules/premium/gifting/hooks/useGiftingPromotionConfig.tsx
 app/modules/premium/gifting/hooks/useGiftingPromotionDefaultSelection.tsx
 app/modules/premium/gifting/hooks/useGiftStyles.tsx
 app/modules/premium/gifting/native/GiftingBadgeInfoActionSheet.tsx
+app/modules/premium/gifting/native/GiftIntentExpressionPickerState.tsx
 app/modules/premium/gifting/native/hooks/useShouldShowGiftingPromotionDeco.tsx
 app/modules/premium/gifting/native/openGiftingBadgeInfoActionSheet.tsx
 app/modules/premium/gifting/native/views/GiftingBadgeIcon.tsx
@@ -5343,6 +5347,7 @@ app/modules/premium/premium_group/native/PremiumGroupWordmark.tsx
 app/modules/premium/premium_group/PremiumGroup.messages.js
 app/modules/premium/premium_group/PremiumGroupConstants.tsx
 app/modules/premium/premium_group/PremiumGroupUtils.tsx
+app/modules/premium/premium_group/PremiumGroupUtils.shared.tsx
 app/modules/premium/premium_group/records/SubscriptionGroupMemberRecord.tsx
 app/modules/premium/premium_marketing/native/PremiumMarketingButtonActions.tsx
 app/modules/premium/premium_marketing/native/showMarketingMomentRewardScreen.tsx
@@ -5491,8 +5496,10 @@ app/modules/quests/native/BountiesModal/BountiesModalEndCard.tsx
 app/modules/quests/native/BountiesModal/BountiesModalEndedCtaButtons.tsx
 app/modules/quests/native/BountiesModal/BountiesModalProgress.tsx
 app/modules/quests/native/BountiesModal/BountiesModalTimer.tsx
+app/modules/quests/native/BountiesModal/BountiesScrollEndCard.tsx
 app/modules/quests/native/BountiesModal/BountiesScrollVideoItem.tsx
 app/modules/quests/native/BountiesModal/BountyCtaHelpers.tsx
+app/modules/quests/native/BountiesModal/bountyError.tsx
 app/modules/quests/native/BountiesModal/BountyVideo.tsx
 app/modules/quests/native/BountiesModal/useBountiesModalTiming.tsx
 app/modules/quests/native/BountiesModal/useBountiesModalVideoAnalytics.tsx
@@ -7595,7 +7602,6 @@ discord_assets/assets/checkpoint/card-duck.png.js
 discord_assets/assets/checkpoint/card-origami.png.js
 discord_assets/assets/checkpoint/card-plant.png.js
 discord_assets/assets/checkpoint/card-snail.png.js
-discord_assets/assets/collectibles/frames/announcement_sheet_frame_early_access.png.js
 discord_assets/assets/collectibles/frames/announcement_sheet_frame.png.js
 discord_assets/assets/collectibles/frames/mobile_announcement.png.js
 discord_assets/assets/collectibles/previews/sample_profile_small-2x.png.js
@@ -8248,6 +8254,7 @@ discord_common/js/packages/timers/Timers.tsx
 discord_common/js/packages/tokens/colors/generated/native/experiment-definitions.tsx
 discord_common/js/packages/tokens/colors/generated/native/generated-definitions.tsx
 discord_common/js/packages/tokens/colors/generated/raw-color-definitions.tsx
+discord_common/js/packages/tokens/layout/generated/generated-definitions.tsx
 discord_common/js/packages/tokens/modules/generated/generated-definitions.tsx
 discord_common/js/packages/tokens/native.tsx
 discord_common/js/packages/tokens/radii/generated/generated-definitions.tsx
