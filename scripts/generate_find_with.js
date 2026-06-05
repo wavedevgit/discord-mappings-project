@@ -87,7 +87,10 @@ const actions = actionsandroid.map((e) => ({
         : e.functions_names.map((name) => ({
               type: 'regexp',
               value: new RegExp(
-                  `(?:async\\s+)?(?:function\\s+${name}\\s*\\([^)]*\\)\\s*\\{|${name}\\s*:\\s*(?:async\\s+)?\\([^)]*\\)\\s*=>)`,
+                  `(?:async\\s+)?function\\s+${name}\\s*\\([^)]*\\)\\s*\\{|` +
+                      `${name}\\s*:\\s*(?:async\\s*)?\\([^)]*\\)\\s*=>|` +
+                      `${name}\\s*\\([^)]*\\)\\s*\\{|` +
+                      `${name}\\s*:\\s*(?:async\\s+)?function\\s*\\([^)]*\\)\\s*\\{`,
               ).source,
               flags: '',
           })),
