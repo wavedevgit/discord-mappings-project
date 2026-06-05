@@ -82,7 +82,15 @@ const experiments = experimentsandroid
 
 const actions = actionsandroid.map((e) => ({
     paths: [e.path],
-    find_with: ['.dispatch(', ...e.flux_events],
+    find_with: e?.flux_events
+        ? ['.dispatch(', ...e.flux_events]
+        : e.functions_names.map((name) => ({
+              type: 'regexp',
+              value: new RegExp(
+                  `(?:async\\s+)?function\\s+${name}\\s*\\([^)]*\\)\\s*\\{`,
+              ).source,
+              flags: '',
+          })),
 }));
 
 await Promise.all([

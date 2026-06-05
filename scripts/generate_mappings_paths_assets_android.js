@@ -100,6 +100,14 @@ for (const item of data) {
                     .sort((a, b) => b.length - a.length)
                     .slice(0, 5),
             });
+        if (res.flux_events.length === 0) {
+            // try to get function names
+            const names = content
+                .match(/function\s* ([a-zA-Z_$][0-9a-zA-Z_$]*)\([\s\S]+?\)\s*{/)
+                .map((e) => e[1]);
+            if (names.length !== 0)
+                actions.push({ path: res.path, functions_names: names });
+        }
     }
 }
 
