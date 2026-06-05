@@ -102,9 +102,15 @@ for (const item of data) {
             });
         if (res.flux_events.length === 0) {
             // try to get function names
-            const names = content
-                .match(/function\s* ([a-zA-Z_$][0-9a-zA-Z_$]*)\([\s\S]+?\)\s*{/)
-                .map((e) => e[1]);
+            const code = content.join('\n');
+
+            const names = [
+                ...code.matchAll(
+                    /function\s+([a-zA-Z_$][0-9a-zA-Z_$]*)\s*\([^)]*\)\s*\{/g,
+                ),
+            ].map((m) => m[1]);
+
+            console.log(content.join('\n'), names);
             if (names.length !== 0)
                 actions.push({ path: res.path, functions_names: names });
         }
