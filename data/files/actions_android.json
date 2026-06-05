@@ -94,6 +94,12 @@
         ]
     },
     {
+        "path": "app/actions/ChangeNicknameActionCreators.tsx",
+        "functions_names": [
+            "changeNickname"
+        ]
+    },
+    {
         "path": "app/actions/ChangeVanityURLActionCreators.tsx",
         "flux_events": [
             "CHANGE_VANITY_URL_MODAL_SUBMIT",
@@ -167,6 +173,12 @@
             "CHANNEL_SETTINGS_PERMISSIONS_SET_ADVANCED_MODE",
             "CHANNEL_SETTINGS_PERMISSIONS_SAVE_SUCCESS",
             "CHANNEL_SETTINGS_PERMISSIONS_SUBMITTING"
+        ]
+    },
+    {
+        "path": "app/actions/CommunicationDisabledActionCreators.tsx",
+        "functions_names": [
+            "setCommunicationDisabledDuration"
         ]
     },
     {
@@ -411,10 +423,47 @@
         ]
     },
     {
+        "path": "app/actions/native/BoostingActionCreators.tsx",
+        "functions_names": [
+            "openApplyBoostModal",
+            "openTransferModal",
+            "closeApplyBoostModal"
+        ]
+    },
+    {
+        "path": "app/actions/native/BundleUpdaterActionCreators.tsx",
+        "functions_names": [
+            "prepareUpdate",
+            "onConfirm",
+            "deferUpdate"
+        ]
+    },
+    {
+        "path": "app/actions/native/CreateChannelModalActionCreators.tsx",
+        "functions_names": [
+            "open",
+            "onChannelCreated",
+            "close"
+        ]
+    },
+    {
+        "path": "app/actions/native/CreateGuildActionCreators.tsx",
+        "functions_names": [
+            "showInstantInviteModal"
+        ]
+    },
+    {
         "path": "app/actions/native/DisplayedInviteActionCreators.tsx",
         "flux_events": [
             "DISPLAYED_INVITE_CLEAR",
             "DISPLAYED_INVITE_SHOW"
+        ]
+    },
+    {
+        "path": "app/actions/native/EmailVerificationModalActionCreators.tsx",
+        "functions_names": [
+            "open",
+            "close"
         ]
     },
     {
@@ -484,6 +533,12 @@
         ]
     },
     {
+        "path": "app/actions/NoteActionCreators.tsx",
+        "functions_names": [
+            "updateNote"
+        ]
+    },
+    {
         "path": "app/actions/NoticeActionCreators.tsx",
         "flux_events": [
             "NOTICE_DISMISS",
@@ -518,6 +573,14 @@
             "PERMISSION_CLEAR_PTT_ADMIN_WARNING",
             "PERMISSION_CLEAR_SUPPRESS_WARNING",
             "PERMISSION_CLEAR_ELEVATED_PROCESS"
+        ]
+    },
+    {
+        "path": "app/actions/PruneGuildModalActionCreators.tsx",
+        "functions_names": [
+            "updateEstimate",
+            "updateEstimateV2",
+            "prune"
         ]
     },
     {
@@ -691,6 +754,13 @@
         ]
     },
     {
+        "path": "app/components_native/add_friend/AddFriendModalActionCreators.tsx",
+        "functions_names": [
+            "openAddFriendModalDeeplink",
+            "openAddFriendModal"
+        ]
+    },
+    {
         "path": "app/modules/a11y/AccessibilityActionCreators.tsx",
         "flux_events": [
             "ACCESSIBILITY_SYNC_PROFILE_THEME_WITH_USER_THEME_TOGGLE",
@@ -708,6 +778,13 @@
             "HIDE_ALL_ACTION_SHEETS",
             "SHOW_ACTION_SHEET",
             "HIDE_ACTION_SHEET"
+        ]
+    },
+    {
+        "path": "app/modules/activate_device/native/ActivateDeviceModalActionCreators.tsx",
+        "functions_names": [
+            "showModal",
+            "hideModal"
         ]
     },
     {
@@ -756,6 +833,13 @@
         "flux_events": [
             "AGE_VERIFICATION_CHECK_RESULT_SET",
             "AGE_VERIFICATION_RESET"
+        ]
+    },
+    {
+        "path": "app/modules/age_assurance/tooling/AgeVerificationTestActionCreators.tsx",
+        "functions_names": [
+            "_testAgeVerification",
+            "testAgeVerification"
         ]
     },
     {
@@ -826,6 +910,16 @@
         ]
     },
     {
+        "path": "app/modules/avatar/native/AddAvatarModalActionCreators.tsx",
+        "functions_names": [
+            "closeAddAvatarModal",
+            "handlePressNext",
+            "showSkipAvatarModal",
+            "onConfirm",
+            "openAddAvatarModal"
+        ]
+    },
+    {
         "path": "app/modules/badges/BadgeDirectoryActionCreators.tsx",
         "flux_events": [
             "BADGE_DIRECTORY_FETCH_SUCCESS",
@@ -865,9 +959,23 @@
         ]
     },
     {
+        "path": "app/modules/billing/actions/StripeActionCreators.tsx",
+        "functions_names": [
+            "_createStripeSetupIntent",
+            "createStripeSetupIntent"
+        ]
+    },
+    {
         "path": "app/modules/cache/CacheActionCreators.tsx",
         "flux_events": [
             "WRITE_CACHES"
+        ]
+    },
+    {
+        "path": "app/modules/captcha/tooling/CaptchaTestActionCreators.tsx",
+        "functions_names": [
+            "_testCaptcha",
+            "testCaptcha"
         ]
     },
     {
@@ -919,6 +1027,13 @@
         ]
     },
     {
+        "path": "app/modules/collectibles/native/ProductPurchaseSuccessActionCreators.tsx",
+        "functions_names": [
+            "open",
+            "close"
+        ]
+    },
+    {
         "path": "app/modules/connections/ConnectionsRoleActionCreators.tsx",
         "flux_events": [
             "GUILD_ROLE_CONNECTIONS_CONFIGURATIONS_FETCH_SUCCESS",
@@ -927,11 +1042,65 @@
         ]
     },
     {
+        "path": "app/modules/connections/native/GuildRoleConnectionsModalActionCreators.tsx",
+        "functions_names": [
+            "makeGuildRoleConnectionsConnectAccountsActionSheetKey",
+            "openGuildRoleConnectionsModal",
+            "onClose",
+            "openGuildRoleConnectionsConnectAccountModal"
+        ]
+    },
+    {
+        "path": "app/modules/contact_sync/native/ContactSyncModalActionCreators.tsx",
+        "functions_names": [
+            "handleNameInputScreenOrSuggestions",
+            "_handleNameInputScreenOrSuggestions",
+            "_handlePhoneVerificationComplete",
+            "_startContactSync",
+            "_bulkAddFriendSuggestions",
+            "onConfirm",
+            "onConfirm",
+            "_verifyPhone",
+            "openContactSyncModal",
+            "refreshContactSyncPermissionStatus",
+            "closeContactSyncModal",
+            "oldCloseContactSyncModal",
+            "redesignCloseContactSyncModal",
+            "handlePhoneVerificationComplete",
+            "startContactSync",
+            "bulkAddFriendSuggestions",
+            "goBackToLanding",
+            "submitPhone",
+            "verifyPhone",
+            "verifyPhoneWithPassword",
+            "upsellDismissed",
+            "openContactSyncModalOnboarding",
+            "openContactSyncModalDeeplink"
+        ]
+    },
+    {
         "path": "app/modules/content_inventory/ContentInventoryActionCreators.tsx",
         "flux_events": [
             "CONTENT_INVENTORY_CLEAR_DELETE_HISTORY_ERROR",
             "CONTENT_INVENTORY_TOGGLE_FEED_HIDDEN",
             "GAME_PROFILE_OPEN"
+        ]
+    },
+    {
+        "path": "app/modules/create_guild/CreateGuildActionCreators.tsx",
+        "functions_names": [
+            "_createGuildFromTemplate",
+            "createGuildFromTemplate"
+        ]
+    },
+    {
+        "path": "app/modules/create_guild/native/CreateGuildModalActionCreators.tsx",
+        "functions_names": [
+            "openCreateGuildModal",
+            "closeCreateGuildModal",
+            "closeCreateGuildOnboardingModal",
+            "openGuildInviteScreen",
+            "openGuildJoinServerScreen"
         ]
     },
     {
@@ -961,6 +1130,34 @@
             "GUILD_DIRECTORY_CATEGORY_SELECT",
             "GUILD_DIRECTORY_SEARCH_SUCCESS",
             "GUILD_DIRECTORY_FETCH_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/modules/directory_channels/native/components/GuildDirectoryAddModalActionCreators.tsx",
+        "functions_names": [
+            "open",
+            "close"
+        ]
+    },
+    {
+        "path": "app/modules/directory_channels/native/components/GuildDirectoryEditDescriptionModalActionCreators.tsx",
+        "functions_names": [
+            "open",
+            "close"
+        ]
+    },
+    {
+        "path": "app/modules/directory_channels/native/components/GuildDirectoryNicknameUpsellModalActionCreators.tsx",
+        "functions_names": [
+            "open",
+            "close"
+        ]
+    },
+    {
+        "path": "app/modules/directory_channels/native/components/GuildDirectorySearchModalActionCreators.tsx",
+        "functions_names": [
+            "open",
+            "close"
         ]
     },
     {
@@ -1020,6 +1217,15 @@
         ]
     },
     {
+        "path": "app/modules/explicit_media_redaction/ExplicitMediaRedactionActionCreators.tsx",
+        "functions_names": [
+            "reportFalsePositive",
+            "reportFailedSendFalsePositive",
+            "sendMessagesForScanning",
+            "sendMultiChannelMessagesForScanning"
+        ]
+    },
+    {
         "path": "app/modules/forums/ForumActionCreators.tsx",
         "flux_events": [
             "ADMIN_ONBOARDING_GUIDE_HIDE",
@@ -1027,6 +1233,13 @@
             "FORUM_SEARCH_SUCCESS",
             "FORUM_SEARCH_FAILURE",
             "FORUM_SEARCH_START"
+        ]
+    },
+    {
+        "path": "app/modules/forwarding/ForwardActionCreators.tsx",
+        "functions_names": [
+            "sendForward",
+            "sendForwards"
         ]
     },
     {
@@ -1058,6 +1271,37 @@
             "GAME_CONSOLE_DEVICE_CANCEL_COMMAND_FAIL",
             "GAME_CONSOLE_DEVICE_SEND_COMMAND_START",
             "GAME_CONSOLE_DEVICE_SEND_COMMAND_FAIL"
+        ]
+    },
+    {
+        "path": "app/modules/game_console/native/GameConsoleActionCreators.tsx",
+        "functions_names": [
+            "_transferToPlaystationWithAlert",
+            "transferToPlaystationWithAlert"
+        ]
+    },
+    {
+        "path": "app/modules/game_profile/native/GameDetectionReportActionCreators.tsx",
+        "functions_names": [
+            "_fetchDetectableGames",
+            "fetchDetectableGames"
+        ]
+    },
+    {
+        "path": "app/modules/game_relationships/GameRelationshipActionCreators.tsx",
+        "functions_names": [
+            "showRequestFailedAlert",
+            "deleteGameRelationship",
+            "_deleteGameRelationship",
+            "_removeGameFriend",
+            "onSuccess",
+            "_cancelGameFriendRequest",
+            "onSuccess",
+            "removeGameFriend",
+            "acceptGameFriendRequest",
+            "onSuccess",
+            "addGameRelationship",
+            "cancelGameFriendRequest"
         ]
     },
     {
@@ -1101,6 +1345,20 @@
             "GUILD_DISCOVERY_CATEGORY_FETCH_SUCCESS",
             "GUILD_DISCOVERY_CATEGORY_UPDATE_FAIL",
             "GUILD_DISCOVERY_CATEGORY_UPDATE_FAIL"
+        ]
+    },
+    {
+        "path": "app/modules/guild_antiraid/GuildAntiRaidActionCreators.tsx",
+        "functions_names": [
+            "_setGuildRaidAlerts",
+            "_setGuildIncidentActions",
+            "_handleResolveRaid",
+            "_handleReportRaid",
+            "trackReportRaidViewed",
+            "setGuildRaidAlerts",
+            "setGuildIncidentActions",
+            "handleResolveRaid",
+            "handleReportRaid"
         ]
     },
     {
@@ -1150,6 +1408,27 @@
             "MEMBER_VERIFICATION_FORM_FETCH_FAIL",
             "MEMBER_VERIFICATION_FORM_UPDATE",
             "MEMBER_VERIFICATION_FORM_UPDATE"
+        ]
+    },
+    {
+        "path": "app/modules/guild_member_verification/native/MemberVerificationAlertActionCreators.tsx",
+        "functions_names": [
+            "openMemberVerificationCancelPendingAlert",
+            "importer",
+            "closeMemberVerificationAlert",
+            "importer",
+            "importer",
+            "onPress",
+            "importer",
+            "importer",
+            "importer"
+        ]
+    },
+    {
+        "path": "app/modules/guild_member_verification/native/MemberVerificationModalActionCreators.tsx",
+        "functions_names": [
+            "openMemberVerificationModal",
+            "closeMemberVerificationModal"
         ]
     },
     {
@@ -1224,6 +1503,13 @@
         ]
     },
     {
+        "path": "app/modules/guild_role_subscriptions/native/GuildRoleSettingsActionCreators.tsx",
+        "functions_names": [
+            "pushTierEditScene",
+            "pushTierTemplateSelectionScene"
+        ]
+    },
+    {
         "path": "app/modules/guild_role_subscriptions/tier_templates/GuildRoleSubscriptionTierTemplateActionCreators.tsx",
         "flux_events": [
             "GUILD_ROLE_SUBSCRIPTIONS_STASH_TEMPLATE_CHANNELS",
@@ -1247,6 +1533,39 @@
             "UPCOMING_GUILD_EVENT_NOTICE_SEEN",
             "LIVE_CHANNEL_NOTICE_HIDE",
             "EVENT_BANNER_DISMISS"
+        ]
+    },
+    {
+        "path": "app/modules/guild_scheduled_events/native/GuildScheduledEventModalActionCreators.tsx",
+        "functions_names": [
+            "openCreateOrEditGuildEventModal",
+            "handleClose",
+            "openStartGuildEventModal",
+            "openDeleteGuildEventActionSheet",
+            "updateRsvp",
+            "handleGuildScheduledEventRsvp",
+            "updateRsvp",
+            "openRsvpPicker",
+            "_transitionToEventDetailsFromInvite",
+            "openGuildEventListActionSheet",
+            "closeGuildEventListActionSheet",
+            "openShareEvent",
+            "transitionToEventDetailsFromInvite",
+            "showGuildEventModeratorActionSheet",
+            "onPress",
+            "onPress",
+            "onPress",
+            "onPress",
+            "onPress",
+            "onPress",
+            "onPress",
+            "onPress",
+            "onPress",
+            "onPress",
+            "onPress",
+            "onPress",
+            "onPress",
+            "onPress"
         ]
     },
     {
@@ -1314,6 +1633,20 @@
         ]
     },
     {
+        "path": "app/modules/guild_settings/roles/native/GuildSettingsRoleCreateModalActionCreators.tsx",
+        "functions_names": [
+            "open",
+            "close"
+        ]
+    },
+    {
+        "path": "app/modules/guild_settings/safety/native/TransferOwnershipModalActionCreators.tsx",
+        "functions_names": [
+            "open",
+            "close"
+        ]
+    },
+    {
         "path": "app/modules/guild_settings/server_monetization/boost_perks/GuildSettingsVanityURLActionCreators.tsx",
         "flux_events": [
             "GUILD_SETTINGS_VANITY_URL_RESET",
@@ -1321,6 +1654,13 @@
             "GUILD_SETTINGS_SET_VANITY_URL",
             "GUILD_SETTINGS_VANITY_URL_SET",
             "GUILD_SETTINGS_SET_VANITY_URL"
+        ]
+    },
+    {
+        "path": "app/modules/guild_sidebar/VoiceCategoryActionCreators.tsx",
+        "functions_names": [
+            "voiceCategoryExpand",
+            "voiceCategoryCollapse"
         ]
     },
     {
@@ -1376,6 +1716,13 @@
         ]
     },
     {
+        "path": "app/modules/guilds_bar/native/GuildsBarFolderSettingsModalActionCreators.tsx",
+        "functions_names": [
+            "showGuildsBarFolderModal",
+            "hideGuildsBarFolderModal"
+        ]
+    },
+    {
         "path": "app/modules/harvester/DataHarvestActionCreators.tsx",
         "flux_events": [
             "LOAD_DATA_HARVEST_TYPE_FAILURE",
@@ -1393,6 +1740,23 @@
         ]
     },
     {
+        "path": "app/modules/hub/HubProgressActionCreators.tsx",
+        "functions_names": [
+            "_createForOfIteratorHelperLoose",
+            "_arrayLikeToArray",
+            "changeHubProgressUserSetting",
+            "setHubProgressActionComplete",
+            "skipHubProgress"
+        ]
+    },
+    {
+        "path": "app/modules/hub/native/components/HubEmailConnectionModalActionCreators.tsx",
+        "functions_names": [
+            "open",
+            "close"
+        ]
+    },
+    {
         "path": "app/modules/icymi/ICYMIActionCreators.tsx",
         "flux_events": [
             "LOAD_ICYMI_CURRENT_STATUS_MEDIA",
@@ -1406,6 +1770,13 @@
         "path": "app/modules/icymi/native/NativeICYMIActionCreators.tsx",
         "flux_events": [
             "ICYMI_CUSTOM_SCORES_UPDATED"
+        ]
+    },
+    {
+        "path": "app/modules/image_upload/native/AddImageDescriptionModalActionCreators.tsx",
+        "functions_names": [
+            "open",
+            "close"
         ]
     },
     {
@@ -1468,6 +1839,12 @@
         ]
     },
     {
+        "path": "app/modules/mfa/MFAActionCreators.tsx",
+        "functions_names": [
+            "openMFAModal"
+        ]
+    },
+    {
         "path": "app/modules/multi_account/MultiAccountActionCreators.tsx",
         "flux_events": [
             "MULTI_ACCOUNT_INVALIDATE_PUSH_SYNC_TOKENS",
@@ -1488,6 +1865,14 @@
         "path": "app/modules/native_permissions/NativePermissionActionCreators.tsx",
         "flux_events": [
             "SET_NATIVE_PERMISSION"
+        ]
+    },
+    {
+        "path": "app/modules/notifications/native/GuildHighlightsNotificationsActionCreators.tsx",
+        "functions_names": [
+            "openGuildHighlightNotificationForPush",
+            "onFeedbackShown",
+            "onFeedbackCompleted"
         ]
     },
     {
@@ -1545,6 +1930,20 @@
         ]
     },
     {
+        "path": "app/modules/payments/OrderActionCreators.tsx",
+        "functions_names": [
+            "_callSuper",
+            "_isNativeReflectConstruct",
+            "_isNativeReflectConstruct",
+            "_signOrder",
+            "_getOrder",
+            "OrderSigningFailedWithConstraintsError",
+            "OrderProcessingPendingError",
+            "signOrder",
+            "getOrder"
+        ]
+    },
+    {
         "path": "app/modules/phone/PhoneActionCreators.tsx",
         "flux_events": [
             "PHONE_SET_COUNTRY_CODE",
@@ -1559,6 +1958,35 @@
             "POGGERMODE_SETTINGS_UPDATE",
             "POGGERMODE_UPDATE_COMBO",
             "POGGERMODE_UPDATE_COMBO"
+        ]
+    },
+    {
+        "path": "app/modules/polls/PollsActionCreators.tsx",
+        "functions_names": [
+            "_createForOfIteratorHelperLoose",
+            "_arrayLikeToArray",
+            "getPollVoteEventProperties",
+            "_loop",
+            "showLurkingAlert",
+            "onConfirm",
+            "handleShowVotesForAnswer",
+            "handleUpdateVoteEditingState",
+            "getCurrentAnswerIds",
+            "optimisticallySetAnswers",
+            "_optimisticallySetAnswers",
+            "handlePollSubmitVote",
+            "_handlePollSubmitVote",
+            "_handleClearPollVote",
+            "_handlePollActionTapped",
+            "handleShowVotes",
+            "handleClearPollVote",
+            "_createPoll",
+            "onAttachmentUploadError",
+            "_endPollEarly",
+            "handlePollAnswerTapped",
+            "handlePollActionTapped",
+            "createPoll",
+            "endPollEarly"
         ]
     },
     {
@@ -1638,6 +2066,19 @@
         ]
     },
     {
+        "path": "app/modules/private_channel_recipient/PrivateChannelRecipientActionCreators.tsx",
+        "functions_names": [
+            "updatePrivateChannelRecipientFlags"
+        ]
+    },
+    {
+        "path": "app/modules/public_guilds/native/EnableCommunityModalActionCreators.tsx",
+        "functions_names": [
+            "open",
+            "close"
+        ]
+    },
+    {
         "path": "app/modules/qualtrics/QualtricsActionCreators.tsx",
         "flux_events": [
             "QUALTRICS_SURVEY_FETCH_SUCCESS"
@@ -1651,6 +2092,20 @@
             "BOUNTIES_FETCH_QUEST_HOME_BOUNTIES_BEGIN",
             "BOUNTIES_VIDEO_PROGRESS_UPDATE",
             "BOUNTIES_CLAIM_REWARD_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/modules/quests/native/BountiesModal/BountiesModalActionCreators.tsx",
+        "functions_names": [
+            "showModal",
+            "hideModal"
+        ]
+    },
+    {
+        "path": "app/modules/quests/native/QuestDisclosureModal/QuestDisclosureModalActionCreators.tsx",
+        "functions_names": [
+            "showModal",
+            "hideModal"
         ]
     },
     {
@@ -1714,6 +2169,17 @@
         ]
     },
     {
+        "path": "app/modules/safety_flows/SafetyFlowsActionCreators.tsx",
+        "functions_names": [
+            "_getCurrentTask",
+            "_completeTask",
+            "_resendVerificationCode",
+            "getCurrentTask",
+            "completeTask",
+            "resendVerificationCode"
+        ]
+    },
+    {
         "path": "app/modules/safety_hub/native/AppealIngestionModalActionCreators.tsx",
         "flux_events": [
             "SAFETY_HUB_APPEAL_CLOSE",
@@ -1768,6 +2234,25 @@
         ]
     },
     {
+        "path": "app/modules/shared_space_warnings/SharedSpacesWarningActionCreators.tsx",
+        "functions_names": [
+            "dismissGdmBlockedUserWarning"
+        ]
+    },
+    {
+        "path": "app/modules/slayer_storefront/native/SocialLayerStorefrontNativeActionCreators.tsx",
+        "functions_names": [
+            "openSocialLayerStorefrontProductDetailsModal",
+            "closeSocialLayerStorefrontProductDetailsModal",
+            "openSocialLayerStorefrontGiftModal",
+            "closeSocialLayerStorefrontGiftModal",
+            "openSocialLayerStorefrontProductSelfPurchaseSuccessModal",
+            "importer",
+            "openSocialLayerStorefrontProductGiftPurchaseSuccessModal",
+            "importer"
+        ]
+    },
+    {
         "path": "app/modules/slayer_storefront/SocialLayerStorefrontActionCreators.tsx",
         "flux_events": [
             "SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_FAILURE",
@@ -1775,6 +2260,12 @@
             "SOCIAL_LAYER_STOREFRONT_ANNOUNCEMENT_FETCH_FAILURE",
             "SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_CREATE",
             "SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_START"
+        ]
+    },
+    {
+        "path": "app/modules/soundboard/native/SoundboardActionCreators.tsx",
+        "functions_names": [
+            "showSoundboardSoundPickerActionSheet"
         ]
     },
     {
@@ -1795,6 +2286,52 @@
             "SPOTIFY_ACCOUNT_ACCESS_TOKEN",
             "SPOTIFY_SET_ACTIVE_DEVICE",
             "SPOTIFY_PROFILE_UPDATE"
+        ]
+    },
+    {
+        "path": "app/modules/stage_channels/StageChannelActionCreators.tsx",
+        "functions_names": [
+            "audienceAckRequestToSpeak",
+            "setUserSuppress",
+            "_startStage",
+            "_editStage",
+            "_endStage",
+            "toggleRequestToSpeak",
+            "inviteUserToStage",
+            "moveSelfToAudience",
+            "moveUserToAudience",
+            "removeUserFromChannel",
+            "setEveryoneRolePermissionAllowed",
+            "startStage",
+            "editStage",
+            "endStage"
+        ]
+    },
+    {
+        "path": "app/modules/stage_channels/StageChannelAlertActionCreators.tsx",
+        "functions_names": [
+            "openStageChannelAudienceNoticeModal"
+        ]
+    },
+    {
+        "path": "app/modules/stage_channels/StageChannelModalActionCreators.tsx",
+        "functions_names": [
+            "connectToStage",
+            "canJoinImmediately",
+            "connectAndOpen",
+            "navigateToStage",
+            "connectOrLurkStage",
+            "showUserProfile"
+        ]
+    },
+    {
+        "path": "app/modules/stage_channels/StageInstanceActionCreators.tsx",
+        "functions_names": [
+            "_startStageInstance",
+            "_updateStageInstance",
+            "startStageInstance",
+            "updateStageInstance",
+            "endStageInstance"
         ]
     },
     {
@@ -1875,6 +2412,12 @@
         ]
     },
     {
+        "path": "app/modules/user_affinities/UserAffinitiesActionCreators.tsx",
+        "functions_names": [
+            "fetchUserAffinitiesV2"
+        ]
+    },
+    {
         "path": "app/modules/user_application_identity/UserApplicationIdentityActionCreators.tsx",
         "flux_events": [
             "USER_APPLICATION_IDENTITY_FETCH_USER_SUCCESS",
@@ -1909,6 +2452,34 @@
         ]
     },
     {
+        "path": "app/modules/user_settings/account/native/mfa_modal_flow/TwoFASetupModalActionCreators.tsx",
+        "functions_names": [
+            "open",
+            "close"
+        ]
+    },
+    {
+        "path": "app/modules/user_settings/connections/native/two_way_link/crunchyroll/CrunchyrollLinkModalActionCreators.tsx",
+        "functions_names": [
+            "showModal",
+            "hideModal"
+        ]
+    },
+    {
+        "path": "app/modules/user_settings/connections/native/two_way_link/playstation/PlayStationLinkModalActionCreators.tsx",
+        "functions_names": [
+            "showModal",
+            "hideModal"
+        ]
+    },
+    {
+        "path": "app/modules/user_settings/connections/native/two_way_link/xbox/XboxLinkModalActionCreators.tsx",
+        "functions_names": [
+            "showModal",
+            "hideModal"
+        ]
+    },
+    {
         "path": "app/modules/user_settings/ThemeActionCreators.tsx",
         "flux_events": [
             "UNSYNCED_USER_SETTINGS_UPDATE",
@@ -1923,6 +2494,14 @@
         "flux_events": [
             "USER_SETTINGS_PROTO_UPDATE_EDIT_INFO",
             "USER_SETTINGS_PROTO_UPDATE"
+        ]
+    },
+    {
+        "path": "app/modules/verification/ChangeEmailActionCreators.tsx",
+        "functions_names": [
+            "_confirmEmailChange",
+            "sendConfirmationCode",
+            "confirmEmailChange"
         ]
     },
     {
@@ -1946,9 +2525,35 @@
         ]
     },
     {
+        "path": "app/modules/voice_channel_effects/VoiceChannelEffectsActionCreators.tsx",
+        "functions_names": [
+            "_getCancellationSlowConnection",
+            "sendVoiceChannelCustomCallSoundEffect",
+            "sendVoiceChannelSoundboardEffect"
+        ]
+    },
+    {
         "path": "app/modules/voice_overlay/native/MobileVoiceOverlayActionCreators.tsx",
         "flux_events": [
             "MOBILE_VOICE_OVERLAY_STATE_CHANGED"
+        ]
+    },
+    {
+        "path": "app/modules/voice_panel/native/header/VoicePanelSettingsActionCreators.tsx",
+        "functions_names": [
+            "closeVoicePanelSettingsActionSheet",
+            "openVoicePanelSettingsActionSheet"
+        ]
+    },
+    {
+        "path": "app/modules/webauthn/native/PasskeyUpsellActionCreators.tsx",
+        "functions_names": [
+            "openPasskeyUpsell",
+            "openPasskeyUpsellModal",
+            "closePasskeyUpsellModal",
+            "openPasskeyUpsellPromoSheet",
+            "closePasskeyUpsellPromoSheet",
+            "openPasskeyUpsellPromoModal"
         ]
     },
     {
