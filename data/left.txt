@@ -716,6 +716,7 @@ app/design/components/mana-assets/native/generated/HeartHandsSpotIllustration.ts
 app/design/components/mana-assets/native/generated/HeartIllocon.tsx
 app/design/components/mana-assets/native/generated/HeartJarSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/HelloWumpusSpotIllustration.tsx
+app/design/components/mana-assets/native/generated/HeroIllocon.tsx
 app/design/components/mana-assets/native/generated/HighFiveSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/HoldingGemSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/KeyRingSpotIllustration.tsx
@@ -1393,6 +1394,8 @@ app/modules/activity_status/native/ApplicationStreamActivityStatus.tsx
 app/modules/activity_status/native/PresenceActivityStatus.tsx
 app/modules/activity_status/native/VoiceActivityStatus.tsx
 app/modules/activity_status/useUserVoiceActivity.tsx
+app/modules/ads/analytics/captureAdUserAction.tsx
+app/modules/ads/analytics/captureAdUserActionTypes.tsx
 app/modules/ads/BountyTypes.tsx
 app/modules/ads/hooks/useAdPersonalizationTogglesDisabled.tsx
 app/modules/ads/native/AdUserActionCreators.android.tsx
@@ -4827,6 +4830,8 @@ app/modules/notifications/NotificationSettingsUtils.tsx
 app/modules/notifications/NotificationTextUtils.tsx
 app/modules/notifications/NotificationUtils.tsx
 app/modules/notifications/profile_updates/ProfileUpdatesNotificationUtils.tsx
+app/modules/notifications/profile_updates/sender/NotifyFriendsOnProfileUpdate.messages.js
+app/modules/notifications/profile_updates/sender/NotifyFriendsOnProfileUpdateUtils.tsx
 app/modules/notifications/server_trending/ServerTrendingNotificationUtils.tsx
 app/modules/notifications/settings_unread_notice/native/UnreadSettingNotice.tsx
 app/modules/notifications/settings_unread_notice/UnreadSettingNoticeImpressionTracking.tsx
@@ -4940,6 +4945,7 @@ app/modules/panels/morphable/native/useScreenNameSharedValue.tsx
 app/modules/panels/native/PanelsConfig.tsx
 app/modules/parent_tools/ChangeSpendingLimitFormState.tsx
 app/modules/parent_tools/FamilyCenter.messages.js
+app/modules/parent_tools/FamilyCenterActivityGiftRowUtils.tsx
 app/modules/parent_tools/FamilyCenterActivityPurchaseRowUtils.tsx
 app/modules/parent_tools/FamilyCenterAgeGroupPrefetch.tsx
 app/modules/parent_tools/FamilyCenterConstants.tsx
@@ -4968,6 +4974,8 @@ app/modules/parent_tools/native/ChangeSpendingLimitModal.tsx
 app/modules/parent_tools/native/FamilyCenterAcceptedLinks.tsx
 app/modules/parent_tools/native/FamilyCenterActivityBanner.tsx
 app/modules/parent_tools/native/FamilyCenterActivityCard.tsx
+app/modules/parent_tools/native/FamilyCenterActivityGiftRow.tsx
+app/modules/parent_tools/native/FamilyCenterActivityItemPreview.tsx
 app/modules/parent_tools/native/FamilyCenterActivityPage.tsx
 app/modules/parent_tools/native/FamilyCenterActivityPurchaseRow.tsx
 app/modules/parent_tools/native/FamilyCenterActivityRow.tsx
@@ -6370,6 +6378,7 @@ app/modules/user_profile/native/LegacyUserProfileConnections.tsx
 app/modules/user_profile/native/NonUserBotProfileContent.tsx
 app/modules/user_profile/native/openUserContextMenuCommands.tsx
 app/modules/user_profile/native/ProfileGIFSelectActionSheet.tsx
+app/modules/user_profile/native/profileModalTransition.tsx
 app/modules/user_profile/native/showUserProfileActionSheet.tsx
 app/modules/user_profile/native/usePrivateProfileCoachmark.tsx
 app/modules/user_profile/native/UserProfileAboutMeCard.tsx
@@ -6761,6 +6770,7 @@ app/modules/user_settings/defs/native/NoiseSuppressionKrispSetting.tsx
 app/modules/user_settings/defs/native/NoiseSuppressionSetting.tsx
 app/modules/user_settings/defs/native/NotificationsSetting.tsx
 app/modules/user_settings/defs/native/NotifyFriendsOnComeOnlineSetting.tsx
+app/modules/user_settings/defs/native/NotifyFriendsOnProfileUpdateSetting.tsx
 app/modules/user_settings/defs/native/OutputVolumeSetting.tsx
 app/modules/user_settings/defs/native/ParentalControlsDirectMessages.tsx
 app/modules/user_settings/defs/native/ParentalControlsExplicitMediaFiltersFriendsDMsSetting.tsx
@@ -7712,6 +7722,7 @@ discord_assets/assets/mana/asset-library/generated/HeartHandsSpotIllustration-2x
 discord_assets/assets/mana/asset-library/generated/HeartIllocon-2x.png.js
 discord_assets/assets/mana/asset-library/generated/HeartJarSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/HelloWumpusSpotIllustration-2x.png.js
+discord_assets/assets/mana/asset-library/generated/HeroIllocon-2x.png.js
 discord_assets/assets/mana/asset-library/generated/HighFiveSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/HoldingGemSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/KeyRingSpotIllustration-2x.png.js
@@ -7878,6 +7889,7 @@ discord_assets/assets/orbs/quest_reward_mobile_entry_dark.png.js
 discord_assets/assets/orbs/quest_reward_mobile_idle_dark.png.js
 discord_assets/assets/orbs/reward_tile_v3_mobile.mp4.js
 discord_assets/assets/orbs/reward_tile_v3.webm.js
+discord_assets/assets/orbs/static_idle_orb.png.js
 discord_assets/assets/orbs/tier1_rewardTile_animated.webm.js
 discord_assets/assets/orbs/tier2_rewardTile_animated.webm.js
 discord_assets/assets/orbs/tier3_rewardTile_animated.webm.js
@@ -7963,6 +7975,7 @@ discord_common/js/packages/design/components/ThemeContextProvider/ThemeContext.t
 discord_common/js/packages/design/components/ThemeContextProvider/ThemeContextFlags.tsx
 discord_common/js/packages/design/components/ThemeContextProvider/ThemeContextProvider.tsx
 discord_common/js/packages/design/components/ThemeContextProvider/ThemeTypes.tsx
+discord_common/js/packages/design/hooks/useA11yRolesNative.tsx
 discord_common/js/packages/design/native.tsx
 discord_common/js/packages/design/shared.tsx
 discord_common/js/packages/design/shared/ThemeTypes.tsx

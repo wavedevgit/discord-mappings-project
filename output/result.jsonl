@@ -431,6 +431,7 @@
 {"id":"333369.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"333748.js","paths":["../discord_common/js/shared/shared-constants/ConsoleOAuthApplications.tsx"]}
 {"id":"334279.js","paths":["../discord_common/js/shared/shared-constants/FractionalPremiumSKUs.tsx"]}
+{"id":"334374.js","paths":["discord_app/modules/quests/experiments/AdAnalyticsInterfaceExperiment.tsx"]}
 {"id":"334557.js","paths":["discord_app/modules/themes/experiments/MobileVisualRefreshExperiment.tsx"]}
 {"id":"335560.js","paths":["discord_app/actions/RTCLatencyTestActionCreators.tsx"]}
 {"id":"336043.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
@@ -1711,6 +1712,7 @@
 {"id":"887909.js","paths":["../discord_common/js/shared/shared-constants/ApplicationIntegrationType.tsx"]}
 {"id":"887909.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"888762.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
+{"id":"888916.js","paths":["discord_app/modules/clips/ClipsSettingsRedesignExperiment.tsx"]}
 {"id":"891581.js","paths":["assets/images/platforms/img_account_sync_riot_light_and_dark.svg","discord_app/src/main/res/raw/images_platforms_img_account_sync_riot_light_and_dark.svg"]}
 {"id":"892035.js","paths":["discord_app/modules/collectibles/experiments/CollectiblesProfileFramesEAMarketingExperiment.tsx"]}
 {"id":"892118.js","paths":["../discord_common/js/shared/shared-constants/DefaultProfileFrameDimensions.tsx"]}
@@ -1780,6 +1782,7 @@
 {"id":"92859.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"928658.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"92960.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
+{"id":"930187.js","paths":["discord_app/modules/calls/BroadcastUploadDisposeFixExperiment.tsx"]}
 {"id":"930187.js","paths":["discord_app/modules/calls/VideoStabilizationExperiment.tsx"]}
 {"id":"930187.js","paths":["discord_app/modules/media_engine/BandwidthEstimationExperiment.tsx"]}
 {"id":"930187.js","paths":["discord_app/modules/media_engine/BrowserInvertedWantsExperiment.tsx"]}

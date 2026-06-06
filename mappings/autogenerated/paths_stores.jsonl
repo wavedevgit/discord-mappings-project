@@ -177,6 +177,7 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GuildTagChangedCoachmarkStore[\"']"},"paths":["app/modules/guild_tag/stores/GuildTagChangedCoachmarkStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GuildTemplateStore[\"']"},"paths":["app/modules/guild_templates/GuildTemplateStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GuildThemePreviewStore[\"']"},"paths":["app/modules/guild_themes/GuildThemePreviewStore.tsx"]}
+{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GuildThemeRuntimeStore[\"']"},"paths":["app/modules/guild_themes/GuildThemeRuntimeStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']BasicGuildStore[\"']"},"paths":["app/modules/guild/BasicGuildStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GuildPromptsStore[\"']"},"paths":["app/modules/guild/GuildPromptsStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GuildsBarDnDStore[\"']"},"paths":["app/modules/guilds_bar/native/GuildsBarDnDStore.tsx"]}
