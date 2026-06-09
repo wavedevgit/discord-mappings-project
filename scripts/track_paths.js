@@ -170,7 +170,6 @@ const res = await fetch(WEBHOOK_URL, {
 if (!res.ok) {
     const text = await res.text();
     console.error(`Webhook failed ${res.status}: ${text}`);
-    process.exit(1);
 }
 
 console.log(
