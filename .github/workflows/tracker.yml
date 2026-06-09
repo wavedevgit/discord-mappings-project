@@ -1,10 +1,10 @@
-name: Generate Mappings
+name: Track paths
 
 on:
     workflow_dispatch:
 
     schedule:
-        - cron: '*/5 * * * *'
+        - cron: '*/10 * * * *'
 
 permissions:
     contents: write
@@ -26,6 +26,8 @@ jobs:
 
             - name: Generate mappings
               run: node scripts/track_paths.js
+              env:
+                  WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
 
             - name: Commit changes
               run: |
