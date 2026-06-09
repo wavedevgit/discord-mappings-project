@@ -37,6 +37,7 @@
 {"find_with":["user","2026-04-shop-card-impression-mobile","variations"],"paths":["app/modules/collectibles/experiments/CollectiblesShopCardImpressionMobileExperiment.tsx"]}
 {"find_with":["guild","2026-04_application_identity_linked_roles","treatments"],"paths":["app/modules/connections/experiments/ApplicationIdentityLinkedRolesExperiment.tsx"]}
 {"find_with":["user","2026-03-crepe","variations"],"paths":["app/modules/croissant/crepe/CrepeExperiment.tsx"]}
+{"find_with":["user","2026-05-mana-type-consolidation","variations"],"paths":["app/modules/design/ManaTypeConsolidationExperiment.tsx"]}
 {"find_with":["user","2026-02-mana-playground-access","variations"],"paths":["app/modules/design/PlaygroundAccessExperiment.tsx"]}
 {"find_with":["user","2026-06-rive-app-state-playback","variations"],"paths":["app/modules/design/RiveAppStatePlaybackExperiment.tsx"]}
 {"find_with":["user","2025-12-rive-mobile-renderer","variations"],"paths":["app/modules/design/RiveMobileRendererExperiment.tsx"]}
@@ -143,6 +144,7 @@
 {"find_with":["user","2026-03-calculated-annual-discount-percent","variations"],"paths":["app/modules/premium/experiments/CalculatedYearlyDiscountPercentageExperiment.tsx"]}
 {"find_with":["user","2026-03-denormalized-perks-access-read","variations"],"paths":["app/modules/premium/experiments/DenormalizedPerksReadExperiment.tsx"]}
 {"find_with":["user","2025-10-friendship-anniversary-gifting","variations"],"paths":["app/modules/premium/experiments/FriendAnniversariesExperiment.tsx"]}
+{"find_with":["user","2026-06-macaron","variations"],"paths":["app/modules/premium/experiments/MobileNitroManageSubscriptionsSettingsExperiment.tsx"]}
 {"find_with":["user","2026-02-premium-offer-reminder-xp","variations"],"paths":["app/modules/premium/experiments/PremiumOfferReminderExperiment.tsx"]}
 {"find_with":["user","2025-09-premium-trial-offer-action-sheet-ks","variations"],"paths":["app/modules/premium/experiments/PremiumTrialOfferActionSheetKillSwitchExperiment.tsx"]}
 {"find_with":["user","2026-02-referral-reminder-dc","variations"],"paths":["app/modules/premium/experiments/ReferralReminderDCExperiment.tsx"]}
@@ -190,6 +192,7 @@
 {"find_with":["user","2026-03-wysiwyg-user-profile-editing","variations"],"paths":["app/modules/user_profile/experiments/UserProfileWYSIWYGEditingExperiment.tsx"]}
 {"find_with":["user","2026-02-private-profiles","variations"],"paths":["app/modules/user_profile/PrivateProfilesExperiment.tsx"]}
 {"find_with":["user","2026-03-private-profiles-strict","variations"],"paths":["app/modules/user_profile/PrivateProfilesStrictExperiment.tsx"]}
+{"find_with":["user","2026-03-private-profiles-strict-gb","variations"],"paths":["app/modules/user_profile/PrivateProfilesStrictGbExperiment.tsx"]}
 {"find_with":["user","2026-04-user-settings-redesign-4c","variations"],"paths":["app/modules/user_settings/UserSettingsRedesignExperiment.tsx"]}
 {"find_with":["user","2026-03-surface-direct-renderer","variations"],"paths":["app/modules/video_calls/native/SurfaceDirectRendererExperiment.tsx"]}
 {"find_with":["user","2025-09-video-qoe-metrics-tracking","variations"],"paths":["app/modules/video-qoe/experiments/VideoQoEMetricsExperiment.tsx"]}

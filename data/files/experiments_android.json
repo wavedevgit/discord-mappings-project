@@ -252,6 +252,12 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/design/ManaTypeConsolidationExperiment.tsx",
+        "kind": "user",
+        "id": "2026-05-mana-type-consolidation",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/design/PlaygroundAccessExperiment.tsx",
         "kind": "user",
         "id": "2026-02-mana-playground-access",
@@ -896,6 +902,12 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/premium/experiments/MobileNitroManageSubscriptionsSettingsExperiment.tsx",
+        "kind": "user",
+        "id": "2026-06-macaron",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/premium/experiments/PremiumOfferReminderExperiment.tsx",
         "kind": "user",
         "id": "2026-02-premium-offer-reminder-xp",
@@ -1175,6 +1187,12 @@
         "path": "app/modules/user_profile/PrivateProfilesStrictExperiment.tsx",
         "kind": "user",
         "id": "2026-03-private-profiles-strict",
+        "keyRequired": "variations"
+    },
+    {
+        "path": "app/modules/user_profile/PrivateProfilesStrictGbExperiment.tsx",
+        "kind": "user",
+        "id": "2026-03-private-profiles-strict-gb",
         "keyRequired": "variations"
     },
     {

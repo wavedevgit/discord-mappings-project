@@ -873,6 +873,13 @@
         ]
     },
     {
+        "path": "app/modules/application_account_linking/AccountLinkingActionCreators.tsx",
+        "flux_events": [
+            "ACCOUNT_LINK_AUTHORIZATION_COMPLETED",
+            "ACCOUNT_LINK_AUTHORIZATION_STARTED"
+        ]
+    },
+    {
         "path": "app/modules/application_commands/ApplicationCommandActionCreators.tsx",
         "flux_events": [
             "APPLICATION_COMMANDS_FETCH_FOR_APPLICATION",
@@ -1937,10 +1944,12 @@
             "_isNativeReflectConstruct",
             "_signOrder",
             "_getOrder",
+            "_fetchOrderEntitlements",
             "OrderSigningFailedWithConstraintsError",
             "OrderProcessingPendingError",
             "signOrder",
-            "getOrder"
+            "getOrder",
+            "fetchOrderEntitlements"
         ]
     },
     {

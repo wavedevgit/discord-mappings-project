@@ -134,6 +134,8 @@ app/modules/app_launcher/native/onboarding/stores/AppLauncherOnboardingPersisted
 app/modules/app_launcher/native/onboarding/stores/AppLauncherOnboardingStore.tsx
 app/modules/app_launcher/native/screens/home/FrecencySectionStore.tsx
 app/modules/app_launcher/native/screens/home/FrecencySectionStoreActionCreators.tsx
+app/modules/application_account_linking/AccountLinkingActionCreators.tsx
+app/modules/application_account_linking/AccountLinkStore.tsx
 app/modules/application_account_linking/experiments/mobileAccountLinkingExperiment.tsx
 app/modules/application_account_linking/experiments/valorantSocialSDKExperiment.tsx
 app/modules/application_commands/AgeRestrictedApplicationCommandsExperiment.tsx
@@ -241,6 +243,7 @@ app/modules/create_guild/native/CreateGuildModalActionCreators.tsx
 app/modules/creator_monetization_eligibility/CreatorMonetizationEligibilityActionCreators.tsx
 app/modules/creator_monetization/CreatorMonetizationStore.tsx
 app/modules/croissant/crepe/CrepeExperiment.tsx
+app/modules/design/ManaTypeConsolidationExperiment.tsx
 app/modules/design/PlaygroundAccessExperiment.tsx
 app/modules/design/RiveAppStatePlaybackExperiment.tsx
 app/modules/design/RiveMobileRendererExperiment.tsx
@@ -618,6 +621,7 @@ app/modules/premium/experiments/BogoPromotionExperiment.tsx
 app/modules/premium/experiments/CalculatedYearlyDiscountPercentageExperiment.tsx
 app/modules/premium/experiments/DenormalizedPerksReadExperiment.tsx
 app/modules/premium/experiments/FriendAnniversariesExperiment.tsx
+app/modules/premium/experiments/MobileNitroManageSubscriptionsSettingsExperiment.tsx
 app/modules/premium/experiments/PremiumOfferReminderExperiment.tsx
 app/modules/premium/experiments/PremiumTrialOfferActionSheetKillSwitchExperiment.tsx
 app/modules/premium/experiments/ReferralReminderDCExperiment.tsx
@@ -813,6 +817,7 @@ app/modules/user_profile/hooks/useProfileThemeOverrideStore.tsx
 app/modules/user_profile/notes/NoteStore.tsx
 app/modules/user_profile/PrivateProfilesExperiment.tsx
 app/modules/user_profile/PrivateProfilesStrictExperiment.tsx
+app/modules/user_profile/PrivateProfilesStrictGbExperiment.tsx
 app/modules/user_profile/UserProfileActionCreators.tsx
 app/modules/user_profile/UserProfileSettingsActionCreators.tsx
 app/modules/user_profile/UserProfileSettingsStore.tsx

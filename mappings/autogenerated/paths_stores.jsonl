@@ -20,6 +20,7 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']AppLauncherOnboardingPersistedStore[\"']"},"paths":["app/modules/app_launcher/native/onboarding/stores/AppLauncherOnboardingPersistedStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']AppLauncherOnboardingStore[\"']"},"paths":["app/modules/app_launcher/native/onboarding/stores/AppLauncherOnboardingStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']FrecencySectionStore[\"']"},"paths":["app/modules/app_launcher/native/screens/home/FrecencySectionStore.tsx"]}
+{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']AccountLinkStore[\"']"},"paths":["app/modules/application_account_linking/AccountLinkStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ApplicationCommandAutocompleteStore[\"']"},"paths":["app/modules/application_commands/ApplicationCommandAutocompleteStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ApplicationCommandFrecencyStore[\"']"},"paths":["app/modules/application_commands/ApplicationCommandFrecencyStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ApplicationCommandIndexStore[\"']"},"paths":["app/modules/application_commands/ApplicationCommandIndexStore.tsx"]}

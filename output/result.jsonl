@@ -10,6 +10,7 @@
 {"id":"105971.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"106531.js","paths":["discord_app/modules/user_profile/PrivateProfilesExperiment.tsx"]}
 {"id":"106531.js","paths":["discord_app/modules/user_profile/PrivateProfilesStrictExperiment.tsx"]}
+{"id":"106531.js","paths":["discord_app/modules/user_profile/PrivateProfilesStrictGbExperiment.tsx"]}
 {"id":"107750.js","paths":["discord_app/modules/spotify/SpotifyActionCreators.tsx"]}
 {"id":"108822.js","paths":["discord_app/modules/experiments/apex/DebugExperiment.tsx"]}
 {"id":"110234.js","paths":["../discord_common/js/shared/shared-constants/AudioSettingsDefaultVolumes.tsx"]}
@@ -290,6 +291,7 @@
 {"id":"256796.js","paths":["discord_app/modules/search/SearchActionCreators.tsx"]}
 {"id":"258360.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"258585.js","paths":["discord_app/modules/go_live/GoLiveAutoQualityExperiment.tsx"]}
+{"id":"258599.js","paths":["discord_app/modules/design/ManaTypeConsolidationExperiment.tsx"]}
 {"id":"258599.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"258873.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"258942.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
@@ -551,6 +553,7 @@
 {"id":"384059.js","paths":["../discord_common/js/shared/shared-constants/AudioSettingsDefaultVolumes.tsx"]}
 {"id":"384112.js","paths":["assets/images/platforms/img_account_sync_steam_light.svg","discord_app/src/main/res/raw/images_platforms_img_account_sync_steam_light.svg"]}
 {"id":"384407.js","paths":["assets/design/components/LottieIcon/native/generated/lotties/NitroGem15.lottie","discord_app/src/main/res/raw/design_components_lottieicon_native_generated_lotties_nitrogem15.lottie"]}
+{"id":"385163.js","paths":["discord_app/modules/application_account_linking/AccountLinkingActionCreators.tsx"]}
 {"id":"385244.js","paths":["../discord_common/js/shared/shared-constants/AutomodNotificationEmbedKeys.tsx"]}
 {"id":"385430.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
 {"id":"385430.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
