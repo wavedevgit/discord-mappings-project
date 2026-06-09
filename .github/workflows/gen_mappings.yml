@@ -24,8 +24,11 @@ jobs:
               with:
                   node-version: 26.3.0
 
+            - name: Install dependencies
+              run: npm i
+
             - name: Generate mappings
-              run: node scripts/track_paths.js
+              run: bash gen_mappings.sh
 
             - name: Commit changes
               run: |
@@ -39,5 +42,5 @@ jobs:
                     exit 0
                   fi
 
-                  git commit -m "chore: update source paths"
+                  git commit -m "chore: update mappings"
                   git push
