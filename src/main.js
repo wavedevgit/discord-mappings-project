@@ -42,6 +42,11 @@ const test = (pattern, content) => {
             pattern.flags,
         ).test(content);
     if (typeof pattern === 'string') isMatch = content.includes(pattern);
+    if (pattern?.type === 'regexp')
+        isMatch = new RegExp(
+            pattern.value.replace(/\\w/g, '[a-zA-Z0-9$_]+'),
+            pattern.flags || '',
+        ).test(content);
     if (Array.isArray(pattern))
         isMatch = pattern.every((p) => test(p, content));
 
