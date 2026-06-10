@@ -35,6 +35,7 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']PromoEmailConsentStore[\"']"},"paths":["app/modules/auth/PromoEmailConsentStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']BadgeDirectoryStore[\"']"},"paths":["app/modules/badges/BadgeDirectoryStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GenericIAPStore[\"']"},"paths":["app/modules/billing/native/GenericIAPStore.tsx"]}
+{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']WalletBalanceStore[\"']"},"paths":["app/modules/billing/stores/WalletBalanceStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']BlockedDomainStore[\"']"},"paths":["app/modules/blocked_domains/BlockedDomainStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']BugReportStore[\"']"},"paths":["app/modules/bug_reporter/BugReportStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']BuildOverrideStore[\"']"},"paths":["app/modules/build_overrides/BuildOverrideStore.tsx"]}

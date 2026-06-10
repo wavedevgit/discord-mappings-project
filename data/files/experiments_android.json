@@ -96,6 +96,12 @@
         "keyRequired": "treatments"
     },
     {
+        "path": "app/modules/billing/experiments/GiftCardsExperiment.tsx",
+        "kind": "user",
+        "id": "2026-02-gift-cards",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/billing/experiments/StoreCountryExperiment.tsx",
         "kind": "user",
         "id": "2026-03-store-country",
@@ -207,6 +213,12 @@
         "path": "app/modules/collectibles/experiments/CollectiblesOrbsRedeemShortTextExperiment.tsx",
         "kind": "user",
         "id": "2026-04-collectibles-orbs-redeem-short-text",
+        "keyRequired": "variations"
+    },
+    {
+        "path": "app/modules/collectibles/experiments/CollectiblesPostPurchaseGiftingExperiment.tsx",
+        "kind": "user",
+        "id": "2026-06-post-purchase-gifting",
         "keyRequired": "variations"
     },
     {
@@ -785,12 +797,6 @@
         "path": "app/modules/notifications/friend_online/FriendOnlineNotificationExperiment.tsx",
         "kind": "user",
         "id": "2026-03-friend-is-online-v3",
-        "keyRequired": "variations"
-    },
-    {
-        "path": "app/modules/notifications/friend_online/NotifyFriendsOnComeOnlineExperiment.tsx",
-        "kind": "user",
-        "id": "2026-05-notify-friends-on-come-online",
         "keyRequired": "variations"
     },
     {

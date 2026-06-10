@@ -163,8 +163,10 @@ app/modules/billing/actions/BillingPaymentGatewayActionCreators.tsx
 app/modules/billing/actions/BillingSharedActionCreators.tsx
 app/modules/billing/actions/StripeActionCreators.tsx
 app/modules/billing/experiments/BlockedPaymentsCountryExperiment.tsx
+app/modules/billing/experiments/GiftCardsExperiment.tsx
 app/modules/billing/experiments/StoreCountryExperiment.tsx
 app/modules/billing/native/GenericIAPStore.tsx
+app/modules/billing/stores/WalletBalanceStore.tsx
 app/modules/blocked_domains/BlockedDomainStore.tsx
 app/modules/bug_reporter/BugReporterExperiment.tsx
 app/modules/bug_reporter/BugReportStore.tsx
@@ -216,6 +218,7 @@ app/modules/collectibles/CollectiblesShopStore.tsx
 app/modules/collectibles/CollectiblesShopVariantsUIStore.tsx
 app/modules/collectibles/experiments/CollectiblesMobileFlexibleBundlesExperiment.tsx
 app/modules/collectibles/experiments/CollectiblesOrbsRedeemShortTextExperiment.tsx
+app/modules/collectibles/experiments/CollectiblesPostPurchaseGiftingExperiment.tsx
 app/modules/collectibles/experiments/CollectiblesProfileFrameGiftingExperiment.tsx
 app/modules/collectibles/experiments/CollectiblesProfileFramesEAMarketingExperiment.tsx
 app/modules/collectibles/experiments/CollectiblesProfileFramesExperiment.tsx
@@ -575,7 +578,6 @@ app/modules/notification_center/NotificationCenterItemsStore.tsx
 app/modules/notification_center/NotificationCenterStore.tsx
 app/modules/notifications/friend_online/FriendOnlineNotificationExperiment.tsx
 app/modules/notifications/friend_online/FriendOnlineTimerStore.tsx
-app/modules/notifications/friend_online/NotifyFriendsOnComeOnlineExperiment.tsx
 app/modules/notifications/gdm_all_reaction_notifications/GdmAllReactionNotificationsExperiment.tsx
 app/modules/notifications/HabitualDNDStore.tsx
 app/modules/notifications/IOSPushNotificationRawPayloadFixExperiment.tsx

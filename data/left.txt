@@ -157,7 +157,6 @@ app/design/components/Coachmark/native/AnimatedCoachmark.tsx
 app/design/components/Coachmark/native/Coachmark.tsx
 app/design/components/Coachmark/native/CoachmarkConstants.tsx
 app/design/components/Coachmark/native/useCoachmark.tsx
-app/design/components/Colors/shared/Colors.tsx
 app/design/components/ContextMenu/native/ContextMenu.tsx
 app/design/components/ContextMenu/native/ContextMenuConstants.tsx
 app/design/components/ContextMenu/native/ContextMenuContainer.tsx
@@ -1959,6 +1958,7 @@ app/modules/channel_list_v2/native/RedesignChannelList.tsx
 app/modules/channel_list_v2/native/RedesignChannelListConstants.tsx
 app/modules/channel_list_v2/native/RedesignGuildHeader.tsx
 app/modules/channel_list_v2/native/renderRedesignChannelListItem.tsx
+app/modules/channel_list_v2/native/ScreenAlignedThemedGradient.tsx
 app/modules/channel_list_v2/native/unread_bars/ChannelsUnreadBar.tsx
 app/modules/channel_list_v2/native/unread_bars/ChannelsUnreadBars.tsx
 app/modules/channel_list_v2/native/useChannelListWidth.tsx
@@ -2002,6 +2002,7 @@ app/modules/channel/trackWaveCtaClicked.tsx
 app/modules/channel/useChannelName.tsx
 app/modules/channel/useCreateChannelSubmit.tsx
 app/modules/channel/usePrivateChannelWave.tsx
+app/modules/channel/usePrivateChannelWaveEligible.tsx
 app/modules/channel/useTextareaPlaceholderAndLabels.tsx
 app/modules/channel/useVoiceChannelStartTime.tsx
 app/modules/chat_input/native/accessories/ChatInputAccessibilityDivider.tsx
@@ -2077,9 +2078,11 @@ app/modules/chat/native/useChatWidth.tsx
 app/modules/chat/SlowmodeUtils.tsx
 app/modules/chat/useTypingText.tsx
 app/modules/chat/useTypingUsersIds.tsx
+app/modules/checkout/CheckoutError.tsx
 app/modules/checkout/messages/Checkout.messages.js
 app/modules/checkout/messages/CheckoutUntranslated.messages.js
 app/modules/checkout/messages/GiftCard.messages.js
+app/modules/checkout/native/GiftCardMobileConsumptionActionSheet.tsx
 app/modules/checkout/native/gifting/LockedRecipientField.tsx
 app/modules/checkout/native/gifting/SelectedUserField.tsx
 app/modules/checkout/native/gifting/UnifiedGiftModal.tsx
@@ -2088,6 +2091,7 @@ app/modules/checkout/native/gifting/UnifiedGiftModalRecipientSelectScreen.tsx
 app/modules/checkout/native/gifting/UnifiedGiftModalSuccessScreen.tsx
 app/modules/checkout/native/gifting/UnifiedGiftModalTypes.tsx
 app/modules/checkout/native/stores/NativeCheckoutStoreProvider.tsx
+app/modules/checkout/native/useGiftCardMobileConsumptionHalfsheet.tsx
 app/modules/checkpoint/Checkpoint.messages.js
 app/modules/checkpoint/CheckpointColors.tsx
 app/modules/checkpoint/CheckpointConstants.tsx
@@ -2112,6 +2116,7 @@ app/modules/client_themes/native/useColorThemeBackground.tsx
 app/modules/client_themes/native/useCustomThemeDisplaySettings.tsx
 app/modules/client_themes/native/useIsUsingClientTheme.tsx
 app/modules/client_themes/native/useThemedHeaderOptions.tsx
+app/modules/clips/ClipAnalyticsUtils.tsx
 app/modules/clips/clipPayloadUtils.tsx
 app/modules/clips/Clips.messages.js
 app/modules/clips/ClipsConstants.tsx
@@ -2139,6 +2144,7 @@ app/modules/collectibles/CollectiblesShopConstants.tsx
 app/modules/collectibles/CollectiblesUtils.tsx
 app/modules/collectibles/createUseCollectiblesShopStyles.tsx
 app/modules/collectibles/hooks/useBadBundleFilter.tsx
+app/modules/collectibles/hooks/useCanGiftProduct.tsx
 app/modules/collectibles/hooks/useCanPurchaseFrames.tsx
 app/modules/collectibles/hooks/useCollectiblesData.tsx
 app/modules/collectibles/hooks/useCurrentUser.tsx
@@ -3702,11 +3708,19 @@ app/modules/guild_templates/createResolvedGuildTemplate.tsx
 app/modules/guild_templates/GuildTemplatesConstants.tsx
 app/modules/guild_templates/native/AcceptGuildTemplateModal.tsx
 app/modules/guild_templates/useTrackCreateGuildViewed.tsx
+app/modules/guild_themes/GuildThemeNuxUtils.tsx
 app/modules/guild_themes/GuildThemePresets.tsx
 app/modules/guild_themes/GuildThemePreviewConstants.tsx
 app/modules/guild_themes/GuildThemeResolver.tsx
 app/modules/guild_themes/guildThemeSerialization.tsx
+app/modules/guild_themes/native/GuildThemeNuxActionSheet.tsx
+app/modules/guild_themes/native/GuildThemeNuxCoachmark.tsx
+app/modules/guild_themes/native/GuildThemeNuxPreviewGraphic.tsx
+app/modules/guild_themes/native/GuildThemePreviewArt.tsx
+app/modules/guild_themes/native/GuildThemePreviewOverlay.tsx
+app/modules/guild_themes/native/useGuildThemeNuxTrigger.tsx
 app/modules/guild_themes/native/useRoutedActiveGuildTheme.tsx
+app/modules/guild_themes/useGuildThemeNuxTrigger.tsx
 app/modules/guild_verification/GuildVerificationManager.tsx
 app/modules/guild_verification/GuildVerificationUtils.tsx
 app/modules/guild/Constants.tsx
@@ -5065,6 +5079,8 @@ app/modules/payments/native/NativePaymentContext.tsx
 app/modules/payments/native/utils/BillingStandaloneNativeUtils.tsx
 app/modules/payments/native/utils/createOrReuseGiftOrder.tsx
 app/modules/payments/PaymentConstants.tsx
+app/modules/payments/records/CheckoutContextRecord.tsx
+app/modules/payments/records/OrderRecord.tsx
 app/modules/payments/utils/BillingStandaloneUtils.tsx
 app/modules/payments/utils/MobileWebRedirectCheckoutUtils.tsx
 app/modules/people/ClearAllIncomingRequestsConfirmationModal.tsx
@@ -5216,6 +5232,7 @@ app/modules/premium/native/google_play_price_changes/GooglePlayPriceChangeAction
 app/modules/premium/native/google_play_price_changes/GooglePlayPriceChangeRecord.tsx
 app/modules/premium/native/GuildBoostSlotsInventory.tsx
 app/modules/premium/native/handlePremiumPurchase.android.tsx
+app/modules/premium/native/hooks/useCheckoutPlanPriceString.tsx
 app/modules/premium/native/hooks/useDiscountedPremiumProductInfo.tsx
 app/modules/premium/native/hooks/usePremiumPlanPrice.tsx
 app/modules/premium/native/hooks/usePremiumProductPricingString.tsx
@@ -8043,6 +8060,7 @@ discord_common/js/packages/design/components/AccessibilityAnnouncer/Accessibilit
 discord_common/js/packages/design/components/AccessibilityAnnouncer/useCharacterLimitAnnouncement.tsx
 discord_common/js/packages/design/components/AccessibilityPreferencesContext/AccessibilityConstants.tsx
 discord_common/js/packages/design/components/AccessibilityPreferencesContext/AccessibilityPreferencesContext.tsx
+discord_common/js/packages/design/components/Colors/shared/Colors.tsx
 discord_common/js/packages/design/components/Graphic/GraphicTypes.tsx
 discord_common/js/packages/design/components/Icon/getIconSize.tsx
 discord_common/js/packages/design/components/ManaContext/ManaContext.tsx

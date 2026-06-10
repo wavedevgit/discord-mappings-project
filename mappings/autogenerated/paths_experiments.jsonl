@@ -11,6 +11,7 @@
 {"find_with":["user","2026-04-valorant-social-sdk","variations"],"paths":["app/modules/application_account_linking/experiments/valorantSocialSDKExperiment.tsx"]}
 {"find_with":["user","2026-05-age-restricted-application-commands","variations"],"paths":["app/modules/application_commands/AgeRestrictedApplicationCommandsExperiment.tsx"]}
 {"find_with":["user","2022-03_block_russian_purchases","treatments"],"paths":["app/modules/billing/experiments/BlockedPaymentsCountryExperiment.tsx"]}
+{"find_with":["user","2026-02-gift-cards","variations"],"paths":["app/modules/billing/experiments/GiftCardsExperiment.tsx"]}
 {"find_with":["user","2026-03-store-country","variations"],"paths":["app/modules/billing/experiments/StoreCountryExperiment.tsx"]}
 {"find_with":["user","2026-01-bug-reporter","variations"],"paths":["app/modules/bug_reporter/BugReporterExperiment.tsx"]}
 {"find_with":["user","2026-03-notification-load-messages","variations"],"paths":["app/modules/cache/NotificationLoadMessagesExperiment.tsx"]}
@@ -30,6 +31,7 @@
 {"find_with":["user","2026-05-distributed-clips","variations"],"paths":["app/modules/clips/DistributedClipsExperiment.tsx"]}
 {"find_with":["user","2026-05-mobile-collectibles-flexible-bundles","variations"],"paths":["app/modules/collectibles/experiments/CollectiblesMobileFlexibleBundlesExperiment.tsx"]}
 {"find_with":["user","2026-04-collectibles-orbs-redeem-short-text","variations"],"paths":["app/modules/collectibles/experiments/CollectiblesOrbsRedeemShortTextExperiment.tsx"]}
+{"find_with":["user","2026-06-post-purchase-gifting","variations"],"paths":["app/modules/collectibles/experiments/CollectiblesPostPurchaseGiftingExperiment.tsx"]}
 {"find_with":["user","2026-04-profile-frame-gifting","variations"],"paths":["app/modules/collectibles/experiments/CollectiblesProfileFrameGiftingExperiment.tsx"]}
 {"find_with":["user","2026-04-profile-frames-ea-marketing","variations"],"paths":["app/modules/collectibles/experiments/CollectiblesProfileFramesEAMarketingExperiment.tsx"]}
 {"find_with":["user","2026-03-collectibles-profile-frames","variations"],"paths":["app/modules/collectibles/experiments/CollectiblesProfileFramesExperiment.tsx"]}
@@ -125,7 +127,6 @@
 {"find_with":["user","2025-12-windows-audio-effects","variations"],"paths":["app/modules/noise_cancellation/WindowsEffectsExperiment.tsx"]}
 {"find_with":["user","2026-04-notification-center-push-banner","variations"],"paths":["app/modules/notification_center/native/NotificationCenterPermissionNudgeExperiment.tsx"]}
 {"find_with":["user","2026-03-friend-is-online-v3","variations"],"paths":["app/modules/notifications/friend_online/FriendOnlineNotificationExperiment.tsx"]}
-{"find_with":["user","2026-05-notify-friends-on-come-online","variations"],"paths":["app/modules/notifications/friend_online/NotifyFriendsOnComeOnlineExperiment.tsx"]}
 {"find_with":["user","2026-02-gdm-all-reaction-notifications","variations"],"paths":["app/modules/notifications/gdm_all_reaction_notifications/GdmAllReactionNotificationsExperiment.tsx"]}
 {"find_with":["user","2026-01-ios-push-notif-json-fix","variations"],"paths":["app/modules/notifications/IOSPushNotificationRawPayloadFixExperiment.tsx"]}
 {"find_with":["user","2025-10-clear-channel-notifications-on-app-foreground-ios","variations"],"paths":["app/modules/notifications/native/ClearChannelNotificationsOnAppForegroundExperiment.tsx"]}
