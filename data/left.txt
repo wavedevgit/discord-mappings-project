@@ -3909,6 +3909,7 @@ app/modules/image/native/ImagePicker.tsx
 app/modules/image/native/ImagePickerUtils.tsx
 app/modules/impersonate/ImpersonateTypes.tsx
 app/modules/in_app_notifications/InAppNotificationConstants.tsx
+app/modules/in_app_notifications/InAppNotificationTypes.tsx
 app/modules/in_app_notifications/InAppNotificationUtils.tsx
 app/modules/in_app_notifications/native/AlertNotification.tsx
 app/modules/in_app_notifications/native/ConfirmationToast.tsx
@@ -5182,6 +5183,7 @@ app/modules/premium/gifting/native/views/promotions/GiftingSKUCardsGrid.tsx
 app/modules/premium/gifting/native/views/promotions/GiftingSKUSelectScreen.tsx
 app/modules/premium/gifting/PremiumGifting.messages.js
 app/modules/premium/gifting/PremiumGiftingConstants.tsx
+app/modules/premium/gifting/shared/FriendAnniversaryUtils.tsx
 app/modules/premium/gifting/utils/PremiumGiftingIntentUtils.tsx
 app/modules/premium/gifting/utils/promotions/GiftingPromotionUtils.tsx
 app/modules/premium/gifting/utils/WishlistBannerUtils.tsx

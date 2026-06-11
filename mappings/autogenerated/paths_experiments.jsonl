@@ -15,7 +15,6 @@
 {"find_with":["user","2026-03-store-country","variations"],"paths":["app/modules/billing/experiments/StoreCountryExperiment.tsx"]}
 {"find_with":["user","2026-01-bug-reporter","variations"],"paths":["app/modules/bug_reporter/BugReporterExperiment.tsx"]}
 {"find_with":["user","2026-03-notification-load-messages","variations"],"paths":["app/modules/cache/NotificationLoadMessagesExperiment.tsx"]}
-{"find_with":["user","2025-11-auto-open-tiv","variations"],"paths":["app/modules/calls/AutoOpenTIVExperiment.tsx"]}
 {"find_with":["user","2026-06-ios-broadcast-upload-dispose-fix","variations"],"paths":["app/modules/calls/BroadcastUploadDisposeFixExperiment.tsx"]}
 {"find_with":["user","2026-02-mobile-mute-indicator","variations"],"paths":["app/modules/calls/MobileMuteIndicatorExperiment.tsx"]}
 {"find_with":["user","2025-12-proportional-vad-indicator","variations"],"paths":["app/modules/calls/ProportionalVadIndicatorExperiment.tsx"]}

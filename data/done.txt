@@ -174,7 +174,6 @@ app/modules/build_overrides/BuildOverrideStore.tsx
 app/modules/cache/CacheActionCreators.tsx
 app/modules/cache/CacheStore.tsx
 app/modules/cache/NotificationLoadMessagesExperiment.tsx
-app/modules/calls/AutoOpenTIVExperiment.tsx
 app/modules/calls/BroadcastUploadDisposeFixExperiment.tsx
 app/modules/calls/ChannelRTCStore.tsx
 app/modules/calls/MobileMuteIndicatorExperiment.tsx

@@ -120,12 +120,6 @@
         "keyRequired": "variations"
     },
     {
-        "path": "app/modules/calls/AutoOpenTIVExperiment.tsx",
-        "kind": "user",
-        "id": "2025-11-auto-open-tiv",
-        "keyRequired": "variations"
-    },
-    {
         "path": "app/modules/calls/BroadcastUploadDisposeFixExperiment.tsx",
         "kind": "user",
         "id": "2026-06-ios-broadcast-upload-dispose-fix",
