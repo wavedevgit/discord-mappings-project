@@ -459,8 +459,6 @@ app/design/components/Icon/native/redesign/generated/ThreadIcon.tsx
 app/design/components/Icon/native/redesign/generated/ThreadLockIcon.tsx
 app/design/components/Icon/native/redesign/generated/ThreadMinusIcon.tsx
 app/design/components/Icon/native/redesign/generated/ThreadPlusIcon.tsx
-app/design/components/Icon/native/redesign/generated/ThumbsDownIcon.tsx
-app/design/components/Icon/native/redesign/generated/ThumbsUpIcon.tsx
 app/design/components/Icon/native/redesign/generated/TicketIcon.tsx
 app/design/components/Icon/native/redesign/generated/TiktokNeutralIcon.tsx
 app/design/components/Icon/native/redesign/generated/TimerIcon.tsx
@@ -689,7 +687,7 @@ app/design/components/mana-assets/native/generated/GameDepthTier8LargeBadge.tsx
 app/design/components/mana-assets/native/generated/GameDepthTier8SmallBadge.tsx
 app/design/components/mana-assets/native/generated/GameDepthTier9LargeBadge.tsx
 app/design/components/mana-assets/native/generated/GameDepthTier9SmallBadge.tsx
-app/design/components/mana-assets/native/generated/GameDiversityTier10BigBadge.tsx
+app/design/components/mana-assets/native/generated/GameDiversityTier10LargeBadge.tsx
 app/design/components/mana-assets/native/generated/GameDiversityTier10SmallBadge.tsx
 app/design/components/mana-assets/native/generated/GameDiversityTier1LargeBadge.tsx
 app/design/components/mana-assets/native/generated/GameDiversityTier1SmallBadge.tsx
@@ -786,6 +784,8 @@ app/design/components/mana-assets/native/generated/NitroLogoCardSpotIllustration
 app/design/components/mana-assets/native/generated/NitroRewardsLaptopSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/NitroRewardsMouseSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/NitroRocketNameplateAbstractUI.tsx
+app/design/components/mana-assets/native/generated/NitroStarterBadgeLargeBadge.tsx
+app/design/components/mana-assets/native/generated/NitroStarterBadgeSmallBadge.tsx
 app/design/components/mana-assets/native/generated/NitroSupergraphicLogo.tsx
 app/design/components/mana-assets/native/generated/NitroTicketSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/NitroWishlistTileAbstractUI.tsx
@@ -2101,6 +2101,7 @@ app/modules/claim_account/ClaimAccountModalActionCreators.tsx
 app/modules/client_themes/ClientThemesConstants.tsx
 app/modules/client_themes/ClientThemesTypes.tsx
 app/modules/client_themes/ClientThemesUtils.tsx
+app/modules/client_themes/CustomThemesRandomUtils.tsx
 app/modules/client_themes/images/native/SynchronizeIconNative.tsx
 app/modules/client_themes/intl/ClientThemes.messages.js
 app/modules/client_themes/native/chat/formatSharedClientThemeData.tsx
@@ -2819,6 +2820,7 @@ app/modules/forums/ForumPlatformHooks.tsx
 app/modules/forums/ForumPlatformUtils.tsx
 app/modules/forums/ForumPostDataLoader.tsx
 app/modules/forums/ForumPostMediaUtils.tsx
+app/modules/forums/ForumTagHooks.tsx
 app/modules/forums/ForumUtils.tsx
 app/modules/forums/native/AddMediaToOriginalForumPostActionSheet.tsx
 app/modules/forums/native/AppliedForumTag.tsx
@@ -3010,19 +3012,7 @@ app/modules/game_relationships/settings/useIsAllowGameFriendDMsSettingVisible.ts
 app/modules/game_store/GameStoreAsset.tsx
 app/modules/game_store/getAnalyticsDataForSKU.tsx
 app/modules/game_store/TestModeUtils.tsx
-app/modules/game_update/GameUpdate.messages.js
-app/modules/game_update/GameUpdateNotificationUtils.tsx
-app/modules/game_update/native/GameUpdateFeedbackModule.tsx
-app/modules/game_update/native/GameUpdateInviteFooter.tsx
-app/modules/game_update/native/GameUpdatePlaceholders.tsx
 app/modules/game_update/native/GameUpdatePlatformIcon.tsx
-app/modules/game_update/native/GameUpdateServerInvite.tsx
-app/modules/game_update/native/TruncatedText.tsx
-app/modules/game_update/useAnimatedFooter.tsx
-app/modules/game_update/useErrorToast.tsx
-app/modules/game_update/useGameUpdateData.tsx
-app/modules/game_update/useGameUpdateTime.tsx
-app/modules/game_update/useOfficialServerInvite.tsx
 app/modules/games/GameRecord.tsx
 app/modules/games/hooks/useGame.tsx
 app/modules/games/hooks/useGameArtworkUrls.tsx
@@ -3192,6 +3182,7 @@ app/modules/guild_communication_disabled/native/GuildEnableCommunicationAlert.ts
 app/modules/guild_communication_disabled/useCanToggleCommunicationDisableOnUser.tsx
 app/modules/guild_communication_disabled/useCommunicationDisabledCountdownCleanup.tsx
 app/modules/guild_communication_disabled/useUserCommunicationDisabled.tsx
+app/modules/guild_config_gates/GuildConfigGates.tsx
 app/modules/guild_dismissible_content/GuildDismissibleContentUtils.tsx
 app/modules/guild_home/native/components/guild_sidebar/GuildHomeChannelRow.tsx
 app/modules/guild_home/native/components/GuildFeedBanner.tsx
@@ -4441,6 +4432,7 @@ app/modules/media_engine/native/VoiceProcessingErrorManager.tsx
 app/modules/media_engine/trackVideoToggle.tsx
 app/modules/media_engine/useMuteAwareLocalVolume.tsx
 app/modules/media_engine/VideoCaptureDeviceNoReuse.tsx
+app/modules/media_engine/WindowsMediaFoundationCpuEncodeIntel.tsx
 app/modules/media_engine/WindowsMediaFoundationGpuEncode.tsx
 app/modules/media_engine/WindowsMediaFoundationGpuEncodeIntel.tsx
 app/modules/media_keyboard/native/components/MediaKeyboard.tsx
@@ -4848,7 +4840,6 @@ app/modules/notification_center/native/ForYouShowAllRow.tsx
 app/modules/notification_center/native/ForYouSuggestedFriendRow.tsx
 app/modules/notification_center/native/ForYouSuggestedFriendsSectionHeader.tsx
 app/modules/notification_center/native/ForYouUnreadClearedState.tsx
-app/modules/notification_center/native/GameUpdateActionSheet.tsx
 app/modules/notification_center/native/NotificationCenterActionButton.tsx
 app/modules/notification_center/native/NotificationCenterActionSheet.tsx
 app/modules/notification_center/native/NotificationCenterForYou.tsx
@@ -5507,6 +5498,8 @@ app/modules/quests/managers/QuestProgressManager.tsx
 app/modules/quests/native/AdVideoPlayer.tsx
 app/modules/quests/native/AppStoreOverlayTelemetryManager.tsx
 app/modules/quests/native/ATTModal/ATTManager.android.tsx
+app/modules/quests/native/BountiesBannerBackground.tsx
+app/modules/quests/native/BountiesCtaHeader.tsx
 app/modules/quests/native/BountiesModal/BountiesModal.tsx
 app/modules/quests/native/BountiesModal/BountiesModalAdvertiserCta.tsx
 app/modules/quests/native/BountiesModal/BountiesModalCloseButton.tsx
@@ -5589,6 +5582,7 @@ app/modules/quests/native/QuestRewardCodeClaimBottomSheet.tsx
 app/modules/quests/native/QuestRewardDetailsBottomSheet.tsx
 app/modules/quests/native/QuestRewardTile.tsx
 app/modules/quests/native/QuestUtils.tsx
+app/modules/quests/native/useIsCarouselInView.tsx
 app/modules/quests/native/useQuestHomeHeader.tsx
 app/modules/quests/native/VideoQuestModal/captions/VideoQuestCaptions.tsx
 app/modules/quests/native/VideoQuestModal/captions/VideoQuestCaptionsUtils.tsx
@@ -6807,7 +6801,6 @@ app/modules/user_settings/defs/native/FriendRequestsMutualFriendsSetting.tsx
 app/modules/user_settings/defs/native/FriendRequestsMutualGuildsSetting.tsx
 app/modules/user_settings/defs/native/FriendRequestsNotesSetting.tsx
 app/modules/user_settings/defs/native/FriendStreamNotificationsSetting.tsx
-app/modules/user_settings/defs/native/GameUpdateNotificationSetting.tsx
 app/modules/user_settings/defs/native/GdmAllReactionNotificationSetting.tsx
 app/modules/user_settings/defs/native/GoreMediaFiltersFriendsDMsSetting.tsx
 app/modules/user_settings/defs/native/GoreMediaFiltersGuildsSetting.tsx
@@ -7613,6 +7606,7 @@ discord_assets/assets/checkpoint/card-origami.png.js
 discord_assets/assets/checkpoint/card-plant.png.js
 discord_assets/assets/checkpoint/card-snail.png.js
 discord_assets/assets/collectibles/frames/announcement_sheet_frame.png.js
+discord_assets/assets/collectibles/frames/ea/announcement_key_1.png.js
 discord_assets/assets/collectibles/frames/mobile_announcement.png.js
 discord_assets/assets/collectibles/previews/sample_profile_small-2x.png.js
 discord_assets/assets/collectibles/previews/sample_profile_small.png.js
@@ -7761,7 +7755,7 @@ discord_assets/assets/mana/asset-library/generated/GameDepthTier8LargeBadge-2x.p
 discord_assets/assets/mana/asset-library/generated/GameDepthTier8SmallBadge-2x.png.js
 discord_assets/assets/mana/asset-library/generated/GameDepthTier9LargeBadge-2x.png.js
 discord_assets/assets/mana/asset-library/generated/GameDepthTier9SmallBadge-2x.png.js
-discord_assets/assets/mana/asset-library/generated/GameDiversityTier10BigBadge-2x.png.js
+discord_assets/assets/mana/asset-library/generated/GameDiversityTier10LargeBadge-2x.png.js
 discord_assets/assets/mana/asset-library/generated/GameDiversityTier10SmallBadge-2x.png.js
 discord_assets/assets/mana/asset-library/generated/GameDiversityTier1LargeBadge-2x.png.js
 discord_assets/assets/mana/asset-library/generated/GameDiversityTier1SmallBadge-2x.png.js
@@ -7858,6 +7852,8 @@ discord_assets/assets/mana/asset-library/generated/NitroLogoCardSpotIllustration
 discord_assets/assets/mana/asset-library/generated/NitroRewardsLaptopSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/NitroRewardsMouseSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/NitroRocketNameplateAbstractUI-2x.png.js
+discord_assets/assets/mana/asset-library/generated/NitroStarterBadgeLargeBadge-2x.png.js
+discord_assets/assets/mana/asset-library/generated/NitroStarterBadgeSmallBadge-2x.png.js
 discord_assets/assets/mana/asset-library/generated/NitroSupergraphicLogo-2x.png.js
 discord_assets/assets/mana/asset-library/generated/NitroTicketSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/NitroWishlistTileAbstractUI-2x.png.js
@@ -8041,6 +8037,7 @@ discord_assets/assets/premium/tiered_tenure_badging/mobile_upcoming_bronze_badge
 discord_assets/assets/premium/wumpus-avatar.png.js
 discord_assets/assets/quests/bounties/_3d_orbs.mov.js
 discord_assets/assets/quests/bounties/_3d_orbs.png.js
+discord_assets/assets/quests/bounties/bounty_banner.mp4.js
 discord_assets/assets/quests/bounties/starfield_bg.mp4.js
 discord_assets/assets/virtual_currency/images/native/balancePromotion_bg_animated.mp4.js
 discord_assets/assets/virtual_currency/images/native/balancePromotion_bg_static.png.js
@@ -8081,6 +8078,7 @@ discord_common/js/packages/design/components/Rive/native/generated/MicrophoneRiv
 discord_common/js/packages/design/components/Rive/native/generated/NitroQuestOrbsMultiplierRive.tsx
 discord_common/js/packages/design/components/Rive/native/generated/TeenScreenTimeRive.tsx
 discord_common/js/packages/design/components/Rive/native/generated/ThemeAwareNitroWishlistingWumpusRive.tsx
+discord_common/js/packages/design/components/Rive/native/RiveErrorBoundary.tsx
 discord_common/js/packages/design/components/Rive/native/RiveTypes.tsx
 discord_common/js/packages/design/components/Stickers/StickerTypes.tsx
 discord_common/js/packages/design/components/Text/typographyVariantRemap.tsx
@@ -8230,6 +8228,7 @@ discord_common/js/packages/rtn-codegen/js/ClipViewNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/EmojiPickerNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/EmojiPickerRowViewNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/FastestListNativeComponent.tsx
+discord_common/js/packages/rtn-codegen/js/FastImageFabricNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/ImageWithThumbhashPlaceholderNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/KeyCommandsNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/LocalImageThumbnailNativeComponent.tsx

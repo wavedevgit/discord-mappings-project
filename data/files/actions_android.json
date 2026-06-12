@@ -1312,14 +1312,6 @@
         ]
     },
     {
-        "path": "app/modules/game_update/GameUpdateActionCreators.tsx",
-        "flux_events": [
-            "GAME_UPDATE_FETCH_SUCCESS",
-            "GAME_UPDATE_FETCH_FAILURE",
-            "GAME_UPDATE_FETCH_START"
-        ]
-    },
-    {
         "path": "app/modules/games/GameActionCreators.tsx",
         "flux_events": [
             "GAME_FETCH_SUCCESS",

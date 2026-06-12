@@ -204,12 +204,6 @@
         "keyRequired": "variations"
     },
     {
-        "path": "app/modules/collectibles/experiments/CollectiblesOrbsRedeemShortTextExperiment.tsx",
-        "kind": "user",
-        "id": "2026-04-collectibles-orbs-redeem-short-text",
-        "keyRequired": "variations"
-    },
-    {
         "path": "app/modules/collectibles/experiments/CollectiblesPostPurchaseGiftingExperiment.tsx",
         "kind": "user",
         "id": "2026-06-post-purchase-gifting",
@@ -320,6 +314,12 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/fast_image/FastImageFabricExperiment.tsx",
+        "kind": "user",
+        "id": "2026-06-ios-fastimage-fabric",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/favorites/FavoritesGuildExperiment.tsx",
         "kind": "user",
         "id": "2026-01-favorites-server",
@@ -353,12 +353,6 @@
         "path": "app/modules/game_mentions/GameMentionsExperiment.tsx",
         "kind": "user",
         "id": "2026-05-game-mentions-v2",
-        "keyRequired": "variations"
-    },
-    {
-        "path": "app/modules/game_update/GameUpdateExperiment.tsx",
-        "kind": "user",
-        "id": "2026-03-game-update-notification",
         "keyRequired": "variations"
     },
     {

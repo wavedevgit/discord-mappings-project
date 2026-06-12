@@ -178,6 +178,7 @@ app/modules/calls/BroadcastUploadDisposeFixExperiment.tsx
 app/modules/calls/ChannelRTCStore.tsx
 app/modules/calls/MobileMuteIndicatorExperiment.tsx
 app/modules/calls/ProportionalVadIndicatorExperiment.tsx
+app/modules/calls/VideoSpeakerStore.tsx
 app/modules/calls/VideoStabilizationExperiment.tsx
 app/modules/captcha/CaptchaStore.tsx
 app/modules/captcha/tooling/CaptchaTestActionCreators.tsx
@@ -216,7 +217,6 @@ app/modules/collectibles/CollectiblesShopHomeStore.tsx
 app/modules/collectibles/CollectiblesShopStore.tsx
 app/modules/collectibles/CollectiblesShopVariantsUIStore.tsx
 app/modules/collectibles/experiments/CollectiblesMobileFlexibleBundlesExperiment.tsx
-app/modules/collectibles/experiments/CollectiblesOrbsRedeemShortTextExperiment.tsx
 app/modules/collectibles/experiments/CollectiblesPostPurchaseGiftingExperiment.tsx
 app/modules/collectibles/experiments/CollectiblesProfileFrameGiftingExperiment.tsx
 app/modules/collectibles/experiments/CollectiblesProfileFramesEAMarketingExperiment.tsx
@@ -292,6 +292,7 @@ app/modules/explicit_media_redaction/ExplicitMediaSearchStore.tsx
 app/modules/explicit_media_redaction/ExplicitMediaStore.tsx
 app/modules/explicit_media_redaction/SensitiveContentSelfHarmExperiment.tsx
 app/modules/expression_picker/ExpressionPickerStore.tsx
+app/modules/fast_image/FastImageFabricExperiment.tsx
 app/modules/favorites/FavoritesGuildExperiment.tsx
 app/modules/favorites/FavoritesNotificationStore.tsx
 app/modules/favorites/FavoriteStore.tsx
@@ -326,9 +327,6 @@ app/modules/game_profile/GameProfileStore.tsx
 app/modules/game_profile/native/GameDetectionReportActionCreators.tsx
 app/modules/game_relationships/GameRelationshipActionCreators.tsx
 app/modules/game_relationships/GameRelationshipStore.tsx
-app/modules/game_update/GameUpdateActionCreators.tsx
-app/modules/game_update/GameUpdateExperiment.tsx
-app/modules/game_update/GameUpdateStore.tsx
 app/modules/games/GameActionCreators.tsx
 app/modules/games/GameStore.tsx
 app/modules/gateway/GatewayConnectionStore.tsx
@@ -368,6 +366,7 @@ app/modules/guild_automod/GuildAutomodMessageStore.tsx
 app/modules/guild_boosting/GuildBoostingProgressBarActionCreators.tsx
 app/modules/guild_boosting/GuildBoostingProgressBarPersistedStore.tsx
 app/modules/guild_communication_disabled/useCommunicationDisabledNoticeStore.tsx
+app/modules/guild_config_gates/GuildConfigGatesStore.tsx
 app/modules/guild_home/ActiveChannelsStore.tsx
 app/modules/guild_identity/GuildIdentityActionCreators.tsx
 app/modules/guild_member_verification/GuildJoinRequestActionCreators.tsx
@@ -1010,7 +1009,6 @@ app/stores/UserRequiredActionStore.tsx
 app/stores/UserSettingsAccountStore.tsx
 app/stores/UserStore.tsx
 app/stores/VideoQualityModeStore.tsx
-app/stores/VideoSpeakerStore.tsx
 app/stores/VideoStreamStore.tsx
 app/stores/views/ActivityLauncherStore.tsx
 app/stores/views/GIFPickerViewStore.tsx

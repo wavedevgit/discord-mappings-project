@@ -1314,6 +1314,7 @@
 {"id":"630039.js","paths":["discord_app/modules/welcome_screen/WelcomeScreenActionCreators.tsx"]}
 {"id":"630039.js","paths":["assets/images/platforms/img_account_sync_league_of_legends_light_and_dark.svg","discord_app/src/main/res/raw/images_platforms_img_account_sync_league_of_legends_light_and_dark.svg"]}
 {"id":"630039.js","paths":["discord_app/modules/connections/experiments/ApplicationIdentityLinkedRolesExperiment.tsx"]}
+{"id":"630039.js","paths":["discord_app/modules/guild_config_gates/GuildConfigGatesStore.tsx"]}
 {"id":"630039.js","paths":["../discord_common/js/shared/shared-constants/AutomodActionType.tsx"]}
 {"id":"630039.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"630039.js","paths":["../discord_common/js/shared/shared-constants/ClanGameplayActivity.tsx"]}
@@ -2170,7 +2171,7 @@
 {"id":"941265.js","paths":["assets/images/platforms/img_account_sync_ebay_white.png","discord_app/src/main/res/drawable-mdpi/images_platforms_img_account_sync_ebay_white.png"]}
 {"id":"941705.js","paths":["assets/_discord_common/js/shared/images/flags/ru.png","discord_app/src/main/res/drawable-mdpi/_discord_common_js_shared_images_flags_ru.png"]}
 {"id":"942340.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
-{"id":"94247.js","paths":["discord_app/stores/VideoSpeakerStore.tsx"]}
+{"id":"94247.js","paths":["discord_app/modules/calls/VideoSpeakerStore.tsx"]}
 {"id":"942614.js","paths":["discord_app/modules/nuf/NUFActionCreators.tsx"]}
 {"id":"943211.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"943667.js","paths":["../discord_common/js/shared/shared-constants/MessageReferenceTypes.tsx"]}

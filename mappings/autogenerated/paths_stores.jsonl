@@ -41,6 +41,7 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']BuildOverrideStore[\"']"},"paths":["app/modules/build_overrides/BuildOverrideStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']CacheStore[\"']"},"paths":["app/modules/cache/CacheStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ChannelRTCStore[\"']"},"paths":["app/modules/calls/ChannelRTCStore.tsx"]}
+{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']VideoSpeakerStore[\"']"},"paths":["app/modules/calls/VideoSpeakerStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']CaptchaStore[\"']"},"paths":["app/modules/captcha/CaptchaStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ChangelogStore[\"']"},"paths":["app/modules/changelog/ChangelogStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ChannelMemberCountStore[\"']"},"paths":["app/modules/channel/ChannelMemberCountStore.tsx"]}
@@ -114,7 +115,6 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GameConsoleStore[\"']"},"paths":["app/modules/game_console/GameConsoleStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GameProfileStore[\"']"},"paths":["app/modules/game_profile/GameProfileStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GameRelationshipStore[\"']"},"paths":["app/modules/game_relationships/GameRelationshipStore.tsx"]}
-{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GameUpdateStore[\"']"},"paths":["app/modules/game_update/GameUpdateStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GameStore[\"']"},"paths":["app/modules/games/GameStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GatewayConnectionStore[\"']"},"paths":["app/modules/gateway/GatewayConnectionStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']PostConnectionCallbackStore[\"']"},"paths":["app/modules/gateway/PostConnectionCallbackStore.tsx"]}
@@ -137,6 +137,7 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GuildAutomodMessageStore[\"']"},"paths":["app/modules/guild_automod/GuildAutomodMessageStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GuildBoostingProgressBarPersistedStore[\"']"},"paths":["app/modules/guild_boosting/GuildBoostingProgressBarPersistedStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']useCommunicationDisabledNoticeStore[\"']"},"paths":["app/modules/guild_communication_disabled/useCommunicationDisabledNoticeStore.tsx"]}
+{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GuildConfigGatesStore[\"']"},"paths":["app/modules/guild_config_gates/GuildConfigGatesStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ActiveChannelsStore[\"']"},"paths":["app/modules/guild_home/ActiveChannelsStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GuildJoinRequestStore[\"']"},"paths":["app/modules/guild_member_verification/GuildJoinRequestStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']MemberVerificationFormStore[\"']"},"paths":["app/modules/guild_member_verification/MemberVerificationFormStore.tsx"]}
@@ -500,7 +501,6 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']UserSettingsAccountStore[\"']"},"paths":["app/stores/UserSettingsAccountStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']UserStore[\"']"},"paths":["app/stores/UserStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']VideoQualityModeStore[\"']"},"paths":["app/stores/VideoQualityModeStore.tsx"]}
-{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']VideoSpeakerStore[\"']"},"paths":["app/stores/VideoSpeakerStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']VideoStreamStore[\"']"},"paths":["app/stores/VideoStreamStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ActivityLauncherStore[\"']"},"paths":["app/stores/views/ActivityLauncherStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GIFPickerViewStore[\"']"},"paths":["app/stores/views/GIFPickerViewStore.tsx"]}
