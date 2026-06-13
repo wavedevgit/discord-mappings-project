@@ -668,12 +668,6 @@
         "keyRequired": "variations"
     },
     {
-        "path": "app/modules/media_engine/VoiceTimeoutMitigationsExperiment.tsx",
-        "kind": "user",
-        "id": "2026-02-voice-timeout-mitigations",
-        "keyRequired": "variations"
-    },
-    {
         "path": "app/modules/media_engine/WGCDirtyRegionsAllExperiment.tsx",
         "kind": "user",
         "id": "2026-02-wgc-dirty-regions-all",
@@ -962,6 +956,12 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/premium/gifting/experiments/NitroGiftPriceCopyExperiment.tsx",
+        "kind": "user",
+        "id": "2026-06-nitro-gifting-price-copy-tweaks",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/premium/powerups/experiments/BoostToUnlockCoachmarkExperiment.tsx",
         "kind": "user",
         "id": "2026-02-boost-to-unlock-coachmark",
@@ -1049,6 +1049,12 @@
         "path": "app/modules/quests/experiments/BountiesStage1Experiment.tsx",
         "kind": "user",
         "id": "2026-05-bounties-stage-1",
+        "keyRequired": "variations"
+    },
+    {
+        "path": "app/modules/quests/experiments/BountyUseVideoModalMobilePlacementExperiment.tsx",
+        "kind": "user",
+        "id": "2026-06-bounty-use-video-modal-mobile-placement-experiment",
         "keyRequired": "variations"
     },
     {

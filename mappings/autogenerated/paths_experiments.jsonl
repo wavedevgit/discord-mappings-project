@@ -105,7 +105,6 @@
 {"find_with":["user","2025-10-vad-before-processing","variations"],"paths":["app/modules/media_engine/VADBeforeProcessingExperiment.tsx"]}
 {"find_with":["user","2026-04-video-hook-dx12","variations"],"paths":["app/modules/media_engine/VideoHookDX12Experiment.tsx"]}
 {"find_with":["user","2026-03-video-stutter-mitigation","variations"],"paths":["app/modules/media_engine/VideoStutterMitigationExperiment.tsx"]}
-{"find_with":["user","2026-02-voice-timeout-mitigations","variations"],"paths":["app/modules/media_engine/VoiceTimeoutMitigationsExperiment.tsx"]}
 {"find_with":["user","2026-02-wgc-dirty-regions-all","variations"],"paths":["app/modules/media_engine/WGCDirtyRegionsAllExperiment.tsx"]}
 {"find_with":["user","2026-02-wgc-dirty-regions","variations"],"paths":["app/modules/media_engine/WGCDirtyRegionsExperiment.tsx"]}
 {"find_with":["user","2026-02-android-exoplayer-http-engine","variations"],"paths":["app/modules/media_uploads/experiments/AndroidExoPlayerHttpEngineExperiment.tsx"]}
@@ -154,6 +153,7 @@
 {"find_with":["guild","2025-08_portkey_enabled","treatments"],"paths":["app/modules/premium/game_server/GameServerExperiment.tsx"]}
 {"find_with":["user","2026-04-gifting-badge","variations"],"paths":["app/modules/premium/gifting/experiments/GiftingBadgeExperiment.tsx"]}
 {"find_with":["user","2026-04-gift-promotion-reminder","variations"],"paths":["app/modules/premium/gifting/experiments/GiftPromotionReminderExperiment.tsx"]}
+{"find_with":["user","2026-06-nitro-gifting-price-copy-tweaks","variations"],"paths":["app/modules/premium/gifting/experiments/NitroGiftPriceCopyExperiment.tsx"]}
 {"find_with":["user","2026-02-boost-to-unlock-coachmark","variations"],"paths":["app/modules/premium/powerups/experiments/BoostToUnlockCoachmarkExperiment.tsx"]}
 {"find_with":["user","2026-05-expiring-boosts","variations"],"paths":["app/modules/premium/powerups/experiments/ExpiringBoostsExperiment.tsx"]}
 {"find_with":["user","2026-02-expiring-powerup-coachmark","variations"],"paths":["app/modules/premium/powerups/experiments/ExpiringPowerupCoachmarkExperiment.tsx"]}
@@ -169,6 +169,7 @@
 {"find_with":["user","2026-02-content-classification-presence-filter","variations"],"paths":["app/modules/presence/ContentClassificationPresenceFilterExperiment.tsx"]}
 {"find_with":["user","2026-05-use-ad-analytics-interface","variations"],"paths":["app/modules/quests/experiments/AdAnalyticsInterfaceExperiment.tsx"]}
 {"find_with":["user","2026-05-bounties-stage-1","variations"],"paths":["app/modules/quests/experiments/BountiesStage1Experiment.tsx"]}
+{"find_with":["user","2026-06-bounty-use-video-modal-mobile-placement-experiment","variations"],"paths":["app/modules/quests/experiments/BountyUseVideoModalMobilePlacementExperiment.tsx"]}
 {"find_with":["user","2026-01-less-personalized-ads","variations"],"paths":["app/modules/quests/experiments/LessPersonalizedAdsExperiment.tsx"]}
 {"find_with":["user","2025-10-ad-request-behavior-experiment","variations"],"paths":["app/modules/quests/experiments/NewAdRequestBehaviorExperiment.tsx"]}
 {"find_with":["user","2026-03-quest-home-bounties","variations"],"paths":["app/modules/quests/experiments/QuestHomeBountiesExperiment.tsx"]}

@@ -27,6 +27,7 @@
 {"id":"115063.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"115213.js","paths":["discord_app/actions/HubActionCreators.tsx"]}
 {"id":"115213.js","paths":["discord_app/modules/age_gate/AgeGateStore.tsx"]}
+{"id":"115213.js","paths":["discord_app/modules/parent_tools/ParentalConsentStore.tsx"]}
 {"id":"115213.js","paths":["../discord_common/js/shared/shared-constants/AudioSettingsDefaultVolumes.tsx"]}
 {"id":"115213.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"115213.js","paths":["../discord_common/js/shared/shared-constants/ClanGameplayActivity.tsx"]}
@@ -601,6 +602,7 @@
 {"id":"344351.js","paths":["../discord_common/js/shared/shared-constants/EmbeddedActivityLocationKind.tsx"]}
 {"id":"346058.js","paths":["assets/images/platforms/img_account_sync_playstation_white.png","discord_app/src/main/res/drawable-mdpi/images_platforms_img_account_sync_playstation_white.png"]}
 {"id":"347135.js","paths":["discord_app/modules/quests/experiments/BountiesStage1Experiment.tsx"]}
+{"id":"347135.js","paths":["discord_app/modules/quests/experiments/BountyUseVideoModalMobilePlacementExperiment.tsx"]}
 {"id":"347135.js","paths":["discord_app/modules/quests/experiments/QuestHomeBountiesExperiment.tsx"]}
 {"id":"347135.js","paths":["../discord_common/js/shared/shared-constants/CollectiblesMarketingPlatform.tsx"]}
 {"id":"347135.js","paths":["../discord_common/js/shared/shared-constants/FirstPartyQuestTaskTypes.tsx"]}
@@ -858,6 +860,7 @@
 {"id":"441574.js","paths":["../discord_common/js/shared/shared-constants/ClanGameplayActivity.tsx"]}
 {"id":"441574.js","paths":["../discord_common/js/shared/shared-constants/DisplayNameEffect.tsx"]}
 {"id":"441574.js","paths":["../discord_common/js/shared/shared-constants/DisplayNameFont.tsx"]}
+{"id":"442123.js","paths":["discord_app/modules/premium/gifting/experiments/NitroGiftPriceCopyExperiment.tsx"]}
 {"id":"442433.js","paths":["discord_app/actions/ContextMenuActionCreators.tsx"]}
 {"id":"442468.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"442932.js","paths":["assets/images/platforms/img_account_sync_github_light.png","discord_app/src/main/res/drawable-mdpi/images_platforms_img_account_sync_github_light.png"]}
