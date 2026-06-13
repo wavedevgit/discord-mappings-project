@@ -532,10 +532,6 @@
 {"id":"313961.js","paths":["../discord_common/js/shared/shared-constants/AudioSettingsDefaultVolumes.tsx"]}
 {"id":"315240.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"315790.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
-{"id":"31587.js","paths":["discord_app/modules/quests/experiments/QuestHomeBountiesExperiment.tsx"]}
-{"id":"31587.js","paths":["../discord_common/js/shared/shared-constants/CollectiblesMarketingPlatform.tsx"]}
-{"id":"31587.js","paths":["../discord_common/js/shared/shared-constants/FirstPartyQuestTaskTypes.tsx"]}
-{"id":"31587.js","paths":["../discord_common/js/shared/shared-constants/MarketingComponentPlatform.tsx"]}
 {"id":"317097.js","paths":["../discord_common/js/shared/utils/ColorUtils.tsx"]}
 {"id":"31717.js","paths":["discord_app/stores/DraftStore.tsx"]}
 {"id":"317525.js","paths":["discord_app/stores/GuildRoleStore.tsx"]}
@@ -604,6 +600,11 @@
 {"id":"344005.js","paths":["../discord_common/js/shared/shared-constants/ThirdPartyGameApplicationThemes.tsx"]}
 {"id":"344351.js","paths":["../discord_common/js/shared/shared-constants/EmbeddedActivityLocationKind.tsx"]}
 {"id":"346058.js","paths":["assets/images/platforms/img_account_sync_playstation_white.png","discord_app/src/main/res/drawable-mdpi/images_platforms_img_account_sync_playstation_white.png"]}
+{"id":"347135.js","paths":["discord_app/modules/quests/experiments/BountiesStage1Experiment.tsx"]}
+{"id":"347135.js","paths":["discord_app/modules/quests/experiments/QuestHomeBountiesExperiment.tsx"]}
+{"id":"347135.js","paths":["../discord_common/js/shared/shared-constants/CollectiblesMarketingPlatform.tsx"]}
+{"id":"347135.js","paths":["../discord_common/js/shared/shared-constants/FirstPartyQuestTaskTypes.tsx"]}
+{"id":"347135.js","paths":["../discord_common/js/shared/shared-constants/MarketingComponentPlatform.tsx"]}
 {"id":"347481.js","paths":["discord_app/stores/CertifiedDeviceStore.tsx"]}
 {"id":"350527.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"350794.js","paths":["assets/images/platforms/img_account_sync_epic_light.png","discord_app/src/main/res/drawable-mdpi/images_platforms_img_account_sync_epic_light.png"]}
@@ -1570,6 +1571,7 @@
 {"id":"710195.js","paths":["discord_app/modules/experiments/apex/ApexExperimentStore.tsx"]}
 {"id":"710637.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"710842.js","paths":["assets/_discord_common/js/shared/images/flags/th.png","discord_app/src/main/res/drawable-mdpi/_discord_common_js_shared_images_flags_th.png"]}
+{"id":"710969.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"710969.js","paths":["../discord_common/js/shared/shared-constants/CollectiblesMarketingPlatform.tsx"]}
 {"id":"710969.js","paths":["../discord_common/js/shared/shared-constants/MarketingComponentPlatform.tsx"]}
 {"id":"711014.js","paths":["discord_app/stores/SortedGuildStore.tsx"]}
