@@ -7,6 +7,18 @@ export default [
         find_with: '"HTTPUtils"',
         paths: ['../discord_common/js/packages/http-utils/HTTPUtils.tsx'],
     },
+    {
+        find_with: 'transitionTo - Transitioning to',
+        paths: ['app/modules/routing/router_utils.tsx'],
+    },
+    {
+        find_with: 'transitionToGuild -',
+        paths: ['app/modules/routing/router_utils.tsx'],
+    },
+    {
+        find_with: 'bitbucket.org',
+        paths: ['app/modules/suspicious_downloads/SuspiciousDownloadUtils.tsx'],
+    },
     // id gen
     {
         find_with: '.shiftRight(32).toJSNumber()',
