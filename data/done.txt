@@ -712,6 +712,7 @@ app/modules/report_to_mod/ReportToModStore.tsx
 app/modules/rewards/ProgramRewardsStore.tsx
 app/modules/rich_presence/FirstPartyRichPresenceStore.tsx
 app/modules/routing/KeybindRouterStore.tsx
+app/modules/routing/router_utils.tsx
 app/modules/rtc/SecureFramesActionCreators.tsx
 app/modules/rtc/SecureFramesDeeplinkExperiment.tsx
 app/modules/rtc/SecureFramesPersistedStore.tsx
@@ -787,6 +788,7 @@ app/modules/storefront/StorefrontActionCreators.tsx
 app/modules/storefront/StorefrontPromotionStore.tsx
 app/modules/summaries/SummaryActionCreators.tsx
 app/modules/summaries/SummaryStore.tsx
+app/modules/suspicious_downloads/SuspiciousDownloadUtils.tsx
 app/modules/telemetry_ring/HttpRequestSampleExperiment.tsx
 app/modules/telemetry_ring/native/ZoomedInAnalyticsExperiment.tsx
 app/modules/themes/experiments/MobileVisualRefreshExperiment.tsx

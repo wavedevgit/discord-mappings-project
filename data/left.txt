@@ -5754,7 +5754,6 @@ app/modules/routing/native/useBackPressHandler.tsx
 app/modules/routing/RouteConstants.tsx
 app/modules/routing/RouteManager.tsx
 app/modules/routing/RouteParam.tsx
-app/modules/routing/router_utils.tsx
 app/modules/routing/RouteUtils.tsx
 app/modules/routing/RoutingSources.tsx
 app/modules/routing/transitionToChannel.tsx
@@ -6338,7 +6337,6 @@ app/modules/summaries/SummaryConstants.tsx
 app/modules/suppress_notifications/parseContentForSuppressNotifications.tsx
 app/modules/suspicious_downloads/native/SuspiciousDownloadActionSheet.tsx
 app/modules/suspicious_downloads/SuspiciousDownloadModalActionCreators.tsx
-app/modules/suspicious_downloads/SuspiciousDownloadUtils.tsx
 app/modules/svg/native/getReactNativeSVGImageSource.tsx
 app/modules/system_analytics/SystemAnalyticsStore.tsx
 app/modules/system_date_format/SystemDateFormatter.tsx

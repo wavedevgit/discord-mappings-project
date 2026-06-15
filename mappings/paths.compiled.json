@@ -4455,6 +4455,24 @@
     },
     {
         "paths": [
+            "app/modules/routing/router_utils.tsx"
+        ],
+        "find_with": "transitionTo - Transitioning to"
+    },
+    {
+        "paths": [
+            "app/modules/routing/router_utils.tsx"
+        ],
+        "find_with": "transitionToGuild -"
+    },
+    {
+        "paths": [
+            "app/modules/suspicious_downloads/SuspiciousDownloadUtils.tsx"
+        ],
+        "find_with": "bitbucket.org"
+    },
+    {
+        "paths": [
             "../discord_common/js/packages/id-generator/IdGenerator.tsx"
         ],
         "find_with": ".shiftRight(32).toJSNumber()"
