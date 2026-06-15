@@ -1,6 +1,6 @@
 {
-  "build": "5767",
-  "commit": "f64dfdd8d3de70f86c0fca7b0b0ea9e45954e4b3",
+  "build": "5773",
+  "commit": "d100e10d389df5e07bf0dadee31fe86f8ed38e40",
   "files": {
     "app/actions/ActivitiesActionCreators.tsx": 18347,
     "app/actions/AlertActionCreators.tsx": 726,
@@ -8457,7 +8457,7 @@
     "app/stores/LocalActivityStore.tsx": 30978,
     "app/stores/MaskedLinkStore.tsx": 16581,
     "app/stores/MaskedLinkStoreMethodsAdditional.native.tsx": 2073,
-    "app/stores/MediaEngineStore.tsx": 429794,
+    "app/stores/MediaEngineStore.tsx": 429793,
     "app/stores/MessageReactionsStore.tsx": 12714,
     "app/stores/MessageStore.tsx": 103806,
     "app/stores/MFAStore.tsx": 8869,
@@ -9317,7 +9317,7 @@
     "discord_common/js/packages/protos/discord_protos/discord_kkv_store_value_models/v1/applications.tsx": 40496,
     "discord_common/js/packages/protos/discord_protos/discord_users/v1/dismissible_content.tsx": 81003,
     "discord_common/js/packages/protos/discord_protos/discord_users/v1/frecency_user_settings.tsx": 197352,
-    "discord_common/js/packages/protos/discord_protos/discord_users/v1/preloaded_user_settings.tsx": 962899,
+    "discord_common/js/packages/protos/discord_protos/discord_users/v1/preloaded_user_settings.tsx": 962897,
     "discord_common/js/packages/protos/discord_protos/discord_users/v1/user_settings_shared.tsx": 14092,
     "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/announcement_modal_variant_1_properties.tsx": 122841,
     "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/billing_settings_nitro_gift_banner.tsx": 30789,
