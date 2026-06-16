@@ -74,6 +74,7 @@
 {"id":"135577.js","paths":["discord_app/src/main/res/raw/images_platforms_img_account_sync_riot_black.svg"]}
 {"id":"135978.js","paths":["discord_app/modules/recents/RecentMentionsStore.tsx"]}
 {"id":"136523.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
+{"id":"136722.js","paths":["../discord_common/js/shared/utils/BigFlagUtils.tsx"]}
 {"id":"137130.js","paths":["discord_app/actions/AuditLogActionCreators.tsx"]}
 {"id":"137337.js","paths":["../discord_common/js/shared/shared-constants/AudioSettingsDefaultVolumes.tsx"]}
 {"id":"137403.js","paths":["assets/images/platforms/img_account_sync_instagram_white.svg","discord_app/src/main/res/raw/images_platforms_img_account_sync_instagram_white.svg"]}
@@ -246,7 +247,6 @@
 {"id":"196492.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"197111.js","paths":["discord_app/modules/coded_links/web/CodedLinkActionCreators.tsx"]}
 {"id":"197111.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
-{"id":"198289.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"198970.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"198991.js","paths":["assets/images/platforms/img_account_sync_riot_white.svg","discord_app/src/main/res/raw/images_platforms_img_account_sync_riot_white.svg"]}
 {"id":"199773.js","paths":["discord_app/modules/dismissible_content/DismissibleContentFrameworkStore.tsx"]}
@@ -629,6 +629,7 @@
 {"id":"355622.js","paths":["../discord_common/js/shared/shared-constants/MessageReferenceTypes.tsx"]}
 {"id":"356556.js","paths":["assets/images/platforms/img_bungie_dark.png","assets/images/platforms/img_bungie_white.png","discord_app/src/main/res/drawable-mdpi/images_platforms_img_bungie_dark.png","discord_app/src/main/res/drawable-mdpi/images_platforms_img_bungie_white.png"]}
 {"id":"356556.js","paths":["assets/images/platforms/img_bungie_dark.png","assets/images/platforms/img_bungie_white.png","discord_app/src/main/res/drawable-mdpi/images_platforms_img_bungie_dark.png","discord_app/src/main/res/drawable-mdpi/images_platforms_img_bungie_white.png"]}
+{"id":"357758.js","paths":["../discord_common/js/shared/utils/SetUtils.tsx"]}
 {"id":"358717.js","paths":["assets/images/platforms/img_roblox_dark.png","assets/images/platforms/img_roblox_white.png","discord_app/src/main/res/drawable-mdpi/images_platforms_img_roblox_dark.png","discord_app/src/main/res/drawable-mdpi/images_platforms_img_roblox_white.png"]}
 {"id":"358717.js","paths":["assets/images/platforms/img_roblox_dark.png","assets/images/platforms/img_roblox_white.png","discord_app/src/main/res/drawable-mdpi/images_platforms_img_roblox_dark.png","discord_app/src/main/res/drawable-mdpi/images_platforms_img_roblox_white.png"]}
 {"id":"358776.js","paths":["discord_app/modules/user_settings/UserSettingsRedesignExperiment.tsx"]}
@@ -1518,6 +1519,7 @@
 {"id":"681154.js","paths":["../discord_common/js/shared/shared-constants/ContentInventoryEntryType.tsx"]}
 {"id":"682618.js","paths":["discord_app/modules/badges/BadgeDirectoryActionCreators.tsx"]}
 {"id":"682763.js","paths":["discord_app/actions/AnalyticsTrackingActionCreators.tsx"]}
+{"id":"683588.js","paths":["../discord_common/js/shared/utils/Future.tsx"]}
 {"id":"684013.js","paths":["discord_app/actions/AnalyticsTrackingActionCreators.tsx"]}
 {"id":"684407.js","paths":["discord_app/modules/welcome_screen/WelcomeScreenStore.tsx"]}
 {"id":"685374.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
@@ -2262,6 +2264,7 @@
 {"id":"969117.js","paths":["discord_app/modules/premium/game_server/experiments/GameServerTabAlwaysOnExperiment.tsx"]}
 {"id":"969508.js","paths":["discord_app/actions/SelectedChannelActionCreators.tsx"]}
 {"id":"969508.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
+{"id":"969878.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"970048.js","paths":["discord_app/actions/CertifiedDeviceActionCreators.tsx"]}
 {"id":"970048.js","paths":["discord_app/modules/errors/VideoStreamReadyActionCreators.tsx"]}
 {"id":"970163.js","paths":["../discord_common/js/shared/shared-constants/AudioSettingsDefaultVolumes.tsx"]}
