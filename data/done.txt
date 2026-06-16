@@ -183,6 +183,7 @@ app/modules/calls/VideoStabilizationExperiment.tsx
 app/modules/captcha/CaptchaStore.tsx
 app/modules/captcha/tooling/CaptchaTestActionCreators.tsx
 app/modules/changelog/ChangelogStore.tsx
+app/modules/channel_settings/SpoilerChannelExperiment.tsx
 app/modules/channel/ChannelInfoActionCreators.tsx
 app/modules/channel/ChannelMemberCountStore.tsx
 app/modules/channel/ChannelPinningExperiment.tsx
@@ -479,11 +480,9 @@ app/modules/impersonate/ImpersonateActionCreators.tsx
 app/modules/impersonate/ImpersonateStore.tsx
 app/modules/in_app_notifications/native/InAppNotificationExpandExperiment.tsx
 app/modules/in_app_notifications/native/InAppNotificationRedesignExperiment.tsx
-app/modules/in_app_notifications/ShowInAppReactionNotificationExperiment.tsx
 app/modules/in_app_reports/SafetyExperienceIarUserReportingExperiment.tsx
 app/modules/instant_invite/GuildInviteSendStateStore.tsx
 app/modules/instant_invite/InstantInviteSendStateStore.tsx
-app/modules/instant_invite/VoiceInviteSuggestionsPlacementExperiment.tsx
 app/modules/interaction_components/InteractionModalStore.tsx
 app/modules/interaction_components/LocalInteractionComponentStateStore.tsx
 app/modules/interactions/InteractionActionCreators.tsx
@@ -501,7 +500,6 @@ app/modules/lurker_mode/experiments/MobileLurkerServerPreviewExperiment.tsx
 app/modules/lurker_mode/LurkerActionCreators.tsx
 app/modules/lurker_mode/LurkingStore.tsx
 app/modules/main_tabs_v2/native/ConnectionIndicatorExperiment.tsx
-app/modules/main_tabs_v2/native/friends/screens/GDMSuggestedFriendsExperiment.tsx
 app/modules/main_tabs_v2/native/HideCoveredChannelsExperiment.tsx
 app/modules/main_tabs_v2/native/NavigationHistoryStore.tsx
 app/modules/main_tabs_v2/native/sidebar/details/stores/ChannelDetailsStore.tsx
@@ -530,6 +528,7 @@ app/modules/media_engine/MediaEngineActionCreators.tsx
 app/modules/media_engine/MediaEngineStatsStore.tsx
 app/modules/media_engine/MobileAudioOutputExperiment.tsx
 app/modules/media_engine/ProcessBoostExperiment.tsx
+app/modules/media_engine/ServerLadderExperiment.tsx
 app/modules/media_engine/SilenceWarningExperiment.tsx
 app/modules/media_engine/SystemwideEchoCancellationExperiment.tsx
 app/modules/media_engine/VADBeforeProcessingExperiment.tsx
@@ -600,7 +599,9 @@ app/modules/overlay/OverlayV3Experiment.tsx
 app/modules/panels/morphable/AppFreezeStore.tsx
 app/modules/panels/morphable/native/SafeAreaDisabledStore.tsx
 app/modules/parent_tools/FamilyCenterActionCreators.tsx
+app/modules/parent_tools/FamilyCenterConnectionPrereqExperiment.tsx
 app/modules/parent_tools/FamilyCenterControlledSettingsStore.tsx
+app/modules/parent_tools/FamilyCenterPendingConnectionStore.tsx
 app/modules/parent_tools/FamilyCenterStore.tsx
 app/modules/parent_tools/FamilyCenterV3Experiment.tsx
 app/modules/parent_tools/ParentalConsentStore.tsx
@@ -618,7 +619,6 @@ app/modules/polls/PollsInteractionStore.tsx
 app/modules/premium_apps/ApplicationSubscriptionsActionCreators.tsx
 app/modules/premium/experiments/AndroidTwoWeekTrialsExperiment.tsx
 app/modules/premium/experiments/BogoPromotionExperiment.tsx
-app/modules/premium/experiments/CalculatedYearlyDiscountPercentageExperiment.tsx
 app/modules/premium/experiments/DenormalizedPerksReadExperiment.tsx
 app/modules/premium/experiments/FriendAnniversariesExperiment.tsx
 app/modules/premium/experiments/MobileNitroManageSubscriptionsSettingsExperiment.tsx
@@ -649,6 +649,7 @@ app/modules/premium/powerups/experiments/FileUpload250MbPowerupExperiment.tsx
 app/modules/premium/powerups/experiments/FileUploadPowerupHoldoutExperiment.tsx
 app/modules/premium/powerups/experiments/MobileBoostProgressBarExperiment.tsx
 app/modules/premium/powerups/experiments/ServerBoostStreamQualityMarketingExperiment.tsx
+app/modules/premium/powerups/experiments/ServerThemeApexShadowExperiment.tsx
 app/modules/premium/powerups/experiments/ServerThemeExperiment.tsx
 app/modules/premium/powerups/experiments/ServerThemeUserExperiment.tsx
 app/modules/premium/powerups/GuildPowerupsActionCreators.tsx

@@ -1055,7 +1055,6 @@ app/design/void/Badge/native/Badge.tsx
 app/design/void/BadgeConstants/native/BadgeConstants.tsx
 app/design/void/Badges/native/Badges.tsx
 app/design/void/BetaTag/native/BetaTag.tsx
-app/design/void/BlockingGestureView/native/BlockingGestureView.tsx
 app/design/void/Button/native/Button.tsx
 app/design/void/CardSection/native/CardSection.tsx
 app/design/void/CarouselPagination/native/CarouselPagination.tsx
@@ -2232,10 +2231,12 @@ app/modules/collectibles/nameplates/useNameplateSections.tsx
 app/modules/collectibles/nameplates/utils.tsx
 app/modules/collectibles/native/AvatarDecorationProductPreview.tsx
 app/modules/collectibles/native/AvatarDecorationSampleV2.tsx
+app/modules/collectibles/native/BundleProductDetailsActionSheetPreview.tsx
 app/modules/collectibles/native/BundleSampleV2.tsx
 app/modules/collectibles/native/CollectiblesBadges.tsx
 app/modules/collectibles/native/CollectiblesCoachmarkScrollDismissContext.tsx
 app/modules/collectibles/native/CollectiblesEditUserProfileListItems.tsx
+app/modules/collectibles/native/CollectiblesItemMiniPreview.tsx
 app/modules/collectibles/native/CollectiblesMobileAnnouncementActionSheet.tsx
 app/modules/collectibles/native/CollectiblesPreviewConstants.tsx
 app/modules/collectibles/native/CollectiblesProgressiveImage.tsx
@@ -2276,6 +2277,7 @@ app/modules/collectibles/native/hooks/useMobileCollectiblesPurchaseSKU.android.t
 app/modules/collectibles/native/hooks/useScrollToInitialIndexOnce.tsx
 app/modules/collectibles/native/hooks/useTrackShopCardImpression.tsx
 app/modules/collectibles/native/hooks/useVirtualCurrencyData.tsx
+app/modules/collectibles/native/IndividualProductPreview.tsx
 app/modules/collectibles/native/InlinePriceTag.tsx
 app/modules/collectibles/native/LimitedTimeBadge.tsx
 app/modules/collectibles/native/MobileShopButtonCoachmark.tsx
@@ -5046,6 +5048,7 @@ app/modules/parent_tools/FamilyCenterModels.tsx
 app/modules/parent_tools/FamilyCenterRestrictedHoursUtils.tsx
 app/modules/parent_tools/FamilyCenterUtils.tsx
 app/modules/parent_tools/hooks/useAgeSpecificText.tsx
+app/modules/parent_tools/hooks/useConnectGuardianGate.tsx
 app/modules/parent_tools/hooks/useFamilyCenterActions.tsx
 app/modules/parent_tools/hooks/useFamilyCenterActivities.tsx
 app/modules/parent_tools/hooks/useFormattedEndTime.tsx
@@ -5089,6 +5092,7 @@ app/modules/parent_tools/native/FamilyCenterModalDecline.tsx
 app/modules/parent_tools/native/FamilyCenterModalDisconnect.tsx
 app/modules/parent_tools/native/FamilyCenterModalQRCode.tsx
 app/modules/parent_tools/native/FamilyCenterModalRequest.tsx
+app/modules/parent_tools/native/FamilyCenterModalRequestRouting.tsx
 app/modules/parent_tools/native/FamilyCenterNativeUtils.tsx
 app/modules/parent_tools/native/FamilyCenterParentalControlsContentAndSocial.tsx
 app/modules/parent_tools/native/FamilyCenterParentalControlsDataAndPrivacy.tsx
@@ -8311,7 +8315,6 @@ discord_common/js/packages/rtn-codegen/js/AccessibilityFocusNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/APNGDecorationNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/APNGStickerNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/AutoModerationSystemMessageViewNativeComponent.tsx
-discord_common/js/packages/rtn-codegen/js/BlockingGestureNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/ChatInputNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/ChatListNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/ChatNativeComponent.tsx
@@ -8411,7 +8414,6 @@ discord_common/js/packages/tokens/native.tsx
 discord_common/js/packages/tokens/radii/generated/generated-definitions.tsx
 discord_common/js/packages/tokens/shadows/generated/shared/generated-definitions.tsx
 discord_common/js/packages/tokens/shims.tsx
-discord_common/js/packages/tokens/spacing/generated/generated-definitions.tsx
 discord_common/js/packages/tokens/themes/generated/generated-definitions.tsx
 discord_common/js/packages/tokens/transforms.tsx
 discord_common/js/packages/tokens/typography/generated/TextVariants.tsx
@@ -8427,6 +8429,7 @@ discord_common/js/shared/shared-constants/DismissibleQuestContentFlags.tsx
 discord_common/js/shared/shared-constants/Quests.tsx
 discord_common/js/shared/shared-constants/WidgetType.tsx
 discord_common/js/shared/timeRequire.tsx
+discord_common/js/shared/utils/FunctionUtils.tsx
 discord_common/js/shared/utils/MathUtils.tsx
 discord_common/js/shared/utils/MutexUtils.tsx
 discord_common/js/shared/utils/profiling.tsx

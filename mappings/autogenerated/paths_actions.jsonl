@@ -25,7 +25,7 @@
 {"paths":["app/actions/CreateChannelActionCreators.tsx"],"find_with":[".dispatch(","CREATE_CHANNEL_MODAL_SUBMIT_FAILURE","CREATE_CHANNEL_MODAL_SUBMIT"]}
 {"paths":["app/actions/CreateInviteModalActionCreators.tsx"],"find_with":[".dispatch(","CREATE_INVITE_MODAL_GENERATE_INVITE_SUCCESS","CREATE_INVITE_MODAL_GENERATE_INVITE_FAILURE","CREATE_INVITE_MODAL_UPDATE_SETTINGS","CREATE_INVITE_MODAL_GENERATE_INVITE","CREATE_INVITE_MODAL_RESET_SETTINGS"]}
 {"paths":["app/actions/DefaultRouteActionCreators.tsx"],"find_with":[".dispatch(","SAVE_LAST_NON_VOICE_ROUTE","SAVE_LAST_ROUTE"]}
-{"paths":["app/actions/DeveloperOptionsActionCreators.tsx"],"find_with":[".dispatch(","DEVELOPER_OPTIONS_UPDATE_SETTINGS"]}
+{"paths":["app/actions/DeveloperOptionsActionCreators.tsx"],"find_with":[".dispatch(","DEVELOPER_OPTIONS_UPDATE_SETTINGS","DEVELOPER_OPTIONS_SET_ROUTING_KEY"]}
 {"paths":["app/actions/DimensionActionCreators.tsx"],"find_with":[".dispatch(","UPDATE_CHANNEL_LIST_DIMENSIONS","UPDATE_CHANNEL_LIST_DIMENSIONS","UPDATE_GUILD_LIST_DIMENSIONS","UPDATE_CHANNEL_DIMENSIONS"]}
 {"paths":["app/actions/DraftActionCreators.tsx"],"find_with":[".dispatch(","THREAD_SETTINGS_DRAFT_CHANGE","DRAFT_CHANGE","DRAFT_CLEAR","DRAFT_SAVE"]}
 {"paths":["app/actions/EmojiActionCreators.tsx"],"find_with":[".dispatch(","EMOJI_FETCH_SUCCESS","EMOJI_FETCH_FAILURE","EMOJI_UPLOAD_START","EMOJI_UPLOAD_STOP","EMOJI_UPLOAD_STOP"]}

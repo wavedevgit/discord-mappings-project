@@ -238,6 +238,7 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']AppFreezeStore[\"']"},"paths":["app/modules/panels/morphable/AppFreezeStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']SafeAreaDisabledStore[\"']"},"paths":["app/modules/panels/morphable/native/SafeAreaDisabledStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']FamilyCenterControlledSettingsStore[\"']"},"paths":["app/modules/parent_tools/FamilyCenterControlledSettingsStore.tsx"]}
+{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']FamilyCenterPendingConnectionStore[\"']"},"paths":["app/modules/parent_tools/FamilyCenterPendingConnectionStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']FamilyCenterStore[\"']"},"paths":["app/modules/parent_tools/FamilyCenterStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ParentalConsentStore[\"']"},"paths":["app/modules/parent_tools/ParentalConsentStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']PhoneStore[\"']"},"paths":["app/modules/phone/PhoneStore.tsx"]}

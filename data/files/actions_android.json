@@ -228,7 +228,8 @@
     {
         "path": "app/actions/DeveloperOptionsActionCreators.tsx",
         "flux_events": [
-            "DEVELOPER_OPTIONS_UPDATE_SETTINGS"
+            "DEVELOPER_OPTIONS_UPDATE_SETTINGS",
+            "DEVELOPER_OPTIONS_SET_ROUTING_KEY"
         ]
     },
     {

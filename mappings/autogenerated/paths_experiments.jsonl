@@ -19,6 +19,7 @@
 {"find_with":["user","2026-02-mobile-mute-indicator","variations"],"paths":["app/modules/calls/MobileMuteIndicatorExperiment.tsx"]}
 {"find_with":["user","2025-12-proportional-vad-indicator","variations"],"paths":["app/modules/calls/ProportionalVadIndicatorExperiment.tsx"]}
 {"find_with":["user","2026-05-ios-video-stabilization","variations"],"paths":["app/modules/calls/VideoStabilizationExperiment.tsx"]}
+{"find_with":["guild","2026-03_spoiler_channel","treatments"],"paths":["app/modules/channel_settings/SpoilerChannelExperiment.tsx"]}
 {"find_with":["user","2026-04-channel-pinning","variations"],"paths":["app/modules/channel/ChannelPinningExperiment.tsx"]}
 {"find_with":["guild","2026-03_voice_badge","treatments"],"paths":["app/modules/channel/VoiceChannelBadgeExperiment.tsx"]}
 {"find_with":["guild","2025-12_voice_channel_hoisting","treatments"],"paths":["app/modules/channel/VoiceChannelHoistingExperiment.tsx"]}
@@ -73,13 +74,10 @@
 {"find_with":["user","2025-12-mobile-lossless-image-upload-v2","variations"],"paths":["app/modules/image_upload/MobileLosslessImageUploadV2Experiment.tsx"]}
 {"find_with":["user","2026-05-in-app-notification-expand","variations"],"paths":["app/modules/in_app_notifications/native/InAppNotificationExpandExperiment.tsx"]}
 {"find_with":["user","2026-04-in-app-notification-redesign","variations"],"paths":["app/modules/in_app_notifications/native/InAppNotificationRedesignExperiment.tsx"]}
-{"find_with":["user","2026-03-show-in-app-reaction-notifications","variations"],"paths":["app/modules/in_app_notifications/ShowInAppReactionNotificationExperiment.tsx"]}
 {"find_with":["user","2023-09_iar_user_reporting","treatments"],"paths":["app/modules/in_app_reports/SafetyExperienceIarUserReportingExperiment.tsx"]}
-{"find_with":["guild","2026-04_voice_invite_suggestion_placement","treatments"],"paths":["app/modules/instant_invite/VoiceInviteSuggestionsPlacementExperiment.tsx"]}
 {"find_with":["user","2025-08-animated-keyboard-android","variations"],"paths":["app/modules/keyboard/native/AnimatedKeyboardExperiment.tsx"]}
 {"find_with":["user","2026-05-mobile-lurker-server-preview","variations"],"paths":["app/modules/lurker_mode/experiments/MobileLurkerServerPreviewExperiment.tsx"]}
 {"find_with":["user","2025-12-connection-indicator","variations"],"paths":["app/modules/main_tabs_v2/native/ConnectionIndicatorExperiment.tsx"]}
-{"find_with":["user","2026-04-mobile-gdm-suggested-friends","variations"],"paths":["app/modules/main_tabs_v2/native/friends/screens/GDMSuggestedFriendsExperiment.tsx"]}
 {"find_with":["user","2026-04-hide-covered-channels","variations"],"paths":["app/modules/main_tabs_v2/native/HideCoveredChannelsExperiment.tsx"]}
 {"find_with":["user","2026-04-create-dm-location","variations"],"paths":["app/modules/main_tabs_v2/native/tabs/messages/CreateDMLocationExperiment.tsx"]}
 {"find_with":["user","2026-05-mobile-referral-subscriber-profile-entrypoint-button","variations"],"paths":["app/modules/main_tabs_v2/native/tabs/you/MobileReferralSubscriberProfileEntrypointButtonExperiment.tsx"]}
@@ -100,6 +98,7 @@
 {"find_with":["user","2025-10-low-latency-rate-control","variations"],"paths":["app/modules/media_engine/LowLatencyRateControlExperiment.tsx"]}
 {"find_with":["user","2026-02-mobile-volume-output-slider-removal","variations"],"paths":["app/modules/media_engine/MobileAudioOutputExperiment.tsx"]}
 {"find_with":["user","2026-02-process-boost-on-voice","variations"],"paths":["app/modules/media_engine/ProcessBoostExperiment.tsx"]}
+{"find_with":["user","2026-06-server-ladder","variations"],"paths":["app/modules/media_engine/ServerLadderExperiment.tsx"]}
 {"find_with":["user","2026-02-silence-warning-aggression","variations"],"paths":["app/modules/media_engine/SilenceWarningExperiment.tsx"]}
 {"find_with":["user","2026-06-systemwide-echo-cancellation-for-people-who-refuse-to-wear-headphones","variations"],"paths":["app/modules/media_engine/SystemwideEchoCancellationExperiment.tsx"]}
 {"find_with":["user","2025-10-vad-before-processing","variations"],"paths":["app/modules/media_engine/VADBeforeProcessingExperiment.tsx"]}
@@ -135,11 +134,11 @@
 {"find_with":["user","2026-04-post-call-disconnect-nudge","variations"],"paths":["app/modules/nuf/native/PostCallDisconnectNudgeExperiment.tsx"]}
 {"find_with":["user","2026-04-post-reaction-push-banner","variations"],"paths":["app/modules/nuf/native/PostReactionPermissionNudgeExperiment.tsx"]}
 {"find_with":["user","2026-03-overlay-default-keybind","variations"],"paths":["app/modules/overlay/OverlayV3Experiment.tsx"]}
+{"find_with":["user","2026-06-family-center-connection-prereq","variations"],"paths":["app/modules/parent_tools/FamilyCenterConnectionPrereqExperiment.tsx"]}
 {"find_with":["user","2026-01-family-center-v3","variations"],"paths":["app/modules/parent_tools/FamilyCenterV3Experiment.tsx"]}
 {"find_with":["user","2026-03-friend-request-message","variations"],"paths":["app/modules/people/FriendRequestMessageExperiment.tsx"]}
 {"find_with":["user","2026-06-android-two-week-trials","variations"],"paths":["app/modules/premium/experiments/AndroidTwoWeekTrialsExperiment.tsx"]}
 {"find_with":["user","2026-03-bogo-promotion-gate-v2","variations"],"paths":["app/modules/premium/experiments/BogoPromotionExperiment.tsx"]}
-{"find_with":["user","2026-03-calculated-annual-discount-percent","variations"],"paths":["app/modules/premium/experiments/CalculatedYearlyDiscountPercentageExperiment.tsx"]}
 {"find_with":["user","2026-03-denormalized-perks-access-read","variations"],"paths":["app/modules/premium/experiments/DenormalizedPerksReadExperiment.tsx"]}
 {"find_with":["user","2025-10-friendship-anniversary-gifting","variations"],"paths":["app/modules/premium/experiments/FriendAnniversariesExperiment.tsx"]}
 {"find_with":["user","2026-06-macaron","variations"],"paths":["app/modules/premium/experiments/MobileNitroManageSubscriptionsSettingsExperiment.tsx"]}
@@ -161,6 +160,7 @@
 {"find_with":["user","2026-03-file-upload-powerup-holdout","variations"],"paths":["app/modules/premium/powerups/experiments/FileUploadPowerupHoldoutExperiment.tsx"]}
 {"find_with":["user","2026-04-mobile-boost-progress-bar","variations"],"paths":["app/modules/premium/powerups/experiments/MobileBoostProgressBarExperiment.tsx"]}
 {"find_with":["user","2026-04-server-boost-copy-1440p","variations"],"paths":["app/modules/premium/powerups/experiments/ServerBoostStreamQualityMarketingExperiment.tsx"]}
+{"find_with":["guild","2026-06-server-theme-apex-shadow","variations"],"paths":["app/modules/premium/powerups/experiments/ServerThemeApexShadowExperiment.tsx"]}
 {"find_with":["guild","2026-04_server_theme","treatments"],"paths":["app/modules/premium/powerups/experiments/ServerThemeExperiment.tsx"]}
 {"find_with":["user","2026-05-server-theme-user","variations"],"paths":["app/modules/premium/powerups/experiments/ServerThemeUserExperiment.tsx"]}
 {"find_with":["user","2026-03-soundmoji-rendering","variations"],"paths":["app/modules/premium/sounds/soundmoji/SoundmojiRenderingExperiment.tsx"]}
