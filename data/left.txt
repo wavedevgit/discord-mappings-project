@@ -2562,6 +2562,7 @@ app/modules/devtools/native/components/screens/DevToolsBuildOverrideScreen.tsx
 app/modules/devtools/native/components/screens/DevToolsComponentsTestingScreen.tsx
 app/modules/devtools/native/components/screens/DevToolsDataStorageScreen.tsx
 app/modules/devtools/native/components/screens/DevToolsDismissableContentsScreen.tsx
+app/modules/devtools/native/components/screens/DevToolsDisplayNameEffectsBenchmarkScreen.tsx
 app/modules/devtools/native/components/screens/DevToolsExperimentsScreen.tsx
 app/modules/devtools/native/components/screens/DevToolsGeneratedTestUsersScreen.tsx
 app/modules/devtools/native/components/screens/DevToolsGuildPowerupsModal.tsx
@@ -2569,12 +2570,22 @@ app/modules/devtools/native/components/screens/DevToolsGuildPowerupsScreen.tsx
 app/modules/devtools/native/components/screens/DevToolsLocalMessageCache.tsx
 app/modules/devtools/native/components/screens/DevToolsLoggingFlagsScreen.tsx
 app/modules/devtools/native/components/screens/DevToolsOTATestScreen.tsx
+app/modules/devtools/native/components/screens/DevToolsPerformanceTestingScreen.tsx
 app/modules/devtools/native/components/screens/DevToolsProfilingScreen.tsx
 app/modules/devtools/native/components/screens/DevToolsProfilingUseStateFromStores.tsx
 app/modules/devtools/native/components/screens/DevToolsQuickActionsScreen.tsx
 app/modules/devtools/native/components/screens/DevToolsRevenuePlaygroundScreen.tsx
 app/modules/devtools/native/components/screens/DevToolsShopScreen.tsx
 app/modules/devtools/native/components/screens/DevToolsTogglesScreen.tsx
+app/modules/devtools/native/components/screens/performance/BenchmarkResultsList.tsx
+app/modules/devtools/native/components/screens/performance/index.tsx
+app/modules/devtools/native/components/screens/performance/MountMeasure.tsx
+app/modules/devtools/native/components/screens/performance/ScrollBenchmark.tsx
+app/modules/devtools/native/components/screens/performance/startFrameMonitor.tsx
+app/modules/devtools/native/components/screens/performance/types.tsx
+app/modules/devtools/native/components/screens/performance/useBenchmarkResults.tsx
+app/modules/devtools/native/components/screens/performance/useFrameMonitor.tsx
+app/modules/devtools/native/components/screens/performance/useMountTimer.tsx
 app/modules/devtools/native/useSortedDevToolsScreens.tsx
 app/modules/dice_roll/DiceRollConstants.tsx
 app/modules/dice_roll/DiceRollLifecycleManager.tsx
@@ -2623,6 +2634,7 @@ app/modules/dismissible_content/utils/toggleDismissibleContentDismissState.tsx
 app/modules/dismissible_content/VersionedDismissibleContentUtils.tsx
 app/modules/display_name_styles/DisplayNameStylesConstants.tsx
 app/modules/display_name_styles/DisplayNameStylesContext.tsx
+app/modules/display_name_styles/DisplayNameStylesFontOrder.tsx
 app/modules/display_name_styles/DisplayNameStylesUtils.tsx
 app/modules/display_name_styles/getDisplayNameStylesFontName.tsx
 app/modules/display_name_styles/hooks/useDisplayNameStyles.tsx
@@ -3830,7 +3842,7 @@ app/modules/headless_tasks/android/DismissCallAction.tsx
 app/modules/headless_tasks/android/GenerateInvite.tsx
 app/modules/headless_tasks/android/MarkAsRead.tsx
 app/modules/headless_tasks/android/MuteAction.tsx
-app/modules/headless_tasks/android/SelectChannel.tsx
+app/modules/headless_tasks/android/SelectVoiceChannel.tsx
 app/modules/headless_tasks/android/ToggleDeafen.tsx
 app/modules/headless_tasks/android/ToggleSelfMute.tsx
 app/modules/headless_tasks/android/TTITestAction.tsx
@@ -4443,6 +4455,7 @@ app/modules/markup/MarkupTextRule.tsx
 app/modules/markup/MarkupTypes.tsx
 app/modules/markup/MarkupTypesDefaultRules.tsx
 app/modules/markup/MarkupUtils.tsx
+app/modules/markup/native/MarkupInlineChannelMentionRules.tsx
 app/modules/markup/native/MarkupMessagePreviewReactRules.tsx
 app/modules/markup/native/MarkupReactCommandRule.tsx
 app/modules/markup/native/MarkupReactGameMentionRule.tsx
@@ -4573,6 +4586,7 @@ app/modules/message_previews/RemoteFetchData.tsx
 app/modules/message_previews/useFormattedMessagePreview.tsx
 app/modules/message_previews/useLatestChannelMessage.tsx
 app/modules/message_request/hooks/useIsMessageRequest.tsx
+app/modules/message_request/hooks/useIsMessageRequestRestrictedViewer.tsx
 app/modules/message_request/hooks/useIsSpamMessageRequest.tsx
 app/modules/message_request/hooks/useIsStricterMessageRequests.tsx
 app/modules/message_request/hooks/useListHasSingleMessageRequest.tsx
@@ -4580,6 +4594,7 @@ app/modules/message_request/hooks/useMessageRequestActions.tsx
 app/modules/message_request/hooks/useMessageRequestPreview.tsx
 app/modules/message_request/hooks/useMessageRequestsCount.tsx
 app/modules/message_request/hooks/useMessageRequestTimestampText.tsx
+app/modules/message_request/hooks/useMutualGuilds.tsx
 app/modules/message_request/hooks/useRequireConfirmationOnAccept.tsx
 app/modules/message_request/hooks/useSortedMessageRequests.tsx
 app/modules/message_request/hooks/useSortedSpamMessageRequests.tsx
@@ -4592,8 +4607,10 @@ app/modules/message_request/MessageRequestUtils.tsx
 app/modules/message_request/native/hooks/useMessageRequestPrivacyOption.tsx
 app/modules/message_request/native/MessageRequestEmpty.tsx
 app/modules/message_request/native/MessageRequestList.tsx
+app/modules/message_request/native/MessageRequestMutualServers.tsx
 app/modules/message_request/native/MessageRequestPreview.tsx
 app/modules/message_request/native/MessageRequestRowSenderDetails.tsx
+app/modules/message_request/native/RestrictedMessageRequestRow.tsx
 app/modules/message_request/native/spam/SpamMessageHamActionSheet.tsx
 app/modules/message_request/native/spam/SpamMessageList.tsx
 app/modules/messages/ApplicationCommands.tsx
@@ -4864,6 +4881,7 @@ app/modules/navbars/native/components/AnnouncementChannelLurkerBar.tsx
 app/modules/navbars/native/components/ChannelNavbar.tsx
 app/modules/navbars/native/NavigationPathUtils.tsx
 app/modules/network/NetStats.android.tsx
+app/modules/network/networkAwareRetry.tsx
 app/modules/noise_cancellation/getEffectiveNoiseCancellation.tsx
 app/modules/noise_cancellation/KrispUtils.tsx
 app/modules/noise_cancellation/native/KrispUtils.tsx

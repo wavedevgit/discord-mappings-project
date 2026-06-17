@@ -43,6 +43,7 @@
 {"find_with":["user","2026-06-rive-app-state-playback","variations"],"paths":["app/modules/design/RiveAppStatePlaybackExperiment.tsx"]}
 {"find_with":["user","2025-12-rive-mobile-renderer","variations"],"paths":["app/modules/design/RiveMobileRendererExperiment.tsx"]}
 {"find_with":["user","2026-05-dice-roll-slash-command","variations"],"paths":["app/modules/dice_roll/DiceRollExperiment.tsx"]}
+{"find_with":["user","2026-06-gummy-bears","variations"],"paths":["app/modules/display_name_styles/DisplayNameStylesFlywheelExperiment.tsx"]}
 {"find_with":["user","2026-02-double-tap-expand","variations"],"paths":["app/modules/double_tap_to_react/native/DoubleTapExpandExperiment.tsx"]}
 {"find_with":["user","2025-10-emoji-search-ranking-tweaks","variations"],"paths":["app/modules/emojis/EmojiSearchRankingTweaksExperiment.tsx"]}
 {"find_with":["user","2026-03-debug-experiment","variations"],"paths":["app/modules/experiments/apex/DebugExperiment.tsx"]}
@@ -115,6 +116,7 @@
 {"find_with":["user","2026-01-image-optimized-encoding-ladder","variations"],"paths":["app/modules/media_uploads/experiments/MobileImageEncodingLadderExperiment.tsx"]}
 {"find_with":["user","2025-10-video-frame-rate-validation","variations"],"paths":["app/modules/media_uploads/experiments/VideoFrameRateValidationExperiment.tsx"]}
 {"find_with":["user","2025-12-shadow-node-spike","variations"],"paths":["app/modules/memory/MemoryExperiment.tsx"]}
+{"find_with":["user","2026-06-non-friend-messages-requests-in-uk","variations"],"paths":["app/modules/message_request/MessageRequestRestrictionExperiment.tsx"]}
 {"find_with":["user","2026-02-dm-error-message","variations"],"paths":["app/modules/messages/DmErrorMessageExperiment.tsx"]}
 {"find_with":["guild","2026-03_guild_official_messages","treatments"],"paths":["app/modules/messages/GuildOfficialMessagesExperiment.tsx"]}
 {"find_with":["guild","2026-05_voice_channel_list_invite_embed","treatments"],"paths":["app/modules/messages/VoiceChannelListInviteExperiment.tsx"]}

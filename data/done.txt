@@ -269,6 +269,7 @@ app/modules/dismissible_content/DCFEventStore.tsx
 app/modules/dismissible_content/DismissibleContentFrameworkActionCreators.tsx
 app/modules/dismissible_content/DismissibleContentFrameworkStore.tsx
 app/modules/dismissible_content/DismissibleContentShownStateStore.tsx
+app/modules/display_name_styles/DisplayNameStylesFlywheelExperiment.tsx
 app/modules/double_tap_to_react/native/DoubleTapChatInputBannerActionCreators.tsx
 app/modules/double_tap_to_react/native/DoubleTapChatInputBannerStore.tsx
 app/modules/double_tap_to_react/native/DoubleTapExpandExperiment.tsx
@@ -549,6 +550,7 @@ app/modules/memory/MemoryExperiment.tsx
 app/modules/message_previews/MessagePreviewStore.tsx
 app/modules/message_request/MessageRequestActionCreators.tsx
 app/modules/message_request/MessageRequestPreviewStore.tsx
+app/modules/message_request/MessageRequestRestrictionExperiment.tsx
 app/modules/message_request/MessageRequestStore.tsx
 app/modules/message_request/SpamMessageRequestStore.tsx
 app/modules/messages/DmErrorMessageExperiment.tsx
