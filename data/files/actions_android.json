@@ -2356,11 +2356,11 @@
     {
         "path": "app/modules/storefront/StorefrontActionCreators.tsx",
         "flux_events": [
+            "STOREFRONT_PROMOTION_ID_OVERRIDE_SET",
             "STOREFRONT_PROMOTIONS_FETCH_SUCCESS",
             "STOREFRONT_PROMOTIONS_FETCH_START",
             "STOREFRONT_PROMOTIONS_FETCH_FAIL",
-            "SKUS_PRICING_FETCH_SUCCESS",
-            "SKUS_PRICING_FETCH_START"
+            "SKUS_PRICING_FETCH_SUCCESS"
         ]
     },
     {

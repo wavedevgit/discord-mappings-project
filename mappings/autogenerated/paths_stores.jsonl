@@ -328,6 +328,7 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']StickersPersistedStore[\"']"},"paths":["app/modules/stickers/StickersPersistedStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']StickersStore[\"']"},"paths":["app/modules/stickers/StickersStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']SKUPricesStore[\"']"},"paths":["app/modules/storefront/SKUPricesStore.tsx"]}
+{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']StorefrontPromotionOverrideStore[\"']"},"paths":["app/modules/storefront/StorefrontPromotionOverrideStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']StorefrontPromotionStore[\"']"},"paths":["app/modules/storefront/StorefrontPromotionStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']SummaryStore[\"']"},"paths":["app/modules/summaries/SummaryStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ActiveJoinedThreadsStore[\"']"},"paths":["app/modules/threads/ActiveJoinedThreadsStore.tsx"]}

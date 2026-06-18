@@ -57,7 +57,7 @@
     },
     {
         "file": "app/actions/ChannelActionCreators.tsx",
-        "size": 74914
+        "size": 74915
     },
     {
         "file": "app/actions/ChannelCollapseActionCreators.tsx",
@@ -97,7 +97,7 @@
     },
     {
         "file": "app/actions/ContextMenuActionCreators.tsx",
-        "size": 7267
+        "size": 9396
     },
     {
         "file": "app/actions/CreateChannelActionCreators.tsx",
@@ -185,7 +185,7 @@
     },
     {
         "file": "app/actions/MessageActionCreators.tsx",
-        "size": 278079
+        "size": 277425
     },
     {
         "file": "app/actions/MFAActionCreators.tsx",
@@ -313,7 +313,7 @@
     },
     {
         "file": "app/actions/SKUActionCreators.tsx",
-        "size": 59212
+        "size": 60067
     },
     {
         "file": "app/actions/StoreListingActionCreators.tsx",
@@ -364,10 +364,6 @@
         "size": 10799
     },
     {
-        "file": "app/components_common/SoundPlayer.tsx",
-        "size": 53903
-    },
-    {
         "file": "app/components_native/add_friend/AddFriendModal.tsx",
         "size": 19532
     },
@@ -405,7 +401,7 @@
     },
     {
         "file": "app/components_native/calls/stream/StreamReportProblemActionSheet.tsx",
-        "size": 7975
+        "size": 7941
     },
     {
         "file": "app/components_native/calls/stream/VideoEmptyState.tsx",
@@ -477,11 +473,11 @@
     },
     {
         "file": "app/components_native/ChannelContainer.tsx",
-        "size": 11790
+        "size": 11807
     },
     {
         "file": "app/components_native/chat/ChatBeginningRow.tsx",
-        "size": 146343
+        "size": 146921
     },
     {
         "file": "app/components_native/chat/ChatItem.tsx",
@@ -545,7 +541,7 @@
     },
     {
         "file": "app/components_native/common/DescriptionEllipsis.tsx",
-        "size": 3393
+        "size": 3404
     },
     {
         "file": "app/components_native/common/FastImage.tsx",
@@ -557,7 +553,7 @@
     },
     {
         "file": "app/components_native/common/IconUploader.tsx",
-        "size": 10743
+        "size": 10955
     },
     {
         "file": "app/components_native/common/ImageWithPlaceholder.tsx",
@@ -589,7 +585,7 @@
     },
     {
         "file": "app/components_native/common/RolePill.tsx",
-        "size": 9343
+        "size": 9347
     },
     {
         "file": "app/components_native/common/SafeAreaView.tsx",
@@ -617,7 +613,7 @@
     },
     {
         "file": "app/components_native/common/TabBar.tsx",
-        "size": 16165
+        "size": 16639
     },
     {
         "file": "app/components_native/common/TouchableBackground.tsx",
@@ -637,11 +633,11 @@
     },
     {
         "file": "app/components_native/common/Video.tsx",
-        "size": 30000
+        "size": 30039
     },
     {
         "file": "app/components_native/common/ViewEmptyState.tsx",
-        "size": 5413
+        "size": 5419
     },
     {
         "file": "app/components_native/common/VoiceSensitivity.tsx",
@@ -649,23 +645,23 @@
     },
     {
         "file": "app/components_native/common/VolumeSlider.tsx",
-        "size": 8643
+        "size": 8647
     },
     {
         "file": "app/components_native/CreateChannelModal.tsx",
-        "size": 83765
+        "size": 83727
     },
     {
         "file": "app/components_native/DatePickerActionSheet.tsx",
-        "size": 32874
+        "size": 32886
     },
     {
         "file": "app/components_native/ErrorBoundary.tsx",
-        "size": 20529
+        "size": 20791
     },
     {
         "file": "app/components_native/InAppNotificationSettingsModal.tsx",
-        "size": 21175
+        "size": 21174
     },
     {
         "file": "app/components_native/invite/AdvancedInstantInvite.tsx",
@@ -701,15 +697,15 @@
     },
     {
         "file": "app/components_native/premium/GiftPurchaseButton.tsx",
-        "size": 11327
+        "size": 11337
     },
     {
         "file": "app/components_native/premium/GuildBoostingGuildList.tsx",
-        "size": 10554
+        "size": 10833
     },
     {
         "file": "app/components_native/premium/GuildBoostingUpsell.tsx",
-        "size": 24423
+        "size": 24434
     },
     {
         "file": "app/components_native/premium/OutboundPromotionCard.tsx",
@@ -721,7 +717,7 @@
     },
     {
         "file": "app/components_native/premium/premium_guild_subscribe_modal/PremiumGuildPreview.tsx",
-        "size": 9920
+        "size": 10107
     },
     {
         "file": "app/components_native/premium/premium_guild_subscribe_modal/PremiumGuildSubscribeConstants.tsx",
@@ -733,7 +729,7 @@
     },
     {
         "file": "app/components_native/premium/premium_guild_subscribe_modal/SubscribeModalConfirmation.tsx",
-        "size": 45208
+        "size": 45484
     },
     {
         "file": "app/components_native/premium/premium_guild_subscribe_modal/SubscribeModalGuildSelect.tsx",
@@ -741,11 +737,11 @@
     },
     {
         "file": "app/components_native/premium/premium_guild_subscribe_modal/SubscribeModalSuccessAlert.tsx",
-        "size": 14359
+        "size": 14488
     },
     {
         "file": "app/components_native/premium/premium_guild_subscribe_modal/useFetchGuildBoostSlots.tsx",
-        "size": 8082
+        "size": 8293
     },
     {
         "file": "app/components_native/premium/PremiumActivatedAlert.tsx",
@@ -757,7 +753,7 @@
     },
     {
         "file": "app/components_native/premium/PremiumFeatureList.tsx",
-        "size": 6246
+        "size": 6256
     },
     {
         "file": "app/components_native/premium/PremiumModal.tsx",
@@ -765,7 +761,7 @@
     },
     {
         "file": "app/components_native/premium/PremiumPerksList.tsx",
-        "size": 4624
+        "size": 4632
     },
     {
         "file": "app/components_native/premium/PremiumRestorationAlert.tsx",
@@ -777,11 +773,11 @@
     },
     {
         "file": "app/components_native/premium/PremiumSubscriptionPricingUpsell.tsx",
-        "size": 26365
+        "size": 26553
     },
     {
         "file": "app/components_native/premium/PremiumSubscriptionUpsell.tsx",
-        "size": 15039
+        "size": 15056
     },
     {
         "file": "app/components_native/premium/PremiumTierCard.tsx",
@@ -793,7 +789,7 @@
     },
     {
         "file": "app/components_native/premium/PremiumUpsellAlert.tsx",
-        "size": 58165
+        "size": 58453
     },
     {
         "file": "app/components_native/premium/ShineAnimation.tsx",
@@ -805,7 +801,7 @@
     },
     {
         "file": "app/components_native/QRScannerModal.tsx",
-        "size": 18521
+        "size": 18562
     },
     {
         "file": "app/components_native/reactions/BurstReactionFirstSendActionSheet.tsx",
@@ -813,11 +809,11 @@
     },
     {
         "file": "app/components_native/StreamPreview.tsx",
-        "size": 17657
+        "size": 17664
     },
     {
         "file": "app/components_native/TouchableStreamPreview.tsx",
-        "size": 17506
+        "size": 17658
     },
     {
         "file": "app/components_native/useChannelStylesShared.tsx",
@@ -829,7 +825,7 @@
     },
     {
         "file": "app/components_native/warnings/GuildNSFW.tsx",
-        "size": 8707
+        "size": 8718
     },
     {
         "file": "app/components_native/warnings/Suppressed.tsx",
@@ -4469,7 +4465,7 @@
     },
     {
         "file": "app/design/components/TextInput/native/TextInput.native.tsx",
-        "size": 4121
+        "size": 4542
     },
     {
         "file": "app/design/components/ThemeContextProvider/native/getGradientThemeFromFlags.tsx",
@@ -4889,7 +4885,7 @@
     },
     {
         "file": "app/errors/BillingError.tsx",
-        "size": 32139
+        "size": 32269
     },
     {
         "file": "app/errors/ClientOutdatedAcceptGiftError.tsx",
@@ -6333,7 +6329,7 @@
     },
     {
         "file": "app/modules/activity_status/useUserVoiceActivity.tsx",
-        "size": 5883
+        "size": 8510
     },
     {
         "file": "app/modules/ads/AdPersonalizationStore.tsx",
@@ -6369,7 +6365,7 @@
     },
     {
         "file": "app/modules/ads/QuestHomeHeroTypes.tsx",
-        "size": 4335
+        "size": 4421
     },
     {
         "file": "app/modules/ads/utils/AdDataUtils.android.tsx",
@@ -7585,7 +7581,7 @@
     },
     {
         "file": "app/modules/application_commands/native/ApplicationCommandBar.tsx",
-        "size": 39685
+        "size": 39476
     },
     {
         "file": "app/modules/application_commands/native/ApplicationCommandBuiltIns.tsx",
@@ -7697,7 +7693,7 @@
     },
     {
         "file": "app/modules/applications/ApplicationStore.tsx",
-        "size": 54521
+        "size": 55862
     },
     {
         "file": "app/modules/applications/disclosures.tsx",
@@ -8105,7 +8101,7 @@
     },
     {
         "file": "app/modules/autocompleter/native/AutocompleteWrapper.tsx",
-        "size": 103713
+        "size": 106096
     },
     {
         "file": "app/modules/autocompleter/native/useAutocompleteAnimatedHeightStyles.tsx",
@@ -8337,7 +8333,7 @@
     },
     {
         "file": "app/modules/blocking/useDiscoverableApplicationStream.tsx",
-        "size": 3543
+        "size": 4397
     },
     {
         "file": "app/modules/bug_reporter/BugReporterExperiment.tsx",
@@ -8848,6 +8844,10 @@
         "size": 15658
     },
     {
+        "file": "app/modules/channel/ChannelVisibilityUtils.tsx",
+        "size": 1697
+    },
+    {
         "file": "app/modules/channel/FakePlaceholderPrivateChannel.tsx",
         "size": 1106
     },
@@ -9057,7 +9057,7 @@
     },
     {
         "file": "app/modules/chat_input/native/ChatInputContextBar.tsx",
-        "size": 62170
+        "size": 62728
     },
     {
         "file": "app/modules/chat_input/native/ChatInputNativeCommands.tsx",
@@ -9109,7 +9109,7 @@
     },
     {
         "file": "app/modules/chat_input/native/guard/ChatInputGuardMessageRequest.tsx",
-        "size": 12153
+        "size": 12975
     },
     {
         "file": "app/modules/chat_input/native/guard/ChatInputGuardQuarantineDM.tsx",
@@ -9161,7 +9161,7 @@
     },
     {
         "file": "app/modules/chat/native/ChatLoadingIndicator.tsx",
-        "size": 24467
+        "size": 24985
     },
     {
         "file": "app/modules/chat/native/ChatLoadingIndicatorExperiment.tsx",
@@ -9481,7 +9481,7 @@
     },
     {
         "file": "app/modules/clips/ClipsStore.tsx",
-        "size": 78497
+        "size": 79424
     },
     {
         "file": "app/modules/clips/ClipsTimelineExperiment.tsx",
@@ -9489,7 +9489,7 @@
     },
     {
         "file": "app/modules/clips/ClipsTypes.tsx",
-        "size": 2769
+        "size": 2909
     },
     {
         "file": "app/modules/clips/ClipsV3RuntimeExperiment.tsx",
@@ -9577,7 +9577,7 @@
     },
     {
         "file": "app/modules/collectibles/CollectiblesCategoryStore.tsx",
-        "size": 36179
+        "size": 36950
     },
     {
         "file": "app/modules/collectibles/CollectiblesDebugStore.tsx",
@@ -9597,7 +9597,7 @@
     },
     {
         "file": "app/modules/collectibles/CollectiblesShopConstants.tsx",
-        "size": 19431
+        "size": 19578
     },
     {
         "file": "app/modules/collectibles/CollectiblesShopHomeStore.tsx",
@@ -9697,7 +9697,7 @@
     },
     {
         "file": "app/modules/collectibles/hooks/useHasExpiredShopBlocks.tsx",
-        "size": 6638
+        "size": 6561
     },
     {
         "file": "app/modules/collectibles/hooks/useIsVariantColorLight.tsx",
@@ -9713,11 +9713,11 @@
     },
     {
         "file": "app/modules/collectibles/hooks/useMaybeFetchCollectiblesCategoriesShared.tsx",
-        "size": 8822
+        "size": 9037
     },
     {
         "file": "app/modules/collectibles/hooks/useMaybeFetchShopHome.tsx",
-        "size": 13336
+        "size": 13556
     },
     {
         "file": "app/modules/collectibles/hooks/usePreviewCollectbilesProduct.tsx",
@@ -9833,7 +9833,7 @@
     },
     {
         "file": "app/modules/collectibles/native/AvatarDecorationSampleV2.tsx",
-        "size": 5425
+        "size": 5592
     },
     {
         "file": "app/modules/collectibles/native/BundleProductDetailsActionSheetPreview.tsx",
@@ -9925,7 +9925,7 @@
     },
     {
         "file": "app/modules/collectibles/native/CollectiblesShopV2.tsx",
-        "size": 54622
+        "size": 54574
     },
     {
         "file": "app/modules/collectibles/native/CollectiblesShopViewAllCategoryItems.tsx",
@@ -10405,7 +10405,7 @@
     },
     {
         "file": "app/modules/collectibles/records/SocialLayerStorefrontPromotionalBannerBlockRecord.tsx",
-        "size": 2886
+        "size": 3026
     },
     {
         "file": "app/modules/collectibles/records/UnknownCollectiblesItemRecord.tsx",
@@ -10505,7 +10505,7 @@
     },
     {
         "file": "app/modules/connections/ConnectionsUtils.tsx",
-        "size": 50351
+        "size": 50357
     },
     {
         "file": "app/modules/connections/Constants.tsx",
@@ -11701,7 +11701,7 @@
     },
     {
         "file": "app/modules/display_name_styles/native/DisplayNameStylesEffectPickerSheet.tsx",
-        "size": 14148
+        "size": 15403
     },
     {
         "file": "app/modules/display_name_styles/native/DisplayNameStylesFontPickerSheet.tsx",
@@ -15913,7 +15913,7 @@
     },
     {
         "file": "app/modules/guild_scheduled_events/GuildScheduledEventsActionCreators.tsx",
-        "size": 41986
+        "size": 42010
     },
     {
         "file": "app/modules/guild_scheduled_events/GuildScheduledEventsConstants.tsx",
@@ -16848,6 +16848,10 @@
         "size": 8414
     },
     {
+        "file": "app/modules/guild_themes/native/GuildThemeGuildIdOverrideContext.tsx",
+        "size": 826
+    },
+    {
         "file": "app/modules/guild_themes/native/GuildThemeNuxActionSheet.tsx",
         "size": 23626
     },
@@ -16869,7 +16873,7 @@
     },
     {
         "file": "app/modules/guild_themes/native/useRoutedActiveGuildTheme.tsx",
-        "size": 7697
+        "size": 8594
     },
     {
         "file": "app/modules/guild_themes/useGuildThemeNuxTrigger.tsx",
@@ -17769,7 +17773,7 @@
     },
     {
         "file": "app/modules/in_app_notifications/native/ConfirmationToast.tsx",
-        "size": 7546
+        "size": 10360
     },
     {
         "file": "app/modules/in_app_notifications/native/ForumThreadCreatedNotification.tsx",
@@ -17789,7 +17793,7 @@
     },
     {
         "file": "app/modules/in_app_notifications/native/InAppNotificationContainer.tsx",
-        "size": 118107
+        "size": 115729
     },
     {
         "file": "app/modules/in_app_notifications/native/InAppNotificationExpandExperiment.tsx",
@@ -17813,7 +17817,7 @@
     },
     {
         "file": "app/modules/in_app_notifications/native/MessageNotification.tsx",
-        "size": 51545
+        "size": 55243
     },
     {
         "file": "app/modules/in_app_notifications/native/MessageNotificationHeader.tsx",
@@ -17821,19 +17825,19 @@
     },
     {
         "file": "app/modules/in_app_notifications/native/MessageNotificationReactBar.tsx",
-        "size": 9774
+        "size": 9884
     },
     {
         "file": "app/modules/in_app_notifications/native/MessagePreviewText.tsx",
-        "size": 30774
+        "size": 31179
     },
     {
         "file": "app/modules/in_app_notifications/native/MessageReplyInput.tsx",
-        "size": 31642
+        "size": 33644
     },
     {
         "file": "app/modules/in_app_notifications/native/Notification.tsx",
-        "size": 43349
+        "size": 43348
     },
     {
         "file": "app/modules/in_app_notifications/native/ReactionNotification.tsx",
@@ -18253,7 +18257,7 @@
     },
     {
         "file": "app/modules/interaction_components/native/display/TextDisplayComponent.tsx",
-        "size": 10671
+        "size": 7949
     },
     {
         "file": "app/modules/interaction_components/native/InteractionIframeConstants.tsx",
@@ -19045,7 +19049,7 @@
     },
     {
         "file": "app/modules/main_tabs_v2/native/message_requests/screens/MessageRequestsPreviewScreen.tsx",
-        "size": 3214
+        "size": 4238
     },
     {
         "file": "app/modules/main_tabs_v2/native/message_requests/screens/MessageRequestsScreenWithTabs.tsx",
@@ -19137,7 +19141,7 @@
     },
     {
         "file": "app/modules/main_tabs_v2/native/shared_components/ChannelRowPreview.tsx",
-        "size": 22011
+        "size": 23249
     },
     {
         "file": "app/modules/main_tabs_v2/native/shared_components/GroupAvatar.tsx",
@@ -19689,7 +19693,7 @@
     },
     {
         "file": "app/modules/main_tabs_v2/native/tabs/you/YouConstants.tsx",
-        "size": 2000
+        "size": 1822
     },
     {
         "file": "app/modules/main_tabs_v2/native/tabs/you/YouExpiringTrialOfferCard.tsx",
@@ -19705,7 +19709,7 @@
     },
     {
         "file": "app/modules/main_tabs_v2/native/tabs/you/YouScreen.tsx",
-        "size": 84898
+        "size": 70285
     },
     {
         "file": "app/modules/main_tabs_v2/native/tabs/you/YouScreenNavIcon.tsx",
@@ -20653,7 +20657,7 @@
     },
     {
         "file": "app/modules/message_request/native/MessageRequestMutualServers.tsx",
-        "size": 6087
+        "size": 7125
     },
     {
         "file": "app/modules/message_request/native/MessageRequestPreview.tsx",
@@ -20662,6 +20666,22 @@
     {
         "file": "app/modules/message_request/native/MessageRequestRowSenderDetails.tsx",
         "size": 12461
+    },
+    {
+        "file": "app/modules/message_request/native/RestrictedMessagePreviewActions.tsx",
+        "size": 9695
+    },
+    {
+        "file": "app/modules/message_request/native/RestrictedMessagePreviewHeader.tsx",
+        "size": 13345
+    },
+    {
+        "file": "app/modules/message_request/native/RestrictedMessagePreviewList.tsx",
+        "size": 18793
+    },
+    {
+        "file": "app/modules/message_request/native/RestrictedMessageRequestPreview.tsx",
+        "size": 13009
     },
     {
         "file": "app/modules/message_request/native/RestrictedMessageRequestRow.tsx",
@@ -20718,10 +20738,6 @@
     {
         "file": "app/modules/messages/CtaButtonUtils.tsx",
         "size": 3331
-    },
-    {
-        "file": "app/modules/messages/DmErrorMessageExperiment.tsx",
-        "size": 1059
     },
     {
         "file": "app/modules/messages/EmbedConstants.tsx",
@@ -21025,7 +21041,7 @@
     },
     {
         "file": "app/modules/messages/native/renderer/createMessageContent.tsx",
-        "size": 94014
+        "size": 94831
     },
     {
         "file": "app/modules/messages/native/renderer/createMessageFailedEmbed.tsx",
@@ -21052,8 +21068,12 @@
         "size": 7042
     },
     {
+        "file": "app/modules/messages/native/renderer/redactRestrictedContent.tsx",
+        "size": 4894
+    },
+    {
         "file": "app/modules/messages/native/renderer/RenderMessageOptionsContext.tsx",
-        "size": 1729
+        "size": 1757
     },
     {
         "file": "app/modules/messages/native/renderer/resolveMessageContentColors.tsx",
@@ -21713,7 +21733,7 @@
     },
     {
         "file": "app/modules/multi_account/native/MultiAccountManagerNative.tsx",
-        "size": 14741
+        "size": 14743
     },
     {
         "file": "app/modules/multi_account/native/openManageAccountsModal.tsx",
@@ -22101,7 +22121,7 @@
     },
     {
         "file": "app/modules/notifications/NotificationTextUtils.tsx",
-        "size": 66158
+        "size": 65521
     },
     {
         "file": "app/modules/notifications/NotificationUtils.tsx",
@@ -22829,7 +22849,7 @@
     },
     {
         "file": "app/modules/parent_tools/native/FamilyCenterDataConfirmation.tsx",
-        "size": 17380
+        "size": 21123
     },
     {
         "file": "app/modules/parent_tools/native/FamilyCenterEmpty.tsx",
@@ -22877,11 +22897,11 @@
     },
     {
         "file": "app/modules/parent_tools/native/FamilyCenterModalRequest.tsx",
-        "size": 70075
+        "size": 83108
     },
     {
         "file": "app/modules/parent_tools/native/FamilyCenterModalRequestRouting.tsx",
-        "size": 5614
+        "size": 5752
     },
     {
         "file": "app/modules/parent_tools/native/FamilyCenterNativeUtils.tsx",
@@ -23348,10 +23368,6 @@
         "size": 1527
     },
     {
-        "file": "app/modules/premium/experiments/TrialContinuationDiscountExperiment.tsx",
-        "size": 1356
-    },
-    {
         "file": "app/modules/premium/fractional/native/BoostingCountDownPill.tsx",
         "size": 7315
     },
@@ -23362,6 +23378,10 @@
     {
         "file": "app/modules/premium/fractional/native/NitroCreditEducationActionSheet.tsx",
         "size": 5143
+    },
+    {
+        "file": "app/modules/premium/FriendAnniversaryNotificationUtils.tsx",
+        "size": 1975
     },
     {
         "file": "app/modules/premium/game_server/experiments/GameServerPricingExperiment.tsx",
@@ -23482,6 +23502,10 @@
     {
         "file": "app/modules/premium/gifting/native/hooks/useShouldShowGiftingPromotionDeco.tsx",
         "size": 2106
+    },
+    {
+        "file": "app/modules/premium/gifting/native/MobileFriendAnniversaryExperiment.tsx",
+        "size": 1095
     },
     {
         "file": "app/modules/premium/gifting/native/openGiftingBadgeInfoActionSheet.tsx",
@@ -23805,11 +23829,11 @@
     },
     {
         "file": "app/modules/premium/native/PremiumPerkCard.tsx",
-        "size": 33621
+        "size": 34463
     },
     {
         "file": "app/modules/premium/native/PremiumPerkCarousel.tsx",
-        "size": 7677
+        "size": 7782
     },
     {
         "file": "app/modules/premium/native/PremiumPlanActionSheetHeader.tsx",
@@ -24421,7 +24445,7 @@
     },
     {
         "file": "app/modules/premium/PremiumSubscriptionOfferUtil.tsx",
-        "size": 22930
+        "size": 23450
     },
     {
         "file": "app/modules/premium/PremiumSubscriptionTrialUtil.tsx",
@@ -24917,7 +24941,7 @@
     },
     {
         "file": "app/modules/quests/experiments/index.tsx",
-        "size": 18573
+        "size": 19966
     },
     {
         "file": "app/modules/quests/experiments/LessPersonalizedAdsExperiment.tsx",
@@ -24961,7 +24985,7 @@
     },
     {
         "file": "app/modules/quests/lib/analytics/AnalyticsHooks.tsx",
-        "size": 29340
+        "size": 29672
     },
     {
         "file": "app/modules/quests/lib/analytics/AnalyticsTypes.tsx",
@@ -25017,7 +25041,7 @@
     },
     {
         "file": "app/modules/quests/native/AdVideoPlayer.tsx",
-        "size": 86214
+        "size": 87230
     },
     {
         "file": "app/modules/quests/native/AppStoreOverlayTelemetryManager.tsx",
@@ -25033,7 +25057,7 @@
     },
     {
         "file": "app/modules/quests/native/BountiesCtaHeader.tsx",
-        "size": 21793
+        "size": 23689
     },
     {
         "file": "app/modules/quests/native/BountiesModal/BountiesModal.tsx",
@@ -25057,7 +25081,7 @@
     },
     {
         "file": "app/modules/quests/native/BountiesModal/BountiesModalContent.tsx",
-        "size": 35537
+        "size": 35873
     },
     {
         "file": "app/modules/quests/native/BountiesModal/BountiesModalContentScroll.tsx",
@@ -25117,7 +25141,7 @@
     },
     {
         "file": "app/modules/quests/native/BountiesModal/useBountiesModalTiming.tsx",
-        "size": 15454
+        "size": 15342
     },
     {
         "file": "app/modules/quests/native/BountiesModal/useBountiesModalVideoAnalytics.tsx",
@@ -25169,15 +25193,15 @@
     },
     {
         "file": "app/modules/quests/native/QuestBottomSheet/QuestBottomSheet.tsx",
-        "size": 55441
+        "size": 58024
     },
     {
         "file": "app/modules/quests/native/QuestBottomSheet/QuestBottomSheetConsoleConnect.tsx",
-        "size": 14966
+        "size": 19832
     },
     {
         "file": "app/modules/quests/native/QuestBottomSheet/QuestBottomSheetFooter.tsx",
-        "size": 41469
+        "size": 46503
     },
     {
         "file": "app/modules/quests/native/QuestBottomSheet/QuestBottomSheetHeader.tsx",
@@ -25185,7 +25209,7 @@
     },
     {
         "file": "app/modules/quests/native/QuestBottomSheet/QuestBottomSheetHooks.tsx",
-        "size": 10834
+        "size": 16775
     },
     {
         "file": "app/modules/quests/native/QuestBottomSheet/QuestBottomSheetProgressCard.tsx",
@@ -25197,7 +25221,7 @@
     },
     {
         "file": "app/modules/quests/native/QuestCard.tsx",
-        "size": 96386
+        "size": 98614
     },
     {
         "file": "app/modules/quests/native/QuestContentImpressionTracker.native.tsx",
@@ -25205,7 +25229,7 @@
     },
     {
         "file": "app/modules/quests/native/QuestContextMenu.tsx",
-        "size": 30634
+        "size": 33327
     },
     {
         "file": "app/modules/quests/native/QuestDisclosureModal/QuestDisclosureModal.tsx",
@@ -25213,7 +25237,7 @@
     },
     {
         "file": "app/modules/quests/native/QuestDisclosureModal/QuestDisclosureModalActionCreators.tsx",
-        "size": 3570
+        "size": 5341
     },
     {
         "file": "app/modules/quests/native/QuestDisclosureModal/QuestDisclosureModalInner.tsx",
@@ -25249,7 +25273,7 @@
     },
     {
         "file": "app/modules/quests/native/QuestDock/QuestDockContextMenuActionSheet.tsx",
-        "size": 35724
+        "size": 41296
     },
     {
         "file": "app/modules/quests/native/QuestDock/QuestDockDragHandle.tsx",
@@ -25277,7 +25301,7 @@
     },
     {
         "file": "app/modules/quests/native/QuestDock/QuestDockHooks.tsx",
-        "size": 29359
+        "size": 32359
     },
     {
         "file": "app/modules/quests/native/QuestDock/QuestDockStore.tsx",
@@ -25325,7 +25349,7 @@
     },
     {
         "file": "app/modules/quests/native/QuestHome.tsx",
-        "size": 64194
+        "size": 63248
     },
     {
         "file": "app/modules/quests/native/QuestHomeBounties.tsx",
@@ -25449,7 +25473,7 @@
     },
     {
         "file": "app/modules/quests/native/VideoQuestModal/VideoQuestModalContentInProgress.tsx",
-        "size": 76128
+        "size": 78631
     },
     {
         "file": "app/modules/quests/native/VideoQuestModal/VideoQuestModalContext.tsx",
@@ -25569,7 +25593,7 @@
     },
     {
         "file": "app/modules/quests/utils/QuestPlatformUtils.tsx",
-        "size": 36192
+        "size": 44119
     },
     {
         "file": "app/modules/quests/utils/QuestRewardUtils.tsx",
@@ -27928,6 +27952,10 @@
         "size": 7443
     },
     {
+        "file": "app/modules/soundplayer/SoundPlayer.tsx",
+        "size": 53905
+    },
+    {
         "file": "app/modules/soundplayer/SoundPlayerContext.tsx",
         "size": 905
     },
@@ -27973,7 +28001,7 @@
     },
     {
         "file": "app/modules/spotify/SpotifyStore.tsx",
-        "size": 113023
+        "size": 113027
     },
     {
         "file": "app/modules/spotify/SpotifyUtils.tsx",
@@ -28109,7 +28137,7 @@
     },
     {
         "file": "app/modules/stage_channels/native/components/StageChannelCallNavigator.tsx",
-        "size": 28089
+        "size": 27436
     },
     {
         "file": "app/modules/stage_channels/native/components/StageChannelCallView.tsx",
@@ -28561,15 +28589,19 @@
     },
     {
         "file": "app/modules/storefront/SKUPricesStore.tsx",
-        "size": 15691
+        "size": 15752
     },
     {
         "file": "app/modules/storefront/StorefrontActionCreators.tsx",
-        "size": 18969
+        "size": 21030
+    },
+    {
+        "file": "app/modules/storefront/StorefrontPromotionOverrideStore.tsx",
+        "size": 5250
     },
     {
         "file": "app/modules/storefront/StorefrontPromotionStore.tsx",
-        "size": 18536
+        "size": 18593
     },
     {
         "file": "app/modules/storefront/StorefrontTypes.tsx",
@@ -29017,7 +29049,7 @@
     },
     {
         "file": "app/modules/upsell_tooltip/native/PremiumUpsellTooltipActionSheet.tsx",
-        "size": 11955
+        "size": 11977
     },
     {
         "file": "app/modules/upsell_tooltip/native/useMainViewTooltipActionSheetEligibilityMap.tsx",
@@ -29205,7 +29237,7 @@
     },
     {
         "file": "app/modules/user_profile/hooks/useUserProfileActivity.tsx",
-        "size": 12951
+        "size": 10237
     },
     {
         "file": "app/modules/user_profile/hooks/useUserProfileApplicationRoleConnections.tsx",
@@ -29221,7 +29253,7 @@
     },
     {
         "file": "app/modules/user_profile/hooks/useUserProfileVoiceActivity.tsx",
-        "size": 4943
+        "size": 5252
     },
     {
         "file": "app/modules/user_profile/hooks/useVisibleUserProfileConnectionsAndAppIdentities.tsx",
@@ -29233,7 +29265,7 @@
     },
     {
         "file": "app/modules/user_profile/native/ActionSheetBackdropToast.tsx",
-        "size": 11530
+        "size": 11593
     },
     {
         "file": "app/modules/user_profile/native/AddFriendNicknameModal.tsx",
@@ -29249,7 +29281,7 @@
     },
     {
         "file": "app/modules/user_profile/native/BotUserProfileContent.tsx",
-        "size": 24690
+        "size": 25581
     },
     {
         "file": "app/modules/user_profile/native/BotUserProfileOverflowMenu.tsx",
@@ -29317,7 +29349,7 @@
     },
     {
         "file": "app/modules/user_profile/native/NonUserBotProfileContent.tsx",
-        "size": 11226
+        "size": 12050
     },
     {
         "file": "app/modules/user_profile/native/openUserContextMenuCommands.tsx",
@@ -29349,7 +29381,7 @@
     },
     {
         "file": "app/modules/user_profile/native/UserProfileActionSheet.tsx",
-        "size": 62200
+        "size": 69893
     },
     {
         "file": "app/modules/user_profile/native/UserProfileActivity.tsx",
@@ -29433,7 +29465,7 @@
     },
     {
         "file": "app/modules/user_profile/native/UserProfileContent.tsx",
-        "size": 88520
+        "size": 89700
     },
     {
         "file": "app/modules/user_profile/native/UserProfileCustomStatusActionSheet.tsx",
@@ -29548,6 +29580,10 @@
         "size": 65114
     },
     {
+        "file": "app/modules/user_profile/native/UserProfileOverscrollBanner.tsx",
+        "size": 4144
+    },
+    {
         "file": "app/modules/user_profile/native/UserProfilePremiumUpsellCard.tsx",
         "size": 8935
     },
@@ -29632,12 +29668,16 @@
         "size": 5625
     },
     {
+        "file": "app/modules/user_profile/native/useUserProfileOverscrollStyles.tsx",
+        "size": 16549
+    },
+    {
         "file": "app/modules/user_profile/native/WishlistViewerCoachmark.tsx",
         "size": 5906
     },
     {
         "file": "app/modules/user_profile/native/YouScreenUserProfileContent.tsx",
-        "size": 49719
+        "size": 49986
     },
     {
         "file": "app/modules/user_profile/notes/NoteStore.tsx",
@@ -29766,6 +29806,10 @@
     {
         "file": "app/modules/user_profile/utils/trackUserAvatarUpdated.tsx",
         "size": 3187
+    },
+    {
+        "file": "app/modules/user_profile/utils/UserProfileStackedActivityCardUtils.tsx",
+        "size": 11222
     },
     {
         "file": "app/modules/user_profile/WidgetActionCreators.tsx",
@@ -30293,7 +30337,7 @@
     },
     {
         "file": "app/modules/user_settings/core/native/SettingsConstants.tsx",
-        "size": 20587
+        "size": 20687
     },
     {
         "file": "app/modules/user_settings/core/native/SettingsNavigator.tsx",
@@ -30301,7 +30345,7 @@
     },
     {
         "file": "app/modules/user_settings/core/native/SettingsRendererConfig.tsx",
-        "size": 34083
+        "size": 34229
     },
     {
         "file": "app/modules/user_settings/core/native/useAutoSettingsSearchSessionAnalytics.tsx",
@@ -30818,6 +30862,10 @@
     {
         "file": "app/modules/user_settings/defs/native/FamilyCenterSettingParentalControlsSetting.tsx",
         "size": 2238
+    },
+    {
+        "file": "app/modules/user_settings/defs/native/FriendAnniversaryNotificationSetting.tsx",
+        "size": 2896
     },
     {
         "file": "app/modules/user_settings/defs/native/FriendGamingActivityNotificationSetting.tsx",
@@ -31469,7 +31517,7 @@
     },
     {
         "file": "app/modules/user_settings/notifications/native/SettingsNotificationScreen.tsx",
-        "size": 19639
+        "size": 19883
     },
     {
         "file": "app/modules/user_settings/notifications/native/SettingsNotificationUtils.tsx",
@@ -31561,7 +31609,7 @@
     },
     {
         "file": "app/modules/user_settings/premium/native/PremiumNitroHome.tsx",
-        "size": 62535
+        "size": 62553
     },
     {
         "file": "app/modules/user_settings/premium/native/PremiumNitroNavigationStore.tsx",
@@ -32109,7 +32157,7 @@
     },
     {
         "file": "app/modules/video_calls/native/components/ChannelCallNavigator.tsx",
-        "size": 28809
+        "size": 29565
     },
     {
         "file": "app/modules/video_calls/native/components/ChannelCallNavigatorIcon.tsx",
@@ -32125,7 +32173,7 @@
     },
     {
         "file": "app/modules/video_calls/native/components/ChannelVoiceChatModal.tsx",
-        "size": 4311
+        "size": 5215
     },
     {
         "file": "app/modules/video_calls/native/components/Constants.tsx",
@@ -32153,7 +32201,7 @@
     },
     {
         "file": "app/modules/video_calls/native/components/GestureContainer.tsx",
-        "size": 24014
+        "size": 11193
     },
     {
         "file": "app/modules/video_calls/native/components/HideSelfStreamAndVideoConfirmDialog.tsx",
@@ -32165,7 +32213,7 @@
     },
     {
         "file": "app/modules/video_calls/native/components/PictureInPicture.tsx",
-        "size": 12698
+        "size": 12184
     },
     {
         "file": "app/modules/video_calls/native/components/PictureInPictureGlobal.tsx",
@@ -32253,7 +32301,7 @@
     },
     {
         "file": "app/modules/video_calls/native/useDraggablePip.tsx",
-        "size": 38169
+        "size": 35136
     },
     {
         "file": "app/modules/video_calls/native/useIsFiveButtonLayout.tsx",
@@ -33133,7 +33181,7 @@
     },
     {
         "file": "app/modules/voice_panel/native/shared/FormComponents.tsx",
-        "size": 20458
+        "size": 20456
     },
     {
         "file": "app/modules/voice_panel/native/shared/VoicePanelChannelOptInNotice.tsx",
@@ -33237,7 +33285,7 @@
     },
     {
         "file": "app/modules/voice_panel/native/VoicePanelController.tsx",
-        "size": 195251
+        "size": 195657
     },
     {
         "file": "app/modules/voice_panel/native/VoicePanelStateContext.tsx",
@@ -33249,7 +33297,7 @@
     },
     {
         "file": "app/modules/voice_panel/native/VoicePanelUI.tsx",
-        "size": 175640
+        "size": 176769
     },
     {
         "file": "app/modules/voice_panel/VoicePanelConstants.tsx",
@@ -33573,7 +33621,7 @@
     },
     {
         "file": "app/records/PaymentSourceRecord.tsx",
-        "size": 70679
+        "size": 73766
     },
     {
         "file": "app/records/PromotionRecord.tsx",
@@ -34209,7 +34257,7 @@
     },
     {
         "file": "app/utils/AutocompleteUtils.tsx",
-        "size": 216311
+        "size": 216777
     },
     {
         "file": "app/utils/AvatarUtils.tsx",
@@ -34745,7 +34793,7 @@
     },
     {
         "file": "app/utils/URLUtils.tsx",
-        "size": 20926
+        "size": 20935
     },
     {
         "file": "app/utils/UserSettingsUtils.tsx",
@@ -36965,7 +37013,7 @@
     },
     {
         "file": "discord_common/js/packages/discord-native-types/IPCEvents.tsx",
-        "size": 14795
+        "size": 14901
     },
     {
         "file": "discord_common/js/packages/dynamic-links/DynamicLinkTemplates.tsx",
@@ -37261,7 +37309,7 @@
     },
     {
         "file": "discord_common/js/packages/media-engine/native/Connection.tsx",
-        "size": 266337
+        "size": 266338
     },
     {
         "file": "discord_common/js/packages/media-engine/native/Constants.tsx",
@@ -37453,7 +37501,7 @@
     },
     {
         "file": "discord_common/js/packages/protos/discord_protos/users/v1/user.tsx",
-        "size": 452049
+        "size": 452307
     },
     {
         "file": "discord_common/js/packages/protos/google/protobuf/timestamp.tsx",
@@ -38237,7 +38285,7 @@
     },
     {
         "file": "discord_common/js/shared/shared-constants/DisplayNameFont.tsx",
-        "size": 1869
+        "size": 2137
     },
     {
         "file": "discord_common/js/shared/shared-constants/EmbeddedActivityLocationKind.tsx",

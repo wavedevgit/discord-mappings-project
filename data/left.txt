@@ -1,7 +1,6 @@
 app/actions/AlertActionCreators.tsx
 app/actions/GamesActionCreators.tsx
 app/actions/SelectedChannelActionCreatorsAdditional.tsx
-app/components_common/SoundPlayer.tsx
 app/components_native/add_friend/AddFriendModal.tsx
 app/components_native/App.tsx
 app/components_native/AppContainer.tsx
@@ -2020,6 +2019,7 @@ app/modules/channel_text_area/slate/SlateUtils.tsx
 app/modules/channel/canJoinVoiceChannel.tsx
 app/modules/channel/ChannelConstants.tsx
 app/modules/channel/ChannelMuteUtils.tsx
+app/modules/channel/ChannelVisibilityUtils.tsx
 app/modules/channel/FakePlaceholderPrivateChannel.tsx
 app/modules/channel/getChannelA11yLabel.tsx
 app/modules/channel/getChannelIcon.tsx
@@ -3761,6 +3761,7 @@ app/modules/guild_themes/GuildThemePresets.tsx
 app/modules/guild_themes/GuildThemePreviewConstants.tsx
 app/modules/guild_themes/GuildThemeResolver.tsx
 app/modules/guild_themes/guildThemeSerialization.tsx
+app/modules/guild_themes/native/GuildThemeGuildIdOverrideContext.tsx
 app/modules/guild_themes/native/GuildThemeNuxActionSheet.tsx
 app/modules/guild_themes/native/GuildThemeNuxPreviewGraphic.tsx
 app/modules/guild_themes/native/GuildThemePreviewArt.tsx
@@ -4610,6 +4611,10 @@ app/modules/message_request/native/MessageRequestList.tsx
 app/modules/message_request/native/MessageRequestMutualServers.tsx
 app/modules/message_request/native/MessageRequestPreview.tsx
 app/modules/message_request/native/MessageRequestRowSenderDetails.tsx
+app/modules/message_request/native/RestrictedMessagePreviewActions.tsx
+app/modules/message_request/native/RestrictedMessagePreviewHeader.tsx
+app/modules/message_request/native/RestrictedMessagePreviewList.tsx
+app/modules/message_request/native/RestrictedMessageRequestPreview.tsx
 app/modules/message_request/native/RestrictedMessageRequestRow.tsx
 app/modules/message_request/native/spam/SpamMessageHamActionSheet.tsx
 app/modules/message_request/native/spam/SpamMessageList.tsx
@@ -4701,6 +4706,7 @@ app/modules/messages/native/renderer/ExplicitMediaUtils.tsx
 app/modules/messages/native/renderer/getTagProperties.tsx
 app/modules/messages/native/renderer/MarkupParsers.tsx
 app/modules/messages/native/renderer/MessageWithContent.tsx
+app/modules/messages/native/renderer/redactRestrictedContent.tsx
 app/modules/messages/native/renderer/RenderMessageOptionsContext.tsx
 app/modules/messages/native/renderer/resolveMessageContentColors.tsx
 app/modules/messages/native/renderer/row_data/ConnectionsRoleTag.tsx
@@ -5209,6 +5215,7 @@ app/modules/premium/experiments/BOGOPromotionMarketingMaterialsExperiments.tsx
 app/modules/premium/fractional/native/BoostingCountDownPill.tsx
 app/modules/premium/fractional/native/LargeCountDownPill.tsx
 app/modules/premium/fractional/native/NitroCreditEducationActionSheet.tsx
+app/modules/premium/FriendAnniversaryNotificationUtils.tsx
 app/modules/premium/game_server/GameServer.messages.js
 app/modules/premium/game_server/GameServerConstants.tsx
 app/modules/premium/game_server/hooks/useGameServerFeaturedGameNames.tsx
@@ -6217,6 +6224,7 @@ app/modules/soundboard/useSoundOrganizer.tsx
 app/modules/soundpacks/Constants.tsx
 app/modules/soundpacks/getSoundsForPack.tsx
 app/modules/soundpacks/SoundpackActions.tsx
+app/modules/soundplayer/SoundPlayer.tsx
 app/modules/soundplayer/SoundPlayerContext.tsx
 app/modules/spatial_audio/SpatialAudio.messages.js
 app/modules/spatial_audio/SpatialAudioConstants.tsx
@@ -6562,6 +6570,7 @@ app/modules/user_profile/native/UserProfileMutualsActionSheet.tsx
 app/modules/user_profile/native/UserProfileNameplateEditButton.tsx
 app/modules/user_profile/native/UserProfileNote.tsx
 app/modules/user_profile/native/UserProfileOverflowMenu.tsx
+app/modules/user_profile/native/UserProfileOverscrollBanner.tsx
 app/modules/user_profile/native/UserProfilePremiumUpsellCard.tsx
 app/modules/user_profile/native/UserProfilePreview.tsx
 app/modules/user_profile/native/UserProfilePrimaryGuildEditButton.tsx
@@ -6583,6 +6592,7 @@ app/modules/user_profile/native/UserProfileVoiceSettings.tsx
 app/modules/user_profile/native/UserProfileWishlistGrid.tsx
 app/modules/user_profile/native/UserProfileYourFriendsCard.tsx
 app/modules/user_profile/native/useSegmentedPagesHeight.tsx
+app/modules/user_profile/native/useUserProfileOverscrollStyles.tsx
 app/modules/user_profile/native/WishlistViewerCoachmark.tsx
 app/modules/user_profile/native/YouScreenUserProfileContent.tsx
 app/modules/user_profile/preloadUserBannerImage.tsx
@@ -6609,6 +6619,7 @@ app/modules/user_profile/utils/parseProviderRouteHeadlessSessionId.tsx
 app/modules/user_profile/utils/parseUserProfileCollectibles.tsx
 app/modules/user_profile/utils/shouldShowActivityTimeBar.tsx
 app/modules/user_profile/utils/trackUserAvatarUpdated.tsx
+app/modules/user_profile/utils/UserProfileStackedActivityCardUtils.tsx
 app/modules/user_profile/WidgetUtils.tsx
 app/modules/user_required_action/native/NewTermsModal.tsx
 app/modules/user_settings/accessibility/getSettingsOverrideReason.tsx
@@ -6865,6 +6876,7 @@ app/modules/user_settings/defs/native/ExplicitMediaFiltersNonFriendsDMsSetting.t
 app/modules/user_settings/defs/native/FamilyCenterScheduleDowntimeSetting.tsx
 app/modules/user_settings/defs/native/FamilyCenterSetting.tsx
 app/modules/user_settings/defs/native/FamilyCenterSettingParentalControlsSetting.tsx
+app/modules/user_settings/defs/native/FriendAnniversaryNotificationSetting.tsx
 app/modules/user_settings/defs/native/FriendGamingActivityNotificationSetting.tsx
 app/modules/user_settings/defs/native/FriendOnlineNotificationSetting.tsx
 app/modules/user_settings/defs/native/FriendRequestsEveryoneSetting.tsx

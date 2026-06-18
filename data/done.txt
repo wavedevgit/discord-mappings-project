@@ -553,7 +553,6 @@ app/modules/message_request/MessageRequestPreviewStore.tsx
 app/modules/message_request/MessageRequestRestrictionExperiment.tsx
 app/modules/message_request/MessageRequestStore.tsx
 app/modules/message_request/SpamMessageRequestStore.tsx
-app/modules/messages/DmErrorMessageExperiment.tsx
 app/modules/messages/EphemeralMessageStore.tsx
 app/modules/messages/GuildOfficialMessagesExperiment.tsx
 app/modules/messages/GuildOfficialMessagesStore.tsx
@@ -627,7 +626,6 @@ app/modules/premium/experiments/MobileNitroManageSubscriptionsSettingsExperiment
 app/modules/premium/experiments/PremiumOfferReminderExperiment.tsx
 app/modules/premium/experiments/PremiumTrialOfferActionSheetKillSwitchExperiment.tsx
 app/modules/premium/experiments/ReferralReminderDCExperiment.tsx
-app/modules/premium/experiments/TrialContinuationDiscountExperiment.tsx
 app/modules/premium/game_server/experiments/GameServerPricingExperiment.tsx
 app/modules/premium/game_server/experiments/GameServerTabAlwaysOnExperiment.tsx
 app/modules/premium/game_server/experiments/NewGamesCoachmarkExperiment.tsx
@@ -638,6 +636,7 @@ app/modules/premium/gifting/experiments/GiftingBadgeExperiment.tsx
 app/modules/premium/gifting/experiments/GiftPromotionReminderExperiment.tsx
 app/modules/premium/gifting/experiments/NitroGiftPriceCopyExperiment.tsx
 app/modules/premium/gifting/GiftPromotionStore.tsx
+app/modules/premium/gifting/native/MobileFriendAnniversaryExperiment.tsx
 app/modules/premium/gifting/PremiumGiftingIntentStore.tsx
 app/modules/premium/native/google_play_price_changes/GooglePlayPriceChangeStore.tsx
 app/modules/premium/native/NoticeStore.tsx
@@ -788,6 +787,7 @@ app/modules/stickers/StickersPersistedStore.tsx
 app/modules/stickers/StickersStore.tsx
 app/modules/storefront/SKUPricesStore.tsx
 app/modules/storefront/StorefrontActionCreators.tsx
+app/modules/storefront/StorefrontPromotionOverrideStore.tsx
 app/modules/storefront/StorefrontPromotionStore.tsx
 app/modules/summaries/SummaryActionCreators.tsx
 app/modules/summaries/SummaryStore.tsx

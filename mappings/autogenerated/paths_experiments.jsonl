@@ -117,7 +117,6 @@
 {"find_with":["user","2025-10-video-frame-rate-validation","variations"],"paths":["app/modules/media_uploads/experiments/VideoFrameRateValidationExperiment.tsx"]}
 {"find_with":["user","2025-12-shadow-node-spike","variations"],"paths":["app/modules/memory/MemoryExperiment.tsx"]}
 {"find_with":["user","2026-06-non-friend-messages-requests-in-uk","variations"],"paths":["app/modules/message_request/MessageRequestRestrictionExperiment.tsx"]}
-{"find_with":["user","2026-02-dm-error-message","variations"],"paths":["app/modules/messages/DmErrorMessageExperiment.tsx"]}
 {"find_with":["guild","2026-03_guild_official_messages","treatments"],"paths":["app/modules/messages/GuildOfficialMessagesExperiment.tsx"]}
 {"find_with":["guild","2026-05_voice_channel_list_invite_embed","treatments"],"paths":["app/modules/messages/VoiceChannelListInviteExperiment.tsx"]}
 {"find_with":["user","2026-01-yytext-replacement-ios","variations"],"paths":["app/modules/messages/YYTextReplacementExperiment.tsx"]}
@@ -147,7 +146,6 @@
 {"find_with":["user","2026-02-premium-offer-reminder-xp","variations"],"paths":["app/modules/premium/experiments/PremiumOfferReminderExperiment.tsx"]}
 {"find_with":["user","2025-09-premium-trial-offer-action-sheet-ks","variations"],"paths":["app/modules/premium/experiments/PremiumTrialOfferActionSheetKillSwitchExperiment.tsx"]}
 {"find_with":["user","2026-02-referral-reminder-dc","variations"],"paths":["app/modules/premium/experiments/ReferralReminderDCExperiment.tsx"]}
-{"find_with":["user","2026-04-trial-continuation-discount","variations"],"paths":["app/modules/premium/experiments/TrialContinuationDiscountExperiment.tsx"]}
 {"find_with":["guild","2026-03_game_server_pricing","treatments"],"paths":["app/modules/premium/game_server/experiments/GameServerPricingExperiment.tsx"]}
 {"find_with":["user","2026-02-game-server-tab-always-on","variations"],"paths":["app/modules/premium/game_server/experiments/GameServerTabAlwaysOnExperiment.tsx"]}
 {"find_with":["user","2026-04-new-games-coachmark","variations"],"paths":["app/modules/premium/game_server/experiments/NewGamesCoachmarkExperiment.tsx"]}
@@ -155,6 +153,7 @@
 {"find_with":["user","2026-04-gifting-badge","variations"],"paths":["app/modules/premium/gifting/experiments/GiftingBadgeExperiment.tsx"]}
 {"find_with":["user","2026-04-gift-promotion-reminder","variations"],"paths":["app/modules/premium/gifting/experiments/GiftPromotionReminderExperiment.tsx"]}
 {"find_with":["user","2026-06-nitro-gifting-price-copy-tweaks","variations"],"paths":["app/modules/premium/gifting/experiments/NitroGiftPriceCopyExperiment.tsx"]}
+{"find_with":["user","2026-06-mobile-friendship-anniversary","variations"],"paths":["app/modules/premium/gifting/native/MobileFriendAnniversaryExperiment.tsx"]}
 {"find_with":["user","2026-02-boost-to-unlock-coachmark","variations"],"paths":["app/modules/premium/powerups/experiments/BoostToUnlockCoachmarkExperiment.tsx"]}
 {"find_with":["user","2026-05-expiring-boosts","variations"],"paths":["app/modules/premium/powerups/experiments/ExpiringBoostsExperiment.tsx"]}
 {"find_with":["user","2026-02-expiring-powerup-coachmark","variations"],"paths":["app/modules/premium/powerups/experiments/ExpiringPowerupCoachmarkExperiment.tsx"]}
