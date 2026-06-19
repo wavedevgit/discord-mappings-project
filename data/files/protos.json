@@ -109,10 +109,6 @@
         "path": "discord_common/js/packages/protos/discord_protos/discord_kkv_store_value_models/v1/applications.tsx"
     },
     {
-        "names": [],
-        "path": "discord_common/js/packages/protos/discord_protos/discord_users/v1/dismissible_content.tsx"
-    },
-    {
         "names": [
             "discord_protos.discord_users.v1.FrecencyUserSettings",
             "discord_protos.discord_users.v1.FavoriteGIFs",
@@ -356,10 +352,6 @@
             "discord_protos.premium_marketing.v1.ThemeAwareAsset"
         ],
         "path": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/theme_aware_asset.tsx"
-    },
-    {
-        "names": [],
-        "path": "discord_common/js/packages/protos/discord_protos/safety_common/v1/classification_type.tsx"
     },
     {
         "names": [

@@ -63,6 +63,7 @@ for (const chunk of chunks) {
             });
             continue;
         }
+        if (!item.find_with?.length) continue;
         if (test(item.find_with, content)) {
             result.push({
                 id: chunk,
