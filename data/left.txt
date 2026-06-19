@@ -1785,6 +1785,7 @@ app/modules/applications/message_embed/native/utils/nativeAppMessageEmbedUtil.ts
 app/modules/applications/message_embed/utils/activityBookmarkUtils.tsx
 app/modules/applications/message_embed/utils/getPlayInContext.tsx
 app/modules/applications/message_embed/web/appMessageEmbedTracking.tsx
+app/modules/applications/message_embed/web/appMessageEmbedTrackingConfig.tsx
 app/modules/applications/native/AppInteractionInfoActionSheet.tsx
 app/modules/applications/native/BotTag.tsx
 app/modules/applications/useGetOrFetchApplicationBatched.tsx
@@ -2841,6 +2842,7 @@ app/modules/fastest_list/useFastestListUnexpectedItemSizeCallback.android.tsx
 app/modules/fastest_list/utils/FastestListLogger.tsx
 app/modules/fastest_list/utils/getFastestListSectionsWithErrorChecking.tsx
 app/modules/fastest_list/utils/getFastestListVisibleItemsWithErrorChecking.tsx
+app/modules/favorites/buildFavoritesSectionButtons.tsx
 app/modules/favorites/createFavoritesChannelRecord.tsx
 app/modules/favorites/FavoritesAnalytics.tsx
 app/modules/favorites/FavoritesConstants.tsx
@@ -2850,6 +2852,7 @@ app/modules/favorites/FavoritesUtils.tsx
 app/modules/favorites/useFavoriteGuildUnreads.tsx
 app/modules/favorites/useGuildIdForChannelRoute.tsx
 app/modules/favorites/useIsFavoritesGuildVisible.tsx
+app/modules/favorites/useMobileChannelFavoriteActions.tsx
 app/modules/favorites/useVoiceStatesForChannelList.tsx
 app/modules/feedback/Constants.tsx
 app/modules/feedback/FeedbackManager.tsx
@@ -3862,6 +3865,7 @@ app/modules/home_drawer/native/HomeDrawerShared.tsx
 app/modules/home_drawer/native/useDrawerState.tsx
 app/modules/home_drawer/native/useHomeDrawerGesture.tsx
 app/modules/home_drawer/native/useHomeDrawerGuildTyping.tsx
+app/modules/home_drawer/native/useHomeDrawerPeekHint.tsx
 app/modules/hotspot/Constants.tsx
 app/modules/hotspot/index.tsx
 app/modules/hub/HubConstants.tsx
@@ -4562,6 +4566,7 @@ app/modules/media_viewer/native/Constants.tsx
 app/modules/media_viewer/native/getMediaViewerStateForScreen.tsx
 app/modules/media_viewer/native/MediaPlayerMuteManager.tsx
 app/modules/media_viewer/native/MediaSourceUtil.tsx
+app/modules/media_viewer/native/MediaViewerDimensionsContext.tsx
 app/modules/media_viewer/native/portraitThumbnailHelpers.tsx
 app/modules/media_viewer/native/useEntranceAnimation.tsx
 app/modules/media_viewer/native/useMediaItemSpoilerState.tsx
@@ -5766,6 +5771,7 @@ app/modules/report_to_mod/ReportToModUtils.tsx
 app/modules/request_to_stream/native/getRequestToStreamCTAAndIsDisabled.tsx
 app/modules/request_to_stream/RequestToStream.messages.js
 app/modules/request_to_stream/useCanFulfillStreamRequest.tsx
+app/modules/revenue_components/errors/RevenueError.tsx
 app/modules/rewards/hooks/useHasXboxMonthlyOrbsPerk.tsx
 app/modules/rewards/ProgramRewardsTypes.tsx
 app/modules/rewards/ProgramRewardsUtils.tsx
@@ -6912,6 +6918,7 @@ app/modules/user_settings/defs/native/NoiseSuppressionSetting.tsx
 app/modules/user_settings/defs/native/NotificationsSetting.tsx
 app/modules/user_settings/defs/native/NotifyFriendsOnComeOnlineSetting.tsx
 app/modules/user_settings/defs/native/NotifyFriendsOnProfileUpdateSetting.tsx
+app/modules/user_settings/defs/native/OfficialMessageStyleSetting.tsx
 app/modules/user_settings/defs/native/OutputVolumeSetting.tsx
 app/modules/user_settings/defs/native/ParentalControlsDirectMessages.tsx
 app/modules/user_settings/defs/native/ParentalControlsExplicitMediaFiltersFriendsDMsSetting.tsx
@@ -8419,7 +8426,6 @@ discord_common/js/packages/rtn-codegen/js/PortalViewNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/QRScannerNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/ReanimatedViewNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/SelectActionComponentViewNativeComponent.tsx
-discord_common/js/packages/rtn-codegen/js/SelfMeasuredNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/StickerPickerListRowNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/SystemMessageViewNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/TextDisplayComponentViewNativeComponent.tsx
@@ -8452,6 +8458,8 @@ discord_common/js/packages/transition-group/TransitionGroup.tsx
 discord_common/js/packages/type-utils/TypeUtils.tsx
 discord_common/js/packages/video-player/DiscordVideoPlayerTypes.tsx
 discord_common/js/shared/domain-migration/DomainMigrationUtils.tsx
+discord_common/js/shared/hooks/useConstRef.tsx
+discord_common/js/shared/hooks/useIntersectionObserver.tsx
 discord_common/js/shared/hooks/useMountEffect.tsx
 discord_common/js/shared/hooks/useStableCallback.tsx
 discord_common/js/shared/modules/content_classification/lib/AgeRestrictionUtils.tsx
@@ -8460,6 +8468,7 @@ discord_common/js/shared/shared-constants/Quests.tsx
 discord_common/js/shared/shared-constants/WidgetType.tsx
 discord_common/js/shared/timeRequire.tsx
 discord_common/js/shared/utils/FunctionUtils.tsx
+discord_common/js/shared/utils/InteractionObserverUtils.tsx
 discord_common/js/shared/utils/MathUtils.tsx
 discord_common/js/shared/utils/MutexUtils.tsx
 discord_common/js/shared/utils/profiling.tsx

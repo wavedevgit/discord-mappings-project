@@ -1234,6 +1234,32 @@
         ]
     },
     {
+        "path": "app/modules/favorites/FavoritesActionCreators.tsx",
+        "functions_names": [
+            "_createForOfIteratorHelperLoose",
+            "_arrayLikeToArray",
+            "getNextPositionFromChannels",
+            "cleanFavoriteChannels",
+            "cleanupChannelParentId",
+            "hasReachedLimit",
+            "showLimitReachedAlert",
+            "onSaveFailed",
+            "onCloseCallback",
+            "getFavoritesCount",
+            "getAnalyticsChannelType",
+            "addFavoriteChannels",
+            "removeFavoriteChannel",
+            "addFavoriteChannel",
+            "setFavoriteChannelNickname",
+            "addFavoriteCategory",
+            "removeFavoriteCategory",
+            "updateFavoriteChannels",
+            "updateFavoriteChannelParent",
+            "toggleFavoriteGuildMuted",
+            "setFavoritesGuildVisibility"
+        ]
+    },
+    {
         "path": "app/modules/forums/ForumActionCreators.tsx",
         "flux_events": [
             "ADMIN_ONBOARDING_GUIDE_HIDE",
@@ -2009,6 +2035,16 @@
             "GAME_SERVER_REGION_PING_STATE_UPDATE",
             "GAME_SERVER_FETCH_INSTANCES_SUCCESS",
             "GAME_SERVER_FETCH_INSTANCES_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/modules/premium/gifting/PremiumGiftingIntentActionCreators.tsx",
+        "flux_events": [
+            "GIFT_INTENT_DISMISSALS_FETCH_FAILURE",
+            "GIFT_INTENT_DISMISSALS_FETCH_SUCCESS",
+            "GIFT_INTENT_DISMISSALS_FETCH_FAILURE",
+            "PROFILE_POPOUT_GIFT_INTENTS_DISMISS",
+            "GIFT_UNREAD_NOTIFICATION_DISMISS"
         ]
     },
     {

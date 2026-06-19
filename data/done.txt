@@ -295,6 +295,7 @@ app/modules/explicit_media_redaction/ExplicitMediaStore.tsx
 app/modules/explicit_media_redaction/SensitiveContentSelfHarmExperiment.tsx
 app/modules/expression_picker/ExpressionPickerStore.tsx
 app/modules/fast_image/FastImageFabricExperiment.tsx
+app/modules/favorites/FavoritesActionCreators.tsx
 app/modules/favorites/FavoritesGuildExperiment.tsx
 app/modules/favorites/FavoritesNotificationStore.tsx
 app/modules/favorites/FavoriteStore.tsx
@@ -637,6 +638,7 @@ app/modules/premium/gifting/experiments/GiftPromotionReminderExperiment.tsx
 app/modules/premium/gifting/experiments/NitroGiftPriceCopyExperiment.tsx
 app/modules/premium/gifting/GiftPromotionStore.tsx
 app/modules/premium/gifting/native/MobileFriendAnniversaryExperiment.tsx
+app/modules/premium/gifting/PremiumGiftingIntentActionCreators.tsx
 app/modules/premium/gifting/PremiumGiftingIntentStore.tsx
 app/modules/premium/native/google_play_price_changes/GooglePlayPriceChangeStore.tsx
 app/modules/premium/native/NoticeStore.tsx
