@@ -1,9 +1,19 @@
 import fs from 'fs/promises';
+import { execSync } from 'child_process';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-// thanks nexpid for providing maintained data
-const BASE_URL =
-    'https://raw.githubusercontent.com/nexpid/Themelings/refs/heads/data';
-const MAIN_SOURCE = BASE_URL.concat('/source.jsonl');
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const downloadedDir = path.resolve(__dirname, '../development/downloaded');
+
+// Run download_left.sh first to get local copy
+console.log('Running download_left.sh...');
+execSync('bash download_left.sh', {
+    stdio: 'inherit',
+    cwd: path.resolve(__dirname, '../development'),
+});
+
+const getLocal = async (filePath) => await fs.readFile(filePath, 'utf-8');
 
 // thanks to wavedev (me) for providing maintained data.
 const ANDROID_MANIFST_URL =
@@ -12,7 +22,12 @@ const ANDROID_MANIFST_URL =
 const get = async (url) => await (await fetch(url)).text();
 
 const data = JSON.parse(
-    '[' + (await get(MAIN_SOURCE)).trim().split('\n').join(',') + ']',
+    '[' +
+        (await getLocal(path.join(downloadedDir, 'source.jsonl')))
+            .trim()
+            .split('\n')
+            .join(',') +
+        ']',
 );
 
 await fs.writeFile(
@@ -24,6 +39,7 @@ await fs.writeFile(
 const result = [];
 const experiments = [];
 const actions = [];
+const protos = [];
 
 for (const item of data) {
     // only discord_assets have extractable matcher
@@ -32,7 +48,7 @@ for (const item of data) {
         process.argv?.[2] !== 'only-experiments'
     ) {
         console.log('at', item.file);
-        const content = await get(BASE_URL.concat('/source/', item.file));
+        const content = await getLocal(path.join(downloadedDir, 'source', item.file));
         let res = {
             path: item.file,
             url: content.match(
@@ -45,7 +61,7 @@ for (const item of data) {
         result.push(res);
     }
     if (item.file.endsWith('Experiment.tsx')) {
-        const content = await get(BASE_URL.concat('/source/', item.file));
+        const content = await getLocal(path.join(downloadedDir, 'source', item.file));
         let res = {
             path: item.file,
             kind: content.match(
@@ -63,7 +79,7 @@ for (const item of data) {
     // actions, uses endpoints used and methods
     if (item.file.endsWith('ActionCreators.tsx')) {
         const content = (
-            await get(BASE_URL.concat('/source/', item.file))
+            await getLocal(path.join(downloadedDir, 'source', item.file))
         ).split('\n');
         let res = { path: item.file, flux_events: [] };
         let event = { type: null, var: null };
@@ -115,6 +131,18 @@ for (const item of data) {
                 actions.push({ path: res.path, functions_names: names });
         }
     }
+
+    // detect prtos
+    if (item.file.includes('discord_protos/')) {
+        const content = await getLocal(path.join(downloadedDir, 'source', item.file));
+
+        protos.push({
+            names: [
+                ...content.matchAll(/\['(?<protoName>discord_protos\..+?)'\]/g),
+            ].map((m) => m.groups?.protoName),
+            path: item.file,
+        });
+    }
 }
 
 const { rawManifest: manifest } = JSON.parse(await get(ANDROID_MANIFST_URL));
@@ -141,5 +169,11 @@ await fs.writeFile(
 await fs.writeFile(
     './data/files/actions_android.json',
     JSON.stringify(actions, null, 4),
+    'utf-8',
+);
+
+await fs.writeFile(
+    './data/files/protos.json',
+    JSON.stringify(protos, null, 4),
     'utf-8',
 );

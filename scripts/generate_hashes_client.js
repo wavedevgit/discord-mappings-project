@@ -111,19 +111,6 @@ for (let chunk of chunks) {
             console.error(`failed ${url}:`, err.message);
         }
     }
-
-    if (
-        intlDefinition &&
-        Object.keys(intlDefinition).every((k) => k.length === 6)
-    ) {
-        hashes.push({
-            raw: chunk,
-            hash: crypto
-                .createHash('md5')
-                .update(JSON.stringify(intlDefinition), 'utf-8')
-                .digest('hex'),
-        });
-    }
 }
 
 await fs.writeFile(OUTPUT_FILE, JSON.stringify(hashes, null, 4), 'utf-8');
