@@ -136,12 +136,11 @@ for (const item of data) {
     if (item.file.includes('discord_protos/')) {
         const content = await getLocal(path.join(downloadedDir, 'source', item.file));
 
-        protos.push({
-            names: [
-                ...content.matchAll(/\['(?<protoName>discord_protos\..+?)'\]/g),
-            ].map((m) => m.groups?.protoName),
-            path: item.file,
-        });
+        const names = [
+            ...content.matchAll(/\['(?<protoName>discord_protos\..+?)'\]/g),
+        ].map((m) => m.groups?.protoName).filter(Boolean);
+        if (names.length)
+            protos.push({ names, path: item.file });
     }
 }
 
