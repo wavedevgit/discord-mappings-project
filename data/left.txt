@@ -75,8 +75,6 @@ app/components_native/CreateChannelModal.tsx
 app/components_native/DatePickerActionSheet.tsx
 app/components_native/ErrorBoundary.tsx
 app/components_native/InAppNotificationSettingsModal.tsx
-app/components_native/invite/AdvancedInstantInvite.tsx
-app/components_native/InviteSettingsModal.tsx
 app/components_native/MainChannels.tsx
 app/components_native/MainShared.tsx
 app/components_native/MemberRolesList.tsx
@@ -948,6 +946,7 @@ app/design/components/Modal/native/ModalFooter.tsx
 app/design/components/Modal/native/ModalScreen.tsx
 app/design/components/Modal/native/ModalStepIndicator.tsx
 app/design/components/Modal/native/StepModal.tsx
+app/design/components/Navigator/native/createAccessibleNativeStackNavigator.tsx
 app/design/components/Navigator/native/HeaderActionButton.tsx
 app/design/components/Navigator/native/Navigator.tsx
 app/design/components/Navigator/native/NavigatorConstants.tsx
@@ -3255,7 +3254,9 @@ app/modules/guild_instant_invites/native/InstantInviteIcons.tsx
 app/modules/guild_instant_invites/native/InstantInviteSelfMeasurer.tsx
 app/modules/guild_instant_invites/native/InstantInviteUsesLabel.tsx
 app/modules/guild_instant_invites/native/InstantInviteUtils.tsx
+app/modules/guild_invite/native/action_sheet/InviteSelectActionSheet.tsx
 app/modules/guild_invite/native/AdvancedInstantInvite.tsx
+app/modules/guild_invite/native/InviteSettingsModal.tsx
 app/modules/guild_limited_access/GuildLimitedAccessConstants.tsx
 app/modules/guild_limited_access/GuildLimitedAccessUtils.tsx
 app/modules/guild_limited_access/native/GuildLimitedAccessInfoAlert.tsx
@@ -3564,6 +3565,8 @@ app/modules/guild_role_subscriptions/useTrackRoleSubscriptionUpsellAnalytics.tsx
 app/modules/guild_role_subscriptions/useTrialActiveUserLimitOptions.tsx
 app/modules/guild_role_subscriptions/useTrialIntervalOptions.tsx
 app/modules/guild_role_subscriptions/useUserRoleSubscriptionRelationship.tsx
+app/modules/guild_rooms/GuildRooms.messages.js
+app/modules/guild_rooms/GuildRoomUtils.tsx
 app/modules/guild_scheduled_events/CreateGuildScheduledEventConstants.tsx
 app/modules/guild_scheduled_events/guildEventDetailsParser.tsx
 app/modules/guild_scheduled_events/GuildScheduledEventManager.tsx
@@ -4092,6 +4095,7 @@ app/modules/interaction_components/SearchableSelectActionComponentUtils.tsx
 app/modules/interaction_components/StringSelectActionComponentUtils.tsx
 app/modules/interaction_components/useFileUploadComponentState.tsx
 app/modules/interaction_components/validateComponent.tsx
+app/modules/interactions/FileTypeFiltering.tsx
 app/modules/interactions/InteractionTypes.tsx
 app/modules/interactions/InteractionUtils.tsx
 app/modules/interactions/SkemaUtils.tsx
@@ -5900,6 +5904,8 @@ app/modules/safety_flows/native/SafetyFlowsUtils.tsx
 app/modules/safety_flows/native/SafetyFlowTaskScreen.tsx
 app/modules/safety_flows/native/tasks/AgeVerificationScreen.tsx
 app/modules/safety_flows/native/tasks/EnterEmailScreen.tsx
+app/modules/safety_flows/native/tasks/ParentalConsentConnectionHeader.tsx
+app/modules/safety_flows/native/tasks/ParentalConsentConnectionScreen.tsx
 app/modules/safety_flows/native/tasks/ResendVerificationCodeButton.tsx
 app/modules/safety_flows/native/tasks/VerifyEmailScreen.tsx
 app/modules/safety_flows/native/UpdateAppScreen.tsx
@@ -7698,7 +7704,6 @@ discord_assets/assets/checkpoint/card-plant.png.js
 discord_assets/assets/checkpoint/card-snail.png.js
 discord_assets/assets/collectibles/frames/announcement_sheet_frame.png.js
 discord_assets/assets/collectibles/frames/ea/announcement_key_1.png.js
-discord_assets/assets/collectibles/frames/mobile_announcement.png.js
 discord_assets/assets/collectibles/previews/sample_profile_small-2x.png.js
 discord_assets/assets/collectibles/previews/sample_profile_small.png.js
 discord_assets/assets/collectibles/previews/sample_profile.png.js

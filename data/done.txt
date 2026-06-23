@@ -533,6 +533,7 @@ app/modules/media_engine/ProcessBoostExperiment.tsx
 app/modules/media_engine/ServerLadderExperiment.tsx
 app/modules/media_engine/SilenceWarningExperiment.tsx
 app/modules/media_engine/SystemwideEchoCancellationExperiment.tsx
+app/modules/media_engine/UpscaleSmallCapturedFramesExperiment.tsx
 app/modules/media_engine/VADBeforeProcessingExperiment.tsx
 app/modules/media_engine/VideoHookDX12Experiment.tsx
 app/modules/media_engine/VideoStutterMitigationExperiment.tsx
@@ -697,6 +698,7 @@ app/modules/quests/QuestStore.tsx
 app/modules/quests/QuestUtmStore.tsx
 app/modules/quests/UnenrolledActivityQuestStore.tsx
 app/modules/quests/VideoQuestUIStore.tsx
+app/modules/quickswitcher/GameProfileInQuickswitcherExperiment.tsx
 app/modules/quickswitcher/QuickSwitcherActionCreators.tsx
 app/modules/quickswitcher/QuickSwitcherStore.tsx
 app/modules/reactions/ReactionActionCreators.tsx

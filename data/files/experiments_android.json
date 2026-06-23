@@ -650,6 +650,12 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/media_engine/UpscaleSmallCapturedFramesExperiment.tsx",
+        "kind": "user",
+        "id": "2026-06-upscale-small-captured-frames",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/media_engine/VADBeforeProcessingExperiment.tsx",
         "kind": "user",
         "id": "2025-10-vad-before-processing",
@@ -1079,6 +1085,12 @@
         "path": "app/modules/quests/experiments/QuestHomeBountiesExperiment.tsx",
         "kind": "user",
         "id": "2026-03-quest-home-bounties",
+        "keyRequired": "variations"
+    },
+    {
+        "path": "app/modules/quickswitcher/GameProfileInQuickswitcherExperiment.tsx",
+        "kind": "user",
+        "id": "2026-06-game-profile-in-quickswitcher",
         "keyRequired": "variations"
     },
     {
