@@ -3652,6 +3652,7 @@ app/modules/guild_settings/community/native/GuildSettingsModalCommunityIntro.tsx
 app/modules/guild_settings/creator_monetization/canUserSeeMonetizationOnboarding.tsx
 app/modules/guild_settings/discovery/GuildSettingsDiscoveryConstants.tsx
 app/modules/guild_settings/GuildSettingsConstants.tsx
+app/modules/guild_settings/GuildSettingsServerTagUtils.tsx
 app/modules/guild_settings/GuildSettingsUtils.tsx
 app/modules/guild_settings/integrations/native/GuildSettingsModalIntegrationPlatform.tsx
 app/modules/guild_settings/integrations/native/GuildSettingsModalIntegrations.tsx
@@ -3674,6 +3675,7 @@ app/modules/guild_settings/native/GuildSettingsModalMembersWithTabs.tsx
 app/modules/guild_settings/native/GuildSettingsModalMembersWrapper.tsx
 app/modules/guild_settings/native/GuildSettingsModalOfficialMessages.tsx
 app/modules/guild_settings/native/GuildSettingsModalOverview.tsx
+app/modules/guild_settings/native/GuildSettingsModalServerTag.tsx
 app/modules/guild_settings/native/MembersFilterActionSheet.tsx
 app/modules/guild_settings/native/MembersPruneActionSheet.tsx
 app/modules/guild_settings/native/showEmojiOverflowActionSheet.tsx
@@ -4595,6 +4597,7 @@ app/modules/message_previews/PreviewData.tsx
 app/modules/message_previews/RemoteFetchData.tsx
 app/modules/message_previews/useFormattedMessagePreview.tsx
 app/modules/message_previews/useLatestChannelMessage.tsx
+app/modules/message_request/getRestrictedHiddenMediaCount.tsx
 app/modules/message_request/hooks/useIsMessageRequest.tsx
 app/modules/message_request/hooks/useIsMessageRequestRestrictedViewer.tsx
 app/modules/message_request/hooks/useIsSpamMessageRequest.tsx

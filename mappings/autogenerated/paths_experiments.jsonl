@@ -65,6 +65,7 @@
 {"find_with":["user","2026-04-mobile-go-live-upsell","variations"],"paths":["app/modules/go_live/native/MobileGoLiveUpsellExperiment.tsx"]}
 {"find_with":["guild","2022-12_mention_raid_limit","treatments"],"paths":["app/modules/guild_automod/AutomodExperiment.tsx"]}
 {"find_with":["user","2026-02-pubsub-bulk-ban-users","variations"],"paths":["app/modules/guild_mod_dash_member_safety/web/BulkBanPubSubExperiment.tsx"]}
+{"find_with":["user","2026-06-mobile-server-tag","variations"],"paths":["app/modules/guild_settings/MobileServerTagExperiment.tsx"]}
 {"find_with":["user","2025-11_tida_webform","treatments"],"paths":["app/modules/guild/TidaWebformExperiment.tsx"]}
 {"find_with":["user","2026-06-dont-badge-muted-vcs","variations"],"paths":["app/modules/guilds_bar/DontBadgeMutedVcsExperiment.tsx"]}
 {"find_with":["guild","2026-02_hangout_window","treatments"],"paths":["app/modules/hangout_window/HangoutWindowExperiment.tsx"]}

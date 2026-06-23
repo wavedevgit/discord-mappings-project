@@ -428,6 +428,7 @@ app/modules/guild_settings/GuildSettingsModalChannelsStore.tsx
 app/modules/guild_settings/GuildSettingsModalMembersActionCreators.tsx
 app/modules/guild_settings/GuildSettingsModalMembersStore.tsx
 app/modules/guild_settings/GuildSettingsStore.tsx
+app/modules/guild_settings/MobileServerTagExperiment.tsx
 app/modules/guild_settings/roles/GuildSettingsModalRolesActionCreators.tsx
 app/modules/guild_settings/roles/GuildSettingsModalRolesStore.tsx
 app/modules/guild_settings/roles/GuildSettingsRolesActionCreators.tsx

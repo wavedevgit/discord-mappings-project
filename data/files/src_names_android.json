@@ -141,7 +141,7 @@
     },
     {
         "file": "app/actions/GIFPickerActionCreators.tsx",
-        "size": 38220
+        "size": 38221
     },
     {
         "file": "app/actions/GiftCodeActionCreators.tsx",
@@ -621,7 +621,7 @@
     },
     {
         "file": "app/components_native/common/UnreadBars.tsx",
-        "size": 22520
+        "size": 22522
     },
     {
         "file": "app/components_native/common/UntouchableAlert.tsx",
@@ -5477,7 +5477,7 @@
     },
     {
         "file": "app/modules/accept_invite/native/AcceptInvite.tsx",
-        "size": 14989
+        "size": 14987
     },
     {
         "file": "app/modules/accept_invite/native/AcceptInviteConstants.tsx",
@@ -5493,7 +5493,7 @@
     },
     {
         "file": "app/modules/accept_invite/native/InviteDetails.tsx",
-        "size": 45335
+        "size": 45373
     },
     {
         "file": "app/modules/accept_invite/native/InviteError.tsx",
@@ -5509,7 +5509,7 @@
     },
     {
         "file": "app/modules/action_sheet/native/ActionSheetActionCreators.tsx",
-        "size": 9622
+        "size": 9626
     },
     {
         "file": "app/modules/action_sheet/native/ActionSheetConstants.tsx",
@@ -5521,7 +5521,7 @@
     },
     {
         "file": "app/modules/action_sheet/native/ActionSheetStore.tsx",
-        "size": 14849
+        "size": 14851
     },
     {
         "file": "app/modules/action_sheet/native/components/ActionSheetPresenter.tsx",
@@ -5541,11 +5541,11 @@
     },
     {
         "file": "app/modules/action_sheet/native/components/EmojiRowUtils.tsx",
-        "size": 2461
+        "size": 2480
     },
     {
         "file": "app/modules/action_sheet/native/components/LongPressForumPostActionSheet.tsx",
-        "size": 64527
+        "size": 64549
     },
     {
         "file": "app/modules/action_sheet/native/components/PublishModal.tsx",
@@ -5593,7 +5593,7 @@
     },
     {
         "file": "app/modules/activate_device/native/ActivateDeviceError.tsx",
-        "size": 4885
+        "size": 4905
     },
     {
         "file": "app/modules/activate_device/native/ActivateDeviceModal.tsx",
@@ -5609,11 +5609,11 @@
     },
     {
         "file": "app/modules/activate_device/native/ActivateDeviceSuccess.tsx",
-        "size": 7649
+        "size": 7671
     },
     {
         "file": "app/modules/activate_device/native/UserCodeInput.tsx",
-        "size": 7528
+        "size": 7542
     },
     {
         "file": "app/modules/activate_device/useActivateDeviceStepTracking.tsx",
@@ -5733,11 +5733,11 @@
     },
     {
         "file": "app/modules/activities/native/ActivityAnnouncement.tsx",
-        "size": 31762
+        "size": 31766
     },
     {
         "file": "app/modules/activities/native/ActivityFeedbackActionSheet.tsx",
-        "size": 8935
+        "size": 8901
     },
     {
         "file": "app/modules/activities/native/ActivityShareLinkModal.tsx",
@@ -5753,7 +5753,7 @@
     },
     {
         "file": "app/modules/activities/native/createWebviewHtmlFile.tsx",
-        "size": 15682
+        "size": 15733
     },
     {
         "file": "app/modules/activities/native/doesOrientationMatchLockState.tsx",
@@ -5773,7 +5773,7 @@
     },
     {
         "file": "app/modules/activities/native/EmbeddedActivityWebView.tsx",
-        "size": 79505
+        "size": 79962
     },
     {
         "file": "app/modules/activities/native/getDefaultOrientationLockState.tsx",
@@ -5825,7 +5825,7 @@
     },
     {
         "file": "app/modules/activities/panel/native/ActivityInviteSheetRow.tsx",
-        "size": 16960
+        "size": 16997
     },
     {
         "file": "app/modules/activities/panel/native/ActivityPanelContainer.tsx",
@@ -5837,7 +5837,7 @@
     },
     {
         "file": "app/modules/activities/panel/native/ActivityPanelFocusedView.tsx",
-        "size": 34517
+        "size": 34519
     },
     {
         "file": "app/modules/activities/panel/native/ActivityPanelHeader.tsx",
@@ -5849,7 +5849,7 @@
     },
     {
         "file": "app/modules/activities/panel/native/ActivityPanelPIPView.tsx",
-        "size": 36147
+        "size": 36154
     },
     {
         "file": "app/modules/activities/panel/native/ActivityPanelStateContext.tsx",
@@ -5925,7 +5925,7 @@
     },
     {
         "file": "app/modules/activities/useActivityShelfItemsSorting.tsx",
-        "size": 11609
+        "size": 13166
     },
     {
         "file": "app/modules/activities/useActivityUsers.tsx",
@@ -5933,7 +5933,7 @@
     },
     {
         "file": "app/modules/activities/useDeveloperActivityShelfItems.tsx",
-        "size": 5081
+        "size": 5112
     },
     {
         "file": "app/modules/activities/useDispatchOpenActivity.tsx",
@@ -6253,7 +6253,7 @@
     },
     {
         "file": "app/modules/activities/utils/usePresenceActivityInviteCoverImageURL.tsx",
-        "size": 7056
+        "size": 7095
     },
     {
         "file": "app/modules/activities/utils/useRefocusOrLaunchActivity.tsx",
@@ -6269,7 +6269,7 @@
     },
     {
         "file": "app/modules/activity_privacy/ActivityPrivacyMatchingExperiment.tsx",
-        "size": 2918
+        "size": 2994
     },
     {
         "file": "app/modules/activity_privacy/ActivityPrivacyUpsellUtils.tsx",
@@ -6281,7 +6281,7 @@
     },
     {
         "file": "app/modules/activity_privacy/native/BaseUpsellActionSheet.tsx",
-        "size": 22448
+        "size": 22447
     },
     {
         "file": "app/modules/activity_privacy/native/ProfileToActivityUpsellActionSheet.tsx",
@@ -7357,7 +7357,7 @@
     },
     {
         "file": "app/modules/app_startup/ManagerRegistry.native.tsx",
-        "size": 65257
+        "size": 65301
     },
     {
         "file": "app/modules/app_startup/ManagerRegistryShared.tsx",
@@ -15089,7 +15089,7 @@
     },
     {
         "file": "app/modules/guild_onboarding/native/GuildOnboardingPromptOptionButton.tsx",
-        "size": 48607
+        "size": 50327
     },
     {
         "file": "app/modules/guild_onboarding/native/GuildOnboardingPrompts.tsx",
@@ -16332,8 +16332,12 @@
         "size": 10131
     },
     {
+        "file": "app/modules/guild_settings/GuildSettingsServerTagUtils.tsx",
+        "size": 2233
+    },
+    {
         "file": "app/modules/guild_settings/GuildSettingsStore.tsx",
-        "size": 82670
+        "size": 83252
     },
     {
         "file": "app/modules/guild_settings/GuildSettingsUtils.tsx",
@@ -16356,6 +16360,10 @@
         "size": 5011
     },
     {
+        "file": "app/modules/guild_settings/MobileServerTagExperiment.tsx",
+        "size": 1067
+    },
+    {
         "file": "app/modules/guild_settings/native/AssetChooser.tsx",
         "size": 16535
     },
@@ -16369,7 +16377,7 @@
     },
     {
         "file": "app/modules/guild_settings/native/GuildSettingsModal.tsx",
-        "size": 68554
+        "size": 70308
     },
     {
         "file": "app/modules/guild_settings/native/GuildSettingsModalChannels.tsx",
@@ -16393,7 +16401,7 @@
     },
     {
         "file": "app/modules/guild_settings/native/GuildSettingsModalLanding.tsx",
-        "size": 50779
+        "size": 52760
     },
     {
         "file": "app/modules/guild_settings/native/GuildSettingsModalMemberApplications.tsx",
@@ -16422,6 +16430,10 @@
     {
         "file": "app/modules/guild_settings/native/GuildSettingsModalOverview.tsx",
         "size": 101832
+    },
+    {
+        "file": "app/modules/guild_settings/native/GuildSettingsModalServerTag.tsx",
+        "size": 3989
     },
     {
         "file": "app/modules/guild_settings/native/MembersFilterActionSheet.tsx",
@@ -20596,6 +20608,10 @@
         "size": 4534
     },
     {
+        "file": "app/modules/message_request/getRestrictedHiddenMediaCount.tsx",
+        "size": 1889
+    },
+    {
         "file": "app/modules/message_request/hooks/useIsMessageRequest.tsx",
         "size": 3107
     },
@@ -20721,7 +20737,7 @@
     },
     {
         "file": "app/modules/message_request/native/RestrictedMessagePreviewList.tsx",
-        "size": 18793
+        "size": 17988
     },
     {
         "file": "app/modules/message_request/native/RestrictedMessageRequestPreview.tsx",
@@ -21085,7 +21101,7 @@
     },
     {
         "file": "app/modules/messages/native/renderer/createMessageContent.tsx",
-        "size": 96091
+        "size": 97443
     },
     {
         "file": "app/modules/messages/native/renderer/createMessageFailedEmbed.tsx",
@@ -21113,7 +21129,7 @@
     },
     {
         "file": "app/modules/messages/native/renderer/redactRestrictedContent.tsx",
-        "size": 4894
+        "size": 5187
     },
     {
         "file": "app/modules/messages/native/renderer/RenderMessageOptionsContext.tsx",
@@ -22153,7 +22169,7 @@
     },
     {
         "file": "app/modules/notifications/NotificationSettingsConstants.tsx",
-        "size": 19095
+        "size": 19410
     },
     {
         "file": "app/modules/notifications/NotificationSettingsExperiments.tsx",
@@ -23897,7 +23913,7 @@
     },
     {
         "file": "app/modules/premium/native/PremiumPlanSelectionActionSheet.tsx",
-        "size": 108851
+        "size": 108847
     },
     {
         "file": "app/modules/premium/native/PremiumPlanSelectStore.tsx",
@@ -24529,7 +24545,7 @@
     },
     {
         "file": "app/modules/premium/promotions/PromotionsActionCreators.tsx",
-        "size": 21328
+        "size": 21370
     },
     {
         "file": "app/modules/premium/promotions/PromotionsHooks.tsx",
@@ -24537,11 +24553,11 @@
     },
     {
         "file": "app/modules/premium/promotions/PromotionsManager.tsx",
-        "size": 14090
+        "size": 16147
     },
     {
         "file": "app/modules/premium/promotions/PromotionsStore.tsx",
-        "size": 36045
+        "size": 36421
     },
     {
         "file": "app/modules/premium/promotions/PromotionStringUtils.tsx",
@@ -27845,7 +27861,7 @@
     },
     {
         "file": "app/modules/slayer_storefront/SlayerStorefrontUtils.tsx",
-        "size": 61670
+        "size": 61674
     },
     {
         "file": "app/modules/slayer_storefront/SocialLayerStorefrontActionCreators.tsx",
@@ -28941,7 +28957,7 @@
     },
     {
         "file": "app/modules/threads/ThreadActionCreators.tsx",
-        "size": 73529
+        "size": 73531
     },
     {
         "file": "app/modules/threads/ThreadActionUtils.tsx",
@@ -34037,7 +34053,7 @@
     },
     {
         "file": "app/stores/MediaEngineStore.tsx",
-        "size": 433759
+        "size": 433758
     },
     {
         "file": "app/stores/MessageReactionsStore.tsx",

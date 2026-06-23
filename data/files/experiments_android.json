@@ -428,6 +428,12 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/guild_settings/MobileServerTagExperiment.tsx",
+        "kind": "user",
+        "id": "2026-06-mobile-server-tag",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/guild/TidaWebformExperiment.tsx",
         "kind": "user",
         "id": "2025-11_tida_webform",
