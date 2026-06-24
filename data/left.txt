@@ -491,6 +491,7 @@ app/design/components/Icon/native/redesign/generated/VrHeadsetIcon.tsx
 app/design/components/Icon/native/redesign/generated/WarningIcon.tsx
 app/design/components/Icon/native/redesign/generated/WaveformIcon.tsx
 app/design/components/Icon/native/redesign/generated/WebhookIcon.tsx
+app/design/components/Icon/native/redesign/generated/WebhookPlusIcon.tsx
 app/design/components/Icon/native/redesign/generated/WindowLaunchIcon.tsx
 app/design/components/Icon/native/redesign/generated/WrenchIcon.tsx
 app/design/components/Icon/native/redesign/generated/XboxNeutralIcon.tsx
@@ -743,8 +744,14 @@ app/design/components/mana-assets/native/generated/GemRightUpwards3dIllustration
 app/design/components/mana-assets/native/generated/GemSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/GiftBoxSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/GiftCardAvatar3dIllustration.tsx
+app/design/components/mana-assets/native/generated/GiftCardFan3dIllustration.tsx
+app/design/components/mana-assets/native/generated/GiftCardLeft3dIllustration.tsx
 app/design/components/mana-assets/native/generated/GiftCardRedeem3dIllustration.tsx
+app/design/components/mana-assets/native/generated/GiftCardRight3dIllustration.tsx
+app/design/components/mana-assets/native/generated/GiftCardSingle3dIllustration.tsx
 app/design/components/mana-assets/native/generated/GiftCardStack3dIllustration.tsx
+app/design/components/mana-assets/native/generated/GiftCardTwoLeft3dIllustration.tsx
+app/design/components/mana-assets/native/generated/GiftCardTwoRight3dIllustration.tsx
 app/design/components/mana-assets/native/generated/GiftCardWallet3dIllustration.tsx
 app/design/components/mana-assets/native/generated/GiftingTier1LargeBadge.tsx
 app/design/components/mana-assets/native/generated/GiftingTier1SmallBadge.tsx
@@ -774,6 +781,7 @@ app/design/components/mana-assets/native/generated/HelloWumpusSpotIllustration.t
 app/design/components/mana-assets/native/generated/HeroIllocon.tsx
 app/design/components/mana-assets/native/generated/HighFiveSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/HoldingGemSpotIllustration.tsx
+app/design/components/mana-assets/native/generated/InkQuill3dIllustration.tsx
 app/design/components/mana-assets/native/generated/KeyRingSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/LanternSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/LaptopSpotIllustration.tsx
@@ -915,6 +923,7 @@ app/design/components/mana-assets/native/generated/SwordIllocon.tsx
 app/design/components/mana-assets/native/generated/TabletSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/TeaKettleSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/TentSpotIllustration.tsx
+app/design/components/mana-assets/native/generated/Tome3dIllustration.tsx
 app/design/components/mana-assets/native/generated/TrafficConeSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/TreasureChestBannerSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/TreasureChestSpotIllustration.tsx
@@ -1903,8 +1912,12 @@ app/modules/billing/native/otp/SimpleRequestOTPActionSheet.tsx
 app/modules/billing/native/PaymentFlowWarningMessage.tsx
 app/modules/billing/native/smoke/BillingFlows.android.tsx
 app/modules/billing/native/StorekitIAPQueue.tsx
+app/modules/billing/native/subscription/useCancelSubscriptionParams.tsx
+app/modules/billing/native/subscription/useCreateSubscriptionParams.tsx
 app/modules/billing/native/subscription/useRestorePurchases.tsx
+app/modules/billing/native/subscription/useResubscribeSubscriptionParams.tsx
 app/modules/billing/native/subscription/useStoreFrontPrice.tsx
+app/modules/billing/native/subscription/useToggleOnIAPSuccess.tsx
 app/modules/billing/native/UnsupportedFeatureModal.tsx
 app/modules/billing/utils/StoreCountryUtils.tsx
 app/modules/blocked_domains/BlockedDomainManager.tsx
@@ -2087,7 +2100,6 @@ app/modules/chat_input/native/guard/ChatInputGuardRequiredLobbyApplicationAuthor
 app/modules/chat_input/native/guard/ChatInputGuardReturnToGameProfile.tsx
 app/modules/chat_input/native/guard/ChatInputGuardSpamMessageRequest.tsx
 app/modules/chat_input/native/guard/ChatInputGuardWrapper.tsx
-app/modules/chat_input/native/useAnniversaryPlaceholder.tsx
 app/modules/chat_input/native/useChatInputMaxHeight.tsx
 app/modules/chat_input/native/useChatInputRefs.tsx
 app/modules/chat/native/Chat.android.tsx
@@ -2432,7 +2444,6 @@ app/modules/contact_sync/native/components/ContactSyncUpsellCTA.tsx
 app/modules/contact_sync/native/components/RedesignContactSyncDiscoverabilityFooter.tsx
 app/modules/contact_sync/native/components/RedesignContactSyncModal.tsx
 app/modules/contact_sync/native/components/useBackHandlerSkipPhoneScreens.tsx
-app/modules/contact_sync/native/ContactSyncActionCreators.tsx
 app/modules/contact_sync/native/ContactSyncAnalyticsUtils.tsx
 app/modules/contact_sync/native/ContactSyncConstants.tsx
 app/modules/contact_sync/native/ContactSyncManager.tsx
@@ -3071,6 +3082,9 @@ app/modules/game_store/GameStoreAsset.tsx
 app/modules/game_store/getAnalyticsDataForSKU.tsx
 app/modules/game_store/TestModeUtils.tsx
 app/modules/game_update/native/GameUpdatePlatformIcon.tsx
+app/modules/games/autocomplete/GameAutocompleteUtils.tsx
+app/modules/games/autocomplete/queryGamesAutocomplete.tsx
+app/modules/games/autocomplete/useGameAutocomplete.tsx
 app/modules/games/GameRecord.tsx
 app/modules/games/hooks/useGame.tsx
 app/modules/games/hooks/useGameArtworkUrls.tsx
@@ -4495,6 +4509,7 @@ app/modules/media_channel/useCanSetThumbnail.tsx
 app/modules/media_channel/useIsFirstMessageInMediaPost.tsx
 app/modules/media_channel/useShouldHideMediaOptions.tsx
 app/modules/media_engine/AV1DecodeExperimentAndroid.tsx
+app/modules/media_engine/AV1EncodeExperimentLinux.tsx
 app/modules/media_engine/dispatchAutoDisableVideo.tsx
 app/modules/media_engine/InputWatcher.tsx
 app/modules/media_engine/native/VoiceProcessingErrorManager.tsx
@@ -5150,6 +5165,7 @@ app/modules/parent_tools/SpendingLimitDisplay.tsx
 app/modules/parent_tools/SpendingLimitUtils.tsx
 app/modules/payments/hooks/useSubscriptionSelection.tsx
 app/modules/payments/native/hooks/NativePaymentHooks.android.tsx
+app/modules/payments/native/hooks/NativePaymentHooks.ios.tsx
 app/modules/payments/native/hooks/useOrderContext.tsx
 app/modules/payments/native/NativeGiftContext.tsx
 app/modules/payments/native/NativePaymentContext.tsx
@@ -5239,6 +5255,7 @@ app/modules/premium/game_server/utils/gameServerResponseToInstance.tsx
 app/modules/premium/game_server/utils/productToGameServerGame.tsx
 app/modules/premium/game_server/utils/regionResponseToRegion.tsx
 app/modules/premium/getNumSubscriptionsPurchasedFromSystemMessage.tsx
+app/modules/premium/gifting/FriendAnniversaryGate.tsx
 app/modules/premium/gifting/GiftingBadge.messages.js
 app/modules/premium/gifting/GiftingBadgeConstants.tsx
 app/modules/premium/gifting/GiftingBadgeTier.messages.js
@@ -5246,8 +5263,10 @@ app/modules/premium/gifting/hooks/useGiftingPromotionConfig.tsx
 app/modules/premium/gifting/hooks/useGiftingPromotionDefaultSelection.tsx
 app/modules/premium/gifting/hooks/useGiftStyles.tsx
 app/modules/premium/gifting/native/GiftingBadgeInfoActionSheet.tsx
-app/modules/premium/gifting/native/GiftIntentExpressionPickerState.tsx
+app/modules/premium/gifting/native/GiftIntentGifModal.tsx
+app/modules/premium/gifting/native/GiftIntentMessagePlaceholder.tsx
 app/modules/premium/gifting/native/hooks/useShouldShowGiftingPromotionDeco.tsx
+app/modules/premium/gifting/native/MobileGiftIntentCardManager.tsx
 app/modules/premium/gifting/native/openGiftingBadgeInfoActionSheet.tsx
 app/modules/premium/gifting/native/views/GiftingBadgeIcon.tsx
 app/modules/premium/gifting/native/views/GiftingBadgeLevelUpProgress.tsx
@@ -5766,9 +5785,6 @@ app/modules/replies/canReplyToMessage.tsx
 app/modules/replies/didReplyMention.tsx
 app/modules/replies/native/replyToMessage.tsx
 app/modules/replies/trackRepliedMessageClicked.tsx
-app/modules/reply_nudge/ReplyNudgeConstants.tsx
-app/modules/reply_nudge/ReplyNudgeManager.tsx
-app/modules/reply_nudge/trackReplyNudgesShown.tsx
 app/modules/report_to_mod/getGuildModeratorReportChannelId.tsx
 app/modules/report_to_mod/getGuildModeratorReportingEnabled.tsx
 app/modules/report_to_mod/hooks/useReportToModHooks.tsx
@@ -5893,8 +5909,10 @@ app/modules/safe_area/useSafeAreaInsetsKeyboardAware.tsx
 app/modules/safe_area/useSafeAreaInsetsSharedValue.tsx
 app/modules/safe_area/useStableSafeAreaInsets.tsx
 app/modules/safety_common/Constants.tsx
+app/modules/safety_common/native/ObscuredSurface.tsx
 app/modules/safety_common/native/SafetySettingsNotice.tsx
 app/modules/safety_common/native/URLCallout.tsx
+app/modules/safety_common/ObscuredSurfaceContext.tsx
 app/modules/safety_common/SafetySettingsUtils.tsx
 app/modules/safety_common/SafetyToastsActionCreators.tsx
 app/modules/safety_common/SafetyToastsUtils.tsx
@@ -6517,7 +6535,6 @@ app/modules/user_profile/native/ChangeBannerActionSheet.tsx
 app/modules/user_profile/native/Constants.tsx
 app/modules/user_profile/native/DiscordTag.tsx
 app/modules/user_profile/native/EditAvatarDecorationActionSheet.tsx
-app/modules/user_profile/native/EditCollectiblesActionCreators.tsx
 app/modules/user_profile/native/EditCollectiblesCTAButton.tsx
 app/modules/user_profile/native/EditCollectiblesPreviewDetails.tsx
 app/modules/user_profile/native/EditNameplateActionSheet.tsx
@@ -6879,7 +6896,6 @@ app/modules/user_settings/defs/native/DoubleTapToReactSetting.tsx
 app/modules/user_settings/defs/native/EchoCancellationSetting.tsx
 app/modules/user_settings/defs/native/EmbedAndLinkPreviewsSetting.tsx
 app/modules/user_settings/defs/native/EmojiReactionsOnMessagesSetting.tsx
-app/modules/user_settings/defs/native/EnableDmReplyNudgeRemindersSetting.tsx
 app/modules/user_settings/defs/native/EnableReducedMotionSetting.tsx
 app/modules/user_settings/defs/native/EnableSwitchIconsSetting.tsx
 app/modules/user_settings/defs/native/EncryptionSetting.tsx
@@ -7913,8 +7929,14 @@ discord_assets/assets/mana/asset-library/generated/GemRightUpwards3dIllustration
 discord_assets/assets/mana/asset-library/generated/GemSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/GiftBoxSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/GiftCardAvatar3dIllustration-2x.png.js
+discord_assets/assets/mana/asset-library/generated/GiftCardFan3dIllustration-2x.png.js
+discord_assets/assets/mana/asset-library/generated/GiftCardLeft3dIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/GiftCardRedeem3dIllustration-2x.png.js
+discord_assets/assets/mana/asset-library/generated/GiftCardRight3dIllustration-2x.png.js
+discord_assets/assets/mana/asset-library/generated/GiftCardSingle3dIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/GiftCardStack3dIllustration-2x.png.js
+discord_assets/assets/mana/asset-library/generated/GiftCardTwoLeft3dIllustration-2x.png.js
+discord_assets/assets/mana/asset-library/generated/GiftCardTwoRight3dIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/GiftCardWallet3dIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/GiftingTier1LargeBadge-2x.png.js
 discord_assets/assets/mana/asset-library/generated/GiftingTier1SmallBadge-2x.png.js
@@ -7944,6 +7966,7 @@ discord_assets/assets/mana/asset-library/generated/HelloWumpusSpotIllustration-2
 discord_assets/assets/mana/asset-library/generated/HeroIllocon-2x.png.js
 discord_assets/assets/mana/asset-library/generated/HighFiveSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/HoldingGemSpotIllustration-2x.png.js
+discord_assets/assets/mana/asset-library/generated/InkQuill3dIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/KeyRingSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/LanternSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/LaptopSpotIllustration-2x.png.js
@@ -8085,6 +8108,7 @@ discord_assets/assets/mana/asset-library/generated/SwordIllocon-2x.png.js
 discord_assets/assets/mana/asset-library/generated/TabletSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/TeaKettleSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/TentSpotIllustration-2x.png.js
+discord_assets/assets/mana/asset-library/generated/Tome3dIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/TrafficConeSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/TreasureChestBannerSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/TreasureChestSpotIllustration-2x.png.js
@@ -8139,6 +8163,7 @@ discord_assets/assets/orbs/tier4_rewardTile_animated.webm.js
 discord_assets/assets/powerups/badge-packs/group-animated.png.js
 discord_assets/assets/powerups/badge-packs/group-static.png.js
 discord_assets/assets/powerups/file-upload-static-2x.png.js
+discord_assets/assets/powerups/server-theme-powerup-static.png.js
 discord_assets/assets/premium/display_name_styles/dns_halfsheet_animated_2x.png.js
 discord_assets/assets/premium/display_name_styles/dns_halfsheet_static_2x.png.js
 discord_assets/assets/premium/game_servers/game_server_tile.png.js

@@ -115,6 +115,7 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GameConsoleStore[\"']"},"paths":["app/modules/game_console/GameConsoleStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GameProfileStore[\"']"},"paths":["app/modules/game_profile/GameProfileStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GameRelationshipStore[\"']"},"paths":["app/modules/game_relationships/GameRelationshipStore.tsx"]}
+{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GameAutocompleteStore[\"']"},"paths":["app/modules/games/autocomplete/GameAutocompleteStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GameStore[\"']"},"paths":["app/modules/games/GameStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GatewayConnectionStore[\"']"},"paths":["app/modules/gateway/GatewayConnectionStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']PostConnectionCallbackStore[\"']"},"paths":["app/modules/gateway/PostConnectionCallbackStore.tsx"]}
@@ -223,6 +224,7 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']SendMessageOptionsStore[\"']"},"paths":["app/modules/messages/SendMessageOptionsStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']MobileNativeUpdateStore[\"']"},"paths":["app/modules/mobile_native_updater/MobileNativeUpdateStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']MultiAccountStore[\"']"},"paths":["app/modules/multi_account/MultiAccountStore.tsx"]}
+{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']MultiAccountSwitchStore[\"']"},"paths":["app/modules/multi_account/MultiAccountSwitchStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']NativeMenuStore[\"']"},"paths":["app/modules/native_menu/native/NativeMenuStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']NativePermissionStore[\"']"},"paths":["app/modules/native_permissions/NativePermissionStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']NotificationCenterItemsStore[\"']"},"paths":["app/modules/notification_center/NotificationCenterItemsStore.tsx"]}
@@ -279,7 +281,6 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GuildFriendshipStore[\"']"},"paths":["app/modules/relationships/GuildFriendshipStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']PendingReplyStore[\"']"},"paths":["app/modules/replies/PendingReplyStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ReferencedMessageStore[\"']"},"paths":["app/modules/replies/ReferencedMessageStore.tsx"]}
-{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ReplyNudgeStore[\"']"},"paths":["app/modules/reply_nudge/ReplyNudgeStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ReportToModChannelStore[\"']"},"paths":["app/modules/report_to_mod/ReportToModChannelStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ReportToModStore[\"']"},"paths":["app/modules/report_to_mod/ReportToModStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ProgramRewardsStore[\"']"},"paths":["app/modules/rewards/ProgramRewardsStore.tsx"]}

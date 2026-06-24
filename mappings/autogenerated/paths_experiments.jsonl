@@ -12,7 +12,6 @@
 {"find_with":["user","2026-05-age-restricted-application-commands","variations"],"paths":["app/modules/application_commands/AgeRestrictedApplicationCommandsExperiment.tsx"]}
 {"find_with":["user","2022-03_block_russian_purchases","treatments"],"paths":["app/modules/billing/experiments/BlockedPaymentsCountryExperiment.tsx"]}
 {"find_with":["user","2026-02-gift-cards","variations"],"paths":["app/modules/billing/experiments/GiftCardsExperiment.tsx"]}
-{"find_with":["user","2026-03-store-country","variations"],"paths":["app/modules/billing/experiments/StoreCountryExperiment.tsx"]}
 {"find_with":["user","2026-01-bug-reporter","variations"],"paths":["app/modules/bug_reporter/BugReporterExperiment.tsx"]}
 {"find_with":["user","2026-03-notification-load-messages","variations"],"paths":["app/modules/cache/NotificationLoadMessagesExperiment.tsx"]}
 {"find_with":["user","2026-06-ios-broadcast-upload-dispose-fix","variations"],"paths":["app/modules/calls/BroadcastUploadDisposeFixExperiment.tsx"]}
@@ -55,6 +54,7 @@
 {"find_with":["user","2026-02-game-community-upsell-multi","variations"],"paths":["app/modules/game_community_upsell/native/GameCommunityUpsellExperiment.tsx"]}
 {"find_with":["user","2026-03-churro","variations"],"paths":["app/modules/game_console/PlayStationVoiceExperiment.tsx"]}
 {"find_with":["user","2026-05-game-mentions-v2","variations"],"paths":["app/modules/game_mentions/GameMentionsExperiment.tsx"]}
+{"find_with":["user","2026-06-game-autocomplete-search","variations"],"paths":["app/modules/games/autocomplete/GameAutocompleteExperiment.tsx"]}
 {"find_with":["user","2026-02-private-channel-hiding","variations"],"paths":["app/modules/gateway/PrivateChannelHidingExperiment.tsx"]}
 {"find_with":["user","2025-10-gif-providers-multi-treatment","variations"],"paths":["app/modules/gif_picker/experiments/GifProvidersExperiment.tsx"]}
 {"find_with":["user","2025-01-allow-nonstaff-to-preview-app-collections","variations"],"paths":["app/modules/global_discovery_apps/AllowNonStaffToPreviewAppCollectionsExperiment.tsx"]}
@@ -143,7 +143,7 @@
 {"find_with":["user","2026-06-android-two-week-trials","variations"],"paths":["app/modules/premium/experiments/AndroidTwoWeekTrialsExperiment.tsx"]}
 {"find_with":["user","2026-03-bogo-promotion-gate-v2","variations"],"paths":["app/modules/premium/experiments/BogoPromotionExperiment.tsx"]}
 {"find_with":["user","2026-03-denormalized-perks-access-read","variations"],"paths":["app/modules/premium/experiments/DenormalizedPerksReadExperiment.tsx"]}
-{"find_with":["user","2025-10-friendship-anniversary-gifting","variations"],"paths":["app/modules/premium/experiments/FriendAnniversariesExperiment.tsx"]}
+{"find_with":["user","2026-06-friendship-anniversary-backend-persistence","variations"],"paths":["app/modules/premium/experiments/FriendshipAnniversaryBackendPersistenceExperiment.tsx"]}
 {"find_with":["user","2026-06-macaron","variations"],"paths":["app/modules/premium/experiments/MobileNitroManageSubscriptionsSettingsExperiment.tsx"]}
 {"find_with":["user","2026-02-premium-offer-reminder-xp","variations"],"paths":["app/modules/premium/experiments/PremiumOfferReminderExperiment.tsx"]}
 {"find_with":["user","2025-09-premium-trial-offer-action-sheet-ks","variations"],"paths":["app/modules/premium/experiments/PremiumTrialOfferActionSheetKillSwitchExperiment.tsx"]}
@@ -175,9 +175,10 @@
 {"find_with":["user","2026-06-bounty-use-video-modal-mobile-placement-experiment","variations"],"paths":["app/modules/quests/experiments/BountyUseVideoModalMobilePlacementExperiment.tsx"]}
 {"find_with":["user","2026-01-less-personalized-ads","variations"],"paths":["app/modules/quests/experiments/LessPersonalizedAdsExperiment.tsx"]}
 {"find_with":["user","2025-10-ad-request-behavior-experiment","variations"],"paths":["app/modules/quests/experiments/NewAdRequestBehaviorExperiment.tsx"]}
+{"find_with":["user","2026-06-orbs-holdout","variations"],"paths":["app/modules/quests/experiments/OrbsHoldoutExperiment.tsx"]}
+{"find_with":["user","2026-06-quest-fetch-reconnect-jitter","variations"],"paths":["app/modules/quests/experiments/QuestFetchReconnectJitterExperiment.tsx"]}
 {"find_with":["user","2026-03-quest-home-bounties","variations"],"paths":["app/modules/quests/experiments/QuestHomeBountiesExperiment.tsx"]}
 {"find_with":["user","2026-06-game-profile-in-quickswitcher","variations"],"paths":["app/modules/quickswitcher/GameProfileInQuickswitcherExperiment.tsx"]}
-{"find_with":["user","2026-01-reply-nudge","variations"],"paths":["app/modules/reply_nudge/ReplyNudgeExperiment.tsx"]}
 {"find_with":["user","2024-09_secure_frames_deeplink","treatments"],"paths":["app/modules/rtc/SecureFramesDeeplinkExperiment.tsx"]}
 {"find_with":["user","2026-04-safety-flows","variations"],"paths":["app/modules/safety_flows/SafetyFlowsExperiment.tsx"]}
 {"find_with":["user","2026-03-message-bookmarks","variations"],"paths":["app/modules/saved_messages/ForLaterExperiment.tsx"]}

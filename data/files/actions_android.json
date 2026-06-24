@@ -1059,6 +1059,13 @@
         ]
     },
     {
+        "path": "app/modules/contact_sync/native/ContactSyncActionCreators.tsx",
+        "functions_names": [
+            "_updateDiscoverability",
+            "updateDiscoverability"
+        ]
+    },
+    {
         "path": "app/modules/contact_sync/native/ContactSyncModalActionCreators.tsx",
         "functions_names": [
             "handleNameInputScreenOrSuggestions",
@@ -1339,6 +1346,14 @@
         ]
     },
     {
+        "path": "app/modules/games/autocomplete/GameAutocompleteActionCreators.tsx",
+        "flux_events": [
+            "GAME_AUTOCOMPLETE_FETCH_SUCCESS",
+            "GAME_AUTOCOMPLETE_FETCH_FAILURE",
+            "GAME_AUTOCOMPLETE_FETCH"
+        ]
+    },
+    {
         "path": "app/modules/games/GameActionCreators.tsx",
         "flux_events": [
             "GAME_FETCH_SUCCESS",
@@ -1442,11 +1457,16 @@
             "openMemberVerificationCancelPendingAlert",
             "importer",
             "closeMemberVerificationAlert",
+            "openMemberVerificationSuccessAlert",
             "importer",
+            "openMemberVerificationPendingAlert",
             "importer",
+            "openMemberVerificationRejectedAlert",
             "onPress",
             "importer",
+            "openMemberVerificationUpdateAlert",
             "importer",
+            "openMemberVerificationIncompleteAlert",
             "importer"
         ]
     },
@@ -2189,14 +2209,6 @@
         ]
     },
     {
-        "path": "app/modules/reply_nudge/ReplyNudgeActionCreators.tsx",
-        "flux_events": [
-            "REPLY_NUDGES_INITIALIZED",
-            "REPLY_NUDGE_CLEAR",
-            "REPLY_NUDGE_SET"
-        ]
-    },
-    {
         "path": "app/modules/rtc/SecureFramesActionCreators.tsx",
         "flux_events": [
             "SECURE_FRAMES_UPLOADED_KEY_VERSION_CLEAR",
@@ -2461,6 +2473,12 @@
             "USER_APPLICATION_IDENTITY_FETCH_USER_SUCCESS",
             "USER_APPLICATION_IDENTITY_FETCH_USER_FAILURE",
             "USER_APPLICATION_IDENTITY_FETCH_USER_START"
+        ]
+    },
+    {
+        "path": "app/modules/user_profile/native/EditCollectiblesActionCreators.tsx",
+        "functions_names": [
+            "navigateToNitroManagement"
         ]
     },
     {

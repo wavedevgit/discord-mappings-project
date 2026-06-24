@@ -102,12 +102,6 @@
         "keyRequired": "variations"
     },
     {
-        "path": "app/modules/billing/experiments/StoreCountryExperiment.tsx",
-        "kind": "user",
-        "id": "2026-03-store-country",
-        "keyRequired": "variations"
-    },
-    {
         "path": "app/modules/bug_reporter/BugReporterExperiment.tsx",
         "kind": "user",
         "id": "2026-01-bug-reporter",
@@ -365,6 +359,12 @@
         "path": "app/modules/game_mentions/GameMentionsExperiment.tsx",
         "kind": "user",
         "id": "2026-05-game-mentions-v2",
+        "keyRequired": "variations"
+    },
+    {
+        "path": "app/modules/games/autocomplete/GameAutocompleteExperiment.tsx",
+        "kind": "user",
+        "id": "2026-06-game-autocomplete-search",
         "keyRequired": "variations"
     },
     {
@@ -896,9 +896,9 @@
         "keyRequired": "variations"
     },
     {
-        "path": "app/modules/premium/experiments/FriendAnniversariesExperiment.tsx",
+        "path": "app/modules/premium/experiments/FriendshipAnniversaryBackendPersistenceExperiment.tsx",
         "kind": "user",
-        "id": "2025-10-friendship-anniversary-gifting",
+        "id": "2026-06-friendship-anniversary-backend-persistence",
         "keyRequired": "variations"
     },
     {
@@ -1088,6 +1088,18 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/quests/experiments/OrbsHoldoutExperiment.tsx",
+        "kind": "user",
+        "id": "2026-06-orbs-holdout",
+        "keyRequired": "variations"
+    },
+    {
+        "path": "app/modules/quests/experiments/QuestFetchReconnectJitterExperiment.tsx",
+        "kind": "user",
+        "id": "2026-06-quest-fetch-reconnect-jitter",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/quests/experiments/QuestHomeBountiesExperiment.tsx",
         "kind": "user",
         "id": "2026-03-quest-home-bounties",
@@ -1097,12 +1109,6 @@
         "path": "app/modules/quickswitcher/GameProfileInQuickswitcherExperiment.tsx",
         "kind": "user",
         "id": "2026-06-game-profile-in-quickswitcher",
-        "keyRequired": "variations"
-    },
-    {
-        "path": "app/modules/reply_nudge/ReplyNudgeExperiment.tsx",
-        "kind": "user",
-        "id": "2026-01-reply-nudge",
         "keyRequired": "variations"
     },
     {
