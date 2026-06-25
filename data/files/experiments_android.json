@@ -794,12 +794,6 @@
         "keyRequired": "variations"
     },
     {
-        "path": "app/modules/notifications/gdm_all_reaction_notifications/GdmAllReactionNotificationsExperiment.tsx",
-        "kind": "user",
-        "id": "2026-02-gdm-all-reaction-notifications",
-        "keyRequired": "variations"
-    },
-    {
         "path": "app/modules/notifications/IOSPushNotificationRawPayloadFixExperiment.tsx",
         "kind": "user",
         "id": "2026-01-ios-push-notif-json-fix",

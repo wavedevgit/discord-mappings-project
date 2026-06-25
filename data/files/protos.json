@@ -388,6 +388,8 @@
             "discord_protos.users.v1.AprilFools2026Badge",
             "discord_protos.users.v1.Badge",
             "discord_protos.users.v1.UserBadges",
+            "discord_protos.users.v1.AnonymizationStatus",
+            "discord_protos.users.v1.AnonymizationInfo",
             "discord_protos.users.v1.UserData",
             "discord_protos.users.v1.AgeAssuranceMethod",
             "discord_protos.users.v1.AgeAssuranceVendor",
