@@ -1,6 +1,6 @@
 {
-  "build": "5838",
-  "commit": "63a3e3daa9d417869301b13e68069c5d656530cd",
+  "build": "5846",
+  "commit": "400968477e0987ca81c93c3dbedf3347db755fe3",
   "files": {
     "app/actions/ActivitiesActionCreators.tsx": 18347,
     "app/actions/AlertActionCreators.tsx": 726,
@@ -10751,10 +10751,6 @@
     "app/src/main/res/drawable-xhdpi/images_native_icons_ic_wand.png",
     "app/src/main/res/drawable-xhdpi/images_native_icons_ic_warning_24px.png",
     "app/src/main/res/drawable-xhdpi/images_native_icons_ic_xbox_24px.png",
-    "app/src/main/res/drawable-xhdpi/images_native_icons_premium_ic_sparkle_basic_gradient.png",
-    "app/src/main/res/drawable-xhdpi/images_native_icons_premium_ic_sparkle_nitro_gradient.png",
-    "app/src/main/res/drawable-xhdpi/images_native_icons_premium_ic_star_basic_gradient.png",
-    "app/src/main/res/drawable-xhdpi/images_native_icons_premium_ic_star_nitro_gradient.png",
     "app/src/main/res/drawable-xhdpi/images_native_icons_settings_ic_qr_code_24px.png",
     "app/src/main/res/drawable-xhdpi/images_native_icons_share.png",
     "app/src/main/res/drawable-xhdpi/images_native_icons_small.png",
@@ -11869,10 +11865,6 @@
     "app/src/main/res/drawable-xxhdpi/images_native_icons_ic_wand.png",
     "app/src/main/res/drawable-xxhdpi/images_native_icons_ic_warning_24px.png",
     "app/src/main/res/drawable-xxhdpi/images_native_icons_ic_xbox_24px.png",
-    "app/src/main/res/drawable-xxhdpi/images_native_icons_premium_ic_sparkle_basic_gradient.png",
-    "app/src/main/res/drawable-xxhdpi/images_native_icons_premium_ic_sparkle_nitro_gradient.png",
-    "app/src/main/res/drawable-xxhdpi/images_native_icons_premium_ic_star_basic_gradient.png",
-    "app/src/main/res/drawable-xxhdpi/images_native_icons_premium_ic_star_nitro_gradient.png",
     "app/src/main/res/drawable-xxhdpi/images_native_icons_settings_ic_qr_code_24px.png",
     "app/src/main/res/drawable-xxhdpi/images_native_icons_share.png",
     "app/src/main/res/drawable-xxhdpi/images_native_icons_small.png",
@@ -13712,7 +13704,6 @@
     "app/src/main/res/raw/modules_safety_flows_safetyflowscompiledmessages.jsona",
     "app/src/main/res/raw/modules_self_remediation_feedback_selfremediationfeedbackcompiledmessages.jsona",
     "app/src/main/res/raw/modules_slayer_storefront_intl_slayerstorefrontcompiledmessages.jsona",
-    "app/src/main/res/raw/modules_slayer_storefront_intl_slayerstorefrontuntranslatedcompiledmessages.jsona",
     "app/src/main/res/raw/modules_spatial_audio_spatialaudiocompiledmessages.jsona",
     "app/src/main/res/raw/modules_video_player_videoplayercompiledmessages.jsona"
   ]
