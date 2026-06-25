@@ -970,7 +970,9 @@
         "path": "app/modules/billing/actions/StripeActionCreators.tsx",
         "functions_names": [
             "_createStripeSetupIntent",
-            "createStripeSetupIntent"
+            "_createSetupIntentForPaymentElements",
+            "createStripeSetupIntent",
+            "createSetupIntentForPaymentElements"
         ]
     },
     {
@@ -1183,12 +1185,6 @@
             "DCF_HANDLE_DC_DISMISSED",
             "DCF_DAILY_CAP_OVERRIDE",
             "DCF_HANDLE_DC_SHOWN"
-        ]
-    },
-    {
-        "path": "app/modules/double_tap_to_react/native/DoubleTapChatInputBannerActionCreators.tsx",
-        "flux_events": [
-            "UPDATE_FORCE_SHOW_DOUBLE_TAP_TO_REACT_BANNER"
         ]
     },
     {
@@ -1955,6 +1951,12 @@
             "FAMILY_CENTER_TEEN_UPDATE_SETTINGS_SUCCESS",
             "FAMILY_CENTER_TEEN_CONSENTS_UPDATE_SUCCESS",
             "FAMILY_CENTER_REQUEST_LINK_UPDATE_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/modules/parent_tools/native/ParentalConsentWarningActionCreators.tsx",
+        "flux_events": [
+            "PARENTAL_CONSENT_WARNING_FETCH_SUCCESS"
         ]
     },
     {

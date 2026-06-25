@@ -2,11 +2,13 @@
 {"find_with":["user","2026-03-mobile-accessibility-label-optimization","variations"],"paths":["app/modules/a11y/native/AccessibilityLabelOptimizationExperiment.tsx"]}
 {"find_with":["user","2026-02-activity-privacy-matching","variations"],"paths":["app/modules/activity_privacy/ActivityPrivacyMatchingExperiment.tsx"]}
 {"find_with":["user","2025-11-age-verification-expressive-everywhere","variations"],"paths":["app/modules/age_assurance/AgeVerificationExpressiveModalEverywhereExperiment.tsx"]}
+{"find_with":["user","2026-06-age-verification-incode","variations"],"paths":["app/modules/age_assurance/AgeVerificationIncodeExperiment.tsx"]}
 {"find_with":["user","2026-03-age-verification-google-wallet","variations"],"paths":["app/modules/age_assurance/GoogleWalletExperiment.tsx"]}
 {"find_with":["user","2025-11-hide-manual-link","variations"],"paths":["app/modules/age_assurance/HideManualAgeVerificationExperiment.tsx"]}
 {"find_with":["user","2026-01-age-and-parental-consent-check","variations"],"paths":["app/modules/age_assurance/native/ParentalConsentExperiment.tsx"]}
 {"find_with":["user","2025-09-server-nsfw-level","variations"],"paths":["app/modules/age_gate/ServerNSFWLevelExperiment.tsx"]}
 {"find_with":["user","2026-02-client-heartbeat-skipped","variations"],"paths":["app/modules/analytics_sessions/SkippedClientHeartbeatExperiment.tsx"]}
+{"find_with":["user","2026-06-clickstream-analytics","variations"],"paths":["app/modules/app_analytics/clickstream/ClickstreamExperiment.tsx"]}
 {"find_with":["user","2026-02-mobile-account-linking","variations"],"paths":["app/modules/application_account_linking/experiments/mobileAccountLinkingExperiment.tsx"]}
 {"find_with":["user","2026-04-valorant-social-sdk","variations"],"paths":["app/modules/application_account_linking/experiments/valorantSocialSDKExperiment.tsx"]}
 {"find_with":["user","2026-05-age-restricted-application-commands","variations"],"paths":["app/modules/application_commands/AgeRestrictedApplicationCommandsExperiment.tsx"]}
@@ -43,7 +45,6 @@
 {"find_with":["user","2025-12-rive-mobile-renderer","variations"],"paths":["app/modules/design/RiveMobileRendererExperiment.tsx"]}
 {"find_with":["user","2026-05-dice-roll-slash-command","variations"],"paths":["app/modules/dice_roll/DiceRollExperiment.tsx"]}
 {"find_with":["user","2026-06-gummy-bears","variations"],"paths":["app/modules/display_name_styles/DisplayNameStylesFlywheelExperiment.tsx"]}
-{"find_with":["user","2026-02-double-tap-expand","variations"],"paths":["app/modules/double_tap_to_react/native/DoubleTapExpandExperiment.tsx"]}
 {"find_with":["user","2025-10-emoji-search-ranking-tweaks","variations"],"paths":["app/modules/emojis/EmojiSearchRankingTweaksExperiment.tsx"]}
 {"find_with":["user","2026-03-debug-experiment","variations"],"paths":["app/modules/experiments/apex/DebugExperiment.tsx"]}
 {"find_with":["user","2025-09-sensitive-content-self-harm","variations"],"paths":["app/modules/explicit_media_redaction/SensitiveContentSelfHarmExperiment.tsx"]}
@@ -84,7 +85,6 @@
 {"find_with":["user","2026-04-create-dm-location","variations"],"paths":["app/modules/main_tabs_v2/native/tabs/messages/CreateDMLocationExperiment.tsx"]}
 {"find_with":["user","2026-05-mobile-referral-subscriber-profile-entrypoint-button","variations"],"paths":["app/modules/main_tabs_v2/native/tabs/you/MobileReferralSubscriberProfileEntrypointButtonExperiment.tsx"]}
 {"find_with":["user","2026-04-you-nav-floating","variations"],"paths":["app/modules/main_tabs_v2/native/tabs/you/YouNavFloatingExperiment.tsx"]}
-{"find_with":["user","2026-01-you-bar","variations"],"paths":["app/modules/main_tabs_v2/YouBarExperiment.tsx"]}
 {"find_with":["user","2025-09-agc2-v2","variations"],"paths":["app/modules/media_engine/AGC2Experiment.tsx"]}
 {"find_with":["user","2026-03-audio-effects-probe","variations"],"paths":["app/modules/media_engine/AudioEffectsExperiment.tsx"]}
 {"find_with":["user","2026-05-av1-bitrate-tuning","variations"],"paths":["app/modules/media_engine/AV1BitrateTuningExperiment.tsx"]}

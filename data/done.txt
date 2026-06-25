@@ -111,6 +111,7 @@ app/modules/activity_privacy/ActivityPrivacyMatchingExperiment.tsx
 app/modules/ads/AdPersonalizationStore.tsx
 app/modules/ads/native/AdUserStore.tsx
 app/modules/age_assurance/AgeVerificationExpressiveModalEverywhereExperiment.tsx
+app/modules/age_assurance/AgeVerificationIncodeExperiment.tsx
 app/modules/age_assurance/AgeVerificationStore.tsx
 app/modules/age_assurance/AgeVerificationURLActionCreators.tsx
 app/modules/age_assurance/GoogleWalletExperiment.tsx
@@ -123,6 +124,7 @@ app/modules/age_gate/AgeGateModalActionCreators.tsx
 app/modules/age_gate/AgeGateStore.tsx
 app/modules/age_gate/ServerNSFWLevelExperiment.tsx
 app/modules/analytics_sessions/SkippedClientHeartbeatExperiment.tsx
+app/modules/app_analytics/clickstream/ClickstreamExperiment.tsx
 app/modules/app_analytics/ImpressionStore.tsx
 app/modules/app_database/modules/messages/SaveableChannelsStore.tsx
 app/modules/app_database/stores/BasicChannelCacheStore.tsx
@@ -270,9 +272,6 @@ app/modules/dismissible_content/DismissibleContentFrameworkActionCreators.tsx
 app/modules/dismissible_content/DismissibleContentFrameworkStore.tsx
 app/modules/dismissible_content/DismissibleContentShownStateStore.tsx
 app/modules/display_name_styles/DisplayNameStylesFlywheelExperiment.tsx
-app/modules/double_tap_to_react/native/DoubleTapChatInputBannerActionCreators.tsx
-app/modules/double_tap_to_react/native/DoubleTapChatInputBannerStore.tsx
-app/modules/double_tap_to_react/native/DoubleTapExpandExperiment.tsx
 app/modules/emojis/EmojiActionCreators.tsx
 app/modules/emojis/EmojiSearchRankingTweaksExperiment.tsx
 app/modules/emojis/EmojiStore.tsx
@@ -444,7 +443,6 @@ app/modules/guild_sidebar/ChannelListVoiceCategoryStore.tsx
 app/modules/guild_sidebar/SidebarVisibilityMethodStore.tsx
 app/modules/guild_sidebar/VoiceCategoryActionCreators.tsx
 app/modules/guild_tag/GuildTagActionCreators.tsx
-app/modules/guild_tag/stores/GuildTagChangedCoachmarkStore.tsx
 app/modules/guild_templates/AcceptGuildTemplateActionCreators.tsx
 app/modules/guild_templates/GuildTemplateActionCreators.tsx
 app/modules/guild_templates/GuildTemplateStore.tsx
@@ -512,7 +510,6 @@ app/modules/main_tabs_v2/native/sidebar/details/stores/ChannelDetailsStore.tsx
 app/modules/main_tabs_v2/native/tabs/messages/CreateDMLocationExperiment.tsx
 app/modules/main_tabs_v2/native/tabs/you/MobileReferralSubscriberProfileEntrypointButtonExperiment.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouNavFloatingExperiment.tsx
-app/modules/main_tabs_v2/YouBarExperiment.tsx
 app/modules/media_channel/MediaChannelActionCreators.tsx
 app/modules/media_channel/MediaPostEmbedStore.tsx
 app/modules/media_channel/MediaPostSharePromptStore.tsx
@@ -612,6 +609,8 @@ app/modules/parent_tools/FamilyCenterControlledSettingsStore.tsx
 app/modules/parent_tools/FamilyCenterPendingConnectionStore.tsx
 app/modules/parent_tools/FamilyCenterStore.tsx
 app/modules/parent_tools/FamilyCenterV3Experiment.tsx
+app/modules/parent_tools/native/ParentalConsentWarningActionCreators.tsx
+app/modules/parent_tools/native/ParentalConsentWarningStore.tsx
 app/modules/parent_tools/ParentalConsentStore.tsx
 app/modules/parent_tools/RestrictedScheduleActionCreators.tsx
 app/modules/payments/native/OrderActionCreators.tsx

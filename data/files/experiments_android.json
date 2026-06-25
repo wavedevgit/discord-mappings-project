@@ -32,6 +32,12 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/age_assurance/AgeVerificationIncodeExperiment.tsx",
+        "kind": "user",
+        "id": "2026-06-age-verification-incode",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/age_assurance/GoogleWalletExperiment.tsx",
         "kind": "user",
         "id": "2026-03-age-verification-google-wallet",
@@ -59,6 +65,12 @@
         "path": "app/modules/analytics_sessions/SkippedClientHeartbeatExperiment.tsx",
         "kind": "user",
         "id": "2026-02-client-heartbeat-skipped",
+        "keyRequired": "variations"
+    },
+    {
+        "path": "app/modules/app_analytics/clickstream/ClickstreamExperiment.tsx",
+        "kind": "user",
+        "id": "2026-06-clickstream-analytics",
         "keyRequired": "variations"
     },
     {
@@ -285,12 +297,6 @@
         "path": "app/modules/display_name_styles/DisplayNameStylesFlywheelExperiment.tsx",
         "kind": "user",
         "id": "2026-06-gummy-bears",
-        "keyRequired": "variations"
-    },
-    {
-        "path": "app/modules/double_tap_to_react/native/DoubleTapExpandExperiment.tsx",
-        "kind": "user",
-        "id": "2026-02-double-tap-expand",
         "keyRequired": "variations"
     },
     {
@@ -539,12 +545,6 @@
         "path": "app/modules/main_tabs_v2/native/tabs/you/YouNavFloatingExperiment.tsx",
         "kind": "user",
         "id": "2026-04-you-nav-floating",
-        "keyRequired": "variations"
-    },
-    {
-        "path": "app/modules/main_tabs_v2/YouBarExperiment.tsx",
-        "kind": "user",
-        "id": "2026-01-you-bar",
         "keyRequired": "variations"
     },
     {

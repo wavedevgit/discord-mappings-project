@@ -1238,7 +1238,6 @@ app/lib/StateManager.tsx
 app/lib/superagentPatch.tsx
 app/lib/SystemResources.tsx
 app/lib/SystemResponsiveness.tsx
-app/lib/TapSequencer.tsx
 app/lib/uploader_inline/InlineUploader.tsx
 app/lib/uploader_inline/originalMd5Header.tsx
 app/lib/uploader_inline/safetyScannedUploadSurfaces.tsx
@@ -1499,6 +1498,7 @@ app/modules/age_assurance/GoogleWalletActionCreators.tsx
 app/modules/age_assurance/hooks/useAgeVerificationMethods.tsx
 app/modules/age_assurance/native/AgeVerificationEmbeddedIntroScreen.tsx
 app/modules/age_assurance/native/AgeVerificationGetStartedModal.tsx
+app/modules/age_assurance/native/AgeVerificationIncodeUnsupportedAlertModal.tsx
 app/modules/age_assurance/native/AgeVerificationIntroScreen.tsx
 app/modules/age_assurance/native/AgeVerificationMethodsContainer.tsx
 app/modules/age_assurance/native/AgeVerificationModal.tsx
@@ -2342,8 +2342,10 @@ app/modules/collectibles/profile_effects/useClock.tsx
 app/modules/collectibles/profile_effects/useProfileEffect.tsx
 app/modules/collectibles/profile_effects/useProfileEffectSections.tsx
 app/modules/collectibles/profile_effects/utils.tsx
+app/modules/collectibles/profile_frames/hooks/useMaybeFetchProfileFrame.tsx
 app/modules/collectibles/profile_frames/hooks/useMaybeTrackProfileFrameViewed.tsx
 app/modules/collectibles/profile_frames/hooks/useProfileFrame.tsx
+app/modules/collectibles/profile_frames/hooks/useProfileFrameSections.tsx
 app/modules/collectibles/profile_frames/native/EditProfileFrameSection.tsx
 app/modules/collectibles/profile_frames/native/previews/ProfileFrameSamplePreview.tsx
 app/modules/collectibles/profile_frames/native/previews/ProfileFrameUserPreview.tsx
@@ -2351,8 +2353,6 @@ app/modules/collectibles/profile_frames/native/ProfileFrame.tsx
 app/modules/collectibles/profile_frames/native/ProfileFrameConstants.tsx
 app/modules/collectibles/profile_frames/native/useProfileFrameLayerAsset.tsx
 app/modules/collectibles/profile_frames/scaleProfileFrame.tsx
-app/modules/collectibles/profile_frames/useMaybeFetchProfileFrame.tsx
-app/modules/collectibles/profile_frames/useProfileFrameSections.tsx
 app/modules/collectibles/records/AvatarDecorationRecord.tsx
 app/modules/collectibles/records/BaseCollectibesItemRecord.tsx
 app/modules/collectibles/records/CollectiblesBundledProductRecord.tsx
@@ -3690,6 +3690,8 @@ app/modules/guild_settings/native/GuildSettingsModalMembersWrapper.tsx
 app/modules/guild_settings/native/GuildSettingsModalOfficialMessages.tsx
 app/modules/guild_settings/native/GuildSettingsModalOverview.tsx
 app/modules/guild_settings/native/GuildSettingsModalServerTag.tsx
+app/modules/guild_settings/native/GuildSettingsServerTagPreview.tsx
+app/modules/guild_settings/native/GuildSettingsServerTagUpsellCard.tsx
 app/modules/guild_settings/native/MembersFilterActionSheet.tsx
 app/modules/guild_settings/native/MembersPruneActionSheet.tsx
 app/modules/guild_settings/native/showEmojiOverflowActionSheet.tsx
@@ -3764,12 +3766,10 @@ app/modules/guild_sidebar/showChannelBadge.tsx
 app/modules/guild_sidebar/showChannelItemEmbeddedActivities.tsx
 app/modules/guild_sidebar/useGuildActionRows.tsx
 app/modules/guild_sidebar/useShowConnectedUserLimit.tsx
-app/modules/guild_tag/GuildTagCoachmarkUtils.tsx
 app/modules/guild_tag/GuildTagConstants.tsx
 app/modules/guild_tag/GuildTagTypes.tsx
 app/modules/guild_tag/GuildTagUtils.tsx
 app/modules/guild_tag/native/GuildTag.tsx
-app/modules/guild_tag/native/useGuildTagCoachmark.tsx
 app/modules/guild_tag/native/VoiceGuildTag.tsx
 app/modules/guild_tag/PrimaryGuildUtils.tsx
 app/modules/guild_tag/useUserAvailableGuildsWithTags.tsx
@@ -4148,7 +4148,6 @@ app/modules/keyboard/native/useSystemKeyboardHeight.tsx
 app/modules/labs/LabFeatureActions.tsx
 app/modules/labs/LabFeatures.tsx
 app/modules/labs/useLabFeature.tsx
-app/modules/launch_welcome/native/LaunchWelcomeNuxContainer.tsx
 app/modules/launch_welcome/native/useLaunchWelcomeNux.tsx
 app/modules/launchpad/native/hideLaunchPad.tsx
 app/modules/launchpad/native/isGuildSelectable.tsx
@@ -4300,7 +4299,6 @@ app/modules/main_tabs_v2/native/panels/useChannelScreensFromNavigation.tsx
 app/modules/main_tabs_v2/native/panels/useMainTabsChannelScreenStyles.tsx
 app/modules/main_tabs_v2/native/panels/useMainTabsPanelsGesture.tsx
 app/modules/main_tabs_v2/native/shared_components/BackIconWithBadge.tsx
-app/modules/main_tabs_v2/native/shared_components/BadgableTabBarIcon.tsx
 app/modules/main_tabs_v2/native/shared_components/Badge.tsx
 app/modules/main_tabs_v2/native/shared_components/ChannelRowPreview.tsx
 app/modules/main_tabs_v2/native/shared_components/GroupAvatar.tsx
@@ -4354,8 +4352,6 @@ app/modules/main_tabs_v2/native/shared_components/navigator/PressableNavigatorMo
 app/modules/main_tabs_v2/native/shared_components/SearchBarNav.tsx
 app/modules/main_tabs_v2/native/shared_components/SearchButton.tsx
 app/modules/main_tabs_v2/native/shared_components/tab_bar/useTabBarStyles.tsx
-app/modules/main_tabs_v2/native/shared_components/tab_bar/useTabBarTabListeners.tsx
-app/modules/main_tabs_v2/native/shared_components/tab_bar/useTabBarTabOptions.tsx
 app/modules/main_tabs_v2/native/shared_components/user_list/ChannelRow.tsx
 app/modules/main_tabs_v2/native/shared_components/user_list/GroupDMRow.tsx
 app/modules/main_tabs_v2/native/shared_components/user_list/GuildChannelUserList.tsx
@@ -4403,7 +4399,6 @@ app/modules/main_tabs_v2/native/tabs/guilds/empty_states/GuildsEmpty.tsx
 app/modules/main_tabs_v2/native/tabs/guilds/GuildProgressButton.tsx
 app/modules/main_tabs_v2/native/tabs/guilds/Guilds.tsx
 app/modules/main_tabs_v2/native/tabs/guilds/HomePanelContent.tsx
-app/modules/main_tabs_v2/native/tabs/guilds/useGuildsTabBadge.tsx
 app/modules/main_tabs_v2/native/tabs/messages/items/channel/MessagesItemChannelAvatar.tsx
 app/modules/main_tabs_v2/native/tabs/messages/items/channel/MessagesItemChannelBase.tsx
 app/modules/main_tabs_v2/native/tabs/messages/items/channel/MessagesItemChannelContent.tsx
@@ -4424,11 +4419,9 @@ app/modules/main_tabs_v2/native/tabs/messages/useMessagesData.tsx
 app/modules/main_tabs_v2/native/tabs/messages/useMessagesReconnectToCallsEffect.tsx
 app/modules/main_tabs_v2/native/tabs/messages/useMessagesScrollToTop.tsx
 app/modules/main_tabs_v2/native/tabs/messages/useMessagesSpecs.tsx
-app/modules/main_tabs_v2/native/tabs/messages/useMessagesTabBadge.tsx
 app/modules/main_tabs_v2/native/tabs/notifications/Notifications.tsx
 app/modules/main_tabs_v2/native/tabs/notifications/useNotificationsTabBadge.tsx
 app/modules/main_tabs_v2/native/tabs/settings/Settings.tsx
-app/modules/main_tabs_v2/native/tabs/settings/useSettingsTabBadge.tsx
 app/modules/main_tabs_v2/native/tabs/TabsPerformanceTracker.tsx
 app/modules/main_tabs_v2/native/tabs/you/FocusModeOptionsActionSheet.tsx
 app/modules/main_tabs_v2/native/tabs/you/hooks/useShouldShowExpiringTrialOfferCard.tsx
@@ -4444,8 +4437,6 @@ app/modules/main_tabs_v2/native/tabs/you/YouScreen.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouScreenNavIcon.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouSettingsCoachmark.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouTabBarBackground.tsx
-app/modules/main_tabs_v2/native/TabsNavigator.tsx
-app/modules/main_tabs_v2/native/utils/getLabelRenderMethod.tsx
 app/modules/main_tabs_v2/native/utils/getNavigationModalPresentation.tsx
 app/modules/main_tabs_v2/native/utils/ModalStackNavigator.tsx
 app/modules/main_tabs_v2/native/utils/useNavigatorConfirmChangesOnBack.tsx
@@ -4642,7 +4633,6 @@ app/modules/message_request/native/RestrictedMessagePreviewActions.tsx
 app/modules/message_request/native/RestrictedMessagePreviewHeader.tsx
 app/modules/message_request/native/RestrictedMessagePreviewList.tsx
 app/modules/message_request/native/RestrictedMessageRequestPreview.tsx
-app/modules/message_request/native/RestrictedMessageRequestRow.tsx
 app/modules/message_request/native/spam/SpamMessageHamActionSheet.tsx
 app/modules/message_request/native/spam/SpamMessageList.tsx
 app/modules/messages/ApplicationCommands.tsx
@@ -5107,6 +5097,7 @@ app/modules/parent_tools/hooks/useFormattedEndTime.tsx
 app/modules/parent_tools/hooks/useHelpLineVisibility.tsx
 app/modules/parent_tools/hooks/useIsInAdultAgeGroup.tsx
 app/modules/parent_tools/hooks/useIsInRestrictedHours.tsx
+app/modules/parent_tools/hooks/useIsOnMainSurface.tsx
 app/modules/parent_tools/hooks/useParentalControlSettings.tsx
 app/modules/parent_tools/hooks/useScheduleTimeControlsRowProps.tsx
 app/modules/parent_tools/hooks/useSelectedTab.tsx
@@ -5118,6 +5109,7 @@ app/modules/parent_tools/hooks/useUserIsConsideredAdult.tsx
 app/modules/parent_tools/hooks/useUserIsTeenAgeGroup.tsx
 app/modules/parent_tools/hooks/useUserLinks.tsx
 app/modules/parent_tools/native/ChangeSpendingLimitModal.tsx
+app/modules/parent_tools/native/ConnectGuardianBottomSheet.tsx
 app/modules/parent_tools/native/ConnectGuardianCard.tsx
 app/modules/parent_tools/native/FamilyCenterAcceptedLinks.tsx
 app/modules/parent_tools/native/FamilyCenterActivityBanner.tsx
@@ -5145,6 +5137,7 @@ app/modules/parent_tools/native/FamilyCenterModalDisconnect.tsx
 app/modules/parent_tools/native/FamilyCenterModalQRCode.tsx
 app/modules/parent_tools/native/FamilyCenterModalRequest.tsx
 app/modules/parent_tools/native/FamilyCenterNativeUtils.tsx
+app/modules/parent_tools/native/FamilyCenterParentalConsentNotice.tsx
 app/modules/parent_tools/native/FamilyCenterParentalControlsContentAndSocial.tsx
 app/modules/parent_tools/native/FamilyCenterParentalControlsDataAndPrivacy.tsx
 app/modules/parent_tools/native/FamilyCenterParentalControlsScreenTime.tsx
@@ -5156,8 +5149,14 @@ app/modules/parent_tools/native/FamilyCenterTopActivity.tsx
 app/modules/parent_tools/native/FamilyCenterTopServersBottomSheet.tsx
 app/modules/parent_tools/native/FamilyCenterTopUsersBottomSheet.tsx
 app/modules/parent_tools/native/FamilyCenterUsernameHeader.tsx
+app/modules/parent_tools/native/ParentalConsentWarningBanner.tsx
+app/modules/parent_tools/native/ParentalConsentWarningManager.tsx
 app/modules/parent_tools/native/RestrictedHoursModal.tsx
 app/modules/parent_tools/native/ScheduleDowntimeScreen.tsx
+app/modules/parent_tools/native/showSpendingLimitReachedAlert.tsx
+app/modules/parent_tools/native/useIsParentalConsentBannerActive.tsx
+app/modules/parent_tools/native/useParentalConsentWarning.tsx
+app/modules/parent_tools/ParentalConsentWarningTypes.tsx
 app/modules/parent_tools/RestrictedHoursActionCreators.tsx
 app/modules/parent_tools/RestrictedHoursManager.tsx
 app/modules/parent_tools/RestrictedScheduleNotificationUtils.tsx
@@ -5337,7 +5336,6 @@ app/modules/premium/native/hooks/usePremiumProductPricingString.tsx
 app/modules/premium/native/hooks/useSelectPremiumGift.tsx
 app/modules/premium/native/IAPManager.android.tsx
 app/modules/premium/native/launchPremiumPlanSelect.tsx
-app/modules/premium/native/MobileTrialUserSettingsAvatarBadge.tsx
 app/modules/premium/native/MobileTrialUtils.tsx
 app/modules/premium/native/openPremiumPlanSelectionActionSheet.tsx
 app/modules/premium/native/openPremiumPlanWhatYouLoseActionSheet.tsx
@@ -5368,6 +5366,7 @@ app/modules/premium/native/utils/GiftAnimationData.tsx
 app/modules/premium/native/utils/openGiftModal.tsx
 app/modules/premium/native/utils/PremiumManagementUtils.tsx
 app/modules/premium/OverridePremiumTypeActions.tsx
+app/modules/premium/partner_perks/ThirdPartyPerkUtils.tsx
 app/modules/premium/perks_state/PerksStateUtils.tsx
 app/modules/premium/perks_state/types.tsx
 app/modules/premium/powerups/analytics/GuildPowerupAnalytics.tsx
@@ -5927,6 +5926,7 @@ app/modules/safety_flows/native/tasks/AgeVerificationScreen.tsx
 app/modules/safety_flows/native/tasks/EnterEmailScreen.tsx
 app/modules/safety_flows/native/tasks/ParentalConsentConnectionHeader.tsx
 app/modules/safety_flows/native/tasks/ParentalConsentConnectionScreen.tsx
+app/modules/safety_flows/native/tasks/PendingRequestList.tsx
 app/modules/safety_flows/native/tasks/ResendVerificationCodeButton.tsx
 app/modules/safety_flows/native/tasks/VerifyEmailScreen.tsx
 app/modules/safety_flows/native/UpdateAppScreen.tsx
@@ -6207,7 +6207,6 @@ app/modules/slayer_storefront/hooks/SocialLayerStorefrontEligibilityHooks.tsx
 app/modules/slayer_storefront/hooks/useDisplayProfileSocialLayerStorefrontApplicationIds.tsx
 app/modules/slayer_storefront/hooks/useSlayerStorefrontDevApplicationIdOverride.tsx
 app/modules/slayer_storefront/intl/SlayerStorefront.messages.js
-app/modules/slayer_storefront/intl/SlayerStorefrontUntranslated.messages.js
 app/modules/slayer_storefront/native/createSocialLayerStorefrontProductDetailsEmbed.tsx
 app/modules/slayer_storefront/native/hooks/useMobileSocialLayerPurchaseSKU.android.tsx
 app/modules/slayer_storefront/native/hooks/useSocialLayerStorefrontMobileAccountLinkingDisabled.tsx

@@ -84,7 +84,6 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']DCFEventStore[\"']"},"paths":["app/modules/dismissible_content/DCFEventStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']DismissibleContentFrameworkStore[\"']"},"paths":["app/modules/dismissible_content/DismissibleContentFrameworkStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']DismissibleContentShownStateStore[\"']"},"paths":["app/modules/dismissible_content/DismissibleContentShownStateStore.tsx"]}
-{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']DoubleTapChatInputBannerStore[\"']"},"paths":["app/modules/double_tap_to_react/native/DoubleTapChatInputBannerStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']EmojiStore[\"']"},"paths":["app/modules/emojis/EmojiStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']RawGuildEmojiStore[\"']"},"paths":["app/modules/emojis/RawGuildEmojiStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']TopEmojiStore[\"']"},"paths":["app/modules/emojis/top_emojis/TopEmojiStore.tsx"]}
@@ -178,7 +177,6 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ChannelListStore[\"']"},"paths":["app/modules/guild_sidebar/ChannelListStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ChannelListVoiceCategoryStore[\"']"},"paths":["app/modules/guild_sidebar/ChannelListVoiceCategoryStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']SidebarVisibilityMethodStore[\"']"},"paths":["app/modules/guild_sidebar/SidebarVisibilityMethodStore.tsx"]}
-{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GuildTagChangedCoachmarkStore[\"']"},"paths":["app/modules/guild_tag/stores/GuildTagChangedCoachmarkStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GuildTemplateStore[\"']"},"paths":["app/modules/guild_templates/GuildTemplateStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GuildThemePreviewStore[\"']"},"paths":["app/modules/guild_themes/GuildThemePreviewStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GuildThemeRuntimeStore[\"']"},"paths":["app/modules/guild_themes/GuildThemeRuntimeStore.tsx"]}
@@ -242,6 +240,7 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']FamilyCenterControlledSettingsStore[\"']"},"paths":["app/modules/parent_tools/FamilyCenterControlledSettingsStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']FamilyCenterPendingConnectionStore[\"']"},"paths":["app/modules/parent_tools/FamilyCenterPendingConnectionStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']FamilyCenterStore[\"']"},"paths":["app/modules/parent_tools/FamilyCenterStore.tsx"]}
+{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ParentalConsentWarningStore[\"']"},"paths":["app/modules/parent_tools/native/ParentalConsentWarningStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ParentalConsentStore[\"']"},"paths":["app/modules/parent_tools/ParentalConsentStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']PhoneStore[\"']"},"paths":["app/modules/phone/PhoneStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']PoggermodeSettingsStore[\"']"},"paths":["app/modules/poggermode/PoggermodeSettingsStore.tsx"]}
