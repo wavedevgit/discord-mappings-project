@@ -507,7 +507,6 @@ app/modules/main_tabs_v2/native/ConnectionIndicatorExperiment.tsx
 app/modules/main_tabs_v2/native/HideCoveredChannelsExperiment.tsx
 app/modules/main_tabs_v2/native/NavigationHistoryStore.tsx
 app/modules/main_tabs_v2/native/sidebar/details/stores/ChannelDetailsStore.tsx
-app/modules/main_tabs_v2/native/tabs/messages/CreateDMLocationExperiment.tsx
 app/modules/main_tabs_v2/native/tabs/you/MobileReferralSubscriberProfileEntrypointButtonExperiment.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouNavFloatingExperiment.tsx
 app/modules/media_channel/MediaChannelActionCreators.tsx
@@ -656,6 +655,7 @@ app/modules/premium/powerups/experiments/FileUpload250MbPowerupExperiment.tsx
 app/modules/premium/powerups/experiments/FileUploadPowerupHoldoutExperiment.tsx
 app/modules/premium/powerups/experiments/MobileBoostProgressBarExperiment.tsx
 app/modules/premium/powerups/experiments/ServerBoostStreamQualityMarketingExperiment.tsx
+app/modules/premium/powerups/experiments/ServerSetupBoostCtaExperiment.tsx
 app/modules/premium/powerups/experiments/ServerThemeApexShadowExperiment.tsx
 app/modules/premium/powerups/experiments/ServerThemeExperiment.tsx
 app/modules/premium/powerups/experiments/ServerThemeUserExperiment.tsx
@@ -757,7 +757,6 @@ app/modules/shared_space_warnings/SharedSpacesWarningActionCreators.tsx
 app/modules/shared_space_warnings/SharedSpacesWarningStore.tsx
 app/modules/shared_space_warnings/VoiceChannelBlockedUserStore.tsx
 app/modules/slayer_storefront/experiments/SocialLayerStorefrontMobilePurchasingExperiment.tsx
-app/modules/slayer_storefront/experiments/SocialLayerStorefrontShopShimExperiment.tsx
 app/modules/slayer_storefront/hooks/useSlayerStorefrontDevOverrideStore.tsx
 app/modules/slayer_storefront/native/SocialLayerStorefrontNativeActionCreators.tsx
 app/modules/slayer_storefront/SocialLayerStorefrontActionCreators.tsx

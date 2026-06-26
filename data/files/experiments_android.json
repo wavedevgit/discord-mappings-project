@@ -530,12 +530,6 @@
         "keyRequired": "variations"
     },
     {
-        "path": "app/modules/main_tabs_v2/native/tabs/messages/CreateDMLocationExperiment.tsx",
-        "kind": "user",
-        "id": "2026-04-create-dm-location",
-        "keyRequired": "variations"
-    },
-    {
         "path": "app/modules/main_tabs_v2/native/tabs/you/MobileReferralSubscriberProfileEntrypointButtonExperiment.tsx",
         "kind": "user",
         "id": "2026-05-mobile-referral-subscriber-profile-entrypoint-button",
@@ -1010,6 +1004,12 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/premium/powerups/experiments/ServerSetupBoostCtaExperiment.tsx",
+        "kind": "user",
+        "id": "2026-06-server-setup-boost-cta",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/premium/powerups/experiments/ServerThemeApexShadowExperiment.tsx",
         "kind": "guild",
         "id": "2026-06-server-theme-apex-shadow",
@@ -1139,12 +1139,6 @@
         "path": "app/modules/slayer_storefront/experiments/SocialLayerStorefrontMobilePurchasingExperiment.tsx",
         "kind": "user",
         "id": "2026-04-social-layer-storefront-mobile-purchasing",
-        "keyRequired": "variations"
-    },
-    {
-        "path": "app/modules/slayer_storefront/experiments/SocialLayerStorefrontShopShimExperiment.tsx",
-        "kind": "user",
-        "id": "2026-05-slayer-storefront-shop-shim",
         "keyRequired": "variations"
     },
     {

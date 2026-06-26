@@ -1897,6 +1897,7 @@ app/modules/avatar/native/components/RedesignSkipAvatarUploadAlertModal.tsx
 app/modules/avatar/native/components/TouchableUploadAvatar.tsx
 app/modules/avatar/useAvatarColor.tsx
 app/modules/bidi/IsolateString.tsx
+app/modules/billing/actions/HandleConfirmPaymentRegistry.tsx
 app/modules/billing/Constants.tsx
 app/modules/billing/errors/InvalidGooglePlayPurchase.tsx
 app/modules/billing/hooks/useFPDurationLeft.tsx
@@ -3041,6 +3042,7 @@ app/modules/game_invite_channels/GameInvitesChannelUtils.tsx
 app/modules/game_profile/AnnouncementMessageUtils.tsx
 app/modules/game_profile/GameProfileActionCreators.tsx
 app/modules/game_profile/GameProfileAnalyticUtils.tsx
+app/modules/game_profile/GameProfileExperiments.tsx
 app/modules/game_profile/GameProfileHttpUtils.tsx
 app/modules/game_profile/GameProfileReviewUtils.tsx
 app/modules/game_profile/hooks/useGameAnnouncements.tsx
@@ -4462,7 +4464,6 @@ app/modules/main_tabs_v2/native/tabs/messages/items/MessagesItemSuggestedFriends
 app/modules/main_tabs_v2/native/tabs/messages/Messages.tsx
 app/modules/main_tabs_v2/native/tabs/messages/MessagesEmptyState.tsx
 app/modules/main_tabs_v2/native/tabs/messages/MessagesHeader.tsx
-app/modules/main_tabs_v2/native/tabs/messages/MessagesNewMessageWidget.tsx
 app/modules/main_tabs_v2/native/tabs/messages/useMessagesData.tsx
 app/modules/main_tabs_v2/native/tabs/messages/useMessagesReconnectToCallsEffect.tsx
 app/modules/main_tabs_v2/native/tabs/messages/useMessagesScrollToTop.tsx
@@ -5221,6 +5222,7 @@ app/modules/payments/native/utils/createOrReuseGiftOrder.tsx
 app/modules/payments/PaymentConstants.tsx
 app/modules/payments/records/CheckoutContextRecord.tsx
 app/modules/payments/records/OrderRecord.tsx
+app/modules/payments/records/SubscriptionFacetRecord.tsx
 app/modules/payments/utils/BillingStandaloneUtils.tsx
 app/modules/payments/utils/MobileWebRedirectCheckoutUtils.tsx
 app/modules/people/ClearAllIncomingRequestsConfirmationModal.tsx
@@ -5495,6 +5497,7 @@ app/modules/premium/powerups/native/utils/openGuildPowerupsBottomSheet.tsx
 app/modules/premium/powerups/native/utils/openGuildPowerupsModal.tsx
 app/modules/premium/powerups/native/utils/openGuildPowerupsMultiPerkBottomSheet.tsx
 app/modules/premium/powerups/utils/entitlementExpirationDateToString.tsx
+app/modules/premium/powerups/utils/fileUpload.tsx
 app/modules/premium/powerups/utils/getBoostLifecyclePhase.tsx
 app/modules/premium/powerups/utils/getBoostRowMessageText.tsx
 app/modules/premium/powerups/utils/getExpiringGuildEntitlements.tsx
@@ -5766,6 +5769,7 @@ app/modules/quests/native/VideoQuestModal/VideoQuestTranscriptActionSheet.tsx
 app/modules/quests/QuestBarRenderDelayTracker.tsx
 app/modules/quests/QuestConstants.tsx
 app/modules/quests/QuestDecisionRoundtripTracker.tsx
+app/modules/quests/QuestHomeRoundtripTracker.tsx
 app/modules/quests/QuestTypes.tsx
 app/modules/quests/SponsoredQuestUtils.tsx
 app/modules/quests/types/v2/CTA.tsx
