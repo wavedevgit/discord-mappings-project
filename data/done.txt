@@ -175,7 +175,6 @@ app/modules/build_overrides/BuildOverrideStore.tsx
 app/modules/cache/CacheActionCreators.tsx
 app/modules/cache/CacheStore.tsx
 app/modules/cache/NotificationLoadMessagesExperiment.tsx
-app/modules/calls/BroadcastUploadDisposeFixExperiment.tsx
 app/modules/calls/ChannelRTCStore.tsx
 app/modules/calls/MobileMuteIndicatorExperiment.tsx
 app/modules/calls/ProportionalVadIndicatorExperiment.tsx
@@ -1113,7 +1112,6 @@ discord_common/js/shared/shared-constants/ContentRatingESRBRating.tsx
 discord_common/js/shared/shared-constants/ContentRatingPEGIRating.tsx
 discord_common/js/shared/shared-constants/CountryCodes.tsx
 discord_common/js/shared/shared-constants/CountryCodesISO3to2.tsx
-discord_common/js/shared/shared-constants/DefaultProfileFrameDimensions.tsx
 discord_common/js/shared/shared-constants/DesignIds.tsx
 discord_common/js/shared/shared-constants/DiscordContentClassificationFlags.tsx
 discord_common/js/shared/shared-constants/DisplayNameEffect.tsx

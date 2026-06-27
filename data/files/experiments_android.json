@@ -126,12 +126,6 @@
         "keyRequired": "variations"
     },
     {
-        "path": "app/modules/calls/BroadcastUploadDisposeFixExperiment.tsx",
-        "kind": "user",
-        "id": "2026-06-ios-broadcast-upload-dispose-fix",
-        "keyRequired": "variations"
-    },
-    {
         "path": "app/modules/calls/MobileMuteIndicatorExperiment.tsx",
         "kind": "user",
         "id": "2026-02-mobile-mute-indicator",

@@ -1959,6 +1959,7 @@ app/modules/calls/native/VideoBackground.tsx
 app/modules/calls/native/VideoBackgroundManager.tsx
 app/modules/calls/NativeMuteManager.tsx
 app/modules/calls/ParticipantFocusManager.tsx
+app/modules/calls/toggleVoiceChannelChat.tsx
 app/modules/calls/useCallA11yState.tsx
 app/modules/calls/useCanRing.tsx
 app/modules/calls/useCanSetVoiceChannelStatus.tsx
@@ -2101,6 +2102,7 @@ app/modules/chat_input/native/guard/ChatInputGuardRequiredLobbyApplicationAuthor
 app/modules/chat_input/native/guard/ChatInputGuardReturnToGameProfile.tsx
 app/modules/chat_input/native/guard/ChatInputGuardSpamMessageRequest.tsx
 app/modules/chat_input/native/guard/ChatInputGuardWrapper.tsx
+app/modules/chat_input/native/RefreshChatInputCoachmark.tsx
 app/modules/chat_input/native/useChatInputMaxHeight.tsx
 app/modules/chat_input/native/useChatInputRefs.tsx
 app/modules/chat/native/Chat.android.tsx
@@ -2217,7 +2219,7 @@ app/modules/collectibles/hooks/useMaybeFetchCollectiblesCategories.mobile.tsx
 app/modules/collectibles/hooks/useMaybeFetchCollectiblesCategories.tsx
 app/modules/collectibles/hooks/useMaybeFetchCollectiblesCategoriesShared.tsx
 app/modules/collectibles/hooks/useMaybeFetchShopHome.tsx
-app/modules/collectibles/hooks/usePreviewCollectbilesProduct.tsx
+app/modules/collectibles/hooks/usePreviewCollectiblesProduct.tsx
 app/modules/collectibles/hooks/useProductDescription.tsx
 app/modules/collectibles/hooks/useProductDisableState.tsx
 app/modules/collectibles/hooks/useProductPurchaseState.tsx
@@ -2357,7 +2359,7 @@ app/modules/collectibles/profile_frames/native/ProfileFrameConstants.tsx
 app/modules/collectibles/profile_frames/native/useProfileFrameLayerAsset.tsx
 app/modules/collectibles/profile_frames/scaleProfileFrame.tsx
 app/modules/collectibles/records/AvatarDecorationRecord.tsx
-app/modules/collectibles/records/BaseCollectibesItemRecord.tsx
+app/modules/collectibles/records/BaseCollectiblesItemRecord.tsx
 app/modules/collectibles/records/CollectiblesBundledProductRecord.tsx
 app/modules/collectibles/records/CollectiblesCategoriesRecord.tsx
 app/modules/collectibles/records/CollectiblesCategoryRecord.tsx
@@ -2650,6 +2652,7 @@ app/modules/dismissible_content/utils/toggleDismissibleContentDismissState.tsx
 app/modules/dismissible_content/VersionedDismissibleContentUtils.tsx
 app/modules/display_name_styles/DisplayNameStylesConstants.tsx
 app/modules/display_name_styles/DisplayNameStylesContext.tsx
+app/modules/display_name_styles/DisplayNameStylesEffectOrder.tsx
 app/modules/display_name_styles/DisplayNameStylesFontOrder.tsx
 app/modules/display_name_styles/DisplayNameStylesUtils.tsx
 app/modules/display_name_styles/getDisplayNameStylesFontName.tsx
@@ -3046,6 +3049,7 @@ app/modules/game_profile/GameProfileExperiments.tsx
 app/modules/game_profile/GameProfileHttpUtils.tsx
 app/modules/game_profile/GameProfileReviewUtils.tsx
 app/modules/game_profile/hooks/useGameAnnouncements.tsx
+app/modules/game_profile/hooks/useGameProfileObscured.tsx
 app/modules/game_profile/hooks/useGameProfileOpenCritic.tsx
 app/modules/game_profile/hooks/useGameProfileShopCollection.tsx
 app/modules/game_profile/hooks/useGameProfileStoreWebsites.tsx
@@ -3054,6 +3058,7 @@ app/modules/game_profile/hooks/useOpenGameProfileModal.tsx
 app/modules/game_profile/hooks/usePendingGameProfileReturn.tsx
 app/modules/game_profile/hooks/useResolveGameForProfile.tsx
 app/modules/game_profile/hooks/useShouldOpenGameProfileModal.tsx
+app/modules/game_profile/hooks/useSimilarGames.tsx
 app/modules/game_profile/hooks/useSteamWebsiteUrl.tsx
 app/modules/game_profile/hooks/useXboxGamePassStoreUrl.tsx
 app/modules/game_profile/native/components/GameDetectionReportModal.tsx
@@ -3070,6 +3075,7 @@ app/modules/game_profile/native/components/GameProfileReportButton.tsx
 app/modules/game_profile/native/components/GameProfileReviews.tsx
 app/modules/game_profile/native/components/GameProfileScreen.tsx
 app/modules/game_profile/native/components/GameProfileShopCarousel.tsx
+app/modules/game_profile/native/components/GameProfileSimilarGames.tsx
 app/modules/game_profile/native/components/GameProfileStoreLinks.tsx
 app/modules/game_profile/native/components/GameProfileStoreLinksActionSheet.tsx
 app/modules/game_profile/native/components/GameProfileSummary.tsx
@@ -3079,6 +3085,7 @@ app/modules/game_profile/native/hooks/useInAppBrowserReturn.tsx
 app/modules/game_profile/native/utils/getGameProfileStoreWebsiteData.tsx
 app/modules/game_profile/native/utils/getGameProfileWebsiteData.tsx
 app/modules/game_profile/navigateToGameAnnouncement.tsx
+app/modules/game_profile/SimilarGamesExperiments.tsx
 app/modules/game_relationships/GameRelationshipManager.tsx
 app/modules/game_relationships/GameRelationshipStoreHooks.tsx
 app/modules/game_relationships/hooks/useIsGameFriends.tsx
@@ -5307,6 +5314,7 @@ app/modules/premium/getNumSubscriptionsPurchasedFromSystemMessage.tsx
 app/modules/premium/gifting/FriendAnniversaryGate.tsx
 app/modules/premium/gifting/GiftingBadge.messages.js
 app/modules/premium/gifting/GiftingBadgeConstants.tsx
+app/modules/premium/gifting/GiftingBadgeProgressUtils.tsx
 app/modules/premium/gifting/GiftingBadgeTier.messages.js
 app/modules/premium/gifting/hooks/useGiftingPromotionConfig.tsx
 app/modules/premium/gifting/hooks/useGiftingPromotionDefaultSelection.tsx
@@ -5417,7 +5425,6 @@ app/modules/premium/native/utils/GiftAnimationData.tsx
 app/modules/premium/native/utils/openGiftModal.tsx
 app/modules/premium/native/utils/PremiumManagementUtils.tsx
 app/modules/premium/OverridePremiumTypeActions.tsx
-app/modules/premium/partner_perks/ThirdPartyPerkUtils.tsx
 app/modules/premium/perks_state/PerksStateUtils.tsx
 app/modules/premium/perks_state/types.tsx
 app/modules/premium/powerups/analytics/GuildPowerupAnalytics.tsx
@@ -5440,6 +5447,7 @@ app/modules/premium/powerups/hooks/useGuildPowerupLevelPerks.tsx
 app/modules/premium/powerups/hooks/useGuildPowerupOnDeactivate.tsx
 app/modules/premium/powerups/hooks/useGuildPowerupOnToggle.tsx
 app/modules/premium/powerups/hooks/useGuildPowerupRollbackEnabled.tsx
+app/modules/premium/powerups/hooks/useGuildPowerupRollbackModalConfig.tsx
 app/modules/premium/powerups/hooks/useGuildPowerupRollbackNotificationConfig.tsx
 app/modules/premium/powerups/hooks/useGuildPowerupsBoostCount.tsx
 app/modules/premium/powerups/hooks/useGuildPowerupsBoostLevelProgress.tsx
@@ -5459,6 +5467,7 @@ app/modules/premium/powerups/hooks/useTotalPossibleBoostCount.tsx
 app/modules/premium/powerups/mocks/GuildPowerupMocks.tsx
 app/modules/premium/powerups/native/BoostProgressBarCoachmark.tsx
 app/modules/premium/powerups/native/EnhancedRoleColorsSelectStyleModal.tsx
+app/modules/premium/powerups/native/GuildPowerupRollbackSheet.tsx
 app/modules/premium/powerups/native/GuildPowerupsBoostButton.tsx
 app/modules/premium/powerups/native/GuildPowerupsBoostGem.tsx
 app/modules/premium/powerups/native/GuildPowerupsBoostInfo.tsx
@@ -5491,8 +5500,10 @@ app/modules/premium/powerups/native/hooks/useGuildPowerupOnShowDeactivate.tsx
 app/modules/premium/powerups/native/hooks/useGuildPowerupOnShowMore.tsx
 app/modules/premium/powerups/native/hooks/useGuildPowerupsCoachmark.tsx
 app/modules/premium/powerups/native/hooks/usePowerupGroupConfig.tsx
+app/modules/premium/powerups/native/hooks/useShowGuildPowerupRollbackSheet.tsx
 app/modules/premium/powerups/native/images/BoostGem.tsx
 app/modules/premium/powerups/native/RoleGradientPickerActionSheet.tsx
+app/modules/premium/powerups/native/utils/openGuildPowerupRollbackSheet.tsx
 app/modules/premium/powerups/native/utils/openGuildPowerupsBottomSheet.tsx
 app/modules/premium/powerups/native/utils/openGuildPowerupsModal.tsx
 app/modules/premium/powerups/native/utils/openGuildPowerupsMultiPerkBottomSheet.tsx
@@ -5921,6 +5932,7 @@ app/modules/rpc/server/commands/store.tsx
 app/modules/rpc/server/commands/subscriptions.tsx
 app/modules/rpc/server/commands/users.tsx
 app/modules/rpc/server/commands/userSettings.tsx
+app/modules/rpc/server/commands/voiceChannelChat.tsx
 app/modules/rpc/server/events/crossPlatformRPCEventHandlers.tsx
 app/modules/rpc/server/events/subscriptionHelpers.tsx
 app/modules/rpc/server/events/VoiceSettingsEventsFactory.tsx
@@ -8190,6 +8202,7 @@ discord_assets/assets/mana/rive/native/ExpressiveButton.riv.js
 discord_assets/assets/mana/rive/native/GameServerHosting.riv.js
 discord_assets/assets/mana/rive/native/Microphone.riv.js
 discord_assets/assets/mana/rive/native/NitroQuestOrbsMultiplier.riv.js
+discord_assets/assets/mana/rive/native/OmnibuttonCoachmark.riv.js
 discord_assets/assets/mana/rive/native/TeenScreenTime.riv.js
 discord_assets/assets/mana/rive/native/ThemeAwareNitroWishlistingWumpus.riv.js
 discord_assets/assets/orbs/fn_pdp_preview_header.png.js
@@ -8292,6 +8305,7 @@ discord_common/js/packages/design/components/Rive/native/generated/GameServerHos
 discord_common/js/packages/design/components/Rive/native/generated/index.tsx
 discord_common/js/packages/design/components/Rive/native/generated/MicrophoneRive.tsx
 discord_common/js/packages/design/components/Rive/native/generated/NitroQuestOrbsMultiplierRive.tsx
+discord_common/js/packages/design/components/Rive/native/generated/OmnibuttonCoachmarkRive.tsx
 discord_common/js/packages/design/components/Rive/native/generated/TeenScreenTimeRive.tsx
 discord_common/js/packages/design/components/Rive/native/generated/ThemeAwareNitroWishlistingWumpusRive.tsx
 discord_common/js/packages/design/components/Rive/native/RiveErrorBoundary.tsx
