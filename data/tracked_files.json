@@ -1,6 +1,6 @@
 {
-  "build": "5868",
-  "commit": "da6ed1d4f5066c7558359c5d9357b10c049ceca0",
+  "build": "5876",
+  "commit": "4783166c0fb328ff689d2e6cf5a4b1012aa3e73a",
   "files": {
     "app/actions/ActivitiesActionCreators.tsx": 18347,
     "app/actions/AlertActionCreators.tsx": 726,
@@ -4357,7 +4357,7 @@
     "app/modules/guilds_bar/native/hooks/useGuildsBarBottomRightBadge.tsx": 14084,
     "app/modules/guilds_bar/native/hooks/useGuildsBarCreatePendingFolderNode.tsx": 11712,
     "app/modules/guilds_bar/native/hooks/useGuildsBarGesture.tsx": 134047,
-    "app/modules/guilds_bar/native/hooks/useGuildsBarProps.tsx": 97018,
+    "app/modules/guilds_bar/native/hooks/useGuildsBarProps.tsx": 96439,
     "app/modules/guilds_bar/native/hooks/usePreloadedGuildAsset.tsx": 6844,
     "app/modules/guilds_bar/native/utils/areGuildsBarFastListStatesEqual.tsx": 890,
     "app/modules/guilds_bar/native/utils/computeGuildsBarCutout.tsx": 3969,
