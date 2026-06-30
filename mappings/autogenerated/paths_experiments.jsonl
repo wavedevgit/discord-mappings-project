@@ -47,7 +47,6 @@
 {"find_with":["user","2025-10-emoji-search-ranking-tweaks","variations"],"paths":["app/modules/emojis/EmojiSearchRankingTweaksExperiment.tsx"]}
 {"find_with":["user","2026-03-debug-experiment","variations"],"paths":["app/modules/experiments/apex/DebugExperiment.tsx"]}
 {"find_with":["user","2025-09-sensitive-content-self-harm","variations"],"paths":["app/modules/explicit_media_redaction/SensitiveContentSelfHarmExperiment.tsx"]}
-{"find_with":["user","2026-06-ios-fastimage-fabric","variations"],"paths":["app/modules/fast_image/FastImageFabricExperiment.tsx"]}
 {"find_with":["user","2026-01-favorites-server","variations"],"paths":["app/modules/favorites/FavoritesGuildExperiment.tsx"]}
 {"find_with":["user","2026-05-mobile-request-review-no-tti","variations"],"paths":["app/modules/feedback/native/RequestReviewNoTTIExperiment.tsx"]}
 {"find_with":["guild","2026-02_game_claim_coachmark","treatments"],"paths":["app/modules/game_claim/experiments/GameClaimCoachmarkExperiment.tsx"]}
@@ -75,7 +74,6 @@
 {"find_with":["user","2025-10-force-sdr-emojis-stickers","variations"],"paths":["app/modules/image_upload/ForceSdrEmojisStickersExperiment.tsx"]}
 {"find_with":["user","2025-12-mobile-lossless-image-upload-v2","variations"],"paths":["app/modules/image_upload/MobileLosslessImageUploadV2Experiment.tsx"]}
 {"find_with":["user","2026-05-in-app-notification-expand","variations"],"paths":["app/modules/in_app_notifications/native/InAppNotificationExpandExperiment.tsx"]}
-{"find_with":["user","2026-04-in-app-notification-redesign","variations"],"paths":["app/modules/in_app_notifications/native/InAppNotificationRedesignExperiment.tsx"]}
 {"find_with":["user","2023-09_iar_user_reporting","treatments"],"paths":["app/modules/in_app_reports/SafetyExperienceIarUserReportingExperiment.tsx"]}
 {"find_with":["user","2025-08-animated-keyboard-android","variations"],"paths":["app/modules/keyboard/native/AnimatedKeyboardExperiment.tsx"]}
 {"find_with":["user","2026-05-mobile-lurker-server-preview","variations"],"paths":["app/modules/lurker_mode/experiments/MobileLurkerServerPreviewExperiment.tsx"]}
@@ -122,16 +120,13 @@
 {"find_with":["user","2026-01-yytext-replacement-ios","variations"],"paths":["app/modules/messages/YYTextReplacementExperiment.tsx"]}
 {"find_with":["user","2025-06_native_intents","treatments"],"paths":["app/modules/native_intents/NativeIntentsExperiment.tsx"]}
 {"find_with":["user","2025-12-windows-audio-effects","variations"],"paths":["app/modules/noise_cancellation/WindowsEffectsExperiment.tsx"]}
-{"find_with":["user","2026-04-notification-center-push-banner","variations"],"paths":["app/modules/notification_center/native/NotificationCenterPermissionNudgeExperiment.tsx"]}
 {"find_with":["user","2026-03-friend-is-online-v3","variations"],"paths":["app/modules/notifications/friend_online/FriendOnlineNotificationExperiment.tsx"]}
 {"find_with":["user","2026-01-ios-push-notif-json-fix","variations"],"paths":["app/modules/notifications/IOSPushNotificationRawPayloadFixExperiment.tsx"]}
 {"find_with":["user","2025-10-clear-channel-notifications-on-app-foreground-ios","variations"],"paths":["app/modules/notifications/native/ClearChannelNotificationsOnAppForegroundExperiment.tsx"]}
 {"find_with":["user","2026-01-profile-updates-notification","variations"],"paths":["app/modules/notifications/profile_updates/ProfileUpdatesNotificationExperiment.tsx"]}
 {"find_with":["user","2026-06-notify-friends-on-profile-update","variations"],"paths":["app/modules/notifications/profile_updates/sender/NotifyFriendsOnProfileUpdateExperiment.tsx"]}
 {"find_with":["user","2026-04-upcoming-server-event","variations"],"paths":["app/modules/notifications/upcoming_server_event/UpcomingServerEventExperiment.tsx"]}
-{"find_with":["user","2026-04-guild-push-notification-nudge","variations"],"paths":["app/modules/nuf/native/GuildPushNotificationNudgeExperiment.tsx"]}
-{"find_with":["user","2026-04-notification-settings-permission-header","variations"],"paths":["app/modules/nuf/native/NotificationSettingsPermissionHeaderExperiment.tsx"]}
-{"find_with":["user","2026-04-post-call-disconnect-nudge","variations"],"paths":["app/modules/nuf/native/PostCallDisconnectNudgeExperiment.tsx"]}
+{"find_with":["user","2026-06-contextual-opt-in-nudge-holdout","variations"],"paths":["app/modules/nuf/native/ContextualOptInNudgeHoldoutExperiment.tsx"]}
 {"find_with":["user","2026-04-post-reaction-push-banner","variations"],"paths":["app/modules/nuf/native/PostReactionPermissionNudgeExperiment.tsx"]}
 {"find_with":["user","2026-03-overlay-default-keybind","variations"],"paths":["app/modules/overlay/OverlayV3Experiment.tsx"]}
 {"find_with":["user","2026-06-family-center-connection-prereq","variations"],"paths":["app/modules/parent_tools/FamilyCenterConnectionPrereqExperiment.tsx"]}

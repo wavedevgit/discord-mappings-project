@@ -320,12 +320,6 @@
         "keyRequired": "variations"
     },
     {
-        "path": "app/modules/fast_image/FastImageFabricExperiment.tsx",
-        "kind": "user",
-        "id": "2026-06-ios-fastimage-fabric",
-        "keyRequired": "variations"
-    },
-    {
         "path": "app/modules/favorites/FavoritesGuildExperiment.tsx",
         "kind": "user",
         "id": "2026-01-favorites-server",
@@ -485,12 +479,6 @@
         "path": "app/modules/in_app_notifications/native/InAppNotificationExpandExperiment.tsx",
         "kind": "user",
         "id": "2026-05-in-app-notification-expand",
-        "keyRequired": "variations"
-    },
-    {
-        "path": "app/modules/in_app_notifications/native/InAppNotificationRedesignExperiment.tsx",
-        "kind": "user",
-        "id": "2026-04-in-app-notification-redesign",
         "keyRequired": "variations"
     },
     {
@@ -770,12 +758,6 @@
         "keyRequired": "variations"
     },
     {
-        "path": "app/modules/notification_center/native/NotificationCenterPermissionNudgeExperiment.tsx",
-        "kind": "user",
-        "id": "2026-04-notification-center-push-banner",
-        "keyRequired": "variations"
-    },
-    {
         "path": "app/modules/notifications/friend_online/FriendOnlineNotificationExperiment.tsx",
         "kind": "user",
         "id": "2026-03-friend-is-online-v3",
@@ -812,21 +794,9 @@
         "keyRequired": "variations"
     },
     {
-        "path": "app/modules/nuf/native/GuildPushNotificationNudgeExperiment.tsx",
+        "path": "app/modules/nuf/native/ContextualOptInNudgeHoldoutExperiment.tsx",
         "kind": "user",
-        "id": "2026-04-guild-push-notification-nudge",
-        "keyRequired": "variations"
-    },
-    {
-        "path": "app/modules/nuf/native/NotificationSettingsPermissionHeaderExperiment.tsx",
-        "kind": "user",
-        "id": "2026-04-notification-settings-permission-header",
-        "keyRequired": "variations"
-    },
-    {
-        "path": "app/modules/nuf/native/PostCallDisconnectNudgeExperiment.tsx",
-        "kind": "user",
-        "id": "2026-04-post-call-disconnect-nudge",
+        "id": "2026-06-contextual-opt-in-nudge-holdout",
         "keyRequired": "variations"
     },
     {

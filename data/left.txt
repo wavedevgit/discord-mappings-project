@@ -663,6 +663,7 @@ app/design/components/mana-assets/native/generated/DiscordWordmarkLogo.tsx
 app/design/components/mana-assets/native/generated/DisguiseSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/DisplayNameAbstractUI.tsx
 app/design/components/mana-assets/native/generated/DisplayNameStylesAbstractUI.tsx
+app/design/components/mana-assets/native/generated/DisplayNameStylesV2AbstractUI.tsx
 app/design/components/mana-assets/native/generated/DogIllocon.tsx
 app/design/components/mana-assets/native/generated/DollarSignIllocon.tsx
 app/design/components/mana-assets/native/generated/DownloadBarIllocon.tsx
@@ -675,6 +676,8 @@ app/design/components/mana-assets/native/generated/ExperimentalDiscordShopLockup
 app/design/components/mana-assets/native/generated/ExperimentalGameWidgetsAbstractUI.tsx
 app/design/components/mana-assets/native/generated/ExperimentalGiftEnvelopeIllocon.tsx
 app/design/components/mana-assets/native/generated/ExperimentalMarvelRivalsWidgetAbstractUI.tsx
+app/design/components/mana-assets/native/generated/FamilyKeysSpotIllustration.tsx
+app/design/components/mana-assets/native/generated/FamilyShieldSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/FamilySpotIllustration.tsx
 app/design/components/mana-assets/native/generated/FavoritesSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/FileUploadSpotIllustration.tsx
@@ -1913,6 +1916,7 @@ app/modules/billing/native/otp/SimpleRequestOTPActionSheet.tsx
 app/modules/billing/native/PaymentFlowWarningMessage.tsx
 app/modules/billing/native/smoke/BillingFlows.android.tsx
 app/modules/billing/native/StorekitIAPQueue.tsx
+app/modules/billing/native/subscription/BillingInformation.tsx
 app/modules/billing/native/subscription/useCancelSubscriptionParams.tsx
 app/modules/billing/native/subscription/useCreateSubscriptionParams.tsx
 app/modules/billing/native/subscription/useRestorePurchases.tsx
@@ -2149,6 +2153,7 @@ app/modules/checkout/native/showCheckoutOrderErrorModal.tsx
 app/modules/checkout/native/stores/NativeCheckoutStoreProvider.tsx
 app/modules/checkout/native/useGiftCardMobileConsumptionHalfsheet.tsx
 app/modules/checkout/native/useSyncGiftOptionsToOrder.tsx
+app/modules/checkout/utils/OrderUtils.tsx
 app/modules/checkpoint/Checkpoint.messages.js
 app/modules/checkpoint/CheckpointColors.tsx
 app/modules/checkpoint/CheckpointConstants.tsx
@@ -4205,7 +4210,6 @@ app/modules/keyboard/native/useSystemKeyboardHeight.tsx
 app/modules/labs/LabFeatureActions.tsx
 app/modules/labs/LabFeatures.tsx
 app/modules/labs/useLabFeature.tsx
-app/modules/launch_welcome/native/useLaunchWelcomeNux.tsx
 app/modules/launchpad/native/hideLaunchPad.tsx
 app/modules/launchpad/native/isGuildSelectable.tsx
 app/modules/launchpad/native/LaunchPad.tsx
@@ -4408,7 +4412,6 @@ app/modules/main_tabs_v2/native/shared_components/navigator/PressableNavigatorBu
 app/modules/main_tabs_v2/native/shared_components/navigator/PressableNavigatorModalIcon.tsx
 app/modules/main_tabs_v2/native/shared_components/SearchBarNav.tsx
 app/modules/main_tabs_v2/native/shared_components/SearchButton.tsx
-app/modules/main_tabs_v2/native/shared_components/tab_bar/useTabBarStyles.tsx
 app/modules/main_tabs_v2/native/shared_components/user_list/ChannelRow.tsx
 app/modules/main_tabs_v2/native/shared_components/user_list/GroupDMRow.tsx
 app/modules/main_tabs_v2/native/shared_components/user_list/GuildChannelUserList.tsx
@@ -4492,12 +4495,10 @@ app/modules/main_tabs_v2/native/tabs/you/YouNavigator.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouScreen.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouScreenNavIcon.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouSettingsCoachmark.tsx
-app/modules/main_tabs_v2/native/tabs/you/YouTabBarBackground.tsx
 app/modules/main_tabs_v2/native/utils/getNavigationModalPresentation.tsx
 app/modules/main_tabs_v2/native/utils/ModalStackNavigator.tsx
 app/modules/main_tabs_v2/native/utils/useNavigatorConfirmChangesOnBack.tsx
 app/modules/main_tabs_v2/native/utils/useTabSelectedGuildId.tsx
-app/modules/main_tabs_v2/native/utils/useTabsVisible.tsx
 app/modules/main_tabs_v2/native/YouBar.tsx
 app/modules/main_tabs_v2/native/YouBarConstants.tsx
 app/modules/main_tabs_v2/native/YouBarStackNavigator.tsx
@@ -5166,6 +5167,7 @@ app/modules/parent_tools/hooks/useUserLinks.tsx
 app/modules/parent_tools/native/ChangeSpendingLimitModal.tsx
 app/modules/parent_tools/native/ConnectGuardianBottomSheet.tsx
 app/modules/parent_tools/native/ConnectGuardianCard.tsx
+app/modules/parent_tools/native/ConnectGuardianShareModal.tsx
 app/modules/parent_tools/native/FamilyCenterAcceptedLinks.tsx
 app/modules/parent_tools/native/FamilyCenterActivityBanner.tsx
 app/modules/parent_tools/native/FamilyCenterActivityCard.tsx
@@ -5206,17 +5208,18 @@ app/modules/parent_tools/native/FamilyCenterTopUsersBottomSheet.tsx
 app/modules/parent_tools/native/FamilyCenterUsernameHeader.tsx
 app/modules/parent_tools/native/ParentalConsentWarningBanner.tsx
 app/modules/parent_tools/native/ParentalConsentWarningManager.tsx
+app/modules/parent_tools/native/ParentalConsentWarningModal.tsx
 app/modules/parent_tools/native/RestrictedHoursModal.tsx
 app/modules/parent_tools/native/ScheduleDowntimeScreen.tsx
 app/modules/parent_tools/native/showSpendingLimitReachedAlert.tsx
 app/modules/parent_tools/native/useIsParentalConsentBannerActive.tsx
-app/modules/parent_tools/native/useParentalConsentWarning.tsx
 app/modules/parent_tools/ParentalConsentWarningTypes.tsx
 app/modules/parent_tools/RestrictedHoursActionCreators.tsx
 app/modules/parent_tools/RestrictedHoursManager.tsx
 app/modules/parent_tools/RestrictedScheduleNotificationUtils.tsx
 app/modules/parent_tools/SpendingLimitDisplay.tsx
 app/modules/parent_tools/SpendingLimitUtils.tsx
+app/modules/parent_tools/useParentalConsentWarning.tsx
 app/modules/parental_consent/native/AgeUpdateFooter.tsx
 app/modules/payments/hooks/useSubscriptionSelection.tsx
 app/modules/payments/native/hooks/NativePaymentHooks.android.tsx
@@ -7912,6 +7915,7 @@ discord_assets/assets/mana/asset-library/generated/DiscordWordmarkLogo-2x.png.js
 discord_assets/assets/mana/asset-library/generated/DisguiseSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/DisplayNameAbstractUI-2x.png.js
 discord_assets/assets/mana/asset-library/generated/DisplayNameStylesAbstractUI-2x.png.js
+discord_assets/assets/mana/asset-library/generated/DisplayNameStylesV2AbstractUI-2x.png.js
 discord_assets/assets/mana/asset-library/generated/DogIllocon-2x.png.js
 discord_assets/assets/mana/asset-library/generated/DollarSignIllocon-2x.png.js
 discord_assets/assets/mana/asset-library/generated/DownloadBarIllocon-2x.png.js
@@ -7924,6 +7928,8 @@ discord_assets/assets/mana/asset-library/generated/ExperimentalDiscordShopLockup
 discord_assets/assets/mana/asset-library/generated/ExperimentalGameWidgetsAbstractUI-2x.png.js
 discord_assets/assets/mana/asset-library/generated/ExperimentalGiftEnvelopeIllocon-2x.png.js
 discord_assets/assets/mana/asset-library/generated/ExperimentalMarvelRivalsWidgetAbstractUI-2x.png.js
+discord_assets/assets/mana/asset-library/generated/FamilyKeysSpotIllustration-2x.png.js
+discord_assets/assets/mana/asset-library/generated/FamilyShieldSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/FamilySpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/FavoritesSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/FileUploadSpotIllustration-2x.png.js
@@ -8458,7 +8464,7 @@ discord_common/js/packages/rtn-codegen/js/ClipViewNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/EmojiPickerNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/EmojiPickerRowViewNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/FastestListNativeComponent.tsx
-discord_common/js/packages/rtn-codegen/js/FastImageFabricNativeComponent.tsx
+discord_common/js/packages/rtn-codegen/js/FastImageNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/ImageWithThumbhashPlaceholderNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/KeyCommandsNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/LocalImageThumbnailNativeComponent.tsx
@@ -8562,6 +8568,7 @@ discord_common/js/shared/hooks/useIntersectionObserver.tsx
 discord_common/js/shared/hooks/useMountEffect.tsx
 discord_common/js/shared/hooks/useStableCallback.tsx
 discord_common/js/shared/modules/content_classification/lib/AgeRestrictionUtils.tsx
+discord_common/js/shared/shared-constants/AdPlacement.tsx
 discord_common/js/shared/shared-constants/DismissibleQuestContentFlags.tsx
 discord_common/js/shared/shared-constants/Quests.tsx
 discord_common/js/shared/shared-constants/WidgetType.tsx

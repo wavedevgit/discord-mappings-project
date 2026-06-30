@@ -240,8 +240,8 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']FamilyCenterControlledSettingsStore[\"']"},"paths":["app/modules/parent_tools/FamilyCenterControlledSettingsStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']FamilyCenterPendingConnectionStore[\"']"},"paths":["app/modules/parent_tools/FamilyCenterPendingConnectionStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']FamilyCenterStore[\"']"},"paths":["app/modules/parent_tools/FamilyCenterStore.tsx"]}
-{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ParentalConsentWarningStore[\"']"},"paths":["app/modules/parent_tools/native/ParentalConsentWarningStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ParentalConsentStore[\"']"},"paths":["app/modules/parent_tools/ParentalConsentStore.tsx"]}
+{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ParentalConsentWarningStore[\"']"},"paths":["app/modules/parent_tools/ParentalConsentWarningStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']PhoneStore[\"']"},"paths":["app/modules/phone/PhoneStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']PoggermodeSettingsStore[\"']"},"paths":["app/modules/poggermode/PoggermodeSettingsStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']PoggermodeStore[\"']"},"paths":["app/modules/poggermode/PoggermodeStore.tsx"]}

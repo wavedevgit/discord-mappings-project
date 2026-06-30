@@ -331,9 +331,9 @@
     },
     {
         "path": "discord_assets/assets/mana/asset-library/generated/AnimatedAvatarsAbstractUI-2x.png.js",
-        "url": "https://cdn.discordapp.com/assets/content/d99520abba7d72cdd8497deab0a70564e4e6e56624a07310b1ddd2f6f8f1564c.png",
-        "etag": "\"30e2e4bdbe6946be0fe6594f831c3270\"",
-        "hash": "d99520abba7d72cdd8497deab0a70564e4e6e56624a07310b1ddd2f6f8f1564c"
+        "url": "https://cdn.discordapp.com/assets/content/5aaea2b5dd28b79eb176d09e6a4c46556d380bb5a2dbd9bf00c2d2b755d479e6.png",
+        "etag": "\"bd19da3b3bfb8ffa118268bc63155864\"",
+        "hash": "5aaea2b5dd28b79eb176d09e6a4c46556d380bb5a2dbd9bf00c2d2b755d479e6"
     },
     {
         "path": "discord_assets/assets/mana/asset-library/generated/AnimatedBannersAbstractUI-2x.png.js",
@@ -817,15 +817,21 @@
     },
     {
         "path": "discord_assets/assets/mana/asset-library/generated/DisplayNameAbstractUI-2x.png.js",
-        "url": "https://cdn.discordapp.com/assets/content/b0e342ec34ad8b57c99ec37304374e7ca72346224c8311de9b765517a2608473.png",
-        "etag": "\"0f24424180c44bf87db411615f487b42\"",
-        "hash": "b0e342ec34ad8b57c99ec37304374e7ca72346224c8311de9b765517a2608473"
+        "url": "https://cdn.discordapp.com/assets/content/f3c61704c770b412690be7228402668f8c1fb20dd8df39da011962f483fd6bee.png",
+        "etag": "\"28807787122b8b9c1f3694b2e7a764d9\"",
+        "hash": "f3c61704c770b412690be7228402668f8c1fb20dd8df39da011962f483fd6bee"
     },
     {
         "path": "discord_assets/assets/mana/asset-library/generated/DisplayNameStylesAbstractUI-2x.png.js",
         "url": "https://cdn.discordapp.com/assets/content/ff43e4e3de63954e3f19b99d5361dd3f5ec1942d0d696bbece4d3aca0b3a39e0.png",
         "etag": "\"91bc0d3d47e90f4a4aa0d1b2728363a1\"",
         "hash": "ff43e4e3de63954e3f19b99d5361dd3f5ec1942d0d696bbece4d3aca0b3a39e0"
+    },
+    {
+        "path": "discord_assets/assets/mana/asset-library/generated/DisplayNameStylesV2AbstractUI-2x.png.js",
+        "url": "https://cdn.discordapp.com/assets/content/d92c73e069c03c2b82454f3fbdb7c2c5b4730d83ab5d81d3fbae1cdde31d49d0.png",
+        "etag": "\"e030ef9229578a806680e127274b12f9\"",
+        "hash": "d92c73e069c03c2b82454f3fbdb7c2c5b4730d83ab5d81d3fbae1cdde31d49d0"
     },
     {
         "path": "discord_assets/assets/mana/asset-library/generated/DogIllocon-2x.png.js",
@@ -898,6 +904,18 @@
         "url": "https://cdn.discordapp.com/assets/content/767e1e257a96b07892ca89ffa0eb0d7aef886876f61de929702d171976fb2430.png",
         "etag": "\"561ba8fc1ee3e10e9e06c0ade39a52bf\"",
         "hash": "767e1e257a96b07892ca89ffa0eb0d7aef886876f61de929702d171976fb2430"
+    },
+    {
+        "path": "discord_assets/assets/mana/asset-library/generated/FamilyKeysSpotIllustration-2x.png.js",
+        "url": "https://cdn.discordapp.com/assets/content/9e2a0099203e2347c6cd5164c8bff76e9b6afc0c5d5a77f85cd31375b784dd8a.png",
+        "etag": "\"9e01a7cd664dbe9b07825dc4f4b7d829\"",
+        "hash": "9e2a0099203e2347c6cd5164c8bff76e9b6afc0c5d5a77f85cd31375b784dd8a"
+    },
+    {
+        "path": "discord_assets/assets/mana/asset-library/generated/FamilyShieldSpotIllustration-2x.png.js",
+        "url": "https://cdn.discordapp.com/assets/content/6989cc463b1ccd9f93bb18ab1c1b0bd7097bf68815c9cf9e87cf828008d84b96.png",
+        "etag": "\"63729e3d07ad099f23e58c85888f3048\"",
+        "hash": "6989cc463b1ccd9f93bb18ab1c1b0bd7097bf68815c9cf9e87cf828008d84b96"
     },
     {
         "path": "discord_assets/assets/mana/asset-library/generated/FamilySpotIllustration-2x.png.js",

@@ -1954,7 +1954,7 @@
         ]
     },
     {
-        "path": "app/modules/parent_tools/native/ParentalConsentWarningActionCreators.tsx",
+        "path": "app/modules/parent_tools/ParentalConsentWarningActionCreators.tsx",
         "flux_events": [
             "PARENTAL_CONSENT_WARNING_FETCH_SUCCESS"
         ]

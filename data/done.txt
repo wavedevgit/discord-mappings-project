@@ -292,7 +292,6 @@ app/modules/explicit_media_redaction/ExplicitMediaSearchStore.tsx
 app/modules/explicit_media_redaction/ExplicitMediaStore.tsx
 app/modules/explicit_media_redaction/SensitiveContentSelfHarmExperiment.tsx
 app/modules/expression_picker/ExpressionPickerStore.tsx
-app/modules/fast_image/FastImageFabricExperiment.tsx
 app/modules/favorites/FavoritesActionCreators.tsx
 app/modules/favorites/FavoritesGuildExperiment.tsx
 app/modules/favorites/FavoritesNotificationStore.tsx
@@ -482,7 +481,6 @@ app/modules/image_upload/native/AddImageDescriptionModalActionCreators.tsx
 app/modules/impersonate/ImpersonateActionCreators.tsx
 app/modules/impersonate/ImpersonateStore.tsx
 app/modules/in_app_notifications/native/InAppNotificationExpandExperiment.tsx
-app/modules/in_app_notifications/native/InAppNotificationRedesignExperiment.tsx
 app/modules/in_app_reports/SafetyExperienceIarUserReportingExperiment.tsx
 app/modules/instant_invite/GuildInviteSendStateStore.tsx
 app/modules/instant_invite/InstantInviteSendStateStore.tsx
@@ -572,7 +570,6 @@ app/modules/native_menu/native/NativeMenuStore.tsx
 app/modules/native_permissions/NativePermissionActionCreators.tsx
 app/modules/native_permissions/NativePermissionStore.tsx
 app/modules/noise_cancellation/WindowsEffectsExperiment.tsx
-app/modules/notification_center/native/NotificationCenterPermissionNudgeExperiment.tsx
 app/modules/notification_center/NotificationCenterItemsStore.tsx
 app/modules/notification_center/NotificationCenterStore.tsx
 app/modules/notifications/friend_online/FriendOnlineNotificationExperiment.tsx
@@ -587,10 +584,8 @@ app/modules/notifications/profile_updates/ProfileUpdatesNotificationExperiment.t
 app/modules/notifications/profile_updates/sender/NotifyFriendsOnProfileUpdateExperiment.tsx
 app/modules/notifications/RpcNotificationSettingsStore.tsx
 app/modules/notifications/upcoming_server_event/UpcomingServerEventExperiment.tsx
-app/modules/nuf/native/GuildPushNotificationNudgeExperiment.tsx
-app/modules/nuf/native/NotificationSettingsPermissionHeaderExperiment.tsx
+app/modules/nuf/native/ContextualOptInNudgeHoldoutExperiment.tsx
 app/modules/nuf/native/NUFActionCreators.tsx
-app/modules/nuf/native/PostCallDisconnectNudgeExperiment.tsx
 app/modules/nuf/native/PostReactionPermissionNudgeExperiment.tsx
 app/modules/nuf/NewUserStore.tsx
 app/modules/nuf/NUFActionCreators.tsx
@@ -606,9 +601,9 @@ app/modules/parent_tools/FamilyCenterControlledSettingsStore.tsx
 app/modules/parent_tools/FamilyCenterPendingConnectionStore.tsx
 app/modules/parent_tools/FamilyCenterStore.tsx
 app/modules/parent_tools/FamilyCenterV3Experiment.tsx
-app/modules/parent_tools/native/ParentalConsentWarningActionCreators.tsx
-app/modules/parent_tools/native/ParentalConsentWarningStore.tsx
 app/modules/parent_tools/ParentalConsentStore.tsx
+app/modules/parent_tools/ParentalConsentWarningActionCreators.tsx
+app/modules/parent_tools/ParentalConsentWarningStore.tsx
 app/modules/parent_tools/RestrictedScheduleActionCreators.tsx
 app/modules/payments/native/OrderActionCreators.tsx
 app/modules/payments/OrderActionCreators.tsx
@@ -1162,7 +1157,6 @@ discord_common/js/shared/shared-constants/ProgramCurrentState.tsx
 discord_common/js/shared/shared-constants/QuestConsoleStartError.tsx
 discord_common/js/shared/shared-constants/QuestContent.tsx
 discord_common/js/shared/shared-constants/QuestOrbsMultiplier.tsx
-discord_common/js/shared/shared-constants/QuestPlacement.tsx
 discord_common/js/shared/shared-constants/QuestRewardAssignmentMethods.tsx
 discord_common/js/shared/shared-constants/QuestRewardCodePlatforms.tsx
 discord_common/js/shared/shared-constants/QuestRewardExpirationMode.tsx
