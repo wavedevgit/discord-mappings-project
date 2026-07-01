@@ -100,6 +100,7 @@ app/modules/action_sheet/native/ActionSheetStore.tsx
 app/modules/activate_device/native/ActivateDeviceModalActionCreators.tsx
 app/modules/active_channels/ActiveChannelsActionCreators.tsx
 app/modules/activities/ActivityShelfStore.tsx
+app/modules/activities/ContentClassificationEmbeddedActivityFilterExperiment.tsx
 app/modules/activities/DeveloperActivityShelfActionCreators.tsx
 app/modules/activities/DeveloperActivityShelfStore.tsx
 app/modules/activities/EmbeddedActivitiesActionCreators.tsx
@@ -205,7 +206,6 @@ app/modules/client_themes/SavedCustomThemeStore.tsx
 app/modules/clips/ClipsExperiment.tsx
 app/modules/clips/ClipsSettingsRedesignExperiment.tsx
 app/modules/clips/ClipsStore.tsx
-app/modules/clips/ClipsTimelineExperiment.tsx
 app/modules/clips/ClipsV3RuntimeExperiment.tsx
 app/modules/clips/DistributedClipsExperiment.tsx
 app/modules/coded_links/web/CodedLinkActionCreators.tsx

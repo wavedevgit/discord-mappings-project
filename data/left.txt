@@ -1777,7 +1777,6 @@ app/modules/application_commands/native/ContextMenuCommandRootScreen.tsx
 app/modules/application_commands/native/ExecutedApplicationCommandPopout.tsx
 app/modules/application_commands/native/showExecutedApplicationCommandPopout.tsx
 app/modules/application_storefront/storefrontMessageEmbedCodedLink.tsx
-app/modules/application_widget/ApplicationWidgetConfig.tsx
 app/modules/applications/ApplicationConstants.tsx
 app/modules/applications/ApplicationFrecencyHooks.tsx
 app/modules/applications/ApplicationInteractionInfoUtils.tsx
@@ -2458,6 +2457,7 @@ app/modules/contact_sync/native/ContactSyncAnalyticsUtils.tsx
 app/modules/contact_sync/native/ContactSyncConstants.tsx
 app/modules/contact_sync/native/ContactSyncManager.tsx
 app/modules/contact_sync/native/ContactSyncUtils.tsx
+app/modules/content_classification/contentClassificationUtils.tsx
 app/modules/content_inventory/ContentInventoryActivityImageUtils.tsx
 app/modules/content_inventory/ContentInventoryConstants.tsx
 app/modules/content_inventory/ContentInventoryExperiments.tsx
@@ -3708,6 +3708,10 @@ app/modules/guild_settings/native/GuildSettingsModalMembersWrapper.tsx
 app/modules/guild_settings/native/GuildSettingsModalOfficialMessages.tsx
 app/modules/guild_settings/native/GuildSettingsModalOverview.tsx
 app/modules/guild_settings/native/GuildSettingsModalServerTag.tsx
+app/modules/guild_settings/native/GuildSettingsModalServerTagCustomize.tsx
+app/modules/guild_settings/native/GuildSettingsServerTagBadgeGrid.tsx
+app/modules/guild_settings/native/GuildSettingsServerTagColorGrid.tsx
+app/modules/guild_settings/native/GuildSettingsServerTagPickerCell.tsx
 app/modules/guild_settings/native/GuildSettingsServerTagPreview.tsx
 app/modules/guild_settings/native/GuildSettingsServerTagUpsellCard.tsx
 app/modules/guild_settings/native/MembersFilterActionSheet.tsx
@@ -3834,7 +3838,10 @@ app/modules/guild_tag/native/badges/GuildBadgeWind.tsx
 app/modules/guild_tag/native/GuildTag.tsx
 app/modules/guild_tag/native/VoiceGuildTag.tsx
 app/modules/guild_tag/PrimaryGuildUtils.tsx
+app/modules/guild_tag/useGuildTagBadgeCollection.tsx
 app/modules/guild_tag/useUserAvailableGuildsWithTags.tsx
+app/modules/guild_tag/utils/getGuildTagBadgeLabel.tsx
+app/modules/guild_tag/utils/getGuildTagPalettePresetColorPairLabel.tsx
 app/modules/guild_templates/createResolvedGuildTemplate.tsx
 app/modules/guild_templates/GuildTemplatesConstants.tsx
 app/modules/guild_templates/native/AcceptGuildTemplateModal.tsx
@@ -4597,6 +4604,7 @@ app/modules/media_uploads/DetectedFileSize.tsx
 app/modules/media_uploads/getAttachmentUploadAbortAlert.tsx
 app/modules/media_uploads/handleUploadAttachmentErrors.tsx
 app/modules/media_uploads/ImageEncodingLadder.tsx
+app/modules/media_uploads/native/ImageConversionDecision.tsx
 app/modules/media_uploads/native/showUploadFileSizeError.tsx
 app/modules/media_uploads/native/showUploadPreviewActionSheet.tsx
 app/modules/media_uploads/native/UploadPreviewActionSheet.tsx
@@ -4686,8 +4694,10 @@ app/modules/message_request/native/MessageRequestList.tsx
 app/modules/message_request/native/MessageRequestMutualServers.tsx
 app/modules/message_request/native/MessageRequestPreview.tsx
 app/modules/message_request/native/MessageRequestRowSenderDetails.tsx
+app/modules/message_request/native/RestrictedBlockedMessageGroup.tsx
 app/modules/message_request/native/RestrictedMessagePreviewActions.tsx
 app/modules/message_request/native/RestrictedMessagePreviewHeader.tsx
+app/modules/message_request/native/RestrictedMessagePreviewLayout.tsx
 app/modules/message_request/native/RestrictedMessagePreviewList.tsx
 app/modules/message_request/native/RestrictedMessageRequestPreview.tsx
 app/modules/message_request/native/spam/SpamMessageHamActionSheet.tsx
@@ -6579,6 +6589,7 @@ app/modules/user_profile/hooks/useActivityTimer.tsx
 app/modules/user_profile/hooks/useBadges.tsx
 app/modules/user_profile/hooks/useCanDM.tsx
 app/modules/user_profile/hooks/useDisplayProfile.tsx
+app/modules/user_profile/hooks/useFriendsSinceDate.tsx
 app/modules/user_profile/hooks/useIsUserProfileObfuscated.tsx
 app/modules/user_profile/hooks/useNote.tsx
 app/modules/user_profile/hooks/usePendingAvatarSettings.tsx

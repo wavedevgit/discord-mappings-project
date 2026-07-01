@@ -735,6 +735,7 @@
 {"id":"453903.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"455070.js","paths":["assets/images/connections-profile-steam-dota2.png","discord_app/src/main/res/drawable-mdpi/images_connectionsprofilesteamdota2.png"]}
 {"id":"457408.js","paths":["discord_app/modules/application_commands/AgeRestrictedApplicationCommandsExperiment.tsx"]}
+{"id":"45787.js","paths":["discord_app/modules/premium/gifting/PremiumGiftingIntentActionCreators.tsx"]}
 {"id":"458977.js","paths":["discord_app/modules/clips/DistributedClipsExperiment.tsx"]}
 {"id":"459357.js","paths":["discord_app/modules/billing/experiments/GiftCardsExperiment.tsx"]}
 {"id":"459789.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
@@ -1067,6 +1068,7 @@
 {"id":"594061.js","paths":["discord_app/modules/user_settings/UserSettingsProtoActionCreators.tsx"]}
 {"id":"594061.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"594592.js","paths":["discord_app/actions/SelectedChannelActionCreators.tsx"]}
+{"id":"594592.js","paths":["discord_app/modules/activities/ContentClassificationEmbeddedActivityFilterExperiment.tsx"]}
 {"id":"594592.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"595746.js","paths":["discord_app/modules/age_assurance/GoogleWalletExperiment.tsx"]}
 {"id":"599026.js","paths":["../discord_common/js/shared/shared-constants/StatusDisplayTypes.tsx"]}

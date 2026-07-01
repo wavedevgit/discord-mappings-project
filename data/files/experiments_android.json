@@ -20,6 +20,12 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/activities/ContentClassificationEmbeddedActivityFilterExperiment.tsx",
+        "kind": "user",
+        "id": "2026-06-content-classification-embedded-activity-filter",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/activity_privacy/ActivityPrivacyMatchingExperiment.tsx",
         "kind": "user",
         "id": "2026-02-activity-privacy-matching",
@@ -183,12 +189,6 @@
         "path": "app/modules/clips/ClipsSettingsRedesignExperiment.tsx",
         "kind": "user",
         "id": "2026-06-clips-settings-redesign",
-        "keyRequired": "variations"
-    },
-    {
-        "path": "app/modules/clips/ClipsTimelineExperiment.tsx",
-        "kind": "user",
-        "id": "2026-05-clips-timeline",
         "keyRequired": "variations"
     },
     {

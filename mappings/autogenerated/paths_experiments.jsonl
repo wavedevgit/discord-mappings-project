@@ -1,5 +1,6 @@
 {"find_with":["user","2026-04-ensure-received-messages-added-in-order","variations"],"paths":["app/lib/EnsureReceivedMessagesAddedInOrderExperiment.tsx"]}
 {"find_with":["user","2026-03-mobile-accessibility-label-optimization","variations"],"paths":["app/modules/a11y/native/AccessibilityLabelOptimizationExperiment.tsx"]}
+{"find_with":["user","2026-06-content-classification-embedded-activity-filter","variations"],"paths":["app/modules/activities/ContentClassificationEmbeddedActivityFilterExperiment.tsx"]}
 {"find_with":["user","2026-02-activity-privacy-matching","variations"],"paths":["app/modules/activity_privacy/ActivityPrivacyMatchingExperiment.tsx"]}
 {"find_with":["user","2025-11-age-verification-expressive-everywhere","variations"],"paths":["app/modules/age_assurance/AgeVerificationExpressiveModalEverywhereExperiment.tsx"]}
 {"find_with":["user","2026-06-age-verification-incode","variations"],"paths":["app/modules/age_assurance/AgeVerificationIncodeExperiment.tsx"]}
@@ -26,7 +27,6 @@
 {"find_with":["user","2026-01-chat-loading-indicator","variations"],"paths":["app/modules/chat/native/ChatLoadingIndicatorExperiment.tsx"]}
 {"find_with":["user","2026-03-clips-experiment","variations"],"paths":["app/modules/clips/ClipsExperiment.tsx"]}
 {"find_with":["user","2026-06-clips-settings-redesign","variations"],"paths":["app/modules/clips/ClipsSettingsRedesignExperiment.tsx"]}
-{"find_with":["user","2026-05-clips-timeline","variations"],"paths":["app/modules/clips/ClipsTimelineExperiment.tsx"]}
 {"find_with":["user","2026-04-clips-v3-runtime","variations"],"paths":["app/modules/clips/ClipsV3RuntimeExperiment.tsx"]}
 {"find_with":["user","2026-05-distributed-clips","variations"],"paths":["app/modules/clips/DistributedClipsExperiment.tsx"]}
 {"find_with":["user","2026-05-mobile-collectibles-flexible-bundles","variations"],"paths":["app/modules/collectibles/experiments/CollectiblesMobileFlexibleBundlesExperiment.tsx"]}
