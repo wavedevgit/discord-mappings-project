@@ -902,6 +902,12 @@
         "keyRequired": "treatments"
     },
     {
+        "path": "app/modules/premium/gifting/experiments/GiftingBadgeDesktopExperiment.tsx",
+        "kind": "user",
+        "id": "2026-06-gifting-badge-desktop",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/premium/gifting/experiments/GiftingBadgeExperiment.tsx",
         "kind": "user",
         "id": "2026-04-gifting-badge",

@@ -1804,7 +1804,6 @@ app/modules/applications/useGuildApplication.tsx
 app/modules/applications/useIsSocialLayerParentApplication.tsx
 app/modules/applications/utils/ApplicationFlagUtils.tsx
 app/modules/applications/utils/ApplicationInstallUtils.tsx
-app/modules/applications/utils/getApplicationEmbedVisibility.tsx
 app/modules/applications/utils/isApplicationAgeRestricted.tsx
 app/modules/asset_json/native/AssetJsonUtils.tsx
 app/modules/ato_alerts/Constants.tsx
@@ -2457,7 +2456,9 @@ app/modules/contact_sync/native/ContactSyncAnalyticsUtils.tsx
 app/modules/contact_sync/native/ContactSyncConstants.tsx
 app/modules/contact_sync/native/ContactSyncManager.tsx
 app/modules/contact_sync/native/ContactSyncUtils.tsx
-app/modules/content_classification/contentClassificationUtils.tsx
+app/modules/content_classification/ContentClassificationReference.tsx
+app/modules/content_classification/ContentClassificationVisibility.tsx
+app/modules/content_classification/utils.tsx
 app/modules/content_inventory/ContentInventoryActivityImageUtils.tsx
 app/modules/content_inventory/ContentInventoryConstants.tsx
 app/modules/content_inventory/ContentInventoryExperiments.tsx
@@ -4563,7 +4564,6 @@ app/modules/media_channel/native/useSetMediaPostThumbnail.tsx
 app/modules/media_channel/useCanSetThumbnail.tsx
 app/modules/media_channel/useIsFirstMessageInMediaPost.tsx
 app/modules/media_channel/useShouldHideMediaOptions.tsx
-app/modules/media_engine/AV1DecodeExperimentAndroid.tsx
 app/modules/media_engine/AV1EncodeExperimentLinux.tsx
 app/modules/media_engine/dispatchAutoDisableVideo.tsx
 app/modules/media_engine/InputWatcher.tsx
@@ -5157,6 +5157,7 @@ app/modules/parent_tools/FamilyCenterRestrictedHoursUtils.tsx
 app/modules/parent_tools/FamilyCenterUtils.tsx
 app/modules/parent_tools/hooks/useAgeSpecificText.tsx
 app/modules/parent_tools/hooks/useConnectGuardianGate.tsx
+app/modules/parent_tools/hooks/useDismissOnNewPendingRequest.tsx
 app/modules/parent_tools/hooks/useFamilyCenterActions.tsx
 app/modules/parent_tools/hooks/useFamilyCenterActivities.tsx
 app/modules/parent_tools/hooks/useFormattedEndTime.tsx
@@ -5165,6 +5166,7 @@ app/modules/parent_tools/hooks/useIsInAdultAgeGroup.tsx
 app/modules/parent_tools/hooks/useIsInRestrictedHours.tsx
 app/modules/parent_tools/hooks/useIsOnMainSurface.tsx
 app/modules/parent_tools/hooks/useParentalControlSettings.tsx
+app/modules/parent_tools/hooks/useRefreshLinkCodeOnExpiry.tsx
 app/modules/parent_tools/hooks/useScheduleTimeControlsRowProps.tsx
 app/modules/parent_tools/hooks/useSelectedTab.tsx
 app/modules/parent_tools/hooks/useSelectedTeen.tsx
@@ -5201,7 +5203,6 @@ app/modules/parent_tools/native/FamilyCenterModalCancel.tsx
 app/modules/parent_tools/native/FamilyCenterModalDataTooltip.tsx
 app/modules/parent_tools/native/FamilyCenterModalDecline.tsx
 app/modules/parent_tools/native/FamilyCenterModalDisconnect.tsx
-app/modules/parent_tools/native/FamilyCenterModalQRCode.tsx
 app/modules/parent_tools/native/FamilyCenterModalRequest.tsx
 app/modules/parent_tools/native/FamilyCenterNativeUtils.tsx
 app/modules/parent_tools/native/FamilyCenterParentalConsentNotice.tsx
@@ -5221,6 +5222,7 @@ app/modules/parent_tools/native/ParentalConsentWarningManager.tsx
 app/modules/parent_tools/native/ParentalConsentWarningModal.tsx
 app/modules/parent_tools/native/RestrictedHoursModal.tsx
 app/modules/parent_tools/native/ScheduleDowntimeScreen.tsx
+app/modules/parent_tools/native/shareGuardianConnectLink.tsx
 app/modules/parent_tools/native/showSpendingLimitReachedAlert.tsx
 app/modules/parent_tools/native/useIsParentalConsentBannerActive.tsx
 app/modules/parent_tools/ParentalConsentWarningTypes.tsx
@@ -5327,7 +5329,7 @@ app/modules/premium/getNumSubscriptionsPurchasedFromSystemMessage.tsx
 app/modules/premium/gifting/FriendAnniversaryGate.tsx
 app/modules/premium/gifting/GiftingBadge.messages.js
 app/modules/premium/gifting/GiftingBadgeConstants.tsx
-app/modules/premium/gifting/GiftingBadgeProgressUtils.tsx
+app/modules/premium/gifting/GiftingBadgesUtils.tsx
 app/modules/premium/gifting/GiftingBadgeTier.messages.js
 app/modules/premium/gifting/hooks/useGiftingPromotionConfig.tsx
 app/modules/premium/gifting/hooks/useGiftingPromotionDefaultSelection.tsx
@@ -5457,6 +5459,7 @@ app/modules/premium/powerups/hooks/useGetGuildPowerupBannerImage.tsx
 app/modules/premium/powerups/hooks/useGuildPowerupCardFooterConfig.tsx
 app/modules/premium/powerups/hooks/useGuildPowerupExpiringNotificationsConfig.tsx
 app/modules/premium/powerups/hooks/useGuildPowerupLevelPerks.tsx
+app/modules/premium/powerups/hooks/useGuildPowerupNewPerkMarketingVersion.tsx
 app/modules/premium/powerups/hooks/useGuildPowerupOnDeactivate.tsx
 app/modules/premium/powerups/hooks/useGuildPowerupOnToggle.tsx
 app/modules/premium/powerups/hooks/useGuildPowerupRollbackEnabled.tsx
@@ -5464,6 +5467,7 @@ app/modules/premium/powerups/hooks/useGuildPowerupRollbackModalConfig.tsx
 app/modules/premium/powerups/hooks/useGuildPowerupRollbackNotificationConfig.tsx
 app/modules/premium/powerups/hooks/useGuildPowerupsBoostCount.tsx
 app/modules/premium/powerups/hooks/useGuildPowerupsBoostLevelProgress.tsx
+app/modules/premium/powerups/hooks/useGuildPowerupsNewBadge.tsx
 app/modules/premium/powerups/hooks/useGuildPowerupsNotifications.tsx
 app/modules/premium/powerups/hooks/useGuildPowerupsWarningConfig.tsx
 app/modules/premium/powerups/hooks/useGuildPowerupTier3OverrideConfig.tsx
@@ -5677,6 +5681,7 @@ app/modules/quests/lib/QuestsEligibility.tsx
 app/modules/quests/managers/QuestFetchManager.tsx
 app/modules/quests/managers/QuestMobileEmbedVisibilityManager.tsx
 app/modules/quests/managers/QuestProgressManager.tsx
+app/modules/quests/native/AdsVideoUtils.tsx
 app/modules/quests/native/AdVideoPlayer.tsx
 app/modules/quests/native/AppStoreOverlayTelemetryManager.tsx
 app/modules/quests/native/ATTModal/ATTManager.android.tsx
@@ -7820,6 +7825,7 @@ discord_assets/assets/icymi/header-image-light-3x.png.js
 discord_assets/assets/images/consoles/mobile_background.jpg.js
 discord_assets/assets/images/consoles/ps_link_success_illustration-2x.png.js
 discord_assets/assets/images/consoles/social_layer_link_success_illustration-2x.png.js
+discord_assets/assets/images/perks/xbox_game_pass.jpg.js
 discord_assets/assets/mana/asset-library/generated/AccountAgeTier10LargeBadge-2x.png.js
 discord_assets/assets/mana/asset-library/generated/AccountAgeTier10SmallBadge-2x.png.js
 discord_assets/assets/mana/asset-library/generated/AccountAgeTier1LargeBadge-2x.png.js
@@ -8442,6 +8448,7 @@ discord_common/js/packages/protos/discord_protos/premium_marketing/v1/billing_se
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_customization_banner.tsx
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_icon_coachmark.tsx
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_icon.tsx
+discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_intent_type.tsx
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_plan_selection_card_banner.tsx
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_reminder_coachmark.tsx
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_reminder_nagbar.tsx
@@ -8582,6 +8589,7 @@ discord_common/js/shared/modules/content_classification/lib/AgeRestrictionUtils.
 discord_common/js/shared/shared-constants/AdPlacement.tsx
 discord_common/js/shared/shared-constants/DismissibleQuestContentFlags.tsx
 discord_common/js/shared/shared-constants/Quests.tsx
+discord_common/js/shared/shared-constants/SimilarGamesConstants.tsx
 discord_common/js/shared/shared-constants/WidgetType.tsx
 discord_common/js/shared/timeRequire.tsx
 discord_common/js/shared/utils/FunctionUtils.tsx

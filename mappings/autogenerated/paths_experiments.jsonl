@@ -144,6 +144,7 @@
 {"find_with":["user","2026-02-game-server-tab-always-on","variations"],"paths":["app/modules/premium/game_server/experiments/GameServerTabAlwaysOnExperiment.tsx"]}
 {"find_with":["user","2026-04-new-games-coachmark","variations"],"paths":["app/modules/premium/game_server/experiments/NewGamesCoachmarkExperiment.tsx"]}
 {"find_with":["guild","2025-08_portkey_enabled","treatments"],"paths":["app/modules/premium/game_server/GameServerExperiment.tsx"]}
+{"find_with":["user","2026-06-gifting-badge-desktop","variations"],"paths":["app/modules/premium/gifting/experiments/GiftingBadgeDesktopExperiment.tsx"]}
 {"find_with":["user","2026-04-gifting-badge","variations"],"paths":["app/modules/premium/gifting/experiments/GiftingBadgeExperiment.tsx"]}
 {"find_with":["user","2026-04-gift-promotion-reminder","variations"],"paths":["app/modules/premium/gifting/experiments/GiftPromotionReminderExperiment.tsx"]}
 {"find_with":["user","2026-06-nitro-gifting-price-copy-tweaks","variations"],"paths":["app/modules/premium/gifting/experiments/NitroGiftPriceCopyExperiment.tsx"]}

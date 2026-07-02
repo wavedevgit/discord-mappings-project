@@ -630,6 +630,7 @@ app/modules/premium/game_server/experiments/NewGamesCoachmarkExperiment.tsx
 app/modules/premium/game_server/GameServerActionCreators.tsx
 app/modules/premium/game_server/GameServerExperiment.tsx
 app/modules/premium/game_server/GameServerStore.tsx
+app/modules/premium/gifting/experiments/GiftingBadgeDesktopExperiment.tsx
 app/modules/premium/gifting/experiments/GiftingBadgeExperiment.tsx
 app/modules/premium/gifting/experiments/GiftPromotionReminderExperiment.tsx
 app/modules/premium/gifting/experiments/NitroGiftPriceCopyExperiment.tsx
