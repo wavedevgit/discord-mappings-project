@@ -354,7 +354,6 @@ app/modules/global_discovery_servers/GuildDiscoveryCategoryStore.tsx
 app/modules/go_live/GoLiveAutoQualityExperiment.tsx
 app/modules/go_live/GoLiveVideoPresetResolutionExperiment.tsx
 app/modules/go_live/MobileGoLiveEntrypointExperiment.tsx
-app/modules/go_live/native/AndroidAudioCaptureBugWarningExperiment.tsx
 app/modules/go_live/native/MobileGoLiveUpsellExperiment.tsx
 app/modules/gplay/native/GPlayAnalyticsStore.tsx
 app/modules/guild_action_sheet/native/GuildHeaderCountsStore.tsx
@@ -409,6 +408,9 @@ app/modules/guild_role_subscriptions/native/RoleTierEditStore.tsx
 app/modules/guild_role_subscriptions/SubscriptionRoleStore.tsx
 app/modules/guild_role_subscriptions/tier_templates/GuildRoleSubscriptionTierTemplateActionCreators.tsx
 app/modules/guild_role_subscriptions/tier_templates/GuildRoleSubscriptionTierTemplatesStore.tsx
+app/modules/guild_rooms/GuildRoomActionCreators.tsx
+app/modules/guild_rooms/GuildRoomsExperiment.tsx
+app/modules/guild_rooms/GuildRoomStore.tsx
 app/modules/guild_scheduled_events/EventBannerStore.tsx
 app/modules/guild_scheduled_events/GuildScheduledEventsActionCreators.tsx
 app/modules/guild_scheduled_events/GuildScheduledEventsNoticesActionCreators.tsx
@@ -682,6 +684,7 @@ app/modules/quests/BountyActionCreators.tsx
 app/modules/quests/BountyStore.tsx
 app/modules/quests/ConsoleQuestUIStore.tsx
 app/modules/quests/experiments/AdAnalyticsInterfaceExperiment.tsx
+app/modules/quests/experiments/BountiesShopCarouselExperiment.tsx
 app/modules/quests/experiments/BountiesStage1Experiment.tsx
 app/modules/quests/experiments/BountyUseVideoModalMobilePlacementExperiment.tsx
 app/modules/quests/experiments/LessPersonalizedAdsExperiment.tsx
@@ -758,6 +761,7 @@ app/modules/slayer_storefront/SocialLayerStorefrontActionCreators.tsx
 app/modules/slayer_storefront/SocialLayerStorefrontStore.tsx
 app/modules/soundboard/native/SoundboardActionCreators.tsx
 app/modules/soundboard/SoundboardActionCreators.tsx
+app/modules/soundboard/SoundboardFrequentlyUsedExperiment.tsx
 app/modules/soundboard/SoundboardStore.tsx
 app/modules/soundpacks/SoundpackStore.tsx
 app/modules/spoiler_channels/ChannelSpoilerAgreeStore.tsx
@@ -787,6 +791,8 @@ app/modules/stickers/StickersPersistedStore.tsx
 app/modules/stickers/StickersStore.tsx
 app/modules/storefront/SKUPricesStore.tsx
 app/modules/storefront/StorefrontActionCreators.tsx
+app/modules/storefront/StorefrontProductActionCreators.tsx
+app/modules/storefront/StorefrontProductStore.tsx
 app/modules/storefront/StorefrontPromotionOverrideStore.tsx
 app/modules/storefront/StorefrontPromotionStore.tsx
 app/modules/summaries/SummaryActionCreators.tsx
@@ -868,7 +874,6 @@ app/modules/visual_effect_view/native/overrides/VEVOOStore.tsx
 app/modules/voice_calls/CallKitMetricCollectionExperiment.tsx
 app/modules/voice_calls/DefaultAudioRouteExperiment.tsx
 app/modules/voice_calls/GuildVoiceRingingExperiment.tsx
-app/modules/voice_calls/native/AndroidVoiceNotificationExperiment.tsx
 app/modules/voice_calls/native/IOSVoiceLiveActivityExperiment.tsx
 app/modules/voice_calls/PastVcActivityMessagesExperiment.tsx
 app/modules/voice_calls/PTTEducationExperiment.tsx

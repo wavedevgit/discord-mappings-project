@@ -2191,6 +2191,7 @@ app/modules/coded_links/CodedLink.tsx
 app/modules/coded_links/codedLinkQueue.tsx
 app/modules/coded_links/findCodedLinks.tsx
 app/modules/coded_links/MessageCodedLinkManager.tsx
+app/modules/collectibles/api/Shopfront.tsx
 app/modules/collectibles/avatar_decorations/AvatarDecorationConstants.tsx
 app/modules/collectibles/avatar_decorations/AvatarDecorationUtils.tsx
 app/modules/collectibles/avatar_decorations/native/AvatarDecorationUtils.tsx
@@ -2294,6 +2295,7 @@ app/modules/collectibles/native/HeroBlock.tsx
 app/modules/collectibles/native/hooks/useCardLayout.tsx
 app/modules/collectibles/native/hooks/useFilteredAndSortedProducts.tsx
 app/modules/collectibles/native/hooks/useMobileCollectiblesPurchaseSKU.android.tsx
+app/modules/collectibles/native/hooks/usePopularOrbShopProducts.tsx
 app/modules/collectibles/native/hooks/useScrollToInitialIndexOnce.tsx
 app/modules/collectibles/native/hooks/useTrackShopCardImpression.tsx
 app/modules/collectibles/native/hooks/useVirtualCurrencyData.tsx
@@ -2677,10 +2679,14 @@ app/modules/display_name_styles/native/DisplayNameStylesColorSwatch.tsx
 app/modules/display_name_styles/native/DisplayNameStylesEditPreview.tsx
 app/modules/display_name_styles/native/DisplayNameStylesEditScreen.tsx
 app/modules/display_name_styles/native/DisplayNameStylesEffectPickerSheet.tsx
+app/modules/display_name_styles/native/DisplayNameStylesFlywheelMobileActionSheet.tsx
 app/modules/display_name_styles/native/DisplayNameStylesFontPickerSheet.tsx
 app/modules/display_name_styles/native/DisplayNameStylesGradientPickerSheet.tsx
-app/modules/display_name_styles/native/DisplayNameStylesMobileActionSheet.tsx
+app/modules/display_name_styles/native/DisplayNameStylesGummyColorPickerSheet.tsx
+app/modules/display_name_styles/native/DisplayNameStylesGummyCustomColorSheet.tsx
+app/modules/display_name_styles/native/effects/GummyStripes.tsx
 app/modules/display_name_styles/native/effects/PerLetterEffect.tsx
+app/modules/display_name_styles/native/showGummyCustomColorSheet.tsx
 app/modules/display_name_styles/native/useDisplayNameStylesFont.tsx
 app/modules/display_name_styles/native/UsernameWithEffects.tsx
 app/modules/display_name_styles/types.tsx
@@ -3598,6 +3604,9 @@ app/modules/guild_role_subscriptions/useTrackRoleSubscriptionUpsellAnalytics.tsx
 app/modules/guild_role_subscriptions/useTrialActiveUserLimitOptions.tsx
 app/modules/guild_role_subscriptions/useTrialIntervalOptions.tsx
 app/modules/guild_role_subscriptions/useUserRoleSubscriptionRelationship.tsx
+app/modules/guild_rooms/GuildRoomAnalytics.tsx
+app/modules/guild_rooms/GuildRoomConstants.tsx
+app/modules/guild_rooms/GuildRoomManager.tsx
 app/modules/guild_rooms/GuildRooms.messages.js
 app/modules/guild_rooms/GuildRoomUtils.tsx
 app/modules/guild_scheduled_events/CreateGuildScheduledEventConstants.tsx
@@ -4110,7 +4119,8 @@ app/modules/in_app_reports/ReportModals.tsx
 app/modules/in_app_reports/ReportUtils.tsx
 app/modules/in_app_reports/showReportModal.tsx
 app/modules/in_app_reports/trackInAppReportsFeedback.tsx
-app/modules/install_size_tracker/native/DiskUsageManager.android.tsx
+app/modules/install/native/DiskUsageManager.android.tsx
+app/modules/install/native/InstallTime.tsx
 app/modules/instant_invite/canViewInviteModal.tsx
 app/modules/instant_invite/Constants.tsx
 app/modules/instant_invite/DefaultInviteExpirationExperiments.tsx
@@ -5224,13 +5234,13 @@ app/modules/parent_tools/native/RestrictedHoursModal.tsx
 app/modules/parent_tools/native/ScheduleDowntimeScreen.tsx
 app/modules/parent_tools/native/shareGuardianConnectLink.tsx
 app/modules/parent_tools/native/showSpendingLimitReachedAlert.tsx
-app/modules/parent_tools/native/useIsParentalConsentBannerActive.tsx
 app/modules/parent_tools/ParentalConsentWarningTypes.tsx
 app/modules/parent_tools/RestrictedHoursActionCreators.tsx
 app/modules/parent_tools/RestrictedHoursManager.tsx
 app/modules/parent_tools/RestrictedScheduleNotificationUtils.tsx
 app/modules/parent_tools/SpendingLimitDisplay.tsx
 app/modules/parent_tools/SpendingLimitUtils.tsx
+app/modules/parent_tools/useIsParentalConsentBannerActive.tsx
 app/modules/parent_tools/useParentalConsentWarning.tsx
 app/modules/parental_consent/native/AgeUpdateFooter.tsx
 app/modules/payments/hooks/useSubscriptionSelection.tsx
@@ -5759,6 +5769,8 @@ app/modules/quests/native/QuestGameLogotype.tsx
 app/modules/quests/native/QuestHome.tsx
 app/modules/quests/native/QuestHomeBounties.tsx
 app/modules/quests/native/QuestHomeEmptyState.tsx
+app/modules/quests/native/QuestHomeOrbShopCarousel.tsx
+app/modules/quests/native/QuestHomeOrbShopRewardCard.tsx
 app/modules/quests/native/QuestHomeSetting.tsx
 app/modules/quests/native/QuestHomeSortingFilteringBottomSheet.tsx
 app/modules/quests/native/QuestHooks.tsx
@@ -7284,7 +7296,6 @@ app/modules/video_calls/getParticipantTitle.tsx
 app/modules/video_calls/native/ChannelCallConstants.tsx
 app/modules/video_calls/native/ChannelCallUtils.tsx
 app/modules/video_calls/native/components/ActivityTile.tsx
-app/modules/video_calls/native/components/AndroidAudioCaptureBugWarning.tsx
 app/modules/video_calls/native/components/CallBarAction.tsx
 app/modules/video_calls/native/components/CallTile.tsx
 app/modules/video_calls/native/components/CameraPreview.tsx
@@ -7819,6 +7830,7 @@ discord_assets/assets/game-profile/opencritic-mighty.png.js
 discord_assets/assets/game-profile/opencritic-strong.png.js
 discord_assets/assets/game-profile/opencritic-weak.png.js
 discord_assets/assets/gifting/new_gifting_badges.png.js
+discord_assets/assets/guild-room/test-background.png.js
 discord_assets/assets/icymi/bg-fade-3x.png.js
 discord_assets/assets/icymi/header-image-dark-3x.png.js
 discord_assets/assets/icymi/header-image-light-3x.png.js
@@ -8444,6 +8456,7 @@ discord_common/js/packages/protos/discord_protos/discord_users/v1/frecency_user_
 discord_common/js/packages/protos/discord_protos/discord_users/v1/preloaded_user_settings.tsx
 discord_common/js/packages/protos/discord_protos/discord_users/v1/user_settings_shared.tsx
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/announcement_modal_variant_1_properties.tsx
+discord_common/js/packages/protos/discord_protos/premium_marketing/v1/billing_settings_banner.tsx
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/billing_settings_nitro_gift_banner.tsx
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_customization_banner.tsx
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_icon_coachmark.tsx
@@ -8458,6 +8471,7 @@ discord_common/js/packages/protos/discord_protos/premium_marketing/v1/marketing_
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/mobile_bottom_sheet.tsx
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/nagbar.tsx
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/payment_modal_banner.tsx
+discord_common/js/packages/protos/discord_protos/premium_marketing/v1/plan_select_card_banner.tsx
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/premium_marketing_component_properties.tsx
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/premium_tab_popover.tsx
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/premium_tab_tooltip.tsx
@@ -8516,6 +8530,7 @@ discord_common/js/packages/rtn-codegen/js/NativeFileModule.tsx
 discord_common/js/packages/rtn-codegen/js/NativeFontModule.tsx
 discord_common/js/packages/rtn-codegen/js/NativeFWOMeasureModule.tsx
 discord_common/js/packages/rtn-codegen/js/NativeI18nModule.tsx
+discord_common/js/packages/rtn-codegen/js/NativeInstallTimeModule.tsx
 discord_common/js/packages/rtn-codegen/js/NativeIntentsModule.tsx
 discord_common/js/packages/rtn-codegen/js/NativeJankStatsModule.tsx
 discord_common/js/packages/rtn-codegen/js/NativeJSWatchdogModule.tsx
@@ -8587,6 +8602,7 @@ discord_common/js/shared/hooks/useMountEffect.tsx
 discord_common/js/shared/hooks/useStableCallback.tsx
 discord_common/js/shared/modules/content_classification/lib/AgeRestrictionUtils.tsx
 discord_common/js/shared/shared-constants/AdPlacement.tsx
+discord_common/js/shared/shared-constants/CollectibleSearchCurrencyFilter.tsx
 discord_common/js/shared/shared-constants/DismissibleQuestContentFlags.tsx
 discord_common/js/shared/shared-constants/Quests.tsx
 discord_common/js/shared/shared-constants/SimilarGamesConstants.tsx

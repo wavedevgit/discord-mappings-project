@@ -461,6 +461,7 @@
 {"id":"330287.js","paths":["discord_common/js/packages/protos/discord_protos/premium_marketing/v1/help_article.tsx"]}
 {"id":"331329.js","paths":["../discord_common/js/shared/shared-constants/StorefrontPlatform.tsx"]}
 {"id":"332633.js","paths":["assets/images/consoles/link_failure@2x.png","discord_app/src/main/res/drawable-xhdpi/images_consoles_link_failure.png"]}
+{"id":"333216.js","paths":["discord_app/modules/soundboard/SoundboardFrequentlyUsedExperiment.tsx"]}
 {"id":"333216.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
 {"id":"333369.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"333369.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
@@ -552,6 +553,7 @@
 {"id":"360469.js","paths":["../discord_common/js/shared/shared-constants/ApplicationCollectionPlatforms.tsx"]}
 {"id":"360469.js","paths":["../discord_common/js/shared/shared-constants/CollectiblesMarketingPlatform.tsx"]}
 {"id":"360469.js","paths":["../discord_common/js/shared/shared-constants/MarketingComponentPlatform.tsx"]}
+{"id":"360729.js","paths":["discord_app/modules/guild_rooms/GuildRoomsExperiment.tsx"]}
 {"id":"361160.js","paths":["assets/_discord_common/js/shared/images/flags/sv-SE.png","discord_app/src/main/res/drawable-mdpi/_discord_common_js_shared_images_flags_svse.png"]}
 {"id":"36149.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"36149.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
@@ -660,6 +662,7 @@
 {"id":"40876.js","paths":["../discord_common/js/shared/shared-constants/AudioSettingsDefaultVolumes.tsx"]}
 {"id":"40876.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"40876.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
+{"id":"408822.js","paths":["discord_app/modules/guild_rooms/GuildRoomActionCreators.tsx"]}
 {"id":"409352.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"4106.js","paths":["discord_app/modules/icymi/ICYMIActionCreators.tsx"]}
 {"id":"411153.js","paths":["../discord_common/js/shared/shared-constants/AutomodActionType.tsx"]}
@@ -1670,6 +1673,7 @@
 {"id":"86379.js","paths":["discord_app/modules/billing/experiments/BlockedPaymentsCountryExperiment.tsx"]}
 {"id":"863922.js","paths":["discord_app/modules/summaries/SummaryActionCreators.tsx"]}
 {"id":"864145.js","paths":["discord_app/modules/premium/sounds/soundmoji/SoundmojiRenderingExperiment.tsx"]}
+{"id":"865678.js","paths":["discord_common/js/packages/protos/discord_protos/premium_marketing/v1/billing_settings_banner.tsx"]}
 {"id":"865678.js","paths":["discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_icon.tsx"]}
 {"id":"865678.js","paths":["discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_reminder_coachmark.tsx"]}
 {"id":"865678.js","paths":["discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_reminder_nagbar.tsx"]}
@@ -1677,6 +1681,7 @@
 {"id":"865678.js","paths":["discord_common/js/packages/protos/discord_protos/premium_marketing/v1/mobile_bottom_sheet.tsx"]}
 {"id":"865678.js","paths":["discord_common/js/packages/protos/discord_protos/premium_marketing/v1/nagbar.tsx"]}
 {"id":"865678.js","paths":["discord_common/js/packages/protos/discord_protos/premium_marketing/v1/payment_modal_banner.tsx"]}
+{"id":"865678.js","paths":["discord_common/js/packages/protos/discord_protos/premium_marketing/v1/plan_select_card_banner.tsx"]}
 {"id":"865678.js","paths":["discord_common/js/packages/protos/discord_protos/premium_marketing/v1/premium_marketing_component_properties.tsx"]}
 {"id":"865678.js","paths":["discord_common/js/packages/protos/discord_protos/premium_marketing/v1/premium_tab_popover.tsx"]}
 {"id":"865678.js","paths":["discord_common/js/packages/protos/discord_protos/premium_marketing/v1/premium_tab_tooltip.tsx"]}

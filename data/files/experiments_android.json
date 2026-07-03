@@ -398,12 +398,6 @@
         "keyRequired": "variations"
     },
     {
-        "path": "app/modules/go_live/native/AndroidAudioCaptureBugWarningExperiment.tsx",
-        "kind": "user",
-        "id": "2026-05-android-audio-capture-bug-warning",
-        "keyRequired": "variations"
-    },
-    {
         "path": "app/modules/go_live/native/MobileGoLiveUpsellExperiment.tsx",
         "kind": "user",
         "id": "2026-04-mobile-go-live-upsell",
@@ -420,6 +414,12 @@
         "kind": "user",
         "id": "2026-02-pubsub-bulk-ban-users",
         "keyRequired": "variations"
+    },
+    {
+        "path": "app/modules/guild_rooms/GuildRoomsExperiment.tsx",
+        "kind": "guild",
+        "id": "2026-06_guild_rooms",
+        "keyRequired": "treatments"
     },
     {
         "path": "app/modules/guild_settings/MobileServerTagExperiment.tsx",
@@ -1028,6 +1028,12 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/quests/experiments/BountiesShopCarouselExperiment.tsx",
+        "kind": "user",
+        "id": "2026-06-bounties-shop-carousel",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/quests/experiments/BountiesStage1Experiment.tsx",
         "kind": "user",
         "id": "2026-05-bounties-stage-1",
@@ -1109,6 +1115,12 @@
         "path": "app/modules/slayer_storefront/experiments/SocialLayerStorefrontMobilePurchasingExperiment.tsx",
         "kind": "user",
         "id": "2026-04-social-layer-storefront-mobile-purchasing",
+        "keyRequired": "variations"
+    },
+    {
+        "path": "app/modules/soundboard/SoundboardFrequentlyUsedExperiment.tsx",
+        "kind": "user",
+        "id": "2026-06-soundboard-frequently-used",
         "keyRequired": "variations"
     },
     {
@@ -1240,12 +1252,6 @@
         "kind": "guild",
         "id": "2024-12_guild_voice_channel_ringing",
         "keyRequired": "treatments"
-    },
-    {
-        "path": "app/modules/voice_calls/native/AndroidVoiceNotificationExperiment.tsx",
-        "kind": "user",
-        "id": "2026-05-android-voice-notification",
-        "keyRequired": "variations"
     },
     {
         "path": "app/modules/voice_calls/native/IOSVoiceLiveActivityExperiment.tsx",

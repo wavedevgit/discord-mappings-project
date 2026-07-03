@@ -161,6 +161,7 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']RoleTierEditStore[\"']"},"paths":["app/modules/guild_role_subscriptions/native/RoleTierEditStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']SubscriptionRoleStore[\"']"},"paths":["app/modules/guild_role_subscriptions/SubscriptionRoleStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GuildRoleSubscriptionTierTemplatesStore[\"']"},"paths":["app/modules/guild_role_subscriptions/tier_templates/GuildRoleSubscriptionTierTemplatesStore.tsx"]}
+{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GuildRoomStore[\"']"},"paths":["app/modules/guild_rooms/GuildRoomStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']EventBannerStore[\"']"},"paths":["app/modules/guild_scheduled_events/EventBannerStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GuildScheduledEventStore[\"']"},"paths":["app/modules/guild_scheduled_events/GuildScheduledEventStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']LiveChannelNoticesStore[\"']"},"paths":["app/modules/guild_scheduled_events/LiveChannelNoticesStore.tsx"]}
@@ -328,6 +329,7 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']StickersPersistedStore[\"']"},"paths":["app/modules/stickers/StickersPersistedStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']StickersStore[\"']"},"paths":["app/modules/stickers/StickersStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']SKUPricesStore[\"']"},"paths":["app/modules/storefront/SKUPricesStore.tsx"]}
+{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']StorefrontProductStore[\"']"},"paths":["app/modules/storefront/StorefrontProductStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']StorefrontPromotionOverrideStore[\"']"},"paths":["app/modules/storefront/StorefrontPromotionOverrideStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']StorefrontPromotionStore[\"']"},"paths":["app/modules/storefront/StorefrontPromotionStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']SummaryStore[\"']"},"paths":["app/modules/summaries/SummaryStore.tsx"]}

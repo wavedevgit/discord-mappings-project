@@ -237,6 +237,14 @@
     },
     {
         "names": [
+            "discord_protos.premium_marketing.v1.ButtonAction",
+            "discord_protos.premium_marketing.v1.BillingSettingsBannerCTAButton",
+            "discord_protos.premium_marketing.v1.BillingSettingsBanner"
+        ],
+        "path": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/billing_settings_banner.tsx"
+    },
+    {
+        "names": [
             "discord_protos.premium_marketing.v1.BillingSettingsNitroGiftBanner"
         ],
         "path": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/billing_settings_nitro_gift_banner.tsx"
@@ -320,6 +328,12 @@
             "discord_protos.premium_marketing.v1.PaymentModalBanner"
         ],
         "path": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/payment_modal_banner.tsx"
+    },
+    {
+        "names": [
+            "discord_protos.premium_marketing.v1.PlanSelectCardBanner"
+        ],
+        "path": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/plan_select_card_banner.tsx"
     },
     {
         "names": [

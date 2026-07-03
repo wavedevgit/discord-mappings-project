@@ -1559,6 +1559,16 @@
         ]
     },
     {
+        "path": "app/modules/guild_rooms/GuildRoomActionCreators.tsx",
+        "flux_events": [
+            "GUILD_ROOM_LOCAL_POSITION_REQUESTED",
+            "GUILD_ROOM_TOGGLE_LAYOUT",
+            "GUILD_ROOM_LOCAL_UPDATE",
+            "GUILD_ROOM_DISCONNECT",
+            "GUILD_ROOM_CONNECT"
+        ]
+    },
+    {
         "path": "app/modules/guild_scheduled_events/GuildScheduledEventsActionCreators.tsx",
         "flux_events": [
             "GUILD_SCHEDULED_EVENT_USER_COUNTS_FETCH_SUCCESS",
@@ -2411,6 +2421,16 @@
             "STOREFRONT_PROMOTIONS_FETCH_START",
             "STOREFRONT_PROMOTIONS_FETCH_FAIL",
             "SKUS_PRICING_FETCH_SUCCESS"
+        ]
+    },
+    {
+        "path": "app/modules/storefront/StorefrontProductActionCreators.tsx",
+        "flux_events": [
+            "STOREFRONT_PRODUCTS_BY_SKU_IDS_FETCH_SUCCESS",
+            "STOREFRONT_PRODUCTS_BY_SKU_IDS_FETCH_FAILURE",
+            "STOREFRONT_PRODUCTS_WITH_SKUS_FETCH_SUCCESS",
+            "STOREFRONT_PRODUCTS_WITH_SKUS_FETCH_FAILURE",
+            "STOREFRONT_PRODUCTS_BY_SKU_IDS_FETCH"
         ]
     },
     {
