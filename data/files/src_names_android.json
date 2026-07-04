@@ -185,7 +185,7 @@
     },
     {
         "file": "app/actions/MessageActionCreators.tsx",
-        "size": 282447
+        "size": 282444
     },
     {
         "file": "app/actions/MFAActionCreators.tsx",
@@ -5237,7 +5237,7 @@
     },
     {
         "file": "app/lib/native/FastList.tsx",
-        "size": 229647
+        "size": 229651
     },
     {
         "file": "app/lib/native/Linking.tsx",
@@ -5821,7 +5821,7 @@
     },
     {
         "file": "app/modules/activities/native/EmbeddedActivityWebView.tsx",
-        "size": 79960
+        "size": 79962
     },
     {
         "file": "app/modules/activities/native/getDefaultOrientationLockState.tsx",
@@ -8745,7 +8745,7 @@
     },
     {
         "file": "app/modules/channel_list_v2/native/GuildHeaderCoachmarks.tsx",
-        "size": 5250
+        "size": 7460
     },
     {
         "file": "app/modules/channel_list_v2/native/hooks/useChannelListSpecs.tsx",
@@ -9849,11 +9849,11 @@
     },
     {
         "file": "app/modules/collectibles/hooks/useTrackProductCardImpression.tsx",
-        "size": 12573
+        "size": 12601
     },
     {
         "file": "app/modules/collectibles/hooks/useTrackShopCardClick.tsx",
-        "size": 6332
+        "size": 6323
     },
     {
         "file": "app/modules/collectibles/hooks/useWishlistButtonState.tsx",
@@ -9969,7 +9969,7 @@
     },
     {
         "file": "app/modules/collectibles/native/CollectiblesShopCardV2.tsx",
-        "size": 38498
+        "size": 38674
     },
     {
         "file": "app/modules/collectibles/native/CollectiblesShopCardVariants.tsx",
@@ -10001,7 +10001,7 @@
     },
     {
         "file": "app/modules/collectibles/native/CollectiblesShopOrbsPage.tsx",
-        "size": 9070
+        "size": 9296
     },
     {
         "file": "app/modules/collectibles/native/CollectiblesShopPricePlaceholder.tsx",
@@ -10009,7 +10009,7 @@
     },
     {
         "file": "app/modules/collectibles/native/CollectiblesShopV2.tsx",
-        "size": 54957
+        "size": 56152
     },
     {
         "file": "app/modules/collectibles/native/CollectiblesShopViewAllCategoryItems.tsx",
@@ -10069,7 +10069,7 @@
     },
     {
         "file": "app/modules/collectibles/native/FramesHeroBlock.tsx",
-        "size": 41054
+        "size": 41750
     },
     {
         "file": "app/modules/collectibles/native/FramesProductShelfBlock.tsx",
@@ -10077,7 +10077,7 @@
     },
     {
         "file": "app/modules/collectibles/native/HeroBlock.tsx",
-        "size": 37018
+        "size": 37694
     },
     {
         "file": "app/modules/collectibles/native/hooks/useCardLayout.tsx",
@@ -10097,7 +10097,7 @@
     },
     {
         "file": "app/modules/collectibles/native/hooks/useScrollToInitialIndexOnce.tsx",
-        "size": 3929
+        "size": 4664
     },
     {
         "file": "app/modules/collectibles/native/hooks/useTrackShopCardImpression.tsx",
@@ -10193,7 +10193,7 @@
     },
     {
         "file": "app/modules/collectibles/native/ShopCategory.tsx",
-        "size": 19071
+        "size": 20043
     },
     {
         "file": "app/modules/collectibles/native/ShopCoachmark.tsx",
@@ -10201,7 +10201,7 @@
     },
     {
         "file": "app/modules/collectibles/native/ShopFlashList.tsx",
-        "size": 4391
+        "size": 4470
     },
     {
         "file": "app/modules/collectibles/native/SkeletonCard.tsx",
@@ -10265,7 +10265,7 @@
     },
     {
         "file": "app/modules/collectibles/native/VisibilitySensor.tsx",
-        "size": 7251
+        "size": 7581
     },
     {
         "file": "app/modules/collectibles/native/WishlistButton.tsx",
@@ -10593,7 +10593,7 @@
     },
     {
         "file": "app/modules/connections/ConnectionsUtils.tsx",
-        "size": 50357
+        "size": 50351
     },
     {
         "file": "app/modules/connections/Constants.tsx",
@@ -11441,7 +11441,7 @@
     },
     {
         "file": "app/modules/devtools/native/components/screens/DevToolsRevenuePlaygroundScreen.tsx",
-        "size": 84751
+        "size": 85697
     },
     {
         "file": "app/modules/devtools/native/components/screens/DevToolsShopScreen.tsx",
@@ -12297,7 +12297,7 @@
     },
     {
         "file": "app/modules/experiments/client_override_hooks/useApexExperiments.tsx",
-        "size": 12079
+        "size": 15235
     },
     {
         "file": "app/modules/experiments/client_override_hooks/useCodedLinksExperimentEmbeds.tsx",
@@ -24473,7 +24473,7 @@
     },
     {
         "file": "app/modules/premium/powerups/GuildPowerupsManager.tsx",
-        "size": 15616
+        "size": 16965
     },
     {
         "file": "app/modules/premium/powerups/GuildPowerupsNotificationStore.tsx",
@@ -24588,6 +24588,10 @@
         "size": 6826
     },
     {
+        "file": "app/modules/premium/powerups/hooks/useIsGuildThemePerkEnabled.tsx",
+        "size": 3599
+    },
+    {
         "file": "app/modules/premium/powerups/hooks/useIsServerThemeAvailableForGuild.tsx",
         "size": 1754
     },
@@ -24610,6 +24614,10 @@
     {
         "file": "app/modules/premium/powerups/hooks/usePowerupActiveStatus.tsx",
         "size": 13049
+    },
+    {
+        "file": "app/modules/premium/powerups/hooks/useShouldShowGuildThemeMemberCoachmark.tsx",
+        "size": 2844
     },
     {
         "file": "app/modules/premium/powerups/hooks/useTotalPossibleBoostCount.tsx",
@@ -24730,6 +24738,10 @@
     {
         "file": "app/modules/premium/powerups/native/GuildPowerupsWarning.tsx",
         "size": 7006
+    },
+    {
+        "file": "app/modules/premium/powerups/native/GuildThemeMemberCoachmark.tsx",
+        "size": 10486
     },
     {
         "file": "app/modules/premium/powerups/native/hooks/useGuildPowerupColorConfig.tsx",
@@ -26185,7 +26197,7 @@
     },
     {
         "file": "app/modules/reactions/native/EmojiReactionRowButton.tsx",
-        "size": 11876
+        "size": 11877
     },
     {
         "file": "app/modules/reactions/native/MessagePreviewReactions.tsx",
@@ -27021,7 +27033,7 @@
     },
     {
         "file": "app/modules/safety_flows/openSafetyFlow.native.tsx",
-        "size": 9050
+        "size": 9641
     },
     {
         "file": "app/modules/safety_flows/pendingRequestTimestamp.tsx",
@@ -30301,7 +30313,7 @@
     },
     {
         "file": "app/modules/user_profile/UserProfileStore.tsx",
-        "size": 85342
+        "size": 85341
     },
     {
         "file": "app/modules/user_profile/UserProfileWidgetConstants.tsx",
@@ -34841,7 +34853,7 @@
     },
     {
         "file": "app/utils/ColorUtils.tsx",
-        "size": 57387
+        "size": 57385
     },
     {
         "file": "app/utils/ComponentDispatchUtils.tsx",
@@ -35073,7 +35085,7 @@
     },
     {
         "file": "app/utils/native/IAPUtils.tsx",
-        "size": 44892
+        "size": 45996
     },
     {
         "file": "app/utils/native/ImageUtils.tsx",

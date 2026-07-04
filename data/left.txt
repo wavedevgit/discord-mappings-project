@@ -5484,12 +5484,14 @@ app/modules/premium/powerups/hooks/useGuildPowerupTier3OverrideConfig.tsx
 app/modules/premium/powerups/hooks/useHasAllocateBoostPermission.tsx
 app/modules/premium/powerups/hooks/useHasEnhancedRoleColors.tsx
 app/modules/premium/powerups/hooks/useIsCurrentUserEligibleForPowerupUpsells.tsx
+app/modules/premium/powerups/hooks/useIsGuildThemePerkEnabled.tsx
 app/modules/premium/powerups/hooks/useIsServerThemeAvailableForGuild.tsx
 app/modules/premium/powerups/hooks/useLoadGuildPowerups.tsx
 app/modules/premium/powerups/hooks/useMarketablePowerupPerks.tsx
 app/modules/premium/powerups/hooks/useMaybeGetSortedBoosts.tsx
 app/modules/premium/powerups/hooks/useMultiPerkStatusValues.tsx
 app/modules/premium/powerups/hooks/usePowerupActiveStatus.tsx
+app/modules/premium/powerups/hooks/useShouldShowGuildThemeMemberCoachmark.tsx
 app/modules/premium/powerups/hooks/useTotalPossibleBoostCount.tsx
 app/modules/premium/powerups/mocks/GuildPowerupMocks.tsx
 app/modules/premium/powerups/native/BoostProgressBarCoachmark.tsx
@@ -5520,6 +5522,7 @@ app/modules/premium/powerups/native/GuildPowerupsRecentActivitySection.tsx
 app/modules/premium/powerups/native/GuildPowerupsSectionHeader.tsx
 app/modules/premium/powerups/native/GuildPowerupsSinglePerkCard.tsx
 app/modules/premium/powerups/native/GuildPowerupsWarning.tsx
+app/modules/premium/powerups/native/GuildThemeMemberCoachmark.tsx
 app/modules/premium/powerups/native/hooks/useGuildPowerupColorConfig.tsx
 app/modules/premium/powerups/native/hooks/useGuildPowerupConfigureCallback.tsx
 app/modules/premium/powerups/native/hooks/useGuildPowerupOnActivate.tsx
