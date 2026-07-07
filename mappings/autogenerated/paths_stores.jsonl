@@ -73,6 +73,7 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ContentInventoryStore[\"']"},"paths":["app/modules/content_inventory/ContentInventoryStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ConversationsStore[\"']"},"paths":["app/modules/conversations/ConversationsStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ConversationVisibilityStore[\"']"},"paths":["app/modules/conversations/ConversationVisibilityStore.tsx"]}
+{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']TopicalNavigationSurveyStore[\"']"},"paths":["app/modules/conversations/TopicalNavigationSurveyStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']CreatorMonetizationStore[\"']"},"paths":["app/modules/creator_monetization/CreatorMonetizationStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']AnalyticsLogStore[\"']"},"paths":["app/modules/devtools/AnalyticsLogStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']DesignTogglesStore[\"']"},"paths":["app/modules/devtools/design_toggles/DesignTogglesStore.tsx"]}

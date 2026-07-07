@@ -876,6 +876,7 @@
     {
         "path": "app/modules/application_account_linking/AccountLinkingActionCreators.tsx",
         "flux_events": [
+            "ACCOUNT_LINK_DEVTOOLS_SET_GLOBALLY_DISBLED_FLOWS",
             "ACCOUNT_LINK_AUTHORIZATION_COMPLETED",
             "ACCOUNT_LINK_AUTHORIZATION_STARTED"
         ]
@@ -1101,6 +1102,16 @@
             "CONTENT_INVENTORY_CLEAR_DELETE_HISTORY_ERROR",
             "CONTENT_INVENTORY_TOGGLE_FEED_HIDDEN",
             "GAME_PROFILE_OPEN"
+        ]
+    },
+    {
+        "path": "app/modules/conversations/ConversationsActionCreators.tsx",
+        "flux_events": [
+            "TOPICAL_NAVIGATION_ENTRYPOINT_IMPRESSION",
+            "CONVERSATIONS_TOGGLE_HIGHLIGHTING",
+            "SET_CONVERSATION_FEEDBACK_RATING",
+            "CLEAR_CONVERSATION_SELECTION",
+            "CONVERSATIONS_FETCH_SUCCESS"
         ]
     },
     {

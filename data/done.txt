@@ -240,8 +240,10 @@ app/modules/content_inventory/ContentInventoryActivityStore.tsx
 app/modules/content_inventory/ContentInventoryOutboxStore.tsx
 app/modules/content_inventory/ContentInventoryPersistedStore.tsx
 app/modules/content_inventory/ContentInventoryStore.tsx
+app/modules/conversations/ConversationsActionCreators.tsx
 app/modules/conversations/ConversationsStore.tsx
 app/modules/conversations/ConversationVisibilityStore.tsx
+app/modules/conversations/TopicalNavigationSurveyStore.tsx
 app/modules/create_guild/CreateGuildActionCreators.tsx
 app/modules/create_guild/native/CreateGuildModalActionCreators.tsx
 app/modules/creator_monetization_eligibility/CreatorMonetizationEligibilityActionCreators.tsx
