@@ -368,6 +368,12 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/gesture_handlers/native/RNGHMountReactionsEffectExperiment.tsx",
+        "kind": "user",
+        "id": "2026-07-rngh-mount-reactions-effect",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/gif_picker/experiments/GifProvidersExperiment.tsx",
         "kind": "user",
         "id": "2025-10-gif-providers-multi-treatment",
@@ -1197,6 +1203,12 @@
     },
     {
         "path": "app/modules/user_settings/content_and_social/DefaultDMSettingsExperiment.tsx",
+        "keyRequired": "variations"
+    },
+    {
+        "path": "app/modules/user_settings/premium/native/PremiumMarketingFloatingSubscribeExperiment.tsx",
+        "kind": "user",
+        "id": "2026-07-nitro-floating-subscribe",
         "keyRequired": "variations"
     },
     {

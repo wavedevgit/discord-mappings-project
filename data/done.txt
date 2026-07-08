@@ -339,6 +339,7 @@ app/modules/gateway/PostConnectionCallbackStore.tsx
 app/modules/gateway/PrivateChannelHidingExperiment.tsx
 app/modules/generated_test_users/GeneratedTestUserActionCreators.tsx
 app/modules/generated_test_users/GeneratedTestUsersStore.tsx
+app/modules/gesture_handlers/native/RNGHMountReactionsEffectExperiment.tsx
 app/modules/gif_picker/experiments/GifProvidersExperiment.tsx
 app/modules/global_discovery_apps/AllowNonStaffToPreviewAppCollectionsExperiment.tsx
 app/modules/global_discovery_apps/ApplicationDirectoryActionCreators.tsx
@@ -848,6 +849,7 @@ app/modules/user_settings/connections/native/two_way_link/xbox/XboxLinkModalActi
 app/modules/user_settings/LocaleStore.tsx
 app/modules/user_settings/notifications/EmailSettingsStore.tsx
 app/modules/user_settings/notifications/native/stores/AndroidNotificationSettingsStore.tsx
+app/modules/user_settings/premium/native/PremiumMarketingFloatingSubscribeExperiment.tsx
 app/modules/user_settings/premium/native/PremiumNitroNavigationStore.tsx
 app/modules/user_settings/privacy_and_safety/UserSettingsSafetySelectedGuildStore.tsx
 app/modules/user_settings/SelectivelySyncedUserSettingsStore.tsx

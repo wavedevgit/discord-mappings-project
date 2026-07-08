@@ -55,6 +55,7 @@
 {"find_with":["user","2026-05-game-mentions-v2","variations"],"paths":["app/modules/game_mentions/GameMentionsExperiment.tsx"]}
 {"find_with":["user","2026-06-game-autocomplete-search","variations"],"paths":["app/modules/games/autocomplete/GameAutocompleteExperiment.tsx"]}
 {"find_with":["user","2026-02-private-channel-hiding","variations"],"paths":["app/modules/gateway/PrivateChannelHidingExperiment.tsx"]}
+{"find_with":["user","2026-07-rngh-mount-reactions-effect","variations"],"paths":["app/modules/gesture_handlers/native/RNGHMountReactionsEffectExperiment.tsx"]}
 {"find_with":["user","2025-10-gif-providers-multi-treatment","variations"],"paths":["app/modules/gif_picker/experiments/GifProvidersExperiment.tsx"]}
 {"find_with":["user","2025-01-allow-nonstaff-to-preview-app-collections","variations"],"paths":["app/modules/global_discovery_apps/AllowNonStaffToPreviewAppCollectionsExperiment.tsx"]}
 {"find_with":["user","2025-10-go-live-auto-quality","variations"],"paths":["app/modules/go_live/GoLiveAutoQualityExperiment.tsx"]}
@@ -193,6 +194,7 @@
 {"find_with":["user","2026-02-private-profiles","variations"],"paths":["app/modules/user_profile/PrivateProfilesExperiment.tsx"]}
 {"find_with":["user","2026-03-private-profiles-strict","variations"],"paths":["app/modules/user_profile/PrivateProfilesStrictExperiment.tsx"]}
 {"find_with":["user","2026-03-private-profiles-strict-gb","variations"],"paths":["app/modules/user_profile/PrivateProfilesStrictGbExperiment.tsx"]}
+{"find_with":["user","2026-07-nitro-floating-subscribe","variations"],"paths":["app/modules/user_settings/premium/native/PremiumMarketingFloatingSubscribeExperiment.tsx"]}
 {"find_with":["user","2026-04-user-settings-redesign-4c","variations"],"paths":["app/modules/user_settings/UserSettingsRedesignExperiment.tsx"]}
 {"find_with":["user","2026-03-surface-direct-renderer","variations"],"paths":["app/modules/video_calls/native/SurfaceDirectRendererExperiment.tsx"]}
 {"find_with":["user","2025-09-video-qoe-metrics-tracking","variations"],"paths":["app/modules/video-qoe/experiments/VideoQoEMetricsExperiment.tsx"]}
