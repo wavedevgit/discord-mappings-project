@@ -1199,6 +1199,15 @@
         ]
     },
     {
+        "path": "app/modules/display_name_styles/DisplayNameStylesActionCreators.tsx",
+        "flux_events": [
+            "DISPLAY_NAME_STYLES_MARK_NEW_EFFECTS_BADGE_DISMISSED",
+            "DISPLAY_NAME_STYLES_MARK_NEW_FONTS_BADGE_DISMISSED",
+            "DISPLAY_NAME_STYLES_MARK_EFFECT_SEEN",
+            "DISPLAY_NAME_STYLES_MARK_FONT_SEEN"
+        ]
+    },
+    {
         "path": "app/modules/emojis/EmojiActionCreators.tsx",
         "flux_events": [
             "TOGGLE_GUILD_EXPANDED_STATE",
@@ -1570,16 +1579,6 @@
         ]
     },
     {
-        "path": "app/modules/guild_rooms/GuildRoomActionCreators.tsx",
-        "flux_events": [
-            "GUILD_ROOM_LOCAL_POSITION_REQUESTED",
-            "GUILD_ROOM_TOGGLE_LAYOUT",
-            "GUILD_ROOM_LOCAL_UPDATE",
-            "GUILD_ROOM_DISCONNECT",
-            "GUILD_ROOM_CONNECT"
-        ]
-    },
-    {
         "path": "app/modules/guild_scheduled_events/GuildScheduledEventsActionCreators.tsx",
         "flux_events": [
             "GUILD_SCHEDULED_EVENT_USER_COUNTS_FETCH_SUCCESS",
@@ -1689,10 +1688,10 @@
         "path": "app/modules/guild_settings/roles/GuildSettingsRolesActionCreators.tsx",
         "flux_events": [
             "GUILD_SETTINGS_ROLES_UPDATE_ROLE_CONNECTION_CONFIGURATIONS",
-            "GUILD_SETTINGS_ROLES_UPDATE_PERMISSION_SET",
-            "GUILD_SETTINGS_ROLES_UPDATE_PERMISSIONS",
-            "GUILD_SETTINGS_ROLES_UPDATE_DESCRIPTION",
-            "GUILD_SETTINGS_ROLES_CLEAR_PERMISSIONS"
+            "GUILD_SETTINGS_ROLES_DISCARD_CONNECTIONS_CHANGES",
+            "GUILD_SETTINGS_ROLES_DISCARD_SECTION_CHANGES",
+            "GUILD_SETTINGS_ROLES_COMMIT_SECTION_CHANGES",
+            "GUILD_SETTINGS_ROLES_UPDATE_PERMISSION_SET"
         ]
     },
     {
@@ -2315,6 +2314,7 @@
     {
         "path": "app/modules/slayer_storefront/native/SocialLayerStorefrontNativeActionCreators.tsx",
         "functions_names": [
+            "openSocialLayerStorefrontUnsupportedOnMobileAlert",
             "openSocialLayerStorefrontProductDetailsModal",
             "closeSocialLayerStorefrontProductDetailsModal",
             "openSocialLayerStorefrontGiftModal",
@@ -2571,11 +2571,11 @@
     {
         "path": "app/modules/user_settings/ThemeActionCreators.tsx",
         "flux_events": [
+            "SET_SAME_AS_DEVICE_THEME_ENABLED",
             "UNSYNCED_USER_SETTINGS_UPDATE",
-            "UPDATE_THEME_PREFERENCES",
-            "CLEAR_THEME_OVERRIDE",
-            "SYSTEM_THEME_CHANGE",
-            "SET_THEME_OVERRIDE"
+            "UPDATE_SYNCED_CLIENT_THEME",
+            "CLEAR_SYNCED_CLIENT_THEMES",
+            "UPDATE_THEME_PREFERENCES"
         ]
     },
     {

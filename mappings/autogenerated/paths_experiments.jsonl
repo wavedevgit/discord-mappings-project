@@ -132,6 +132,7 @@
 {"find_with":["user","2026-03-overlay-default-keybind","variations"],"paths":["app/modules/overlay/OverlayV3Experiment.tsx"]}
 {"find_with":["user","2026-06-family-center-connection-prereq","variations"],"paths":["app/modules/parent_tools/FamilyCenterConnectionPrereqExperiment.tsx"]}
 {"find_with":["user","2026-01-family-center-v3","variations"],"paths":["app/modules/parent_tools/FamilyCenterV3Experiment.tsx"]}
+{"find_with":["user","2026-07-parental-consent-warning-fetch","variations"],"paths":["app/modules/parent_tools/ParentalConsentWarningFetchExperiment.tsx"]}
 {"find_with":["user","2026-03-friend-request-message","variations"],"paths":["app/modules/people/FriendRequestMessageExperiment.tsx"]}
 {"find_with":["user","2026-06-android-two-week-trials","variations"],"paths":["app/modules/premium/experiments/AndroidTwoWeekTrialsExperiment.tsx"]}
 {"find_with":["user","2026-03-bogo-promotion-gate-v2","variations"],"paths":["app/modules/premium/experiments/BogoPromotionExperiment.tsx"]}

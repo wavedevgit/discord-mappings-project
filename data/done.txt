@@ -272,7 +272,9 @@ app/modules/dismissible_content/DCFEventStore.tsx
 app/modules/dismissible_content/DismissibleContentFrameworkActionCreators.tsx
 app/modules/dismissible_content/DismissibleContentFrameworkStore.tsx
 app/modules/dismissible_content/DismissibleContentShownStateStore.tsx
+app/modules/display_name_styles/DisplayNameStylesActionCreators.tsx
 app/modules/display_name_styles/DisplayNameStylesFlywheelExperiment.tsx
+app/modules/display_name_styles/DisplayNameStylesSeenStore.tsx
 app/modules/emojis/EmojiActionCreators.tsx
 app/modules/emojis/EmojiSearchRankingTweaksExperiment.tsx
 app/modules/emojis/EmojiStore.tsx
@@ -411,7 +413,6 @@ app/modules/guild_role_subscriptions/native/RoleTierEditStore.tsx
 app/modules/guild_role_subscriptions/SubscriptionRoleStore.tsx
 app/modules/guild_role_subscriptions/tier_templates/GuildRoleSubscriptionTierTemplateActionCreators.tsx
 app/modules/guild_role_subscriptions/tier_templates/GuildRoleSubscriptionTierTemplatesStore.tsx
-app/modules/guild_rooms/GuildRoomActionCreators.tsx
 app/modules/guild_rooms/GuildRoomsExperiment.tsx
 app/modules/guild_rooms/GuildRoomStore.tsx
 app/modules/guild_scheduled_events/EventBannerStore.tsx
@@ -608,6 +609,7 @@ app/modules/parent_tools/FamilyCenterStore.tsx
 app/modules/parent_tools/FamilyCenterV3Experiment.tsx
 app/modules/parent_tools/ParentalConsentStore.tsx
 app/modules/parent_tools/ParentalConsentWarningActionCreators.tsx
+app/modules/parent_tools/ParentalConsentWarningFetchExperiment.tsx
 app/modules/parent_tools/ParentalConsentWarningStore.tsx
 app/modules/parent_tools/RestrictedScheduleActionCreators.tsx
 app/modules/payments/native/OrderActionCreators.tsx

@@ -1744,7 +1744,7 @@ app/modules/application_account_linking/AccountLinking.messages.js
 app/modules/application_account_linking/AccountLinkManager.tsx
 app/modules/application_account_linking/ApplicationAccountLinking.messages.js
 app/modules/application_account_linking/ApplicationAccountLinkingConstants.tsx
-app/modules/application_account_linking/experiments/riotSocialSDKMigration.tsx
+app/modules/application_account_linking/experiments/socialSDKMigration.tsx
 app/modules/application_account_linking/hooks/useAuthorizationApp.tsx
 app/modules/application_account_linking/hooks/useAuthorizedAppsToken.tsx
 app/modules/application_account_linking/hooks/useProviderConnection.tsx
@@ -2493,15 +2493,13 @@ app/modules/content_inventory/memberlist/useTimestampTickedNow.tsx
 app/modules/content_inventory/reactionUtils.tsx
 app/modules/content_inventory/useEntryActivityAndApplication.tsx
 app/modules/content_inventory/utils.tsx
-app/modules/conversations/components/native/ConversationBottomSheet.tsx
-app/modules/conversations/components/native/ConversationFocusView.tsx
+app/modules/conversations/components/native/ConversationFocusScreen.tsx
 app/modules/conversations/components/native/ConversationListItem.tsx
-app/modules/conversations/components/native/ConversationListView.tsx
-app/modules/conversations/components/native/ConversationMessageList.tsx
-app/modules/conversations/components/native/ConversationMobileUtils.tsx
+app/modules/conversations/components/native/ConversationListScreen.tsx
+app/modules/conversations/components/native/ConversationNavigator.tsx
+app/modules/conversations/components/native/ConversationNavigatorUtils.tsx
 app/modules/conversations/components/native/ConversationPreviewMessage.tsx
 app/modules/conversations/components/native/ConversationPreviewSkeleton.tsx
-app/modules/conversations/components/native/ConversationSheetHeader.tsx
 app/modules/conversations/components/native/useConversationsHeaderButton.tsx
 app/modules/conversations/ConversationConstants.tsx
 app/modules/conversations/ConversationExperiments.tsx
@@ -2701,6 +2699,7 @@ app/modules/display_name_styles/hooks/useDisplayNameStylesEffectConfigs.tsx
 app/modules/display_name_styles/hooks/useDisplayNameStylesEffectDefaultColors.tsx
 app/modules/display_name_styles/hooks/useDisplayNameStylesEnabled.tsx
 app/modules/display_name_styles/hooks/useDisplayNameStylesHandleApply.tsx
+app/modules/display_name_styles/hooks/useDisplayNameStylesNewItems.tsx
 app/modules/display_name_styles/hooks/useDisplayNameStylesPendingName.tsx
 app/modules/display_name_styles/intl/DisplayNameStyles.messages.js
 app/modules/display_name_styles/native/createDisplayNameStylesMobile.tsx
@@ -3638,10 +3637,14 @@ app/modules/guild_role_subscriptions/useTrackRoleSubscriptionUpsellAnalytics.tsx
 app/modules/guild_role_subscriptions/useTrialActiveUserLimitOptions.tsx
 app/modules/guild_role_subscriptions/useTrialIntervalOptions.tsx
 app/modules/guild_role_subscriptions/useUserRoleSubscriptionRelationship.tsx
+app/modules/guild_rooms/GuildRoomActionCreators.tsx
+app/modules/guild_rooms/GuildRoomActionCreators.shared.tsx
 app/modules/guild_rooms/GuildRoomAnalytics.tsx
 app/modules/guild_rooms/GuildRoomConstants.tsx
 app/modules/guild_rooms/GuildRoomManager.tsx
 app/modules/guild_rooms/GuildRooms.messages.js
+app/modules/guild_rooms/GuildRoomSpatialAudio.tsx
+app/modules/guild_rooms/GuildRoomSpatialAudioManager.tsx
 app/modules/guild_rooms/GuildRoomTypes.tsx
 app/modules/guild_rooms/GuildRoomUtils.tsx
 app/modules/guild_scheduled_events/CreateGuildScheduledEventConstants.tsx
@@ -3756,6 +3759,7 @@ app/modules/guild_settings/native/GuildSettingsModalServerTag.tsx
 app/modules/guild_settings/native/GuildSettingsModalServerTagCustomize.tsx
 app/modules/guild_settings/native/GuildSettingsServerTagBadgeGrid.tsx
 app/modules/guild_settings/native/GuildSettingsServerTagColorGrid.tsx
+app/modules/guild_settings/native/GuildSettingsServerTagColorPickerActionSheet.tsx
 app/modules/guild_settings/native/GuildSettingsServerTagPickerCell.tsx
 app/modules/guild_settings/native/GuildSettingsServerTagPreview.tsx
 app/modules/guild_settings/native/GuildSettingsServerTagUpsellCard.tsx
@@ -4548,6 +4552,7 @@ app/modules/main_tabs_v2/native/tabs/you/YouExpiringTrialOfferCard.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouNavigator.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouScreen.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouScreenNavIcon.tsx
+app/modules/main_tabs_v2/native/tabs/you/YouScreenNavIconNitroSubscriber.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouSettingsCoachmark.tsx
 app/modules/main_tabs_v2/native/useYouBarDmSwipeCoachmark.tsx
 app/modules/main_tabs_v2/native/utils/getNavigationModalPresentation.tsx
@@ -4884,6 +4889,7 @@ app/modules/messages/native/renderer/RowGeneratorUtils.tsx
 app/modules/messages/native/renderer/rows/BlockedGroup.tsx
 app/modules/messages/native/renderer/rows/Loading.tsx
 app/modules/messages/native/renderer/rows/Separator.tsx
+app/modules/messages/native/renderer/sanitizeMediaDimension.tsx
 app/modules/messages/native/renderer/system_messages/AddRecipientSystemMessage.tsx
 app/modules/messages/native/renderer/system_messages/ApplicationCommandSourceSystemMessage.tsx
 app/modules/messages/native/renderer/system_messages/ApplicationSubscriptionPurchaseSystemMessage.tsx
@@ -5204,7 +5210,6 @@ app/modules/parent_tools/FamilyCenterRestrictedHoursUtils.tsx
 app/modules/parent_tools/FamilyCenterUtils.tsx
 app/modules/parent_tools/hooks/useAgeSpecificText.tsx
 app/modules/parent_tools/hooks/useConnectGuardianGate.tsx
-app/modules/parent_tools/hooks/useDismissOnNewPendingRequest.tsx
 app/modules/parent_tools/hooks/useFamilyCenterActions.tsx
 app/modules/parent_tools/hooks/useFamilyCenterActivities.tsx
 app/modules/parent_tools/hooks/useFormattedEndTime.tsx
@@ -5212,6 +5217,7 @@ app/modules/parent_tools/hooks/useHelpLineVisibility.tsx
 app/modules/parent_tools/hooks/useIsInAdultAgeGroup.tsx
 app/modules/parent_tools/hooks/useIsInRestrictedHours.tsx
 app/modules/parent_tools/hooks/useIsOnMainSurface.tsx
+app/modules/parent_tools/hooks/useOnNewPendingRequest.tsx
 app/modules/parent_tools/hooks/useParentalControlSettings.tsx
 app/modules/parent_tools/hooks/useRefreshLinkCodeOnExpiry.tsx
 app/modules/parent_tools/hooks/useScheduleTimeControlsRowProps.tsx
@@ -6835,7 +6841,9 @@ app/modules/user_settings/appearance/native/components/SettingsAppearanceThemeCa
 app/modules/user_settings/appearance/native/components/SettingsAppearanceThemeSelectorItem.tsx
 app/modules/user_settings/appearance/native/hooks/getGradientStartPont.tsx
 app/modules/user_settings/appearance/native/SettingsAppearanceConstants.tsx
+app/modules/user_settings/appearance/native/SettingsAppearanceDarkModeThemePickerScreen.tsx
 app/modules/user_settings/appearance/native/SettingsAppearanceDummyData.tsx
+app/modules/user_settings/appearance/native/SettingsAppearanceLightModeThemePickerScreen.tsx
 app/modules/user_settings/appearance/native/SettingsAppearancePickerUtils.tsx
 app/modules/user_settings/appearance/native/SettingsAppearanceScreen.tsx
 app/modules/user_settings/appearance/native/SettingsAppearanceThemePickerScreen.tsx
@@ -6989,6 +6997,7 @@ app/modules/user_settings/defs/native/ContrastModeSetting.tsx
 app/modules/user_settings/defs/native/CopyClientInfoSetting.tsx
 app/modules/user_settings/defs/native/CreateBugReportSetting.tsx
 app/modules/user_settings/defs/native/CustomStatusNotificationSettings.tsx
+app/modules/user_settings/defs/native/DarkModeThemeSetting.tsx
 app/modules/user_settings/defs/native/DataAndPrivacySetting.tsx
 app/modules/user_settings/defs/native/DataSavingModeSetting.tsx
 app/modules/user_settings/defs/native/DefaultGuildThemePreferenceSetting.tsx
@@ -7075,6 +7084,7 @@ app/modules/user_settings/defs/native/IOSConversationSuggestionsSetting.tsx
 app/modules/user_settings/defs/native/IOSNativePhoneIntegrationSetting.tsx
 app/modules/user_settings/defs/native/LanguageSetting.tsx
 app/modules/user_settings/defs/native/LaunchpadSetting.tsx
+app/modules/user_settings/defs/native/LightModeThemeSetting.tsx
 app/modules/user_settings/defs/native/LogoutSetting.tsx
 app/modules/user_settings/defs/native/MobileVisualRefreshSetting.tsx
 app/modules/user_settings/defs/native/NoiseSuppressionKrispSetting.tsx
@@ -7121,6 +7131,7 @@ app/modules/user_settings/defs/native/SafetyGuildSettingGuildSelect.tsx
 app/modules/user_settings/defs/native/SafetyGuildSettingMessageRequests.tsx
 app/modules/user_settings/defs/native/SafetyPrivacyPolicySetting.tsx
 app/modules/user_settings/defs/native/SafetyTermsOfServiceSetting.tsx
+app/modules/user_settings/defs/native/SameAsDeviceThemeSetting.tsx
 app/modules/user_settings/defs/native/SaveCameraUploadsToDeviceSetting.tsx
 app/modules/user_settings/defs/native/ScanQrCodeSetting.tsx
 app/modules/user_settings/defs/native/ScreenDowntimeReminderSetting.tsx
@@ -7156,6 +7167,7 @@ app/modules/user_settings/defs/native/UseDataForQuests3PSetting.tsx
 app/modules/user_settings/defs/native/UseDataForQuestsSetting.tsx
 app/modules/user_settings/defs/native/UseDataToCustomizeDiscordSetting.tsx
 app/modules/user_settings/defs/native/UseDataToImproveDiscordSetting.tsx
+app/modules/user_settings/defs/native/useSyncedModeThemeName.tsx
 app/modules/user_settings/defs/native/VideoUploadQualitySetting.tsx
 app/modules/user_settings/defs/native/ViewDebugLogsSetting.tsx
 app/modules/user_settings/defs/native/VoiceActivityNotificationSetting.tsx
@@ -7205,6 +7217,7 @@ app/modules/user_settings/FrecencySettingsMigrations.tsx
 app/modules/user_settings/FrecencyUserSettingsHooks.tsx
 app/modules/user_settings/FrecencyUserSettingsManager.tsx
 app/modules/user_settings/GuildThemeSourcePreferenceUtils.tsx
+app/modules/user_settings/isPerModeThemingActive.tsx
 app/modules/user_settings/language_and_time/native/UserSettingsLocale.tsx
 app/modules/user_settings/notifications/native/NotificationPermissionSettingsHeader.tsx
 app/modules/user_settings/notifications/native/SettingsNotificationScreen.tsx
@@ -8665,6 +8678,8 @@ discord_common/js/shared/shared-constants/CollectibleSearchCurrencyFilter.tsx
 discord_common/js/shared/shared-constants/ContentRatingGOPClassification.tsx
 discord_common/js/shared/shared-constants/ContentRatingIGDBTheme.tsx
 discord_common/js/shared/shared-constants/DismissibleQuestContentFlags.tsx
+discord_common/js/shared/shared-constants/GuildRoomBackgroundPositions.tsx
+discord_common/js/shared/shared-constants/GuildRoomBackgrounds.tsx
 discord_common/js/shared/shared-constants/Quests.tsx
 discord_common/js/shared/shared-constants/SimilarGamesConstants.tsx
 discord_common/js/shared/shared-constants/WidgetType.tsx

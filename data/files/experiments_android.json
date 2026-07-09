@@ -830,6 +830,12 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/parent_tools/ParentalConsentWarningFetchExperiment.tsx",
+        "kind": "user",
+        "id": "2026-07-parental-consent-warning-fetch",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/people/FriendRequestMessageExperiment.tsx",
         "kind": "user",
         "id": "2026-03-friend-request-message",

@@ -85,6 +85,7 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']DCFEventStore[\"']"},"paths":["app/modules/dismissible_content/DCFEventStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']DismissibleContentFrameworkStore[\"']"},"paths":["app/modules/dismissible_content/DismissibleContentFrameworkStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']DismissibleContentShownStateStore[\"']"},"paths":["app/modules/dismissible_content/DismissibleContentShownStateStore.tsx"]}
+{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']DisplayNameStylesSeenStore[\"']"},"paths":["app/modules/display_name_styles/DisplayNameStylesSeenStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']EmojiStore[\"']"},"paths":["app/modules/emojis/EmojiStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']RawGuildEmojiStore[\"']"},"paths":["app/modules/emojis/RawGuildEmojiStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']TopEmojiStore[\"']"},"paths":["app/modules/emojis/top_emojis/TopEmojiStore.tsx"]}
