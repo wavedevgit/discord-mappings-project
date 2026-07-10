@@ -13,6 +13,7 @@
 {"find_with":["user","2026-02-mobile-account-linking","variations"],"paths":["app/modules/application_account_linking/experiments/mobileAccountLinkingExperiment.tsx"]}
 {"find_with":["user","2026-04-valorant-social-sdk","variations"],"paths":["app/modules/application_account_linking/experiments/valorantSocialSDKExperiment.tsx"]}
 {"find_with":["user","2026-05-age-restricted-application-commands","variations"],"paths":["app/modules/application_commands/AgeRestrictedApplicationCommandsExperiment.tsx"]}
+{"find_with":["user","2026-06-android-shop-orders","variations"],"paths":["app/modules/billing/experiments/AndroidShopOrdersExperiment.tsx"]}
 {"find_with":["user","2022-03_block_russian_purchases","treatments"],"paths":["app/modules/billing/experiments/BlockedPaymentsCountryExperiment.tsx"]}
 {"find_with":["user","2026-02-gift-cards","variations"],"paths":["app/modules/billing/experiments/GiftCardsExperiment.tsx"]}
 {"find_with":["user","2026-01-bug-reporter","variations"],"paths":["app/modules/bug_reporter/BugReporterExperiment.tsx"]}
@@ -199,9 +200,7 @@
 {"find_with":["user","2026-04-user-settings-redesign-4c","variations"],"paths":["app/modules/user_settings/UserSettingsRedesignExperiment.tsx"]}
 {"find_with":["user","2026-03-surface-direct-renderer","variations"],"paths":["app/modules/video_calls/native/SurfaceDirectRendererExperiment.tsx"]}
 {"find_with":["user","2025-09-video-qoe-metrics-tracking","variations"],"paths":["app/modules/video-qoe/experiments/VideoQoEMetricsExperiment.tsx"]}
-{"find_with":["user","2026-03-mobile-orbs","variations"],"paths":["app/modules/virtual_currency/experiments/native/VirtualCurrencyMobileExperiment.tsx"]}
 {"find_with":["user","2025-12-orb-redemption-thru-orders","variations"],"paths":["app/modules/virtual_currency/experiments/OrbRedemptionOrdersExperiment.tsx"]}
-{"find_with":["user","2025-01-virtual-currency-rollout","variations"],"paths":["app/modules/virtual_currency/experiments/VirtualCurrencyRolloutExperiment.tsx"]}
 {"find_with":["user","2026-02-callkit-metric-collection","variations"],"paths":["app/modules/voice_calls/CallKitMetricCollectionExperiment.tsx"]}
 {"find_with":["user","2026-02-default-audio-route","variations"],"paths":["app/modules/voice_calls/DefaultAudioRouteExperiment.tsx"]}
 {"find_with":["guild","2024-12_guild_voice_channel_ringing","treatments"],"paths":["app/modules/voice_calls/GuildVoiceRingingExperiment.tsx"]}

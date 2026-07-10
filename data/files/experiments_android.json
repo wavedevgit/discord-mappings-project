@@ -108,6 +108,12 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/billing/experiments/AndroidShopOrdersExperiment.tsx",
+        "kind": "user",
+        "id": "2026-06-android-shop-orders",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/billing/experiments/BlockedPaymentsCountryExperiment.tsx",
         "kind": "user",
         "id": "2022-03_block_russian_purchases",
@@ -1236,21 +1242,9 @@
         "keyRequired": "variations"
     },
     {
-        "path": "app/modules/virtual_currency/experiments/native/VirtualCurrencyMobileExperiment.tsx",
-        "kind": "user",
-        "id": "2026-03-mobile-orbs",
-        "keyRequired": "variations"
-    },
-    {
         "path": "app/modules/virtual_currency/experiments/OrbRedemptionOrdersExperiment.tsx",
         "kind": "user",
         "id": "2025-12-orb-redemption-thru-orders",
-        "keyRequired": "variations"
-    },
-    {
-        "path": "app/modules/virtual_currency/experiments/VirtualCurrencyRolloutExperiment.tsx",
-        "kind": "user",
-        "id": "2025-01-virtual-currency-rollout",
         "keyRequired": "variations"
     },
     {

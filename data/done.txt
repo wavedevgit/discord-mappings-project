@@ -165,6 +165,7 @@ app/modules/billing/actions/BillingActionCreators.tsx
 app/modules/billing/actions/BillingPaymentGatewayActionCreators.tsx
 app/modules/billing/actions/BillingSharedActionCreators.tsx
 app/modules/billing/actions/StripeActionCreators.tsx
+app/modules/billing/experiments/AndroidShopOrdersExperiment.tsx
 app/modules/billing/experiments/BlockedPaymentsCountryExperiment.tsx
 app/modules/billing/experiments/GiftCardsExperiment.tsx
 app/modules/billing/native/GenericIAPStore.tsx
@@ -871,9 +872,7 @@ app/modules/video_calls/native/ChannelCallLifecycleStore.tsx
 app/modules/video_calls/native/ChannelCallStore.tsx
 app/modules/video_calls/native/SurfaceDirectRendererExperiment.tsx
 app/modules/video-qoe/experiments/VideoQoEMetricsExperiment.tsx
-app/modules/virtual_currency/experiments/native/VirtualCurrencyMobileExperiment.tsx
 app/modules/virtual_currency/experiments/OrbRedemptionOrdersExperiment.tsx
-app/modules/virtual_currency/experiments/VirtualCurrencyRolloutExperiment.tsx
 app/modules/virtual_currency/stores/VirtualCurrencyStore.tsx
 app/modules/virtual_currency/VirtualCurrencyActionCreators.tsx
 app/modules/visual_effect_view/native/overrides/VEVOOStore.tsx

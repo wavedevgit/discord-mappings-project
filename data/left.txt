@@ -456,6 +456,8 @@ app/design/components/Icon/native/redesign/generated/ThreadIcon.tsx
 app/design/components/Icon/native/redesign/generated/ThreadLockIcon.tsx
 app/design/components/Icon/native/redesign/generated/ThreadMinusIcon.tsx
 app/design/components/Icon/native/redesign/generated/ThreadPlusIcon.tsx
+app/design/components/Icon/native/redesign/generated/ThumbsDownIcon.tsx
+app/design/components/Icon/native/redesign/generated/ThumbsUpIcon.tsx
 app/design/components/Icon/native/redesign/generated/TicketIcon.tsx
 app/design/components/Icon/native/redesign/generated/TiktokNeutralIcon.tsx
 app/design/components/Icon/native/redesign/generated/TimerIcon.tsx
@@ -2497,6 +2499,8 @@ app/modules/conversations/components/native/ConversationFocusScreen.tsx
 app/modules/conversations/components/native/ConversationListItem.tsx
 app/modules/conversations/components/native/ConversationListScreen.tsx
 app/modules/conversations/components/native/ConversationNavigator.tsx
+app/modules/conversations/components/native/ConversationNavigatorHeader.tsx
+app/modules/conversations/components/native/ConversationNavigatorMoreMenu.tsx
 app/modules/conversations/components/native/ConversationNavigatorUtils.tsx
 app/modules/conversations/components/native/ConversationPreviewMessage.tsx
 app/modules/conversations/components/native/ConversationPreviewSkeleton.tsx
@@ -2715,6 +2719,7 @@ app/modules/display_name_styles/native/DisplayNameStylesGradientPickerSheet.tsx
 app/modules/display_name_styles/native/DisplayNameStylesGummyColorPickerSheet.tsx
 app/modules/display_name_styles/native/DisplayNameStylesGummyCustomColorSheet.tsx
 app/modules/display_name_styles/native/effects/GummyStripes.tsx
+app/modules/display_name_styles/native/effects/GummyStripesFromHue.tsx
 app/modules/display_name_styles/native/effects/PerLetterEffect.tsx
 app/modules/display_name_styles/native/showGummyCustomColorSheet.tsx
 app/modules/display_name_styles/native/useDisplayNameStylesFont.tsx
@@ -3765,6 +3770,7 @@ app/modules/guild_settings/native/GuildSettingsServerTagPreview.tsx
 app/modules/guild_settings/native/GuildSettingsServerTagUpsellCard.tsx
 app/modules/guild_settings/native/MembersFilterActionSheet.tsx
 app/modules/guild_settings/native/MembersPruneActionSheet.tsx
+app/modules/guild_settings/native/ServerTagPreviewActionSheet.tsx
 app/modules/guild_settings/native/showEmojiOverflowActionSheet.tsx
 app/modules/guild_settings/native/showMembersManagementActionSheet.tsx
 app/modules/guild_settings/native/StandaloneMembersView.tsx
@@ -3999,6 +4005,12 @@ app/modules/home_drawer/native/HomeDrawerFolderRow.tsx
 app/modules/home_drawer/native/HomeDrawerGuildRow.tsx
 app/modules/home_drawer/native/HomeDrawerGuildVoiceState.tsx
 app/modules/home_drawer/native/HomeDrawerShared.tsx
+app/modules/home_drawer/native/subtitles/MentionSubtitle.tsx
+app/modules/home_drawer/native/subtitles/StreamingSubtitle.tsx
+app/modules/home_drawer/native/subtitles/TypingSubtitle.tsx
+app/modules/home_drawer/native/subtitles/UnreadSubtitle.tsx
+app/modules/home_drawer/native/subtitles/useSubtitleStyles.tsx
+app/modules/home_drawer/native/subtitles/VoiceSubtitle.tsx
 app/modules/home_drawer/native/useDrawerState.tsx
 app/modules/home_drawer/native/useHomeDrawerGesture.tsx
 app/modules/home_drawer/native/useHomeDrawerGuildTyping.tsx
@@ -4542,7 +4554,7 @@ app/modules/main_tabs_v2/native/tabs/settings/Settings.tsx
 app/modules/main_tabs_v2/native/tabs/TabsPerformanceTracker.tsx
 app/modules/main_tabs_v2/native/tabs/you/FocusModeOptionsActionSheet.tsx
 app/modules/main_tabs_v2/native/tabs/you/hooks/useShouldShowExpiringTrialOfferCard.tsx
-app/modules/main_tabs_v2/native/tabs/you/hooks/useYouTabBarTheme.tsx
+app/modules/main_tabs_v2/native/tabs/you/hooks/useYouScreenNavTheme.tsx
 app/modules/main_tabs_v2/native/tabs/you/tracking/Tracking.tsx
 app/modules/main_tabs_v2/native/tabs/you/utils/showYouAccountActionSheet.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouAccountActionSheet.tsx
@@ -5460,6 +5472,7 @@ app/modules/premium/native/GuildBoostSlotsInventory.tsx
 app/modules/premium/native/handlePremiumPurchase.android.tsx
 app/modules/premium/native/hooks/useCheckoutPlanPriceString.tsx
 app/modules/premium/native/hooks/useDiscountedPremiumProductInfo.tsx
+app/modules/premium/native/hooks/useIsEligibleForBogoOffer.android.tsx
 app/modules/premium/native/hooks/usePremiumPlanPrice.tsx
 app/modules/premium/native/hooks/usePremiumProductPricingString.tsx
 app/modules/premium/native/hooks/useSelectPremiumGift.tsx
@@ -7436,7 +7449,6 @@ app/modules/virtual_currency/hooks/native/useVirtualCurrencyMobileEnabled.tsx
 app/modules/virtual_currency/hooks/useFetchVirtualCurrencyBalance.tsx
 app/modules/virtual_currency/hooks/useRedeemVirtualCurrency.tsx
 app/modules/virtual_currency/hooks/useVirtualCurrencyBalance.tsx
-app/modules/virtual_currency/hooks/useVirtualCurrencyEnabled.tsx
 app/modules/virtual_currency/native/BalanceCounter.tsx
 app/modules/virtual_currency/native/BalanceWidgetActionSheet.tsx
 app/modules/virtual_currency/native/BalanceWidgetMenu.tsx
