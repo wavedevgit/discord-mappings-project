@@ -98,16 +98,6 @@
         "keyRequired": "variations"
     },
     {
-        "path": "app/modules/auth/native/PasskeyButtonUpdateExperiment.tsx",
-        "id": "2026-04-passkey-button-update",
-        "keyRequired": "variations"
-    },
-    {
-        "path": "app/modules/auth/native/TabletAuthUIExperiment.tsx",
-        "id": "2026-02-tablet-auth-ui",
-        "keyRequired": "variations"
-    },
-    {
         "path": "app/modules/billing/experiments/AndroidShopOrdersExperiment.tsx",
         "kind": "user",
         "id": "2026-06-android-shop-orders",
@@ -213,12 +203,6 @@
         "path": "app/modules/collectibles/experiments/CollectiblesMobileFlexibleBundlesExperiment.tsx",
         "kind": "user",
         "id": "2026-05-mobile-collectibles-flexible-bundles",
-        "keyRequired": "variations"
-    },
-    {
-        "path": "app/modules/collectibles/experiments/CollectiblesPostPurchaseGiftingExperiment.tsx",
-        "kind": "user",
-        "id": "2026-06-post-purchase-gifting",
         "keyRequired": "variations"
     },
     {

@@ -1976,7 +1976,8 @@
     {
         "path": "app/modules/parent_tools/ParentalConsentWarningActionCreators.tsx",
         "flux_events": [
-            "PARENTAL_CONSENT_WARNING_FETCH_SUCCESS"
+            "PARENTAL_CONSENT_WARNING_FETCH_SUCCESS",
+            "PARENTAL_CONSENT_WARNING_CLEARED"
         ]
     },
     {

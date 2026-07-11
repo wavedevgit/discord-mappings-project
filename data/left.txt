@@ -869,9 +869,12 @@ app/design/components/mana-assets/native/generated/PrivateProfileAbstractUI.tsx
 app/design/components/mana-assets/native/generated/ProfileEffectsAbstractUI.tsx
 app/design/components/mana-assets/native/generated/PsychicIllocon.tsx
 app/design/components/mana-assets/native/generated/PuzzleCubeSpotIllustration.tsx
+app/design/components/mana-assets/native/generated/QrCodeLoginSpotIllustration.tsx
+app/design/components/mana-assets/native/generated/QrCodeSuccessSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/QuestsIllocon.tsx
 app/design/components/mana-assets/native/generated/ReactionsSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/RocketshipSpotIllustration.tsx
+app/design/components/mana-assets/native/generated/RubberDuckSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/RulebookSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/SafetyBookletEmailSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/SafetyBookletSpotIllustration.tsx
@@ -1876,10 +1879,8 @@ app/modules/auth/native/experiment/isDateValidDateOfBirth.tsx
 app/modules/auth/native/getError.tsx
 app/modules/auth/native/images/flags.tsx
 app/modules/auth/native/LoginRequiredActionManager.tsx
-app/modules/auth/native/PasskeyButtonUpdateExperiment.tsx
 app/modules/auth/native/RegistrationStepsUtils.tsx
 app/modules/auth/native/RegistrationUtils.tsx
-app/modules/auth/native/TabletAuthUIExperiment.tsx
 app/modules/auth/native/useInitialRegistrationStep.tsx
 app/modules/auth/native/useLoginReset.tsx
 app/modules/auth/native/useOrientationLock.tsx
@@ -1917,6 +1918,7 @@ app/modules/avatar/native/components/RedesignAddAvatarModal.tsx
 app/modules/avatar/native/components/RedesignSkipAvatarUploadAlertModal.tsx
 app/modules/avatar/native/components/TouchableUploadAvatar.tsx
 app/modules/avatar/useAvatarColor.tsx
+app/modules/badges/BadgeIdResolution.tsx
 app/modules/bidi/IsolateString.tsx
 app/modules/billing/actions/HandleConfirmPaymentRegistry.tsx
 app/modules/billing/Constants.tsx
@@ -2495,6 +2497,7 @@ app/modules/content_inventory/memberlist/useTimestampTickedNow.tsx
 app/modules/content_inventory/reactionUtils.tsx
 app/modules/content_inventory/useEntryActivityAndApplication.tsx
 app/modules/content_inventory/utils.tsx
+app/modules/conversations/components/native/ConversationCoachmark.tsx
 app/modules/conversations/components/native/ConversationFocusScreen.tsx
 app/modules/conversations/components/native/ConversationListItem.tsx
 app/modules/conversations/components/native/ConversationListScreen.tsx
@@ -2510,6 +2513,7 @@ app/modules/conversations/ConversationExperiments.tsx
 app/modules/conversations/Conversations.messages.js
 app/modules/conversations/ConversationsAnalytics.tsx
 app/modules/conversations/ConversationsUtils.tsx
+app/modules/conversations/useConversationBackoffRef.tsx
 app/modules/core/CodeSplittingUtils.tsx
 app/modules/core/isActionRequired.tsx
 app/modules/core/native/handleAppStateChanged.tsx
@@ -4554,7 +4558,6 @@ app/modules/main_tabs_v2/native/tabs/settings/Settings.tsx
 app/modules/main_tabs_v2/native/tabs/TabsPerformanceTracker.tsx
 app/modules/main_tabs_v2/native/tabs/you/FocusModeOptionsActionSheet.tsx
 app/modules/main_tabs_v2/native/tabs/you/hooks/useShouldShowExpiringTrialOfferCard.tsx
-app/modules/main_tabs_v2/native/tabs/you/hooks/useYouScreenNavTheme.tsx
 app/modules/main_tabs_v2/native/tabs/you/tracking/Tracking.tsx
 app/modules/main_tabs_v2/native/tabs/you/utils/showYouAccountActionSheet.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouAccountActionSheet.tsx
@@ -8217,9 +8220,12 @@ discord_assets/assets/mana/asset-library/generated/PrivateProfileAbstractUI-2x.p
 discord_assets/assets/mana/asset-library/generated/ProfileEffectsAbstractUI-2x.png.js
 discord_assets/assets/mana/asset-library/generated/PsychicIllocon-2x.png.js
 discord_assets/assets/mana/asset-library/generated/PuzzleCubeSpotIllustration-2x.png.js
+discord_assets/assets/mana/asset-library/generated/QrCodeLoginSpotIllustration-2x.png.js
+discord_assets/assets/mana/asset-library/generated/QrCodeSuccessSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/QuestsIllocon-2x.png.js
 discord_assets/assets/mana/asset-library/generated/ReactionsSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/RocketshipSpotIllustration-2x.png.js
+discord_assets/assets/mana/asset-library/generated/RubberDuckSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/RulebookSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/SafetyBookletEmailSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/SafetyBookletSpotIllustration-2x.png.js
@@ -8692,6 +8698,7 @@ discord_common/js/shared/shared-constants/ContentRatingIGDBTheme.tsx
 discord_common/js/shared/shared-constants/DismissibleQuestContentFlags.tsx
 discord_common/js/shared/shared-constants/GuildRoomBackgroundPositions.tsx
 discord_common/js/shared/shared-constants/GuildRoomBackgrounds.tsx
+discord_common/js/shared/shared-constants/LegacyBadgeIdMap.tsx
 discord_common/js/shared/shared-constants/Quests.tsx
 discord_common/js/shared/shared-constants/SimilarGamesConstants.tsx
 discord_common/js/shared/shared-constants/WidgetType.tsx
