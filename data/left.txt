@@ -402,6 +402,7 @@ app/design/components/Icon/native/redesign/generated/RedditNeutralIcon.tsx
 app/design/components/Icon/native/redesign/generated/RedoIcon.tsx
 app/design/components/Icon/native/redesign/generated/RefreshIcon.tsx
 app/design/components/Icon/native/redesign/generated/RetryIcon.tsx
+app/design/components/Icon/native/redesign/generated/RibbonIcon.tsx
 app/design/components/Icon/native/redesign/generated/RiotGamesNeutralIcon.tsx
 app/design/components/Icon/native/redesign/generated/RobloxNeutralIcon.tsx
 app/design/components/Icon/native/redesign/generated/RobotIcon.tsx
@@ -662,6 +663,7 @@ app/design/components/mana-assets/native/generated/DiscordQuestsLockupLogo.tsx
 app/design/components/mana-assets/native/generated/DiscordShopLockupLogo.tsx
 app/design/components/mana-assets/native/generated/DiscordSupergraphicLogo.tsx
 app/design/components/mana-assets/native/generated/DiscordWordmarkLogo.tsx
+app/design/components/mana-assets/native/generated/DiscountsMicrophoneSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/DisguiseSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/DisplayNameAbstractUI.tsx
 app/design/components/mana-assets/native/generated/DisplayNameLockeAbstractUI.tsx
@@ -748,6 +750,8 @@ app/design/components/mana-assets/native/generated/GemLevel3SpotIllustration.tsx
 app/design/components/mana-assets/native/generated/GemRightBackward3dIllustration.tsx
 app/design/components/mana-assets/native/generated/GemRightUpwards3dIllustration.tsx
 app/design/components/mana-assets/native/generated/GemSpotIllustration.tsx
+app/design/components/mana-assets/native/generated/GiftBagFlyingSpotIllustration.tsx
+app/design/components/mana-assets/native/generated/GiftBagGlowSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/GiftBoxSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/GiftCardAvatar3dIllustration.tsx
 app/design/components/mana-assets/native/generated/GiftCardFan3dIllustration.tsx
@@ -1323,7 +1327,7 @@ app/modules/action_sheet/native/components/LongPressForumPostActionSheet.tsx
 app/modules/action_sheet/native/components/PublishModal.tsx
 app/modules/action_sheet/native/components/showLongPressForumPostActionSheet.tsx
 app/modules/action_sheet/native/PanGestureAnimations.tsx
-app/modules/action_sheet/native/showShareActionSheet.android.tsx
+app/modules/action_sheet/native/showShareActionSheet.tsx
 app/modules/action_sheet/native/ShowShareActionSheetUtils.tsx
 app/modules/action_sheet/native/showSimpleActionSheet.tsx
 app/modules/action_sheet/native/useActionSheetStartHeight.tsx
@@ -1518,18 +1522,21 @@ app/modules/age_assurance/AgeAssurance.messages.js
 app/modules/age_assurance/AgeVerificationActionCreators.tsx
 app/modules/age_assurance/AgeVerificationAnalyticsUtils.tsx
 app/modules/age_assurance/AgeVerificationConstants.tsx
+app/modules/age_assurance/AgeVerificationIncodeWebViewConstants.tsx
 app/modules/age_assurance/AgeVerificationManager.tsx
 app/modules/age_assurance/AgeVerificationUtils.tsx
 app/modules/age_assurance/GoogleWalletActionCreators.tsx
 app/modules/age_assurance/hooks/useAgeVerificationMethods.tsx
 app/modules/age_assurance/native/AgeVerificationEmbeddedIntroScreen.tsx
 app/modules/age_assurance/native/AgeVerificationGetStartedModal.tsx
-app/modules/age_assurance/native/AgeVerificationIncodeUnsupportedAlertModal.tsx
+app/modules/age_assurance/native/AgeVerificationIncodeMethodSelectScreen.tsx
+app/modules/age_assurance/native/AgeVerificationIncodeModal.tsx
 app/modules/age_assurance/native/AgeVerificationIntroScreen.tsx
 app/modules/age_assurance/native/AgeVerificationMethodsContainer.tsx
 app/modules/age_assurance/native/AgeVerificationModal.tsx
 app/modules/age_assurance/native/AgeVerificationQuestUnsupportedAlertModal.tsx
 app/modules/age_assurance/native/AgeVerificationRetryScreen.tsx
+app/modules/age_assurance/native/AgeVerificationWebViewScreen.tsx
 app/modules/age_assurance/native/GoogleWalletVerificationScreen.tsx
 app/modules/age_assurance/native/ParentalConsentManager.tsx
 app/modules/age_gate/AgeGateConstants.tsx
@@ -1742,7 +1749,6 @@ app/modules/app_startup/native/executeHeadlessTask.tsx
 app/modules/app_startup/native/executeRunnable.tsx
 app/modules/app_startup/native/NativeAppStartup.tsx
 app/modules/app_startup/PostTTIScheduler/PostTTIScheduler.tsx
-app/modules/app_startup/PostTTIScheduler/SafePostTTIScheduler.tsx
 app/modules/app_startup/StartupProfiler.tsx
 app/modules/app_state/DiscordAppState.tsx
 app/modules/application_account_linking/AccountLinking.messages.js
@@ -2788,7 +2794,6 @@ app/modules/emojis/records/ExpressionSourceRecord.tsx
 app/modules/emojis/top_emojis/TopEmojisDataManager.tsx
 app/modules/emojis/top_emojis/TopEmojisUtils.tsx
 app/modules/emojis/UnicodeEmojis.tsx
-app/modules/emojis/useSystemMessageEmoji.tsx
 app/modules/emojis/useTrackOpenPopout.tsx
 app/modules/emojis/utils/dedupeEmojisByNameOrId.tsx
 app/modules/emojis/utils/EmojiColorUtils.tsx
@@ -3156,6 +3161,7 @@ app/modules/games/hooks/useGame.tsx
 app/modules/games/hooks/useGameNameAndCoverImage.tsx
 app/modules/games/hooks/useResolveGame.tsx
 app/modules/gateway/ActionBatcher.tsx
+app/modules/gateway/AltGatewayTracker.tsx
 app/modules/gateway/BasicWorkScheduler.tsx
 app/modules/gateway/ChannelResyncManager.tsx
 app/modules/gateway/ConnectionState.tsx
@@ -3164,6 +3170,7 @@ app/modules/gateway/DispatcherWorkConstants.tsx
 app/modules/gateway/DispatcherWorkScheduler.tsx
 app/modules/gateway/dispatchSocketMessage.tsx
 app/modules/gateway/EntityVersionsManager.tsx
+app/modules/gateway/GatewayAltEndpointCache.tsx
 app/modules/gateway/GatewayCapabilities.tsx
 app/modules/gateway/GatewayCompressionHandler.tsx
 app/modules/gateway/GatewayEncoding.tsx
@@ -3175,6 +3182,7 @@ app/modules/gateway/GatewaySocketOpcode.tsx
 app/modules/gateway/GatewaySocketOpCodes.tsx
 app/modules/gateway/GatewaySocketSingleton.tsx
 app/modules/gateway/GatewayZstdUtils.tsx
+app/modules/gateway/getCachedUseAltGateway.tsx
 app/modules/gateway/LocalPresenceStateManager.tsx
 app/modules/gateway/LocalVoiceStateManager.tsx
 app/modules/gateway/native/fast_connect.tsx
@@ -4114,9 +4122,7 @@ app/modules/image/native/ImageCarouselConstants.tsx
 app/modules/image/native/ImagePicker.tsx
 app/modules/image/native/ImagePickerUtils.tsx
 app/modules/impersonate/ImpersonateTypes.tsx
-app/modules/in_app_notifications/InAppNotificationConstants.tsx
 app/modules/in_app_notifications/InAppNotificationTypes.tsx
-app/modules/in_app_notifications/InAppNotificationUtils.tsx
 app/modules/in_app_notifications/native/AlertNotification.tsx
 app/modules/in_app_notifications/native/ConfirmationToast.tsx
 app/modules/in_app_notifications/native/ForumThreadCreatedNotification.tsx
@@ -4124,15 +4130,20 @@ app/modules/in_app_notifications/native/hooks/usePreviewableMedia.tsx
 app/modules/in_app_notifications/native/hooks/usePreviewableMediaText.tsx
 app/modules/in_app_notifications/native/InAppNotificationConstants.tsx
 app/modules/in_app_notifications/native/InAppNotificationContainer.tsx
+app/modules/in_app_notifications/native/InAppNotificationContext.tsx
 app/modules/in_app_notifications/native/InAppNotificationExpandNux.tsx
+app/modules/in_app_notifications/native/InAppNotificationUtils.tsx
 app/modules/in_app_notifications/native/MediaPreviewRightAccessory.tsx
 app/modules/in_app_notifications/native/MessageFailedToSendNotification.tsx
 app/modules/in_app_notifications/native/MessageNotification.tsx
+app/modules/in_app_notifications/native/MessageNotificationDetachedContent.tsx
 app/modules/in_app_notifications/native/MessageNotificationHeader.tsx
 app/modules/in_app_notifications/native/MessageNotificationReactBar.tsx
 app/modules/in_app_notifications/native/MessagePreviewText.tsx
 app/modules/in_app_notifications/native/MessageReplyInput.tsx
 app/modules/in_app_notifications/native/Notification.tsx
+app/modules/in_app_notifications/native/NotificationContent.tsx
+app/modules/in_app_notifications/native/NotificationProgress.tsx
 app/modules/in_app_notifications/native/ReactionNotification.tsx
 app/modules/in_app_notifications/native/ReminderNotification.tsx
 app/modules/in_app_notifications/native/RestrictedHoursWarningNotification.tsx
@@ -4248,6 +4259,7 @@ app/modules/interaction_components/StringSelectActionComponentUtils.tsx
 app/modules/interaction_components/useFileUploadComponentState.tsx
 app/modules/interaction_components/validateComponent.tsx
 app/modules/interactions/FileTypeFiltering.tsx
+app/modules/interactions/interactionCallbackErrorReason.tsx
 app/modules/interactions/InteractionTypes.tsx
 app/modules/interactions/InteractionUtils.tsx
 app/modules/interactions/SkemaUtils.tsx
@@ -4916,7 +4928,6 @@ app/modules/messages/native/renderer/system_messages/ChannelFollowAddSystemMessa
 app/modules/messages/native/renderer/system_messages/ChannelLinkedToLobbySystemMessage.tsx
 app/modules/messages/native/renderer/system_messages/ChannelPinnedMessageSystemMessage.tsx
 app/modules/messages/native/renderer/system_messages/createCommonMessage.tsx
-app/modules/messages/native/renderer/system_messages/EmojiAddedSystemMessage.tsx
 app/modules/messages/native/renderer/system_messages/formatUsernameOnClick.tsx
 app/modules/messages/native/renderer/system_messages/FriendRequestAcceptedSystemMessage.tsx
 app/modules/messages/native/renderer/system_messages/GiftIntentSystemMessage.tsx
@@ -6657,6 +6668,7 @@ app/modules/user_offers/records/UserDiscountOfferRecord.tsx
 app/modules/user_profile/Constants.tsx
 app/modules/user_profile/DisplayProfile.tsx
 app/modules/user_profile/hooks/native/useCardGridLayout.tsx
+app/modules/user_profile/hooks/native/useProfileSectionTabs.tsx
 app/modules/user_profile/hooks/native/useScrollToUserProfileEditFormSection.tsx
 app/modules/user_profile/hooks/native/useTrackUserProfileActivityView.tsx
 app/modules/user_profile/hooks/native/useTrackUserProfileWishlistView.tsx
@@ -6671,6 +6683,7 @@ app/modules/user_profile/hooks/useBadges.tsx
 app/modules/user_profile/hooks/useCanDM.tsx
 app/modules/user_profile/hooks/useDisplayProfile.tsx
 app/modules/user_profile/hooks/useFriendsSinceDate.tsx
+app/modules/user_profile/hooks/useGameWidgets.tsx
 app/modules/user_profile/hooks/useIsUserProfileObfuscated.tsx
 app/modules/user_profile/hooks/useNote.tsx
 app/modules/user_profile/hooks/usePendingAvatarSettings.tsx
@@ -6684,7 +6697,9 @@ app/modules/user_profile/hooks/useUserProfileApplicationRoleConnections.tsx
 app/modules/user_profile/hooks/useUserProfileConnections.tsx
 app/modules/user_profile/hooks/useUserProfileMutuals.tsx
 app/modules/user_profile/hooks/useUserProfileVoiceActivity.tsx
+app/modules/user_profile/hooks/useUserProfileWidgets.tsx
 app/modules/user_profile/hooks/useVisibleUserProfileConnectionsAndAppIdentities.tsx
+app/modules/user_profile/hooks/useWishlistSuggestionsDismissibleContent.tsx
 app/modules/user_profile/maybeFetchUserProfile.tsx
 app/modules/user_profile/native/ActionSheetBackdropToast.tsx
 app/modules/user_profile/native/AddFriendNicknameModal.tsx
@@ -6783,7 +6798,9 @@ app/modules/user_profile/native/UserProfileUpsellButton.tsx
 app/modules/user_profile/native/UserProfileUpsellCard.tsx
 app/modules/user_profile/native/UserProfileVoiceActivityIcon.tsx
 app/modules/user_profile/native/UserProfileVoiceSettings.tsx
+app/modules/user_profile/native/UserProfileWidgetsBoard.tsx
 app/modules/user_profile/native/UserProfileWishlistGrid.tsx
+app/modules/user_profile/native/UserProfileWishlistSuggestionsGrid.tsx
 app/modules/user_profile/native/UserProfileYourFriendsCard.tsx
 app/modules/user_profile/native/useSegmentedPagesHeight.tsx
 app/modules/user_profile/native/useUserProfileOverscrollStyles.tsx
@@ -6797,6 +6814,8 @@ app/modules/user_profile/useProfileThemeValues.tsx
 app/modules/user_profile/UserProfileAnalyticsContext.tsx
 app/modules/user_profile/UserProfileAnalyticsUtils.tsx
 app/modules/user_profile/UserProfileApplicationWidgetTypes.tsx
+app/modules/user_profile/UserProfileGameWidgetConstants.tsx
+app/modules/user_profile/UserProfileGameWidgetTagMetadata.tsx
 app/modules/user_profile/UserProfileGameWidgetTypes.tsx
 app/modules/user_profile/UserProfileGradientUtils.tsx
 app/modules/user_profile/UserProfileRoleUtils.tsx
@@ -7671,11 +7690,14 @@ app/modules/welcome_screen/WelcomeScreenConstants.tsx
 app/modules/window/native/AppEntryKey.tsx
 app/modules/window/native/AppEntryKeyContext.tsx
 app/modules/wishlists/CollectiblesWishlistUtils.tsx
+app/modules/wishlists/hooks/useAddToWishlistGridItems.tsx
 app/modules/wishlists/hooks/useWishlistApplicationIds.tsx
 app/modules/wishlists/hooks/useWishlistGiftableItems.tsx
 app/modules/wishlists/hooks/useWishlistHooks.tsx
 app/modules/wishlists/hooks/useWishlistRecommendations.tsx
 app/modules/wishlists/hooks/useWishlistSkuFilter.tsx
+app/modules/wishlists/native/AddToWishlistGrid.tsx
+app/modules/wishlists/native/AddToWishlistItemCard.tsx
 app/modules/wishlists/native/CollectiblesWishlistItemCard.tsx
 app/modules/wishlists/native/PremiumWishlistItemCard.tsx
 app/modules/wishlists/native/SocialLayerStorefrontWishlistItemCard.tsx
@@ -7688,6 +7710,7 @@ app/modules/wishlists/records/PremiumWishlistItemRecord.tsx
 app/modules/wishlists/records/SKUWishlistItemRecord.tsx
 app/modules/wishlists/records/WishlistRecommendationRecord.tsx
 app/modules/wishlists/records/WishlistRecord.tsx
+app/modules/wishlists/WishlistAnalyticsContext.tsx
 app/modules/wishlists/WishlistUtils.tsx
 app/modules/zoom_layout/ZoomLayout.android.tsx
 app/modules/zustand/LocalStorageWrapper.tsx
@@ -8013,6 +8036,7 @@ discord_assets/assets/mana/asset-library/generated/DiscordQuestsLockupLogo-2x.pn
 discord_assets/assets/mana/asset-library/generated/DiscordShopLockupLogo-2x.png.js
 discord_assets/assets/mana/asset-library/generated/DiscordSupergraphicLogo-2x.png.js
 discord_assets/assets/mana/asset-library/generated/DiscordWordmarkLogo-2x.png.js
+discord_assets/assets/mana/asset-library/generated/DiscountsMicrophoneSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/DisguiseSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/DisplayNameAbstractUI-2x.png.js
 discord_assets/assets/mana/asset-library/generated/DisplayNameLockeAbstractUI-2x.png.js
@@ -8099,6 +8123,8 @@ discord_assets/assets/mana/asset-library/generated/GemLevel3SpotIllustration-2x.
 discord_assets/assets/mana/asset-library/generated/GemRightBackward3dIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/GemRightUpwards3dIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/GemSpotIllustration-2x.png.js
+discord_assets/assets/mana/asset-library/generated/GiftBagFlyingSpotIllustration-2x.png.js
+discord_assets/assets/mana/asset-library/generated/GiftBagGlowSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/GiftBoxSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/GiftCardAvatar3dIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/GiftCardFan3dIllustration-2x.png.js
@@ -8681,6 +8707,7 @@ discord_common/js/packages/tokens/shims.tsx
 discord_common/js/packages/tokens/themes/generated/generated-definitions.tsx
 discord_common/js/packages/tokens/transforms.tsx
 discord_common/js/packages/tokens/typography/generated/TextVariants.tsx
+discord_common/js/packages/tokens/typography/generated/TypographyVariantRemap.tsx
 discord_common/js/packages/transition-group/TransitionChildMapping.tsx
 discord_common/js/packages/transition-group/TransitionGroup.tsx
 discord_common/js/packages/type-utils/TypeUtils.tsx

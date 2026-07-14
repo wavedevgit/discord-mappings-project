@@ -119,7 +119,6 @@ app/modules/age_assurance/GoogleWalletExperiment.tsx
 app/modules/age_assurance/HideManualAgeVerificationExperiment.tsx
 app/modules/age_assurance/native/ParentalConsentExperiment.tsx
 app/modules/age_assurance/ReactiveCheckActionCreators.tsx
-app/modules/age_assurance/tooling/AgeVerificationTestActionCreators.tsx
 app/modules/age_gate/AgeGateActionCreators.tsx
 app/modules/age_gate/AgeGateModalActionCreators.tsx
 app/modules/age_gate/AgeGateStore.tsx
@@ -185,7 +184,6 @@ app/modules/calls/VideoStabilizationExperiment.tsx
 app/modules/captcha/CaptchaStore.tsx
 app/modules/captcha/tooling/CaptchaTestActionCreators.tsx
 app/modules/changelog/ChangelogStore.tsx
-app/modules/channel_settings/SpoilerChannelExperiment.tsx
 app/modules/channel/ChannelInfoActionCreators.tsx
 app/modules/channel/ChannelMemberCountStore.tsx
 app/modules/channel/ChannelPinningExperiment.tsx
@@ -336,6 +334,7 @@ app/modules/games/autocomplete/GameAutocompleteExperiment.tsx
 app/modules/games/autocomplete/GameAutocompleteStore.tsx
 app/modules/games/GameActionCreators.tsx
 app/modules/games/GameStore.tsx
+app/modules/gateway/GatewayAltEndpointExperiment.tsx
 app/modules/gateway/GatewayConnectionStore.tsx
 app/modules/gateway/PostConnectionCallbackStore.tsx
 app/modules/gateway/PrivateChannelHidingExperiment.tsx
@@ -531,6 +530,7 @@ app/modules/media_engine/IOSAudioInterruptExperiment.tsx
 app/modules/media_engine/LowLatencyRateControlExperiment.tsx
 app/modules/media_engine/MediaEngineActionCreators.tsx
 app/modules/media_engine/MediaEngineStatsStore.tsx
+app/modules/media_engine/MklZenOverrideExperiment.tsx
 app/modules/media_engine/MobileAudioOutputExperiment.tsx
 app/modules/media_engine/ProcessBoostExperiment.tsx
 app/modules/media_engine/ServerLadderExperiment.tsx
@@ -655,6 +655,7 @@ app/modules/premium/powerups/experiments/ExpiringBoostsExperiment.tsx
 app/modules/premium/powerups/experiments/ExpiringPowerupCoachmarkExperiment.tsx
 app/modules/premium/powerups/experiments/FileUpload250MbPowerupExperiment.tsx
 app/modules/premium/powerups/experiments/FileUploadPowerupHoldoutExperiment.tsx
+app/modules/premium/powerups/experiments/MobileBoostingExperiment.tsx
 app/modules/premium/powerups/experiments/MobileBoostProgressBarExperiment.tsx
 app/modules/premium/powerups/experiments/ServerBoostStreamQualityMarketingExperiment.tsx
 app/modules/premium/powerups/experiments/ServerSetupBoostCtaExperiment.tsx
@@ -829,6 +830,7 @@ app/modules/user_affinities/VoiceUserAffinityExperiment.tsx
 app/modules/user_application_identity/UserApplicationIdentityActionCreators.tsx
 app/modules/user_application_identity/UserApplicationIdentityStore.tsx
 app/modules/user_identifiers/native/IOSAppTransactionIdExperiment.tsx
+app/modules/user_profile/experiments/UserProfileMobileGameCollectionExperiment.tsx
 app/modules/user_profile/experiments/UserProfilePerformanceAnalyticsExperiment.tsx
 app/modules/user_profile/experiments/UserProfileWYSIWYGEditingExperiment.tsx
 app/modules/user_profile/hooks/useProfileThemeOverrideStore.tsx
@@ -878,7 +880,6 @@ app/modules/visual_effect_view/native/overrides/VEVOOStore.tsx
 app/modules/voice_calls/CallKitMetricCollectionExperiment.tsx
 app/modules/voice_calls/DefaultAudioRouteExperiment.tsx
 app/modules/voice_calls/GuildVoiceRingingExperiment.tsx
-app/modules/voice_calls/native/IOSVoiceLiveActivityExperiment.tsx
 app/modules/voice_calls/PastVcActivityMessagesExperiment.tsx
 app/modules/voice_calls/PTTEducationExperiment.tsx
 app/modules/voice_calls/VoiceCallTriggerPointExperiment.tsx
@@ -894,6 +895,8 @@ app/modules/webauthn/WebAuthnActionCreators.tsx
 app/modules/webauthn/WebAuthnStore.tsx
 app/modules/welcome_screen/WelcomeScreenActionCreators.tsx
 app/modules/welcome_screen/WelcomeScreenStore.tsx
+app/modules/wishlists/experiments/MobileWishlistSuggestionsExperiment.tsx
+app/modules/wishlists/experiments/WishlistingNitroExperiment.tsx
 app/modules/wishlists/SentGiftsStore.tsx
 app/modules/wishlists/WishlistActionCreators.tsx
 app/modules/wishlists/WishlistRecommendationsStore.tsx

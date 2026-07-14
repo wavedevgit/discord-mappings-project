@@ -146,12 +146,6 @@
         "keyRequired": "variations"
     },
     {
-        "path": "app/modules/channel_settings/SpoilerChannelExperiment.tsx",
-        "kind": "guild",
-        "id": "2026-03_spoiler_channel",
-        "keyRequired": "treatments"
-    },
-    {
         "path": "app/modules/channel/ChannelPinningExperiment.tsx",
         "kind": "user",
         "id": "2026-04-channel-pinning",
@@ -349,6 +343,12 @@
         "path": "app/modules/games/autocomplete/GameAutocompleteExperiment.tsx",
         "kind": "user",
         "id": "2026-06-game-autocomplete-search",
+        "keyRequired": "variations"
+    },
+    {
+        "path": "app/modules/gateway/GatewayAltEndpointExperiment.tsx",
+        "kind": "user",
+        "id": "2026-07-aws-gateway",
         "keyRequired": "variations"
     },
     {
@@ -595,6 +595,12 @@
         "path": "app/modules/media_engine/LowLatencyRateControlExperiment.tsx",
         "kind": "user",
         "id": "2025-10-low-latency-rate-control",
+        "keyRequired": "variations"
+    },
+    {
+        "path": "app/modules/media_engine/MklZenOverrideExperiment.tsx",
+        "kind": "user",
+        "id": "2026-07-mkl-zen-cpu-dispatch-override",
         "keyRequired": "variations"
     },
     {
@@ -964,6 +970,12 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/premium/powerups/experiments/MobileBoostingExperiment.tsx",
+        "kind": "user",
+        "id": "2026-07-mobile-boosting-optimizations",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/premium/powerups/experiments/MobileBoostProgressBarExperiment.tsx",
         "kind": "user",
         "id": "2026-04-mobile-boost-progress-bar",
@@ -1168,6 +1180,12 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/user_profile/experiments/UserProfileMobileGameCollectionExperiment.tsx",
+        "kind": "user",
+        "id": "2026-07-mobile-game-collection",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/user_profile/experiments/UserProfilePerformanceAnalyticsExperiment.tsx",
         "kind": "user",
         "id": "2026-04-user-profile-performance-analytics",
@@ -1250,12 +1268,6 @@
         "keyRequired": "treatments"
     },
     {
-        "path": "app/modules/voice_calls/native/IOSVoiceLiveActivityExperiment.tsx",
-        "kind": "user",
-        "id": "2026-05-ios-voice-live-activity",
-        "keyRequired": "variations"
-    },
-    {
         "path": "app/modules/voice_calls/PastVcActivityMessagesExperiment.tsx",
         "kind": "guild",
         "id": "2026-02_past_vc_activity_messages",
@@ -1272,6 +1284,18 @@
         "kind": "guild",
         "id": "2026-04_voice_call_trigger_point",
         "keyRequired": "treatments"
+    },
+    {
+        "path": "app/modules/wishlists/experiments/MobileWishlistSuggestionsExperiment.tsx",
+        "kind": "user",
+        "id": "2026-07-smag-mobile-wishlist-suggestions",
+        "keyRequired": "variations"
+    },
+    {
+        "path": "app/modules/wishlists/experiments/WishlistingNitroExperiment.tsx",
+        "kind": "user",
+        "id": "2026-03-wishlisting-nitro",
+        "keyRequired": "variations"
     },
     {
         "path": "discord_common/js/packages/apex/ApexExperiment.tsx",

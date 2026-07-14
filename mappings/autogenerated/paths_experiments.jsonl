@@ -21,7 +21,6 @@
 {"find_with":["user","2026-02-mobile-mute-indicator","variations"],"paths":["app/modules/calls/MobileMuteIndicatorExperiment.tsx"]}
 {"find_with":["user","2025-12-proportional-vad-indicator","variations"],"paths":["app/modules/calls/ProportionalVadIndicatorExperiment.tsx"]}
 {"find_with":["user","2026-05-ios-video-stabilization","variations"],"paths":["app/modules/calls/VideoStabilizationExperiment.tsx"]}
-{"find_with":["guild","2026-03_spoiler_channel","treatments"],"paths":["app/modules/channel_settings/SpoilerChannelExperiment.tsx"]}
 {"find_with":["user","2026-04-channel-pinning","variations"],"paths":["app/modules/channel/ChannelPinningExperiment.tsx"]}
 {"find_with":["guild","2026-03_voice_badge","treatments"],"paths":["app/modules/channel/VoiceChannelBadgeExperiment.tsx"]}
 {"find_with":["guild","2025-12_voice_channel_hoisting","treatments"],"paths":["app/modules/channel/VoiceChannelHoistingExperiment.tsx"]}
@@ -54,6 +53,7 @@
 {"find_with":["user","2026-03-churro","variations"],"paths":["app/modules/game_console/PlayStationVoiceExperiment.tsx"]}
 {"find_with":["user","2026-05-game-mentions-v2","variations"],"paths":["app/modules/game_mentions/GameMentionsExperiment.tsx"]}
 {"find_with":["user","2026-06-game-autocomplete-search","variations"],"paths":["app/modules/games/autocomplete/GameAutocompleteExperiment.tsx"]}
+{"find_with":["user","2026-07-aws-gateway","variations"],"paths":["app/modules/gateway/GatewayAltEndpointExperiment.tsx"]}
 {"find_with":["user","2026-02-private-channel-hiding","variations"],"paths":["app/modules/gateway/PrivateChannelHidingExperiment.tsx"]}
 {"find_with":["user","2026-07-rngh-mount-reactions-effect","variations"],"paths":["app/modules/gesture_handlers/native/RNGHMountReactionsEffectExperiment.tsx"]}
 {"find_with":["user","2025-10-gif-providers-multi-treatment","variations"],"paths":["app/modules/gif_picker/experiments/GifProvidersExperiment.tsx"]}
@@ -95,6 +95,7 @@
 {"find_with":["user","2026-02-go-live-hdr","variations"],"paths":["app/modules/media_engine/GoLiveHdrExperiment.tsx"]}
 {"find_with":["user","2026-03-ios-audio-interrupt-handling","variations"],"paths":["app/modules/media_engine/IOSAudioInterruptExperiment.tsx"]}
 {"find_with":["user","2025-10-low-latency-rate-control","variations"],"paths":["app/modules/media_engine/LowLatencyRateControlExperiment.tsx"]}
+{"find_with":["user","2026-07-mkl-zen-cpu-dispatch-override","variations"],"paths":["app/modules/media_engine/MklZenOverrideExperiment.tsx"]}
 {"find_with":["user","2026-02-mobile-volume-output-slider-removal","variations"],"paths":["app/modules/media_engine/MobileAudioOutputExperiment.tsx"]}
 {"find_with":["user","2026-02-process-boost-on-voice","variations"],"paths":["app/modules/media_engine/ProcessBoostExperiment.tsx"]}
 {"find_with":["user","2026-06-server-ladder","variations"],"paths":["app/modules/media_engine/ServerLadderExperiment.tsx"]}
@@ -156,6 +157,7 @@
 {"find_with":["user","2026-02-expiring-powerup-coachmark","variations"],"paths":["app/modules/premium/powerups/experiments/ExpiringPowerupCoachmarkExperiment.tsx"]}
 {"find_with":["guild","2026-03_file_upload_250_mb_powerup","treatments"],"paths":["app/modules/premium/powerups/experiments/FileUpload250MbPowerupExperiment.tsx"]}
 {"find_with":["user","2026-03-file-upload-powerup-holdout","variations"],"paths":["app/modules/premium/powerups/experiments/FileUploadPowerupHoldoutExperiment.tsx"]}
+{"find_with":["user","2026-07-mobile-boosting-optimizations","variations"],"paths":["app/modules/premium/powerups/experiments/MobileBoostingExperiment.tsx"]}
 {"find_with":["user","2026-04-mobile-boost-progress-bar","variations"],"paths":["app/modules/premium/powerups/experiments/MobileBoostProgressBarExperiment.tsx"]}
 {"find_with":["user","2026-04-server-boost-copy-1440p","variations"],"paths":["app/modules/premium/powerups/experiments/ServerBoostStreamQualityMarketingExperiment.tsx"]}
 {"find_with":["user","2026-06-server-setup-boost-cta","variations"],"paths":["app/modules/premium/powerups/experiments/ServerSetupBoostCtaExperiment.tsx"]}
@@ -190,6 +192,7 @@
 {"find_with":["user","2026-01-mobile-action-sheet-killswitch","variations"],"paths":["app/modules/upsell_tooltip/experiments/MainViewTooltipActionSheetsDisabledExperiment.tsx"]}
 {"find_with":["user","2025-08-voice-user-affinity","variations"],"paths":["app/modules/user_affinities/VoiceUserAffinityExperiment.tsx"]}
 {"find_with":["user","2026-01-ios-apptransactionid-tracking","variations"],"paths":["app/modules/user_identifiers/native/IOSAppTransactionIdExperiment.tsx"]}
+{"find_with":["user","2026-07-mobile-game-collection","variations"],"paths":["app/modules/user_profile/experiments/UserProfileMobileGameCollectionExperiment.tsx"]}
 {"find_with":["user","2026-04-user-profile-performance-analytics","variations"],"paths":["app/modules/user_profile/experiments/UserProfilePerformanceAnalyticsExperiment.tsx"]}
 {"find_with":["user","2026-03-wysiwyg-user-profile-editing","variations"],"paths":["app/modules/user_profile/experiments/UserProfileWYSIWYGEditingExperiment.tsx"]}
 {"find_with":["user","2026-02-private-profiles","variations"],"paths":["app/modules/user_profile/PrivateProfilesExperiment.tsx"]}
@@ -203,7 +206,8 @@
 {"find_with":["user","2026-02-callkit-metric-collection","variations"],"paths":["app/modules/voice_calls/CallKitMetricCollectionExperiment.tsx"]}
 {"find_with":["user","2026-02-default-audio-route","variations"],"paths":["app/modules/voice_calls/DefaultAudioRouteExperiment.tsx"]}
 {"find_with":["guild","2024-12_guild_voice_channel_ringing","treatments"],"paths":["app/modules/voice_calls/GuildVoiceRingingExperiment.tsx"]}
-{"find_with":["user","2026-05-ios-voice-live-activity","variations"],"paths":["app/modules/voice_calls/native/IOSVoiceLiveActivityExperiment.tsx"]}
 {"find_with":["guild","2026-02_past_vc_activity_messages","treatments"],"paths":["app/modules/voice_calls/PastVcActivityMessagesExperiment.tsx"]}
 {"find_with":["user","2025-12-09-ptt-education","variations"],"paths":["app/modules/voice_calls/PTTEducationExperiment.tsx"]}
 {"find_with":["guild","2026-04_voice_call_trigger_point","treatments"],"paths":["app/modules/voice_calls/VoiceCallTriggerPointExperiment.tsx"]}
+{"find_with":["user","2026-07-smag-mobile-wishlist-suggestions","variations"],"paths":["app/modules/wishlists/experiments/MobileWishlistSuggestionsExperiment.tsx"]}
+{"find_with":["user","2026-03-wishlisting-nitro","variations"],"paths":["app/modules/wishlists/experiments/WishlistingNitroExperiment.tsx"]}

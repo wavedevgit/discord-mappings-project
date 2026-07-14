@@ -837,13 +837,6 @@
         ]
     },
     {
-        "path": "app/modules/age_assurance/tooling/AgeVerificationTestActionCreators.tsx",
-        "functions_names": [
-            "_testAgeVerification",
-            "testAgeVerification"
-        ]
-    },
-    {
         "path": "app/modules/age_gate/AgeGateActionCreators.tsx",
         "flux_events": [
             "AGE_GATE_PREVENT_UNDERAGE_REGISTRATION",

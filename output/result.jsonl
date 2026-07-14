@@ -189,6 +189,7 @@
 {"id":"186295.js","paths":["discord_app/modules/media_engine/GoLiveHdrExperiment.tsx"]}
 {"id":"186295.js","paths":["discord_app/modules/media_engine/IOSAudioInterruptExperiment.tsx"]}
 {"id":"186295.js","paths":["discord_app/modules/media_engine/LowLatencyRateControlExperiment.tsx"]}
+{"id":"186295.js","paths":["discord_app/modules/media_engine/MklZenOverrideExperiment.tsx"]}
 {"id":"186295.js","paths":["discord_app/modules/media_engine/MobileAudioOutputExperiment.tsx"]}
 {"id":"186295.js","paths":["discord_app/modules/media_engine/SystemwideEchoCancellationExperiment.tsx"]}
 {"id":"186295.js","paths":["discord_app/modules/media_engine/UpscaleSmallCapturedFramesExperiment.tsx"]}
@@ -352,6 +353,7 @@
 {"id":"263041.js","paths":["discord_app/modules/impersonate/ImpersonateActionCreators.tsx"]}
 {"id":"263041.js","paths":["discord_app/modules/user_settings/UserSettingsProtoActionCreators.tsx"]}
 {"id":"263041.js","paths":["discord_app/modules/bug_reporter/BugReporterExperiment.tsx"]}
+{"id":"263041.js","paths":["discord_app/modules/gateway/GatewayAltEndpointExperiment.tsx"]}
 {"id":"263041.js","paths":["discord_app/modules/safety_flows/SafetyFlowsExperiment.tsx"]}
 {"id":"263041.js","paths":["discord_app/modules/telemetry_ring/HttpRequestSampleExperiment.tsx"]}
 {"id":"263041.js","paths":["../discord_common/js/shared/shared-constants/ApplicationIntegrationType.tsx"]}
@@ -1771,6 +1773,7 @@
 {"id":"909206.js","paths":["discord_app/modules/activities/DeveloperActivityShelfActionCreators.tsx"]}
 {"id":"90924.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
 {"id":"90924.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
+{"id":"909536.js","paths":["discord_app/modules/wishlists/experiments/WishlistingNitroExperiment.tsx"]}
 {"id":"910607.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"911272.js","paths":["assets/images/platforms/img_account_sync_github_white.svg","discord_app/src/main/res/raw/images_platforms_img_account_sync_github_white.svg"]}
 {"id":"911612.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
