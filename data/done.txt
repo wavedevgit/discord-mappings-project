@@ -202,6 +202,7 @@ app/modules/client_themes/native/CustomThemeMobileActionCreators.tsx
 app/modules/client_themes/native/CustomThemeMobileStore.tsx
 app/modules/client_themes/SavedCustomThemeActionCreators.tsx
 app/modules/client_themes/SavedCustomThemeStore.tsx
+app/modules/clips/AutoclippingDefaultOverrideExperiment.tsx
 app/modules/clips/ClipsExperiment.tsx
 app/modules/clips/ClipsSettingsRedesignExperiment.tsx
 app/modules/clips/ClipsStore.tsx
@@ -330,7 +331,6 @@ app/modules/game_profile/native/GameDetectionReportActionCreators.tsx
 app/modules/game_relationships/GameRelationshipActionCreators.tsx
 app/modules/game_relationships/GameRelationshipStore.tsx
 app/modules/games/autocomplete/GameAutocompleteActionCreators.tsx
-app/modules/games/autocomplete/GameAutocompleteExperiment.tsx
 app/modules/games/autocomplete/GameAutocompleteStore.tsx
 app/modules/games/GameActionCreators.tsx
 app/modules/games/GameStore.tsx
@@ -692,6 +692,7 @@ app/modules/quests/ConsoleQuestUIStore.tsx
 app/modules/quests/experiments/AdAnalyticsInterfaceExperiment.tsx
 app/modules/quests/experiments/BountiesShopCarouselExperiment.tsx
 app/modules/quests/experiments/BountiesStage1Experiment.tsx
+app/modules/quests/experiments/BountiesVerticalScrollExperiment.tsx
 app/modules/quests/experiments/BountyUseVideoModalMobilePlacementExperiment.tsx
 app/modules/quests/experiments/LessPersonalizedAdsExperiment.tsx
 app/modules/quests/experiments/NewAdRequestBehaviorExperiment.tsx

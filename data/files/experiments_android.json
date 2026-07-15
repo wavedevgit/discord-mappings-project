@@ -170,6 +170,12 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/clips/AutoclippingDefaultOverrideExperiment.tsx",
+        "kind": "user",
+        "id": "2026-07-autoclipping-default-override",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/clips/ClipsExperiment.tsx",
         "kind": "user",
         "id": "2026-03-clips-experiment",
@@ -337,12 +343,6 @@
         "path": "app/modules/game_mentions/GameMentionsExperiment.tsx",
         "kind": "user",
         "id": "2026-05-game-mentions-v2",
-        "keyRequired": "variations"
-    },
-    {
-        "path": "app/modules/games/autocomplete/GameAutocompleteExperiment.tsx",
-        "kind": "user",
-        "id": "2026-06-game-autocomplete-search",
         "keyRequired": "variations"
     },
     {
@@ -1051,6 +1051,12 @@
         "path": "app/modules/quests/experiments/BountiesStage1Experiment.tsx",
         "kind": "user",
         "id": "2026-05-bounties-stage-1",
+        "keyRequired": "variations"
+    },
+    {
+        "path": "app/modules/quests/experiments/BountiesVerticalScrollExperiment.tsx",
+        "kind": "user",
+        "id": "2026-07-bounties-vertical-scroll",
         "keyRequired": "variations"
     },
     {

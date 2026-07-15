@@ -25,6 +25,7 @@
 {"find_with":["guild","2026-03_voice_badge","treatments"],"paths":["app/modules/channel/VoiceChannelBadgeExperiment.tsx"]}
 {"find_with":["guild","2025-12_voice_channel_hoisting","treatments"],"paths":["app/modules/channel/VoiceChannelHoistingExperiment.tsx"]}
 {"find_with":["user","2026-01-chat-loading-indicator","variations"],"paths":["app/modules/chat/native/ChatLoadingIndicatorExperiment.tsx"]}
+{"find_with":["user","2026-07-autoclipping-default-override","variations"],"paths":["app/modules/clips/AutoclippingDefaultOverrideExperiment.tsx"]}
 {"find_with":["user","2026-03-clips-experiment","variations"],"paths":["app/modules/clips/ClipsExperiment.tsx"]}
 {"find_with":["user","2026-06-clips-settings-redesign","variations"],"paths":["app/modules/clips/ClipsSettingsRedesignExperiment.tsx"]}
 {"find_with":["user","2026-04-clips-v3-runtime","variations"],"paths":["app/modules/clips/ClipsV3RuntimeExperiment.tsx"]}
@@ -52,7 +53,6 @@
 {"find_with":["user","2026-02-game-community-upsell-multi","variations"],"paths":["app/modules/game_community_upsell/native/GameCommunityUpsellExperiment.tsx"]}
 {"find_with":["user","2026-03-churro","variations"],"paths":["app/modules/game_console/PlayStationVoiceExperiment.tsx"]}
 {"find_with":["user","2026-05-game-mentions-v2","variations"],"paths":["app/modules/game_mentions/GameMentionsExperiment.tsx"]}
-{"find_with":["user","2026-06-game-autocomplete-search","variations"],"paths":["app/modules/games/autocomplete/GameAutocompleteExperiment.tsx"]}
 {"find_with":["user","2026-07-aws-gateway","variations"],"paths":["app/modules/gateway/GatewayAltEndpointExperiment.tsx"]}
 {"find_with":["user","2026-02-private-channel-hiding","variations"],"paths":["app/modules/gateway/PrivateChannelHidingExperiment.tsx"]}
 {"find_with":["user","2026-07-rngh-mount-reactions-effect","variations"],"paths":["app/modules/gesture_handlers/native/RNGHMountReactionsEffectExperiment.tsx"]}
@@ -171,6 +171,7 @@
 {"find_with":["user","2026-05-use-ad-analytics-interface","variations"],"paths":["app/modules/quests/experiments/AdAnalyticsInterfaceExperiment.tsx"]}
 {"find_with":["user","2026-06-bounties-shop-carousel","variations"],"paths":["app/modules/quests/experiments/BountiesShopCarouselExperiment.tsx"]}
 {"find_with":["user","2026-05-bounties-stage-1","variations"],"paths":["app/modules/quests/experiments/BountiesStage1Experiment.tsx"]}
+{"find_with":["user","2026-07-bounties-vertical-scroll","variations"],"paths":["app/modules/quests/experiments/BountiesVerticalScrollExperiment.tsx"]}
 {"find_with":["user","2026-06-bounty-use-video-modal-mobile-placement-experiment","variations"],"paths":["app/modules/quests/experiments/BountyUseVideoModalMobilePlacementExperiment.tsx"]}
 {"find_with":["user","2026-01-less-personalized-ads","variations"],"paths":["app/modules/quests/experiments/LessPersonalizedAdsExperiment.tsx"]}
 {"find_with":["user","2025-10-ad-request-behavior-experiment","variations"],"paths":["app/modules/quests/experiments/NewAdRequestBehaviorExperiment.tsx"]}

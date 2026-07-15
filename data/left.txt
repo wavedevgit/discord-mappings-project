@@ -2321,6 +2321,7 @@ app/modules/collectibles/native/FramesHeroBlock.tsx
 app/modules/collectibles/native/FramesProductShelfBlock.tsx
 app/modules/collectibles/native/HeroBlock.tsx
 app/modules/collectibles/native/hooks/useCardLayout.tsx
+app/modules/collectibles/native/hooks/useCollectiblesExternalGatewayFacet.android.tsx
 app/modules/collectibles/native/hooks/useFilteredAndSortedProducts.tsx
 app/modules/collectibles/native/hooks/useMobileCollectiblesPurchaseSKU.android.tsx
 app/modules/collectibles/native/hooks/usePopularOrbShopProducts.tsx
@@ -3099,6 +3100,7 @@ app/modules/game_detection/native/GameIcon.tsx
 app/modules/game_detection/RunningGameStore.tsx
 app/modules/game_invite_channels/GameInviteChannels.messages.js
 app/modules/game_invite_channels/GameInvitesChannelUtils.tsx
+app/modules/game_mentions/hooks/useGameMentionsAsPlainText.tsx
 app/modules/game_profile/AnnouncementMessageUtils.tsx
 app/modules/game_profile/GameProfileActionCreators.tsx
 app/modules/game_profile/GameProfileAnalyticUtils.tsx
@@ -3192,6 +3194,7 @@ app/modules/gateway/RequestGatewaySocket.tsx
 app/modules/gateway/useRequestGatewaySocket.tsx
 app/modules/gateway/WorkSchedulerTelemetry.tsx
 app/modules/generated_test_users/GeneratedTestUsersModels.tsx
+app/modules/gesture_handler/native/DiscordGestureHandlerRootView.android.tsx
 app/modules/gesture_handlers/native/NonCollapsableGestureDetector.tsx
 app/modules/gesture_handlers/native/RNGHMountReactionsBridge.tsx
 app/modules/gif_picker/experiments/GifProviderConfig.tsx
@@ -3448,6 +3451,7 @@ app/modules/guild_onboarding/DefaultChannelThresholdUtils.tsx
 app/modules/guild_onboarding/DefaultChannelUtils.tsx
 app/modules/guild_onboarding/doGuildOnboarding.tsx
 app/modules/guild_onboarding/doGuildOnboardingHelpers.tsx
+app/modules/guild_onboarding/getDefaultProviderDescription.tsx
 app/modules/guild_onboarding/GuildOnboardingPromptsConstants.tsx
 app/modules/guild_onboarding/GuildOnboardingUtils.tsx
 app/modules/guild_onboarding/LandingAssetUtils.tsx
@@ -4581,14 +4585,26 @@ app/modules/main_tabs_v2/native/tabs/you/YouScreen.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouScreenNavIcon.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouScreenNavIconNitroSubscriber.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouSettingsCoachmark.tsx
-app/modules/main_tabs_v2/native/useYouBarDmSwipeCoachmark.tsx
 app/modules/main_tabs_v2/native/utils/getNavigationModalPresentation.tsx
 app/modules/main_tabs_v2/native/utils/ModalStackNavigator.tsx
 app/modules/main_tabs_v2/native/utils/useNavigatorConfirmChangesOnBack.tsx
 app/modules/main_tabs_v2/native/utils/useTabSelectedGuildId.tsx
-app/modules/main_tabs_v2/native/YouBar.tsx
-app/modules/main_tabs_v2/native/YouBarConstants.tsx
-app/modules/main_tabs_v2/native/YouBarStackNavigator.tsx
+app/modules/main_tabs_v2/native/you_bar/hooks/useConnectionBannerHeight.tsx
+app/modules/main_tabs_v2/native/you_bar/hooks/useYouBarDmSwipeCoachmark.tsx
+app/modules/main_tabs_v2/native/you_bar/hooks/useYouBarMargins.tsx
+app/modules/main_tabs_v2/native/you_bar/hooks/useYouBarSettingsSafeArea.tsx
+app/modules/main_tabs_v2/native/you_bar/hooks/useYouBarTotalHeight.tsx
+app/modules/main_tabs_v2/native/you_bar/YouBar.tsx
+app/modules/main_tabs_v2/native/you_bar/YouBarAvatar.tsx
+app/modules/main_tabs_v2/native/you_bar/YouBarAvatarDefault.tsx
+app/modules/main_tabs_v2/native/you_bar/YouBarButton.tsx
+app/modules/main_tabs_v2/native/you_bar/YouBarConstants.tsx
+app/modules/main_tabs_v2/native/you_bar/YouBarFloatingShade.tsx
+app/modules/main_tabs_v2/native/you_bar/YouBarICYMIButton.tsx
+app/modules/main_tabs_v2/native/you_bar/YouBarName.tsx
+app/modules/main_tabs_v2/native/you_bar/YouBarNotificationsButton.tsx
+app/modules/main_tabs_v2/native/you_bar/YouBarStackNavigator.tsx
+app/modules/main_tabs_v2/native/you_bar/YouBarUser.tsx
 app/modules/main_tabs_v2/navigator/getNavigatorCurrentRoute.tsx
 app/modules/main_tabs_v2/navigator/useGuildsRouteGuildId.tsx
 app/modules/main_tabs_v2/RootNavigationRef.tsx
@@ -5772,6 +5788,7 @@ app/modules/quests/native/AppStoreOverlayTelemetryManager.tsx
 app/modules/quests/native/ATTModal/ATTManager.android.tsx
 app/modules/quests/native/BountiesBannerBackground.tsx
 app/modules/quests/native/BountiesCtaHeader.tsx
+app/modules/quests/native/BountiesModal/BountiesEndCardPressableCta.tsx
 app/modules/quests/native/BountiesModal/BountiesModal.tsx
 app/modules/quests/native/BountiesModal/BountiesModalAdvertiserCta.tsx
 app/modules/quests/native/BountiesModal/BountiesModalCloseButton.tsx
@@ -5788,6 +5805,7 @@ app/modules/quests/native/BountiesModal/BountiesScrollPromptNuxFooter.tsx
 app/modules/quests/native/BountiesModal/BountiesScrollRecapFooter.tsx
 app/modules/quests/native/BountiesModal/BountiesScrollRecapPage.tsx
 app/modules/quests/native/BountiesModal/BountiesScrollVideoItem.tsx
+app/modules/quests/native/BountiesModal/BountyConstants.tsx
 app/modules/quests/native/BountiesModal/BountyCtaHelpers.tsx
 app/modules/quests/native/BountiesModal/bountyError.tsx
 app/modules/quests/native/BountiesModal/BountyVideo.tsx
@@ -6009,6 +6027,7 @@ app/modules/rpc/native/server/NativeRPCHelpers.tsx
 app/modules/rpc/native/server/NativeRPCServerManager.tsx
 app/modules/rpc/native/server/transports/WebViewPostMessageTransport.tsx
 app/modules/rpc/native/server/transports/WebViewWindowProxySocketFactory.tsx
+app/modules/rpc/native/SocialRpcNetworkConfigManager.tsx
 app/modules/rpc/RPCError.tsx
 app/modules/rpc/RPCHelpers.tsx
 app/modules/rpc/RPCOpcodes.tsx
@@ -6986,6 +7005,7 @@ app/modules/user_settings/defs/native/AccountViewBackupCodesSetting.tsx
 app/modules/user_settings/defs/native/AccountWebAuthnViewSetting.tsx
 app/modules/user_settings/defs/native/AcknowledgementsSetting.tsx
 app/modules/user_settings/defs/native/ActivityPrivacyDefaultSharingSetting.tsx
+app/modules/user_settings/defs/native/ActivityPrivacyShareMyActivitySetting.tsx
 app/modules/user_settings/defs/native/AdvancedSetting.tsx
 app/modules/user_settings/defs/native/AdvancedVoiceActivitySetting.tsx
 app/modules/user_settings/defs/native/AgeGroupConfirmSetting.tsx
@@ -8609,6 +8629,7 @@ discord_common/js/packages/rtn-codegen/js/ChatInputNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/ChatListNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/ChatNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/ClipViewNativeComponent.tsx
+discord_common/js/packages/rtn-codegen/js/DiscordGestureHandlerRootViewNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/EmojiPickerNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/EmojiPickerRowViewNativeComponent.tsx
 discord_common/js/packages/rtn-codegen/js/FastestListNativeComponent.tsx
