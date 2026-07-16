@@ -72,6 +72,7 @@
 {"find_with":["user","2026-05-frictionless-gdms","variations"],"paths":["app/modules/header_bar/FrictionlessGDMsExperiment.tsx"]}
 {"find_with":["user","2025-10-mobile-home-drawer","variations"],"paths":["app/modules/home_drawer/native/HomeDrawerExperiment.tsx"]}
 {"find_with":["user","2026-04-icymi-staff-only","variations"],"paths":["app/modules/icymi/ICYMIExperiment.tsx"]}
+{"find_with":["user","2026-07-attachment-image-ladder","variations"],"paths":["app/modules/image_upload/AttachmentImageLadderExperiment.tsx"]}
 {"find_with":["user","2025-10-force-sdr-emojis-stickers","variations"],"paths":["app/modules/image_upload/ForceSdrEmojisStickersExperiment.tsx"]}
 {"find_with":["user","2025-12-mobile-lossless-image-upload-v2","variations"],"paths":["app/modules/image_upload/MobileLosslessImageUploadV2Experiment.tsx"]}
 {"find_with":["user","2026-05-in-app-notification-expand","variations"],"paths":["app/modules/in_app_notifications/native/InAppNotificationExpandExperiment.tsx"]}
@@ -115,6 +116,7 @@
 {"find_with":["user","2026-04-kestrel","variations"],"paths":["app/modules/media_uploads/experiments/KestrelExperiment.tsx"]}
 {"find_with":["user","2026-01-image-optimized-encoding-ladder","variations"],"paths":["app/modules/media_uploads/experiments/MobileImageEncodingLadderExperiment.tsx"]}
 {"find_with":["user","2025-10-video-frame-rate-validation","variations"],"paths":["app/modules/media_uploads/experiments/VideoFrameRateValidationExperiment.tsx"]}
+{"find_with":["user","2026-06-mobile-media-viewer-share","variations"],"paths":["app/modules/media_viewer/native/MobileMediaViewerShareExperiment.tsx"]}
 {"find_with":["user","2025-12-shadow-node-spike","variations"],"paths":["app/modules/memory/MemoryExperiment.tsx"]}
 {"find_with":["user","2026-06-non-friend-messages-requests-in-uk","variations"],"paths":["app/modules/message_request/MessageRequestRestrictionExperiment.tsx"]}
 {"find_with":["guild","2026-03_guild_official_messages","treatments"],"paths":["app/modules/messages/GuildOfficialMessagesExperiment.tsx"]}

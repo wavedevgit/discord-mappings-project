@@ -480,6 +480,7 @@ app/modules/icymi/ICYMISessionStore.tsx
 app/modules/icymi/ICYMIStore.tsx
 app/modules/icymi/ICYMIUnreadStateStore.tsx
 app/modules/icymi/native/NativeICYMIActionCreators.tsx
+app/modules/image_upload/AttachmentImageLadderExperiment.tsx
 app/modules/image_upload/ForceSdrEmojisStickersExperiment.tsx
 app/modules/image_upload/MobileLosslessImageUploadV2Experiment.tsx
 app/modules/image_upload/native/AddImageDescriptionModalActionCreators.tsx
@@ -550,6 +551,7 @@ app/modules/media_uploads/experiments/IosJpegliExperiment.tsx
 app/modules/media_uploads/experiments/KestrelExperiment.tsx
 app/modules/media_uploads/experiments/MobileImageEncodingLadderExperiment.tsx
 app/modules/media_uploads/experiments/VideoFrameRateValidationExperiment.tsx
+app/modules/media_viewer/native/MobileMediaViewerShareExperiment.tsx
 app/modules/media/VideoActionCreators.tsx
 app/modules/memory/MemoryExperiment.tsx
 app/modules/message_previews/MessagePreviewStore.tsx

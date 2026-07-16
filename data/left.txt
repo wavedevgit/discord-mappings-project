@@ -1985,6 +1985,7 @@ app/modules/calls/mobile/useIsCallActive.tsx
 app/modules/calls/native/getPrivateChannelCall.tsx
 app/modules/calls/native/TelecomManager.android.tsx
 app/modules/calls/native/usePrivateChannelCall.tsx
+app/modules/calls/native/useVideoTileGradientColors.tsx
 app/modules/calls/native/VideoBackground.tsx
 app/modules/calls/native/VideoBackgroundManager.tsx
 app/modules/calls/NativeMuteManager.tsx
@@ -2308,6 +2309,7 @@ app/modules/collectibles/native/CollectiblesShopViewAllCategoryItemsHeader.tsx
 app/modules/collectibles/native/CollectiblesUtils.tsx
 app/modules/collectibles/native/components/CutoutableAvatarDecoration.tsx
 app/modules/collectibles/native/DebugLogView.tsx
+app/modules/collectibles/native/DynamicBadgeTooltip.tsx
 app/modules/collectibles/native/EditCollectiblesPickerList.tsx
 app/modules/collectibles/native/FeaturedBlock.tsx
 app/modules/collectibles/native/FeaturedCategorySubblock.tsx
@@ -2432,7 +2434,6 @@ app/modules/collectibles/utils/CollectiblesAssetUtils.tsx
 app/modules/collectibles/utils/CollectiblesPerfLogging.tsx
 app/modules/collectibles/utils/CollectiblesProductUtils.tsx
 app/modules/collectibles/utils/CollectiblesUtils.tsx
-app/modules/collectibles/utils/ErrorHandlingUtils.tsx
 app/modules/collectibles/utils/getProductName.tsx
 app/modules/collectibles/utils/mappers.tsx
 app/modules/collectibles/utils/WideBannerDismissibleContentVersion.tsx
@@ -2824,6 +2825,7 @@ app/modules/errors/av_errors/definitions/AVErrorVideoStreamSenderReadyTimeoutNoS
 app/modules/errors/av_errors/definitions/index.tsx
 app/modules/errors/CommonSentryInitUtils.tsx
 app/modules/errors/EmbeddedActivityClientError.tsx
+app/modules/errors/ErrorHandlingUtils.tsx
 app/modules/errors/hooks/useCameraEncodeError.tsx
 app/modules/errors/hooks/useVideoReadyTimeout.tsx
 app/modules/errors/hooks/useVideoStreamError.tsx
@@ -4021,6 +4023,7 @@ app/modules/home_drawer/native/HomeDrawerFolderRow.tsx
 app/modules/home_drawer/native/HomeDrawerGuildRow.tsx
 app/modules/home_drawer/native/HomeDrawerGuildVoiceState.tsx
 app/modules/home_drawer/native/HomeDrawerShared.tsx
+app/modules/home_drawer/native/isHomeDrawerChannelMuted.tsx
 app/modules/home_drawer/native/subtitles/MentionSubtitle.tsx
 app/modules/home_drawer/native/subtitles/StreamingSubtitle.tsx
 app/modules/home_drawer/native/subtitles/TypingSubtitle.tsx
@@ -4118,6 +4121,7 @@ app/modules/icymi/useICYMITabBadge.tsx
 app/modules/icymi/useSharedICYMILogic.tsx
 app/modules/image_cropping/web/ImageCroppingConstants.tsx
 app/modules/image_proxy/ImageProxyUtils.tsx
+app/modules/image_upload/AttachmentImageLadder.tsx
 app/modules/image_upload/ImageLoaderUtils.tsx
 app/modules/image_upload/native/AddImageDescriptionModal.tsx
 app/modules/image/native/APNGPlayer.android.tsx
@@ -4590,18 +4594,20 @@ app/modules/main_tabs_v2/native/utils/ModalStackNavigator.tsx
 app/modules/main_tabs_v2/native/utils/useNavigatorConfirmChangesOnBack.tsx
 app/modules/main_tabs_v2/native/utils/useTabSelectedGuildId.tsx
 app/modules/main_tabs_v2/native/you_bar/hooks/useConnectionBannerHeight.tsx
-app/modules/main_tabs_v2/native/you_bar/hooks/useYouBarDmSwipeCoachmark.tsx
+app/modules/main_tabs_v2/native/you_bar/hooks/useYouBarCoachmark.tsx
 app/modules/main_tabs_v2/native/you_bar/hooks/useYouBarMargins.tsx
 app/modules/main_tabs_v2/native/you_bar/hooks/useYouBarSettingsSafeArea.tsx
 app/modules/main_tabs_v2/native/you_bar/hooks/useYouBarTotalHeight.tsx
 app/modules/main_tabs_v2/native/you_bar/YouBar.tsx
 app/modules/main_tabs_v2/native/you_bar/YouBarAvatar.tsx
 app/modules/main_tabs_v2/native/you_bar/YouBarAvatarDefault.tsx
+app/modules/main_tabs_v2/native/you_bar/YouBarBackground.tsx
 app/modules/main_tabs_v2/native/you_bar/YouBarButton.tsx
 app/modules/main_tabs_v2/native/you_bar/YouBarConstants.tsx
 app/modules/main_tabs_v2/native/you_bar/YouBarFloatingShade.tsx
 app/modules/main_tabs_v2/native/you_bar/YouBarICYMIButton.tsx
 app/modules/main_tabs_v2/native/you_bar/YouBarName.tsx
+app/modules/main_tabs_v2/native/you_bar/YouBarNameplate.tsx
 app/modules/main_tabs_v2/native/you_bar/YouBarNotificationsButton.tsx
 app/modules/main_tabs_v2/native/you_bar/YouBarStackNavigator.tsx
 app/modules/main_tabs_v2/native/you_bar/YouBarUser.tsx
@@ -4749,6 +4755,7 @@ app/modules/media_viewer/native/useMediaViewerSyncer.tsx
 app/modules/media_viewer/native/useMessagePreviewHeight.tsx
 app/modules/media_viewer/native/useOverlayLayoutDriver.tsx
 app/modules/media_viewer/native/useVideoControls.tsx
+app/modules/media/FileExtensionUtils.tsx
 app/modules/media/MediaAnalytics.tsx
 app/modules/media/MediaTypes.tsx
 app/modules/media/native/AttachmentPreview.tsx
@@ -5788,6 +5795,8 @@ app/modules/quests/native/AppStoreOverlayTelemetryManager.tsx
 app/modules/quests/native/ATTModal/ATTManager.android.tsx
 app/modules/quests/native/BountiesBannerBackground.tsx
 app/modules/quests/native/BountiesCtaHeader.tsx
+app/modules/quests/native/BountiesModal/BountiesAutoScrollIndicator.tsx
+app/modules/quests/native/BountiesModal/BountiesAutoScrollOverlayNuxGradient.tsx
 app/modules/quests/native/BountiesModal/BountiesEndCardPressableCta.tsx
 app/modules/quests/native/BountiesModal/BountiesModal.tsx
 app/modules/quests/native/BountiesModal/BountiesModalAdvertiserCta.tsx
@@ -5800,6 +5809,8 @@ app/modules/quests/native/BountiesModal/BountiesModalEndedCtaButtons.tsx
 app/modules/quests/native/BountiesModal/BountiesModalProgress.tsx
 app/modules/quests/native/BountiesModal/BountiesModalTimer.tsx
 app/modules/quests/native/BountiesModal/BountiesScrollEndCard.tsx
+app/modules/quests/native/BountiesModal/BountiesScrollIndicatorAnimation.tsx
+app/modules/quests/native/BountiesModal/BountiesScrollIndicatorOverlay.tsx
 app/modules/quests/native/BountiesModal/BountiesScrollPromptFooter.tsx
 app/modules/quests/native/BountiesModal/BountiesScrollPromptNuxFooter.tsx
 app/modules/quests/native/BountiesModal/BountiesScrollRecapFooter.tsx
@@ -5809,10 +5820,12 @@ app/modules/quests/native/BountiesModal/BountyConstants.tsx
 app/modules/quests/native/BountiesModal/BountyCtaHelpers.tsx
 app/modules/quests/native/BountiesModal/bountyError.tsx
 app/modules/quests/native/BountiesModal/BountyVideo.tsx
+app/modules/quests/native/BountiesModal/useBountiesAutoScroll.tsx
 app/modules/quests/native/BountiesModal/useBountiesModalTiming.tsx
 app/modules/quests/native/BountiesModal/useBountiesModalVideoAnalytics.tsx
 app/modules/quests/native/BountiesModal/useBountiesRecapOrbCount.tsx
 app/modules/quests/native/BountiesModal/useBountiesRecapScroll.tsx
+app/modules/quests/native/BountiesModal/useBountySwipeUpNux.tsx
 app/modules/quests/native/BountiesModal/useBountyVideoProgressPersistence.tsx
 app/modules/quests/native/BountiesModal/useVisibilityTransition.tsx
 app/modules/quests/native/BountiesNuxPromoSheet.tsx
@@ -6745,7 +6758,7 @@ app/modules/user_profile/native/openUserContextMenuCommands.tsx
 app/modules/user_profile/native/ProfileGIFSelectActionSheet.tsx
 app/modules/user_profile/native/profileModalTransition.tsx
 app/modules/user_profile/native/showUserProfileActionSheet.tsx
-app/modules/user_profile/native/usePrivateProfileCoachmark.tsx
+app/modules/user_profile/native/usePrivateProfileCoachmarkProps.tsx
 app/modules/user_profile/native/UserProfileAboutMeCard.tsx
 app/modules/user_profile/native/UserProfileAboutMeCardCommand.tsx
 app/modules/user_profile/native/UserProfileActionSheet.tsx
@@ -7919,6 +7932,7 @@ app/utils/web/KeyboardUtils.tsx
 app/utils/web/ProtocolUtils.tsx
 app/utils/web/WindowIdUtils.tsx
 app/utils/web/WindowInteractingUtils.tsx
+discord_assets/assets/ads/bounties-swipe-up-prompt-wip-2.png.js
 discord_assets/assets/assets/mobile_wishlist_coachmark.png.js
 discord_assets/assets/checkpoint/card-banana.png.js
 discord_assets/assets/checkpoint/card-capybara.png.js

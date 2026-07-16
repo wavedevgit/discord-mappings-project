@@ -460,6 +460,12 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/image_upload/AttachmentImageLadderExperiment.tsx",
+        "kind": "user",
+        "id": "2026-07-attachment-image-ladder",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/image_upload/ForceSdrEmojisStickersExperiment.tsx",
         "kind": "user",
         "id": "2025-10-force-sdr-emojis-stickers",
@@ -715,6 +721,12 @@
         "path": "app/modules/media_uploads/experiments/VideoFrameRateValidationExperiment.tsx",
         "kind": "user",
         "id": "2025-10-video-frame-rate-validation",
+        "keyRequired": "variations"
+    },
+    {
+        "path": "app/modules/media_viewer/native/MobileMediaViewerShareExperiment.tsx",
+        "kind": "user",
+        "id": "2026-06-mobile-media-viewer-share",
         "keyRequired": "variations"
     },
     {
