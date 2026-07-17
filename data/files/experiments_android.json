@@ -164,6 +164,12 @@
         "keyRequired": "treatments"
     },
     {
+        "path": "app/modules/chat_input/native/ChatInputFabricExperiment.tsx",
+        "kind": "user",
+        "id": "2026-06-ios-chat-input-fabric",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/chat/native/ChatLoadingIndicatorExperiment.tsx",
         "kind": "user",
         "id": "2026-01-chat-loading-indicator",
@@ -1051,6 +1057,12 @@
         "path": "app/modules/quests/experiments/AdAnalyticsInterfaceExperiment.tsx",
         "kind": "user",
         "id": "2026-05-use-ad-analytics-interface",
+        "keyRequired": "variations"
+    },
+    {
+        "path": "app/modules/quests/experiments/AdRecheckIntervalExperiment.tsx",
+        "kind": "user",
+        "id": "2026-07-ad-recheck-interval-experiment",
         "keyRequired": "variations"
     },
     {

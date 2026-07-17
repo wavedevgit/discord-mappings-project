@@ -193,6 +193,7 @@ app/modules/channel/VoiceChannelAnimationStateStore.tsx
 app/modules/channel/VoiceChannelBadgeExperiment.tsx
 app/modules/channel/VoiceChannelHoistingExperiment.tsx
 app/modules/channel/VoiceChannelStartTimeStore.tsx
+app/modules/chat_input/native/ChatInputFabricExperiment.tsx
 app/modules/chat_input/native/useChatBottomManagerUIStore.tsx
 app/modules/chat/native/ChatLoadingIndicatorExperiment.tsx
 app/modules/checkout/native/NativeCheckoutStore.tsx
@@ -224,6 +225,7 @@ app/modules/collectibles/experiments/CollectiblesProfileFramesExperiment.tsx
 app/modules/collectibles/experiments/CollectiblesProfileFramesPurchaseExperiment.tsx
 app/modules/collectibles/experiments/CollectiblesShopCardImpressionMobileExperiment.tsx
 app/modules/collectibles/native/ProductPurchaseSuccessActionCreators.tsx
+app/modules/collectibles/profile_frames/native/tooling/FramePreviewOverrideStore.tsx
 app/modules/connections/ConnectionsRoleActionCreators.tsx
 app/modules/connections/experiments/ApplicationIdentityLinkedRolesExperiment.tsx
 app/modules/connections/GuildRoleConnectionEligibilityStore.tsx
@@ -309,6 +311,7 @@ app/modules/forums/ForumPostMessagesStore.tsx
 app/modules/forums/ForumPostRecentMessageStore.tsx
 app/modules/forums/ForumPostUnreadCountStore.tsx
 app/modules/forums/ForumSearchStore.tsx
+app/modules/forums/native/composer/ForumComposerModalActionCreators.tsx
 app/modules/forwarding/ForwardActionCreators.tsx
 app/modules/frames/FramesStore.tsx
 app/modules/friend_groups/FriendGroupsStore.tsx
@@ -622,6 +625,8 @@ app/modules/phone/PhoneStore.tsx
 app/modules/poggermode/PoggermodeActionCreators.tsx
 app/modules/poggermode/PoggermodeSettingsStore.tsx
 app/modules/poggermode/PoggermodeStore.tsx
+app/modules/polls/native/EditPollCreationImageAltTextModalActionCreators.tsx
+app/modules/polls/native/PollCreationModalActionCreators.tsx
 app/modules/polls/PollsActionCreators.tsx
 app/modules/polls/PollsInteractionStore.tsx
 app/modules/premium_apps/ApplicationSubscriptionsActionCreators.tsx
@@ -692,6 +697,7 @@ app/modules/quests/BountyActionCreators.tsx
 app/modules/quests/BountyStore.tsx
 app/modules/quests/ConsoleQuestUIStore.tsx
 app/modules/quests/experiments/AdAnalyticsInterfaceExperiment.tsx
+app/modules/quests/experiments/AdRecheckIntervalExperiment.tsx
 app/modules/quests/experiments/BountiesShopCarouselExperiment.tsx
 app/modules/quests/experiments/BountiesStage1Experiment.tsx
 app/modules/quests/experiments/BountiesVerticalScrollExperiment.tsx
@@ -1123,6 +1129,7 @@ discord_common/js/shared/shared-constants/ContentRatingESRBRating.tsx
 discord_common/js/shared/shared-constants/ContentRatingPEGIRating.tsx
 discord_common/js/shared/shared-constants/CountryCodes.tsx
 discord_common/js/shared/shared-constants/CountryCodesISO3to2.tsx
+discord_common/js/shared/shared-constants/DefaultProfileFrameDimensions.tsx
 discord_common/js/shared/shared-constants/DesignIds.tsx
 discord_common/js/shared/shared-constants/DiscordContentClassificationFlags.tsx
 discord_common/js/shared/shared-constants/DisplayNameEffect.tsx

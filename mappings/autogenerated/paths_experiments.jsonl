@@ -24,6 +24,7 @@
 {"find_with":["user","2026-04-channel-pinning","variations"],"paths":["app/modules/channel/ChannelPinningExperiment.tsx"]}
 {"find_with":["guild","2026-03_voice_badge","treatments"],"paths":["app/modules/channel/VoiceChannelBadgeExperiment.tsx"]}
 {"find_with":["guild","2025-12_voice_channel_hoisting","treatments"],"paths":["app/modules/channel/VoiceChannelHoistingExperiment.tsx"]}
+{"find_with":["user","2026-06-ios-chat-input-fabric","variations"],"paths":["app/modules/chat_input/native/ChatInputFabricExperiment.tsx"]}
 {"find_with":["user","2026-01-chat-loading-indicator","variations"],"paths":["app/modules/chat/native/ChatLoadingIndicatorExperiment.tsx"]}
 {"find_with":["user","2026-07-autoclipping-default-override","variations"],"paths":["app/modules/clips/AutoclippingDefaultOverrideExperiment.tsx"]}
 {"find_with":["user","2026-03-clips-experiment","variations"],"paths":["app/modules/clips/ClipsExperiment.tsx"]}
@@ -171,6 +172,7 @@
 {"find_with":["user","2025-12-nitro-s-rewards","variations"],"paths":["app/modules/premium/tenure_reward/experiments/PremiumRewardsOrbsExperiment.tsx"]}
 {"find_with":["user","2026-02-content-classification-presence-filter","variations"],"paths":["app/modules/presence/ContentClassificationPresenceFilterExperiment.tsx"]}
 {"find_with":["user","2026-05-use-ad-analytics-interface","variations"],"paths":["app/modules/quests/experiments/AdAnalyticsInterfaceExperiment.tsx"]}
+{"find_with":["user","2026-07-ad-recheck-interval-experiment","variations"],"paths":["app/modules/quests/experiments/AdRecheckIntervalExperiment.tsx"]}
 {"find_with":["user","2026-06-bounties-shop-carousel","variations"],"paths":["app/modules/quests/experiments/BountiesShopCarouselExperiment.tsx"]}
 {"find_with":["user","2026-05-bounties-stage-1","variations"],"paths":["app/modules/quests/experiments/BountiesStage1Experiment.tsx"]}
 {"find_with":["user","2026-07-bounties-vertical-scroll","variations"],"paths":["app/modules/quests/experiments/BountiesVerticalScrollExperiment.tsx"]}

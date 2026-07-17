@@ -62,6 +62,7 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']CollectiblesShopHomeStore[\"']"},"paths":["app/modules/collectibles/CollectiblesShopHomeStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']CollectiblesShopStore[\"']"},"paths":["app/modules/collectibles/CollectiblesShopStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']CollectiblesShopVariantsUIStore[\"']"},"paths":["app/modules/collectibles/CollectiblesShopVariantsUIStore.tsx"]}
+{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']FramePreviewOverrideStore[\"']"},"paths":["app/modules/collectibles/profile_frames/native/tooling/FramePreviewOverrideStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GuildRoleConnectionEligibilityStore[\"']"},"paths":["app/modules/connections/GuildRoleConnectionEligibilityStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GuildRoleConnectionsConfigurationStore[\"']"},"paths":["app/modules/connections/GuildRoleConnectionsConfigurationStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ConnectivityIndicatorStateStore[\"']"},"paths":["app/modules/connectivity/native/ConnectivityIndicatorStateStore.tsx"]}

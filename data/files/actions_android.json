@@ -1290,6 +1290,13 @@
         ]
     },
     {
+        "path": "app/modules/forums/native/composer/ForumComposerModalActionCreators.tsx",
+        "functions_names": [
+            "openCreateForumPostModal",
+            "closeCreateForumPostModal"
+        ]
+    },
+    {
         "path": "app/modules/forwarding/ForwardActionCreators.tsx",
         "functions_names": [
             "sendForward",
@@ -2026,6 +2033,20 @@
             "POGGERMODE_SETTINGS_UPDATE",
             "POGGERMODE_UPDATE_COMBO",
             "POGGERMODE_UPDATE_COMBO"
+        ]
+    },
+    {
+        "path": "app/modules/polls/native/EditPollCreationImageAltTextModalActionCreators.tsx",
+        "functions_names": [
+            "openEditPollCreationImageAltTextModal",
+            "closeEditPollCreationImageAltTextModal"
+        ]
+    },
+    {
+        "path": "app/modules/polls/native/PollCreationModalActionCreators.tsx",
+        "functions_names": [
+            "openCreatePollModal",
+            "closeCreatePollModal"
         ]
     },
     {

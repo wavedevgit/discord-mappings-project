@@ -182,6 +182,7 @@ app/design/components/Graphic/native/Graphic.tsx
 app/design/components/Icon/IconSize.tsx
 app/design/components/Icon/native/BaseIconImage.tsx
 app/design/components/Icon/native/ClipView.tsx
+app/design/components/Icon/native/CutoutBackgroundContext.tsx
 app/design/components/Icon/native/redesign/generated/AccessibilityIcon.tsx
 app/design/components/Icon/native/redesign/generated/AchievementsIcon.tsx
 app/design/components/Icon/native/redesign/generated/AnalyticsIcon.tsx
@@ -1083,6 +1084,7 @@ app/design/tokens/native/useToken.tsx
 app/design/utils/native.tsx
 app/design/utils/native/mergeProps.tsx
 app/design/utils/native/useFocus.tsx
+app/design/utils/shared/colors.tsx
 app/design/utils/shared/getNodeText.tsx
 app/design/utils/shared/themes.tsx
 app/design/void/AccessibilityFocusView/native/AccessibilityFocusView.tsx
@@ -2136,6 +2138,7 @@ app/modules/chat_input/native/guard/ChatInputGuardWrapper.tsx
 app/modules/chat_input/native/RefreshChatInputCoachmark.tsx
 app/modules/chat_input/native/useChatInputMaxHeight.tsx
 app/modules/chat_input/native/useChatInputRefs.tsx
+app/modules/chat_input/native/useShouldUseFabricChatInput.tsx
 app/modules/chat/native/Chat.android.tsx
 app/modules/chat/native/ChatChangesetUpdateTracker.tsx
 app/modules/chat/native/ChatLoadingIndicator.tsx
@@ -2383,6 +2386,7 @@ app/modules/collectibles/profile_effects/useClock.tsx
 app/modules/collectibles/profile_effects/useProfileEffect.tsx
 app/modules/collectibles/profile_effects/useProfileEffectSections.tsx
 app/modules/collectibles/profile_effects/utils.tsx
+app/modules/collectibles/profile_frames/hooks/useFramePreviewOverrideFrame.tsx
 app/modules/collectibles/profile_frames/hooks/useMaybeFetchProfileFrame.tsx
 app/modules/collectibles/profile_frames/hooks/useMaybeTrackProfileFrameViewed.tsx
 app/modules/collectibles/profile_frames/hooks/useProfileFrame.tsx
@@ -2392,8 +2396,12 @@ app/modules/collectibles/profile_frames/native/previews/ProfileFrameSamplePrevie
 app/modules/collectibles/profile_frames/native/previews/ProfileFrameUserPreview.tsx
 app/modules/collectibles/profile_frames/native/ProfileFrame.tsx
 app/modules/collectibles/profile_frames/native/ProfileFrameConstants.tsx
+app/modules/collectibles/profile_frames/native/tooling/FrameOverrideConstants.tsx
+app/modules/collectibles/profile_frames/native/tooling/FramePreviewOverrideFrame.tsx
 app/modules/collectibles/profile_frames/native/useProfileFrameLayerAsset.tsx
 app/modules/collectibles/profile_frames/scaleProfileFrame.tsx
+app/modules/collectibles/profile_frames/tooling/computeProfileFrameDimensions.tsx
+app/modules/collectibles/profile_frames/tooling/ProfileFrameLayerParser.tsx
 app/modules/collectibles/records/AvatarDecorationRecord.tsx
 app/modules/collectibles/records/BaseCollectiblesItemRecord.tsx
 app/modules/collectibles/records/CollectiblesBundledProductRecord.tsx
@@ -2966,7 +2974,6 @@ app/modules/forums/native/ChannelSettingsEditForumTag.tsx
 app/modules/forums/native/composer/ForumComposer.tsx
 app/modules/forums/native/composer/ForumComposerHeader.tsx
 app/modules/forums/native/composer/ForumComposerModal.tsx
-app/modules/forums/native/composer/ForumComposerModalActionCreators.tsx
 app/modules/forums/native/composer/hooks/ExpressionPickerHandlers.tsx
 app/modules/forums/native/composer/hooks/useBackspaceHandler.tsx
 app/modules/forums/native/composer/hooks/useFocusHandlers.tsx
@@ -3968,7 +3975,6 @@ app/modules/guilds_bar/native/GuildsBarGuild.tsx
 app/modules/guilds_bar/native/GuildsBarGuildFolder.tsx
 app/modules/guilds_bar/native/GuildsBarGuildJoinRequestBadge.tsx
 app/modules/guilds_bar/native/GuildsBarItemEmptyNUX.tsx
-app/modules/guilds_bar/native/GuildsBarItemIconPressable.tsx
 app/modules/guilds_bar/native/GuildsBarItemUnavailableGuilds.tsx
 app/modules/guilds_bar/native/GuildsBarMessages.tsx
 app/modules/guilds_bar/native/GuildsBarPendingGuild.tsx
@@ -4016,6 +4022,7 @@ app/modules/holidays/HolidayEventsConfig.tsx
 app/modules/holidays/HolidayEventsManager.tsx
 app/modules/holidays/HolidayEventsUtils.tsx
 app/modules/holidays/setIncomingRingtone.android.tsx
+app/modules/home_drawer/native/HomeDrawerAddServerRow.tsx
 app/modules/home_drawer/native/HomeDrawerDirectMessagesRow.tsx
 app/modules/home_drawer/native/HomeDrawerDM.tsx
 app/modules/home_drawer/native/HomeDrawerFavoritesRow.tsx
@@ -4833,6 +4840,7 @@ app/modules/messages/isSystemMessage.tsx
 app/modules/messages/LegacyCommands.tsx
 app/modules/messages/logMessageSendFailure.tsx
 app/modules/messages/markUnread.tsx
+app/modules/messages/MarkupPostProcessors.tsx
 app/modules/messages/MediaFormatTesters.tsx
 app/modules/messages/MessageAttachmentUtils.tsx
 app/modules/messages/MessageConstants.tsx
@@ -5383,13 +5391,11 @@ app/modules/polls/chat/PollMessageChatDataTypes.tsx
 app/modules/polls/chat/useFormattedExpirationLabel.tsx
 app/modules/polls/chat/usePollMessageContextItemTypes.tsx
 app/modules/polls/native/EditPollCreationImageAltTextModal.tsx
-app/modules/polls/native/EditPollCreationImageAltTextModalActionCreators.tsx
 app/modules/polls/native/ImageInputActionSheet.tsx
 app/modules/polls/native/PollAnswerInput.tsx
 app/modules/polls/native/PollBadge.tsx
 app/modules/polls/native/PollCreation.tsx
 app/modules/polls/native/PollCreationInputError.tsx
-app/modules/polls/native/PollCreationModalActionCreators.tsx
 app/modules/polls/native/PollDurationActionSheet.tsx
 app/modules/polls/native/PollVotesActionSheet.tsx
 app/modules/polls/native/useFocusHelper.tsx
@@ -5768,6 +5774,7 @@ app/modules/quarantine/useShouldBlockDMInputForQuarantinedUser.tsx
 app/modules/queries/ArraySearch.tsx
 app/modules/quests/EarnedDecisionRoundtripTracker.tsx
 app/modules/quests/experiments/index.tsx
+app/modules/quests/experiments/useBountiesExperience.tsx
 app/modules/quests/hooks/QuestCopyHooks.tsx
 app/modules/quests/hooks/QuestHooks.tsx
 app/modules/quests/hooks/QuestOrbMultiplierHooks.tsx
@@ -5816,6 +5823,7 @@ app/modules/quests/native/BountiesModal/BountiesScrollPromptNuxFooter.tsx
 app/modules/quests/native/BountiesModal/BountiesScrollRecapFooter.tsx
 app/modules/quests/native/BountiesModal/BountiesScrollRecapPage.tsx
 app/modules/quests/native/BountiesModal/BountiesScrollVideoItem.tsx
+app/modules/quests/native/BountiesModal/bountiesSwipeUpNuxDevTools.tsx
 app/modules/quests/native/BountiesModal/BountyConstants.tsx
 app/modules/quests/native/BountiesModal/BountyCtaHelpers.tsx
 app/modules/quests/native/BountiesModal/bountyError.tsx
@@ -7932,7 +7940,6 @@ app/utils/web/KeyboardUtils.tsx
 app/utils/web/ProtocolUtils.tsx
 app/utils/web/WindowIdUtils.tsx
 app/utils/web/WindowInteractingUtils.tsx
-discord_assets/assets/ads/bounties-swipe-up-prompt-wip-2.png.js
 discord_assets/assets/assets/mobile_wishlist_coachmark.png.js
 discord_assets/assets/checkpoint/card-banana.png.js
 discord_assets/assets/checkpoint/card-capybara.png.js
@@ -8381,6 +8388,7 @@ discord_assets/assets/mana/asset-library/generated/WumpusGearSpotIllustration-2x
 discord_assets/assets/mana/asset-library/generated/WumpusMahjongSpotIllustration-2x.png.js
 discord_assets/assets/mana/rive/native/BoostThisServer.riv.js
 discord_assets/assets/mana/rive/native/BountiesScrollGradient.riv.js
+discord_assets/assets/mana/rive/native/BountiesScrollIndicator.riv.js
 discord_assets/assets/mana/rive/native/Camera.riv.js
 discord_assets/assets/mana/rive/native/CheckpointCard.riv.js
 discord_assets/assets/mana/rive/native/CheckpointFriends.riv.js
@@ -8480,6 +8488,7 @@ discord_common/js/packages/design/components/ManaContext/ManaContext.tsx
 discord_common/js/packages/design/components/Rive/native/BaseRive.tsx
 discord_common/js/packages/design/components/Rive/native/generated/BoostThisServerRive.tsx
 discord_common/js/packages/design/components/Rive/native/generated/BountiesScrollGradientRive.tsx
+discord_common/js/packages/design/components/Rive/native/generated/BountiesScrollIndicatorRive.tsx
 discord_common/js/packages/design/components/Rive/native/generated/CameraRive.tsx
 discord_common/js/packages/design/components/Rive/native/generated/CheckpointCardRive.tsx
 discord_common/js/packages/design/components/Rive/native/generated/CheckpointFriendsRive.tsx
@@ -8761,6 +8770,8 @@ discord_common/js/shared/shared-constants/DismissibleQuestContentFlags.tsx
 discord_common/js/shared/shared-constants/GuildRoomBackgroundPositions.tsx
 discord_common/js/shared/shared-constants/GuildRoomBackgrounds.tsx
 discord_common/js/shared/shared-constants/LegacyBadgeIdMap.tsx
+discord_common/js/shared/shared-constants/ProfileFrameLayerAnchor.tsx
+discord_common/js/shared/shared-constants/ProfileFrameLayerType.tsx
 discord_common/js/shared/shared-constants/Quests.tsx
 discord_common/js/shared/shared-constants/SimilarGamesConstants.tsx
 discord_common/js/shared/shared-constants/WidgetType.tsx

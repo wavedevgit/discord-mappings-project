@@ -1,11 +1,5 @@
 [
     {
-        "path": "discord_assets/assets/ads/bounties-swipe-up-prompt-wip-2.png.js",
-        "url": "https://cdn.discordapp.com/assets/content/a5a492f73141e27d6972f57d4bbe26d25dbc7b8ba6409359016b6d5d5bc45ca5.png",
-        "etag": "\"81df41d19e535ac4c2956c07458509c5\"",
-        "hash": "a5a492f73141e27d6972f57d4bbe26d25dbc7b8ba6409359016b6d5d5bc45ca5"
-    },
-    {
         "path": "discord_assets/assets/assets/mobile_wishlist_coachmark.png.js",
         "url": "https://cdn.discordapp.com/assets/content/1979309f7455b06e0bc1e8f5da89de9934155a0a9a74bfff5b680c82fb45d53f.png",
         "etag": "\"56e180878d490a972577522fc32782d6\"",
@@ -2694,6 +2688,12 @@
         "hash": "e2271d5ae1d3ff605e7efedd077e751dfb4c90694f1b730f12713c54486a2b35"
     },
     {
+        "path": "discord_assets/assets/mana/rive/native/BountiesScrollIndicator.riv.js",
+        "url": "https://cdn.discordapp.com/assets/content/1e918604996bb9b8036daa2327751ba1303d49b157f1d6994392e9a914b7bf0a.riv",
+        "etag": "\"2616d4128db8a98d75f3872e643525f3\"",
+        "hash": "1e918604996bb9b8036daa2327751ba1303d49b157f1d6994392e9a914b7bf0a"
+    },
+    {
         "path": "discord_assets/assets/mana/rive/native/Camera.riv.js",
         "url": "https://cdn.discordapp.com/assets/content/50c62483dc876c18d82d8e5f725485acbd672c61bb66f6d21bf13cc4186886de.riv",
         "etag": "\"b7f6ea6e4538fcb1c7c5c3ea2e842351\"",
@@ -3145,14 +3145,14 @@
     },
     {
         "path": "app/src/main/assets/index.android.bundle",
-        "hash": "5471d12bf9ec8d759423100699590662"
+        "hash": "f9f45e291c0bcfebd8e27dfc52e79ae4"
     },
     {
-        "path": "app/src/main/res/drawable-hdpi/_node_modules_pnpm_reactnavigationelements1330_3ftgnkuxj7xkguxnosx3yk2egq_node_modules_reactnavigation_elements_src_assets_backicon.png",
+        "path": "app/src/main/res/drawable-hdpi/_node_modules_pnpm_reactnavigationelements1330_gkehte5b7wivjpgqkir354c4ka_node_modules_reactnavigation_elements_src_assets_backicon.png",
         "hash": "376d6a4c7f622917c39feb23671ef71d"
     },
     {
-        "path": "app/src/main/res/drawable-hdpi/_node_modules_pnpm_reactnavigationelements1331_3ftgnkuxj7xkguxnosx3yk2egq_node_modules_reactnavigation_elements_src_assets_backicon.png",
+        "path": "app/src/main/res/drawable-hdpi/_node_modules_pnpm_reactnavigationelements1331_gkehte5b7wivjpgqkir354c4ka_node_modules_reactnavigation_elements_src_assets_backicon.png",
         "hash": "376d6a4c7f622917c39feb23671ef71d"
     },
     {
@@ -3280,19 +3280,19 @@
         "hash": "4db0790f7a81e49025d7fbfb9aeb182c"
     },
     {
-        "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements1330_3ftgnkuxj7xkguxnosx3yk2egq_node_modules_reactnavigation_elements_src_assets_backicon.png",
+        "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements1330_gkehte5b7wivjpgqkir354c4ka_node_modules_reactnavigation_elements_src_assets_backicon.png",
         "hash": "778ffc9fe8773a878e9c30a6304784de"
     },
     {
-        "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements1330_3ftgnkuxj7xkguxnosx3yk2egq_node_modules_reactnavigation_elements_src_assets_backiconmask.png",
+        "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements1330_gkehte5b7wivjpgqkir354c4ka_node_modules_reactnavigation_elements_src_assets_backiconmask.png",
         "hash": "5223c8d9b0d08b82a5670fb5f71faf78"
     },
     {
-        "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements1331_3ftgnkuxj7xkguxnosx3yk2egq_node_modules_reactnavigation_elements_src_assets_backicon.png",
+        "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements1331_gkehte5b7wivjpgqkir354c4ka_node_modules_reactnavigation_elements_src_assets_backicon.png",
         "hash": "778ffc9fe8773a878e9c30a6304784de"
     },
     {
-        "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements1331_3ftgnkuxj7xkguxnosx3yk2egq_node_modules_reactnavigation_elements_src_assets_backiconmask.png",
+        "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements1331_gkehte5b7wivjpgqkir354c4ka_node_modules_reactnavigation_elements_src_assets_backiconmask.png",
         "hash": "5223c8d9b0d08b82a5670fb5f71faf78"
     },
     {
@@ -4540,11 +4540,11 @@
         "hash": "5985a032ce7867df6bb6e8414710271c"
     },
     {
-        "path": "app/src/main/res/drawable-xhdpi/_node_modules_pnpm_reactnavigationelements1330_3ftgnkuxj7xkguxnosx3yk2egq_node_modules_reactnavigation_elements_src_assets_backicon.png",
+        "path": "app/src/main/res/drawable-xhdpi/_node_modules_pnpm_reactnavigationelements1330_gkehte5b7wivjpgqkir354c4ka_node_modules_reactnavigation_elements_src_assets_backicon.png",
         "hash": "c79c3606a1cf168006ad3979763c7e0c"
     },
     {
-        "path": "app/src/main/res/drawable-xhdpi/_node_modules_pnpm_reactnavigationelements1331_3ftgnkuxj7xkguxnosx3yk2egq_node_modules_reactnavigation_elements_src_assets_backicon.png",
+        "path": "app/src/main/res/drawable-xhdpi/_node_modules_pnpm_reactnavigationelements1331_gkehte5b7wivjpgqkir354c4ka_node_modules_reactnavigation_elements_src_assets_backicon.png",
         "hash": "c79c3606a1cf168006ad3979763c7e0c"
     },
     {
@@ -4874,10 +4874,6 @@
     {
         "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_circleplayiconsecondary.png",
         "hash": "bb2602b8a34177e282fa1dbe81b01130"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_circleplusicon.png",
-        "hash": "1705dce801bb0a5b0441b5d757f69d77"
     },
     {
         "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_circleplusiconprimary.png",
@@ -6502,10 +6498,6 @@
     {
         "path": "app/src/main/res/drawable-xhdpi/images_native_guild_settings_overview_asset_gradient.png",
         "hash": "c094d3fd21757bc54cd72a21aa1d181f"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/images_native_guild_sidebar_img_create_guild.png",
-        "hash": "6f02042d0a0cc67964b4a513207a25d7"
     },
     {
         "path": "app/src/main/res/drawable-xhdpi/images_native_guild_sidebar_img_guild_folder.png",
@@ -9028,11 +9020,11 @@
         "hash": "03db945049f9f25f8e27a20efa89ef14"
     },
     {
-        "path": "app/src/main/res/drawable-xxhdpi/_node_modules_pnpm_reactnavigationelements1330_3ftgnkuxj7xkguxnosx3yk2egq_node_modules_reactnavigation_elements_src_assets_backicon.png",
+        "path": "app/src/main/res/drawable-xxhdpi/_node_modules_pnpm_reactnavigationelements1330_gkehte5b7wivjpgqkir354c4ka_node_modules_reactnavigation_elements_src_assets_backicon.png",
         "hash": "02bc1fa7c0313217bde2d65ccbff40c9"
     },
     {
-        "path": "app/src/main/res/drawable-xxhdpi/_node_modules_pnpm_reactnavigationelements1331_3ftgnkuxj7xkguxnosx3yk2egq_node_modules_reactnavigation_elements_src_assets_backicon.png",
+        "path": "app/src/main/res/drawable-xxhdpi/_node_modules_pnpm_reactnavigationelements1331_gkehte5b7wivjpgqkir354c4ka_node_modules_reactnavigation_elements_src_assets_backicon.png",
         "hash": "02bc1fa7c0313217bde2d65ccbff40c9"
     },
     {
@@ -9362,10 +9354,6 @@
     {
         "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_circleplayiconsecondary.png",
         "hash": "807480cf8744d0b9ee0b7ead7de5afd9"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_circleplusicon.png",
-        "hash": "03574f22d0815b3c0ff57a10719d0a40"
     },
     {
         "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_circleplusiconprimary.png",
@@ -10982,10 +10970,6 @@
     {
         "path": "app/src/main/res/drawable-xxhdpi/images_native_guild_settings_overview_asset_gradient.png",
         "hash": "8ab3cd612cc11fc487245b156a1d70b5"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/images_native_guild_sidebar_img_create_guild.png",
-        "hash": "217b1cfb93fa8d4f6c4067f7e932b143"
     },
     {
         "path": "app/src/main/res/drawable-xxhdpi/images_native_guild_sidebar_img_guild_folder.png",
@@ -13516,11 +13500,11 @@
         "hash": "6b5164e859883ef60ddddebd4532684a"
     },
     {
-        "path": "app/src/main/res/drawable-xxxhdpi/_node_modules_pnpm_reactnavigationelements1330_3ftgnkuxj7xkguxnosx3yk2egq_node_modules_reactnavigation_elements_src_assets_backicon.png",
+        "path": "app/src/main/res/drawable-xxxhdpi/_node_modules_pnpm_reactnavigationelements1330_gkehte5b7wivjpgqkir354c4ka_node_modules_reactnavigation_elements_src_assets_backicon.png",
         "hash": "35ba0eaec5a4f5ed12ca16fabeae451d"
     },
     {
-        "path": "app/src/main/res/drawable-xxxhdpi/_node_modules_pnpm_reactnavigationelements1331_3ftgnkuxj7xkguxnosx3yk2egq_node_modules_reactnavigation_elements_src_assets_backicon.png",
+        "path": "app/src/main/res/drawable-xxxhdpi/_node_modules_pnpm_reactnavigationelements1331_gkehte5b7wivjpgqkir354c4ka_node_modules_reactnavigation_elements_src_assets_backicon.png",
         "hash": "35ba0eaec5a4f5ed12ca16fabeae451d"
     },
     {
@@ -18841,7 +18825,7 @@
     },
     {
         "path": "app/src/main/res/raw/intl_messages_enuscompiledmessages.jsona",
-        "hash": "de00448980ad3504efe6a76dc2d3260c"
+        "hash": "75d8bd51f6fb0ef498b2e14efd690510"
     },
     {
         "path": "app/src/main/res/raw/intl_messages_internationalcompiledmessages.jsona",
@@ -18853,7 +18837,7 @@
     },
     {
         "path": "app/src/main/res/raw/keep.xml",
-        "hash": "634280390edf9085040bfe434756ddb9"
+        "hash": "03bf9c70ef5214506bd9557c89a40bc1"
     },
     {
         "path": "app/src/main/res/raw/modules_activity_privacy_activityprivacycompiledmessages.jsona",
