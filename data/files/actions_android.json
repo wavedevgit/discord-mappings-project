@@ -44,14 +44,6 @@
         ]
     },
     {
-        "path": "app/actions/AuthorizedAppsActionCreators.tsx",
-        "flux_events": [
-            "USER_AUTHORIZED_APPS_REQUEST_FAILED",
-            "USER_AUTHORIZED_APPS_REQUEST",
-            "USER_AUTHORIZED_APPS_UPDATE"
-        ]
-    },
-    {
         "path": "app/actions/BoostingActionCreators.tsx",
         "flux_events": [
             "APPLIED_BOOSTS_COOLDOWN_FETCH_SUCCESS",
@@ -924,6 +916,7 @@
     {
         "path": "app/modules/badges/BadgeDirectoryActionCreators.tsx",
         "flux_events": [
+            "BADGE_DIRECTORY_MARK_BADGE_INDICATOR_SEEN",
             "BADGE_DIRECTORY_FETCH_SUCCESS",
             "BADGE_DIRECTORY_FETCH_FAILURE",
             "BADGE_DIRECTORY_FETCH_START",
@@ -1955,6 +1948,14 @@
         "flux_events": [
             "NUF_NEW_USER",
             "NUF_COMPLETE"
+        ]
+    },
+    {
+        "path": "app/modules/oauth2/AuthorizedAppsActionCreators.tsx",
+        "flux_events": [
+            "USER_AUTHORIZED_APPS_REQUEST_FAILED",
+            "USER_AUTHORIZED_APPS_REQUEST",
+            "USER_AUTHORIZED_APPS_UPDATE"
         ]
     },
     {

@@ -389,6 +389,7 @@
 {"id":"267548.js","paths":["../discord_common/js/shared/shared-constants/QuestSharePolicy.tsx"]}
 {"id":"26909.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"271004.js","paths":["discord_app/modules/lurker_mode/LurkerActionCreators.tsx"]}
+{"id":"271520.js","paths":["discord_app/modules/clips/GameEventsOnPlayerExperiment.tsx"]}
 {"id":"272053.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
 {"id":"272244.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"272244.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
@@ -611,6 +612,7 @@
 {"id":"382573.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"383233.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"383272.js","paths":["discord_app/modules/premium/powerups/experiments/ServerThemeExperiment.tsx"]}
+{"id":"384046.js","paths":["discord_app/modules/guild_boosting/experiments/BoostToUnlockMobileCoachmarkExperiment.tsx"]}
 {"id":"384048.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"384048.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"384059.js","paths":["../discord_common/js/shared/shared-constants/AudioSettingsDefaultVolumes.tsx"]}
@@ -1359,7 +1361,7 @@
 {"id":"711014.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"71132.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
 {"id":"711950.js","paths":["discord_app/actions/FriendsActionCreators.tsx"]}
-{"id":"712440.js","paths":["discord_app/actions/AuthorizedAppsActionCreators.tsx"]}
+{"id":"712440.js","paths":["discord_app/modules/oauth2/AuthorizedAppsActionCreators.tsx"]}
 {"id":"712687.js","paths":["discord_app/actions/ContextMenuActionCreators.tsx"]}
 {"id":"71319.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"713654.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}

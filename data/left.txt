@@ -1751,6 +1751,7 @@ app/modules/app_startup/native/executeHeadlessTask.tsx
 app/modules/app_startup/native/executeRunnable.tsx
 app/modules/app_startup/native/NativeAppStartup.tsx
 app/modules/app_startup/PostTTIScheduler/PostTTIScheduler.tsx
+app/modules/app_startup/PostTTIScheduler/SafePostTTIScheduler.tsx
 app/modules/app_startup/StartupProfiler.tsx
 app/modules/app_state/DiscordAppState.tsx
 app/modules/application_account_linking/AccountLinking.messages.js
@@ -2572,7 +2573,6 @@ app/modules/creator_monetization/CreatorMonetizationSettingsDisabledContext.tsx
 app/modules/creator_monetization/guild_shop/useGuildShopPreviewVisible.tsx
 app/modules/creator_monetization/guild_shop/useGuildShopVisibleInGuild.tsx
 app/modules/croissant/crepe/Crepe.messages.js
-app/modules/croissant/Croissant.messages.js
 app/modules/custom_status/Constants.tsx
 app/modules/custom_status/CustomStatusManager.tsx
 app/modules/custom_status/native/ClearAfterOptionsActionSheet.tsx
@@ -2930,6 +2930,7 @@ app/modules/fastest_list/utils/getFastestListSectionsWithErrorChecking.tsx
 app/modules/fastest_list/utils/getFastestListVisibleItemsWithErrorChecking.tsx
 app/modules/favorites/buildFavoritesSectionButtons.tsx
 app/modules/favorites/createFavoritesChannelRecord.tsx
+app/modules/favorites/FavoriteManager.tsx
 app/modules/favorites/FavoritesAnalytics.tsx
 app/modules/favorites/FavoritesConstants.tsx
 app/modules/favorites/FavoritesGuild.messages.js
@@ -4156,6 +4157,7 @@ app/modules/in_app_notifications/native/MessageNotificationHeader.tsx
 app/modules/in_app_notifications/native/MessageNotificationReactBar.tsx
 app/modules/in_app_notifications/native/MessagePreviewText.tsx
 app/modules/in_app_notifications/native/MessageReplyInput.tsx
+app/modules/in_app_notifications/native/MessageRequestNotification.tsx
 app/modules/in_app_notifications/native/Notification.tsx
 app/modules/in_app_notifications/native/NotificationContent.tsx
 app/modules/in_app_notifications/native/NotificationProgress.tsx
@@ -4456,6 +4458,7 @@ app/modules/main_tabs_v2/native/panels/MainTabsContentScrim.tsx
 app/modules/main_tabs_v2/native/panels/MainTabsNavigatorPanel.tsx
 app/modules/main_tabs_v2/native/panels/MainTabsNavigatorPanelContext.tsx
 app/modules/main_tabs_v2/native/panels/PanelsNavigationUtils.tsx
+app/modules/main_tabs_v2/native/panels/SidebarCoachmarkOverlay.tsx
 app/modules/main_tabs_v2/native/panels/ThemedHeaderBackgroundGradient.tsx
 app/modules/main_tabs_v2/native/panels/useChannelScreensFromNavigation.tsx
 app/modules/main_tabs_v2/native/panels/useMainTabsChannelScreenStyles.tsx
@@ -5344,6 +5347,7 @@ app/modules/parent_tools/SpendingLimitUtils.tsx
 app/modules/parent_tools/useIsParentalConsentBannerActive.tsx
 app/modules/parent_tools/useParentalConsentWarning.tsx
 app/modules/parental_consent/native/AgeUpdateFooter.tsx
+app/modules/partner_perks/xbox/partner_pass/XboxPartnerPass.messages.js
 app/modules/payments/hooks/useSubscriptionSelection.tsx
 app/modules/payments/native/hooks/NativePaymentHooks.android.tsx
 app/modules/payments/native/hooks/NativePaymentHooks.ios.tsx
@@ -5563,6 +5567,7 @@ app/modules/premium/powerups/hooks/GuildPowerupsNotificationsDCF.tsx
 app/modules/premium/powerups/hooks/useAvailableBoostCountForPowerup.tsx
 app/modules/premium/powerups/hooks/useBoostToUnlockFeaturedPowerup.tsx
 app/modules/premium/powerups/hooks/useCanGuildPowerupBeToggled.tsx
+app/modules/premium/powerups/hooks/useCanPurchaseOrTransferBoost.tsx
 app/modules/premium/powerups/hooks/useDeactivateWarningText.tsx
 app/modules/premium/powerups/hooks/useFeaturedExpiringPowerup.tsx
 app/modules/premium/powerups/hooks/useGetExpiringGuildPowerups.tsx
@@ -5601,6 +5606,7 @@ app/modules/premium/powerups/native/GuildPowerupRollbackSheet.tsx
 app/modules/premium/powerups/native/GuildPowerupsBoostButton.tsx
 app/modules/premium/powerups/native/GuildPowerupsBoostGem.tsx
 app/modules/premium/powerups/native/GuildPowerupsBoostInfo.tsx
+app/modules/premium/powerups/native/GuildPowerupsBoostToUnlockCoachmark.tsx
 app/modules/premium/powerups/native/GuildPowerupsBottomSheet.tsx
 app/modules/premium/powerups/native/GuildPowerupsCard.tsx
 app/modules/premium/powerups/native/GuildPowerupsCardFooter.tsx
@@ -5629,6 +5635,7 @@ app/modules/premium/powerups/native/hooks/useGuildPowerupConfigureCallback.tsx
 app/modules/premium/powerups/native/hooks/useGuildPowerupOnActivate.tsx
 app/modules/premium/powerups/native/hooks/useGuildPowerupOnShowDeactivate.tsx
 app/modules/premium/powerups/native/hooks/useGuildPowerupOnShowMore.tsx
+app/modules/premium/powerups/native/hooks/useGuildPowerupsBoostAction.tsx
 app/modules/premium/powerups/native/hooks/useGuildPowerupsCoachmark.tsx
 app/modules/premium/powerups/native/hooks/usePowerupGroupConfig.tsx
 app/modules/premium/powerups/native/hooks/useShowGuildPowerupRollbackSheet.tsx
@@ -6763,6 +6770,7 @@ app/modules/user_profile/native/GuildProfileEditForm.tsx
 app/modules/user_profile/native/LegacyUserProfileConnections.tsx
 app/modules/user_profile/native/NonUserBotProfileContent.tsx
 app/modules/user_profile/native/openUserContextMenuCommands.tsx
+app/modules/user_profile/native/openUserProfileAvatarMediaViewer.tsx
 app/modules/user_profile/native/ProfileGIFSelectActionSheet.tsx
 app/modules/user_profile/native/profileModalTransition.tsx
 app/modules/user_profile/native/showUserProfileActionSheet.tsx
@@ -8710,6 +8718,7 @@ discord_common/js/packages/rtn-codegen/js/NativeReactAssetModule.tsx
 discord_common/js/packages/rtn-codegen/js/NativeRemoteAuthCryptoModule.tsx
 discord_common/js/packages/rtn-codegen/js/NativeSafeAreaInsetsModule.tsx
 discord_common/js/packages/rtn-codegen/js/NativeScreenWakeLockModule.tsx
+discord_common/js/packages/rtn-codegen/js/NativeShareManagerModule.tsx
 discord_common/js/packages/rtn-codegen/js/NativeStartupFlagsModule.tsx
 discord_common/js/packages/rtn-codegen/js/NativeSystraceModule.tsx
 discord_common/js/packages/rtn-codegen/js/NativeTelecomModule.tsx

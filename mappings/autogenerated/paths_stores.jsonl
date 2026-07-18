@@ -197,6 +197,7 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ICYMIStore[\"']"},"paths":["app/modules/icymi/ICYMIStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ICYMIUnreadStateStore[\"']"},"paths":["app/modules/icymi/ICYMIUnreadStateStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ImpersonateStore[\"']"},"paths":["app/modules/impersonate/ImpersonateStore.tsx"]}
+{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']RecentMentionsStore[\"']"},"paths":["app/modules/inbox/RecentMentionsStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GuildInviteSendStateStore[\"']"},"paths":["app/modules/instant_invite/GuildInviteSendStateStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']InstantInviteSendStateStore[\"']"},"paths":["app/modules/instant_invite/InstantInviteSendStateStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']InteractionModalStore[\"']"},"paths":["app/modules/interaction_components/InteractionModalStore.tsx"]}
@@ -237,6 +238,7 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']InAppMessageSoundsStore[\"']"},"paths":["app/modules/notifications/native/InAppMessageSoundsStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']RpcNotificationSettingsStore[\"']"},"paths":["app/modules/notifications/RpcNotificationSettingsStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']NewUserStore[\"']"},"paths":["app/modules/nuf/NewUserStore.tsx"]}
+{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']AuthorizedAppsStore[\"']"},"paths":["app/modules/oauth2/AuthorizedAppsStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']FavoritesSuggestionStore[\"']"},"paths":["app/modules/opt_in_channels/FavoritesSuggestionStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']RecentlyActiveCollapseStore[\"']"},"paths":["app/modules/opt_in_channels/RecentlyActiveCollapseStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']AppFreezeStore[\"']"},"paths":["app/modules/panels/morphable/AppFreezeStore.tsx"]}
@@ -279,7 +281,6 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']VideoQuestUIStore[\"']"},"paths":["app/modules/quests/VideoQuestUIStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']QuickSwitcherStore[\"']"},"paths":["app/modules/quickswitcher/QuickSwitcherStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']NewChannelsStore[\"']"},"paths":["app/modules/recent_channels/NewChannelsStore.tsx"]}
-{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']RecentMentionsStore[\"']"},"paths":["app/modules/recents/RecentMentionsStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']RegionalFeatureConfigStore[\"']"},"paths":["app/modules/regional_feature_config/RegionalFeatureConfigStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GuildFriendshipStore[\"']"},"paths":["app/modules/relationships/GuildFriendshipStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']PendingReplyStore[\"']"},"paths":["app/modules/replies/PendingReplyStore.tsx"]}
@@ -388,7 +389,6 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ApplicationStreamPreviewStore[\"']"},"paths":["app/stores/ApplicationStreamPreviewStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']AppliedGuildBoostStore[\"']"},"paths":["app/stores/AppliedGuildBoostStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']AuthenticationStore[\"']"},"paths":["app/stores/AuthenticationStore.tsx"]}
-{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']AuthorizedAppsStore[\"']"},"paths":["app/stores/AuthorizedAppsStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']BillingInfoStore[\"']"},"paths":["app/stores/billing/BillingInfoStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']BraintreeStore[\"']"},"paths":["app/stores/billing/BraintreeStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GuildBoostSlotStore[\"']"},"paths":["app/stores/billing/GuildBoostSlotStore.tsx"]}

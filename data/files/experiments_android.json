@@ -206,6 +206,12 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/clips/GameEventsOnPlayerExperiment.tsx",
+        "kind": "user",
+        "id": "2026-07-clips-game-events-on-player",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/collectibles/experiments/CollectiblesMobileFlexibleBundlesExperiment.tsx",
         "kind": "user",
         "id": "2026-05-mobile-collectibles-flexible-bundles",
@@ -410,6 +416,12 @@
         "kind": "guild",
         "id": "2022-12_mention_raid_limit",
         "keyRequired": "treatments"
+    },
+    {
+        "path": "app/modules/guild_boosting/experiments/BoostToUnlockMobileCoachmarkExperiment.tsx",
+        "kind": "user",
+        "id": "2026-03-boost-to-unlock-mobile-coachmark",
+        "keyRequired": "variations"
     },
     {
         "path": "app/modules/guild_mod_dash_member_safety/web/BulkBanPubSubExperiment.tsx",
@@ -742,6 +754,12 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/message_request/MessageRequestPushNotificationExperiment.tsx",
+        "kind": "user",
+        "id": "2026-07-message-request-push-notification",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/message_request/MessageRequestRestrictionExperiment.tsx",
         "kind": "user",
         "id": "2026-06-non-friend-messages-requests-in-uk",
@@ -955,12 +973,6 @@
         "path": "app/modules/premium/gifting/native/MobileFriendAnniversaryExperiment.tsx",
         "kind": "user",
         "id": "2026-06-mobile-friendship-anniversary",
-        "keyRequired": "variations"
-    },
-    {
-        "path": "app/modules/premium/powerups/experiments/BoostToUnlockCoachmarkExperiment.tsx",
-        "kind": "user",
-        "id": "2026-02-boost-to-unlock-coachmark",
         "keyRequired": "variations"
     },
     {

@@ -3,7 +3,6 @@ app/actions/AnalyticsTrackingActionCreators.tsx
 app/actions/AudioActionCreators.tsx
 app/actions/AuditLogActionCreators.tsx
 app/actions/AuthenticationActionCreators.tsx
-app/actions/AuthorizedAppsActionCreators.tsx
 app/actions/BoostingActionCreators.tsx
 app/actions/CallActionCreators.tsx
 app/actions/CategoryCollapseActionCreators.tsx
@@ -209,6 +208,7 @@ app/modules/clips/ClipsSettingsRedesignExperiment.tsx
 app/modules/clips/ClipsStore.tsx
 app/modules/clips/ClipsV3RuntimeExperiment.tsx
 app/modules/clips/DistributedClipsExperiment.tsx
+app/modules/clips/GameEventsOnPlayerExperiment.tsx
 app/modules/coded_links/web/CodedLinkActionCreators.tsx
 app/modules/collectibles/CollectiblesActionCreators.tsx
 app/modules/collectibles/CollectiblesCategoryStore.tsx
@@ -372,6 +372,7 @@ app/modules/guild_automod/AutomodStore.tsx
 app/modules/guild_automod/GuildAutomodActionCreators.tsx
 app/modules/guild_automod/GuildAutomodMessageActionCreators.tsx
 app/modules/guild_automod/GuildAutomodMessageStore.tsx
+app/modules/guild_boosting/experiments/BoostToUnlockMobileCoachmarkExperiment.tsx
 app/modules/guild_boosting/GuildBoostingProgressBarActionCreators.tsx
 app/modules/guild_boosting/GuildBoostingProgressBarPersistedStore.tsx
 app/modules/guild_communication_disabled/useCommunicationDisabledNoticeStore.tsx
@@ -491,6 +492,7 @@ app/modules/impersonate/ImpersonateActionCreators.tsx
 app/modules/impersonate/ImpersonateStore.tsx
 app/modules/in_app_notifications/native/InAppNotificationExpandExperiment.tsx
 app/modules/in_app_reports/SafetyExperienceIarUserReportingExperiment.tsx
+app/modules/inbox/RecentMentionsStore.tsx
 app/modules/instant_invite/GuildInviteSendStateStore.tsx
 app/modules/instant_invite/InstantInviteSendStateStore.tsx
 app/modules/interaction_components/InteractionModalStore.tsx
@@ -560,6 +562,7 @@ app/modules/memory/MemoryExperiment.tsx
 app/modules/message_previews/MessagePreviewStore.tsx
 app/modules/message_request/MessageRequestActionCreators.tsx
 app/modules/message_request/MessageRequestPreviewStore.tsx
+app/modules/message_request/MessageRequestPushNotificationExperiment.tsx
 app/modules/message_request/MessageRequestRestrictionExperiment.tsx
 app/modules/message_request/MessageRequestStore.tsx
 app/modules/message_request/SpamMessageRequestStore.tsx
@@ -600,6 +603,8 @@ app/modules/nuf/native/NUFActionCreators.tsx
 app/modules/nuf/native/PostReactionPermissionNudgeExperiment.tsx
 app/modules/nuf/NewUserStore.tsx
 app/modules/nuf/NUFActionCreators.tsx
+app/modules/oauth2/AuthorizedAppsActionCreators.tsx
+app/modules/oauth2/AuthorizedAppsStore.tsx
 app/modules/opt_in_channels/FavoritesSuggestionStore.tsx
 app/modules/opt_in_channels/OptInChannelsActionCreators.tsx
 app/modules/opt_in_channels/RecentlyActiveCollapseStore.tsx
@@ -657,7 +662,6 @@ app/modules/premium/native/NoticeStore.tsx
 app/modules/premium/native/PremiumPlanPurchasedStore.tsx
 app/modules/premium/native/PremiumPlanSelectStore.tsx
 app/modules/premium/OverridePremiumTypeStore.tsx
-app/modules/premium/powerups/experiments/BoostToUnlockCoachmarkExperiment.tsx
 app/modules/premium/powerups/experiments/ExpiringBoostsExperiment.tsx
 app/modules/premium/powerups/experiments/ExpiringPowerupCoachmarkExperiment.tsx
 app/modules/premium/powerups/experiments/FileUpload250MbPowerupExperiment.tsx
@@ -722,7 +726,6 @@ app/modules/quickswitcher/QuickSwitcherStore.tsx
 app/modules/reactions/ReactionActionCreators.tsx
 app/modules/recent_channels/NewChannelsStore.tsx
 app/modules/recent_channels/RecentChannelsActionCreators.tsx
-app/modules/recents/RecentMentionsStore.tsx
 app/modules/regional_feature_config/RegionalFeatureConfigStore.tsx
 app/modules/relationships/GuildFriendshipStore.tsx
 app/modules/replies/PendingReplyActionCreators.tsx
@@ -917,7 +920,6 @@ app/stores/ApplicationStreamingStore.tsx
 app/stores/ApplicationStreamPreviewStore.tsx
 app/stores/AppliedGuildBoostStore.tsx
 app/stores/AuthenticationStore.tsx
-app/stores/AuthorizedAppsStore.tsx
 app/stores/billing/BillingInfoStore.tsx
 app/stores/billing/BraintreeStore.tsx
 app/stores/billing/GuildBoostSlotStore.tsx
