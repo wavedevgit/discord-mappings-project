@@ -73,9 +73,9 @@
     },
     {
         "path": "discord_assets/assets/collectibles/frames/ea/announcement_key_1.png.js",
-        "url": "https://cdn.discordapp.com/assets/content/9686f15252ecb5680ebf6ec2bbadb6b0bfc0930ce66ac6c32806a5b03b06239c.png",
-        "etag": "\"68ba1a97db5c26a5763dcc50fc141e5c\"",
-        "hash": "9686f15252ecb5680ebf6ec2bbadb6b0bfc0930ce66ac6c32806a5b03b06239c"
+        "url": "https://cdn.discordapp.com/assets/content/ff11bf0b8a3268f05729829ced60caef13c95f175a53980f543212059e5af3f7.png",
+        "etag": "\"21eb259f0b7b461950d87681bb698202\"",
+        "hash": "ff11bf0b8a3268f05729829ced60caef13c95f175a53980f543212059e5af3f7"
     },
     {
         "path": "discord_assets/assets/collectibles/previews/sample_profile_small-2x.png.js",
@@ -2592,6 +2592,12 @@
         "hash": "9e7150ad029fe7b249f572738a385935ffd02f3b809b9244ce0b166ca82d3ee7"
     },
     {
+        "path": "discord_assets/assets/mana/asset-library/generated/TypingIndicatorAbstractUI-2x.png.js",
+        "url": "https://cdn.discordapp.com/assets/content/10df878519d712909e96e5a5ccd7cdb72d822a0940950b34a27c9b2289f9c4c3.png",
+        "etag": "\"444fb63adaf06b71a0b8f7df0038242e\"",
+        "hash": "10df878519d712909e96e5a5ccd7cdb72d822a0940950b34a27c9b2289f9c4c3"
+    },
+    {
         "path": "discord_assets/assets/mana/asset-library/generated/VibeWithWumpusSpotIllustration-2x.png.js",
         "url": "https://cdn.discordapp.com/assets/content/ad9857905b3eba73eccbbd1eac5d891fcd7fd0aa6aff90ccc135f0ea4ba9cd32.png",
         "etag": "\"72b8ae4a9f64d54a8972e6655b57663c\"",
@@ -2626,6 +2632,12 @@
         "url": "https://cdn.discordapp.com/assets/content/730c2361a9c4935f4203ac158c71d8928f9f47ed6f3118b12d0815e6f040d002.png",
         "etag": "\"3d08e07dc2b2a163c2b4c0a2d6a6e1d7\"",
         "hash": "730c2361a9c4935f4203ac158c71d8928f9f47ed6f3118b12d0815e6f040d002"
+    },
+    {
+        "path": "discord_assets/assets/mana/asset-library/generated/WhiteboardAbstractUI-2x.png.js",
+        "url": "https://cdn.discordapp.com/assets/content/deb7afe0dfe72e02122421fd90acce754c25c0797cc7e061e75ca4c4aabd60af.png",
+        "etag": "\"fece133801a8f7e670179b22de6059ff\"",
+        "hash": "deb7afe0dfe72e02122421fd90acce754c25c0797cc7e061e75ca4c4aabd60af"
     },
     {
         "path": "discord_assets/assets/mana/asset-library/generated/WiltedFlowerIllocon-2x.png.js",
@@ -3145,14 +3157,14 @@
     },
     {
         "path": "app/src/main/assets/index.android.bundle",
-        "hash": "adc4db6906514a32594dbb07c335cb38"
+        "hash": "bbd63619989b112c0b7e52bc06a512ee"
     },
     {
-        "path": "app/src/main/res/drawable-hdpi/_node_modules_pnpm_reactnavigationelements1330_gkehte5b7wivjpgqkir354c4ka_node_modules_reactnavigation_elements_src_assets_backicon.png",
+        "path": "app/src/main/res/drawable-hdpi/_node_modules_pnpm_reactnavigationelements1330_pai5gyheycjh643xsf3bglag4a_node_modules_reactnavigation_elements_src_assets_backicon.png",
         "hash": "376d6a4c7f622917c39feb23671ef71d"
     },
     {
-        "path": "app/src/main/res/drawable-hdpi/_node_modules_pnpm_reactnavigationelements1331_gkehte5b7wivjpgqkir354c4ka_node_modules_reactnavigation_elements_src_assets_backicon.png",
+        "path": "app/src/main/res/drawable-hdpi/_node_modules_pnpm_reactnavigationelements1331_pai5gyheycjh643xsf3bglag4a_node_modules_reactnavigation_elements_src_assets_backicon.png",
         "hash": "376d6a4c7f622917c39feb23671ef71d"
     },
     {
@@ -3280,19 +3292,19 @@
         "hash": "4db0790f7a81e49025d7fbfb9aeb182c"
     },
     {
-        "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements1330_gkehte5b7wivjpgqkir354c4ka_node_modules_reactnavigation_elements_src_assets_backicon.png",
+        "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements1330_pai5gyheycjh643xsf3bglag4a_node_modules_reactnavigation_elements_src_assets_backicon.png",
         "hash": "778ffc9fe8773a878e9c30a6304784de"
     },
     {
-        "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements1330_gkehte5b7wivjpgqkir354c4ka_node_modules_reactnavigation_elements_src_assets_backiconmask.png",
+        "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements1330_pai5gyheycjh643xsf3bglag4a_node_modules_reactnavigation_elements_src_assets_backiconmask.png",
         "hash": "5223c8d9b0d08b82a5670fb5f71faf78"
     },
     {
-        "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements1331_gkehte5b7wivjpgqkir354c4ka_node_modules_reactnavigation_elements_src_assets_backicon.png",
+        "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements1331_pai5gyheycjh643xsf3bglag4a_node_modules_reactnavigation_elements_src_assets_backicon.png",
         "hash": "778ffc9fe8773a878e9c30a6304784de"
     },
     {
-        "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements1331_gkehte5b7wivjpgqkir354c4ka_node_modules_reactnavigation_elements_src_assets_backiconmask.png",
+        "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements1331_pai5gyheycjh643xsf3bglag4a_node_modules_reactnavigation_elements_src_assets_backiconmask.png",
         "hash": "5223c8d9b0d08b82a5670fb5f71faf78"
     },
     {
@@ -4540,11 +4552,11 @@
         "hash": "5985a032ce7867df6bb6e8414710271c"
     },
     {
-        "path": "app/src/main/res/drawable-xhdpi/_node_modules_pnpm_reactnavigationelements1330_gkehte5b7wivjpgqkir354c4ka_node_modules_reactnavigation_elements_src_assets_backicon.png",
+        "path": "app/src/main/res/drawable-xhdpi/_node_modules_pnpm_reactnavigationelements1330_pai5gyheycjh643xsf3bglag4a_node_modules_reactnavigation_elements_src_assets_backicon.png",
         "hash": "c79c3606a1cf168006ad3979763c7e0c"
     },
     {
-        "path": "app/src/main/res/drawable-xhdpi/_node_modules_pnpm_reactnavigationelements1331_gkehte5b7wivjpgqkir354c4ka_node_modules_reactnavigation_elements_src_assets_backicon.png",
+        "path": "app/src/main/res/drawable-xhdpi/_node_modules_pnpm_reactnavigationelements1331_pai5gyheycjh643xsf3bglag4a_node_modules_reactnavigation_elements_src_assets_backicon.png",
         "hash": "c79c3606a1cf168006ad3979763c7e0c"
     },
     {
@@ -9020,11 +9032,11 @@
         "hash": "03db945049f9f25f8e27a20efa89ef14"
     },
     {
-        "path": "app/src/main/res/drawable-xxhdpi/_node_modules_pnpm_reactnavigationelements1330_gkehte5b7wivjpgqkir354c4ka_node_modules_reactnavigation_elements_src_assets_backicon.png",
+        "path": "app/src/main/res/drawable-xxhdpi/_node_modules_pnpm_reactnavigationelements1330_pai5gyheycjh643xsf3bglag4a_node_modules_reactnavigation_elements_src_assets_backicon.png",
         "hash": "02bc1fa7c0313217bde2d65ccbff40c9"
     },
     {
-        "path": "app/src/main/res/drawable-xxhdpi/_node_modules_pnpm_reactnavigationelements1331_gkehte5b7wivjpgqkir354c4ka_node_modules_reactnavigation_elements_src_assets_backicon.png",
+        "path": "app/src/main/res/drawable-xxhdpi/_node_modules_pnpm_reactnavigationelements1331_pai5gyheycjh643xsf3bglag4a_node_modules_reactnavigation_elements_src_assets_backicon.png",
         "hash": "02bc1fa7c0313217bde2d65ccbff40c9"
     },
     {
@@ -13500,11 +13512,11 @@
         "hash": "6b5164e859883ef60ddddebd4532684a"
     },
     {
-        "path": "app/src/main/res/drawable-xxxhdpi/_node_modules_pnpm_reactnavigationelements1330_gkehte5b7wivjpgqkir354c4ka_node_modules_reactnavigation_elements_src_assets_backicon.png",
+        "path": "app/src/main/res/drawable-xxxhdpi/_node_modules_pnpm_reactnavigationelements1330_pai5gyheycjh643xsf3bglag4a_node_modules_reactnavigation_elements_src_assets_backicon.png",
         "hash": "35ba0eaec5a4f5ed12ca16fabeae451d"
     },
     {
-        "path": "app/src/main/res/drawable-xxxhdpi/_node_modules_pnpm_reactnavigationelements1331_gkehte5b7wivjpgqkir354c4ka_node_modules_reactnavigation_elements_src_assets_backicon.png",
+        "path": "app/src/main/res/drawable-xxxhdpi/_node_modules_pnpm_reactnavigationelements1331_pai5gyheycjh643xsf3bglag4a_node_modules_reactnavigation_elements_src_assets_backicon.png",
         "hash": "35ba0eaec5a4f5ed12ca16fabeae451d"
     },
     {
@@ -18577,7 +18589,7 @@
     },
     {
         "path": "app/src/main/res/raw/design_intl_manacompiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
+        "hash": "1f8df4d273fe2ea595063696394c23cc"
     },
     {
         "path": "app/src/main/res/raw/images_platforms_img_account_sync_battlenet_light_and_dark.svg",
@@ -18825,7 +18837,7 @@
     },
     {
         "path": "app/src/main/res/raw/intl_messages_enuscompiledmessages.jsona",
-        "hash": "4f71f378317f0532c2d103f3b25bef6f"
+        "hash": "3d07b2028b112562a8b2dc864f417f52"
     },
     {
         "path": "app/src/main/res/raw/intl_messages_internationalcompiledmessages.jsona",
@@ -18837,7 +18849,7 @@
     },
     {
         "path": "app/src/main/res/raw/keep.xml",
-        "hash": "0d7ef0dbfb292dfb0a4dc88fbeea2a82"
+        "hash": "5a42375148125a2702f7e468b0f5855a"
     },
     {
         "path": "app/src/main/res/raw/modules_activity_privacy_activityprivacycompiledmessages.jsona",

@@ -959,12 +959,14 @@ app/design/components/mana-assets/native/generated/TrafficConeSpotIllustration.t
 app/design/components/mana-assets/native/generated/TreasureChestBannerSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/TreasureChestSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/TrophyIllocon.tsx
+app/design/components/mana-assets/native/generated/TypingIndicatorAbstractUI.tsx
 app/design/components/mana-assets/native/generated/VibeWithWumpusSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/VideoCameraSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/VoiceFiltersSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/WasdSpotIllustration.tsx
 app/design/components/mana-assets/native/generated/WaterIllocon.tsx
 app/design/components/mana-assets/native/generated/WateringCanSpotIllustration.tsx
+app/design/components/mana-assets/native/generated/WhiteboardAbstractUI.tsx
 app/design/components/mana-assets/native/generated/WiltedFlowerIllocon.tsx
 app/design/components/mana-assets/native/generated/WindIllocon.tsx
 app/design/components/mana-assets/native/generated/WizardHatAndBookSpotIllustration.tsx
@@ -2112,6 +2114,7 @@ app/modules/chat_input/native/action_buttons/ChatInputRightActions.tsx
 app/modules/chat_input/native/action_buttons/useChatInputFloatingBounce.tsx
 app/modules/chat_input/native/action_buttons/useChatInputFloatingWidth.tsx
 app/modules/chat_input/native/ApplicationCommandOptionValueParser.tsx
+app/modules/chat_input/native/ChatFloatingNavButton.tsx
 app/modules/chat_input/native/ChatInput.tsx
 app/modules/chat_input/native/ChatInputAppCommandManager.tsx
 app/modules/chat_input/native/ChatInputCommandOptionParser.tsx
@@ -4594,8 +4597,8 @@ app/modules/main_tabs_v2/native/tabs/you/YouAccountActionSheet.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouBannerDecorations.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouConstants.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouExpiringTrialOfferCard.tsx
-app/modules/main_tabs_v2/native/tabs/you/YouNavigator.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouScreen.tsx
+app/modules/main_tabs_v2/native/tabs/you/YouScreenContainer.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouScreenNavIcon.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouScreenNavIconNitroSubscriber.tsx
 app/modules/main_tabs_v2/native/tabs/you/YouSettingsCoachmark.tsx
@@ -4882,6 +4885,7 @@ app/modules/messages/native/handlers/handleMessagesTapLink.tsx
 app/modules/messages/native/hooks/useChannelLoading.tsx
 app/modules/messages/native/hooks/useRowManager.tsx
 app/modules/messages/native/hooks/useScrollHandlers.tsx
+app/modules/messages/native/jumpToReferencedMessage.tsx
 app/modules/messages/native/long_press/LongPressMessageActionSheet.tsx
 app/modules/messages/native/long_press/LongPressMessageActionSheetUtils.tsx
 app/modules/messages/native/long_press/LongPressMessageChatItemPreview.tsx
@@ -4895,6 +4899,7 @@ app/modules/messages/native/MessagesHandlers.tsx
 app/modules/messages/native/MessagesHooks.tsx
 app/modules/messages/native/MessagesRenderer.tsx
 app/modules/messages/native/MessagesUtils.tsx
+app/modules/messages/native/openPinnedMessages.tsx
 app/modules/messages/native/renderer/ChatManager.tsx
 app/modules/messages/native/renderer/createMessageContent.tsx
 app/modules/messages/native/renderer/createMessageFailedEmbed.tsx
@@ -8380,12 +8385,14 @@ discord_assets/assets/mana/asset-library/generated/TrafficConeSpotIllustration-2
 discord_assets/assets/mana/asset-library/generated/TreasureChestBannerSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/TreasureChestSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/TrophyIllocon-2x.png.js
+discord_assets/assets/mana/asset-library/generated/TypingIndicatorAbstractUI-2x.png.js
 discord_assets/assets/mana/asset-library/generated/VibeWithWumpusSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/VideoCameraSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/VoiceFiltersSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/WasdSpotIllustration-2x.png.js
 discord_assets/assets/mana/asset-library/generated/WaterIllocon-2x.png.js
 discord_assets/assets/mana/asset-library/generated/WateringCanSpotIllustration-2x.png.js
+discord_assets/assets/mana/asset-library/generated/WhiteboardAbstractUI-2x.png.js
 discord_assets/assets/mana/asset-library/generated/WiltedFlowerIllocon-2x.png.js
 discord_assets/assets/mana/asset-library/generated/WindIllocon-2x.png.js
 discord_assets/assets/mana/asset-library/generated/WizardHatAndBookSpotIllustration-2x.png.js
