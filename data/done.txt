@@ -116,6 +116,7 @@ app/modules/age_assurance/AgeVerificationStore.tsx
 app/modules/age_assurance/AgeVerificationURLActionCreators.tsx
 app/modules/age_assurance/GoogleWalletExperiment.tsx
 app/modules/age_assurance/HideManualAgeVerificationExperiment.tsx
+app/modules/age_assurance/native/NativeAppStoreAgeSignalsExperiment.tsx
 app/modules/age_assurance/native/ParentalConsentExperiment.tsx
 app/modules/age_assurance/ReactiveCheckActionCreators.tsx
 app/modules/age_gate/AgeGateActionCreators.tsx

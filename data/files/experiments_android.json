@@ -56,6 +56,12 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/age_assurance/native/NativeAppStoreAgeSignalsExperiment.tsx",
+        "kind": "user",
+        "id": "2026-07-native-app-store-age-signals",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/age_assurance/native/ParentalConsentExperiment.tsx",
         "kind": "user",
         "id": "2026-01-age-and-parental-consent-check",

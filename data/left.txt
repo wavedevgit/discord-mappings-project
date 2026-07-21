@@ -1541,8 +1541,10 @@ app/modules/age_assurance/native/AgeVerificationModal.tsx
 app/modules/age_assurance/native/AgeVerificationQuestUnsupportedAlertModal.tsx
 app/modules/age_assurance/native/AgeVerificationRetryScreen.tsx
 app/modules/age_assurance/native/AgeVerificationWebViewScreen.tsx
+app/modules/age_assurance/native/AppStoreAgeAssurance.android.tsx
 app/modules/age_assurance/native/GoogleWalletVerificationScreen.tsx
 app/modules/age_assurance/native/ParentalConsentManager.tsx
+app/modules/age_assurance/native/PlayAgeSignals.tsx
 app/modules/age_gate/AgeGateConstants.tsx
 app/modules/age_gate/AgeGateUtils.tsx
 app/modules/age_gate/getPreviousSafeRouteForNsfwReturn.tsx
@@ -2429,6 +2431,7 @@ app/modules/collectibles/records/FeaturedCategorySubblockRecord.tsx
 app/modules/collectibles/records/FeedBlockRecord.tsx
 app/modules/collectibles/records/FramesBannerBlockRecord.tsx
 app/modules/collectibles/records/FramesProductShelfBlockRecord.tsx
+app/modules/collectibles/records/GameServerHostingBannerBlockRecord.tsx
 app/modules/collectibles/records/HeroBlockRecord.tsx
 app/modules/collectibles/records/ImmersiveBannerBlockRecord.tsx
 app/modules/collectibles/records/NameplateRecord.tsx
@@ -4648,7 +4651,6 @@ app/modules/markup/MarkupRulesUtils.tsx
 app/modules/markup/MarkupSubtextRule.tsx
 app/modules/markup/MarkupTextRule.tsx
 app/modules/markup/MarkupTypes.tsx
-app/modules/markup/MarkupTypesDefaultRules.tsx
 app/modules/markup/MarkupUtils.tsx
 app/modules/markup/native/MarkupInlineChannelMentionRules.tsx
 app/modules/markup/native/MarkupMessagePreviewReactRules.tsx
@@ -5527,6 +5529,7 @@ app/modules/premium/native/hooks/useDiscountedPremiumProductInfo.tsx
 app/modules/premium/native/hooks/useIsEligibleForBogoOffer.android.tsx
 app/modules/premium/native/hooks/usePremiumPlanPrice.tsx
 app/modules/premium/native/hooks/usePremiumProductPricingString.tsx
+app/modules/premium/native/hooks/usePremiumTier2DeltaPriceString.tsx
 app/modules/premium/native/hooks/useSelectPremiumGift.tsx
 app/modules/premium/native/IAPManager.android.tsx
 app/modules/premium/native/launchPremiumPlanSelect.tsx
@@ -5645,6 +5648,7 @@ app/modules/premium/powerups/native/hooks/useGuildPowerupsCoachmark.tsx
 app/modules/premium/powerups/native/hooks/usePowerupGroupConfig.tsx
 app/modules/premium/powerups/native/hooks/useShowGuildPowerupRollbackSheet.tsx
 app/modules/premium/powerups/native/images/BoostGem.tsx
+app/modules/premium/powerups/native/images/BoostGemPixel.tsx
 app/modules/premium/powerups/native/RoleGradientPickerActionSheet.tsx
 app/modules/premium/powerups/native/utils/openGuildPowerupRollbackSheet.tsx
 app/modules/premium/powerups/native/utils/openGuildPowerupsBottomSheet.tsx
@@ -5835,6 +5839,7 @@ app/modules/quests/native/BountiesModal/BountiesScrollPromptNuxFooter.tsx
 app/modules/quests/native/BountiesModal/BountiesScrollRecapFooter.tsx
 app/modules/quests/native/BountiesModal/BountiesScrollRecapPage.tsx
 app/modules/quests/native/BountiesModal/BountiesScrollVideoItem.tsx
+app/modules/quests/native/BountiesModal/bountiesSoftCapPreload.tsx
 app/modules/quests/native/BountiesModal/bountiesSwipeUpNuxDevTools.tsx
 app/modules/quests/native/BountiesModal/BountyConstants.tsx
 app/modules/quests/native/BountiesModal/BountyCtaHelpers.tsx
@@ -7601,6 +7606,7 @@ app/modules/voice_panel/native/alerts/VoicePanelMaxCapacityAlert.tsx
 app/modules/voice_panel/native/alerts/VoicePanelNoJoinPermissionsAlert.tsx
 app/modules/voice_panel/native/alerts/VoicePanelNoVideoPermissionsAlert.tsx
 app/modules/voice_panel/native/alerts/VoicePanelNsfwAlert.tsx
+app/modules/voice_panel/native/card/ActivityAccessibilityLayer.tsx
 app/modules/voice_panel/native/card/DominantColorUtils.tsx
 app/modules/voice_panel/native/card/VoicePanelAnimatedActivityCard.tsx
 app/modules/voice_panel/native/card/VoicePanelCard.tsx
@@ -8718,6 +8724,7 @@ discord_common/js/packages/rtn-codegen/js/NativeMetricMonitorModule.tsx
 discord_common/js/packages/rtn-codegen/js/NativeMobileVoiceOverlayModule.tsx
 discord_common/js/packages/rtn-codegen/js/NativeNotifSettingsModule.tsx
 discord_common/js/packages/rtn-codegen/js/NativeOnDemandResourceModule.tsx
+discord_common/js/packages/rtn-codegen/js/NativePlayAgeSignalsModule.tsx
 discord_common/js/packages/rtn-codegen/js/NativePortalFromNativeModule.tsx
 discord_common/js/packages/rtn-codegen/js/NativeProximitySensorManagerModule.tsx
 discord_common/js/packages/rtn-codegen/js/NativePushNotificationMonitorModule.tsx
