@@ -1276,7 +1276,7 @@
     {
         "path": "app/modules/user_settings/UserSettingsRedesignExperiment.tsx",
         "kind": "user",
-        "id": "2026-04-user-settings-redesign-4c",
+        "id": "2026-05-user-settings-redesign-4d",
         "keyRequired": "variations"
     },
     {
@@ -1332,6 +1332,12 @@
         "kind": "guild",
         "id": "2026-04_voice_call_trigger_point",
         "keyRequired": "treatments"
+    },
+    {
+        "path": "app/modules/voice_panel/SpatialAudioForVoiceExperiment.tsx",
+        "kind": "user",
+        "id": "2026-05-spatial-audio-for-voice",
+        "keyRequired": "variations"
     },
     {
         "path": "app/modules/wishlists/experiments/MobileWishlistSuggestionsExperiment.tsx",

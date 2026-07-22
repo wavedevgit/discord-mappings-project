@@ -207,7 +207,7 @@
 {"find_with":["user","2026-03-private-profiles-strict","variations"],"paths":["app/modules/user_profile/PrivateProfilesStrictExperiment.tsx"]}
 {"find_with":["user","2026-03-private-profiles-strict-gb","variations"],"paths":["app/modules/user_profile/PrivateProfilesStrictGbExperiment.tsx"]}
 {"find_with":["user","2026-07-nitro-floating-subscribe","variations"],"paths":["app/modules/user_settings/premium/native/PremiumMarketingFloatingSubscribeExperiment.tsx"]}
-{"find_with":["user","2026-04-user-settings-redesign-4c","variations"],"paths":["app/modules/user_settings/UserSettingsRedesignExperiment.tsx"]}
+{"find_with":["user","2026-05-user-settings-redesign-4d","variations"],"paths":["app/modules/user_settings/UserSettingsRedesignExperiment.tsx"]}
 {"find_with":["user","2026-03-surface-direct-renderer","variations"],"paths":["app/modules/video_calls/native/SurfaceDirectRendererExperiment.tsx"]}
 {"find_with":["user","2025-09-video-qoe-metrics-tracking","variations"],"paths":["app/modules/video-qoe/experiments/VideoQoEMetricsExperiment.tsx"]}
 {"find_with":["user","2025-12-orb-redemption-thru-orders","variations"],"paths":["app/modules/virtual_currency/experiments/OrbRedemptionOrdersExperiment.tsx"]}
@@ -217,5 +217,6 @@
 {"find_with":["guild","2026-02_past_vc_activity_messages","treatments"],"paths":["app/modules/voice_calls/PastVcActivityMessagesExperiment.tsx"]}
 {"find_with":["user","2025-12-09-ptt-education","variations"],"paths":["app/modules/voice_calls/PTTEducationExperiment.tsx"]}
 {"find_with":["guild","2026-04_voice_call_trigger_point","treatments"],"paths":["app/modules/voice_calls/VoiceCallTriggerPointExperiment.tsx"]}
+{"find_with":["user","2026-05-spatial-audio-for-voice","variations"],"paths":["app/modules/voice_panel/SpatialAudioForVoiceExperiment.tsx"]}
 {"find_with":["user","2026-07-smag-mobile-wishlist-suggestions","variations"],"paths":["app/modules/wishlists/experiments/MobileWishlistSuggestionsExperiment.tsx"]}
 {"find_with":["user","2026-03-wishlisting-nitro","variations"],"paths":["app/modules/wishlists/experiments/WishlistingNitroExperiment.tsx"]}

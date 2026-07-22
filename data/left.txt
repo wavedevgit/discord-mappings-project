@@ -84,6 +84,7 @@ app/components_native/premium/GiftCodeRow.tsx
 app/components_native/premium/GiftPurchaseButton.tsx
 app/components_native/premium/GuildBoostingGuildList.tsx
 app/components_native/premium/GuildBoostingUpsell.tsx
+app/components_native/premium/openPremiumModal.tsx
 app/components_native/premium/OutboundPromotionCard.tsx
 app/components_native/premium/OutboundPromotionClaimAlert.tsx
 app/components_native/premium/premium_guild_subscribe_modal/PremiumGuildPreview.tsx
@@ -397,6 +398,7 @@ app/design/components/Icon/native/redesign/generated/PollsIcon.tsx
 app/design/components/Icon/native/redesign/generated/PuzzlePieceIcon.tsx
 app/design/components/Icon/native/redesign/generated/QrCodeIcon.tsx
 app/design/components/Icon/native/redesign/generated/QuestsIcon.tsx
+app/design/components/Icon/native/redesign/generated/QuoteIcon.tsx
 app/design/components/Icon/native/redesign/generated/ReactionIcon.tsx
 app/design/components/Icon/native/redesign/generated/RecordPlayerIcon.tsx
 app/design/components/Icon/native/redesign/generated/RedditNeutralIcon.tsx
@@ -3116,6 +3118,7 @@ app/modules/game_detection/native/GameIcon.tsx
 app/modules/game_detection/RunningGameStore.tsx
 app/modules/game_invite_channels/GameInviteChannels.messages.js
 app/modules/game_invite_channels/GameInvitesChannelUtils.tsx
+app/modules/game_mentions/getGameMentionsAutocompleteConfig.tsx
 app/modules/game_mentions/hooks/useGameMentionsAsPlainText.tsx
 app/modules/game_profile/AnnouncementMessageUtils.tsx
 app/modules/game_profile/GameProfileActionCreators.tsx
@@ -4204,6 +4207,7 @@ app/modules/in_app_reports/native/components/InAppReportsTextElement.tsx
 app/modules/in_app_reports/native/components/InAppReportsTextLineElement.tsx
 app/modules/in_app_reports/native/components/InAppReportsUpsellsTableRow.tsx
 app/modules/in_app_reports/native/components/InAppReportsUserPreview.tsx
+app/modules/in_app_reports/native/components/InAppReportsWidgetPreviewElement.tsx
 app/modules/in_app_reports/native/components/NodeView.tsx
 app/modules/in_app_reports/ReportModals.tsx
 app/modules/in_app_reports/ReportUtils.tsx
@@ -6490,6 +6494,7 @@ app/modules/soundplayer/SoundPlayer.tsx
 app/modules/soundplayer/SoundPlayerContext.tsx
 app/modules/spatial_audio/SpatialAudio.messages.js
 app/modules/spatial_audio/SpatialAudioConstants.tsx
+app/modules/spatial_audio/useIsSpatialAudioAvailable.tsx
 app/modules/spoiler_channels/maybeOpenSpoilerGateForVoiceChannel.tsx
 app/modules/spoiler_channels/native/ChannelSpoiler.tsx
 app/modules/spoiler_channels/native/VoicePanelSpoilerAlert.tsx
@@ -6856,6 +6861,7 @@ app/modules/user_profile/native/UserProfileUpsellButton.tsx
 app/modules/user_profile/native/UserProfileUpsellCard.tsx
 app/modules/user_profile/native/UserProfileVoiceActivityIcon.tsx
 app/modules/user_profile/native/UserProfileVoiceSettings.tsx
+app/modules/user_profile/native/UserProfileWidgetReportButton.tsx
 app/modules/user_profile/native/UserProfileWidgetsBoard.tsx
 app/modules/user_profile/native/UserProfileWishlistGrid.tsx
 app/modules/user_profile/native/UserProfileWishlistSuggestionsGrid.tsx
@@ -7158,6 +7164,7 @@ app/modules/user_settings/defs/native/FriendRequestsMutualFriendsSetting.tsx
 app/modules/user_settings/defs/native/FriendRequestsMutualGuildsSetting.tsx
 app/modules/user_settings/defs/native/FriendRequestsNotesSetting.tsx
 app/modules/user_settings/defs/native/FriendStreamNotificationsSetting.tsx
+app/modules/user_settings/defs/native/GameMentionsAutocompleteSetting.tsx
 app/modules/user_settings/defs/native/GoreMediaFiltersFriendsDMsSetting.tsx
 app/modules/user_settings/defs/native/GoreMediaFiltersGuildsSetting.tsx
 app/modules/user_settings/defs/native/GoreMediaFiltersNonFriendsDMsSetting.tsx

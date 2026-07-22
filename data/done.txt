@@ -902,6 +902,7 @@ app/modules/voice_channel_effects/VoiceChannelEffectsStore.tsx
 app/modules/voice_messages/native/VoiceMessagesUIStore.tsx
 app/modules/voice_overlay/native/MobileVoiceOverlayActionCreators.tsx
 app/modules/voice_panel/native/header/VoicePanelSettingsActionCreators.tsx
+app/modules/voice_panel/SpatialAudioForVoiceExperiment.tsx
 app/modules/voice_panel/VoicePanelStore.tsx
 app/modules/webauthn/native/PasskeyUpsellActionCreators.tsx
 app/modules/webauthn/WebAuthnActionCreators.tsx

@@ -507,6 +507,7 @@
 {"id":"357758.js","paths":["../discord_common/js/shared/utils/SetUtils.tsx"]}
 {"id":"358717.js","paths":["assets/images/platforms/img_roblox_dark.png","assets/images/platforms/img_roblox_white.png","discord_app/src/main/res/drawable-mdpi/images_platforms_img_roblox_dark.png","discord_app/src/main/res/drawable-mdpi/images_platforms_img_roblox_white.png"]}
 {"id":"358717.js","paths":["assets/images/platforms/img_roblox_dark.png","assets/images/platforms/img_roblox_white.png","discord_app/src/main/res/drawable-mdpi/images_platforms_img_roblox_dark.png","discord_app/src/main/res/drawable-mdpi/images_platforms_img_roblox_white.png"]}
+{"id":"358776.js","paths":["discord_app/modules/user_settings/UserSettingsRedesignExperiment.tsx"]}
 {"id":"35903.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"360469.js","paths":["../discord_common/js/shared/shared-constants/ApplicationCollectionPlatforms.tsx"]}
 {"id":"360469.js","paths":["../discord_common/js/shared/shared-constants/CollectiblesMarketingPlatform.tsx"]}
@@ -791,7 +792,7 @@
 {"id":"475808.js","paths":["assets/images/platforms/img_domain_light.svg","discord_app/src/main/res/raw/images_platforms_img_domain_light.svg"]}
 {"id":"475902.js","paths":["../discord_common/js/shared/shared-constants/AudioSettingsDefaultVolumes.tsx"]}
 {"id":"475902.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
-{"id":"476324.js","paths":["assets/images/avatar_placeholder.png","discord_app/src/main/res/drawable-mdpi/images_avatar_placeholder.png"]}
+{"id":"476324.js","paths":["assets/images/avatar_placeholder.png"]}
 {"id":"47675.js","paths":["discord_app/modules/user_profile/experiments/UserProfilePerformanceAnalyticsExperiment.tsx"]}
 {"id":"47675.js","paths":["../discord_common/js/shared/shared-constants/AudioSettingsDefaultVolumes.tsx"]}
 {"id":"477156.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
@@ -1527,6 +1528,7 @@
 {"id":"798286.js","paths":["../discord_common/js/shared/shared-constants/AudioSettingsDefaultVolumes.tsx"]}
 {"id":"800007.js","paths":["../discord_common/js/shared/shared-constants/GameServerProviderType.tsx"]}
 {"id":"800342.js","paths":["discord_app/actions/StoreListingActionCreators.tsx"]}
+{"id":"800396.js","paths":["discord_app/modules/voice_panel/SpatialAudioForVoiceExperiment.tsx"]}
 {"id":"801294.js","paths":["assets/images/platforms/img_account_sync_league_of_legends_white.png","discord_app/src/main/res/drawable-mdpi/images_platforms_img_account_sync_league_of_legends_white.png"]}
 {"id":"801365.js","paths":["../discord_common/js/shared/shared-constants/QuestRewardAssignmentMethods.tsx"]}
 {"id":"801365.js","paths":["../discord_common/js/shared/shared-constants/QuestRewardExpirationMode.tsx"]}
