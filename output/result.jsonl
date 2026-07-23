@@ -103,6 +103,7 @@
 {"id":"149741.js","paths":["../discord_common/js/shared/shared-constants/ClanGameplayActivity.tsx"]}
 {"id":"149741.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"151199.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
+{"id":"151240.js","paths":["../discord_common/js/shared/shared-constants/RewardProgram.tsx"]}
 {"id":"152472.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"152962.js","paths":["assets/images/platforms/img_roblox_dark.svg","assets/images/platforms/img_roblox_white.svg","discord_app/src/main/res/raw/images_platforms_img_roblox_dark.svg","discord_app/src/main/res/raw/images_platforms_img_roblox_white.svg"]}
 {"id":"152962.js","paths":["assets/images/platforms/img_roblox_dark.svg","assets/images/platforms/img_roblox_white.svg","discord_app/src/main/res/raw/images_platforms_img_roblox_dark.svg","discord_app/src/main/res/raw/images_platforms_img_roblox_white.svg"]}
@@ -1389,6 +1390,7 @@
 {"id":"737567.js","paths":["discord_app/modules/age_assurance/HideManualAgeVerificationExperiment.tsx"]}
 {"id":"737952.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"73825.js","paths":["discord_app/actions/SubscriptionPlanActionCreators.tsx"]}
+{"id":"738566.js","paths":["discord_app/modules/voice_panel/SpatialAudioForVoiceExperiment.tsx"]}
 {"id":"741961.js","paths":["discord_app/actions/TypingActionCreators.tsx"]}
 {"id":"742424.js","paths":["../discord_common/js/shared/shared-constants/ApplicationCollectionPlatforms.tsx"]}
 {"id":"742424.js","paths":["../discord_common/js/shared/shared-constants/AudioSettingsDefaultVolumes.tsx"]}
@@ -1533,7 +1535,6 @@
 {"id":"798286.js","paths":["../discord_common/js/shared/shared-constants/AudioSettingsDefaultVolumes.tsx"]}
 {"id":"800007.js","paths":["../discord_common/js/shared/shared-constants/GameServerProviderType.tsx"]}
 {"id":"800342.js","paths":["discord_app/actions/StoreListingActionCreators.tsx"]}
-{"id":"800396.js","paths":["discord_app/modules/voice_panel/SpatialAudioForVoiceExperiment.tsx"]}
 {"id":"801294.js","paths":["assets/images/platforms/img_account_sync_league_of_legends_white.png","discord_app/src/main/res/drawable-mdpi/images_platforms_img_account_sync_league_of_legends_white.png"]}
 {"id":"801365.js","paths":["../discord_common/js/shared/shared-constants/QuestRewardAssignmentMethods.tsx"]}
 {"id":"801365.js","paths":["../discord_common/js/shared/shared-constants/QuestRewardExpirationMode.tsx"]}
