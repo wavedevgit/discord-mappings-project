@@ -39,6 +39,7 @@
 {"find_with":["user","2026-03-collectibles-profile-frames","variations"],"paths":["app/modules/collectibles/experiments/CollectiblesProfileFramesExperiment.tsx"]}
 {"find_with":["user","2026-04-collectibles-profile-frames-purchase","variations"],"paths":["app/modules/collectibles/experiments/CollectiblesProfileFramesPurchaseExperiment.tsx"]}
 {"find_with":["user","2026-04-shop-card-impression-mobile","variations"],"paths":["app/modules/collectibles/experiments/CollectiblesShopCardImpressionMobileExperiment.tsx"]}
+{"find_with":["user","2026-04-one-day-fractional-nitro","variations"],"paths":["app/modules/collectibles/experiments/OneDayFractionalNitroExperiment.tsx"]}
 {"find_with":["guild","2026-04_application_identity_linked_roles","treatments"],"paths":["app/modules/connections/experiments/ApplicationIdentityLinkedRolesExperiment.tsx"]}
 {"find_with":["user","2026-03-crepe","variations"],"paths":["app/modules/croissant/crepe/CrepeExperiment.tsx"]}
 {"find_with":["user","2026-05-mana-type-consolidation","variations"],"paths":["app/modules/design/ManaTypeConsolidationExperiment.tsx"]}
@@ -70,6 +71,7 @@
 {"find_with":["user","2026-02-pubsub-bulk-ban-users","variations"],"paths":["app/modules/guild_mod_dash_member_safety/web/BulkBanPubSubExperiment.tsx"]}
 {"find_with":["guild","2026-06_guild_rooms","treatments"],"paths":["app/modules/guild_rooms/GuildRoomsExperiment.tsx"]}
 {"find_with":["user","2026-06-mobile-server-tag","variations"],"paths":["app/modules/guild_settings/MobileServerTagExperiment.tsx"]}
+{"find_with":["guild","2026-06_guild_spaces","treatments"],"paths":["app/modules/guild_space/GuildSpaceExperiment.tsx"]}
 {"find_with":["user","2025-11_tida_webform","treatments"],"paths":["app/modules/guild/TidaWebformExperiment.tsx"]}
 {"find_with":["user","2026-06-dont-badge-muted-vcs","variations"],"paths":["app/modules/guilds_bar/DontBadgeMutedVcsExperiment.tsx"]}
 {"find_with":["guild","2026-02_hangout_window","treatments"],"paths":["app/modules/hangout_window/HangoutWindowExperiment.tsx"]}
@@ -147,6 +149,7 @@
 {"find_with":["user","2026-03-denormalized-perks-access-read","variations"],"paths":["app/modules/premium/experiments/DenormalizedPerksReadExperiment.tsx"]}
 {"find_with":["user","2026-06-friendship-anniversary-backend-persistence","variations"],"paths":["app/modules/premium/experiments/FriendshipAnniversaryBackendPersistenceExperiment.tsx"]}
 {"find_with":["user","2026-06-macaron","variations"],"paths":["app/modules/premium/experiments/MobileNitroManageSubscriptionsSettingsExperiment.tsx"]}
+{"find_with":["user","2025-12-katsudon","variations"],"paths":["app/modules/premium/experiments/PremiumGroupExperiment.tsx"]}
 {"find_with":["user","2026-02-premium-offer-reminder-xp","variations"],"paths":["app/modules/premium/experiments/PremiumOfferReminderExperiment.tsx"]}
 {"find_with":["user","2025-09-premium-trial-offer-action-sheet-ks","variations"],"paths":["app/modules/premium/experiments/PremiumTrialOfferActionSheetKillSwitchExperiment.tsx"]}
 {"find_with":["user","2026-02-referral-reminder-dc","variations"],"paths":["app/modules/premium/experiments/ReferralReminderDCExperiment.tsx"]}

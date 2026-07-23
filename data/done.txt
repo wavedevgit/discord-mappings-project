@@ -140,6 +140,7 @@ app/modules/application_account_linking/AccountLinkingActionCreators.tsx
 app/modules/application_account_linking/AccountLinkStore.tsx
 app/modules/application_account_linking/experiments/mobileAccountLinkingExperiment.tsx
 app/modules/application_account_linking/experiments/valorantSocialSDKExperiment.tsx
+app/modules/application_assets_v2/ApplicationAssetsV2Store.tsx
 app/modules/application_commands/AgeRestrictedApplicationCommandsExperiment.tsx
 app/modules/application_commands/ApplicationCommandActionCreators.tsx
 app/modules/application_commands/ApplicationCommandAutocompleteStore.tsx
@@ -147,6 +148,7 @@ app/modules/application_commands/ApplicationCommandFrecencyStore.tsx
 app/modules/application_commands/ApplicationCommandIndexActionCreators.tsx
 app/modules/application_commands/ApplicationCommandIndexStore.tsx
 app/modules/application_commands/ApplicationCommandStore.tsx
+app/modules/application_widget/ApplicationWidgetConfigStore.tsx
 app/modules/applications/ApplicationActionCreators.tsx
 app/modules/applications/ApplicationAssetsStore.tsx
 app/modules/applications/ApplicationFrecencyStore.tsx
@@ -225,6 +227,7 @@ app/modules/collectibles/experiments/CollectiblesProfileFramesEAMarketingExperim
 app/modules/collectibles/experiments/CollectiblesProfileFramesExperiment.tsx
 app/modules/collectibles/experiments/CollectiblesProfileFramesPurchaseExperiment.tsx
 app/modules/collectibles/experiments/CollectiblesShopCardImpressionMobileExperiment.tsx
+app/modules/collectibles/experiments/OneDayFractionalNitroExperiment.tsx
 app/modules/collectibles/native/ProductPurchaseSuccessActionCreators.tsx
 app/modules/collectibles/profile_frames/native/tooling/FramePreviewOverrideStore.tsx
 app/modules/connections/ConnectionsRoleActionCreators.tsx
@@ -450,6 +453,7 @@ app/modules/guild_sidebar/ChannelListStore.tsx
 app/modules/guild_sidebar/ChannelListVoiceCategoryStore.tsx
 app/modules/guild_sidebar/SidebarVisibilityMethodStore.tsx
 app/modules/guild_sidebar/VoiceCategoryActionCreators.tsx
+app/modules/guild_space/GuildSpaceExperiment.tsx
 app/modules/guild_tag/GuildTagActionCreators.tsx
 app/modules/guild_templates/AcceptGuildTemplateActionCreators.tsx
 app/modules/guild_templates/GuildTemplateActionCreators.tsx
@@ -641,6 +645,7 @@ app/modules/premium/experiments/BogoPromotionExperiment.tsx
 app/modules/premium/experiments/DenormalizedPerksReadExperiment.tsx
 app/modules/premium/experiments/FriendshipAnniversaryBackendPersistenceExperiment.tsx
 app/modules/premium/experiments/MobileNitroManageSubscriptionsSettingsExperiment.tsx
+app/modules/premium/experiments/PremiumGroupExperiment.tsx
 app/modules/premium/experiments/PremiumOfferReminderExperiment.tsx
 app/modules/premium/experiments/PremiumTrialOfferActionSheetKillSwitchExperiment.tsx
 app/modules/premium/experiments/ReferralReminderDCExperiment.tsx

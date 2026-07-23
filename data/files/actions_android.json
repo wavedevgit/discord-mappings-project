@@ -1369,6 +1369,7 @@
     {
         "path": "app/modules/games/GameActionCreators.tsx",
         "flux_events": [
+            "GAME_FETCH_CANCELLED",
             "GAME_FETCH_SUCCESS",
             "GAME_FETCH_FAILURE",
             "GAME_FETCH"
@@ -1953,7 +1954,9 @@
     {
         "path": "app/modules/oauth2/AuthorizedAppsActionCreators.tsx",
         "flux_events": [
+            "USER_AUTHORIZED_APPS_REQUEST_CANCELLED",
             "USER_AUTHORIZED_APPS_REQUEST_FAILED",
+            "USER_AUTHORIZED_APPS_REQUEST",
             "USER_AUTHORIZED_APPS_REQUEST",
             "USER_AUTHORIZED_APPS_UPDATE"
         ]
@@ -2348,11 +2351,11 @@
     {
         "path": "app/modules/slayer_storefront/SocialLayerStorefrontActionCreators.tsx",
         "flux_events": [
+            "SOCIAL_LAYER_STOREFRONT_LAUNCH_ANNOUNCEMENT_FETCH_SUCCESS",
+            "SOCIAL_LAYER_STOREFRONT_LAUNCH_ANNOUNCEMENT_FETCH_FAILURE",
             "SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_FAILURE",
             "SOCIAL_LAYER_STOREFRONT_ANNOUNCEMENT_FETCH_SUCCESS",
-            "SOCIAL_LAYER_STOREFRONT_ANNOUNCEMENT_FETCH_FAILURE",
-            "SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_CREATE",
-            "SOCIAL_LAYER_SKU_PURCHASE_ELIGIBILITY_CHECK_START"
+            "SOCIAL_LAYER_STOREFRONT_ANNOUNCEMENT_FETCH_FAILURE"
         ]
     },
     {

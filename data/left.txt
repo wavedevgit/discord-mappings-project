@@ -1060,6 +1060,8 @@ app/design/components/Tabs/native/TabsGradient.tsx
 app/design/components/TagListInput/native/TagListInput.tsx
 app/design/components/TagListInput/native/TagListInputTag.tsx
 app/design/components/Text/native/Text.tsx
+app/design/components/Text/native/useManaTextMigrationHighlight.tsx
+app/design/components/Text/native/useManaTextMigrationHighlightRestartNotice.tsx
 app/design/components/TextField/native/BaseTextField.tsx
 app/design/components/TextField/native/SearchField.tsx
 app/design/components/TextField/native/TextAreaField.tsx
@@ -1145,6 +1147,7 @@ app/design/void/IconButton/native/IconButton.tsx
 app/design/void/IconPill/native/IconPill.tsx
 app/design/void/InputView/native/InputView.tsx
 app/design/void/LegacyText/native/LegacyText.tsx
+app/design/void/LegacyText/native/useLegacyTextMigrationHighlight.tsx
 app/design/void/LiveTag/native/LiveTag.tsx
 app/design/void/native.tsx
 app/design/void/NewTag/native/NewTag.tsx
@@ -1778,6 +1781,7 @@ app/modules/application_account_linking/native/startAuthorizationNoHook.tsx
 app/modules/application_account_linking/native/useDefaultAuthorizationNotifiers.tsx
 app/modules/application_account_linking/native/useStartAuthorize.tsx
 app/modules/application_account_linking/native/useStartProviderConnection.tsx
+app/modules/application_assets_v2/ApplicationAssetV2Utils.tsx
 app/modules/application_commands/ApplicationCommandBuiltIns.tsx
 app/modules/application_commands/ApplicationCommandChoiceUtils.tsx
 app/modules/application_commands/ApplicationCommandConstants.tsx
@@ -1815,6 +1819,14 @@ app/modules/application_commands/native/ContextMenuCommandRootScreen.tsx
 app/modules/application_commands/native/ExecutedApplicationCommandPopout.tsx
 app/modules/application_commands/native/showExecutedApplicationCommandPopout.tsx
 app/modules/application_storefront/storefrontMessageEmbedCodedLink.tsx
+app/modules/application_widget/ApplicationWidgetConfigActions.tsx
+app/modules/application_widget/hooks/useApplicationWidgetConfigs.tsx
+app/modules/application_widget/hooks/useApplicationWidgetLayoutRendererProps.tsx
+app/modules/application_widget/native/UserProfileApplicationWidgetBottomCollectionLayout.tsx
+app/modules/application_widget/native/UserProfileApplicationWidgetBottomProgressLayout.tsx
+app/modules/application_widget/native/UserProfileApplicationWidgetBottomStatsLayout.tsx
+app/modules/application_widget/native/UserProfileApplicationWidgetTopContainedLayout.tsx
+app/modules/application_widget/native/UserProfileApplicationWidgetTopHeroLayout.tsx
 app/modules/applications/ApplicationConstants.tsx
 app/modules/applications/ApplicationFrecencyHooks.tsx
 app/modules/applications/ApplicationInteractionInfoUtils.tsx
@@ -2327,6 +2339,7 @@ app/modules/collectibles/native/FeaturedCategorySubblock.tsx
 app/modules/collectibles/native/FeaturedFirstCardCoachmarkAnchor.tsx
 app/modules/collectibles/native/FeedBlock.tsx
 app/modules/collectibles/native/FeedProductList.tsx
+app/modules/collectibles/native/FractionalNitroCoinIllustration.tsx
 app/modules/collectibles/native/FractionalNitroCollectedActionSheet.tsx
 app/modules/collectibles/native/FractionalNitroPreview.tsx
 app/modules/collectibles/native/FramesEarlyAccessBadge.tsx
@@ -3878,6 +3891,7 @@ app/modules/guild_sidebar/showChannelBadge.tsx
 app/modules/guild_sidebar/showChannelItemEmbeddedActivities.tsx
 app/modules/guild_sidebar/useGuildActionRows.tsx
 app/modules/guild_sidebar/useShowConnectedUserLimit.tsx
+app/modules/guild_space/canUseGuildSpace.tsx
 app/modules/guild_tag/badges/getTransformedBadgeColors.tsx
 app/modules/guild_tag/GuildTagConstants.tsx
 app/modules/guild_tag/GuildTagTypes.tsx
@@ -4040,6 +4054,7 @@ app/modules/home_drawer/native/HomeDrawerFolderRow.tsx
 app/modules/home_drawer/native/HomeDrawerGuildRow.tsx
 app/modules/home_drawer/native/HomeDrawerGuildVoiceState.tsx
 app/modules/home_drawer/native/HomeDrawerShared.tsx
+app/modules/home_drawer/native/isHomeDrawerChannelInChannelList.tsx
 app/modules/home_drawer/native/isHomeDrawerChannelMuted.tsx
 app/modules/home_drawer/native/subtitles/MentionSubtitle.tsx
 app/modules/home_drawer/native/subtitles/StreamingSubtitle.tsx
@@ -4151,6 +4166,7 @@ app/modules/in_app_notifications/InAppNotificationTypes.tsx
 app/modules/in_app_notifications/native/AlertNotification.tsx
 app/modules/in_app_notifications/native/ConfirmationToast.tsx
 app/modules/in_app_notifications/native/ForumThreadCreatedNotification.tsx
+app/modules/in_app_notifications/native/hooks/useGetInitialMessagePreview.tsx
 app/modules/in_app_notifications/native/hooks/usePreviewableMedia.tsx
 app/modules/in_app_notifications/native/hooks/usePreviewableMediaText.tsx
 app/modules/in_app_notifications/native/InAppNotificationConstants.tsx
@@ -5433,6 +5449,7 @@ app/modules/popout-window/PopoutWindowStore.tsx
 app/modules/portals/PortalToNativeView.tsx
 app/modules/premium_apps/ApplicationSubscriptionsHttpApi.tsx
 app/modules/premium_apps/ApplicationSubscriptionSystemMessageUtils.tsx
+app/modules/premium/components/native/NitroUpsellButton.tsx
 app/modules/premium/enhanced_role_colors/EnhancedRoleColorUtils.tsx
 app/modules/premium/enhanced_role_colors/native/EnhancedRoleColorUtils.tsx
 app/modules/premium/experiments/BOGOPromotionMarketingMaterialsExperiments.tsx
@@ -5579,7 +5596,7 @@ app/modules/premium/powerups/hooks/GuildPowerupsNotificationsDCF.tsx
 app/modules/premium/powerups/hooks/useAvailableBoostCountForPowerup.tsx
 app/modules/premium/powerups/hooks/useBoostToUnlockFeaturedPowerup.tsx
 app/modules/premium/powerups/hooks/useCanGuildPowerupBeToggled.tsx
-app/modules/premium/powerups/hooks/useCanPurchaseOrTransferBoost.tsx
+app/modules/premium/powerups/hooks/useCanPurchaseBoosts.tsx
 app/modules/premium/powerups/hooks/useDeactivateWarningText.tsx
 app/modules/premium/powerups/hooks/useFeaturedExpiringPowerup.tsx
 app/modules/premium/powerups/hooks/useGetExpiringGuildPowerups.tsx
@@ -6218,6 +6235,7 @@ app/modules/saved_messages/native/ForLaterMessageRow.tsx
 app/modules/saved_messages/native/ForLaterModal.tsx
 app/modules/saved_messages/native/ForLaterOpenActionButton.tsx
 app/modules/saved_messages/native/ForLaterScreen.tsx
+app/modules/saved_messages/native/showForLaterModal.tsx
 app/modules/saved_messages/native/useForLaterCoachmark.tsx
 app/modules/saved_messages/SavedMessageHelpers.tsx
 app/modules/saved_messages/SavedMessagesActions.tsx
@@ -6287,6 +6305,7 @@ app/modules/search/native/components/navigator/SearchNavigatorPreviewHeader.tsx
 app/modules/search/native/components/navigator/SearchNavigatorPreviewScreen.tsx
 app/modules/search/native/components/navigator/SearchNavigatorScreen.tsx
 app/modules/search/native/components/tabs/hooks/useContentContainerStyles.tsx
+app/modules/search/native/components/tabs/hooks/useRenderScrollComponent.tsx
 app/modules/search/native/components/tabs/hooks/useSearchMessages.tsx
 app/modules/search/native/components/tabs/hooks/useSearchMessagesLoadingState.tsx
 app/modules/search/native/components/tabs/hooks/useSearchSegmentedControlState.tsx
@@ -6743,9 +6762,9 @@ app/modules/user_profile/hooks/native/useWishlistViewerCoachmark.tsx
 app/modules/user_profile/hooks/useActivityTimer.tsx
 app/modules/user_profile/hooks/useBadges.tsx
 app/modules/user_profile/hooks/useCanDM.tsx
+app/modules/user_profile/hooks/useDisplayableBoardWidgets.tsx
 app/modules/user_profile/hooks/useDisplayProfile.tsx
 app/modules/user_profile/hooks/useFriendsSinceDate.tsx
-app/modules/user_profile/hooks/useGameWidgets.tsx
 app/modules/user_profile/hooks/useIsUserProfileObfuscated.tsx
 app/modules/user_profile/hooks/useNote.tsx
 app/modules/user_profile/hooks/usePendingAvatarSettings.tsx
@@ -6802,6 +6821,9 @@ app/modules/user_profile/native/UserProfileActivityVoiceChannel.tsx
 app/modules/user_profile/native/UserProfileActivityVoiceChannelUsers.tsx
 app/modules/user_profile/native/UserProfileAlertUserReported.tsx
 app/modules/user_profile/native/UserProfileAlertUtils.tsx
+app/modules/user_profile/native/UserProfileApplicationWidgetCard.tsx
+app/modules/user_profile/native/UserProfileApplicationWidgetFieldUtils.tsx
+app/modules/user_profile/native/UserProfileApplicationWidgetSkeletons.tsx
 app/modules/user_profile/native/UserProfileAvatar.tsx
 app/modules/user_profile/native/UserProfileAvatarDecorationEditButton.tsx
 app/modules/user_profile/native/UserProfileBanner.tsx
@@ -7443,6 +7465,7 @@ app/modules/verification/native/components/VerifyPhone.tsx
 app/modules/verification/native/hooks/useSmsAutofill.android.tsx
 app/modules/verification/VerificationConstants.tsx
 app/modules/verification/VerificationUtils.tsx
+app/modules/vibegrations/intl/VibegrationsUntranslated.messages.js
 app/modules/video_backgrounds/applyBackgroundOption.tsx
 app/modules/video_backgrounds/getDefaultBackgroundData.tsx
 app/modules/video_backgrounds/isVideoBackgroundSupported.tsx
@@ -8432,7 +8455,6 @@ discord_assets/assets/mana/rive/native/ThemeAwareNitroWishlistingWumpus.riv.js
 discord_assets/assets/orbs/fn_pdp_preview_header.png.js
 discord_assets/assets/orbs/header_dark.jpg.js
 discord_assets/assets/orbs/header_light.jpg.js
-discord_assets/assets/orbs/mobile_fraction_nitro_2x.png.js
 discord_assets/assets/orbs/orb_coachmark_asset_2x_animated.png.js
 discord_assets/assets/orbs/orb_coachmark_asset_2x.png.js
 discord_assets/assets/orbs/orb_profile_badge_icon-2x.png.js
@@ -8500,6 +8522,13 @@ discord_common/js/packages/analytics-utils/encodeProperties.tsx
 discord_common/js/packages/analytics-utils/getSuperProperties.tsx
 discord_common/js/packages/analytics-utils/StandardAnalyticsConstants.tsx
 discord_common/js/packages/app-start-performance/AppStartPerformance.tsx
+discord_common/js/packages/application-widget-renderer/src/createCompactNumberFormat.tsx
+discord_common/js/packages/application-widget-renderer/src/index.tsx
+discord_common/js/packages/application-widget-renderer/src/resolvedDisplayField.tsx
+discord_common/js/packages/application-widget-renderer/src/resolvedValues.tsx
+discord_common/js/packages/application-widget-renderer/src/resolvedValuesFromUserApplicationIdentityProfile.tsx
+discord_common/js/packages/application-widget-renderer/src/schemas.tsx
+discord_common/js/packages/application-widget-renderer/src/types.tsx
 discord_common/js/packages/backoff/Backoff.tsx
 discord_common/js/packages/code-splitting/CodeSplittingUtils.tsx
 discord_common/js/packages/code-splitting/importWithRetry.tsx
@@ -8793,13 +8822,19 @@ discord_common/js/shared/hooks/useMountEffect.tsx
 discord_common/js/shared/hooks/useStableCallback.tsx
 discord_common/js/shared/modules/content_classification/lib/AgeRestrictionUtils.tsx
 discord_common/js/shared/shared-constants/AdPlacement.tsx
+discord_common/js/shared/shared-constants/ApplicationWidgetConfigSurface.tsx
+discord_common/js/shared/shared-constants/ApplicationWidgetFieldPresentationType.tsx
+discord_common/js/shared/shared-constants/ApplicationWidgetFieldValueType.tsx
+discord_common/js/shared/shared-constants/ApplicationWidgetLayoutName.tsx
 discord_common/js/shared/shared-constants/CollectibleSearchCurrencyFilter.tsx
 discord_common/js/shared/shared-constants/ContentRatingGOPClassification.tsx
 discord_common/js/shared/shared-constants/ContentRatingIGDBTheme.tsx
 discord_common/js/shared/shared-constants/DismissibleQuestContentFlags.tsx
+discord_common/js/shared/shared-constants/FavoritesLimits.tsx
 discord_common/js/shared/shared-constants/GuildRoomBackgroundPositions.tsx
 discord_common/js/shared/shared-constants/GuildRoomBackgrounds.tsx
 discord_common/js/shared/shared-constants/LegacyBadgeIdMap.tsx
+discord_common/js/shared/shared-constants/ProfileDataDynamicType.tsx
 discord_common/js/shared/shared-constants/ProfileFrameLayerAnchor.tsx
 discord_common/js/shared/shared-constants/ProfileFrameLayerType.tsx
 discord_common/js/shared/shared-constants/Quests.tsx

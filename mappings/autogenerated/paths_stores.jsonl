@@ -21,10 +21,12 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']AppLauncherOnboardingStore[\"']"},"paths":["app/modules/app_launcher/native/onboarding/stores/AppLauncherOnboardingStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']FrecencySectionStore[\"']"},"paths":["app/modules/app_launcher/native/screens/home/FrecencySectionStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']AccountLinkStore[\"']"},"paths":["app/modules/application_account_linking/AccountLinkStore.tsx"]}
+{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ApplicationAssetsV2Store[\"']"},"paths":["app/modules/application_assets_v2/ApplicationAssetsV2Store.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ApplicationCommandAutocompleteStore[\"']"},"paths":["app/modules/application_commands/ApplicationCommandAutocompleteStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ApplicationCommandFrecencyStore[\"']"},"paths":["app/modules/application_commands/ApplicationCommandFrecencyStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ApplicationCommandIndexStore[\"']"},"paths":["app/modules/application_commands/ApplicationCommandIndexStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ApplicationCommandStore[\"']"},"paths":["app/modules/application_commands/ApplicationCommandStore.tsx"]}
+{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ApplicationWidgetConfigStore[\"']"},"paths":["app/modules/application_widget/ApplicationWidgetConfigStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ApplicationAssetsStore[\"']"},"paths":["app/modules/applications/ApplicationAssetsStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ApplicationFrecencyStore[\"']"},"paths":["app/modules/applications/ApplicationFrecencyStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ApplicationStore[\"']"},"paths":["app/modules/applications/ApplicationStore.tsx"]}

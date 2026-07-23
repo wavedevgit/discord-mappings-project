@@ -748,6 +748,7 @@
 {"id":"469802.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"470214.js","paths":["../discord_common/js/shared/shared-constants/AudioSettingsDefaultVolumes.tsx"]}
 {"id":"470348.js","paths":["discord_app/modules/guild_mod_dash_member_safety/web/BulkBanPubSubExperiment.tsx"]}
+{"id":"470452.js","paths":["discord_app/modules/guild_space/GuildSpaceExperiment.tsx"]}
 {"id":"470710.js","paths":["discord_app/actions/SelectedChannelActionCreators.tsx"]}
 {"id":"47167.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
 {"id":"47167.js","paths":["../discord_common/js/shared/shared-constants/WishlistVisibility.tsx"]}
@@ -824,6 +825,7 @@
 {"id":"502571.js","paths":["discord_app/modules/image_upload/AttachmentImageLadderExperiment.tsx"]}
 {"id":"50292.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"503062.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
+{"id":"503089.js","paths":["discord_app/modules/collectibles/experiments/OneDayFractionalNitroExperiment.tsx"]}
 {"id":"503852.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"504049.js","paths":["../discord_common/js/shared/shared-constants/IntegrationExpireBehaviorTypes.tsx"]}
 {"id":"504292.js","paths":["assets/_discord_common/js/shared/images/flags/zh-CN.png","discord_app/src/main/res/drawable-mdpi/_discord_common_js_shared_images_flags_zhcn.png"]}
@@ -1021,6 +1023,7 @@
 {"id":"591179.js","paths":["discord_app/modules/user_profile/experiments/UserProfileWYSIWYGEditingExperiment.tsx"]}
 {"id":"591566.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"591594.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
+{"id":"593032.js","paths":["discord_app/modules/premium/experiments/PremiumGroupExperiment.tsx"]}
 {"id":"593221.js","paths":["../discord_common/js/shared/shared-constants/AudioSettingsDefaultVolumes.tsx"]}
 {"id":"593643.js","paths":["discord_app/modules/channel/VoiceChannelBadgeExperiment.tsx"]}
 {"id":"594061.js","paths":["discord_app/modules/user_settings/UserSettingsProtoActionCreators.tsx"]}

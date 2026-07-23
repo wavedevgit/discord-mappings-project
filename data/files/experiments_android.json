@@ -254,6 +254,12 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/collectibles/experiments/OneDayFractionalNitroExperiment.tsx",
+        "kind": "user",
+        "id": "2026-04-one-day-fractional-nitro",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/connections/experiments/ApplicationIdentityLinkedRolesExperiment.tsx",
         "kind": "guild",
         "id": "2026-04_application_identity_linked_roles",
@@ -446,6 +452,12 @@
         "kind": "user",
         "id": "2026-06-mobile-server-tag",
         "keyRequired": "variations"
+    },
+    {
+        "path": "app/modules/guild_space/GuildSpaceExperiment.tsx",
+        "kind": "guild",
+        "id": "2026-06_guild_spaces",
+        "keyRequired": "treatments"
     },
     {
         "path": "app/modules/guild/TidaWebformExperiment.tsx",
@@ -907,6 +919,12 @@
         "path": "app/modules/premium/experiments/MobileNitroManageSubscriptionsSettingsExperiment.tsx",
         "kind": "user",
         "id": "2026-06-macaron",
+        "keyRequired": "variations"
+    },
+    {
+        "path": "app/modules/premium/experiments/PremiumGroupExperiment.tsx",
+        "kind": "user",
+        "id": "2025-12-katsudon",
         "keyRequired": "variations"
     },
     {
