@@ -276,6 +276,7 @@ app/design/components/Icon/native/redesign/generated/CreditCardIcon.tsx
 app/design/components/Icon/native/redesign/generated/CrownIcon.tsx
 app/design/components/Icon/native/redesign/generated/DenyIcon.tsx
 app/design/components/Icon/native/redesign/generated/DiceIcon.tsx
+app/design/components/Icon/native/redesign/generated/DoorEnterIcon.tsx
 app/design/components/Icon/native/redesign/generated/DoorExitIcon.tsx
 app/design/components/Icon/native/redesign/generated/DoubleCheckmarkIcon.tsx
 app/design/components/Icon/native/redesign/generated/DownloadIcon.tsx
@@ -428,6 +429,7 @@ app/design/components/Icon/native/redesign/generated/SlashBoxIcon.tsx
 app/design/components/Icon/native/redesign/generated/SlashIcon.tsx
 app/design/components/Icon/native/redesign/generated/SoundboardIcon.tsx
 app/design/components/Icon/native/redesign/generated/SoundboardSlashIcon.tsx
+app/design/components/Icon/native/redesign/generated/SparklesIcon.tsx
 app/design/components/Icon/native/redesign/generated/SpeedometerIcon.tsx
 app/design/components/Icon/native/redesign/generated/SpoilerIcon.tsx
 app/design/components/Icon/native/redesign/generated/SpotifyNeutralIcon.tsx
@@ -494,6 +496,7 @@ app/design/components/Icon/native/redesign/generated/VoiceNormalSpoilerIcon.tsx
 app/design/components/Icon/native/redesign/generated/VoiceWarningIcon.tsx
 app/design/components/Icon/native/redesign/generated/VoiceXIcon.tsx
 app/design/components/Icon/native/redesign/generated/VrHeadsetIcon.tsx
+app/design/components/Icon/native/redesign/generated/WalletIcon.tsx
 app/design/components/Icon/native/redesign/generated/WarningIcon.tsx
 app/design/components/Icon/native/redesign/generated/WaveformIcon.tsx
 app/design/components/Icon/native/redesign/generated/WebhookIcon.tsx
@@ -1313,7 +1316,6 @@ app/modules/a11y/native/markAccessibilityFocus.tsx
 app/modules/a11y/native/PortalAccessibilityWorkaroundView.tsx
 app/modules/a11y/native/setAccessibilityFocus.android.tsx
 app/modules/a11y/native/setAccessibilityFocusPrevious.tsx
-app/modules/a11y/native/TextWithIOSLinkWorkaround.tsx
 app/modules/a11y/native/useAccessibilityPress.tsx
 app/modules/a11y/native/useAnnounceAsyncCompletion.tsx
 app/modules/a11y/native/useIsScreenReaderEnabled.tsx
@@ -1522,8 +1524,6 @@ app/modules/ads/analytics/captureAdUserActionTypes.tsx
 app/modules/ads/BountyTypes.tsx
 app/modules/ads/hooks/useAdPersonalizationTogglesDisabled.tsx
 app/modules/ads/native/AdUserActionCreators.android.tsx
-app/modules/ads/QuestHomeHeroCta.tsx
-app/modules/ads/QuestHomeHeroTypes.tsx
 app/modules/ads/utils/AdDataUtils.android.tsx
 app/modules/ads/utils/AdDataUtilsConstants.tsx
 app/modules/ads/utils/AdDecisionUtils.tsx
@@ -1533,10 +1533,13 @@ app/modules/age_assurance/AgeVerificationAnalyticsUtils.tsx
 app/modules/age_assurance/AgeVerificationConstants.tsx
 app/modules/age_assurance/AgeVerificationIncodeWebViewConstants.tsx
 app/modules/age_assurance/AgeVerificationManager.tsx
+app/modules/age_assurance/AgeVerificationMethodsV2.tsx
 app/modules/age_assurance/AgeVerificationUtils.tsx
 app/modules/age_assurance/GoogleWalletActionCreators.tsx
 app/modules/age_assurance/hooks/useAgeVerificationMethods.tsx
+app/modules/age_assurance/hooks/useAgeVerificationMethodsV2.tsx
 app/modules/age_assurance/native/AgeVerificationEmbeddedIntroScreen.tsx
+app/modules/age_assurance/native/AgeVerificationExpressiveV2Modal.tsx
 app/modules/age_assurance/native/AgeVerificationGetStartedModal.tsx
 app/modules/age_assurance/native/AgeVerificationIncodeMethodSelectScreen.tsx
 app/modules/age_assurance/native/AgeVerificationIncodeModal.tsx
@@ -1926,6 +1929,7 @@ app/modules/autocompleter/native/AutocompleteOptions.tsx
 app/modules/autocompleter/native/AutocompleteUtils.tsx
 app/modules/autocompleter/native/AutocompleteWrapper.tsx
 app/modules/autocompleter/native/useAutocompleteAnimatedHeightStyles.tsx
+app/modules/autocompleter/native/useMentionAnchor.tsx
 app/modules/autocompleter/native/UserSearch.worker.tsx
 app/modules/autocompleter/record/InAppNavigationRecord.tsx
 app/modules/autocompleter/sortByMatchScore.tsx
@@ -2439,7 +2443,6 @@ app/modules/collectibles/records/CollectiblesPurchaseRecord.tsx
 app/modules/collectibles/records/CollectiblesShopHomeRecord.tsx
 app/modules/collectibles/records/CollectiblesStoreListingRecord.tsx
 app/modules/collectibles/records/CollectiblesStoreListingStylesRecord.tsx
-app/modules/collectibles/records/CollectiblesUserDiscountRecord.tsx
 app/modules/collectibles/records/CountdownTimerBlockRecord.tsx
 app/modules/collectibles/records/FeaturedBlockRecord.tsx
 app/modules/collectibles/records/FeaturedCategorySubblockRecord.tsx
@@ -3131,8 +3134,11 @@ app/modules/game_detection/native/GameIcon.tsx
 app/modules/game_detection/RunningGameStore.tsx
 app/modules/game_invite_channels/GameInviteChannels.messages.js
 app/modules/game_invite_channels/GameInvitesChannelUtils.tsx
+app/modules/game_mentions/GameMentionsExperiment.tsx
 app/modules/game_mentions/getGameMentionsAutocompleteConfig.tsx
+app/modules/game_mentions/hooks/native/useGameMentionSearchBarHeight.tsx
 app/modules/game_mentions/hooks/useGameMentionsAsPlainText.tsx
+app/modules/game_mentions/native/GameMentionSearchBar.tsx
 app/modules/game_profile/AnnouncementMessageUtils.tsx
 app/modules/game_profile/GameProfileActionCreators.tsx
 app/modules/game_profile/GameProfileAnalyticUtils.tsx
@@ -4169,6 +4175,7 @@ app/modules/in_app_notifications/native/ForumThreadCreatedNotification.tsx
 app/modules/in_app_notifications/native/hooks/useGetInitialMessagePreview.tsx
 app/modules/in_app_notifications/native/hooks/usePreviewableMedia.tsx
 app/modules/in_app_notifications/native/hooks/usePreviewableMediaText.tsx
+app/modules/in_app_notifications/native/hooks/useTruncatedGradientColors.tsx
 app/modules/in_app_notifications/native/InAppNotificationConstants.tsx
 app/modules/in_app_notifications/native/InAppNotificationContainer.tsx
 app/modules/in_app_notifications/native/InAppNotificationContext.tsx
@@ -5449,6 +5456,31 @@ app/modules/popout-window/PopoutWindowStore.tsx
 app/modules/portals/PortalToNativeView.tsx
 app/modules/premium_apps/ApplicationSubscriptionsHttpApi.tsx
 app/modules/premium_apps/ApplicationSubscriptionSystemMessageUtils.tsx
+app/modules/premium_marketing/native/BuyNitroMarketing.tsx
+app/modules/premium_marketing/native/BuyNitroMarketingFooter.tsx
+app/modules/premium_marketing/native/BuyNitroMarketingHeader.tsx
+app/modules/premium_marketing/native/components/BuyNitroAccountCredit.tsx
+app/modules/premium_marketing/native/components/BuyNitroGradient.tsx
+app/modules/premium_marketing/native/components/BuyNitroPerk.tsx
+app/modules/premium_marketing/native/components/BuyNitroPerkDetails.tsx
+app/modules/premium_marketing/native/components/BuyNitroPlanPriceDetails.tsx
+app/modules/premium_marketing/native/components/BuyNitroPurchaseFlow.tsx
+app/modules/premium_marketing/native/components/BuyNitroPurchaseSuccess.tsx
+app/modules/premium_marketing/native/components/BuyNitroSectionHeader.tsx
+app/modules/premium_marketing/native/components/BuyNitroTriggerPointEffect.tsx
+app/modules/premium_marketing/native/components/plan_selector/BuyNitroPlanSelector.tsx
+app/modules/premium_marketing/native/components/plan_selector/BuyNitroPlanSelectorTierToggle.tsx
+app/modules/premium_marketing/native/components/plan_selector/useBuyNitroPlanLabelRenderer.tsx
+app/modules/premium_marketing/native/components/plan_selector/useBuyNitroPlanSubLabelRenderer.tsx
+app/modules/premium_marketing/native/components/purchase_button/BuyNitroPurchaseButton.tsx
+app/modules/premium_marketing/native/components/purchase_button/BuyNitroPurchaseButtonCrossfadeLayer.tsx
+app/modules/premium_marketing/native/components/purchase_button/BuyNitroPurchaseButtonLegalDisclaimer.tsx
+app/modules/premium_marketing/native/hooks/useBuyNitroExperiment.tsx
+app/modules/premium_marketing/native/hooks/useBuyNitroListData.tsx
+app/modules/premium_marketing/native/hooks/useBuyNitroMarketingLifecycleHooks.tsx
+app/modules/premium_marketing/native/hooks/useBuyNitroPerks.tsx
+app/modules/premium_marketing/native/hooks/useBuyNitroPlanSelection.tsx
+app/modules/premium_marketing/native/hooks/useBuyNitroPurchaseLock.tsx
 app/modules/premium/components/native/NitroUpsellButton.tsx
 app/modules/premium/enhanced_role_colors/EnhancedRoleColorUtils.tsx
 app/modules/premium/enhanced_role_colors/native/EnhancedRoleColorUtils.tsx
@@ -5817,7 +5849,6 @@ app/modules/quests/hooks/QuestHooks.tsx
 app/modules/quests/hooks/QuestOrbMultiplierHooks.tsx
 app/modules/quests/hooks/RewardCodeClaimHooks.tsx
 app/modules/quests/hooks/useHasNewAdContent.tsx
-app/modules/quests/hooks/useVideoModalPlacementEnabled.tsx
 app/modules/quests/lib/analytics/AnalyticsActions.tsx
 app/modules/quests/lib/analytics/AnalyticsHooks.tsx
 app/modules/quests/lib/analytics/AnalyticsTypes.tsx
@@ -5962,6 +5993,8 @@ app/modules/quests/native/VideoQuestModal/VideoQuestTranscriptActionSheet.tsx
 app/modules/quests/QuestBarRenderDelayTracker.tsx
 app/modules/quests/QuestConstants.tsx
 app/modules/quests/QuestDecisionRoundtripTracker.tsx
+app/modules/quests/QuestHomeHeroCta.tsx
+app/modules/quests/QuestHomeHeroTypes.tsx
 app/modules/quests/QuestHomeRoundtripTracker.tsx
 app/modules/quests/QuestTypes.tsx
 app/modules/quests/SponsoredQuestUtils.tsx
@@ -6885,6 +6918,7 @@ app/modules/user_profile/native/UserProfileVoiceActivityIcon.tsx
 app/modules/user_profile/native/UserProfileVoiceSettings.tsx
 app/modules/user_profile/native/UserProfileWidgetReportButton.tsx
 app/modules/user_profile/native/UserProfileWidgetsBoard.tsx
+app/modules/user_profile/native/UserProfileWidgetsBoardEditNotice.tsx
 app/modules/user_profile/native/UserProfileWishlistGrid.tsx
 app/modules/user_profile/native/UserProfileWishlistSuggestionsGrid.tsx
 app/modules/user_profile/native/UserProfileYourFriendsCard.tsx
@@ -7466,6 +7500,7 @@ app/modules/verification/native/hooks/useSmsAutofill.android.tsx
 app/modules/verification/VerificationConstants.tsx
 app/modules/verification/VerificationUtils.tsx
 app/modules/vibegrations/intl/VibegrationsUntranslated.messages.js
+app/modules/vibegrations/lib/VibegrationsUtils.tsx
 app/modules/video_backgrounds/applyBackgroundOption.tsx
 app/modules/video_backgrounds/getDefaultBackgroundData.tsx
 app/modules/video_backgrounds/isVideoBackgroundSupported.tsx
@@ -8692,6 +8727,7 @@ discord_common/js/packages/protos/discord_protos/premium_marketing/v1/premium_ma
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/premium_tab_popover.tsx
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/premium_tab_tooltip.tsx
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/premium_tab.tsx
+discord_common/js/packages/protos/discord_protos/premium_marketing/v1/shop_nagbar.tsx
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/theme_aware_asset.tsx
 discord_common/js/packages/protos/discord_protos/safety_common/v1/classification_type.tsx
 discord_common/js/packages/protos/discord_protos/safety_common/v1/safety_state.tsx

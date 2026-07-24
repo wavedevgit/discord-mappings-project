@@ -1999,11 +1999,11 @@
     {
         "path": "app/modules/payments/native/OrderActionCreators.tsx",
         "flux_events": [
+            "ORDER_CANCEL_SIGNING_SUCCESS",
             "ORDER_MARK_SIGNING_SUCCESS",
-            "ORDER_MARK_SIGNING_START",
-            "ORDER_MARK_SIGNING_FAIL",
-            "ORDER_CREATE_SUCCESS",
-            "ORDER_UPDATE_SUCCESS"
+            "ORDER_CANCEL_SIGNING_START",
+            "ORDER_CANCEL_SIGNING_FAIL",
+            "ORDER_MARK_SIGNING_START"
         ]
     },
     {
@@ -2691,11 +2691,11 @@
     {
         "path": "app/modules/wishlists/WishlistActionCreators.tsx",
         "flux_events": [
-            "WISHLIST_USER_DISCOUNTS_RESPONSE_SUCCESS",
             "WISHLIST_RECOMMENDATIONS_FETCH_SUCCESS",
             "WISHLIST_RECOMMENDATIONS_FETCH_FAILURE",
             "WISHLIST_RECOMMENDATIONS_FETCH_START",
-            "WISHLIST_UPDATE_VISIBILITY_SUCCESS"
+            "WISHLIST_UPDATE_VISIBILITY_SUCCESS",
+            "WISHLIST_UPDATE_VISIBILITY_FAILURE"
         ]
     },
     {

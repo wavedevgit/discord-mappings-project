@@ -114,6 +114,7 @@ app/modules/age_assurance/AgeVerificationExpressiveModalEverywhereExperiment.tsx
 app/modules/age_assurance/AgeVerificationIncodeExperiment.tsx
 app/modules/age_assurance/AgeVerificationStore.tsx
 app/modules/age_assurance/AgeVerificationURLActionCreators.tsx
+app/modules/age_assurance/ExpressiveModalV2Experiment.tsx
 app/modules/age_assurance/GoogleWalletExperiment.tsx
 app/modules/age_assurance/HideManualAgeVerificationExperiment.tsx
 app/modules/age_assurance/native/NativeAppStoreAgeSignalsExperiment.tsx
@@ -332,7 +333,6 @@ app/modules/game_console/GameConsoleActionCreators.tsx
 app/modules/game_console/GameConsoleStore.tsx
 app/modules/game_console/native/GameConsoleActionCreators.tsx
 app/modules/game_console/PlayStationVoiceExperiment.tsx
-app/modules/game_mentions/GameMentionsExperiment.tsx
 app/modules/game_profile/GameProfileStore.tsx
 app/modules/game_profile/native/GameDetectionReportActionCreators.tsx
 app/modules/game_relationships/GameRelationshipActionCreators.tsx
@@ -543,6 +543,7 @@ app/modules/media_engine/MediaEngineActionCreators.tsx
 app/modules/media_engine/MediaEngineStatsStore.tsx
 app/modules/media_engine/MklZenOverrideExperiment.tsx
 app/modules/media_engine/MobileAudioOutputExperiment.tsx
+app/modules/media_engine/NvencReconstructedFrameExperiment.tsx
 app/modules/media_engine/ProcessBoostExperiment.tsx
 app/modules/media_engine/ServerLadderExperiment.tsx
 app/modules/media_engine/SilenceWarningExperiment.tsx
@@ -600,7 +601,6 @@ app/modules/notifications/native/ClearChannelNotificationsOnAppForegroundExperim
 app/modules/notifications/native/GuildHighlightsNotificationsActionCreators.tsx
 app/modules/notifications/native/InAppMessageSoundsStore.tsx
 app/modules/notifications/profile_updates/ProfileUpdatesNotificationExperiment.tsx
-app/modules/notifications/profile_updates/sender/NotifyFriendsOnProfileUpdateExperiment.tsx
 app/modules/notifications/RpcNotificationSettingsStore.tsx
 app/modules/notifications/upcoming_server_event/UpcomingServerEventExperiment.tsx
 app/modules/nuf/native/ContextualOptInNudgeHoldoutExperiment.tsx
@@ -640,6 +640,7 @@ app/modules/polls/native/PollCreationModalActionCreators.tsx
 app/modules/polls/PollsActionCreators.tsx
 app/modules/polls/PollsInteractionStore.tsx
 app/modules/premium_apps/ApplicationSubscriptionsActionCreators.tsx
+app/modules/premium_marketing/native/BuyNitroMarketingExperiment.tsx
 app/modules/premium/experiments/AndroidTwoWeekTrialsExperiment.tsx
 app/modules/premium/experiments/BogoPromotionExperiment.tsx
 app/modules/premium/experiments/DenormalizedPerksReadExperiment.tsx
@@ -711,7 +712,6 @@ app/modules/quests/experiments/AdRecheckIntervalExperiment.tsx
 app/modules/quests/experiments/BountiesShopCarouselExperiment.tsx
 app/modules/quests/experiments/BountiesStage1Experiment.tsx
 app/modules/quests/experiments/BountiesVerticalScrollExperiment.tsx
-app/modules/quests/experiments/BountyUseVideoModalMobilePlacementExperiment.tsx
 app/modules/quests/experiments/LessPersonalizedAdsExperiment.tsx
 app/modules/quests/experiments/NewAdRequestBehaviorExperiment.tsx
 app/modules/quests/experiments/OrbsHoldoutExperiment.tsx
@@ -885,6 +885,7 @@ app/modules/user_settings/UserSettingsProtoStore.tsx
 app/modules/user_settings/UserSettingsRedesignExperiment.tsx
 app/modules/verification/ChangeEmailActionCreators.tsx
 app/modules/verification/ChangeEmailStore.tsx
+app/modules/vibegrations/experiments/VibegrationsGuildExperiment.tsx
 app/modules/video_backgrounds/VideoBackgroundActionCreators.tsx
 app/modules/video_backgrounds/VideoBackgroundStore.tsx
 app/modules/video_calls/native/ChannelCallLifecycleStore.tsx
@@ -1215,7 +1216,6 @@ discord_common/js/shared/shared-constants/SteamReleaseStatus.tsx
 discord_common/js/shared/shared-constants/StorefrontPlatform.tsx
 discord_common/js/shared/shared-constants/SurveyActionSamplePercents.tsx
 discord_common/js/shared/shared-constants/SurveyActionTypes.tsx
-discord_common/js/shared/shared-constants/ThirdPartyGameApplicationThemes.tsx
 discord_common/js/shared/shared-constants/ThirdPartyGameApplicationWebsiteCategory.tsx
 discord_common/js/shared/shared-constants/ThreadSearchTagSetting.tsx
 discord_common/js/shared/shared-constants/ThreadSortOrder.tsx

@@ -365,6 +365,13 @@
     },
     {
         "names": [
+            "discord_protos.premium_marketing.v1.ButtonAction",
+            "discord_protos.premium_marketing.v1.ShopNagbar"
+        ],
+        "path": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/shop_nagbar.tsx"
+    },
+    {
+        "names": [
             "discord_protos.premium_marketing.v1.ThemeAwareAsset"
         ],
         "path": "discord_common/js/packages/protos/discord_protos/premium_marketing/v1/theme_aware_asset.tsx"

@@ -44,6 +44,12 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/age_assurance/ExpressiveModalV2Experiment.tsx",
+        "kind": "user",
+        "id": "2026-07-expressive-modal-v2",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/age_assurance/GoogleWalletExperiment.tsx",
         "kind": "user",
         "id": "2026-03-age-verification-google-wallet",
@@ -364,12 +370,6 @@
         "keyRequired": "variations"
     },
     {
-        "path": "app/modules/game_mentions/GameMentionsExperiment.tsx",
-        "kind": "user",
-        "id": "2026-05-game-mentions-v2",
-        "keyRequired": "variations"
-    },
-    {
         "path": "app/modules/gateway/GatewayAltEndpointExperiment.tsx",
         "kind": "user",
         "id": "2026-07-aws-gateway",
@@ -652,6 +652,12 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/media_engine/NvencReconstructedFrameExperiment.tsx",
+        "kind": "user",
+        "id": "2026-07-nvenc-reconstructed-frames",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/media_engine/ProcessBoostExperiment.tsx",
         "kind": "user",
         "id": "2026-02-process-boost-on-voice",
@@ -838,12 +844,6 @@
         "keyRequired": "variations"
     },
     {
-        "path": "app/modules/notifications/profile_updates/sender/NotifyFriendsOnProfileUpdateExperiment.tsx",
-        "kind": "user",
-        "id": "2026-06-notify-friends-on-profile-update",
-        "keyRequired": "variations"
-    },
-    {
         "path": "app/modules/notifications/upcoming_server_event/UpcomingServerEventExperiment.tsx",
         "kind": "user",
         "id": "2026-04-upcoming-server-event",
@@ -889,6 +889,16 @@
         "path": "app/modules/people/FriendRequestMessageExperiment.tsx",
         "kind": "user",
         "id": "2026-03-friend-request-message",
+        "keyRequired": "variations"
+    },
+    {
+        "path": "app/modules/premium_marketing/native/BuyNitroMarketingExperiment.tsx",
+        "kind": "user",
+        "id": "2026-07-nitro-visual-ux",
+        "keyRequired": "variations"
+    },
+    {
+        "path": "app/modules/premium_marketing/native/hooks/useBuyNitroExperiment.tsx",
         "keyRequired": "variations"
     },
     {
@@ -1120,12 +1130,6 @@
         "keyRequired": "variations"
     },
     {
-        "path": "app/modules/quests/experiments/BountyUseVideoModalMobilePlacementExperiment.tsx",
-        "kind": "user",
-        "id": "2026-06-bounty-use-video-modal-mobile-placement-experiment",
-        "keyRequired": "variations"
-    },
-    {
         "path": "app/modules/quests/experiments/LessPersonalizedAdsExperiment.tsx",
         "kind": "user",
         "id": "2026-01-less-personalized-ads",
@@ -1295,6 +1299,12 @@
         "path": "app/modules/user_settings/UserSettingsRedesignExperiment.tsx",
         "kind": "user",
         "id": "2026-05-user-settings-redesign-4d",
+        "keyRequired": "variations"
+    },
+    {
+        "path": "app/modules/vibegrations/experiments/VibegrationsGuildExperiment.tsx",
+        "kind": "guild",
+        "id": "2026-07-vibegrations-guild",
         "keyRequired": "variations"
     },
     {
