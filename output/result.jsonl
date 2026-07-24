@@ -372,6 +372,8 @@
 {"id":"281020.js","paths":["discord_app/modules/application_account_linking/AccountLinkingActionCreators.tsx"]}
 {"id":"281405.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"281445.js","paths":["../discord_common/js/shared/shared-constants/GameServerProviderType.tsx"]}
+{"id":"281980.js","paths":["discord_app/modules/favorites/FavoritesGuildExperiment.tsx"]}
+{"id":"281980.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
 {"id":"283540.js","paths":["discord_app/actions/AudioActionCreators.tsx"]}
 {"id":"283540.js","paths":["discord_app/actions/CertifiedDeviceActionCreators.tsx"]}
 {"id":"283540.js","paths":["discord_app/actions/SelectedChannelActionCreators.tsx"]}
@@ -421,7 +423,6 @@
 {"id":"297469.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
 {"id":"29814.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"298236.js","paths":["discord_app/actions/SelectedChannelActionCreators.tsx"]}
-{"id":"298358.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
 {"id":"298990.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"3001.js","paths":["assets/_discord_common/js/shared/images/flags/vi.png","discord_app/src/main/res/drawable-mdpi/_discord_common_js_shared_images_flags_vi.png"]}
 {"id":"30084.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
@@ -618,7 +619,6 @@
 {"id":"379388.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"379388.js","paths":["../discord_common/js/shared/shared-constants/ShopBlockType.tsx"]}
 {"id":"379388.js","paths":["../discord_common/js/shared/shared-constants/ShopHomeSortType.tsx"]}
-{"id":"379587.js","paths":["discord_app/modules/favorites/FavoritesGuildExperiment.tsx"]}
 {"id":"37965.js","paths":["discord_app/modules/errors/VideoStreamReadyActionCreators.tsx"]}
 {"id":"379834.js","paths":["../discord_common/js/shared/shared-constants/TrendingType.tsx"]}
 {"id":"380619.js","paths":["discord_app/modules/premium/gifting/experiments/GiftPromotionReminderExperiment.tsx"]}
