@@ -2617,6 +2617,16 @@
         ]
     },
     {
+        "path": "app/modules/vibegrations/actions/VibegrationsActionCreators.tsx",
+        "flux_events": [
+            "VIBEGRATIONS_BUILDER_PREVIEW_APPLICATION_SET",
+            "VIBEGRATIONS_PROJECTS_FETCH_SUCCESS",
+            "VIBEGRATIONS_PROJECT_CREATE_SUCCESS",
+            "VIBEGRATIONS_PROJECT_UPDATE_SUCCESS",
+            "VIBEGRATIONS_PROJECT_UPDATE_SUCCESS"
+        ]
+    },
+    {
         "path": "app/modules/video_backgrounds/VideoBackgroundActionCreators.tsx",
         "flux_events": [
             "MEDIA_ENGINE_APPLY_MEDIA_FILTER_SETTINGS_START",

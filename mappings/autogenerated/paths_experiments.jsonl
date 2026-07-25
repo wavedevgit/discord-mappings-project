@@ -116,7 +116,6 @@
 {"find_with":["user","2026-02-wgc-dirty-regions-all","variations"],"paths":["app/modules/media_engine/WGCDirtyRegionsAllExperiment.tsx"]}
 {"find_with":["user","2026-02-wgc-dirty-regions","variations"],"paths":["app/modules/media_engine/WGCDirtyRegionsExperiment.tsx"]}
 {"find_with":["user","2026-02-android-exoplayer-http-engine","variations"],"paths":["app/modules/media_uploads/experiments/AndroidExoPlayerHttpEngineExperiment.tsx"]}
-{"find_with":["user","2026-05-android-rnv-http-engine","variations"],"paths":["app/modules/media_uploads/experiments/AndroidRNVHttpEngineExperiment.tsx"]}
 {"find_with":["user","2026-04-attachment-quality-metrics","variations"],"paths":["app/modules/media_uploads/experiments/AttachmentQualityMetricsExperiment.tsx"]}
 {"find_with":["user","2025-09-image-attachment-mezzanine-v2","variations"],"paths":["app/modules/media_uploads/experiments/ImageAttachmentMezzanineV2Experiment.tsx"]}
 {"find_with":["user","2025-11-enhanced-jpeg-encoding-on-ios","variations"],"paths":["app/modules/media_uploads/experiments/IosJpegliExperiment.tsx"]}
@@ -189,6 +188,7 @@
 {"find_with":["user","2026-06-quest-fetch-reconnect-jitter","variations"],"paths":["app/modules/quests/experiments/QuestFetchReconnectJitterExperiment.tsx"]}
 {"find_with":["user","2026-03-quest-home-bounties","variations"],"paths":["app/modules/quests/experiments/QuestHomeBountiesExperiment.tsx"]}
 {"find_with":["user","2026-06-game-profile-in-quickswitcher","variations"],"paths":["app/modules/quickswitcher/GameProfileInQuickswitcherExperiment.tsx"]}
+{"find_with":["user","2026-07-mobile-reaction-to-profile","variations"],"paths":["app/modules/reactions/ReactionToProfileExperiment.tsx"]}
 {"find_with":["user","2024-09_secure_frames_deeplink","treatments"],"paths":["app/modules/rtc/SecureFramesDeeplinkExperiment.tsx"]}
 {"find_with":["user","2026-04-safety-flows","variations"],"paths":["app/modules/safety_flows/SafetyFlowsExperiment.tsx"]}
 {"find_with":["user","2026-03-message-bookmarks","variations"],"paths":["app/modules/saved_messages/ForLaterExperiment.tsx"]}

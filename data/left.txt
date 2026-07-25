@@ -2143,6 +2143,7 @@ app/modules/chat_input/native/ChatInputContextBar.tsx
 app/modules/chat_input/native/ChatInputNativeCommands.tsx
 app/modules/chat_input/native/ChatInputNativeComponent.tsx
 app/modules/chat_input/native/ChatInputParser.tsx
+app/modules/chat_input/native/ChatInputScrimGradient.tsx
 app/modules/chat_input/native/FloatingChatInputContainer.tsx
 app/modules/chat_input/native/getChatInputPositionStyle.tsx
 app/modules/chat_input/native/GiftIconTrinketsAnimation.tsx
@@ -2960,9 +2961,10 @@ app/modules/favorites/FavoritesConstants.tsx
 app/modules/favorites/FavoritesGuild.messages.js
 app/modules/favorites/FavoritesHooks.tsx
 app/modules/favorites/FavoritesUtils.tsx
+app/modules/favorites/hooks/useIsFavoritesGuildEnabled.tsx
+app/modules/favorites/hooks/useIsFavoritesGuildVisible.tsx
 app/modules/favorites/useFavoriteGuildUnreads.tsx
 app/modules/favorites/useGuildIdForChannelRoute.tsx
-app/modules/favorites/useIsFavoritesGuildVisible.tsx
 app/modules/favorites/useMobileChannelFavoriteActions.tsx
 app/modules/favorites/useVoiceStatesForChannelList.tsx
 app/modules/feedback/Constants.tsx
@@ -4333,6 +4335,7 @@ app/modules/keyboard/native/PortalKeyboardBottomSheet.tsx
 app/modules/keyboard/native/PortalKeyboardConstants.tsx
 app/modules/keyboard/native/PortalKeyboardFooterIOS.ios.tsx
 app/modules/keyboard/native/PortalKeyboardInlineComponent.ios.tsx
+app/modules/keyboard/native/PortalKeyboardModalContext.tsx
 app/modules/keyboard/native/PortalKeyboardPlaceholder.tsx
 app/modules/keyboard/native/PortalKeyboardRenderer.tsx
 app/modules/keyboard/native/PortalKeyboardRendererComponent.tsx
@@ -4342,6 +4345,7 @@ app/modules/keyboard/native/useCustomKeyboardHeight.tsx
 app/modules/keyboard/native/useKeyboardDuration.tsx
 app/modules/keyboard/native/useKeyboardIsOpen.tsx
 app/modules/keyboard/native/useKeyboardType.tsx
+app/modules/keyboard/native/useModalDismissGuardRefreshControl.tsx
 app/modules/keyboard/native/useSystemKeyboardHeight.tsx
 app/modules/labs/LabFeatureActions.tsx
 app/modules/labs/LabFeatures.tsx
@@ -6463,6 +6467,7 @@ app/modules/share/formatResults.tsx
 app/modules/share/native/AppShare.tsx
 app/modules/share/native/DestinationFailedAlertModal.tsx
 app/modules/share/native/SearchableDestinationList.tsx
+app/modules/share/native/SearchableDestinationListHeader.tsx
 app/modules/share/native/ShareAttachments.tsx
 app/modules/share/native/ShareChatInput.tsx
 app/modules/share/native/ShareEmbed.tsx
@@ -6472,6 +6477,7 @@ app/modules/share/native/ShareScreenConstants.tsx
 app/modules/share/native/ShareScreenFooter.tsx
 app/modules/share/native/ShareScreenModal.tsx
 app/modules/share/native/ShareUtils.tsx
+app/modules/share/native/showSearchableDestinationListModal.tsx
 app/modules/share/native/useShareChatInputActions.tsx
 app/modules/share/ShareConstants.tsx
 app/modules/share/useAutocompleter.tsx
@@ -7500,6 +7506,7 @@ app/modules/verification/native/hooks/useSmsAutofill.android.tsx
 app/modules/verification/VerificationConstants.tsx
 app/modules/verification/VerificationUtils.tsx
 app/modules/vibegrations/intl/VibegrationsUntranslated.messages.js
+app/modules/vibegrations/lib/VibegrationsPlatformUtils.tsx
 app/modules/vibegrations/lib/VibegrationsUtils.tsx
 app/modules/video_backgrounds/applyBackgroundOption.tsx
 app/modules/video_backgrounds/getDefaultBackgroundData.tsx
@@ -7660,6 +7667,7 @@ app/modules/voice_messages/downsampleWaveform.tsx
 app/modules/voice_messages/native/components/VoiceMessageButton.tsx
 app/modules/voice_messages/native/components/VoiceMessageChat.tsx
 app/modules/voice_messages/native/components/VoiceMessageOverlay.tsx
+app/modules/voice_messages/native/components/VoiceMessagePillButton.tsx
 app/modules/voice_messages/native/useVoiceMessageTooltip.tsx
 app/modules/voice_messages/native/VoiceMessagesPlaybackManager.tsx
 app/modules/voice_messages/native/VoiceMessageUtils.tsx

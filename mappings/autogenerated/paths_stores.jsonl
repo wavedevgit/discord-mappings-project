@@ -370,6 +370,8 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']UserSettingsOverridesStore[\"']"},"paths":["app/modules/user_settings/UserSettingsOverridesStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']UserSettingsProtoStore[\"']"},"paths":["app/modules/user_settings/UserSettingsProtoStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ChangeEmailStore[\"']"},"paths":["app/modules/verification/ChangeEmailStore.tsx"]}
+{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']VibegrationsChatStore[\"']"},"paths":["app/modules/vibegrations/stores/VibegrationsChatStore.tsx"]}
+{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']VibegrationsProjectStore[\"']"},"paths":["app/modules/vibegrations/stores/VibegrationsProjectStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']VideoBackgroundStore[\"']"},"paths":["app/modules/video_backgrounds/VideoBackgroundStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ChannelCallLifecycleStore[\"']"},"paths":["app/modules/video_calls/native/ChannelCallLifecycleStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']ChannelCallStore[\"']"},"paths":["app/modules/video_calls/native/ChannelCallStore.tsx"]}

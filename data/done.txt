@@ -555,7 +555,6 @@ app/modules/media_engine/VideoStutterMitigationExperiment.tsx
 app/modules/media_engine/WGCDirtyRegionsAllExperiment.tsx
 app/modules/media_engine/WGCDirtyRegionsExperiment.tsx
 app/modules/media_uploads/experiments/AndroidExoPlayerHttpEngineExperiment.tsx
-app/modules/media_uploads/experiments/AndroidRNVHttpEngineExperiment.tsx
 app/modules/media_uploads/experiments/AttachmentQualityMetricsExperiment.tsx
 app/modules/media_uploads/experiments/ImageAttachmentMezzanineV2Experiment.tsx
 app/modules/media_uploads/experiments/IosJpegliExperiment.tsx
@@ -730,6 +729,7 @@ app/modules/quickswitcher/GameProfileInQuickswitcherExperiment.tsx
 app/modules/quickswitcher/QuickSwitcherActionCreators.tsx
 app/modules/quickswitcher/QuickSwitcherStore.tsx
 app/modules/reactions/ReactionActionCreators.tsx
+app/modules/reactions/ReactionToProfileExperiment.tsx
 app/modules/recent_channels/NewChannelsStore.tsx
 app/modules/recent_channels/RecentChannelsActionCreators.tsx
 app/modules/regional_feature_config/RegionalFeatureConfigStore.tsx
@@ -885,7 +885,10 @@ app/modules/user_settings/UserSettingsProtoStore.tsx
 app/modules/user_settings/UserSettingsRedesignExperiment.tsx
 app/modules/verification/ChangeEmailActionCreators.tsx
 app/modules/verification/ChangeEmailStore.tsx
+app/modules/vibegrations/actions/VibegrationsActionCreators.tsx
 app/modules/vibegrations/experiments/VibegrationsGuildExperiment.tsx
+app/modules/vibegrations/stores/VibegrationsChatStore.tsx
+app/modules/vibegrations/stores/VibegrationsProjectStore.tsx
 app/modules/video_backgrounds/VideoBackgroundActionCreators.tsx
 app/modules/video_backgrounds/VideoBackgroundStore.tsx
 app/modules/video_calls/native/ChannelCallLifecycleStore.tsx
