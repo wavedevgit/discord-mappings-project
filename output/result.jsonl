@@ -68,7 +68,6 @@
 {"id":"1310.js","paths":["../discord_common/js/shared/shared-constants/SnowflakeSelectDefaultValueTypes.tsx"]}
 {"id":"13202.js","paths":["../discord_common/js/shared/shared-constants/CollectiblesMarketingPlatform.tsx"]}
 {"id":"13202.js","paths":["../discord_common/js/shared/shared-constants/MarketingComponentPlatform.tsx"]}
-{"id":"133238.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
 {"id":"135577.js","paths":["discord_app/src/main/res/raw/images_platforms_img_account_sync_riot_black.svg"]}
 {"id":"136523.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"136722.js","paths":["../discord_common/js/shared/utils/BigFlagUtils.tsx"]}
@@ -292,6 +291,7 @@
 {"id":"248476.js","paths":["assets/design/components/LottieIcon/native/generated/lotties/NitroGem24.lottie","discord_app/src/main/res/raw/design_components_lottieicon_native_generated_lotties_nitrogem24.lottie"]}
 {"id":"248778.js","paths":["discord_app/modules/display_name_styles/DisplayNameStylesFlywheelExperiment.tsx"]}
 {"id":"249264.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
+{"id":"250737.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
 {"id":"251494.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"25176.js","paths":["../discord_common/js/shared/shared-constants/DefaultProfileFrameDimensions.tsx"]}
 {"id":"25204.js","paths":["discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_icon.tsx"]}
@@ -751,6 +751,7 @@
 {"id":"436405.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"438407.js","paths":["../discord_common/js/shared/shared-constants/AutomodActionType.tsx"]}
 {"id":"438407.js","paths":["../discord_common/js/shared/shared-constants/SnowflakeSelectDefaultValueTypes.tsx"]}
+{"id":"438653.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
 {"id":"439325.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"439819.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"440005.js","paths":["../discord_common/js/shared/shared-constants/ProgramCurrentState.tsx"]}
@@ -1031,7 +1032,6 @@
 {"id":"569926.js","paths":["discord_app/modules/games/GameActionCreators.tsx"]}
 {"id":"570465.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
 {"id":"571827.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
-{"id":"572763.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
 {"id":"572874.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
 {"id":"573435.js","paths":["../discord_common/js/shared/shared-constants/AudioSettingsDefaultVolumes.tsx"]}
 {"id":"573435.js","paths":["../discord_common/js/shared/shared-constants/MessageReferenceTypes.tsx"]}
@@ -1363,7 +1363,6 @@
 {"id":"710969.js","paths":["../discord_common/js/shared/shared-constants/CollectiblesMarketingPlatform.tsx"]}
 {"id":"710969.js","paths":["../discord_common/js/shared/shared-constants/MarketingComponentPlatform.tsx"]}
 {"id":"711014.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
-{"id":"71132.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
 {"id":"711950.js","paths":["discord_app/actions/FriendsActionCreators.tsx"]}
 {"id":"712440.js","paths":["discord_app/modules/oauth2/AuthorizedAppsActionCreators.tsx"]}
 {"id":"712687.js","paths":["discord_app/actions/ContextMenuActionCreators.tsx"]}
@@ -1422,6 +1421,7 @@
 {"id":"737952.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"73825.js","paths":["discord_app/actions/SubscriptionPlanActionCreators.tsx"]}
 {"id":"738566.js","paths":["discord_app/modules/voice_panel/SpatialAudioForVoiceExperiment.tsx"]}
+{"id":"740438.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
 {"id":"741961.js","paths":["discord_app/actions/TypingActionCreators.tsx"]}
 {"id":"742424.js","paths":["../discord_common/js/shared/shared-constants/ApplicationCollectionPlatforms.tsx"]}
 {"id":"742424.js","paths":["../discord_common/js/shared/shared-constants/AudioSettingsDefaultVolumes.tsx"]}
