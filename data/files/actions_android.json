@@ -1250,7 +1250,7 @@
             "getNextPositionFromChannels",
             "cleanFavoriteChannels",
             "cleanupChannelParentId",
-            "hasReachedLimit",
+            "getReachedLimit",
             "showLimitReachedAlert",
             "onSaveFailed",
             "onCloseCallback",
@@ -1269,6 +1269,7 @@
             "updateFavoriteChannels",
             "updateFavoriteChannelParent",
             "toggleFavoriteGuildMuted",
+            "resetFavoritesGuild",
             "setFavoritesGuildVisibility"
         ]
     },

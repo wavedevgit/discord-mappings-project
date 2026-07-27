@@ -181,7 +181,7 @@
     },
     {
         "file": "app/actions/MessageActionCreators.tsx",
-        "size": 284392
+        "size": 284395
     },
     {
         "file": "app/actions/MFAActionCreators.tsx",
@@ -8944,8 +8944,12 @@
         "size": 5381
     },
     {
+        "file": "app/modules/channel_list_v2/native/components/ChannelListPanelBackdrop.tsx",
+        "size": 6843
+    },
+    {
         "file": "app/modules/channel_list_v2/native/components/ChannelListStickyHeader.tsx",
-        "size": 20490
+        "size": 24810
     },
     {
         "file": "app/modules/channel_list_v2/native/components/Divider.tsx",
@@ -9021,7 +9025,7 @@
     },
     {
         "file": "app/modules/channel_list_v2/native/RedesignChannelList.tsx",
-        "size": 50851
+        "size": 46293
     },
     {
         "file": "app/modules/channel_list_v2/native/RedesignChannelListConstants.tsx",
@@ -9029,7 +9033,7 @@
     },
     {
         "file": "app/modules/channel_list_v2/native/RedesignGuildHeader.tsx",
-        "size": 30817
+        "size": 31303
     },
     {
         "file": "app/modules/channel_list_v2/native/renderRedesignChannelListItem.tsx",
@@ -10205,7 +10209,7 @@
     },
     {
         "file": "app/modules/collectibles/native/CollectiblesShopCardAssetTileV2.tsx",
-        "size": 22304
+        "size": 22305
     },
     {
         "file": "app/modules/collectibles/native/CollectiblesShopCardCardDetailsV2.tsx",
@@ -12785,7 +12789,7 @@
     },
     {
         "file": "app/modules/explicit_media_redaction/ExplicitMediaManager.tsx",
-        "size": 82924
+        "size": 82927
     },
     {
         "file": "app/modules/explicit_media_redaction/ExplicitMediaManagerUtils.tsx",
@@ -13049,7 +13053,7 @@
     },
     {
         "file": "app/modules/favorites/FavoritesActionCreators.tsx",
-        "size": 49006
+        "size": 53457
     },
     {
         "file": "app/modules/favorites/FavoritesAnalytics.tsx",
@@ -13057,11 +13061,11 @@
     },
     {
         "file": "app/modules/favorites/FavoritesConstants.tsx",
-        "size": 1391
+        "size": 1528
     },
     {
-        "file": "app/modules/favorites/FavoritesGuild.messages.js",
-        "size": 20431
+        "file": "app/modules/favorites/FavoritesDismissibleContent.tsx",
+        "size": 1203
     },
     {
         "file": "app/modules/favorites/FavoritesGuildExperiment.tsx",
@@ -13069,7 +13073,7 @@
     },
     {
         "file": "app/modules/favorites/FavoritesHooks.tsx",
-        "size": 16941
+        "size": 17077
     },
     {
         "file": "app/modules/favorites/FavoritesNotificationStore.tsx",
@@ -13081,7 +13085,23 @@
     },
     {
         "file": "app/modules/favorites/FavoritesUtils.tsx",
-        "size": 3210
+        "size": 3484
+    },
+    {
+        "file": "app/modules/favorites/hooks/useFavoritesChannelFilter.tsx",
+        "size": 6456
+    },
+    {
+        "file": "app/modules/favorites/hooks/useFavoritesGuildHeaderAction.tsx",
+        "size": 3033
+    },
+    {
+        "file": "app/modules/favorites/hooks/useFavoritesGuildHideAction.tsx",
+        "size": 5018
+    },
+    {
+        "file": "app/modules/favorites/hooks/useFavoritesGuildResetAction.tsx",
+        "size": 3141
     },
     {
         "file": "app/modules/favorites/hooks/useIsFavoritesGuildEnabled.tsx",
@@ -13090,6 +13110,30 @@
     {
         "file": "app/modules/favorites/hooks/useIsFavoritesGuildVisible.tsx",
         "size": 6807
+    },
+    {
+        "file": "app/modules/favorites/intl/FavoritesGuild.messages.js",
+        "size": 20436
+    },
+    {
+        "file": "app/modules/favorites/native/AddFavoriteCategoryActionSheet.tsx",
+        "size": 7568
+    },
+    {
+        "file": "app/modules/favorites/native/AddFavoriteChannelModal.tsx",
+        "size": 12051
+    },
+    {
+        "file": "app/modules/favorites/native/FavoritesGuildActionSheet.tsx",
+        "size": 7597
+    },
+    {
+        "file": "app/modules/favorites/native/FavoritesGuildAddActionSheet.tsx",
+        "size": 6851
+    },
+    {
+        "file": "app/modules/favorites/native/FavoritesGuildHeaderActions.tsx",
+        "size": 2666
     },
     {
         "file": "app/modules/favorites/useFavoriteGuildUnreads.tsx",
@@ -13106,6 +13150,10 @@
     {
         "file": "app/modules/favorites/useVoiceStatesForChannelList.tsx",
         "size": 3335
+    },
+    {
+        "file": "app/modules/favorites/utils/getFavoritesAddButtonLabel.tsx",
+        "size": 2170
     },
     {
         "file": "app/modules/feedback/Constants.tsx",
@@ -13317,7 +13365,7 @@
     },
     {
         "file": "app/modules/forums/native/ForumChannel.tsx",
-        "size": 89684
+        "size": 89683
     },
     {
         "file": "app/modules/forums/native/ForumChannelEmptyState.tsx",
@@ -18389,7 +18437,7 @@
     },
     {
         "file": "app/modules/icymi/ICYMIUtils.tsx",
-        "size": 62451
+        "size": 62454
     },
     {
         "file": "app/modules/icymi/native/AnnouncementMessageRow.tsx",
@@ -29413,7 +29461,7 @@
     },
     {
         "file": "app/modules/spotify/SpotifyStore.tsx",
-        "size": 113025
+        "size": 113021
     },
     {
         "file": "app/modules/spotify/SpotifyUtils.tsx",
@@ -30801,7 +30849,7 @@
     },
     {
         "file": "app/modules/user_profile/native/openUserProfileAvatarMediaViewer.tsx",
-        "size": 2635
+        "size": 2850
     },
     {
         "file": "app/modules/user_profile/native/ProfileGIFSelectActionSheet.tsx",
@@ -35561,7 +35609,7 @@
     },
     {
         "file": "app/stores/native/InAppNotificationStore.tsx",
-        "size": 76710
+        "size": 76715
     },
     {
         "file": "app/stores/native/MessagePreviewStore.tsx",
@@ -35869,7 +35917,7 @@
     },
     {
         "file": "app/utils/ColorUtils.tsx",
-        "size": 57382
+        "size": 57384
     },
     {
         "file": "app/utils/ComponentDispatchUtils.tsx",
