@@ -2499,6 +2499,7 @@ app/modules/connections/native/GuildRoleConnectionsScreen.tsx
 app/modules/connections/native/LeaveConnectionRoleActionSheet.tsx
 app/modules/connections/native/OfficialConnectionIcon.tsx
 app/modules/connections/native/VerifiedRoleIcon.tsx
+app/modules/connections/RoleConnectionRequirementUtils.tsx
 app/modules/connections/shouldWarnConnectedAccountTwoWay.tsx
 app/modules/connectivity/native/components/GlobalStatusContent.tsx
 app/modules/connectivity/native/components/GlobalStatusIndicator.tsx
@@ -2616,6 +2617,7 @@ app/modules/custom_status/utils/isActivityTemporaryCustomStatus.tsx
 app/modules/custom_status/utils/removeCustomStatus.tsx
 app/modules/custom_status/utils/useCustomStatusActivityForUser.tsx
 app/modules/custom_status/utils/userSettingToActivity.tsx
+app/modules/custom_typing_indicator/intl/CustomTypingIndicator.messages.js
 app/modules/date/onTimezoneChange.android.tsx
 app/modules/debug/DebugUploadManager.tsx
 app/modules/debug/getLogMetadata.tsx
@@ -2969,6 +2971,8 @@ app/modules/favorites/hooks/useFavoritesGuildResetAction.tsx
 app/modules/favorites/hooks/useIsFavoritesGuildEnabled.tsx
 app/modules/favorites/hooks/useIsFavoritesGuildVisible.tsx
 app/modules/favorites/intl/FavoritesGuild.messages.js
+app/modules/favorites/native/action/useFavoritesGuildCategoryAddAction.tsx
+app/modules/favorites/native/action/useFavoritesGuildChannelActions.tsx
 app/modules/favorites/native/AddFavoriteCategoryActionSheet.tsx
 app/modules/favorites/native/AddFavoriteChannelModal.tsx
 app/modules/favorites/native/FavoritesGuildActionSheet.tsx
@@ -2976,8 +2980,6 @@ app/modules/favorites/native/FavoritesGuildAddActionSheet.tsx
 app/modules/favorites/native/FavoritesGuildHeaderActions.tsx
 app/modules/favorites/useFavoriteGuildUnreads.tsx
 app/modules/favorites/useGuildIdForChannelRoute.tsx
-app/modules/favorites/useMobileChannelFavoriteActions.tsx
-app/modules/favorites/useVoiceStatesForChannelList.tsx
 app/modules/favorites/utils/getFavoritesAddButtonLabel.tsx
 app/modules/feedback/Constants.tsx
 app/modules/feedback/FeedbackManager.tsx
@@ -5497,6 +5499,7 @@ app/modules/premium_marketing/native/hooks/useBuyNitroMarketingLifecycleHooks.ts
 app/modules/premium_marketing/native/hooks/useBuyNitroPerks.tsx
 app/modules/premium_marketing/native/hooks/useBuyNitroPlanSelection.tsx
 app/modules/premium_marketing/native/hooks/useBuyNitroPurchaseLock.tsx
+app/modules/premium/call_of_duty_3pp/CallOfDuty3PP.messages.js
 app/modules/premium/components/native/NitroUpsellButton.tsx
 app/modules/premium/enhanced_role_colors/EnhancedRoleColorUtils.tsx
 app/modules/premium/enhanced_role_colors/native/EnhancedRoleColorUtils.tsx
@@ -5547,12 +5550,13 @@ app/modules/premium/gifting/utils/PremiumGiftingIntentUtils.tsx
 app/modules/premium/gifting/utils/promotions/GiftingPromotionUtils.tsx
 app/modules/premium/gifting/utils/WishlistBannerUtils.tsx
 app/modules/premium/GuildCapUpsellHooks.tsx
+app/modules/premium/hooks/useAndroidAndLegacyIOSPremiumTrialOfferCandidates.tsx
 app/modules/premium/hooks/useDiscountOffer.tsx
 app/modules/premium/hooks/useGeoForUser.tsx
 app/modules/premium/hooks/useOutboundPromotionRedemptionEndDate.tsx
 app/modules/premium/hooks/usePremiumDiscountOffer.android.tsx
 app/modules/premium/hooks/usePremiumDiscountOffer.tsx
-app/modules/premium/hooks/usePremiumTrialOffer.tsx
+app/modules/premium/hooks/usePremiumTrialOffer.android.tsx
 app/modules/premium/hooks/usePromotionMarketingComponent.tsx
 app/modules/premium/hooks/useScheduledForcedUpdate.tsx
 app/modules/premium/logitech_3pp/Logitech3PP.messages.js
@@ -6354,7 +6358,6 @@ app/modules/search/native/components/navigator/SearchNavigatorPreviewHeader.tsx
 app/modules/search/native/components/navigator/SearchNavigatorPreviewScreen.tsx
 app/modules/search/native/components/navigator/SearchNavigatorScreen.tsx
 app/modules/search/native/components/tabs/hooks/useContentContainerStyles.tsx
-app/modules/search/native/components/tabs/hooks/useRenderScrollComponent.tsx
 app/modules/search/native/components/tabs/hooks/useSearchMessages.tsx
 app/modules/search/native/components/tabs/hooks/useSearchMessagesLoadingState.tsx
 app/modules/search/native/components/tabs/hooks/useSearchSegmentedControlState.tsx
@@ -6956,6 +6959,7 @@ app/modules/user_profile/UserProfileGameWidgetConstants.tsx
 app/modules/user_profile/UserProfileGameWidgetTagMetadata.tsx
 app/modules/user_profile/UserProfileGameWidgetTypes.tsx
 app/modules/user_profile/UserProfileGradientUtils.tsx
+app/modules/user_profile/UserProfilePersonalWidget.tsx
 app/modules/user_profile/UserProfileRoleUtils.tsx
 app/modules/user_profile/UserProfileWidgetConstants.tsx
 app/modules/user_profile/utils/getActivityHeader.tsx
@@ -8729,6 +8733,7 @@ discord_common/js/packages/protos/discord_protos/discord_users/v1/user_settings_
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/announcement_modal_variant_1_properties.tsx
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/billing_settings_banner.tsx
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/billing_settings_nitro_gift_banner.tsx
+discord_common/js/packages/protos/discord_protos/premium_marketing/v1/cta_button.tsx
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_customization_banner.tsx
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_icon_coachmark.tsx
 discord_common/js/packages/protos/discord_protos/premium_marketing/v1/gift_icon.tsx

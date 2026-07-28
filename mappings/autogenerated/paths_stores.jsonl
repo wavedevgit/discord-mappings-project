@@ -255,6 +255,7 @@
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']PoggermodeStore[\"']"},"paths":["app/modules/poggermode/PoggermodeStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']PollsInteractionStore[\"']"},"paths":["app/modules/polls/PollsInteractionStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GameServerStore[\"']"},"paths":["app/modules/premium/game_server/GameServerStore.tsx"]}
+{"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']OwnedGameServersStore[\"']"},"paths":["app/modules/premium/game_server/OwnedGameServersStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GiftPromotionStore[\"']"},"paths":["app/modules/premium/gifting/GiftPromotionStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']PremiumGiftingIntentStore[\"']"},"paths":["app/modules/premium/gifting/PremiumGiftingIntentStore.tsx"]}
 {"find_with":{"type":"regexp","flags":"","value":"static\\s+displayName\\s*=\\s*[\"']GooglePlayPriceChangeStore[\"']"},"paths":["app/modules/premium/native/google_play_price_changes/GooglePlayPriceChangeStore.tsx"]}

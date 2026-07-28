@@ -574,6 +574,12 @@
         "keyRequired": "variations"
     },
     {
+        "path": "app/modules/media_engine/AudioFidelityExperiment.tsx",
+        "kind": "user",
+        "id": "2026-08-audio-fidelity",
+        "keyRequired": "variations"
+    },
+    {
         "path": "app/modules/media_engine/AV1BitrateTuningExperiment.tsx",
         "kind": "user",
         "id": "2026-05-av1-bitrate-tuning",

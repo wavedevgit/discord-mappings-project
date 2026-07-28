@@ -91,6 +91,7 @@
 {"find_with":["user","2026-04-you-nav-floating","variations"],"paths":["app/modules/main_tabs_v2/native/tabs/you/YouNavFloatingExperiment.tsx"]}
 {"find_with":["user","2025-09-agc2-v2","variations"],"paths":["app/modules/media_engine/AGC2Experiment.tsx"]}
 {"find_with":["user","2026-03-audio-effects-probe","variations"],"paths":["app/modules/media_engine/AudioEffectsExperiment.tsx"]}
+{"find_with":["user","2026-08-audio-fidelity","variations"],"paths":["app/modules/media_engine/AudioFidelityExperiment.tsx"]}
 {"find_with":["user","2026-05-av1-bitrate-tuning","variations"],"paths":["app/modules/media_engine/AV1BitrateTuningExperiment.tsx"]}
 {"find_with":["user","2024-06_rtc_pacer__simulcast","treatments"],"paths":["app/modules/media_engine/BandwidthEstimationExperiment.tsx"]}
 {"find_with":["user","2025-08-browser-hevc","variations"],"paths":["app/modules/media_engine/BrowserHevcExperiment.tsx"]}

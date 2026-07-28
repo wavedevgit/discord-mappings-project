@@ -527,6 +527,7 @@ app/modules/media_channel/MediaPostEmbedStore.tsx
 app/modules/media_channel/MediaPostSharePromptStore.tsx
 app/modules/media_engine/AGC2Experiment.tsx
 app/modules/media_engine/AudioEffectsExperiment.tsx
+app/modules/media_engine/AudioFidelityExperiment.tsx
 app/modules/media_engine/AV1BitrateTuningExperiment.tsx
 app/modules/media_engine/BandwidthEstimationExperiment.tsx
 app/modules/media_engine/BrowserHevcExperiment.tsx
@@ -655,6 +656,7 @@ app/modules/premium/game_server/experiments/NewGamesCoachmarkExperiment.tsx
 app/modules/premium/game_server/GameServerActionCreators.tsx
 app/modules/premium/game_server/GameServerExperiment.tsx
 app/modules/premium/game_server/GameServerStore.tsx
+app/modules/premium/game_server/OwnedGameServersStore.tsx
 app/modules/premium/gifting/experiments/GiftingBadgeDesktopExperiment.tsx
 app/modules/premium/gifting/experiments/GiftingBadgeExperiment.tsx
 app/modules/premium/gifting/experiments/GiftPromotionReminderExperiment.tsx
