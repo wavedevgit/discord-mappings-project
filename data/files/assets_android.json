@@ -3151,7 +3151,7 @@
     },
     {
         "path": "app/src/main/assets/index.android.bundle",
-        "hash": "2b4d29649d55b3bd8f62afdcbf344d02"
+        "hash": "5a400882665f5d377268453281b8072f"
     },
     {
         "path": "app/src/main/res/drawable-hdpi/_node_modules_pnpm_reactnavigationelements1330_5pojssvs3apui5lqpn7jym3zoq_node_modules_reactnavigation_elements_src_assets_backicon.png",
@@ -4760,6 +4760,10 @@
     {
         "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_chatcheckicon.png",
         "hash": "1061fc48144fbd4fe1372b05aff79796"
+    },
+    {
+        "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_chatdotsicon.png",
+        "hash": "32d0860248d3668b257dda9dc384c819"
     },
     {
         "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_chaticon.png",
@@ -9296,6 +9300,10 @@
     {
         "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_chatcheckicon.png",
         "hash": "76da484aeb7ecf139ee9bc4adfc1e2b9"
+    },
+    {
+        "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_chatdotsicon.png",
+        "hash": "d66e2195e1bd46a2a9e90ab80d2dadd9"
     },
     {
         "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_chaticon.png",
@@ -15739,123 +15747,123 @@
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_bgmessages6e03ce5aff4b544a9a2cf63d938e4b41compiledmessages.jsona",
-        "hash": "15f5da8a1cfb0fec933b7acdf3ca703c"
+        "hash": "d3212988ee8b31e2f99f5f603ca076d2"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_csmessages7b42ff38c4ea57d0971ce1c3bd994df4compiledmessages.jsona",
-        "hash": "81d72dde6ebd1d1dd367b2ad2327d827"
+        "hash": "815c7805a17d315f9791222a8791f3fd"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_damessages11d32cb6efb98b2c1b8b3626e9009252compiledmessages.jsona",
-        "hash": "724d36019a606270f2e7e225d94a52b2"
+        "hash": "094b6ea0952a3453c0c36884fec5a452"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_demessages3628c05fcedb9e04bf6850a623ba1707compiledmessages.jsona",
-        "hash": "50f737ddd75f07bd22ba0976f87b1b0e"
+        "hash": "5beeb7d440b1d6d9f9b713b23b321704"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_elmessages1b8f326f34baad4cef2cee6b32023923compiledmessages.jsona",
-        "hash": "f9b8fddf3e52ef91fdc02c3b3aa99a54"
+        "hash": "e9388082b49dc4ad2205e8dd3d345432"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_engbmessages88b83aa2e40bf13570624a9663e933b6compiledmessages.jsona",
-        "hash": "be31d581285ae71646f01f4e27ee886a"
+        "hash": "ab317b2d92635c3b54c05ca1bc99ed60"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_es419messages51f020e71bedb134fb8918b7a015b3aecompiledmessages.jsona",
-        "hash": "39a380b60b0f4d5a616548eb1af03f31"
+        "hash": "e30176b04e2a323d5810f4114b3db32f"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_esesmessagese0beb088f60647444f98b71c861d3d90compiledmessages.jsona",
-        "hash": "5d8d9c615970a6e3959cd947cc642923"
+        "hash": "11edab1360288cf5f2e3baa3cf8e3237"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_fimessages826a66589a95c9936d5bea0dcfe38daecompiledmessages.jsona",
-        "hash": "9473dc3d7094e157045055f9eb6a68bc"
+        "hash": "04528667dd9eec4d9c768b59bc17154e"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_frmessagesafd68bbede324e95df7429b900ebc7d5compiledmessages.jsona",
-        "hash": "de63a43f556d5ea139855942e7252ade"
+        "hash": "7aad240c78c601a309cbf31697a8919e"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_himessages24075362687827394168966bb63d7b48compiledmessages.jsona",
-        "hash": "ff6acd75af864b593e2ba49ab2d18deb"
+        "hash": "e3303622007e547831ab592fd0ae2be6"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_hrmessages67f53d30a9fc410fb454882c210b5f56compiledmessages.jsona",
-        "hash": "236236142dc5ac9a1ecf09650dc4f15e"
+        "hash": "519c890e3842ae7c6a4c5390ce291e92"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_humessages386b83f47e7611c3d65ce85e0d8c6fffcompiledmessages.jsona",
-        "hash": "00ede6a77adeb3ad2042de953b59a75d"
+        "hash": "3aaac459c8920370c175d03f8dd3254b"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_itmessagesdcc3bf665ed5e16f23e660902b3a6baecompiledmessages.jsona",
-        "hash": "67c4fbb1ec0f651d2c25620683375e8c"
+        "hash": "1372a6dcfcda745834bb8f2df6601792"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_jamessages763793c7099245a420c5db6df98b717ccompiledmessages.jsona",
-        "hash": "3911af2724719bbdb178e1726e023195"
+        "hash": "6a7306e9a54b59d886c476ada45ef324"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_komessagesc6767c18cafae063a94f959cb1be9cc0compiledmessages.jsona",
-        "hash": "9b0e0dc885941a3c1fedecc32d1e71b8"
+        "hash": "b0da3dd1ea601a5ad99ec652c3a50e1e"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_ltmessages7959ae119b96f9057431e495b422ba9dcompiledmessages.jsona",
-        "hash": "e5f5ad8286ad18c229e618660b1566fb"
+        "hash": "72478855243949fba45716af94ebd541"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_nlmessagesa4ca871aaea0e7be55a655cd29570ad5compiledmessages.jsona",
-        "hash": "859c422bff6629e59ec84a9c5c753128"
+        "hash": "9c4afa7e0486a66d6c487b5288ba0fa4"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_nomessages54d2f0c07c55c1cf79a124f2a194fb90compiledmessages.jsona",
-        "hash": "2ed9b0e4f47bb52afc26eba3b027a974"
+        "hash": "9e538eac24eb09354b87b3598e0ce8eb"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_plmessages51f97fd05212f5f3c4af7a6253c4588ccompiledmessages.jsona",
-        "hash": "b1f01bbbaf6fe737265fac95d938c2af"
+        "hash": "e24accc3cc98abc1cc2ade0ea31dbf9c"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_ptbrmessages4831446207a3ea94b0c20522b432028dcompiledmessages.jsona",
-        "hash": "e81ec23a1efd4b4d3c4678c5d3678fc3"
+        "hash": "940d2618659b0c178e917c3ca6abf910"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_romessagesb5448f5ba75867dfd83c9c3aabeb897ecompiledmessages.jsona",
-        "hash": "2e51eeed59af525ea7f745560a9d08a3"
+        "hash": "15fda8fa134f9bcf9adc0726a8ddc15e"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_rumessages98e4a61ab17c7da2f6c78c15ad5e75d1compiledmessages.jsona",
-        "hash": "ccbd5c8772ab7c6654dace0f45ea28e4"
+        "hash": "b9501ad8c42570aad978946fd036a894"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_svsemessagesb1800b35e54a3ae5ccd1e8117dc0ca24compiledmessages.jsona",
-        "hash": "42cb66bbf8443f2dd700e9a1b47f3263"
+        "hash": "3f4d431601b4b758b980e6388ce7f68c"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_thmessages8c5987c77d38ac187620c51141193750compiledmessages.jsona",
-        "hash": "615f410212f834d27c0b48f78353c331"
+        "hash": "15fce1e85a631aa92e399267e7de4308"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_trmessages1bb57ed821c2f7494f623b56005f91b4compiledmessages.jsona",
-        "hash": "c6dd724abeab6847750c953e76b65ed6"
+        "hash": "61f430306c5eea2a6a1b1152227f60eb"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_ukmessagesb4b37587acf84a63ada9bee7e3383162compiledmessages.jsona",
-        "hash": "848e3971e62fdc105eceba5cb36b71f6"
+        "hash": "7ad0e5b474275769c177a6296521f824"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_vimessagesa0e63da42b71c8f5e39071c580dc8b43compiledmessages.jsona",
-        "hash": "1a36e68241052db81ac2fe5605102a38"
+        "hash": "f1b07207f86087cc1834a7c39dbcbc88"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_zhcnmessagesb2c52500bda5cbb700ea16889e99b1f8compiledmessages.jsona",
-        "hash": "342a000cc0d685c555a34815d135ffba"
+        "hash": "241bda065f26a6cc655fca5b90c9430a"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_zhtwmessages997379e22fb79974de3551d7252dd0f5compiledmessages.jsona",
-        "hash": "c5db21968fa7914839742e0f13656287"
+        "hash": "3050911d8ee0c3a9b30afd73a5c3eba8"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9mzwvkymfjaw_bgmessagesac92ec7499a82c2d4a8bd54421169d06compiledmessages.jsona",
@@ -16335,126 +16343,6 @@
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9yb29tcw_zhtwmessages529cf52e800f162fdb8464872f850285compiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_bgmessagesfe8bd700921e370ccd55cff4fe10e184compiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_csmessagesc55c0838708b2b9d097305fef591b65ecompiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_damessagesd290c82e367945c7d08059811460e819compiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_demessages5a6ef3be9d7edd3d50657af4acc193d4compiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_elmessages2225708fab46fd3d902138b8930b226acompiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_engbmessages5402763a4577506340e96f344db5bd29compiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_es419messagesd290c82e367945c7d08059811460e819compiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_esesmessagesd290c82e367945c7d08059811460e819compiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_fimessages070063e24e74490b0090ebe6ef9671e8compiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_frmessagesd76eed341ee4c3c96ec76e0572c3faa3compiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_himessages11f179758dc35d0c8439eb6c02c49faccompiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_hrmessagesf71820dce8303a7af1f854f4be9c90dfcompiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_humessages96a557624f8bbd429af70b90a8addea4compiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_itmessagesd290c82e367945c7d08059811460e819compiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_jamessagesc549c9a8975870f0495d94538416a1b0compiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_komessagesc6b5c0c418e86b32d6a696705bae9408compiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_ltmessages3231ab7682a71dab8fc078ec37a31c6bcompiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_nlmessagesd290c82e367945c7d08059811460e819compiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_nomessagesd290c82e367945c7d08059811460e819compiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_plmessages97da142a69ac0ba9a00df0ec99138950compiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_ptbrmessagescf61dfc6778c1b0d83694c822b519c2acompiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_romessagesd76eed341ee4c3c96ec76e0572c3faa3compiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_rumessages435b3112e194292356688cbf858bcd2dcompiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_svsemessagesd290c82e367945c7d08059811460e819compiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_thmessagesbc119a946f80c8df5f289cd77d9aac6ecompiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_trmessagesc8a198165ab4c74d50c2b44db2915b9acompiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_ukmessagesd7124de829a06ef7a227a06c575cac33compiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_vimessages10b255f1cc746c3281f6a8e268ef2103compiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_zhcnmessages4621137b5584ba6dc63d8d193023972ccompiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
-    },
-    {
-        "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9ndwlszf9zcgfjzq_zhtwmessages1783f1096da88c92ab0c3f748cc57190compiledmessages.jsona",
         "hash": "99914b932bd37a50b983c5e7c90ae93b"
     },
     {
@@ -19419,7 +19307,7 @@
     },
     {
         "path": "app/src/main/res/raw/intl_messages_enuscompiledmessages.jsona",
-        "hash": "5130d032feacbb9a2fb1e9fad6c3a2ac"
+        "hash": "a16be8f1378bf05fd6cabd03be4fd782"
     },
     {
         "path": "app/src/main/res/raw/intl_messages_internationalcompiledmessages.jsona",
@@ -19431,7 +19319,7 @@
     },
     {
         "path": "app/src/main/res/raw/keep.xml",
-        "hash": "3de7c9703c84935c65620e9ac29a834d"
+        "hash": "c8beba474e28e1b038e5ef69ea9e58bd"
     },
     {
         "path": "app/src/main/res/raw/modules_activity_privacy_activityprivacycompiledmessages.jsona",
@@ -19499,7 +19387,7 @@
     },
     {
         "path": "app/src/main/res/raw/modules_custom_typing_indicator_intl_customtypingindicatorcompiledmessages.jsona",
-        "hash": "99914b932bd37a50b983c5e7c90ae93b"
+        "hash": "362220741698c958380d57bc79f7ecaa"
     },
     {
         "path": "app/src/main/res/raw/modules_display_name_styles_intl_displaynamestylescompiledmessages.jsona",
@@ -19507,7 +19395,7 @@
     },
     {
         "path": "app/src/main/res/raw/modules_favorites_intl_favoritesguildcompiledmessages.jsona",
-        "hash": "d9b78fe4323ae3d3108d909757653fe3"
+        "hash": "6cfbe96e81406e98fd221897592b94fc"
     },
     {
         "path": "app/src/main/res/raw/modules_feedback_intl_feedbackcompiledmessages.jsona",
