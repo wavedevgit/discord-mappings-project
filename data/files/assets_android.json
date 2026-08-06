@@ -3151,15 +3151,7 @@
     },
     {
         "path": "app/src/main/assets/index.android.bundle",
-        "hash": "5a400882665f5d377268453281b8072f"
-    },
-    {
-        "path": "app/src/main/res/drawable-hdpi/_node_modules_pnpm_reactnavigationelements1330_5pojssvs3apui5lqpn7jym3zoq_node_modules_reactnavigation_elements_src_assets_backicon.png",
-        "hash": "376d6a4c7f622917c39feb23671ef71d"
-    },
-    {
-        "path": "app/src/main/res/drawable-hdpi/_node_modules_pnpm_reactnavigationelements1331_5pojssvs3apui5lqpn7jym3zoq_node_modules_reactnavigation_elements_src_assets_backicon.png",
-        "hash": "376d6a4c7f622917c39feb23671ef71d"
+        "hash": "611384d91217053392aa0a9b6965942f"
     },
     {
         "path": "app/src/main/res/drawable-mdpi/_discord_common_js_shared_images_flags_bg.png",
@@ -3286,20 +3278,24 @@
         "hash": "4db0790f7a81e49025d7fbfb9aeb182c"
     },
     {
-        "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements1330_5pojssvs3apui5lqpn7jym3zoq_node_modules_reactnavigation_elements_src_assets_backicon.png",
+        "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements2934_ftmlesghkjntutf2g44cjhojby_node_modules_reactnavigation_elements_lib_module_assets_backicon.png",
         "hash": "778ffc9fe8773a878e9c30a6304784de"
     },
     {
-        "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements1330_5pojssvs3apui5lqpn7jym3zoq_node_modules_reactnavigation_elements_src_assets_backiconmask.png",
-        "hash": "5223c8d9b0d08b82a5670fb5f71faf78"
+        "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements2934_ftmlesghkjntutf2g44cjhojby_node_modules_reactnavigation_elements_lib_module_assets_backiconmask.png",
+        "hash": "0a328cd9c1afd0afe8e3b1ec5165b1b4"
     },
     {
-        "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements1331_5pojssvs3apui5lqpn7jym3zoq_node_modules_reactnavigation_elements_src_assets_backicon.png",
-        "hash": "778ffc9fe8773a878e9c30a6304784de"
+        "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements2934_ftmlesghkjntutf2g44cjhojby_node_modules_reactnavigation_elements_lib_module_assets_clearicon.png",
+        "hash": "61ca7e64b7d605716c57706cef640b9a"
     },
     {
-        "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements1331_5pojssvs3apui5lqpn7jym3zoq_node_modules_reactnavigation_elements_src_assets_backiconmask.png",
-        "hash": "5223c8d9b0d08b82a5670fb5f71faf78"
+        "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements2934_ftmlesghkjntutf2g44cjhojby_node_modules_reactnavigation_elements_lib_module_assets_closeicon.png",
+        "hash": "d84e297c3b3e49a614248143d53e40ca"
+    },
+    {
+        "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements2934_ftmlesghkjntutf2g44cjhojby_node_modules_reactnavigation_elements_lib_module_assets_searchicon.png",
+        "hash": "4403c6117ec30c859bc95d70ce4a71d3"
     },
     {
         "path": "app/src/main/res/drawable-mdpi/images_auth_backgroundsplashdev.jpg",
@@ -4542,12 +4538,20 @@
         "hash": "5985a032ce7867df6bb6e8414710271c"
     },
     {
-        "path": "app/src/main/res/drawable-xhdpi/_node_modules_pnpm_reactnavigationelements1330_5pojssvs3apui5lqpn7jym3zoq_node_modules_reactnavigation_elements_src_assets_backicon.png",
+        "path": "app/src/main/res/drawable-xhdpi/_node_modules_pnpm_reactnavigationelements2934_ftmlesghkjntutf2g44cjhojby_node_modules_reactnavigation_elements_lib_module_assets_backicon.png",
         "hash": "c79c3606a1cf168006ad3979763c7e0c"
     },
     {
-        "path": "app/src/main/res/drawable-xhdpi/_node_modules_pnpm_reactnavigationelements1331_5pojssvs3apui5lqpn7jym3zoq_node_modules_reactnavigation_elements_src_assets_backicon.png",
-        "hash": "c79c3606a1cf168006ad3979763c7e0c"
+        "path": "app/src/main/res/drawable-xhdpi/_node_modules_pnpm_reactnavigationelements2934_ftmlesghkjntutf2g44cjhojby_node_modules_reactnavigation_elements_lib_module_assets_clearicon.png",
+        "hash": "aff2c65b39a296d4f7e96d0f58169170"
+    },
+    {
+        "path": "app/src/main/res/drawable-xhdpi/_node_modules_pnpm_reactnavigationelements2934_ftmlesghkjntutf2g44cjhojby_node_modules_reactnavigation_elements_lib_module_assets_closeicon.png",
+        "hash": "1190ab078c57159f4245a328118fcd9a"
+    },
+    {
+        "path": "app/src/main/res/drawable-xhdpi/_node_modules_pnpm_reactnavigationelements2934_ftmlesghkjntutf2g44cjhojby_node_modules_reactnavigation_elements_lib_module_assets_searchicon.png",
+        "hash": "069d99eb1fa6712c0b9034a58c6b57dd"
     },
     {
         "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_accessibilityicon.png",
@@ -6000,6 +6004,10 @@
     {
         "path": "app/src/main/res/drawable-xhdpi/design_components_illustration_native_redesign_generated_images_img_bans_empty_darker.png",
         "hash": "56d1868688d60d30de8e4b7215b0ecb5"
+    },
+    {
+        "path": "app/src/main/res/drawable-xhdpi/design_components_illustration_native_redesign_generated_images_img_invalid_link_darker.png",
+        "hash": "5872a71fa6c2e7da1d2267ffabb99f17"
     },
     {
         "path": "app/src/main/res/drawable-xhdpi/design_components_illustration_native_redesign_generated_images_img_invite_empty_darker.png",
@@ -9082,12 +9090,20 @@
         "hash": "03db945049f9f25f8e27a20efa89ef14"
     },
     {
-        "path": "app/src/main/res/drawable-xxhdpi/_node_modules_pnpm_reactnavigationelements1330_5pojssvs3apui5lqpn7jym3zoq_node_modules_reactnavigation_elements_src_assets_backicon.png",
+        "path": "app/src/main/res/drawable-xxhdpi/_node_modules_pnpm_reactnavigationelements2934_ftmlesghkjntutf2g44cjhojby_node_modules_reactnavigation_elements_lib_module_assets_backicon.png",
         "hash": "02bc1fa7c0313217bde2d65ccbff40c9"
     },
     {
-        "path": "app/src/main/res/drawable-xxhdpi/_node_modules_pnpm_reactnavigationelements1331_5pojssvs3apui5lqpn7jym3zoq_node_modules_reactnavigation_elements_src_assets_backicon.png",
-        "hash": "02bc1fa7c0313217bde2d65ccbff40c9"
+        "path": "app/src/main/res/drawable-xxhdpi/_node_modules_pnpm_reactnavigationelements2934_ftmlesghkjntutf2g44cjhojby_node_modules_reactnavigation_elements_lib_module_assets_clearicon.png",
+        "hash": "d8e7601e3df962f83c62371ac14964d8"
+    },
+    {
+        "path": "app/src/main/res/drawable-xxhdpi/_node_modules_pnpm_reactnavigationelements2934_ftmlesghkjntutf2g44cjhojby_node_modules_reactnavigation_elements_lib_module_assets_closeicon.png",
+        "hash": "78c625386b4d0690b421eb0fc78f7b9c"
+    },
+    {
+        "path": "app/src/main/res/drawable-xxhdpi/_node_modules_pnpm_reactnavigationelements2934_ftmlesghkjntutf2g44cjhojby_node_modules_reactnavigation_elements_lib_module_assets_searchicon.png",
+        "hash": "c3273c9e5321f20d1e42c2efae2578c4"
     },
     {
         "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_accessibilityicon.png",
@@ -10540,6 +10556,10 @@
     {
         "path": "app/src/main/res/drawable-xxhdpi/design_components_illustration_native_redesign_generated_images_img_bans_empty_darker.png",
         "hash": "cc6e12078c63249950af176df8a7fb2d"
+    },
+    {
+        "path": "app/src/main/res/drawable-xxhdpi/design_components_illustration_native_redesign_generated_images_img_invalid_link_darker.png",
+        "hash": "07c03ed8d711aab7e1d071cdaefa7a64"
     },
     {
         "path": "app/src/main/res/drawable-xxhdpi/design_components_illustration_native_redesign_generated_images_img_invite_empty_darker.png",
@@ -13622,12 +13642,20 @@
         "hash": "6b5164e859883ef60ddddebd4532684a"
     },
     {
-        "path": "app/src/main/res/drawable-xxxhdpi/_node_modules_pnpm_reactnavigationelements1330_5pojssvs3apui5lqpn7jym3zoq_node_modules_reactnavigation_elements_src_assets_backicon.png",
+        "path": "app/src/main/res/drawable-xxxhdpi/_node_modules_pnpm_reactnavigationelements2934_ftmlesghkjntutf2g44cjhojby_node_modules_reactnavigation_elements_lib_module_assets_backicon.png",
         "hash": "35ba0eaec5a4f5ed12ca16fabeae451d"
     },
     {
-        "path": "app/src/main/res/drawable-xxxhdpi/_node_modules_pnpm_reactnavigationelements1331_5pojssvs3apui5lqpn7jym3zoq_node_modules_reactnavigation_elements_src_assets_backicon.png",
-        "hash": "35ba0eaec5a4f5ed12ca16fabeae451d"
+        "path": "app/src/main/res/drawable-xxxhdpi/_node_modules_pnpm_reactnavigationelements2934_ftmlesghkjntutf2g44cjhojby_node_modules_reactnavigation_elements_lib_module_assets_clearicon.png",
+        "hash": "3cd68ccdb8938e3711da2e8831b85493"
+    },
+    {
+        "path": "app/src/main/res/drawable-xxxhdpi/_node_modules_pnpm_reactnavigationelements2934_ftmlesghkjntutf2g44cjhojby_node_modules_reactnavigation_elements_lib_module_assets_closeicon.png",
+        "hash": "0747a1317bbe9c6fc340b889ef8ab3ae"
+    },
+    {
+        "path": "app/src/main/res/drawable-xxxhdpi/_node_modules_pnpm_reactnavigationelements2934_ftmlesghkjntutf2g44cjhojby_node_modules_reactnavigation_elements_lib_module_assets_searchicon.png",
+        "hash": "286d67d3f74808a60a78d3ebf1a5fb57"
     },
     {
         "path": "app/src/main/res/drawable-xxxhdpi/modules_main_tabs_v2_native_channel_header_images_iconsearch.png",
@@ -15747,123 +15775,123 @@
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_bgmessages6e03ce5aff4b544a9a2cf63d938e4b41compiledmessages.jsona",
-        "hash": "d3212988ee8b31e2f99f5f603ca076d2"
+        "hash": "2483f63faf283e44df6cc3d72adb0f6c"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_csmessages7b42ff38c4ea57d0971ce1c3bd994df4compiledmessages.jsona",
-        "hash": "815c7805a17d315f9791222a8791f3fd"
+        "hash": "9fd124f7792179b44a10ff59ecc756ab"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_damessages11d32cb6efb98b2c1b8b3626e9009252compiledmessages.jsona",
-        "hash": "094b6ea0952a3453c0c36884fec5a452"
+        "hash": "bdd92569c7fb1238c4572f6d4d319121"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_demessages3628c05fcedb9e04bf6850a623ba1707compiledmessages.jsona",
-        "hash": "5beeb7d440b1d6d9f9b713b23b321704"
+        "hash": "8e0e8481261798623db84f29c2c33a82"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_elmessages1b8f326f34baad4cef2cee6b32023923compiledmessages.jsona",
-        "hash": "e9388082b49dc4ad2205e8dd3d345432"
+        "hash": "f99619de1303aff5595b3c736c91cbd4"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_engbmessages88b83aa2e40bf13570624a9663e933b6compiledmessages.jsona",
-        "hash": "ab317b2d92635c3b54c05ca1bc99ed60"
+        "hash": "da4fa693a4149d26e46ef54e51780828"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_es419messages51f020e71bedb134fb8918b7a015b3aecompiledmessages.jsona",
-        "hash": "e30176b04e2a323d5810f4114b3db32f"
+        "hash": "61e9ec31036daa882e681e8564ff532a"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_esesmessagese0beb088f60647444f98b71c861d3d90compiledmessages.jsona",
-        "hash": "11edab1360288cf5f2e3baa3cf8e3237"
+        "hash": "0bb1d821d53669dee2fb7fc261aa4bcc"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_fimessages826a66589a95c9936d5bea0dcfe38daecompiledmessages.jsona",
-        "hash": "04528667dd9eec4d9c768b59bc17154e"
+        "hash": "b00e33d3078b26d22c39588e22ee0f1e"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_frmessagesafd68bbede324e95df7429b900ebc7d5compiledmessages.jsona",
-        "hash": "7aad240c78c601a309cbf31697a8919e"
+        "hash": "8338468309beff37089df0dca485e74e"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_himessages24075362687827394168966bb63d7b48compiledmessages.jsona",
-        "hash": "e3303622007e547831ab592fd0ae2be6"
+        "hash": "e07d07ad81f2f9f75ac2c259c1478ec1"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_hrmessages67f53d30a9fc410fb454882c210b5f56compiledmessages.jsona",
-        "hash": "519c890e3842ae7c6a4c5390ce291e92"
+        "hash": "2ce7f1f024c5987a0c36cc8d6b1362f5"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_humessages386b83f47e7611c3d65ce85e0d8c6fffcompiledmessages.jsona",
-        "hash": "3aaac459c8920370c175d03f8dd3254b"
+        "hash": "7619f73fdff5d53c528a5226ceb7a2d5"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_itmessagesdcc3bf665ed5e16f23e660902b3a6baecompiledmessages.jsona",
-        "hash": "1372a6dcfcda745834bb8f2df6601792"
+        "hash": "103609780e5efa7e35797fb59574d0b4"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_jamessages763793c7099245a420c5db6df98b717ccompiledmessages.jsona",
-        "hash": "6a7306e9a54b59d886c476ada45ef324"
+        "hash": "ab685bce102b780ec0ecbcbc0fb07155"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_komessagesc6767c18cafae063a94f959cb1be9cc0compiledmessages.jsona",
-        "hash": "b0da3dd1ea601a5ad99ec652c3a50e1e"
+        "hash": "58d50df4e20ebfb4317f8b8c82785ed8"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_ltmessages7959ae119b96f9057431e495b422ba9dcompiledmessages.jsona",
-        "hash": "72478855243949fba45716af94ebd541"
+        "hash": "d302555054fa8515c1dcce12cf0208db"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_nlmessagesa4ca871aaea0e7be55a655cd29570ad5compiledmessages.jsona",
-        "hash": "9c4afa7e0486a66d6c487b5288ba0fa4"
+        "hash": "521213e7d7b9650d7895abcf7767d843"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_nomessages54d2f0c07c55c1cf79a124f2a194fb90compiledmessages.jsona",
-        "hash": "9e538eac24eb09354b87b3598e0ce8eb"
+        "hash": "f1b801cf2c9d98f97bf06ed1829fff65"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_plmessages51f97fd05212f5f3c4af7a6253c4588ccompiledmessages.jsona",
-        "hash": "e24accc3cc98abc1cc2ade0ea31dbf9c"
+        "hash": "685a404c819bb1545b1baa0841fc4a43"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_ptbrmessages4831446207a3ea94b0c20522b432028dcompiledmessages.jsona",
-        "hash": "940d2618659b0c178e917c3ca6abf910"
+        "hash": "52ac6dd6fa8f82d990dac72f17d6aaeb"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_romessagesb5448f5ba75867dfd83c9c3aabeb897ecompiledmessages.jsona",
-        "hash": "15fda8fa134f9bcf9adc0726a8ddc15e"
+        "hash": "8320e393e26516b1c4a25bfebc0d5d4b"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_rumessages98e4a61ab17c7da2f6c78c15ad5e75d1compiledmessages.jsona",
-        "hash": "b9501ad8c42570aad978946fd036a894"
+        "hash": "57ea4ae18f09afcb726f9e16b11c7ebd"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_svsemessagesb1800b35e54a3ae5ccd1e8117dc0ca24compiledmessages.jsona",
-        "hash": "3f4d431601b4b758b980e6388ce7f68c"
+        "hash": "9948bac4072ea084b7f0beb187c0f624"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_thmessages8c5987c77d38ac187620c51141193750compiledmessages.jsona",
-        "hash": "15fce1e85a631aa92e399267e7de4308"
+        "hash": "8ff5aee3312f861e128694ab8b4fb487"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_trmessages1bb57ed821c2f7494f623b56005f91b4compiledmessages.jsona",
-        "hash": "61f430306c5eea2a6a1b1152227f60eb"
+        "hash": "c4cb3eef5b294f2a694d25250172165b"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_ukmessagesb4b37587acf84a63ada9bee7e3383162compiledmessages.jsona",
-        "hash": "7ad0e5b474275769c177a6296521f824"
+        "hash": "5a1a42754e5f3fe9f0555b96618039fa"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_vimessagesa0e63da42b71c8f5e39071c580dc8b43compiledmessages.jsona",
-        "hash": "f1b07207f86087cc1834a7c39dbcbc88"
+        "hash": "a2251a0a8688fe0bb1357aaab3f78624"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_zhcnmessagesb2c52500bda5cbb700ea16889e99b1f8compiledmessages.jsona",
-        "hash": "241bda065f26a6cc655fca5b90c9430a"
+        "hash": "88e8545e71509422c55fecca678b9933"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9myxzvcml0zxmvaw50ba_zhtwmessages997379e22fb79974de3551d7252dd0f5compiledmessages.jsona",
-        "hash": "3050911d8ee0c3a9b30afd73a5c3eba8"
+        "hash": "2371762cb77709bca9c1d37e5d595db9"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcy9mzwvkymfjaw_bgmessagesac92ec7499a82c2d4a8bd54421169d06compiledmessages.jsona",
@@ -19307,7 +19335,7 @@
     },
     {
         "path": "app/src/main/res/raw/intl_messages_enuscompiledmessages.jsona",
-        "hash": "a16be8f1378bf05fd6cabd03be4fd782"
+        "hash": "eef6fd9e06486c2f17b686837ecb4b7c"
     },
     {
         "path": "app/src/main/res/raw/intl_messages_internationalcompiledmessages.jsona",
@@ -19319,7 +19347,7 @@
     },
     {
         "path": "app/src/main/res/raw/keep.xml",
-        "hash": "c8beba474e28e1b038e5ef69ea9e58bd"
+        "hash": "d630d4fddda30563e9d7fa3e208216e7"
     },
     {
         "path": "app/src/main/res/raw/modules_activity_privacy_activityprivacycompiledmessages.jsona",
@@ -19327,7 +19355,7 @@
     },
     {
         "path": "app/src/main/res/raw/modules_age_assurance_ageassurancecompiledmessages.jsona",
-        "hash": "cdc0fdb956dcb954e1f9c018f046ad84"
+        "hash": "a321d9335d1936b506630fe7329e6717"
     },
     {
         "path": "app/src/main/res/raw/modules_application_account_linking_accountlinkingcompiledmessages.jsona",
@@ -19395,7 +19423,7 @@
     },
     {
         "path": "app/src/main/res/raw/modules_favorites_intl_favoritesguildcompiledmessages.jsona",
-        "hash": "6cfbe96e81406e98fd221897592b94fc"
+        "hash": "44256b8dc9522a4d1c6824b25e0c2bb5"
     },
     {
         "path": "app/src/main/res/raw/modules_feedback_intl_feedbackcompiledmessages.jsona",
