@@ -660,7 +660,6 @@
 {"id":"40344.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"403777.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"40449.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
-{"id":"404851.js","paths":["discord_app/modules/analytics_sessions/SkippedClientHeartbeatExperiment.tsx"]}
 {"id":"405921.js","paths":["assets/images/platforms/img_account_sync_crunchyroll_light_and_dark.png","discord_app/src/main/res/drawable-mdpi/images_platforms_img_account_sync_crunchyroll_light_and_dark.png"]}
 {"id":"406704.js","paths":["../discord_common/js/shared/shared-constants/WishlistVisibility.tsx"]}
 {"id":"408100.js","paths":["assets/_discord_common/js/shared/images/flags/cs.png","discord_app/src/main/res/drawable-mdpi/_discord_common_js_shared_images_flags_cs.png"]}
@@ -906,7 +905,6 @@
 {"id":"52643.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"529398.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"529942.js","paths":["discord_app/modules/impersonate/ImpersonateActionCreators.tsx"]}
-{"id":"530789.js","paths":["discord_app/actions/SelectedChannelActionCreators.tsx"]}
 {"id":"530951.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"531648.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"5320.js","paths":["../discord_common/js/shared/shared-constants/AudioSettingsDefaultVolumes.tsx"]}
@@ -1062,6 +1060,7 @@
 {"id":"591179.js","paths":["discord_app/modules/user_profile/experiments/UserProfileWYSIWYGEditingExperiment.tsx"]}
 {"id":"591566.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"591594.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
+{"id":"592329.js","paths":["discord_app/actions/SelectedChannelActionCreators.tsx"]}
 {"id":"593032.js","paths":["discord_app/modules/premium/experiments/PremiumGroupExperiment.tsx"]}
 {"id":"593221.js","paths":["../discord_common/js/shared/shared-constants/AudioSettingsDefaultVolumes.tsx"]}
 {"id":"593643.js","paths":["discord_app/modules/channel/VoiceChannelBadgeExperiment.tsx"]}
