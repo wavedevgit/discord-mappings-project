@@ -439,10 +439,6 @@
 {"id":"315240.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"315790.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"317097.js","paths":["../discord_common/js/shared/utils/ColorUtils.tsx"]}
-{"id":"31720.js","paths":["discord_app/modules/age_assurance/AgeVerificationExpressiveModalEverywhereExperiment.tsx"]}
-{"id":"31720.js","paths":["discord_app/modules/age_assurance/AgeVerificationIncodeExperiment.tsx"]}
-{"id":"31720.js","paths":["discord_app/modules/age_assurance/ExpressiveModalV2Experiment.tsx"]}
-{"id":"31720.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"317910.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
 {"id":"318729.js","paths":["discord_app/modules/guild_automod/AutomodExperiment.tsx"]}
 {"id":"319060.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
@@ -571,6 +567,9 @@
 {"id":"379197.js","paths":["../discord_common/js/shared/shared-constants/CollectiblesMarketingPlatform.tsx"]}
 {"id":"379197.js","paths":["../discord_common/js/shared/shared-constants/CollectiblesMarketingSurface.tsx"]}
 {"id":"379197.js","paths":["../discord_common/js/shared/shared-constants/MarketingComponentPlatform.tsx"]}
+{"id":"379257.js","paths":["discord_app/modules/age_assurance/AgeVerificationExpressiveModalEverywhereExperiment.tsx"]}
+{"id":"379257.js","paths":["discord_app/modules/age_assurance/AgeVerificationIncodeExperiment.tsx"]}
+{"id":"379257.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"379587.js","paths":["discord_app/modules/favorites/FavoritesGuildExperiment.tsx"]}
 {"id":"37965.js","paths":["discord_app/modules/errors/VideoStreamReadyActionCreators.tsx"]}
 {"id":"379834.js","paths":["../discord_common/js/shared/shared-constants/TrendingType.tsx"]}
@@ -768,6 +767,7 @@
 {"id":"460760.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
 {"id":"460890.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"461213.js","paths":["../discord_common/js/shared/shared-constants/AudioSettingsDefaultVolumes.tsx"]}
+{"id":"462924.js","paths":["discord_app/modules/age_assurance/ExpressiveModalV2Experiment.tsx"]}
 {"id":"463105.js","paths":["discord_app/actions/SelectedChannelActionCreators.tsx"]}
 {"id":"464035.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"46477.js","paths":["../discord_common/js/shared/shared-constants/ApplicationIntegrationType.tsx"]}
