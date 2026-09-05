@@ -221,7 +221,6 @@
 {"id":"20847.js","paths":["assets/images/platforms/img_account_sync_battlenet_white.png","discord_app/src/main/res/drawable-mdpi/images_platforms_img_account_sync_battlenet_white.png"]}
 {"id":"208882.js","paths":["discord_app/modules/directory_channels/GuildDirectoryActionCreators.tsx"]}
 {"id":"208882.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
-{"id":"210804.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"210978.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"2110.js","paths":["../discord_common/js/shared/shared-constants/ReportMenuType.tsx"]}
 {"id":"211287.js","paths":["discord_app/modules/virtual_currency/experiments/OrbRedemptionOrdersExperiment.tsx"]}
@@ -550,6 +549,8 @@
 {"id":"360469.js","paths":["../discord_common/js/shared/shared-constants/MarketingComponentPlatform.tsx"]}
 {"id":"360729.js","paths":["discord_app/modules/guild_rooms/GuildRoomsExperiment.tsx"]}
 {"id":"361160.js","paths":["assets/_discord_common/js/shared/images/flags/sv-SE.png","discord_app/src/main/res/drawable-mdpi/_discord_common_js_shared_images_flags_svse.png"]}
+{"id":"36149.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
+{"id":"36149.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"361610.js","paths":["discord_app/actions/GuildSubscriptionsActionCreators.tsx"]}
 {"id":"361845.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"361845.js","paths":["../discord_common/js/shared/shared-constants/CollectibleSearchItemType.tsx"]}
@@ -988,6 +989,7 @@
 {"id":"557722.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"558285.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"558393.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
+{"id":"558536.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"559868.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"559868.js","paths":["../discord_common/js/shared/shared-constants/CollectiblesMarketingPlatform.tsx"]}
 {"id":"559868.js","paths":["../discord_common/js/shared/shared-constants/MarketingComponentPlatform.tsx"]}
@@ -1053,7 +1055,6 @@
 {"id":"584777.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"584904.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"586035.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
-{"id":"588816.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"589051.js","paths":["discord_app/modules/overlay/OverlayV3Experiment.tsx"]}
 {"id":"589158.js","paths":["../discord_common/js/shared/shared-constants/AudioSettingsDefaultVolumes.tsx"]}
 {"id":"589603.js","paths":["discord_app/modules/premium/game_server/experiments/GameServerTabAlwaysOnExperiment.tsx"]}
@@ -1088,6 +1089,7 @@
 {"id":"604199.js","paths":["assets/images/platforms/img_account_sync_league_of_legends_light_and_dark.svg","discord_app/src/main/res/raw/images_platforms_img_account_sync_league_of_legends_light_and_dark.svg"]}
 {"id":"60465.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"605023.js","paths":["assets/images/platforms/img_account_sync_reddit_light_and_dark.svg","discord_app/src/main/res/raw/images_platforms_img_account_sync_reddit_light_and_dark.svg"]}
+{"id":"606109.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"60662.js","paths":["assets/images/platforms/img_account_sync_reddit_white.png","discord_app/src/main/res/drawable-mdpi/images_platforms_img_account_sync_reddit_white.png"]}
 {"id":"607399.js","paths":["../discord_common/js/shared/lib/PlatformUtils.tsx"]}
 {"id":"607567.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
@@ -1546,6 +1548,7 @@
 {"id":"788439.js","paths":["assets/images/platforms/img_bungie_light.png","discord_app/src/main/res/drawable-mdpi/images_platforms_img_bungie_light.png"]}
 {"id":"788504.js","paths":["discord_app/src/main/res/drawable-mdpi/images_platforms_img_meta_quest_white.png"]}
 {"id":"788563.js","paths":["discord_app/modules/premium/game_server/experiments/NewGamesCoachmarkExperiment.tsx"]}
+{"id":"788998.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"789105.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
 {"id":"790271.js","paths":["discord_app/modules/design/PlaygroundAccessExperiment.tsx"]}
 {"id":"790610.js","paths":["../discord_common/js/shared/shared-constants/AudioSettingsDefaultVolumes.tsx"]}
@@ -1558,7 +1561,6 @@
 {"id":"792620.js","paths":["../discord_common/js/shared/shared-constants/FirstPartyQuestTaskTypes.tsx"]}
 {"id":"792620.js","paths":["../discord_common/js/shared/shared-constants/MarketingComponentPlatform.tsx"]}
 {"id":"792778.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
-{"id":"793058.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"793322.js","paths":["discord_app/modules/quickswitcher/QuickSwitcherActionCreators.tsx"]}
 {"id":"793322.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"793574.js","paths":["../discord_common/js/shared/shared-constants/AudioSettingsDefaultVolumes.tsx"]}
@@ -1841,8 +1843,6 @@
 {"id":"92960.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"93055.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
 {"id":"931260.js","paths":["../discord_common/js/shared/shared-constants/FeaturedSubblockType.tsx"]}
-{"id":"931374.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
-{"id":"931374.js","paths":["../discord_common/js/shared/shared-constants/QuestTaskJoinOperator.tsx"]}
 {"id":"931481.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"932140.js","paths":["../discord_common/js/shared/shared-constants/AutomodInteractionCallbackTypeEmbedKeys.tsx"]}
 {"id":"933725.js","paths":["discord_app/modules/guild_tag/GuildTagActionCreators.tsx"]}
