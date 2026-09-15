@@ -932,10 +932,6 @@
         "etag": "W/\"2c25b19b4feaf5cc5cfd92a7b02fc211\""
     },
     {
-        "url": "https://canary.discord.com/assets/f7d3c9d2dac1d273.png",
-        "etag": "\"8279837d7e77fa749106114b97feb2b1\""
-    },
-    {
         "url": "https://canary.discord.com/assets/8939308e81c26c1e.svg",
         "etag": "W/\"9618b50a9153e13446d5239cfcb5501f\""
     },
@@ -1046,6 +1042,10 @@
     {
         "url": "https://canary.discord.com/assets/138bc456f5fc66e5.svg",
         "etag": "W/\"782c5bd88fb4750d99cf6655fba03474\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/f08ab72341fd7c04.wasm",
+        "etag": "W/\"c0e90bcdd9d57c210190c7ff04dc15f3\""
     },
     {
         "url": "https://canary.discord.com/assets/4f53c2f31ea0cdd8.mp3",
@@ -4440,6 +4440,10 @@
         "etag": "W/\"744e3c8dedcebb70840ab009f95b13d3\""
     },
     {
+        "url": "https://canary.discord.com/assets/e1de15fcffa3f12d.lottie",
+        "etag": "\"a2de4298a49af0745e32ca4d1a43dd03\""
+    },
+    {
         "url": "https://canary.discord.com/assets/a013eacaca2ff719.svg",
         "etag": "W/\"aff6d39f4947f22f042e67ac21a9dc7a\""
     },
@@ -6718,10 +6722,6 @@
     {
         "url": "https://canary.discord.com/assets/2f387366da913127.svg",
         "etag": "W/\"81b415149fbcfe7dfc9b78859b033808\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/b2aa7aee47f0a26b.wasm",
-        "etag": "W/\"6e98d9d0d30de795c2e64f44fc886e52\""
     },
     {
         "url": "https://canary.discord.com/assets/6f2ac0617c61ad74.svg",
@@ -9106,10 +9106,6 @@
     {
         "url": "https://canary.discord.com/assets/f80ea2e7b7681adc.svg",
         "etag": "W/\"1a7681dc245b3106404849f80f5937a0\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/e1de15fcffa3f12d.lottie",
-        "etag": "\"a2de4298a49af0745e32ca4d1a43dd03\""
     },
     {
         "url": "https://canary.discord.com/assets/c5e4a7581b2beb20.svg",
@@ -12410,10 +12406,6 @@
     {
         "url": "https://canary.discord.com/assets/46436fd7b08f1aef.svg",
         "etag": "W/\"59bdcc534c0d1adc1fb7575a1a4785a6\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/94baa41716e3ba84.svg",
-        "etag": "W/\"d1dab93347ab65e2b31d9dc39c9c5a9a\""
     },
     {
         "url": "https://canary.discord.com/assets/5297b6252ddf06e0.svg",
