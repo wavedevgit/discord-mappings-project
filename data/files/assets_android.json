@@ -3151,7 +3151,7 @@
     },
     {
         "path": "app/src/main/assets/index.android.bundle",
-        "hash": "411a98cb2eb48f3259bd65877b8a18d1"
+        "hash": "76b1360ec381a40b25b7e39aa29de51f"
     },
     {
         "path": "app/src/main/res/drawable-mdpi/_discord_common_js_shared_images_flags_bg.png",
@@ -5782,6 +5782,10 @@
         "hash": "7de30f59e4b6ed60aab6a013bbbbc444"
     },
     {
+        "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_sparklesicon.png",
+        "hash": "6a4f89888d6a1df5c847006c10932de2"
+    },
+    {
         "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_speedometericon.png",
         "hash": "5cc8d497a4b7adbb5cb17dbee4406456"
     },
@@ -6740,10 +6744,6 @@
     {
         "path": "app/src/main/res/drawable-xhdpi/images_native_ic_launch.png",
         "hash": "c97a61ca0f05e60e593b4d6afcd2e7f6"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/images_native_ic_message_retry.png",
-        "hash": "74c8dd6db77c333a6c31c7e2247bd627"
     },
     {
         "path": "app/src/main/res/drawable-xhdpi/images_native_ic_report_message.png",
@@ -10438,6 +10438,10 @@
         "hash": "ecd64a13ff046aa9632c00a8db9e46ff"
     },
     {
+        "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_sparklesicon.png",
+        "hash": "615f123e44f3a57cf480969ad21062d0"
+    },
+    {
         "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_speedometericon.png",
         "hash": "77772e5bb700a1251d73fc928d417fa3"
     },
@@ -11392,10 +11396,6 @@
     {
         "path": "app/src/main/res/drawable-xxhdpi/images_native_ic_launch.png",
         "hash": "315f9bef90f79e03f864c06c3603ee96"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/images_native_ic_message_retry.png",
-        "hash": "975dd57a497e78396eff8899a6bd448b"
     },
     {
         "path": "app/src/main/res/drawable-xxhdpi/images_native_ic_report_message.png",
@@ -21111,7 +21111,7 @@
     },
     {
         "path": "app/src/main/res/raw/keep.xml",
-        "hash": "7c0ed0caf2de533d1d166425f1507590"
+        "hash": "ff6b0149517b7880b1c44cfcaa2afe42"
     },
     {
         "path": "app/src/main/res/raw/modules_activity_privacy_activityprivacycompiledmessages.jsona",
@@ -21387,7 +21387,7 @@
     },
     {
         "path": "app/src/main/res/raw/modules_vibegrations_intl_vibegrationsuntranslatedcompiledmessages.jsona",
-        "hash": "80b0d2d7044e05df22f1bde9d2059796"
+        "hash": "3dad5fbbe88676492e4bb4febb44b474"
     },
     {
         "path": "app/src/main/res/raw/modules_video_player_videoplayercompiledmessages.jsona",
