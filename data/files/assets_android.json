@@ -3151,7 +3151,7 @@
     },
     {
         "path": "app/src/main/assets/index.android.bundle",
-        "hash": "74920154765c5bfcc7451cd5d2334cb6"
+        "hash": "aaf226ed93ff40e6c21e127b2360009b"
     },
     {
         "path": "app/src/main/res/drawable-mdpi/_discord_common_js_shared_images_flags_bg.png",
@@ -4482,10 +4482,6 @@
         "hash": "4e5403d766bb4ba4e49048f04c5c02a5"
     },
     {
-        "path": "app/src/main/res/drawable-mdpi/modules_stage_channels_native_images_ic_person_status.png",
-        "hash": "86a78fb724ffdf13c118306587214f22"
-    },
-    {
         "path": "app/src/main/res/drawable-mdpi/modules_stage_channels_native_images_ic_raised_hand_list.png",
         "hash": "04566b0f82d0cefbc82b0c4ff89a9ff6"
     },
@@ -4510,12 +4506,16 @@
         "hash": "3242472af4b2e23c11a6819589c5f999"
     },
     {
-        "path": "app/src/main/res/drawable-mdpi/modules_stage_channels_native_images_img_empty_audience.png",
-        "hash": "c1568d2ab71027cc91d334784bf23364"
-    },
-    {
         "path": "app/src/main/res/drawable-mdpi/modules_user_settings_account_native_images_lock.png",
         "hash": "3717d4f3d67791d64f1268452a307529"
+    },
+    {
+        "path": "app/src/main/res/drawable-mdpi/modules_vibegrations_native_images_conjuring_activity_dark.png",
+        "hash": "d9987384d043f6e97a1f4e1e101417e9"
+    },
+    {
+        "path": "app/src/main/res/drawable-mdpi/modules_vibegrations_native_images_conjuring_activity_light.png",
+        "hash": "7c56e42d1fe92f150065ab3c4bdd334d"
     },
     {
         "path": "app/src/main/res/drawable-mdpi/modules_virtual_currency_images_native_heroorbs.png",
@@ -4620,6 +4620,10 @@
     {
         "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_arrowlargeupicon.png",
         "hash": "74556f74c8ccad82af4d973372efe3bb"
+    },
+    {
+        "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_arrowsleftrighticon.png",
+        "hash": "8e8bc475482cdbeb4bec3fe3d17f8eb4"
     },
     {
         "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_arrowsmalldownicon.png",
@@ -5144,6 +5148,10 @@
     {
         "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_experimentalcommonicon.png",
         "hash": "ed81bf0e56c3a24245690e5fd657fbce"
+    },
+    {
+        "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_experimentaldirectselecticon.png",
+        "hash": "f2f81192e73dd3d57d42849e63a92b2f"
     },
     {
         "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_experimentalepicicon.png",
@@ -8614,22 +8622,6 @@
         "hash": "057afd71a02f0e93c1acd2f15ebea5f6"
     },
     {
-        "path": "app/src/main/res/drawable-xhdpi/modules_guild_settings_roles_native_images_illustrationdark.png",
-        "hash": "11ba9758db0e5d407b12925e18d05831"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/modules_guild_settings_roles_native_images_illustrationdarklarge.png",
-        "hash": "a534f6b30211f631eca1f010b4f65aa3"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/modules_guild_settings_roles_native_images_illustrationlight.png",
-        "hash": "fd553055261bfcc820eed4efca393de1"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/modules_guild_settings_roles_native_images_illustrationlightlarge.png",
-        "hash": "a9341869d8d4c6b1801b7a703753e440"
-    },
-    {
         "path": "app/src/main/res/drawable-xhdpi/modules_guild_templates_native_images_ic_guild_template.png",
         "hash": "c6f6424a1ef92cff8dbf87dc058f0023"
     },
@@ -9006,10 +8998,6 @@
         "hash": "9dd48a97e12aae3a115aba379e0342b4"
     },
     {
-        "path": "app/src/main/res/drawable-xhdpi/modules_stage_channels_native_images_ic_person_status.png",
-        "hash": "640ac30b799e4fc5dda20903461fcee6"
-    },
-    {
         "path": "app/src/main/res/drawable-xhdpi/modules_stage_channels_native_images_ic_raised_hand_list.png",
         "hash": "a8290f889619afa9bbfb4491ff432da8"
     },
@@ -9032,10 +9020,6 @@
     {
         "path": "app/src/main/res/drawable-xhdpi/modules_stage_channels_native_images_ic_stage_music.png",
         "hash": "c219d06f3cf6242234ebb522f404efe6"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/modules_stage_channels_native_images_img_empty_audience.png",
-        "hash": "494b2d84c7e7a60fc920ad0eafc83c7d"
     },
     {
         "path": "app/src/main/res/drawable-xhdpi/modules_stage_channels_native_images_stagesparkles.png",
@@ -9088,6 +9072,14 @@
     {
         "path": "app/src/main/res/drawable-xhdpi/modules_user_settings_connections_native_two_way_link_images_xbox_app_phone.png",
         "hash": "ea7af977671b71c0824ebd48969211a2"
+    },
+    {
+        "path": "app/src/main/res/drawable-xhdpi/modules_vibegrations_native_images_conjuring_activity_dark.png",
+        "hash": "6b49062340b51a90dcd306cacb9a913e"
+    },
+    {
+        "path": "app/src/main/res/drawable-xhdpi/modules_vibegrations_native_images_conjuring_activity_light.png",
+        "hash": "e366311b1dd94eb54abfe9e3181c934e"
     },
     {
         "path": "app/src/main/res/drawable-xhdpi/modules_video_calls_native_images_add.png",
@@ -9272,6 +9264,10 @@
     {
         "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_arrowlargeupicon.png",
         "hash": "f4b37f0e5c821a5a0040b4e6cd62f6de"
+    },
+    {
+        "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_arrowsleftrighticon.png",
+        "hash": "314358861cfa7dcc65c0262612e80dfb"
     },
     {
         "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_arrowsmalldownicon.png",
@@ -9796,6 +9792,10 @@
     {
         "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_experimentalcommonicon.png",
         "hash": "4a6393147f9d95de7ece626f402476b7"
+    },
+    {
+        "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_experimentaldirectselecticon.png",
+        "hash": "ebc03384299935aadb5c53b8178b2f14"
     },
     {
         "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_experimentalepicicon.png",
@@ -13242,22 +13242,6 @@
         "hash": "1803dd05d8574848e6f5feae72f24371"
     },
     {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_guild_settings_roles_native_images_illustrationdark.png",
-        "hash": "58ac9be6d498fc2020d0797611731214"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_guild_settings_roles_native_images_illustrationdarklarge.png",
-        "hash": "02bdc5deeb46dff51e7c7d3907bb00b7"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_guild_settings_roles_native_images_illustrationlight.png",
-        "hash": "c97033e0b0ff52a40a70e6697458097a"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_guild_settings_roles_native_images_illustrationlightlarge.png",
-        "hash": "6365e9fe11a98319638bc6a1158f9e07"
-    },
-    {
         "path": "app/src/main/res/drawable-xxhdpi/modules_guild_templates_native_images_ic_guild_template.png",
         "hash": "7719912b133b3ffe0258d8fdc53ba9e4"
     },
@@ -13666,10 +13650,6 @@
         "hash": "30ee15f5a16691b5188be545012a1c68"
     },
     {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_stage_channels_native_images_ic_person_status.png",
-        "hash": "e35809ff3bb7df6832eab9795665e256"
-    },
-    {
         "path": "app/src/main/res/drawable-xxhdpi/modules_stage_channels_native_images_ic_raised_hand_list.png",
         "hash": "6f051223c8fd7e57d6335b1a8b82093e"
     },
@@ -13740,6 +13720,14 @@
     {
         "path": "app/src/main/res/drawable-xxhdpi/modules_user_settings_connections_native_two_way_link_images_xbox_app_phone.png",
         "hash": "54aaa0329632a1c7f16cd13c131d8c2f"
+    },
+    {
+        "path": "app/src/main/res/drawable-xxhdpi/modules_vibegrations_native_images_conjuring_activity_dark.png",
+        "hash": "d02cac54a21005f915f9b35129d9edd2"
+    },
+    {
+        "path": "app/src/main/res/drawable-xxhdpi/modules_vibegrations_native_images_conjuring_activity_light.png",
+        "hash": "4548c17a679a5bfe9c8e07747886ebd3"
     },
     {
         "path": "app/src/main/res/drawable-xxhdpi/modules_video_calls_native_images_add.png",
@@ -13927,55 +13915,55 @@
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_bgmessagesdee2c7f7bd733b350c9177a7de9aa97acompiledmessages.jsona",
-        "hash": "2bbe9cf15ae388b5e0e5952c4fda83b7"
+        "hash": "4bcd9cf168e11d9c0638a2684013f37b"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_csmessagesc9d3c6a432d9d18fa77155476e0980becompiledmessages.jsona",
-        "hash": "4c6f4b1602c4a373cd864deaff98e8ca"
+        "hash": "c644b36a5beb59d51c1e09f3f440322c"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_damessages2dc3338f77150e7ca96b0fdbbd5492a8compiledmessages.jsona",
-        "hash": "8e712e255a142fecc6fa47730c693655"
+        "hash": "04c5b9932dc3800c2514511f90df5f02"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_demessages951a66a8a4eaf1fafd57ff1d332498d0compiledmessages.jsona",
-        "hash": "2cc04f86a4b01366aac760b0b1d81214"
+        "hash": "14b2b9124f91e5341aa7887f8a1af7a6"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_elmessages1dcf7106d6b5ac979866e48067a6b20ecompiledmessages.jsona",
-        "hash": "a65462b78ea950a9662e22532a85f8ed"
+        "hash": "f8e851b4ebd3b57ce0c2eab447b09950"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_engbmessagesdb447655152b52403891dc02c04b3377compiledmessages.jsona",
-        "hash": "cf4e6abdf01f2aa19a78faae0f5a7f35"
+        "hash": "b790aa75bd6ee7bfe4bd0246a659e074"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_es419messages23e2bd99506371f56827ed7c4219732ccompiledmessages.jsona",
-        "hash": "4212be469edb5ce5ee75c37a992aecb1"
+        "hash": "041b1d23a3c015f126cd2b91eb3ddcba"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_esesmessages5584c5727f33750f3c1d476f3bdde33fcompiledmessages.jsona",
-        "hash": "92b8e2e0c6bb1bdf41cbf8fe80271bbd"
+        "hash": "9be76b421b73fcc042696d31e4917b9f"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_fimessages45586aa6cc89003c9e108d4c4a79ba5bcompiledmessages.jsona",
-        "hash": "3cd2155011dd9e2b0b96c62e255f22ea"
+        "hash": "4dabe4c35808e59ed8670428c59ac050"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_frmessagesb6d486849212bff6d51c6dce92168372compiledmessages.jsona",
-        "hash": "aec64d219089071591f75b99ffdf7d47"
+        "hash": "cf8a0c2417400a0f3af6d62f386fc707"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_himessages6db94207d54d5292ef5eef53ad69e139compiledmessages.jsona",
-        "hash": "ec4cd6bf20e467605ae575ec0ea58981"
+        "hash": "08655efab5cb563e0f10c267368e70a1"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_hrmessages4f3db354c2aa80d944945a3ef6587af2compiledmessages.jsona",
-        "hash": "9002566ba3d417b2cd8750dcaeccea6c"
+        "hash": "e276f55e2895bc0c4eeb2988bae7fe72"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_humessages7b8c49504da3e17044ab436a91af101acompiledmessages.jsona",
-        "hash": "aedd4eb600174e99136982b19295c8e0"
+        "hash": "b1f3690020f410b1982bd4994cd471d4"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_idmessagesa0aa3774e064cca7bab0fc18be60dfdfcompiledmessages.jsona",
@@ -13983,71 +13971,71 @@
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_itmessages1cf479d16efa18986eb0dbc840237f5acompiledmessages.jsona",
-        "hash": "6f309a25095a97520670e2aa00546b44"
+        "hash": "da0e0259c3e9a3e5bee4a42f798a0b37"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_jamessagese877aa72f31d715456526106e6907f72compiledmessages.jsona",
-        "hash": "847af47c4a6b6ce58730d40ad26a0d50"
+        "hash": "c474d516eaceb13ce7b552a51fb34417"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_komessagesaf1f5d35a057a71048a1f918d526912ccompiledmessages.jsona",
-        "hash": "4c1b73978b3392aca2739cd0593b2ba3"
+        "hash": "a337c75202ed86a19bd9d8a383828adb"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_ltmessages15da8cd81c3c9df2e98d91400db8c729compiledmessages.jsona",
-        "hash": "a5f80c7d52f0fc957d4622dde81840df"
+        "hash": "2a1f2d7a209e95dab7c03683240e75f5"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_nlmessagesa661206e5be0b7e45211a9aefef703c2compiledmessages.jsona",
-        "hash": "3241b1c00f2682d25f02bdfcc6f45b0e"
+        "hash": "aee3e63d35029ecb27efa88b2a6c4b1e"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_nomessages3855112dfcae890cc50d14654f2dc118compiledmessages.jsona",
-        "hash": "ec15299e481b145cdef5faa47f8eda55"
+        "hash": "f67bba698eac6e055f9fc08d643705bf"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_plmessages6e95a92a1eb984cde5ae75d29e357e84compiledmessages.jsona",
-        "hash": "daf318120ae0e4c7df3ab3aad53d36d3"
+        "hash": "eff006848fb920dec145c5d53af5c92b"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_ptbrmessagesaed15552e6ef072d9ca9f26c4036669fcompiledmessages.jsona",
-        "hash": "2d98987b13c66020fbaaba605f0397f3"
+        "hash": "dedc20f85d093e66d1335a906c2cfd95"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_romessagesdb500895872739141f1e5b90b021fa2ccompiledmessages.jsona",
-        "hash": "6c7fdfe8b70213307278daf7e783b39d"
+        "hash": "5c0f86c1af203e804b00285caa19417a"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_rumessages490ef9bdaa60baff4e38b762b8955073compiledmessages.jsona",
-        "hash": "631b353cc4acf23a2cae7d53a22f3b1a"
+        "hash": "b7028858016d5edcaab91ef950b3b0e7"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_svsemessagese26862981fed45112407ab157c891838compiledmessages.jsona",
-        "hash": "593736875591dabb39600fbbe7cdd6c0"
+        "hash": "c28276d259652b6356712977845c5055"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_thmessagesa10801670bc5c76c3f8a4d0504c5c63ecompiledmessages.jsona",
-        "hash": "8ce0343faf02edb31b4b57a67eea7969"
+        "hash": "8667fe5cf42f7ae192c912776920358f"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_trmessagesbb4726a7f1b252bbbb8d67a7b0b33a82compiledmessages.jsona",
-        "hash": "b9fb82dea928be22829eddd5e5d4d769"
+        "hash": "8b58e684035a9308deabca06e34a1090"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_ukmessagesfe9c527a3a734696bfee8e9417abc9facompiledmessages.jsona",
-        "hash": "a3529fa8085cd4c98fa4db8d480ca2b3"
+        "hash": "45b73dcd5b04554b5773b52451625ca4"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_vimessages7ae66e99eb83357e05c3d0eef3716c24compiledmessages.jsona",
-        "hash": "ab273527b67c0f8dfce9830e1a161e70"
+        "hash": "7e5a20c8a620ad19cc4f9d696c3287f0"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_zhcnmessagesef0799f9229f6609ee880092168d967acompiledmessages.jsona",
-        "hash": "8fbe57f276d1c1dfaac9f3e71635e39b"
+        "hash": "48497f80af61f987f0962bd41489c4dc"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_zhtwmessagesb24a9f2b993dacc8c7d3ddac48a3bec5compiledmessages.jsona",
-        "hash": "b482ba292e0f4cc01945eba5bf657f6d"
+        "hash": "8814e87b90bfb95e881e3f4b24396c96"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcw_bgmessages332e02c8b1ab95ef662123779c0e2e34compiledmessages.jsona",
@@ -21211,7 +21199,7 @@
     },
     {
         "path": "app/src/main/res/raw/intl_messages_enuscompiledmessages.jsona",
-        "hash": "7d79674259b3ca53d35a2be6e0dcc00d"
+        "hash": "0e92e1a982a49fd2bb275b020181bbaf"
     },
     {
         "path": "app/src/main/res/raw/intl_messages_internationalcompiledmessages.jsona",
@@ -21223,7 +21211,7 @@
     },
     {
         "path": "app/src/main/res/raw/keep.xml",
-        "hash": "c1997805fc7064f58f9e8c83d7195f60"
+        "hash": "a13e2f04ed6b65864951d645e036f9a4"
     },
     {
         "path": "app/src/main/res/raw/modules_activity_privacy_activityprivacycompiledmessages.jsona",
@@ -21318,6 +21306,10 @@
         "hash": "bf7f44d9e76ebcaf5f3191e1f3d1b131"
     },
     {
+        "path": "app/src/main/res/raw/modules_emojis_default_emojis_defaultemojiscompiledmessages.jsona",
+        "hash": "d34043c6f0c1345f0580d9df22b773f6"
+    },
+    {
         "path": "app/src/main/res/raw/modules_favorites_intl_favoritesguildcompiledmessages.jsona",
         "hash": "50541969ea3027a746d362678662ffb8"
     },
@@ -21336,6 +21328,10 @@
     {
         "path": "app/src/main/res/raw/modules_game_mode_gamemodecompiledmessages.jsona",
         "hash": "ed0d5339564c08e5ac5adcf6cce3ee4e"
+    },
+    {
+        "path": "app/src/main/res/raw/modules_game_organization_invites_gameorganizationinvitesuntranslatedcompiledmessages.jsona",
+        "hash": "9d7ebfe631b2fce1e15b9d6d7ac539b9"
     },
     {
         "path": "app/src/main/res/raw/modules_game_server_gameservercompiledmessages.jsona",
@@ -21458,6 +21454,10 @@
         "hash": "99914b932bd37a50b983c5e7c90ae93b"
     },
     {
+        "path": "app/src/main/res/raw/modules_premium_rust_3pp_rust3ppcompiledmessages.jsona",
+        "hash": "99914b932bd37a50b983c5e7c90ae93b"
+    },
+    {
         "path": "app/src/main/res/raw/modules_premium_tenure_reward_tenurerewardcompiledmessages.jsona",
         "hash": "99914b932bd37a50b983c5e7c90ae93b"
     },
@@ -21499,7 +21499,7 @@
     },
     {
         "path": "app/src/main/res/raw/modules_vibegrations_intl_vibegrationsuntranslatedcompiledmessages.jsona",
-        "hash": "3bbdb1a6e3ae726bdf1549bd81f0c0b5"
+        "hash": "c8f74df0260b598f56c8c4ba0dc0a54e"
     },
     {
         "path": "app/src/main/res/raw/modules_video_player_videoplayercompiledmessages.jsona",
