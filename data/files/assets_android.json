@@ -3151,7 +3151,7 @@
     },
     {
         "path": "app/src/main/assets/index.android.bundle",
-        "hash": "7c3dfe0ec06dbd757493273e39bda015"
+        "hash": "17d3aa248fa16cb6aa745702d54a409c"
     },
     {
         "path": "app/src/main/res/drawable-mdpi/_discord_common_js_shared_images_flags_bg.png",
@@ -4214,14 +4214,6 @@
         "hash": "7c56e42d1fe92f150065ab3c4bdd334d"
     },
     {
-        "path": "app/src/main/res/drawable-mdpi/modules_contact_sync_native_images_graggle.png",
-        "hash": "3857ed2714c9396b6e8713561e5eb93c"
-    },
-    {
-        "path": "app/src/main/res/drawable-mdpi/modules_contact_sync_native_images_mallow.png",
-        "hash": "10e9e4bbc3adbc4dc17d24a0602afb80"
-    },
-    {
         "path": "app/src/main/res/drawable-mdpi/modules_create_guild_native_images_invitewumpusticket.png",
         "hash": "4166c49877800f1ad30934339cf2b8a3"
     },
@@ -4296,30 +4288,6 @@
     {
         "path": "app/src/main/res/drawable-mdpi/modules_notifications_images_ic_bell_on.png",
         "hash": "0ca8431ba26e114a3e93aa8dc5cdf521"
-    },
-    {
-        "path": "app/src/main/res/drawable-mdpi/modules_nuf_channels_native_images_amanda.png",
-        "hash": "b269fec2e8135bbc2e2d49cb182b352b"
-    },
-    {
-        "path": "app/src/main/res/drawable-mdpi/modules_nuf_channels_native_images_mallow.png",
-        "hash": "94bb0fdcfba6a856a1567cdd4f281049"
-    },
-    {
-        "path": "app/src/main/res/drawable-mdpi/modules_nuf_channels_native_images_star_blue.png",
-        "hash": "da7dcc5777ff296b64b9eaee0cd191e4"
-    },
-    {
-        "path": "app/src/main/res/drawable-mdpi/modules_nuf_channels_native_images_star_green.png",
-        "hash": "0874b569caae69893f5d6cd4e4046089"
-    },
-    {
-        "path": "app/src/main/res/drawable-mdpi/modules_nuf_channels_native_images_star_pink.png",
-        "hash": "a22d4ac6a3cb3a331ce2730f706e3d95"
-    },
-    {
-        "path": "app/src/main/res/drawable-mdpi/modules_nuf_channels_native_images_star_purple.png",
-        "hash": "997fd56d3361833ef80c750f0e0e48a8"
     },
     {
         "path": "app/src/main/res/drawable-mdpi/modules_nuf_native_components_notification_notification_upsell.png",
@@ -5012,6 +4980,10 @@
     {
         "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_doublecheckmarkicon.png",
         "hash": "fa2380e3e6980d3bf9ea0d9c5068efd3"
+    },
+    {
+        "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_doublechevronsmallrighticon.png",
+        "hash": "d7b04c793ece555bcac058fd183015bc"
     },
     {
         "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_downloadicon.png",
@@ -8314,16 +8286,8 @@
         "hash": "394e3dceb831069555fc8c0281f8f78c"
     },
     {
-        "path": "app/src/main/res/drawable-xhdpi/modules_contact_sync_native_images_graggle.png",
-        "hash": "4dd76dd0dc5dfe161c5e152d9ade8efe"
-    },
-    {
         "path": "app/src/main/res/drawable-xhdpi/modules_contact_sync_native_images_headerartonboarding.png",
         "hash": "b85f8eddc56aa8c091009cc998e45a56"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/modules_contact_sync_native_images_mallow.png",
-        "hash": "a2302dff8e784e3884ef63fa3c09d6d2"
     },
     {
         "path": "app/src/main/res/drawable-xhdpi/modules_create_guild_native_images_img_artists_creators.png",
@@ -8788,10 +8752,6 @@
     {
         "path": "app/src/main/res/drawable-xhdpi/modules_nuf_native_components_notification_notification_upsell.png",
         "hash": "187d71a360d548b467db5dff5cc21035"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/modules_nuf_native_components_notification_redesign_notification_illustration.png",
-        "hash": "801679ab053846346a394c345d56fa1e"
     },
     {
         "path": "app/src/main/res/drawable-xhdpi/modules_nuf_native_images_discoverabilityheader.png",
@@ -9652,6 +9612,10 @@
     {
         "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_doublecheckmarkicon.png",
         "hash": "4f1feec00248b14530a2d52d78449a04"
+    },
+    {
+        "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_doublechevronsmallrighticon.png",
+        "hash": "280294e08f04f7dadfcf300d1b6ca28c"
     },
     {
         "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_downloadicon.png",
@@ -12934,16 +12898,8 @@
         "hash": "acd88258b7a6e96a5da20b9843a82e12"
     },
     {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_contact_sync_native_images_graggle.png",
-        "hash": "7e109f4a3b1a6e972ee098db30ff5713"
-    },
-    {
         "path": "app/src/main/res/drawable-xxhdpi/modules_contact_sync_native_images_headerartonboarding.png",
         "hash": "ca722618760b8bcc9f601b6e0de30745"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_contact_sync_native_images_mallow.png",
-        "hash": "091b224f497a05f7f736de491c5b03bf"
     },
     {
         "path": "app/src/main/res/drawable-xxhdpi/modules_create_guild_native_images_img_artists_creators.png",
@@ -13404,10 +13360,6 @@
     {
         "path": "app/src/main/res/drawable-xxhdpi/modules_nuf_channels_native_images_voice_channels.png",
         "hash": "5582eb8a3b12f0d94442d98dd8473eb0"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_nuf_native_components_notification_redesign_notification_illustration.png",
-        "hash": "4b057ea1b6f601eb58adedcd02b4c134"
     },
     {
         "path": "app/src/main/res/drawable-xxhdpi/modules_nuf_native_images_discoverabilityheader.png",
@@ -13887,55 +13839,55 @@
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_bgmessages97d404cf2da015f1a705bd0b165c0772compiledmessages.jsona",
-        "hash": "c821e24f54618e29b444543017e92dad"
+        "hash": "67a35748faf3e3975069f4b8b3aa1baa"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_csmessagesdbf0268422643d483700800a8505fc55compiledmessages.jsona",
-        "hash": "e9f4c7629c6ebd12107de47e4608e5b6"
+        "hash": "70ed51d433904132f39363065249e6f9"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_damessages3b233becc25cce8eb66174cdbc91fea6compiledmessages.jsona",
-        "hash": "39e0630b1ce3cc5b7671bd4b9d1bd114"
+        "hash": "42aabd754bffd7c19ae2e0a443d8161a"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_demessages0ac77730cc710ccfb85b3fd51752c911compiledmessages.jsona",
-        "hash": "36504ad77b7faf724cee16e6cf48d236"
+        "hash": "0bda3ce288d8b9c59fcb80942ddfe673"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_elmessagesdbd61b20ddbc9457411fc7511bafcad6compiledmessages.jsona",
-        "hash": "75cc3801cb4551a5407f8064aad3bf36"
+        "hash": "8aa36fdc856c3095f24653ef676189c5"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_engbmessages0803ebcf147b5ae94fda8f6c7306433fcompiledmessages.jsona",
-        "hash": "699b2ae081f44f846237d36a7e181e06"
+        "hash": "8d8237ce346c84b9e27f4f28bc83bd63"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_es419messagesce799f360d9c04eb72ab6a39a7bbb536compiledmessages.jsona",
-        "hash": "dad858313cc29104c1177da04bbec82c"
+        "hash": "7d462bd13bd6ae826f74fd504c032120"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_esesmessages6257878ae64c0966da5a29ec9dd440c0compiledmessages.jsona",
-        "hash": "2d62726a04249a2125fa1f8f1e2fbc2f"
+        "hash": "645972b8cc2f1a2beeb7f6295d6b8eee"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_fimessages29cac5dcb4197137f83cb319178c37b8compiledmessages.jsona",
-        "hash": "9a952c045ce953420320f07dd8f7ab07"
+        "hash": "226fe9223432603194ff33156d337269"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_frmessages67fe868b25baffa682f3118a5eb05557compiledmessages.jsona",
-        "hash": "0fa014c78968f45acb2e8f5388283b66"
+        "hash": "dd0f4c23235fef9197f9266bd1787317"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_himessages903a4f316090ab85034d0b21f3336882compiledmessages.jsona",
-        "hash": "f3399dbc38453e44a3271847431935e4"
+        "hash": "caf99b6845ce7547fb8e8d06dd7b7775"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_hrmessages9bc280ff9f56c4f83d132626598f61ffcompiledmessages.jsona",
-        "hash": "f4b129cd818930c4a5e8bd7dd5301d09"
+        "hash": "436c77db2525c081d2a5f4ec716f789e"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_humessagesfe668b12a81d9d8b1eb8dc9f6bcf446bcompiledmessages.jsona",
-        "hash": "5775223b4ebfe6e5278594e1e89e10a1"
+        "hash": "40f19d78f0cd34fc949644bb27a0fdfa"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_idmessagesa0aa3774e064cca7bab0fc18be60dfdfcompiledmessages.jsona",
@@ -13943,71 +13895,71 @@
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_itmessagesb1e5d43a99dc263e19008c5771b23c3ccompiledmessages.jsona",
-        "hash": "10bd49d6a2c4f156a2f8f3619cbbb8a9"
+        "hash": "a7ac0e05ec63fd08387895002fa064b9"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_jamessages2b1b0f85bc8dfd68fe8cee556b704daacompiledmessages.jsona",
-        "hash": "c8f0cc96a9f48bcaa5cb41ed7b66a30c"
+        "hash": "1fe7e54454d8e92bd22f762127e86f06"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_komessagese886057781a3681f7f9e805127a7fce5compiledmessages.jsona",
-        "hash": "d3ba21e4cbd1d4976c2467c9b5bb38b4"
+        "hash": "5574f5c2b47e2c3fab67c963ed03caec"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_ltmessages38bb71245eebbdd22351fe43f9e54925compiledmessages.jsona",
-        "hash": "3f3b124040fc184b9842964e129a6791"
+        "hash": "193046f34001f5ae91714cf6b4a26c36"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_nlmessagesf6862f32903d5c97adf3c7fac4def220compiledmessages.jsona",
-        "hash": "35b3323e6311cca0150b58db718fbc5f"
+        "hash": "bf9dfa5466b99ba3cf5e6e17df5b102a"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_nomessagesbbf28b2ba06716b0b6139549c9ff31f2compiledmessages.jsona",
-        "hash": "a0cf73605f41a2dabe2bd3794945bd92"
+        "hash": "9d34ed0c769d271daa6c9e17f331538d"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_plmessages39fd04d48c14dceb6b14977c9f3e93afcompiledmessages.jsona",
-        "hash": "e1d865e382187c296f676198cb39ff4b"
+        "hash": "e08db2349ca066a432d524c525589e6e"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_ptbrmessages1892869b42c23e5466375080121f79c4compiledmessages.jsona",
-        "hash": "f1dad45305d3ac7785a5d5dea4759299"
+        "hash": "2a6c5206ab0ffc607711149d1265d10a"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_romessagesed23d7b32efa058fda380d50e6584071compiledmessages.jsona",
-        "hash": "24be97f63002f75424eba4f39fc76de9"
+        "hash": "7ff07cd39c762e13e430d9424e6484a9"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_rumessages3e8abf0f52d054edfd11990ac771dc12compiledmessages.jsona",
-        "hash": "a90986432172fa057fa836651ebfa3e4"
+        "hash": "edb8f67f50b29d5bb0c063fbff926bb9"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_svsemessagese35cf67991f0c38309901847f9cf9987compiledmessages.jsona",
-        "hash": "8b99b1a714376252c3e7b21d6b5b76f7"
+        "hash": "378f5fc67f7930fec0469e178ea32922"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_thmessagesd55caba608017b2bd8bdde6bd04b1d16compiledmessages.jsona",
-        "hash": "5def6ee8be61b53a38ad0356c222e0c7"
+        "hash": "eda6e015d34ba1c225103a8ba32b17bd"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_trmessages6d6d1f78e7234cd27a6a5353ebb3abc0compiledmessages.jsona",
-        "hash": "f583309b247b80c8080a5f1426d69717"
+        "hash": "1dcfb2f74aa1c758d75799a32f65a9c4"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_ukmessages0aff90bbdd459566845c0c972e58c886compiledmessages.jsona",
-        "hash": "08fad7c71f07efdaa7aef5d0a4295601"
+        "hash": "858adf380ad8d806ec52984cf2a2e522"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_vimessages59af90484fbb92ca30125b27ffced4fdcompiledmessages.jsona",
-        "hash": "8481bcddcfba0101e4ffe47ef7ddf302"
+        "hash": "00051c67940c54eb04a351370e1f1304"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_zhcnmessages1a1ea9683f057adbe20f16aeaeb3195ecompiledmessages.jsona",
-        "hash": "f1db60dd8a0a7aa8d340c3393f487c49"
+        "hash": "56721207caefcde9b715b77fcc1265df"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_zhtwmessages143bcab752eca52940a7413c3eefdf84compiledmessages.jsona",
-        "hash": "65245a5a58cd81afdb0f0b85ba174c4d"
+        "hash": "554179394b21d121bdc145268bdddafa"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcw_bgmessages332e02c8b1ab95ef662123779c0e2e34compiledmessages.jsona",
@@ -21883,7 +21835,7 @@
     },
     {
         "path": "app/src/main/res/raw/intl_messages_enuscompiledmessages.jsona",
-        "hash": "7d4d4f87dbb3fa209ee51955bb88e1e0"
+        "hash": "24168c9bcfdeb2e09ec27d25a9240de8"
     },
     {
         "path": "app/src/main/res/raw/intl_messages_internationalcompiledmessages.jsona",
@@ -21895,7 +21847,7 @@
     },
     {
         "path": "app/src/main/res/raw/keep.xml",
-        "hash": "1988d4b7aea42e9100498695c5b83a19"
+        "hash": "aab02e48b817f3c8fe13f346e16d840f"
     },
     {
         "path": "app/src/main/res/raw/modules_activity_privacy_activityprivacycompiledmessages.jsona",
@@ -21967,7 +21919,7 @@
     },
     {
         "path": "app/src/main/res/raw/modules_conjure_intl_conjureuntranslatedcompiledmessages.jsona",
-        "hash": "ac7fb939fff7723352e79c0386b62f05"
+        "hash": "11ab7a9e680ebb107daed011a6906916"
     },
     {
         "path": "app/src/main/res/raw/modules_connected_devices_devicedetectedcompiledmessages.jsona",
@@ -22195,6 +22147,10 @@
     },
     {
         "path": "app/src/main/res/raw/modules_spatial_audio_spatialaudiocompiledmessages.jsona",
+        "hash": "99914b932bd37a50b983c5e7c90ae93b"
+    },
+    {
+        "path": "app/src/main/res/raw/modules_stage_channels_stagechannelcompiledmessages.jsona",
         "hash": "99914b932bd37a50b983c5e7c90ae93b"
     },
     {
