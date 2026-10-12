@@ -3151,7 +3151,7 @@
     },
     {
         "path": "app/src/main/assets/index.android.bundle",
-        "hash": "86ee1bfdd6085d648164e4e4a152c60e"
+        "hash": "f1ebef496fd92cf53f4e26dc9cc176b1"
     },
     {
         "path": "app/src/main/res/drawable-mdpi/_discord_common_js_shared_images_flags_bg.png",
@@ -4910,6 +4910,10 @@
         "hash": "7bd55c14f1f1453e94a431f620703d37"
     },
     {
+        "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_clouddownloadicon.png",
+        "hash": "8be27f55d5005ae28218f83e7b4f621c"
+    },
+    {
         "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_cloudicon.png",
         "hash": "1ed3b2ad66702e67f14b6254ba19edd5"
     },
@@ -5386,6 +5390,10 @@
         "hash": "9e94f6b8ebf62e2212064388d766d895"
     },
     {
+        "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_listnumberedicon.png",
+        "hash": "e7e34cc5f2d8be94213b5686376d3a5b"
+    },
+    {
         "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_listviewicon.png",
         "hash": "ef1127f8c1547ebece097931ad43ce13"
     },
@@ -5648,6 +5656,10 @@
     {
         "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_roboticon.png",
         "hash": "7210d75a85f5eef8fbf692ed9b951ea1"
+    },
+    {
+        "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_saveicon.png",
+        "hash": "48f292ffb49780816b18650b3f8453f7"
     },
     {
         "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_scienceicon.png",
@@ -9514,6 +9526,10 @@
         "hash": "cfa1216611fbc714b0584b95cc4f5b58"
     },
     {
+        "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_clouddownloadicon.png",
+        "hash": "968df63a453b7e89f6c892545b4f0011"
+    },
+    {
         "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_cloudicon.png",
         "hash": "00f7fb3425dd34f64ee2337a51f346d6"
     },
@@ -9990,6 +10006,10 @@
         "hash": "98e63e6c2a85abfdf85b2c45d7a4b19e"
     },
     {
+        "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_listnumberedicon.png",
+        "hash": "7dedb268852832960f09f97ea3c49e84"
+    },
+    {
         "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_listviewicon.png",
         "hash": "f88e1ef31e7e66d00ad1ace0ac39df97"
     },
@@ -10252,6 +10272,10 @@
     {
         "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_roboticon.png",
         "hash": "e08324df1af39b96c88bf0ffd3ae2b2f"
+    },
+    {
+        "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_saveicon.png",
+        "hash": "491a37dd8c75991c1fe196567cd58376"
     },
     {
         "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_scienceicon.png",
@@ -21923,7 +21947,7 @@
     },
     {
         "path": "app/src/main/res/raw/keep.xml",
-        "hash": "424229041f98f4cd43826b9f4a681289"
+        "hash": "775e27841fda96bacacd75e35ae772ed"
     },
     {
         "path": "app/src/main/res/raw/modules_activity_privacy_activityprivacycompiledmessages.jsona",
@@ -21995,7 +22019,7 @@
     },
     {
         "path": "app/src/main/res/raw/modules_conjure_intl_conjureuntranslatedcompiledmessages.jsona",
-        "hash": "6f8d80e532f71231c8ca9eebdb819a09"
+        "hash": "32e480af0ea93c45b18820cb32cef30f"
     },
     {
         "path": "app/src/main/res/raw/modules_connected_devices_devicedetectedcompiledmessages.jsona",
