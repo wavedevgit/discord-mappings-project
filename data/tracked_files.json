@@ -1,6 +1,6 @@
 {
-  "build": "35220400000000",
-  "commit": "0f0cfbfa8476001530ab331c850c43ea438eacdc",
+  "build": "35220500000000",
+  "commit": "47e259cb717d5226da9f4d3aa3045c5c10aba058",
   "files": {
     "app/actions/ActivitiesActionCreators.tsx": 18677,
     "app/actions/AlertActionCreators.tsx": 726,
@@ -12836,6 +12836,8 @@
     "app/src/main/res/drawable-xxxhdpi/modules_voice_panel_native_images_maximize.png",
     "app/src/main/res/drawable-xxxhdpi/modules_voice_panel_native_images_stream.png",
     "app/src/main/res/drawable-xxxhdpi/modules_voice_panel_native_images_video.png",
+    "app/src/main/res/raw/_discord_common_js_packages_design_components_rive_native_generated_rives_camera.riv",
+    "app/src/main/res/raw/_discord_common_js_packages_design_components_rive_native_generated_rives_microphone.riv",
     "app/src/main/res/raw/cache_intl_aw50ba_bgmessagesc541c5e31a93fb270a1de723e4063df2compiledmessages.jsona",
     "app/src/main/res/raw/cache_intl_aw50ba_csmessagesaa1cb01b8cf4496c9095c275ac408cf2compiledmessages.jsona",
     "app/src/main/res/raw/cache_intl_aw50ba_damessagesb302e85f96f0d914f4e759bd827cd3dccompiledmessages.jsona",
