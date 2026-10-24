@@ -3151,7 +3151,7 @@
     },
     {
         "path": "app/src/main/assets/index.android.bundle",
-        "hash": "c6fdf0f123a13d27071d892d67ed2277"
+        "hash": "6aa333fdc6d6c33e87c9e9eb604bf4c7"
     },
     {
         "path": "app/src/main/res/drawable-mdpi/_discord_common_js_shared_images_flags_bg.png",
@@ -3718,10 +3718,6 @@
         "hash": "7f2ecf7089ca50d85cfba11eb1c99457"
     },
     {
-        "path": "app/src/main/res/drawable-mdpi/images_native_icons_ic_radio_circle_checked.png",
-        "hash": "e946032a1cf201383823e213743ad7aa"
-    },
-    {
         "path": "app/src/main/res/drawable-mdpi/images_native_icons_ic_radio_circle.png",
         "hash": "d1a7523f94be18b3856fb3ba80f482f6"
     },
@@ -4224,6 +4220,10 @@
     {
         "path": "app/src/main/res/drawable-mdpi/modules_conjure_presence_native_images_conjure_activity_light.png",
         "hash": "7c56e42d1fe92f150065ab3c4bdd334d"
+    },
+    {
+        "path": "app/src/main/res/drawable-mdpi/modules_conjure_preview_images_overlayframebg.webp",
+        "hash": "7411b537f8491be980e9ec41477a904b"
     },
     {
         "path": "app/src/main/res/drawable-mdpi/modules_explicit_media_redaction_assets_safety_shield.png",
@@ -6058,6 +6058,10 @@
         "hash": "769d729a731761367d09bbbcd74876d5"
     },
     {
+        "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_walleticon.png",
+        "hash": "5d20e3bf73a5e523518cd3bb9e127bd4"
+    },
+    {
         "path": "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_warningicon.png",
         "hash": "681590b1e1f50692bae1bb5e7d2aa722"
     },
@@ -6906,10 +6910,6 @@
         "hash": "662f9a5d453cd5959e95ab7e4df714d7"
     },
     {
-        "path": "app/src/main/res/drawable-xhdpi/images_native_icons_ic_close_circle.png",
-        "hash": "ff5d0abb7a0dd6b6e6fcf651ec108d94"
-    },
-    {
         "path": "app/src/main/res/drawable-xhdpi/images_native_icons_ic_close.png",
         "hash": "e74f648be9c6a1dac96f50a87ee3af72"
     },
@@ -7232,10 +7232,6 @@
     {
         "path": "app/src/main/res/drawable-xhdpi/images_native_icons_ic_radio_circle_checked_green.png",
         "hash": "585b6f042e0246f6a654a129c285fcda"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/images_native_icons_ic_radio_circle_checked.png",
-        "hash": "7a51acfd92bbde3628ccc1deaac6b555"
     },
     {
         "path": "app/src/main/res/drawable-xhdpi/images_native_icons_ic_radio_circle.png",
@@ -7720,10 +7716,6 @@
     {
         "path": "app/src/main/res/drawable-xhdpi/images_native_premium_guild_boosting_guild_subscription_removal_light.png",
         "hash": "adebacf80aa3fa562af1d12c3486908f"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/images_native_premium_guild_boosting_lock.png",
-        "hash": "c91301a97ec01b2effe11abba79974f1"
     },
     {
         "path": "app/src/main/res/drawable-xhdpi/images_native_premium_guild_boosting_member_list_badge_16px.png",
@@ -8442,54 +8434,6 @@
         "hash": "3e7ff32c662f3719a539e4ce421116a4"
     },
     {
-        "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_guild_settings_welcome_images_asset_role_subscription_earnings.png",
-        "hash": "490b229364c7c827caef00b3119dab76"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_guild_settings_welcome_images_asset_role_subscription_exclusive_perks.png",
-        "hash": "ddd2c31bbe9172f1b57c8e42e61785a9"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_guild_settings_welcome_images_asset_role_subscription_megaphone.png",
-        "hash": "3fb2ea9211e44fce4b46f8178be1b07a"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_guild_settings_welcome_images_role_subscription_benefit_avatar_1.png",
-        "hash": "1b296626ff3f58f3a0c217bcd41e74c0"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_guild_settings_welcome_images_role_subscription_benefit_bunny_avatar.png",
-        "hash": "624f8f4ba399b4a95c9f8a8ab94823c9"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_guild_settings_welcome_images_role_subscription_benefit_nelly_avatar.png",
-        "hash": "c38c3e8ad887f3fa2639b3ff6a6ae367"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_guild_settings_welcome_images_role_subscription_benefit_wise_avatar.png",
-        "hash": "7792ce9496ca2729f9b48d5185342c8d"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_guild_settings_welcome_images_role_subscription_earning_illo.png",
-        "hash": "9eebbb2397b1082b1819dc3ccafb3869"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_guild_settings_welcome_images_role_subscription_earning_metric_avatar.png",
-        "hash": "4f89ad84d645830447f24bd6d25800cd"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_guild_settings_welcome_images_role_subscription_lanyard_illo.png",
-        "hash": "d3041ed402bc62a7b31eebb43454c25f"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_guild_settings_welcome_images_role_subscription_settings_hero.png",
-        "hash": "db53ec43e52af1aa7ef73f2883865df1"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_guild_settings_welcome_images_role_subscription_social.png",
-        "hash": "0c5b14a1ccf557bcbd8ff0e2890095b4"
-    },
-    {
         "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_images_arrow.png",
         "hash": "c63feb4dd4756486d0fe0f0747c920fe"
     },
@@ -8502,44 +8446,12 @@
         "hash": "a7915893e5f37f2fe0fd4c758ff93da8"
     },
     {
-        "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_images_ic_add_perk_24px.png",
-        "hash": "abc8891e8ffaf31409242007a7a12c4e"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_images_ic_add_tier_40px.png",
-        "hash": "f2ce2a4506fab85ad6435ffd7690feb2"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_images_ic_emoji_picker_20px.png",
-        "hash": "ca199ee1696a2ba2cd9568a8883b8023"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_images_ic_full_server_gating_24px.png",
-        "hash": "14432382e934667bba863aae2b7e844a"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_images_ic_money_emoji_24px.png",
-        "hash": "b6a2511b2b4cac815d8739e9f27202ff"
-    },
-    {
         "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_images_ic_premium_channel_16px.png",
         "hash": "16d5afb4e23f429b56611f73d3edd26c"
     },
     {
-        "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_images_ic_premium_info_24px.png",
-        "hash": "10b5986183e45fdb8e1b513e3cf6326b"
-    },
-    {
         "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_images_ic_premium_overview_24px.png",
         "hash": "c777c6e2ca39a1fded7900c952f33cfd"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_images_ic_premium_perk_money_24px.png",
-        "hash": "220ddc74ee88d6296bfdaa8720ece2af"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_images_ic_premium_tiers_24px.png",
-        "hash": "a29200a0dbd35b5b5b47684d776c9496"
     },
     {
         "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_images_ic_select_all_24px.png",
@@ -8548,10 +8460,6 @@
     {
         "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_images_ic_select_manually_24px.png",
         "hash": "258214a71c4178636f081cd03f7b580e"
-    },
-    {
-        "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_images_ic_trash_filled_16px.png",
-        "hash": "06d313a5c60ee7d1dbd65a5bf7e24985"
     },
     {
         "path": "app/src/main/res/drawable-xhdpi/modules_guild_role_subscriptions_native_images_money_birb_placeholder_dark.png",
@@ -10718,6 +10626,10 @@
         "hash": "b765e5bc939665a03b2466cfb75464db"
     },
     {
+        "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_walleticon.png",
+        "hash": "0a77c2553861390243a04aacde1b25ad"
+    },
+    {
         "path": "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_warningicon.png",
         "hash": "374a846de3d220e0e3c42f38ba723770"
     },
@@ -11558,10 +11470,6 @@
         "hash": "dd626ef48468f082cff5f6a457d0a5da"
     },
     {
-        "path": "app/src/main/res/drawable-xxhdpi/images_native_icons_ic_close_circle.png",
-        "hash": "411f778914128c64d172a9f123f69fa2"
-    },
-    {
         "path": "app/src/main/res/drawable-xxhdpi/images_native_icons_ic_close.png",
         "hash": "5cc298dc5ecea5bfdc9fc2ee517c73aa"
     },
@@ -11880,10 +11788,6 @@
     {
         "path": "app/src/main/res/drawable-xxhdpi/images_native_icons_ic_radio_circle_checked_green.png",
         "hash": "998fc404ec46e724fdd1addbbfa1f933"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/images_native_icons_ic_radio_circle_checked.png",
-        "hash": "2c81d16f22491652cddf89d1a484685f"
     },
     {
         "path": "app/src/main/res/drawable-xxhdpi/images_native_icons_ic_radio_circle.png",
@@ -12352,10 +12256,6 @@
     {
         "path": "app/src/main/res/drawable-xxhdpi/images_native_premium_guild_boosting_guild_subscription_removal_light.png",
         "hash": "bb3a5adc9dc8315af14e2faffafca6a4"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/images_native_premium_guild_boosting_lock.png",
-        "hash": "9f2a4bb59e88f79a36c556fde88b540a"
     },
     {
         "path": "app/src/main/res/drawable-xxhdpi/images_native_premium_guild_boosting_member_list_badge_16px.png",
@@ -13078,54 +12978,6 @@
         "hash": "32b30a81fb4d961720d824a37cf4d9c0"
     },
     {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_guild_settings_welcome_images_asset_role_subscription_earnings.png",
-        "hash": "32aef8e52101e8c78f44c02c5aca0d8b"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_guild_settings_welcome_images_asset_role_subscription_exclusive_perks.png",
-        "hash": "312fd6b0b937fa87dcfbe0764602f46c"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_guild_settings_welcome_images_asset_role_subscription_megaphone.png",
-        "hash": "1d00f99cf005417bb4a3e2713e0d0fc4"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_guild_settings_welcome_images_role_subscription_benefit_avatar_1.png",
-        "hash": "346d0b9eef622514296be5dcc31f9efd"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_guild_settings_welcome_images_role_subscription_benefit_bunny_avatar.png",
-        "hash": "362a4d8b255bd99bc8dac413a64f875d"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_guild_settings_welcome_images_role_subscription_benefit_nelly_avatar.png",
-        "hash": "a557fc06c57302c8addca97e8eb9bd6e"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_guild_settings_welcome_images_role_subscription_benefit_wise_avatar.png",
-        "hash": "ee8e7bcd99cde27c98c8b74f3068e83c"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_guild_settings_welcome_images_role_subscription_earning_illo.png",
-        "hash": "350cb7e5962f03b408dd71e6d3fadd5b"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_guild_settings_welcome_images_role_subscription_earning_metric_avatar.png",
-        "hash": "4d89b8094a00d0fb126f2c9e396b767f"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_guild_settings_welcome_images_role_subscription_lanyard_illo.png",
-        "hash": "951ef97abe6bcbb97f30b3ea16af15c8"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_guild_settings_welcome_images_role_subscription_settings_hero.png",
-        "hash": "c7631924c2a1072188b46799d878c520"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_guild_settings_welcome_images_role_subscription_social.png",
-        "hash": "18e7e0b64691be87d19dc0d19cfb918f"
-    },
-    {
         "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_images_arrow.png",
         "hash": "2e37bcf233e3d79ab3f7974ff08797a9"
     },
@@ -13138,44 +12990,12 @@
         "hash": "3ed14f72a489fd5716926ff99778eea6"
     },
     {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_images_ic_add_perk_24px.png",
-        "hash": "1521b539bcf430eaeca95cf374497cd1"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_images_ic_add_tier_40px.png",
-        "hash": "af7168acae2680da4da0eb0c538f258a"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_images_ic_emoji_picker_20px.png",
-        "hash": "afc381aa5705f7ab21ccb5f1321e6728"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_images_ic_full_server_gating_24px.png",
-        "hash": "9a52f2c01ffee7eaf308a7f90742f6da"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_images_ic_money_emoji_24px.png",
-        "hash": "e6a2a422b582ffb981bbcc7501cdc7b3"
-    },
-    {
         "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_images_ic_premium_channel_16px.png",
         "hash": "602ea193f480cff36f291557d6a5d136"
     },
     {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_images_ic_premium_info_24px.png",
-        "hash": "66abdeb382b6e23bfea9a3e8a5a7b33e"
-    },
-    {
         "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_images_ic_premium_overview_24px.png",
         "hash": "1f813380331290227adf520da8bf1cc1"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_images_ic_premium_perk_money_24px.png",
-        "hash": "873a1c97aa791fd4299438a05372891e"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_images_ic_premium_tiers_24px.png",
-        "hash": "49f91d15e6c76132cc9b2fcdc44c534e"
     },
     {
         "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_images_ic_select_all_24px.png",
@@ -13184,10 +13004,6 @@
     {
         "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_images_ic_select_manually_24px.png",
         "hash": "69146222ef41cd5f4eda03c97170da14"
-    },
-    {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_images_ic_trash_filled_16px.png",
-        "hash": "f86dfffc6a7470ed6af8c1a9357c19b3"
     },
     {
         "path": "app/src/main/res/drawable-xxhdpi/modules_guild_role_subscriptions_native_images_money_birb_placeholder_dark.png",
@@ -13915,55 +13731,55 @@
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_bgmessagesd941e3345bfd353c551979dd20967290compiledmessages.jsona",
-        "hash": "36261fa3f21f2205e0cecf5ecc108def"
+        "hash": "ec598f9f33e96e018a26fbc8004d9568"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_csmessagesc4239f8c009f2fff18bbda45c29cb8d7compiledmessages.jsona",
-        "hash": "78267f5380ced56f095bc3e859918cd3"
+        "hash": "587d17735609fbc1aab6bc9263ac05ab"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_damessages1dcf2b95cee643f917514b8c9d4f09d1compiledmessages.jsona",
-        "hash": "b767498ddaa13b3b1cff1b2b09d9fe40"
+        "hash": "91402d567079f885bc17cc9e048ed293"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_demessages4b9e8e5b15da92f0fc3ca969b7887c0ccompiledmessages.jsona",
-        "hash": "05a4c1e961d2508d4bd3bd2867fa337a"
+        "hash": "f945b2e279e1cec8e9add27c7b7f8377"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_elmessagesdd0e5cbfcba12557d2e59bcd0aaec7b6compiledmessages.jsona",
-        "hash": "97c5caa09f84abffd0a8aa5e32dc7ea1"
+        "hash": "d82992cc816d8aaff50eb8999034a68f"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_engbmessages47bbe53151cb4d9e6d1bdc06517956b8compiledmessages.jsona",
-        "hash": "61fe3139b0d85acc74188295c6225287"
+        "hash": "2908ee1638f4ed5b09fb9dd11d79064b"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_es419messages2eeb3cb97e9fb93bc8722fac5d6288cccompiledmessages.jsona",
-        "hash": "edc6116d79e881d0ca61e26ab91d99e0"
+        "hash": "10bdb7c63fb9da69021771c199b53c2e"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_esesmessages41db8134e5f17e3ef4e2bb1bcbaafc09compiledmessages.jsona",
-        "hash": "931b208832334026143a0a7fed928722"
+        "hash": "77482230b5ffd958a675255384957d78"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_fimessagesa73e380a00c33d874cf0ce1d04d96c0bcompiledmessages.jsona",
-        "hash": "cd0c697d1bbe1cd810cb6b9bb093f732"
+        "hash": "10158e588f7ac9d5550df3d6a6898d2b"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_frmessagesaf1669a920dbf2fede07bb767bb1f000compiledmessages.jsona",
-        "hash": "dd7d19bc026f656e9e7cf9f1c7f60ee6"
+        "hash": "9f854b9ae03179f87bfd1e05f9778668"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_himessagesf51239d960a8b46cc0ea411ee229d0f1compiledmessages.jsona",
-        "hash": "b73d07efb9ca5c39fa5a190845f32182"
+        "hash": "cb8ce2785909b930c51747ca850c3c74"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_hrmessagesf41bb274e29f0fad14d1934ffd4fc7bdcompiledmessages.jsona",
-        "hash": "8cbf2bf2c8d51da6a584fb10876583fc"
+        "hash": "1495bcef2ea3c0d9791c897cd15bd73b"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_humessagesb5ba93ce2f6c07c7de2df4244deb869fcompiledmessages.jsona",
-        "hash": "a8ee2b0eb437fe7b8d7c8b3968b5116e"
+        "hash": "9831b152cd0efc4c20c1fe5f7caafe04"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_idmessagesa0aa3774e064cca7bab0fc18be60dfdfcompiledmessages.jsona",
@@ -13971,71 +13787,71 @@
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_itmessages8f259bf87d1076a8dc7ee8963ab8664acompiledmessages.jsona",
-        "hash": "420757fcb2ad6c0fc7b421c3898681f9"
+        "hash": "16bbc484f87b7809075c08b3f6b17ced"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_jamessages4ce2daea0afd997c223481274137d184compiledmessages.jsona",
-        "hash": "2a06a306c931abf057d2b9db1b367ae3"
+        "hash": "4ca7e429f84e1dfd0223d2ca7cec6092"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_komessages2bd02b8bb38edafc24bce4f752196a9ccompiledmessages.jsona",
-        "hash": "c3ab785a496cdc82192e671039975dc6"
+        "hash": "3724d3af4879fd4c67adef72c11910e9"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_ltmessages8a38381ca5e69529b70e024d33b5d507compiledmessages.jsona",
-        "hash": "044dea75da540ba0e2b4c96d5c86085e"
+        "hash": "5234122188028279fe5ee33e979fee9a"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_nlmessages5404ec4464e937aa083b1af4b3b269e4compiledmessages.jsona",
-        "hash": "1883c95f7f8bf0012f7640c36f8554f0"
+        "hash": "0668e9bdd9718b6ddef43a176ee76ce8"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_nomessages5bcb7e20da959984e6be6d55066c4ac9compiledmessages.jsona",
-        "hash": "4fee72858bb591fd98cd10f1083ce1c8"
+        "hash": "959e60d6c36930c8a614e5718bd8b481"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_plmessagescae8823eab94fb99b885b5ddb93a319bcompiledmessages.jsona",
-        "hash": "106747a3187748484b501287ca74d202"
+        "hash": "477a15b123249f40a992f6a52e630df4"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_ptbrmessagesa3e8fe8f085fc56bc021956d6f76b435compiledmessages.jsona",
-        "hash": "e833f6bdfbcef759fc96c0da38b78f6c"
+        "hash": "f2fbcc7e47b282b090deab1d62be0279"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_romessagesa16e983e4e3bcc7e74e22af937d31358compiledmessages.jsona",
-        "hash": "e64d9b762648741ab41a08b04aa86017"
+        "hash": "2932b69cf1d4f2a1b9349097f74969ef"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_rumessagesea3870c74278af58caff4d5090ba8e23compiledmessages.jsona",
-        "hash": "63b4b8a814db632ff8e3f69a5949876e"
+        "hash": "d0e830dc764727eb9768e803f2573166"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_svsemessages19cc22e93659971fa5cf52b85f683ca4compiledmessages.jsona",
-        "hash": "d6ac38e256c9a84ed943e8608d0a701b"
+        "hash": "947f8fb9aaefb2e833a35348e9a2f5b6"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_thmessages8b5f4ee5503c3e1185ef258ad64b1258compiledmessages.jsona",
-        "hash": "427d5c34cc591a05566e11b11953dc98"
+        "hash": "fac5a6eef1e83aecb490b98e85ce76ff"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_trmessages9725306935072d5f92323af5b66f6a34compiledmessages.jsona",
-        "hash": "5ebc73616a458fd4d1e7e41d28479d4c"
+        "hash": "7c8310dc9bdd2039f8cab5b51205e4ad"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_ukmessagesbe1fdab905df5b61c51dadc665efa59fcompiledmessages.jsona",
-        "hash": "02174be14c94182b3172c49837d5db57"
+        "hash": "da545e039f49381d11ef40a78475f621"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_vimessages22565aceee38066a32f005aa96173bc2compiledmessages.jsona",
-        "hash": "d6e96b8cfa82ea325f9d23e41077f76d"
+        "hash": "b7dd4f5cab07324a075e5f2e9ddb954c"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_zhcnmessages032c76ec6da3fecd04df33834b971e0ecompiledmessages.jsona",
-        "hash": "44bd7184c106f8fad1d2379f07fd1269"
+        "hash": "8b11d706088c239c4ade965077406887"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_aw50ba_zhtwmessages286feb87b4329ff0e1e1697ed3d31749compiledmessages.jsona",
-        "hash": "8b02e26b546181b594815140be9449e5"
+        "hash": "52a2048a3c52c90a1486747bc6c63668"
     },
     {
         "path": "app/src/main/res/raw/cache_intl_bw9kdwxlcw_bgmessages332e02c8b1ab95ef662123779c0e2e34compiledmessages.jsona",
@@ -22515,7 +22331,7 @@
     },
     {
         "path": "app/src/main/res/raw/intl_messages_enuscompiledmessages.jsona",
-        "hash": "92404179a8d31d14e67b99c43ab60958"
+        "hash": "aa1dc591946f53eee779bccb0c70c72e"
     },
     {
         "path": "app/src/main/res/raw/intl_messages_internationalcompiledmessages.jsona",
@@ -22531,7 +22347,7 @@
     },
     {
         "path": "app/src/main/res/raw/keep.xml",
-        "hash": "ea6c704f4a52943a45728935fc2e45bb"
+        "hash": "c36a8e3cee7146ee3d0c043d1ec582c9"
     },
     {
         "path": "app/src/main/res/raw/modules_activity_privacy_activityprivacycompiledmessages.jsona",
@@ -22603,7 +22419,7 @@
     },
     {
         "path": "app/src/main/res/raw/modules_conjure_intl_conjureuntranslatedcompiledmessages.jsona",
-        "hash": "09467e9d1ef4e2f256cbb5e4232588a3"
+        "hash": "0f277cc780ebb46c65ffd5e649af0e4f"
     },
     {
         "path": "app/src/main/res/raw/modules_connected_devices_devicedetectedcompiledmessages.jsona",
@@ -22627,7 +22443,7 @@
     },
     {
         "path": "app/src/main/res/raw/modules_display_name_styles_intl_displaynamestylescompiledmessages.jsona",
-        "hash": "b19825842ed293f07ffdf5425f80f646"
+        "hash": "bf7f44d9e76ebcaf5f3191e1f3d1b131"
     },
     {
         "path": "app/src/main/res/raw/modules_emojis_default_emojis_defaultemojiscompiledmessages.jsona",
@@ -22655,7 +22471,7 @@
     },
     {
         "path": "app/src/main/res/raw/modules_game_organization_invites_gameorganizationinvitesuntranslatedcompiledmessages.jsona",
-        "hash": "5ca6e925f53dc0df703c536112d51eb4"
+        "hash": "5a9c65c01927a1b376bc364e5a2fde8e"
     },
     {
         "path": "app/src/main/res/raw/modules_game_server_gameservercompiledmessages.jsona",
@@ -22692,6 +22508,10 @@
     {
         "path": "app/src/main/res/raw/modules_hangout_window_hangoutwindowcompiledmessages.jsona",
         "hash": "99914b932bd37a50b983c5e7c90ae93b"
+    },
+    {
+        "path": "app/src/main/res/raw/modules_hexagon_campaign_hexagoncampaigncompiledmessages.jsona",
+        "hash": "b762d5873553642f41aa53770ad0d9f2"
     },
     {
         "path": "app/src/main/res/raw/modules_holidays_assets_halloween_loading_dark.webm",
