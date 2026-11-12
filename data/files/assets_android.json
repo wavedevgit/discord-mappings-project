@@ -3151,7 +3151,7 @@
     },
     {
         "path": "app/src/main/assets/index.android.bundle",
-        "hash": "69201aa9dd6490fcbc6c371dafcc7f9e"
+        "hash": "eadbeabbcfa8c92d729ab9620c8b54d1"
     },
     {
         "path": "app/src/main/res/drawable-mdpi/_discord_common_js_shared_images_flags_bg.png",
@@ -3296,10 +3296,6 @@
     {
         "path": "app/src/main/res/drawable-mdpi/_node_modules_pnpm_reactnavigationelements2934_shb2al3n4oohkkhnm35rfpv56i_node_modules_reactnavigation_elements_lib_module_assets_searchicon.png",
         "hash": "4403c6117ec30c859bc95d70ce4a71d3"
-    },
-    {
-        "path": "app/src/main/res/drawable-mdpi/images_auth_backgroundsplashdev.jpg",
-        "hash": "c2620d71d0c18f7cbdf536c0e7d3a788"
     },
     {
         "path": "app/src/main/res/drawable-mdpi/images_auth_imgauthqrcodeoverlay.png",
@@ -4294,8 +4290,8 @@
         "hash": "e8d550faf4e256dff3cc4faddf07f107"
     },
     {
-        "path": "app/src/main/res/drawable-mdpi/modules_mfa_native_images_img_register_header.png",
-        "hash": "685e4a9eb5133a148de7ce27d400a483"
+        "path": "app/src/main/res/drawable-mdpi/modules_mfa_native_images_img_register_header.webp",
+        "hash": "b69fc6a5d63e56edc7ec5a1e4af96c20"
     },
     {
         "path": "app/src/main/res/drawable-mdpi/modules_notification_center_native_images_ic_highlight.png",
@@ -4362,12 +4358,12 @@
         "hash": "1653812d24f945a581bfdacd052d1cd9"
     },
     {
-        "path": "app/src/main/res/drawable-mdpi/modules_premium_roadblocks_images_client_themes_upsell.png",
-        "hash": "f59c66d6f542b08761b44d6d5de547c8"
+        "path": "app/src/main/res/drawable-mdpi/modules_premium_roadblocks_images_client_themes_upsell.webp",
+        "hash": "b268e078b582bb90a27bb6e89edb55ca"
     },
     {
-        "path": "app/src/main/res/drawable-mdpi/modules_quests_images_nitro_modal_header_background.png",
-        "hash": "92f827adadc1f86811fd4e36c86fdf27"
+        "path": "app/src/main/res/drawable-mdpi/modules_quests_images_nitro_modal_header_background.webp",
+        "hash": "66228f489a94d59154e4e17364f3144e"
     },
     {
         "path": "app/src/main/res/drawable-mdpi/modules_quests_native_images_clouds_background.png",
@@ -12810,10 +12806,6 @@
         "hash": "b415d4ef2e0520a00b1af57e5603a55c"
     },
     {
-        "path": "app/src/main/res/drawable-xxhdpi/images_native_welcomebg.png",
-        "hash": "38957e8b938c7ee2a40f1e8c893feb71"
-    },
-    {
         "path": "app/src/main/res/drawable-xxhdpi/images_native_yellowalert.png",
         "hash": "d967d5f561756f5907bf0aad5ebdd952"
     },
@@ -12852,6 +12844,10 @@
     {
         "path": "app/src/main/res/drawable-xxhdpi/modules_auth_native_images_registerbackgroundlight.png",
         "hash": "31665c02ed2887b9d2d8bbdf1d76b39d"
+    },
+    {
+        "path": "app/src/main/res/drawable-xxhdpi/modules_auth_native_images_welcomebg.webp",
+        "hash": "950ed1a59e00e0a2f0700a2a2cd2a284"
     },
     {
         "path": "app/src/main/res/drawable-xxhdpi/modules_billing_native_images_blockedpurchasesdark.png",
@@ -13402,36 +13398,36 @@
         "hash": "cf07770d989fdc0d41b3b00ec5809ebb"
     },
     {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_premium_tiered_tenure_badging_native_images_asset_bronze_badge_small.png",
-        "hash": "1df6ee7cceb670ae2dfd3feed8d2acfc"
+        "path": "app/src/main/res/drawable-xxhdpi/modules_premium_tiered_tenure_badging_native_images_asset_bronze_badge_small.webp",
+        "hash": "7e4be2270db873116542e37e78120107"
     },
     {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_premium_tiered_tenure_badging_native_images_asset_diamond_badge_small.png",
-        "hash": "ebeff25c9c1d6559128af4dec63d3c8d"
+        "path": "app/src/main/res/drawable-xxhdpi/modules_premium_tiered_tenure_badging_native_images_asset_diamond_badge_small.webp",
+        "hash": "71bc5113b02cf1f99b5a343aa5c4438d"
     },
     {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_premium_tiered_tenure_badging_native_images_asset_emerald_badge_small.png",
-        "hash": "f5c4d9fde9a55ad09e91263f9bebf46a"
+        "path": "app/src/main/res/drawable-xxhdpi/modules_premium_tiered_tenure_badging_native_images_asset_emerald_badge_small.webp",
+        "hash": "12db988a3aa80fa68601a7975c65f9c1"
     },
     {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_premium_tiered_tenure_badging_native_images_asset_gold_badge_small.png",
-        "hash": "98f28dd3128f04f38057757d2f825a42"
+        "path": "app/src/main/res/drawable-xxhdpi/modules_premium_tiered_tenure_badging_native_images_asset_gold_badge_small.webp",
+        "hash": "315f9d4a63f13d92e18da6b9eb40f70a"
     },
     {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_premium_tiered_tenure_badging_native_images_asset_opal_badge_small.png",
-        "hash": "0fef0a9d83d27dc691bf77b0bdae0680"
+        "path": "app/src/main/res/drawable-xxhdpi/modules_premium_tiered_tenure_badging_native_images_asset_opal_badge_small.webp",
+        "hash": "d43cad1075ad5cce7462b35e4826fb39"
     },
     {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_premium_tiered_tenure_badging_native_images_asset_platinum_badge_small.png",
-        "hash": "a162bb51b9ed292f4f10e545ed35e2e3"
+        "path": "app/src/main/res/drawable-xxhdpi/modules_premium_tiered_tenure_badging_native_images_asset_platinum_badge_small.webp",
+        "hash": "3a3116b60fa5fc30eead27358e20c1e0"
     },
     {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_premium_tiered_tenure_badging_native_images_asset_ruby_badge_small.png",
-        "hash": "c4946770ab3c50ce3672b0e2087496ae"
+        "path": "app/src/main/res/drawable-xxhdpi/modules_premium_tiered_tenure_badging_native_images_asset_ruby_badge_small.webp",
+        "hash": "6dbe6eeedfd977b395e157703b8acb70"
     },
     {
-        "path": "app/src/main/res/drawable-xxhdpi/modules_premium_tiered_tenure_badging_native_images_asset_silver_badge_small.png",
-        "hash": "99ffc81e67285d18182e87dbce7ba5f1"
+        "path": "app/src/main/res/drawable-xxhdpi/modules_premium_tiered_tenure_badging_native_images_asset_silver_badge_small.webp",
+        "hash": "ce74b8ba7b9a456f1223414bd4a9964d"
     },
     {
         "path": "app/src/main/res/drawable-xxhdpi/modules_quests_images_quests_embed_mobile_missing.png",
@@ -22899,7 +22895,7 @@
     },
     {
         "path": "app/src/main/res/raw/keep.xml",
-        "hash": "3992f943ab9fe4790458cd81450a517a"
+        "hash": "7897f94ee561a3449edd2e8c18fe8c88"
     },
     {
         "path": "app/src/main/res/raw/modules_activity_privacy_activityprivacycompiledmessages.jsona",
@@ -23143,7 +23139,7 @@
     },
     {
         "path": "app/src/main/res/raw/modules_notifications_notificationsettingscompiledmessages.jsona",
-        "hash": "f63276fb413ac228d67d7a5e7af17920"
+        "hash": "9c366a1f70ac2df7e88dfb54fd151fcd"
     },
     {
         "path": "app/src/main/res/raw/modules_notifications_profile_updates_sender_notifyfriendsonprofileupdatecompiledmessages.jsona",
