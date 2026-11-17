@@ -76,16 +76,8 @@
         "etag": "W/\"fa5ad9d30f2e9fa928e7cb36a6cbda35\""
     },
     {
-        "url": "https://canary.discord.com/assets/cbaed2f8abecb5b8.scm",
-        "etag": "\"47e8d556bd9cd0b5b8029fed85630e7f\""
-    },
-    {
         "url": "https://canary.discord.com/assets/1d9bd35a20953fe0.svg",
         "etag": "W/\"99a9e5571c2f5acd9cb910ce6a3f39a6\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/203e6d70756e8b12.wasm",
-        "etag": "W/\"9bc39f00b54bd73e0b3097f33d74a5e2\""
     },
     {
         "url": "https://canary.discord.com/assets/c46a961e385872cf.svg",
@@ -94,6 +86,10 @@
     {
         "url": "https://canary.discord.com/assets/f83d0be83f86d08c.svg",
         "etag": "W/\"0d7d66cf0a8f30478301c67839c17730\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/37629793d54595aa.wasm",
+        "etag": "W/\"54b730e63190f116400ea953a5764293\""
     },
     {
         "url": "https://canary.discord.com/assets/22eafd6dcb57c9f8.svg",
@@ -132,6 +128,10 @@
         "etag": "W/\"48eceac136dca7faf51011016377b0e7\""
     },
     {
+        "url": "https://canary.discord.com/assets/3477e34e77ae4659.scm",
+        "etag": "\"ff9919b0771ad7157ecab01effa69d30\""
+    },
+    {
         "url": "https://canary.discord.com/assets/0fc263de257a67dd.svg",
         "etag": "W/\"57c48ecfb14bedd23bc4a5d6d6bf7a08\""
     },
@@ -150,10 +150,6 @@
     {
         "url": "https://canary.discord.com/assets/cb1a567ff6191fb5.png",
         "etag": "\"94e785783bdc5358633f0ac49f888e99\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/5693f1a81168aef4.scm",
-        "etag": "\"0263ad81f30dc0e429883188f8d42c18\""
     },
     {
         "url": "https://canary.discord.com/assets/cffd0289a980c733.svg",
@@ -186,6 +182,10 @@
     {
         "url": "https://canary.discord.com/assets/19fd32dcc5279b23.svg",
         "etag": "W/\"d417205608f0ca8bbca73c1274ee5d5b\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/9d568a1f15e8cf74.scm",
+        "etag": "\"d21f03d8873fcc1599a2237142d5f210\""
     },
     {
         "url": "https://canary.discord.com/assets/1e5a9c6e9aa2ce70.svg",
@@ -256,10 +256,6 @@
         "etag": "W/\"5828a9abe4bd7a7dfbd221d64133aa43\""
     },
     {
-        "url": "https://canary.discord.com/assets/e7880f9ee99e8b17.wasm",
-        "etag": "W/\"43362c9253945c6ad7406be057adaf7f\""
-    },
-    {
         "url": "https://canary.discord.com/assets/d9a3c8c5edeeaa66.svg",
         "etag": "W/\"1948eca4d13209a088ac39d88cdc60ff\""
     },
@@ -308,6 +304,10 @@
         "etag": "W/\"e844240dc2411be5439c1326fe46e7c4\""
     },
     {
+        "url": "https://canary.discord.com/assets/6926cd0c58ac1bf3.scm",
+        "etag": "\"24e7b351dd1385c609f3472e8c42b8bf\""
+    },
+    {
         "url": "https://canary.discord.com/assets/5ea4b29121d617d6.svg",
         "etag": "W/\"c8e10ca93aee8c709c9ad7086ef7db0b\""
     },
@@ -332,10 +332,6 @@
         "etag": "W/\"23ce7360b90fa15ff7502a4efa6e3bcd\""
     },
     {
-        "url": "https://canary.discord.com/assets/2b31faaf5a622150.scm",
-        "etag": "\"88cb1ad8f5957951ffd30db397658e9e\""
-    },
-    {
         "url": "https://canary.discord.com/assets/e74c4a06134a20e4.mp3",
         "etag": "\"43805b9dd757ac4f6b9b58c1a8ee5f0d\""
     },
@@ -350,6 +346,10 @@
     {
         "url": "https://canary.discord.com/assets/3d5a4ebd71e65044.svg",
         "etag": "W/\"3ccacc1e13905df4d8d3f810ed55bc6b\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/f515f5466b3799e7.wasm",
+        "etag": "W/\"7e08b01379fab0a0f00c065294ff3a46\""
     },
     {
         "url": "https://canary.discord.com/assets/a0aa4d468dd6d850.svg",
@@ -392,10 +392,6 @@
         "etag": "W/\"618ca8489ae1ab5f94fde2e3a7fb2c0c\""
     },
     {
-        "url": "https://canary.discord.com/assets/bdb130d897717272.wasm",
-        "etag": "W/\"74829ca896ff236ee1d29aab3480234a\""
-    },
-    {
         "url": "https://canary.discord.com/assets/5ff004c5267dd23f.svg",
         "etag": "W/\"950b4d766dd85965b80ae64e112810a4\""
     },
@@ -430,6 +426,10 @@
     {
         "url": "https://canary.discord.com/assets/a365098125de5631.svg",
         "etag": "W/\"2c9735249ccb0e821822eb4a0fec20f2\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/1969a3392e618b26.wasm",
+        "etag": "W/\"d3ecab48c8ca01c1473b28bd5ff983b2\""
     },
     {
         "url": "https://canary.discord.com/assets/822cb9ca19556451.svg",
@@ -468,6 +468,10 @@
         "etag": "W/\"c5bcb9198662897f657193a54d7c88f0\""
     },
     {
+        "url": "https://canary.discord.com/assets/799be48d2386aed3.wasm",
+        "etag": "W/\"bf410acaccfe43b83bae1050f84122e7\""
+    },
+    {
         "url": "https://canary.discord.com/assets/44a7ec4589980427.svg",
         "etag": "W/\"5cdf72535fd236b2a7e6ab8e4826b3a4\""
     },
@@ -478,10 +482,6 @@
     {
         "url": "https://canary.discord.com/assets/037bdc2ad1d9cf54.svg",
         "etag": "W/\"da7554bf196b958f159e5dbb3b7084ef\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/023e042f81f1d190.scm",
-        "etag": "\"17494da6fcfc424eba84b50ad345bd95\""
     },
     {
         "url": "https://canary.discord.com/assets/3d432f6e3d574cee.svg",
@@ -532,10 +532,6 @@
         "etag": "W/\"74657057d786751d7016ec1727733697\""
     },
     {
-        "url": "https://canary.discord.com/assets/1d745fe76aec1178.scm",
-        "etag": "\"cb63006f8abb98ef6a704daeeb79a832\""
-    },
-    {
         "url": "https://canary.discord.com/assets/40022c3123dfbeb4.svg",
         "etag": "W/\"a272020b6b03a24930833240b011a1cd\""
     },
@@ -582,6 +578,10 @@
     {
         "url": "https://canary.discord.com/assets/159cd23f828c673e.svg",
         "etag": "W/\"89bba1c5173777ba0a352d7ac585a647\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/3e482b73ce2f1d69.scm",
+        "etag": "\"0d93e36a9b12fa81de5181f9edcb2557\""
     },
     {
         "url": "https://canary.discord.com/assets/74e34fb02c0075ae.svg",
@@ -642,10 +642,6 @@
     {
         "url": "https://canary.discord.com/assets/6e01384cead3af9e.svg",
         "etag": "W/\"3f743d1073c0662bcc72eb6b55541f5e\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/6e18f7a201cbaf97.scm",
-        "etag": "\"19297282def59034076d0e0c2c3ec456\""
     },
     {
         "url": "https://canary.discord.com/assets/0cdfd952a5fdb034.png",
@@ -734,6 +730,10 @@
     {
         "url": "https://canary.discord.com/assets/83f4cc847601272c.svg",
         "etag": "W/\"bbaf8d037b3f9be9c44f45dd8c6c0156\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/108c8dd67e955e3b.scm",
+        "etag": "\"7dc964e8cfe43feed38f800921ac840c\""
     },
     {
         "url": "https://canary.discord.com/assets/aa4f7852d1937b38.svg",
@@ -972,10 +972,6 @@
         "etag": "W/\"8ef0fda6e7e05fd7c16f3688c46c85d8\""
     },
     {
-        "url": "https://canary.discord.com/assets/c6e91b47ab586842.scm",
-        "etag": "\"250447ad4331e00abf2b5f533d41a891\""
-    },
-    {
         "url": "https://canary.discord.com/assets/7920f2efab4471c8.svg",
         "etag": "W/\"5e0c4011b436fce242590bbbd6864c5e\""
     },
@@ -1068,6 +1064,10 @@
         "etag": "W/\"a017c614e28f794bebc8c4a24e341290\""
     },
     {
+        "url": "https://canary.discord.com/assets/1d745fe76aec1178.scm",
+        "etag": "\"cb63006f8abb98ef6a704daeeb79a832\""
+    },
+    {
         "url": "https://canary.discord.com/assets/138bc456f5fc66e5.svg",
         "etag": "W/\"782c5bd88fb4750d99cf6655fba03474\""
     },
@@ -1120,10 +1120,6 @@
         "etag": "W/\"3957485898c08d5276bd2eb9f1755faf\""
     },
     {
-        "url": "https://canary.discord.com/assets/d1d5683e682403ee.scm",
-        "etag": "\"f5eb1a94f150866bece8202ac7454992\""
-    },
-    {
         "url": "https://canary.discord.com/assets/67fd79b21dbc7d98.svg",
         "etag": "W/\"7f36e54469b941cf193a1a19baf2b806\""
     },
@@ -1148,8 +1144,16 @@
         "etag": "W/\"d7bbe0154d7fe493cad8d0254bf151cb\""
     },
     {
+        "url": "https://canary.discord.com/assets/31a797c4177b7453.scm",
+        "etag": "\"4b2df29fb0ff04112fb94c4064c2e8da\""
+    },
+    {
         "url": "https://canary.discord.com/assets/ab4821bcdc41abe7.svg",
         "etag": "W/\"2938c2e15bd71bbd53b1744f66b65298\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/89689369445eca3b.scm",
+        "etag": "\"39d5d965e6abdd3c97099514b3fedd3e\""
     },
     {
         "url": "https://canary.discord.com/assets/9467fe86fe3a7a85.svg",
@@ -1260,10 +1264,6 @@
         "etag": "W/\"2d241fa4cac39d7222f03734abb3ece5\""
     },
     {
-        "url": "https://canary.discord.com/assets/63f5ace618a1849b.wasm",
-        "etag": "W/\"33f950723ba19fe0d2687b16031f1973\""
-    },
-    {
         "url": "https://canary.discord.com/assets/c234e0e1f7fc2872.svg",
         "etag": "W/\"5fb9c7b96aae7603c6e9dda5344ca0a6\""
     },
@@ -1300,6 +1300,10 @@
         "etag": "W/\"65abdc01764266f7df480af26b24a545\""
     },
     {
+        "url": "https://canary.discord.com/assets/b5bfaaa4cb03e124.scm",
+        "etag": "\"85dc24258b5ddb8fafa4ac5c22ad8f77\""
+    },
+    {
         "url": "https://canary.discord.com/assets/17eb6917b3700543.svg",
         "etag": "W/\"704977f099302e133536f0ef3c756db6\""
     },
@@ -1310,10 +1314,6 @@
     {
         "url": "https://canary.discord.com/assets/50162d57ac545c76.svg",
         "etag": "W/\"e650bde0c76bde895b715d37ca084887\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/abf348b278af23fb.wasm",
-        "etag": "W/\"12460be6f30b76df8c7138561114c080\""
     },
     {
         "url": "https://canary.discord.com/assets/40d498d64fac4489.svg",
@@ -1338,6 +1338,10 @@
     {
         "url": "https://canary.discord.com/assets/a3b9722606fe04d0.svg",
         "etag": "W/\"26d9aeef49a0e48315a6668435d388fa\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/191563f32b0d4a0b.wasm",
+        "etag": "\"e3fbfa1bf32dce8b2a84f2aa97e89ff6\""
     },
     {
         "url": "https://canary.discord.com/assets/cc6f796a58b78ea3.svg",
@@ -1424,20 +1428,16 @@
         "etag": "W/\"e62b930d873735bbede7ae1785d13233\""
     },
     {
-        "url": "https://canary.discord.com/assets/bd9bde68cb2a04f0.scm",
-        "etag": "\"ed6811b1c4f73522925106ebaa9d13c9\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/f038570bdb7af8e9.wasm",
-        "etag": "W/\"639c80b88a1f5e0ce0256f6c268d5388\""
-    },
-    {
         "url": "https://canary.discord.com/assets/ac67593bc9db5799.svg",
         "etag": "W/\"8f7170461d8ea91ec4127aa5b3c6723a\""
     },
     {
         "url": "https://canary.discord.com/assets/90dddd6dd34d4d2f.svg",
         "etag": "W/\"8314ff2c4ec7f0f1493a60aa9c6ca0d6\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/7a1bfe86553551a2.scm",
+        "etag": "\"59ea75d51f1a4e8764300af99130aef8\""
     },
     {
         "url": "https://canary.discord.com/assets/f14c0cc1302d8016.svg",
@@ -1516,12 +1516,12 @@
         "etag": "W/\"d759f3acc6286c964cc8118d7f68b374\""
     },
     {
-        "url": "https://canary.discord.com/assets/e0b7a2d0c737a42b.scm",
-        "etag": "\"9c7129856eae78337de5fa51fe3ae903\""
-    },
-    {
         "url": "https://canary.discord.com/assets/eeaea971803a9d45.svg",
         "etag": "W/\"7c3ec42a517d26f7559a1bd4ce282e55\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/26f3233db8fd35cc.scm",
+        "etag": "\"20fef67c146c182a4a3c938ac896e147\""
     },
     {
         "url": "https://canary.discord.com/assets/0e24d1ef0ff56f90.svg",
@@ -1536,8 +1536,16 @@
         "etag": "W/\"edd95b4964a6d45246ee83897dd26f9b\""
     },
     {
+        "url": "https://canary.discord.com/assets/1a395c1d440d9bb5.scm",
+        "etag": "\"7e0a14b5fe7c128dd20aa3b3548704d0\""
+    },
+    {
         "url": "https://canary.discord.com/assets/83f7cb2c2f4230cd.svg",
         "etag": "W/\"68546f5fc3b2166f42cf90b7e23c5ae9\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/5493a714075a72c6.wasm",
+        "etag": "W/\"9a62c2d12ffb31e94ce3f716e3ffded2\""
     },
     {
         "url": "https://canary.discord.com/assets/06daced05bd7a114.svg",
@@ -1552,16 +1560,16 @@
         "etag": "W/\"a3ee61d0b9d562788b7e98adaa2da3b0\""
     },
     {
+        "url": "https://canary.discord.com/assets/577d73522f17d851.wasm",
+        "etag": "W/\"5661e0893b0a346ae6299654a44ca55f\""
+    },
+    {
         "url": "https://canary.discord.com/assets/d2aeea556bc371b6.svg",
         "etag": "W/\"2f845c13e5a7ba55b9dd834910f20b74\""
     },
     {
         "url": "https://canary.discord.com/assets/254f3923d652ddf6.svg",
         "etag": "W/\"559149bf1f85eb2e90a0d42e28f84fe4\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/2ee8111376e6effe.wasm",
-        "etag": "W/\"a156ca96f074aade0c1962ecdb693149\""
     },
     {
         "url": "https://canary.discord.com/assets/e284acdf93953778.svg",
@@ -1626,6 +1634,10 @@
     {
         "url": "https://canary.discord.com/assets/88692ac5329dc29f.svg",
         "etag": "W/\"79957f681e99624173f17b2ba0e81627\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/77d5b4e9a629191d.wasm",
+        "etag": "W/\"7d3bf1fac22113a1a72e91f4f3285e28\""
     },
     {
         "url": "https://canary.discord.com/assets/7f595118de0b56f0.svg",
@@ -1702,10 +1714,6 @@
     {
         "url": "https://canary.discord.com/assets/b8deed70d3e4a9bd.svg",
         "etag": "W/\"2651df01b16f9037f954d7bfe6a535f4\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/0e68dac0c0691a0c.scm",
-        "etag": "\"c952c7efd183b77ffc81053fc988e6d7\""
     },
     {
         "url": "https://canary.discord.com/assets/06349fd92e6af503.svg",
@@ -1820,10 +1828,6 @@
         "etag": "W/\"2d16214bcc74dd1546a35d3d6f15abec\""
     },
     {
-        "url": "https://canary.discord.com/assets/d4bfa95eadea7b95.scm",
-        "etag": "\"d6a5d87d14c865458ea61baae7048fad\""
-    },
-    {
         "url": "https://canary.discord.com/assets/276711a7d32f06d9.svg",
         "etag": "W/\"fab490f155c34dea60bc085787fd27de\""
     },
@@ -1900,6 +1904,10 @@
         "etag": "W/\"1eb2893dc9f4ad8ef5f3dc001c922c69\""
     },
     {
+        "url": "https://canary.discord.com/assets/1f8dd043494ee1f1.scm",
+        "etag": "\"4dc96ca8b70a220f5cf7b39bfa61069e\""
+    },
+    {
         "url": "https://canary.discord.com/assets/4703fa033ee4801b.svg",
         "etag": "W/\"0c22a18d2167ef2595a6d4189245fd86\""
     },
@@ -1920,10 +1928,6 @@
         "etag": "W/\"b8d67a157c8d797d570540594027e136\""
     },
     {
-        "url": "https://canary.discord.com/assets/4c0f09fc8f81ff7f.wasm",
-        "etag": "W/\"4abf5f66efa68cd7b09e777ecce17cbc\""
-    },
-    {
         "url": "https://canary.discord.com/assets/7d67c17823de149c.svg",
         "etag": "W/\"a5c2d247ff4ddb2b1e966320d46dbcab\""
     },
@@ -1934,6 +1938,10 @@
     {
         "url": "https://canary.discord.com/assets/43b7ead1fb91b731.svg",
         "etag": "W/\"212e30e47232be03033a87dc58edaa95\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/2751f826ec9ebbef.wasm",
+        "etag": "W/\"f3c8a1e9c937de35d558061f36c976a1\""
     },
     {
         "url": "https://canary.discord.com/assets/33ab92f9b0b6d41f.svg",
@@ -1960,6 +1968,10 @@
         "etag": "W/\"db83bf812a67bbce39e1e099f641ad14\""
     },
     {
+        "url": "https://canary.discord.com/assets/fd49a79b78478dc4.wasm",
+        "etag": "W/\"a8c071177cc2b4537fc8fe331d0baab5\""
+    },
+    {
         "url": "https://canary.discord.com/assets/c10d683f5634e571.svg",
         "etag": "W/\"985bb2d2398be71e1b68bc7e2103c993\""
     },
@@ -1970,6 +1982,10 @@
     {
         "url": "https://canary.discord.com/assets/5000a4145eda5ad7.svg",
         "etag": "W/\"913e66b19410c0ca3e71fe837a29e093\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/9fa7b99795cad999.scm",
+        "etag": "\"248db8a9d9ae9900777769ae29473757\""
     },
     {
         "url": "https://canary.discord.com/assets/75bbdeeb72e040f8.svg",
@@ -2000,8 +2016,16 @@
         "etag": "W/\"48c9c24b660f8c392a56f8d28c86f1c3\""
     },
     {
+        "url": "https://canary.discord.com/assets/7555218a1309ad93.scm",
+        "etag": "\"480d6fb9860bcebe68de7edd469a954a\""
+    },
+    {
         "url": "https://canary.discord.com/assets/958a26c6456cadbb.svg",
         "etag": "W/\"b8088efbebfa288bed766d40ac14e118\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/598b355cd5c61ada.wasm",
+        "etag": "W/\"4647b3fa5035d2a7c5cb5e5ae04fce35\""
     },
     {
         "url": "https://canary.discord.com/assets/acb0ef3d64b1e7b6.png",
@@ -2052,8 +2076,8 @@
         "etag": "W/\"153924e2c4b62b4b147186cc6eff6db0\""
     },
     {
-        "url": "https://canary.discord.com/assets/0c2cf4025eb430f2.wasm",
-        "etag": "W/\"1ac6480b44f2da52934f90ec4df391f3\""
+        "url": "https://canary.discord.com/assets/55072d0bf912d0a2.scm",
+        "etag": "\"72bb74a7592a3f4ac140d5450c417c65\""
     },
     {
         "url": "https://canary.discord.com/assets/b41313ae0decd4fd.svg",
@@ -2076,16 +2100,16 @@
         "etag": "W/\"a4ad10781f285c4cc14bd8c3757f6732\""
     },
     {
-        "url": "https://canary.discord.com/assets/07e417d738722d4c.scm",
-        "etag": "\"f2bb1efda5d19fd75704da83290b07a4\""
-    },
-    {
         "url": "https://canary.discord.com/assets/d5d18f9c17a19de2.svg",
         "etag": "W/\"263a7f4eeb6f69e46d969fa479188592\""
     },
     {
         "url": "https://canary.discord.com/assets/e25419e69d22a169.svg",
         "etag": "W/\"2859b7c99f56fe22827916c529ccac86\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/4ed39dc06943c3e2.scm",
+        "etag": "\"d130cd27379d8eee1ee8de845cde0ab0\""
     },
     {
         "url": "https://canary.discord.com/assets/fc3c196d960ecfc9.svg",
@@ -2102,10 +2126,6 @@
     {
         "url": "https://canary.discord.com/assets/8adc4a9374884715.svg",
         "etag": "W/\"f9e5ee010086899b5c4d31b5cfbb4004\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/4124126694c38814.wasm",
-        "etag": "W/\"0da5e3cca0373e7fafe4b1ea7b5b5378\""
     },
     {
         "url": "https://canary.discord.com/assets/4f2cb7753e5d5e61.png",
@@ -2212,6 +2232,10 @@
         "etag": "W/\"d2b42f278672425e187ce745be2e2bcd\""
     },
     {
+        "url": "https://canary.discord.com/assets/f81d26c65b6725c8.scm",
+        "etag": "\"f46c5530da8f22f0d695c9a2a5ce1b6f\""
+    },
+    {
         "url": "https://canary.discord.com/assets/31000a47a38bec96.svg",
         "etag": "W/\"1703f9a3721beece0d66f10c0ef9d3d0\""
     },
@@ -2222,6 +2246,10 @@
     {
         "url": "https://canary.discord.com/assets/fc1cc3024eb0b911.svg",
         "etag": "W/\"31feca763e90c1b622f1144bebb1648c\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/d617404a9721adaa.wasm",
+        "etag": "W/\"824fc4091a6b7b194937ec1a4aa27d77\""
     },
     {
         "url": "https://canary.discord.com/assets/4c67fc57b556eb8f.svg",
@@ -2236,10 +2264,6 @@
         "etag": "W/\"c4cb8aa4b3abef19178d052694e3ebf4\""
     },
     {
-        "url": "https://canary.discord.com/assets/5b5a0771de70c994.wasm",
-        "etag": "W/\"c3bdf40a61662fdd72a6c7dc4cb20c6c\""
-    },
-    {
         "url": "https://canary.discord.com/assets/a4e5dc9a3b96a85a.svg",
         "etag": "W/\"59056eaaeb655a7c5beb85c0095173dd\""
     },
@@ -2250,10 +2274,6 @@
     {
         "url": "https://canary.discord.com/assets/6e69a28aec2792e5.svg",
         "etag": "W/\"dca5ff1fc04255389eff0028e921aed3\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/d90643289be970b6.scm",
-        "etag": "\"7289d6d4d87000a37bb671ff88b00b60\""
     },
     {
         "url": "https://canary.discord.com/assets/ee8f405f3271d491.svg",
@@ -2280,10 +2300,6 @@
         "etag": "W/\"b8630468b0aed7fa65976ef23ceaa8c3\""
     },
     {
-        "url": "https://canary.discord.com/assets/bea314831a08c1ad.wasm",
-        "etag": "W/\"8aee2da616f1190fa4bb76f383cb9069\""
-    },
-    {
         "url": "https://canary.discord.com/assets/deed631dac658c0f.svg",
         "etag": "W/\"817f965bd1fd796777908e6c8052d665\""
     },
@@ -2306,6 +2322,10 @@
     {
         "url": "https://canary.discord.com/assets/04d8a5960fd0c632.svg",
         "etag": "W/\"e37bc714ecd911af7c558f5aaa0c4464\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/7cc0acd33f903a55.scm",
+        "etag": "\"ff2ec62edb27c596055b57b1fbe2732f\""
     },
     {
         "url": "https://canary.discord.com/assets/58d167c889b99da6.svg",
@@ -2342,6 +2362,10 @@
     {
         "url": "https://canary.discord.com/assets/88b289225ff6142a.svg",
         "etag": "W/\"5acc0abb7cbb015848085fc0993142bf\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/1b7e0f257a5ea496.wasm",
+        "etag": "W/\"cf40c667507e69e375eeea75db837d06\""
     },
     {
         "url": "https://canary.discord.com/assets/5457e48dbd5c9b1a.svg",
@@ -2412,16 +2436,16 @@
         "etag": "W/\"6e967a6d93321898fa211fb0249c20e2\""
     },
     {
-        "url": "https://canary.discord.com/assets/5e8f3bb7f8d4c68c.scm",
-        "etag": "\"1db11781128f00aae345a8467b72a914\""
-    },
-    {
         "url": "https://canary.discord.com/assets/211e86b8f98264eb.svg",
         "etag": "W/\"f9b9b873bf481dbcd708be1902614079\""
     },
     {
         "url": "https://canary.discord.com/assets/0dbf3c5612419c55.svg",
         "etag": "W/\"bf6bdfc4ee2222efcd652a344cb22ef4\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/d4bfa95eadea7b95.scm",
+        "etag": "\"d6a5d87d14c865458ea61baae7048fad\""
     },
     {
         "url": "https://canary.discord.com/assets/1e3be1593f48b9cd.svg",
@@ -2456,20 +2480,12 @@
         "etag": "W/\"b044bc510f436a9f7d47629f27bcf358\""
     },
     {
-        "url": "https://canary.discord.com/assets/83241319c2f5ea44.scm",
-        "etag": "\"814225714d460a7deff50f18f4b3d14b\""
-    },
-    {
         "url": "https://canary.discord.com/assets/0785c65065e128e2.svg",
         "etag": "W/\"105311b6dd7c00d36b514f5e41d0f46c\""
     },
     {
         "url": "https://canary.discord.com/assets/11833fd950290841.svg",
         "etag": "W/\"d1a272b765ce7b4fb2a94e0613cbc370\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/f78c17604b26eefb.scm",
-        "etag": "\"1fd59869205ea952f7856ce88aff8cef\""
     },
     {
         "url": "https://canary.discord.com/assets/aa280fe3f1679fdf.svg",
@@ -2482,6 +2498,10 @@
     {
         "url": "https://canary.discord.com/assets/c31760b658c34aa4.svg",
         "etag": "W/\"e67b8fcfcc7e2dac5f450a1774a16dca\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/7fe23f9203b51756.scm",
+        "etag": "\"50d23c1b61d3641a1672368a19a44723\""
     },
     {
         "url": "https://canary.discord.com/assets/57ebae7d7a2ff6b8.svg",
@@ -2508,14 +2528,6 @@
         "etag": "W/\"654296028cc95c58b0f583ab5a61327b\""
     },
     {
-        "url": "https://canary.discord.com/assets/2dc3595467f9ed1b.scm",
-        "etag": "\"3cce12cc036fde05bf4fc467bab32a3e\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/534b88d8e16028e3.wasm",
-        "etag": "W/\"42fb9d76c466db979b9604331d8b62e9\""
-    },
-    {
         "url": "https://canary.discord.com/assets/babc3346561d0bc1.svg",
         "etag": "W/\"e6e9e7a405bb146e88e0f8a3aec6bb02\""
     },
@@ -2536,10 +2548,6 @@
         "etag": "\"df0600d3bde364c28b57fc32d3c82523\""
     },
     {
-        "url": "https://canary.discord.com/assets/11028097ed495199.scm",
-        "etag": "\"04806f4f64837f540442bd74752a02b7\""
-    },
-    {
         "url": "https://canary.discord.com/assets/bb091e8551130431.svg",
         "etag": "W/\"80c507466757fdf397d5b2f17c09b81d\""
     },
@@ -2558,6 +2566,10 @@
     {
         "url": "https://canary.discord.com/assets/6c67b6ce6397c0f5.svg",
         "etag": "W/\"117476c82e097a60f93a9447b67d0dbf\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/28047f781bb88e3a.scm",
+        "etag": "\"c8cf30626a53ca4b975ce650cf8e2381\""
     },
     {
         "url": "https://canary.discord.com/assets/15a4102324a0bfc6.svg",
@@ -2592,6 +2604,10 @@
         "etag": "W/\"ff9619d028f1535f85a4c759a64de267\""
     },
     {
+        "url": "https://canary.discord.com/assets/83241319c2f5ea44.scm",
+        "etag": "\"814225714d460a7deff50f18f4b3d14b\""
+    },
+    {
         "url": "https://canary.discord.com/assets/437fcd7cc9b62841.svg",
         "etag": "W/\"74760e8f58ab462ca972dde9498902d3\""
     },
@@ -2600,12 +2616,12 @@
         "etag": "W/\"026a3b9641a2a5695469456570daf22f\""
     },
     {
-        "url": "https://canary.discord.com/assets/d43eaa0b5420bc1c.svg",
-        "etag": "W/\"5e8675734d4bf5232a60a4f6751dcd03\""
+        "url": "https://canary.discord.com/assets/9bd4a797e174717e.wasm",
+        "etag": "W/\"2a14e75e4dcbe55a6bd2dd946e6dbe6e\""
     },
     {
-        "url": "https://canary.discord.com/assets/25c677b3c2f23d03.scm",
-        "etag": "\"13292f1d5e8e6c7155a4dc66585005f1\""
+        "url": "https://canary.discord.com/assets/d43eaa0b5420bc1c.svg",
+        "etag": "W/\"5e8675734d4bf5232a60a4f6751dcd03\""
     },
     {
         "url": "https://canary.discord.com/assets/66c909791c02d78e.svg",
@@ -2656,6 +2672,10 @@
         "etag": "W/\"03beb9dac4ed05d98f6463b2c32c575a\""
     },
     {
+        "url": "https://canary.discord.com/assets/ba3ff33752bdeb90.scm",
+        "etag": "\"14994f7349f7af8e4ca5e9ab6094adaf\""
+    },
+    {
         "url": "https://canary.discord.com/assets/e02a0604e6f289f4.svg",
         "etag": "W/\"bbdd9507db13b6b19c40c1bc37705cc6\""
     },
@@ -2670,6 +2690,10 @@
     {
         "url": "https://canary.discord.com/assets/ef5ae57e8ab3913a.svg",
         "etag": "W/\"eaf0846edd962b9c41baf6675f8e8756\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/5e8f3bb7f8d4c68c.scm",
+        "etag": "\"1db11781128f00aae345a8467b72a914\""
     },
     {
         "url": "https://canary.discord.com/assets/125ae6d728222a7c.svg",
@@ -2704,14 +2728,6 @@
         "etag": "W/\"ff85a1aae50ad48506e3275656768e89\""
     },
     {
-        "url": "https://canary.discord.com/assets/9a8a39530b75f971.scm",
-        "etag": "\"40401da81497ecc310fb21536246077e\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/cc541fde42e3ce86.wasm",
-        "etag": "W/\"0c39178aad548c89c0b304af33f815a1\""
-    },
-    {
         "url": "https://canary.discord.com/assets/1b01910c18759920.svg",
         "etag": "W/\"a2c5fdf59473655ee575cc2d71bb5d72\""
     },
@@ -2730,10 +2746,6 @@
     {
         "url": "https://canary.discord.com/assets/39b328d468f9e547.svg",
         "etag": "W/\"cca6a3d335f4a41b4e0d7538499f6892\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/77cca439b48681fd.scm",
-        "etag": "\"b2df5d07a1d0e73acd98c190630dcf6e\""
     },
     {
         "url": "https://canary.discord.com/assets/1f8404cc05d174d2.svg",
@@ -2884,10 +2896,6 @@
         "etag": "W/\"5f7952d702a76f4a5cea36f3a5240ef6\""
     },
     {
-        "url": "https://canary.discord.com/assets/7bbbd663402a67c4.scm",
-        "etag": "\"1a65203b65359afc47d1b57d3fc96507\""
-    },
-    {
         "url": "https://canary.discord.com/assets/4b6781044811b929.svg",
         "etag": "W/\"4c5a77a89716352686f590a6f014770c\""
     },
@@ -2900,12 +2908,12 @@
         "etag": "W/\"f2d869d6b7b636d5ca7e1fa73e09b9c6\""
     },
     {
-        "url": "https://canary.discord.com/assets/2a0f0d40e3e6b5f5.wasm",
-        "etag": "W/\"b3ac46251dfa0286d0f7a5d556741585\""
-    },
-    {
         "url": "https://canary.discord.com/assets/1562477ed0b99c36.svg",
         "etag": "W/\"19581aca5d78feac3a180971f24d399b\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/6a47e50cddd6b30f.scm",
+        "etag": "\"87bb2d1b7c31508f26b9916a12058d0d\""
     },
     {
         "url": "https://canary.discord.com/assets/daf6c21d9f92979a.mp3",
@@ -2934,10 +2942,6 @@
     {
         "url": "https://canary.discord.com/assets/c3adc84ce0c09a22.svg",
         "etag": "W/\"81a61af00a8f7b928e45df627b2e416b\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/91d438d370df2fb9.scm",
-        "etag": "\"c5439f15284c0f0e7957c6fa2935bcc1\""
     },
     {
         "url": "https://canary.discord.com/assets/224f56365db6763e.svg",
@@ -2970,6 +2974,10 @@
     {
         "url": "https://canary.discord.com/assets/db7909b6dce5bba9.svg",
         "etag": "W/\"aed9b39359d1332acf621d489c6dc79a\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/8260f720df5e3e06.wasm",
+        "etag": "W/\"28ced7b9e72cb5a78024304a35870278\""
     },
     {
         "url": "https://canary.discord.com/assets/7c2c4ffcbd5542ae.svg",
@@ -3012,6 +3020,10 @@
         "etag": "W/\"16ec0f5f36a740e54c01933dc9626a52\""
     },
     {
+        "url": "https://canary.discord.com/assets/bb3ac68fa100d5c7.wasm",
+        "etag": "W/\"e1ec3541f66397272bcbb34a9a546248\""
+    },
+    {
         "url": "https://canary.discord.com/assets/89738d3d51f0626c.svg",
         "etag": "W/\"f92a4c1da8927a4939ca2b5ab17ac0c8\""
     },
@@ -3048,8 +3060,8 @@
         "etag": "W/\"a5428e27d8a94903955aa47b9588a4f1\""
     },
     {
-        "url": "https://canary.discord.com/assets/0af059d1dd61fef3.scm",
-        "etag": "\"687fc1153c32265048aa5c483efb959b\""
+        "url": "https://canary.discord.com/assets/1fe2dbba51cddf4b.wasm",
+        "etag": "\"c1c72dc1262145598e1eb7351285cde8\""
     },
     {
         "url": "https://canary.discord.com/assets/1daa738a5c19125a.svg",
@@ -3140,10 +3152,6 @@
         "etag": "W/\"aedb2953ab450c89c31253dd395297c1\""
     },
     {
-        "url": "https://canary.discord.com/assets/bb3ac68fa100d5c7.wasm",
-        "etag": "W/\"e1ec3541f66397272bcbb34a9a546248\""
-    },
-    {
         "url": "https://canary.discord.com/assets/889e5bf0cf7989cc.svg",
         "etag": "W/\"e1fba47252509b8a076f39a3272809f9\""
     },
@@ -3156,12 +3164,12 @@
         "etag": "W/\"001ee681fa13f39b4475ebf139a7ac64\""
     },
     {
-        "url": "https://canary.discord.com/assets/0d59f0d5b7f61f84.svg",
-        "etag": "W/\"f57d9d8cba0c2c3efe420f67d5c3cc8d\""
+        "url": "https://canary.discord.com/assets/9d2904ef6dd5e9fe.scm",
+        "etag": "\"d30b46c2828f53b33b6f9034a5ba608c\""
     },
     {
-        "url": "https://canary.discord.com/assets/15c8ec64f2ae513e.wasm",
-        "etag": "W/\"110e8580597b1b8d4926e45ed52e11e5\""
+        "url": "https://canary.discord.com/assets/0d59f0d5b7f61f84.svg",
+        "etag": "W/\"f57d9d8cba0c2c3efe420f67d5c3cc8d\""
     },
     {
         "url": "https://canary.discord.com/assets/4fc22e80b4a7271e.svg",
@@ -3190,6 +3198,10 @@
     {
         "url": "https://canary.discord.com/assets/4cbf3a2e0078aaf9.svg",
         "etag": "W/\"842b662764dbaea4bb6f2f2302b0a8c6\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/48aa74bea3fcda40.scm",
+        "etag": "\"0eda69edc2bece58aad825e3c01d3267\""
     },
     {
         "url": "https://canary.discord.com/assets/402bce349672aa4e.svg",
@@ -3268,6 +3280,14 @@
         "etag": "W/\"51bf7abe73c308b4fd46b01fdb9bb8bb\""
     },
     {
+        "url": "https://canary.discord.com/assets/bed44ef8a588de5e.scm",
+        "etag": "\"ed6020b5d2f0881caadfefa24ecc91a5\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/6abd2df7d1f071e0.wasm",
+        "etag": "W/\"d7b891a1b45d6d39e8afd5caf94fe634\""
+    },
+    {
         "url": "https://canary.discord.com/assets/81c8e24bf5661cb4.svg",
         "etag": "W/\"4aceb8c2735981cee8b75373c0f3391d\""
     },
@@ -3278,10 +3298,6 @@
     {
         "url": "https://canary.discord.com/assets/f7a9e1326c19c64c.svg",
         "etag": "W/\"14b8317fd0cf1f8d1e8a89de6c841c76\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/a95d1640af0ddcec.wasm",
-        "etag": "W/\"fd6f9df7fb4f630fb98ec00e50c8761a\""
     },
     {
         "url": "https://canary.discord.com/assets/80d98aa027a3ee75.svg",
@@ -3306,10 +3322,6 @@
     {
         "url": "https://canary.discord.com/assets/0a9a41e08efe1875.svg",
         "etag": "W/\"bfa406c50c94005b0364c2a264860b2c\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/4f098f595413c750.scm",
-        "etag": "\"782d4aa25b808983916ec1e4bd4974ab\""
     },
     {
         "url": "https://canary.discord.com/assets/ab719146d31d62b3.svg",
@@ -3512,6 +3524,10 @@
         "etag": "W/\"7da28de81a5be51f4199da5050e83041\""
     },
     {
+        "url": "https://canary.discord.com/assets/f43f7dedfee334eb.scm",
+        "etag": "\"643d4b539666fe78ca21df6e23b5e98a\""
+    },
+    {
         "url": "https://canary.discord.com/assets/2ce1d92b801ecb51.svg",
         "etag": "W/\"efd4ceb1752fb6dfe72a86356a72cdae\""
     },
@@ -3564,10 +3580,6 @@
         "etag": "W/\"6074259f0c76688b3899d1a4c5ca7e4e\""
     },
     {
-        "url": "https://canary.discord.com/assets/68db595d8460bf97.scm",
-        "etag": "\"871ce8ff69c191bd7364c67c2ed79d2b\""
-    },
-    {
         "url": "https://canary.discord.com/assets/dcce7481d64c9441.svg",
         "etag": "W/\"549e0b9954236583f841032b85ba45f9\""
     },
@@ -3596,10 +3608,6 @@
         "etag": "W/\"4b083ab47a352c20827b7e2457c4ea20\""
     },
     {
-        "url": "https://canary.discord.com/assets/64eba10de56bb765.scm",
-        "etag": "\"9d246b8b33f2f0f63e82ba312ef3751c\""
-    },
-    {
         "url": "https://canary.discord.com/assets/8a386907994da442.svg",
         "etag": "W/\"d4d91a5f31668dd4609a3d7522f722c5\""
     },
@@ -3618,6 +3626,10 @@
     {
         "url": "https://canary.discord.com/assets/0db19ec964fc0955.svg",
         "etag": "W/\"8e80101ffd2eee9330efa01bd812a5c7\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/d819ef4b6df05088.scm",
+        "etag": "\"a65859c90c9fcad2d4e1274fa2ae732f\""
     },
     {
         "url": "https://canary.discord.com/assets/fb52676e29a9ee6e.svg",
@@ -3684,6 +3696,10 @@
         "etag": "W/\"b38e512f3b6a5d190650f956d0a43e1a\""
     },
     {
+        "url": "https://canary.discord.com/assets/5d60c65a42dd8b61.scm",
+        "etag": "\"ee7e7027b89df4b8d5d506ebf441fa1a\""
+    },
+    {
         "url": "https://canary.discord.com/assets/f99d825d4f534bf8.svg",
         "etag": "W/\"01105a704e5c229cd10d7c2223b7bf35\""
     },
@@ -3718,14 +3734,6 @@
     {
         "url": "https://canary.discord.com/assets/2063fc2ef0c778bf.png",
         "etag": "\"b2609efe7eaf6066ccf83c63b831b9f5\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/7fe23f9203b51756.scm",
-        "etag": "\"50d23c1b61d3641a1672368a19a44723\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/7ba428bf85f7b5c6.wasm",
-        "etag": "W/\"714b6fa64600b9877d28a7a2d46058e2\""
     },
     {
         "url": "https://canary.discord.com/assets/c333146223a1f803.svg",
@@ -3772,10 +3780,6 @@
         "etag": "W/\"124c49c6b3c5a9664053fe7ca23a20b6\""
     },
     {
-        "url": "https://canary.discord.com/assets/d08bc0bdf5882cbb.wasm",
-        "etag": "W/\"f8043e94919d12f8b118fa234f91ee2a\""
-    },
-    {
         "url": "https://canary.discord.com/assets/6da2abeb9251d6d1.svg",
         "etag": "W/\"19dcd7845842cb6510c9703c04d3fde8\""
     },
@@ -3788,10 +3792,6 @@
         "etag": "W/\"5d0fc8ffcdec42d0b7247a83095dc9f2\""
     },
     {
-        "url": "https://canary.discord.com/assets/437b321becdb7f7a.wasm",
-        "etag": "W/\"7f89600155ccecc49295a424c66e294c\""
-    },
-    {
         "url": "https://canary.discord.com/assets/3218267344c94db6.svg",
         "etag": "W/\"61cec822f6697dee4e983546ebdd8b63\""
     },
@@ -3802,10 +3802,6 @@
     {
         "url": "https://canary.discord.com/assets/d03135626ef69b57.svg",
         "etag": "W/\"87632fc55f217f6774af0b077e01ddca\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/4fe2bf339f9bcf80.wasm",
-        "etag": "W/\"be75163be01954f06b0cf255b23a4d17\""
     },
     {
         "url": "https://canary.discord.com/assets/b2d71823171424fb.svg",
@@ -3826,10 +3822,6 @@
     {
         "url": "https://canary.discord.com/assets/9bb2cc8906a18ba2.svg",
         "etag": "W/\"4618542b611d3f088657d7feeeed8d7b\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/5002d3c2fa5919d9.scm",
-        "etag": "\"23a8d510ecd2655136225293838a4ed1\""
     },
     {
         "url": "https://canary.discord.com/assets/36019901165c5fac.svg",
@@ -3952,10 +3944,6 @@
         "etag": "W/\"0a925256fa01e07f5a7986c1e4fee0c9\""
     },
     {
-        "url": "https://canary.discord.com/assets/a509605565cd4809.wasm",
-        "etag": "W/\"c903331e5a9a315d921f01a2a2c02ab8\""
-    },
-    {
         "url": "https://canary.discord.com/assets/c5af4217c5553788.svg",
         "etag": "W/\"4b4cacefad809a36361b8ca5a069c830\""
     },
@@ -3990,10 +3978,6 @@
     {
         "url": "https://canary.discord.com/assets/2ba4473ba23d2595.svg",
         "etag": "W/\"ce636b3e6a427ec27cc7cdcc03ff31de\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/7cdf35cc40bd63c2.wasm",
-        "etag": "W/\"d057d3d676c390943bcc501af1041c35\""
     },
     {
         "url": "https://canary.discord.com/assets/aef7be70f6706f0e.svg",
@@ -4116,8 +4100,16 @@
         "etag": "W/\"438ea27c2ae7eb9a04e0b0c0afbacf54\""
     },
     {
+        "url": "https://canary.discord.com/assets/d08bc0bdf5882cbb.wasm",
+        "etag": "W/\"f8043e94919d12f8b118fa234f91ee2a\""
+    },
+    {
         "url": "https://canary.discord.com/assets/40ee527e5f3012f5.svg",
         "etag": "W/\"654212b1a4cdf391b4a8bb37faf7d18c\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/672084259765f452.scm",
+        "etag": "\"9fa14beede05fd33e4ce132222bdea28\""
     },
     {
         "url": "https://canary.discord.com/assets/9d9f9811748f490a.svg",
@@ -4176,6 +4168,10 @@
         "etag": "W/\"3980b3bb3869cad54445356af9f5eedd\""
     },
     {
+        "url": "https://canary.discord.com/assets/916bab3e06f5d5ba.scm",
+        "etag": "\"5a6e7b250d6fb0b9d5d7e8c031c0c06f\""
+    },
+    {
         "url": "https://canary.discord.com/assets/02c4ce3075f66d91.svg",
         "etag": "W/\"accb7af48c00777f25e3aab6d6da735a\""
     },
@@ -4232,10 +4228,6 @@
         "etag": "\"b1309f8892f138383d8b0b6ff8e23463\""
     },
     {
-        "url": "https://canary.discord.com/assets/27f2b7e9f1c3c033.scm",
-        "etag": "\"ecd94ab2537912a12086a4d594b75414\""
-    },
-    {
         "url": "https://canary.discord.com/assets/8446ebead2127264.svg",
         "etag": "W/\"eb6796a182ef5b5bb2b0d53526dcf993\""
     },
@@ -4272,10 +4264,6 @@
         "etag": "W/\"4c708f42deb96ed60a9de243184d7e00\""
     },
     {
-        "url": "https://canary.discord.com/assets/6e4f9b9f5280286f.scm",
-        "etag": "\"6e5bbecb499f8fc847dcd23e34dd34bc\""
-    },
-    {
         "url": "https://canary.discord.com/assets/764d6cc18dee3e92.svg",
         "etag": "W/\"f46a1943d6b9b360f14ca7355da59b7a\""
     },
@@ -4286,6 +4274,10 @@
     {
         "url": "https://canary.discord.com/assets/99adaa242948be2f.svg",
         "etag": "W/\"627f445f0150f20c7657302620453f40\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/f038570bdb7af8e9.wasm",
+        "etag": "W/\"639c80b88a1f5e0ce0256f6c268d5388\""
     },
     {
         "url": "https://canary.discord.com/assets/1b1f07555b32cec8.svg",
@@ -4408,12 +4400,16 @@
         "etag": "W/\"3dc67b93bfac1fa91815569ffd22a874\""
     },
     {
-        "url": "https://canary.discord.com/assets/5862f376888a8350.scm",
-        "etag": "\"7aaf349a22d3e00b4059fac001fda442\""
+        "url": "https://canary.discord.com/assets/07e417d738722d4c.scm",
+        "etag": "\"f2bb1efda5d19fd75704da83290b07a4\""
     },
     {
         "url": "https://canary.discord.com/assets/5dc18f0b54986ae5.svg",
         "etag": "W/\"8f27f8554afc39b628ed4de421f6d561\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/db8bd23fc1c2625c.wasm",
+        "etag": "W/\"8b15c124fdeed9cb17f453d0d3658a7b\""
     },
     {
         "url": "https://canary.discord.com/assets/f8ea521fbb6ff703.svg",
@@ -4440,12 +4436,12 @@
         "etag": "W/\"f71ed20d4938704495e41731dfd0b1df\""
     },
     {
-        "url": "https://canary.discord.com/assets/f28149bb435e1459.wasm",
-        "etag": "W/\"ae09a83f598fb27a8221ebfd6bce670f\""
-    },
-    {
         "url": "https://canary.discord.com/assets/0a337fff47f1a1f0.svg",
         "etag": "W/\"e97b992acec4ceea9cf5412d65c38332\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/f78c17604b26eefb.scm",
+        "etag": "\"1fd59869205ea952f7856ce88aff8cef\""
     },
     {
         "url": "https://canary.discord.com/assets/343264e1134a2e1e.svg",
@@ -4474,6 +4470,10 @@
     {
         "url": "https://canary.discord.com/assets/458796502d574259.svg",
         "etag": "W/\"744e3c8dedcebb70840ab009f95b13d3\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/ab4ac798e39bc361.wasm",
+        "etag": "W/\"a862a219672935d79e480a79327712b9\""
     },
     {
         "url": "https://canary.discord.com/assets/17e98c85a3d66341.mp3",
@@ -4548,6 +4548,10 @@
         "etag": "W/\"2181fc530db1148d9539399397354547\""
     },
     {
+        "url": "https://canary.discord.com/assets/70e934b7d091f7ac.wasm",
+        "etag": "W/\"d2337d0800db75ffe00504c8e8b912a1\""
+    },
+    {
         "url": "https://canary.discord.com/assets/923597f9cc66e66a.svg",
         "etag": "W/\"ec86ce30dfcdd92a871c8c9064084589\""
     },
@@ -4570,10 +4574,6 @@
     {
         "url": "https://canary.discord.com/assets/4e11cf8e80a816c6.svg",
         "etag": "W/\"b36c705f790dad253981f1893085015a\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/72a6ca901c9c4591.wasm",
-        "etag": "W/\"edfb68b290e8281ff3f8c6eda3c08115\""
     },
     {
         "url": "https://canary.discord.com/assets/81b90a35157071a6.svg",
@@ -4660,10 +4660,6 @@
         "etag": "W/\"e8b3b5a31c0a3c541960bd3ddccc538f\""
     },
     {
-        "url": "https://canary.discord.com/assets/2335f8474959e079.wasm",
-        "etag": "W/\"18fff9ebc946667dd795fc4995f538e6\""
-    },
-    {
         "url": "https://canary.discord.com/assets/eb22e43f6f710d3b.svg",
         "etag": "W/\"db4248ddd8d0f1799a849d824d466f57\""
     },
@@ -4708,6 +4704,10 @@
         "etag": "\"5eab8ab3c3d86af84e525961596fc710\""
     },
     {
+        "url": "https://canary.discord.com/assets/8af7eb58f684abcb.wasm",
+        "etag": "W/\"02d4f85a95fb07f5a4c47ebe3d46dabf\""
+    },
+    {
         "url": "https://canary.discord.com/assets/524f82f0690e494d.lottie",
         "etag": "\"76c09ebc2fd9700ae36ec8729cee1e9d\""
     },
@@ -4720,8 +4720,16 @@
         "etag": "W/\"298f6b746370fda33a91d6748fd0c830\""
     },
     {
+        "url": "https://canary.discord.com/assets/2b31faaf5a622150.scm",
+        "etag": "\"88cb1ad8f5957951ffd30db397658e9e\""
+    },
+    {
         "url": "https://canary.discord.com/assets/c9afbd40301a1840.svg",
         "etag": "W/\"4d1ed1d5abee26793b4c287b9896cd56\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/4c0f09fc8f81ff7f.wasm",
+        "etag": "W/\"4abf5f66efa68cd7b09e777ecce17cbc\""
     },
     {
         "url": "https://canary.discord.com/assets/d988e7ce7a7f47fd.svg",
@@ -4764,10 +4772,6 @@
         "etag": "W/\"0f6a5e64d6e4fba1ef2c74dd1fc71b04\""
     },
     {
-        "url": "https://canary.discord.com/assets/4c2fad6f8a84d5f2.scm",
-        "etag": "\"befdb4f6b5646eb1d3b18929b72591aa\""
-    },
-    {
         "url": "https://canary.discord.com/assets/681eeb53c570e849.svg",
         "etag": "W/\"dbd6730a7e07f1da7ef9e81fe3ec54f4\""
     },
@@ -4776,8 +4780,8 @@
         "etag": "W/\"00faf33e229084cb56d8a51c9130761a\""
     },
     {
-        "url": "https://canary.discord.com/assets/577d73522f17d851.wasm",
-        "etag": "W/\"5661e0893b0a346ae6299654a44ca55f\""
+        "url": "https://canary.discord.com/assets/e9adc32678a73c70.wasm",
+        "etag": "W/\"279db1b9bae91d2a55d0158f0c1109bd\""
     },
     {
         "url": "https://canary.discord.com/assets/6f53f1e88cb9a14d.svg",
@@ -4860,6 +4864,10 @@
         "etag": "W/\"3b9baa700cfeb3b6a8b27434bfca6602\""
     },
     {
+        "url": "https://canary.discord.com/assets/27cb89098c8d5aef.wasm",
+        "etag": "W/\"8596fc8ec86ad63223f4ca2dc680e2d9\""
+    },
+    {
         "url": "https://canary.discord.com/assets/009b1eb57524a854.svg",
         "etag": "W/\"3442c32e82d34c1e193ce979ca575b75\""
     },
@@ -4914,14 +4922,6 @@
     {
         "url": "https://canary.discord.com/assets/5db237567986bc9b.svg",
         "etag": "W/\"df8cc331901cdea17f04a9a16db33b2b\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/ce91156b16f04d00.wasm",
-        "etag": "W/\"77c7939a6f2825de136a434b09666f8c\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/a927d3108788ff77.wasm",
-        "etag": "W/\"15b18606482c2d63fc399f3bd1af698b\""
     },
     {
         "url": "https://canary.discord.com/assets/a37490430fba083d.png",
@@ -4984,16 +4984,16 @@
         "etag": "W/\"1e38d4131bdeac25303a3602c25a9f2a\""
     },
     {
+        "url": "https://canary.discord.com/assets/e145a14fcbb9a393.scm",
+        "etag": "\"a919bf0df5c8c329b59c118fa2a1ce19\""
+    },
+    {
         "url": "https://canary.discord.com/assets/c20102987f0a6e2d.svg",
         "etag": "W/\"d0e23cdf2386056cc64e775a6248ed17\""
     },
     {
         "url": "https://canary.discord.com/assets/fae2e807562ac3a7.svg",
         "etag": "W/\"b8fd7672d420984b0526022e6d763194\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/d59ec0d928765c62.scm",
-        "etag": "\"ec565352c5b6b6c99a733cf9300349b0\""
     },
     {
         "url": "https://canary.discord.com/assets/d4b554482c3c0bad.svg",
@@ -5040,6 +5040,10 @@
         "etag": "W/\"84e0692a97a184c6aae2e2b68221cea6\""
     },
     {
+        "url": "https://canary.discord.com/assets/71e40836c4f58bd2.scm",
+        "etag": "\"67350c7308bc47a21647e08ec84f4013\""
+    },
+    {
         "url": "https://canary.discord.com/assets/9e8a7025e0ea5211.svg",
         "etag": "W/\"6bf346b6ca375514599aab9fa65afb9f\""
     },
@@ -5072,6 +5076,10 @@
         "etag": "W/\"7b6f0023e00e59a7eadd77fcb930550a\""
     },
     {
+        "url": "https://canary.discord.com/assets/4e875a19cd1d5f9a.wasm",
+        "etag": "W/\"3dec5166665703ade887f339d7401cdf\""
+    },
+    {
         "url": "https://canary.discord.com/assets/c58364ca4573270a.svg",
         "etag": "W/\"3bc9a862612bae045329b90ed60f2ad7\""
     },
@@ -5082,10 +5090,6 @@
     {
         "url": "https://canary.discord.com/assets/5432e48c706fd4c1.svg",
         "etag": "W/\"336e26cd512ff4ed2b2238ff8087eec5\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/7559dad320aed82d.wasm",
-        "etag": "W/\"c9dd27263f7db21f7a12b8b3519b716f\""
     },
     {
         "url": "https://canary.discord.com/assets/507de441d6424518.svg",
@@ -5130,6 +5134,10 @@
     {
         "url": "https://canary.discord.com/assets/265f673992d7ff85.svg",
         "etag": "W/\"ab9cdd42aae36e677be8cfa4aa1b63e4\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/7de9e00e06cf8797.wasm",
+        "etag": "W/\"ab282102fc5117429ce200b3c238e419\""
     },
     {
         "url": "https://canary.discord.com/assets/f39e3d9ae1baa2d1.svg",
@@ -5200,6 +5208,10 @@
         "etag": "W/\"738caee09b1d8e0795ca4cdbd137bf71\""
     },
     {
+        "url": "https://canary.discord.com/assets/a57d829a5323de30.scm",
+        "etag": "\"b68e401984352906096138ecf26bef9c\""
+    },
+    {
         "url": "https://canary.discord.com/assets/dd89c248c99eeda6.svg",
         "etag": "W/\"fd6114328c436e5a111d326d05af3b9a\""
     },
@@ -5260,10 +5272,6 @@
         "etag": "\"be0f4ccb17e41c172d94a32cfc4ebff3\""
     },
     {
-        "url": "https://canary.discord.com/assets/be08ad58feef479c.scm",
-        "etag": "\"6cec18e636db8affabfd3077c3af4098\""
-    },
-    {
         "url": "https://canary.discord.com/assets/af599bdfd597bda6.svg",
         "etag": "W/\"ab09d9e1bbb3efcc385900f019928b9e\""
     },
@@ -5284,10 +5292,6 @@
         "etag": "W/\"ccb2d2a7a4b084c98d57ab384c0267c6\""
     },
     {
-        "url": "https://canary.discord.com/assets/d819ef4b6df05088.scm",
-        "etag": "\"a65859c90c9fcad2d4e1274fa2ae732f\""
-    },
-    {
         "url": "https://canary.discord.com/assets/752fe2c5a3001a25.svg",
         "etag": "W/\"622d84936c03564f3bd1a8efe94649f3\""
     },
@@ -5298,10 +5302,6 @@
     {
         "url": "https://canary.discord.com/assets/99196843e0792c44.svg",
         "etag": "W/\"5fbb997f1f5311969a881f2c7f4c515f\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/916bab3e06f5d5ba.scm",
-        "etag": "\"5a6e7b250d6fb0b9d5d7e8c031c0c06f\""
     },
     {
         "url": "https://canary.discord.com/assets/52aa42ea4bebab36.svg",
@@ -5400,12 +5400,12 @@
         "etag": "W/\"a6304ffbc3d5568f144daa08a9081414\""
     },
     {
-        "url": "https://canary.discord.com/assets/edf6c7b71c5f2e1d.svg",
-        "etag": "W/\"d0fa9f2140e3c00f264eff648a668178\""
+        "url": "https://canary.discord.com/assets/6000a48ad9b7b73a.wasm",
+        "etag": "W/\"798709e22549537a32b14cbd21c13f8a\""
     },
     {
-        "url": "https://canary.discord.com/assets/0d0a5d0e2c94fe47.scm",
-        "etag": "\"542cd402bd6435708539bfb7b8a5d9a6\""
+        "url": "https://canary.discord.com/assets/edf6c7b71c5f2e1d.svg",
+        "etag": "W/\"d0fa9f2140e3c00f264eff648a668178\""
     },
     {
         "url": "https://canary.discord.com/assets/9c2c752f537fdb6d.svg",
@@ -5572,10 +5572,6 @@
         "etag": "\"7dc93527fac9c429fce17154b4233918\""
     },
     {
-        "url": "https://canary.discord.com/assets/4f098f595413c750.scm",
-        "etag": "\"782d4aa25b808983916ec1e4bd4974ab\""
-    },
-    {
         "url": "https://canary.discord.com/assets/dfb3740e7b2d0a65.svg",
         "etag": "W/\"193fa27d23b9840037d6f1c32ac78ad8\""
     },
@@ -5598,10 +5594,6 @@
     {
         "url": "https://canary.discord.com/assets/babcd559530bcc7d.svg",
         "etag": "W/\"ccd75c3d36c0427d63f026bd08eec5ae\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/77d5b4e9a629191d.wasm",
-        "etag": "W/\"7d3bf1fac22113a1a72e91f4f3285e28\""
     },
     {
         "url": "https://canary.discord.com/assets/f9f1fd47635927c5.svg",
@@ -5630,10 +5622,6 @@
     {
         "url": "https://canary.discord.com/assets/33d6bdd25df0cac6.svg",
         "etag": "W/\"610162a08147d9e3c3198c32c9deada9\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/70e934b7d091f7ac.wasm",
-        "etag": "W/\"d2337d0800db75ffe00504c8e8b912a1\""
     },
     {
         "url": "https://canary.discord.com/assets/de6d8bcc94bc7af6.svg",
@@ -5688,12 +5676,12 @@
         "etag": "W/\"6e464a959dad9d4257c222d3f42ff0b4\""
     },
     {
-        "url": "https://canary.discord.com/assets/7f4b2ea33df35ffe.svg",
-        "etag": "W/\"15ebfdae28b2b852cce176b5cd7b8c72\""
+        "url": "https://canary.discord.com/assets/6bb16753a126b209.wasm",
+        "etag": "W/\"b46ee3b5e003e53bfd0624a27fcee3b7\""
     },
     {
-        "url": "https://canary.discord.com/assets/57fb6c3a61cd37dd.wasm",
-        "etag": "W/\"7b3905ffb0546996916bb2729b12ca72\""
+        "url": "https://canary.discord.com/assets/7f4b2ea33df35ffe.svg",
+        "etag": "W/\"15ebfdae28b2b852cce176b5cd7b8c72\""
     },
     {
         "url": "https://canary.discord.com/assets/10df051a09f305c5.svg",
@@ -5718,10 +5706,6 @@
     {
         "url": "https://canary.discord.com/assets/b5972375c29d0612.svg",
         "etag": "W/\"54f34f46e4d0a360c76dd65eb9af4eec\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/9d2904ef6dd5e9fe.scm",
-        "etag": "\"d30b46c2828f53b33b6f9034a5ba608c\""
     },
     {
         "url": "https://canary.discord.com/assets/0e3236e8af0a66d6.svg",
@@ -5776,14 +5760,6 @@
         "etag": "W/\"9d3601cc732e2df84b0b28cbcd79d697\""
     },
     {
-        "url": "https://canary.discord.com/assets/6abd2df7d1f071e0.wasm",
-        "etag": "W/\"d7b891a1b45d6d39e8afd5caf94fe634\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/d6864494d8ed8678.scm",
-        "etag": "\"16f4c518172ef22b8f01f6a5d964be17\""
-    },
-    {
         "url": "https://canary.discord.com/assets/1d1b8f27473fc4b8.svg",
         "etag": "W/\"845ca294879e101883dcff8d86face68\""
     },
@@ -5792,8 +5768,8 @@
         "etag": "\"19cbc730cfd785c19bbdc19a9829a0a1\""
     },
     {
-        "url": "https://canary.discord.com/assets/52db42441d27d4a4.wasm",
-        "etag": "W/\"564295ce08abc628a93652013a27f245\""
+        "url": "https://canary.discord.com/assets/ceb6f797636a2e63.scm",
+        "etag": "\"2a8fbef98f04ed76aebc047821226d17\""
     },
     {
         "url": "https://canary.discord.com/assets/83b9c5b6288ff62c.svg",
@@ -5808,6 +5784,10 @@
         "etag": "W/\"e4bc36c061c4f447c010e6be80c9e0bc\""
     },
     {
+        "url": "https://canary.discord.com/assets/f28149bb435e1459.wasm",
+        "etag": "W/\"ae09a83f598fb27a8221ebfd6bce670f\""
+    },
+    {
         "url": "https://canary.discord.com/assets/132ece5c9994a31e.png",
         "etag": "\"409ea8be644aaa2b6a1519af84a7b604\""
     },
@@ -5818,14 +5798,6 @@
     {
         "url": "https://canary.discord.com/assets/a44bf832f10dd4ca.svg",
         "etag": "W/\"5dca95ac71f782daf8bdff7e8114d656\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/f11ea8e873f2ad7a.scm",
-        "etag": "\"e3f8cec734f268994f7d2e52021f67a1\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/0649ea5400fabaf9.wasm",
-        "etag": "W/\"d15ab097b1b00fd014b7b210195438be\""
     },
     {
         "url": "https://canary.discord.com/assets/e86679914ade75f6.svg",
@@ -5908,6 +5880,10 @@
         "etag": "W/\"79e0a69229f5b700bb5b3cbcd4b7ccea\""
     },
     {
+        "url": "https://canary.discord.com/assets/d1d5683e682403ee.scm",
+        "etag": "\"f5eb1a94f150866bece8202ac7454992\""
+    },
+    {
         "url": "https://canary.discord.com/assets/1c037e36db036fd2.svg",
         "etag": "W/\"c18f8f63a3232a0d246868b4d9f20f7b\""
     },
@@ -5926,6 +5902,14 @@
     {
         "url": "https://canary.discord.com/assets/43b06f9561f7ba9a.svg",
         "etag": "W/\"17ef302e76de9a5905f978a06c52ddf4\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/6edd364cd748a297.scm",
+        "etag": "\"d988b994bfd2dbbf3cd300d38513d5c1\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/c1a7d06de3d1ae83.scm",
+        "etag": "\"ffff40744378120dac4f2820f2da7ec1\""
     },
     {
         "url": "https://canary.discord.com/assets/0bf3d8979a798140.svg",
@@ -5988,8 +5972,8 @@
         "etag": "W/\"3391ce4715f3c814d6067911438e5bf7\""
     },
     {
-        "url": "https://canary.discord.com/assets/d1978ec42eed74f6.scm",
-        "etag": "\"7103f5e3c8b10e58f3a321bd8571f264\""
+        "url": "https://canary.discord.com/assets/7559dad320aed82d.wasm",
+        "etag": "W/\"c9dd27263f7db21f7a12b8b3519b716f\""
     },
     {
         "url": "https://canary.discord.com/assets/40ecad9ac8103595.svg",
@@ -5998,10 +5982,6 @@
     {
         "url": "https://canary.discord.com/assets/a39c2902750e4cf1.svg",
         "etag": "W/\"ca86c2cbb56cae3c88c269aa0d9b5bd0\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/93e9ab38b759fa94.scm",
-        "etag": "\"01ea143876ae4f1456211fa903b8f361\""
     },
     {
         "url": "https://canary.discord.com/assets/243247ba5399b5cc.svg",
@@ -6056,12 +6036,12 @@
         "etag": "W/\"7345dee38d302ca7f871d3829479894d\""
     },
     {
-        "url": "https://canary.discord.com/assets/5d60c65a42dd8b61.scm",
-        "etag": "\"ee7e7027b89df4b8d5d506ebf441fa1a\""
-    },
-    {
         "url": "https://canary.discord.com/assets/b5a8ee8906c0c5c7.svg",
         "etag": "W/\"9595e4b623b035f16fa9916fc9695c8c\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/ce91156b16f04d00.wasm",
+        "etag": "W/\"77c7939a6f2825de136a434b09666f8c\""
     },
     {
         "url": "https://canary.discord.com/assets/1e0878b796085504.svg",
@@ -6070,6 +6050,10 @@
     {
         "url": "https://canary.discord.com/assets/407276889d987483.svg",
         "etag": "W/\"8f9367c5ebdcac057e4b98b424a7d331\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/0898dcd3788b188b.wasm",
+        "etag": "W/\"ba3c6e371fb33266f10b4501f03288ff\""
     },
     {
         "url": "https://canary.discord.com/assets/5b43fd824189a291.svg",
@@ -6090,6 +6074,10 @@
     {
         "url": "https://canary.discord.com/assets/a131e25b5ff5b9fd.svg",
         "etag": "W/\"bcdee8d6f823e7242546ececd3099881\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/be08ad58feef479c.scm",
+        "etag": "\"6cec18e636db8affabfd3077c3af4098\""
     },
     {
         "url": "https://canary.discord.com/assets/4dcbf089e088e94b.svg",
@@ -6164,12 +6152,12 @@
         "etag": "W/\"bc42d978a15e36408ac95d222395335f\""
     },
     {
-        "url": "https://canary.discord.com/assets/3d02d1dbe07164af.svg",
-        "etag": "W/\"a679c2721644edc34b150cb8821da8b2\""
+        "url": "https://canary.discord.com/assets/17d9fb955684e54c.wasm",
+        "etag": "W/\"68490a1ded8a9b27596aef1e9d4b0b36\""
     },
     {
-        "url": "https://canary.discord.com/assets/c1a7d06de3d1ae83.scm",
-        "etag": "\"ffff40744378120dac4f2820f2da7ec1\""
+        "url": "https://canary.discord.com/assets/3d02d1dbe07164af.svg",
+        "etag": "W/\"a679c2721644edc34b150cb8821da8b2\""
     },
     {
         "url": "https://canary.discord.com/assets/c5506661171d6b79.svg",
@@ -6188,10 +6176,6 @@
         "etag": "W/\"b426f77f42bb709bcb2faa23602d2dc4\""
     },
     {
-        "url": "https://canary.discord.com/assets/672084259765f452.scm",
-        "etag": "\"9fa14beede05fd33e4ce132222bdea28\""
-    },
-    {
         "url": "https://canary.discord.com/assets/83fdbafe9b4fa238.svg",
         "etag": "W/\"d1989701a8b5f0f119dcf067b20db641\""
     },
@@ -6204,16 +6188,16 @@
         "etag": "W/\"92fe330f2f22fddea768b7bc429c393a\""
     },
     {
+        "url": "https://canary.discord.com/assets/b79558c9fe3061d8.scm",
+        "etag": "\"9f635da7263479e5bf6f750ff95e23b2\""
+    },
+    {
         "url": "https://canary.discord.com/assets/e857fa0eb14876c2.svg",
         "etag": "W/\"ef2af7fab48463e72a3a7f0f8fb4fb4e\""
     },
     {
         "url": "https://canary.discord.com/assets/d3716a5025089169.svg",
         "etag": "W/\"36eb692f0215a5b914d06212849c076b\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/982ab3c69af96dda.scm",
-        "etag": "\"8a101b1893c131f40428750b54e96796\""
     },
     {
         "url": "https://canary.discord.com/assets/11eed2d790b8f1d9.svg",
@@ -6234,10 +6218,6 @@
     {
         "url": "https://canary.discord.com/assets/3ebed73c25acf27d.svg",
         "etag": "W/\"1247f4e6cce47d98b0a08f956fccb4f9\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/3ade61e47a975b88.scm",
-        "etag": "\"f04297d1b4b56406bae18473e62e6f8e\""
     },
     {
         "url": "https://canary.discord.com/assets/6b1a461f35c05c7a.svg",
@@ -6282,6 +6262,10 @@
     {
         "url": "https://canary.discord.com/assets/536d2b96eef9832c.svg",
         "etag": "W/\"7141e059d1cd75465ac7cdfa2101da72\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/023e042f81f1d190.scm",
+        "etag": "\"17494da6fcfc424eba84b50ad345bd95\""
     },
     {
         "url": "https://canary.discord.com/assets/11dc8015818fce77.svg",
@@ -6460,10 +6444,6 @@
         "etag": "W/\"c54fc3caa4686b1c8b5e435efb4e248d\""
     },
     {
-        "url": "https://canary.discord.com/assets/150079cffc11c19f.scm",
-        "etag": "\"5944afeee10c7865049fd81e78e7359c\""
-    },
-    {
         "url": "https://canary.discord.com/assets/ad49e94b01a02051.png",
         "etag": "\"7f6220c2d8e02739563e5d7c38af09c2\""
     },
@@ -6564,16 +6544,16 @@
         "etag": "W/\"c023080478d4567e641e8c9dea4ff520\""
     },
     {
-        "url": "https://canary.discord.com/assets/1b7e0f257a5ea496.wasm",
-        "etag": "W/\"cf40c667507e69e375eeea75db837d06\""
-    },
-    {
         "url": "https://canary.discord.com/assets/94ef3e8b7fa85a2e.svg",
         "etag": "W/\"537a5a5a0fd47a14c531a6a53114ce50\""
     },
     {
         "url": "https://canary.discord.com/assets/6ee8ddcd7c0ee180.svg",
         "etag": "W/\"a053c2e82b0c5e6a4cc853ca846cc000\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/872d0bfaaff74572.scm",
+        "etag": "\"d12694c58434bf80fd2de88837f3f310\""
     },
     {
         "url": "https://canary.discord.com/assets/f76fab6ab37b82a7.svg",
@@ -6648,6 +6628,10 @@
         "etag": "\"dd9ba5b8ac4831db353c60f9d72ff648\""
     },
     {
+        "url": "https://canary.discord.com/assets/6e4f9b9f5280286f.scm",
+        "etag": "\"6e5bbecb499f8fc847dcd23e34dd34bc\""
+    },
+    {
         "url": "https://canary.discord.com/assets/ec499eccfb682162.svg",
         "etag": "W/\"7afa8b718dc3a9439560566d912b5f2c\""
     },
@@ -6664,16 +6648,16 @@
         "etag": "\"c563dbcaf8eb92b1f0565d9afac947e6\""
     },
     {
+        "url": "https://canary.discord.com/assets/0be701db53325b4e.wasm",
+        "etag": "W/\"161370412841a64f24147ae6363166d9\""
+    },
+    {
         "url": "https://canary.discord.com/assets/49f0ac367fcb93fa.svg",
         "etag": "W/\"7d4bf2e92b2587e47b09997dbc654823\""
     },
     {
         "url": "https://canary.discord.com/assets/65d4137154c6b00c.svg",
         "etag": "W/\"6fc69fcaafce22bce90bf12943f1ee7f\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/8260f720df5e3e06.wasm",
-        "etag": "W/\"28ced7b9e72cb5a78024304a35870278\""
     },
     {
         "url": "https://canary.discord.com/assets/a64a1e510d532bdf.svg",
@@ -6704,6 +6688,10 @@
         "etag": "W/\"27341672cc36de963f6b688c3961ac97\""
     },
     {
+        "url": "https://canary.discord.com/assets/b46742dbee67e756.wasm",
+        "etag": "W/\"3aa3f880a2cfb3e01b7dafe860722bd6\""
+    },
+    {
         "url": "https://canary.discord.com/assets/4bd57c98462ec612.svg",
         "etag": "W/\"2b417f558f9e5063c0c5c9d348d4347e\""
     },
@@ -6714,6 +6702,10 @@
     {
         "url": "https://canary.discord.com/assets/2146982463e94ef4.svg",
         "etag": "W/\"3d7df8a4a4dcfa89f8755d3200e2dbe2\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/be3f7e92e07ca1fd.scm",
+        "etag": "\"1d08293972b7d7ac995e6d64a9a90e6c\""
     },
     {
         "url": "https://canary.discord.com/assets/099d52ed1771e61d.svg",
@@ -6728,8 +6720,8 @@
         "etag": "W/\"e243141d9cecd61ee4dc3251baffe5fa\""
     },
     {
-        "url": "https://canary.discord.com/assets/a57d829a5323de30.scm",
-        "etag": "\"b68e401984352906096138ecf26bef9c\""
+        "url": "https://canary.discord.com/assets/7cdf35cc40bd63c2.wasm",
+        "etag": "W/\"d057d3d676c390943bcc501af1041c35\""
     },
     {
         "url": "https://canary.discord.com/assets/1c7b3f5a5c59de7e.svg",
@@ -6772,24 +6764,12 @@
         "etag": "W/\"81286b8e5b76e65d7f03c3ffaaef5ec0\""
     },
     {
-        "url": "https://canary.discord.com/assets/40e543a27ba17f75.wasm",
-        "etag": "W/\"4b17fff5d8f7a744002f93267d6b9361\""
-    },
-    {
         "url": "https://canary.discord.com/assets/2f387366da913127.svg",
         "etag": "W/\"81b415149fbcfe7dfc9b78859b033808\""
     },
     {
-        "url": "https://canary.discord.com/assets/3e482b73ce2f1d69.scm",
-        "etag": "\"0d93e36a9b12fa81de5181f9edcb2557\""
-    },
-    {
         "url": "https://canary.discord.com/assets/6f2ac0617c61ad74.svg",
         "etag": "W/\"a04412e248d53a4b2581f1ad781beaae\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/8233178e2772b0b2.wasm",
-        "etag": "W/\"21dadfef604d8bfb7e7d454b4a427c52\""
     },
     {
         "url": "https://canary.discord.com/assets/0228d01ac15b4be6.svg",
@@ -6838,10 +6818,6 @@
     {
         "url": "https://canary.discord.com/assets/bda550439e2a1af0.png",
         "etag": "\"322f5aec10ee0e2c3d6aad9844b5f00f\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/7cb3d6186d2f3829.wasm",
-        "etag": "W/\"813ec6194cfbcd81ff99a6ac7e2a8d6d\""
     },
     {
         "url": "https://canary.discord.com/assets/7284bc3400233b06.svg",
@@ -6900,12 +6876,20 @@
         "etag": "W/\"433eab58ecd0deccffc57c8860040b02\""
     },
     {
+        "url": "https://canary.discord.com/assets/64eba10de56bb765.scm",
+        "etag": "\"9d246b8b33f2f0f63e82ba312ef3751c\""
+    },
+    {
         "url": "https://canary.discord.com/assets/dc489883916bdfd8.svg",
         "etag": "W/\"a3487f566f727b767038e4efccfba716\""
     },
     {
         "url": "https://canary.discord.com/assets/7c3004f5dbcbb3ce.svg",
         "etag": "W/\"01e6499a34df6983dbd9a98896f9ba98\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/2dc3595467f9ed1b.scm",
+        "etag": "\"3cce12cc036fde05bf4fc467bab32a3e\""
     },
     {
         "url": "https://canary.discord.com/assets/99b834d9d6335264.svg",
@@ -6918,6 +6902,10 @@
     {
         "url": "https://canary.discord.com/assets/6d9abc9a028026d7.svg",
         "etag": "W/\"9dbad5a403dd15618709a96751b29317\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/5abb4709a74efb87.scm",
+        "etag": "\"1a669fc7adfa67c2fee3763c15d853db\""
     },
     {
         "url": "https://canary.discord.com/assets/9f01cc5d185925cc.svg",
@@ -6956,6 +6944,10 @@
         "etag": "\"02f897f4c90d00b8caaa5d6000b18ce3\""
     },
     {
+        "url": "https://canary.discord.com/assets/338c675ef087c754.scm",
+        "etag": "\"7f37449aa7602bb60a9e149861a228c3\""
+    },
+    {
         "url": "https://canary.discord.com/assets/556f5b4b78005592.svg",
         "etag": "W/\"ece853d6c1c1cd81f762db6c26fade40\""
     },
@@ -6988,16 +6980,16 @@
         "etag": "W/\"5630457097574c48e0969eabdaa2d6b3\""
     },
     {
+        "url": "https://canary.discord.com/assets/d90643289be970b6.scm",
+        "etag": "\"7289d6d4d87000a37bb671ff88b00b60\""
+    },
+    {
         "url": "https://canary.discord.com/assets/3aae002473f26e4a.svg",
         "etag": "W/\"b4f9d962e098ce611bb3349342aba005\""
     },
     {
         "url": "https://canary.discord.com/assets/b99b1e512e1633dc.svg",
         "etag": "W/\"1e7634006385f432ddb02ac2ec30a230\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/b5bfaaa4cb03e124.scm",
-        "etag": "\"85dc24258b5ddb8fafa4ac5c22ad8f77\""
     },
     {
         "url": "https://canary.discord.com/assets/45f2876d2beedecb.svg",
@@ -7018,6 +7010,10 @@
     {
         "url": "https://canary.discord.com/assets/d9984ccdb6413349.svg",
         "etag": "W/\"c21367782d767a023bd5d090b735bad9\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/904fd0ea84eebf55.wasm",
+        "etag": "W/\"17a03c3ccccc6e09b36705bb997975e5\""
     },
     {
         "url": "https://canary.discord.com/assets/0ce9023e7d275901.svg",
@@ -7060,10 +7056,6 @@
         "etag": "W/\"2286598e236171ae19a24c76917d2a58\""
     },
     {
-        "url": "https://canary.discord.com/assets/a90228e085a54917.scm",
-        "etag": "\"a68c7a5295b014c1a98ca1ac80cc7019\""
-    },
-    {
         "url": "https://canary.discord.com/assets/0c7b75c996423528.svg",
         "etag": "W/\"af98f33a8a273c26d52cb3fc764ae849\""
     },
@@ -7074,10 +7066,6 @@
     {
         "url": "https://canary.discord.com/assets/878f7e7f2b3bf972.mp3",
         "etag": "\"908d43f2bbc2c0176f2379b4e0bc8c15\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/c5a069d4906465eb.wasm",
-        "etag": "W/\"3095a1d7f9a9a85bab5bb05631ed2f4c\""
     },
     {
         "url": "https://canary.discord.com/assets/26bb716fe4aa4c28.svg",
@@ -7168,10 +7156,6 @@
         "etag": "W/\"d2ac957826b698f2a8efb153a8089b31\""
     },
     {
-        "url": "https://canary.discord.com/assets/4ed39dc06943c3e2.scm",
-        "etag": "\"d130cd27379d8eee1ee8de845cde0ab0\""
-    },
-    {
         "url": "https://canary.discord.com/assets/6920d8869531e909.svg",
         "etag": "W/\"b677fad687da962c6242e44d987c7082\""
     },
@@ -7186,6 +7170,10 @@
     {
         "url": "https://canary.discord.com/assets/8e78af3ccff13ed9.svg",
         "etag": "W/\"205ab18fba44f75adec7ade713714448\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/a52dbc97f447c6f8.scm",
+        "etag": "\"8bb02486e8e164716085517db0c5847b\""
     },
     {
         "url": "https://canary.discord.com/assets/718b1074ffa42cc0.svg",
@@ -7220,8 +7208,8 @@
         "etag": "W/\"eb3b52294d6cbab490cdb577afe40b11\""
     },
     {
-        "url": "https://canary.discord.com/assets/7de9e00e06cf8797.wasm",
-        "etag": "W/\"ab282102fc5117429ce200b3c238e419\""
+        "url": "https://canary.discord.com/assets/0c2cf4025eb430f2.wasm",
+        "etag": "W/\"1ac6480b44f2da52934f90ec4df391f3\""
     },
     {
         "url": "https://canary.discord.com/assets/7e5579c4c73ca390.svg",
@@ -7236,10 +7224,6 @@
         "etag": "W/\"63121443f4e4325d3aababdc56efdaa1\""
     },
     {
-        "url": "https://canary.discord.com/assets/de82efe956afcfd0.scm",
-        "etag": "\"f551d637c4fba00eead5b703e83ca51d\""
-    },
-    {
         "url": "https://canary.discord.com/assets/dd3bd1487dce2f64.svg",
         "etag": "W/\"cc41695a05541293cdedb6fff1be8563\""
     },
@@ -7250,10 +7234,6 @@
     {
         "url": "https://canary.discord.com/assets/64ff8ca53451d741.svg",
         "etag": "W/\"a8a943a00a0430e5d06bb57ffacf2839\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/1d975cf88cd6d438.scm",
-        "etag": "\"e7ab6c577af2d0c9f176495497f28195\""
     },
     {
         "url": "https://canary.discord.com/assets/008d7ba46e19f683.svg",
@@ -7274,6 +7254,10 @@
     {
         "url": "https://canary.discord.com/assets/562702544ed0ec09.svg",
         "etag": "W/\"a741876d6de3ace454279e7bc1014f99\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/3ade61e47a975b88.scm",
+        "etag": "\"f04297d1b4b56406bae18473e62e6f8e\""
     },
     {
         "url": "https://canary.discord.com/assets/2ab7cd04a376d00f.svg",
@@ -7316,6 +7300,10 @@
         "etag": "\"f42a65d76bbabdff3fd54cfb0d130cfb\""
     },
     {
+        "url": "https://canary.discord.com/assets/cc541fde42e3ce86.wasm",
+        "etag": "W/\"0c39178aad548c89c0b304af33f815a1\""
+    },
+    {
         "url": "https://canary.discord.com/assets/af8fe638d735931e.svg",
         "etag": "W/\"56c6c1f230e42a3780cfd5373b49c418\""
     },
@@ -7354,6 +7342,10 @@
     {
         "url": "https://canary.discord.com/assets/a1f959c8c72772ef.svg",
         "etag": "W/\"5b294fcb8f365e9a9d9d45e7caa72856\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/a90228e085a54917.scm",
+        "etag": "\"a68c7a5295b014c1a98ca1ac80cc7019\""
     },
     {
         "url": "https://canary.discord.com/assets/8466326af533ae76.svg",
@@ -7404,6 +7396,10 @@
         "etag": "W/\"b080d1398cef7723bd25208b26b3f89a\""
     },
     {
+        "url": "https://canary.discord.com/assets/9a8a39530b75f971.scm",
+        "etag": "\"40401da81497ecc310fb21536246077e\""
+    },
+    {
         "url": "https://canary.discord.com/assets/2436ac8142696f1e.svg",
         "etag": "W/\"f1a5c411d8332356f7d013863b3bb77b\""
     },
@@ -7414,6 +7410,10 @@
     {
         "url": "https://canary.discord.com/assets/bb86eb0eca3eca1c.svg",
         "etag": "W/\"dc853e0080c3737ae640c0620ad2ba61\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/9f40a4e483656d8e.wasm",
+        "etag": "W/\"71fb6e5b0be94f0a5226de131d22be3c\""
     },
     {
         "url": "https://canary.discord.com/assets/740fb132e6322392.svg",
@@ -7516,16 +7516,12 @@
         "etag": "W/\"c998fb5c898e8502567805f582d210b8\""
     },
     {
-        "url": "https://canary.discord.com/assets/e145a14fcbb9a393.scm",
-        "etag": "\"a919bf0df5c8c329b59c118fa2a1ce19\""
-    },
-    {
         "url": "https://canary.discord.com/assets/30240f6f6a8b2daa.svg",
         "etag": "W/\"bd3f7205b9a41293c96e7f98eb086cb9\""
     },
     {
-        "url": "https://canary.discord.com/assets/b46002b17c746471.scm",
-        "etag": "\"cc45513f96a0d08c929a774ed50543c7\""
+        "url": "https://canary.discord.com/assets/49df8c4579e595cf.scm",
+        "etag": "\"1db88a293c4638c24fd17f33ba743516\""
     },
     {
         "url": "https://canary.discord.com/assets/0e21a58e4f0b5f88.svg",
@@ -7570,10 +7566,6 @@
     {
         "url": "https://canary.discord.com/assets/eb453b4f08612325.svg",
         "etag": "W/\"42cc56c9d9adb19541c316c3d723e970\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/a735562399d11010.scm",
-        "etag": "\"5efab0c86b052577d60439b2aa9520b3\""
     },
     {
         "url": "https://canary.discord.com/assets/49c7f635dffade8b.svg",
@@ -7636,12 +7628,12 @@
         "etag": "W/\"9bed1a653d1ed1f2106c8b0eb13b6c43\""
     },
     {
-        "url": "https://canary.discord.com/assets/33f9142284a10095.scm",
-        "etag": "\"351d322d5f1a54d003dc12dfbbaf0958\""
-    },
-    {
         "url": "https://canary.discord.com/assets/b7181382155075e0.svg",
         "etag": "W/\"d39728b84718665ada444d92579fadae\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/e9591638fc2a87af.scm",
+        "etag": "\"ed1872fb901f591e534bce795f5a7d73\""
     },
     {
         "url": "https://canary.discord.com/assets/fffd60692548c53e.svg",
@@ -7700,6 +7692,10 @@
         "etag": "W/\"00105e2e3311d55fad448a3f82e92e44\""
     },
     {
+        "url": "https://canary.discord.com/assets/11028097ed495199.scm",
+        "etag": "\"04806f4f64837f540442bd74752a02b7\""
+    },
+    {
         "url": "https://canary.discord.com/assets/3def17957b1d7ad3.svg",
         "etag": "W/\"9e057ae833ac2cb0da2512454d050b59\""
     },
@@ -7730,10 +7726,6 @@
     {
         "url": "https://canary.discord.com/assets/9d5137a7c640e30f.svg",
         "etag": "W/\"c1b018e1543766df8850eb345a267619\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/38b49511c25620a4.scm",
-        "etag": "\"c449142524356a0074da91644f2932c5\""
     },
     {
         "url": "https://canary.discord.com/assets/9947a07640ef8423.png",
@@ -7788,10 +7780,6 @@
         "etag": "W/\"0a46bbddbcd72afd279f95ec25ed901f\""
     },
     {
-        "url": "https://canary.discord.com/assets/bed44ef8a588de5e.scm",
-        "etag": "\"ed6020b5d2f0881caadfefa24ecc91a5\""
-    },
-    {
         "url": "https://canary.discord.com/assets/024d5664261e3206.svg",
         "etag": "W/\"0827d63a9ca5bf7b360d03f146c814b3\""
     },
@@ -7818,10 +7806,6 @@
     {
         "url": "https://canary.discord.com/assets/04de4da79291ee41.svg",
         "etag": "W/\"39cb7a326a67437dfed8216b0523d055\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/0298ed9734c0f49b.scm",
-        "etag": "\"73b29b95d89267b278714442d26cc690\""
     },
     {
         "url": "https://canary.discord.com/assets/8cffb00902501774.svg",
@@ -7882,10 +7866,6 @@
     {
         "url": "https://canary.discord.com/assets/73f80e5fe1777504.svg",
         "etag": "W/\"27872fe06a8ec01e102c5eb254a373ee\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/ffc798ce19d71d0a.scm",
-        "etag": "\"c49422f56388a4d715e9225b36c2c480\""
     },
     {
         "url": "https://canary.discord.com/assets/b9be8a73de16f11c.png",
@@ -8008,10 +7988,6 @@
         "etag": "W/\"395a4608ed021406b8f0ad4506081996\""
     },
     {
-        "url": "https://canary.discord.com/assets/a7ae27d6022446ae.wasm",
-        "etag": "W/\"47c015dca2e1a62a0a00018bf4a9240a\""
-    },
-    {
         "url": "https://canary.discord.com/assets/9326857756cb21c9.svg",
         "etag": "W/\"29ad8629df2cc75f59f77a79ee05aad6\""
     },
@@ -8092,10 +8068,6 @@
         "etag": "W/\"a9e13a28157a6568d203df8fcf754230\""
     },
     {
-        "url": "https://canary.discord.com/assets/108c8dd67e955e3b.scm",
-        "etag": "\"7dc964e8cfe43feed38f800921ac840c\""
-    },
-    {
         "url": "https://canary.discord.com/assets/485379a3a30de3df.svg",
         "etag": "W/\"2adf3bb7b175d74a32066a3ca9746e82\""
     },
@@ -8136,12 +8108,12 @@
         "etag": "W/\"4170cde17128fe667d5efb755880b04a\""
     },
     {
-        "url": "https://canary.discord.com/assets/ddb1fe2bf5e92035.svg",
-        "etag": "W/\"9571a75fea7c7c8a06a472d3dc6a7403\""
+        "url": "https://canary.discord.com/assets/da7d7d6c7def34f0.wasm",
+        "etag": "W/\"63f597a58ab11b853d3ff99a9a451a60\""
     },
     {
-        "url": "https://canary.discord.com/assets/67b407c2a35b083c.scm",
-        "etag": "\"73eb8785224ad270001d9ac9f3e61e34\""
+        "url": "https://canary.discord.com/assets/ddb1fe2bf5e92035.svg",
+        "etag": "W/\"9571a75fea7c7c8a06a472d3dc6a7403\""
     },
     {
         "url": "https://canary.discord.com/assets/c89fcb9569527888.svg",
@@ -8174,6 +8146,14 @@
     {
         "url": "https://canary.discord.com/assets/6221390c1490af57.svg",
         "etag": "W/\"7f4def89ba52825f547fe1b031e33802\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/268bf37036a7000e.scm",
+        "etag": "\"1651e262bfa817fdd8db0fb0b3d766b7\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/3ee26a92ffe4084e.wasm",
+        "etag": "W/\"ed02e33a68d73ca0e33b0982c9218855\""
     },
     {
         "url": "https://canary.discord.com/assets/10e11835baa9ca62.svg",
@@ -8232,12 +8212,12 @@
         "etag": "\"d9ea4c0baebc914200caf39582084fac\""
     },
     {
-        "url": "https://canary.discord.com/assets/0898dcd3788b188b.wasm",
-        "etag": "W/\"ba3c6e371fb33266f10b4501f03288ff\""
-    },
-    {
         "url": "https://canary.discord.com/assets/390f0abb99b8c8a1.svg",
         "etag": "W/\"c6694cfd1aac24401fa38e003279663e\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/d5a5dd5a59b729c1.scm",
+        "etag": "\"38d77ab6edba9570fa6f1f103e311fb6\""
     },
     {
         "url": "https://canary.discord.com/assets/d4288a7f31433116.svg",
@@ -8248,12 +8228,8 @@
         "etag": "W/\"239a65b494415a12508c3b77ba0cf0dd\""
     },
     {
-        "url": "https://canary.discord.com/assets/332b0e874b86247c.wasm",
-        "etag": "W/\"a1a15f8de4e2c625376519b9a40aab11\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/872d0bfaaff74572.scm",
-        "etag": "\"d12694c58434bf80fd2de88837f3f310\""
+        "url": "https://canary.discord.com/assets/ff32678d88643c9a.scm",
+        "etag": "\"080aeb35872679afa4f61f42950136eb\""
     },
     {
         "url": "https://canary.discord.com/assets/6bc2bb725aabbdd0.svg",
@@ -8292,10 +8268,6 @@
         "etag": "W/\"a4ae9ac0cb5ad12a68f767d39b249811\""
     },
     {
-        "url": "https://canary.discord.com/assets/faf2d1d701ca26a4.wasm",
-        "etag": "W/\"464a48a16bda0945118b5ec90e92f8ec\""
-    },
-    {
         "url": "https://canary.discord.com/assets/745a0cded095c017.svg",
         "etag": "W/\"b99b0dd045c527a855a8ee484140cdfe\""
     },
@@ -8324,16 +8296,8 @@
         "etag": "W/\"5610f2e382d6b6394dcf82fbac03e32c\""
     },
     {
-        "url": "https://canary.discord.com/assets/7dafb92ca6e3ec6b.wasm",
-        "etag": "W/\"88d0dd6d58f7b09c63aeb5d71fcfd7ee\""
-    },
-    {
         "url": "https://canary.discord.com/assets/304d9e68ba2e6e2c.svg",
         "etag": "W/\"0fe65e9200915762274a634fda80595f\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/e958f5c07cd6f090.svg",
-        "etag": "W/\"66a106653ecf932ede0b9094e33670f7\""
     },
     {
         "url": "https://canary.discord.com/assets/b0cd03f6a59a24d1.svg",
@@ -8380,6 +8344,10 @@
         "etag": "W/\"3a6894097226116ae7ce2035ef6f0f2b\""
     },
     {
+        "url": "https://canary.discord.com/assets/a927d3108788ff77.wasm",
+        "etag": "W/\"15b18606482c2d63fc399f3bd1af698b\""
+    },
+    {
         "url": "https://canary.discord.com/assets/258b95fae685d778.svg",
         "etag": "W/\"e6b64cfec7333c838fa8ef994854fcdf\""
     },
@@ -8422,6 +8390,10 @@
     {
         "url": "https://canary.discord.com/assets/4b45e43d8a78cf18.svg",
         "etag": "W/\"d2c882ea277d3491314a1093b60c87ab\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/7dafb92ca6e3ec6b.wasm",
+        "etag": "W/\"88d0dd6d58f7b09c63aeb5d71fcfd7ee\""
     },
     {
         "url": "https://canary.discord.com/assets/1069f6d6faf290b7.svg",
@@ -8508,16 +8480,12 @@
         "etag": "W/\"25fa21b12082690d8c45e1c21e366635\""
     },
     {
-        "url": "https://canary.discord.com/assets/7cc0acd33f903a55.scm",
-        "etag": "\"ff2ec62edb27c596055b57b1fbe2732f\""
-    },
-    {
         "url": "https://canary.discord.com/assets/1ec6d252ffa75bf4.svg",
         "etag": "W/\"15b0f8e9ab83200c095149863a8b4cdf\""
     },
     {
-        "url": "https://canary.discord.com/assets/764d203016a287be.scm",
-        "etag": "\"92c049dd118bfaca498329462f15d014\""
+        "url": "https://canary.discord.com/assets/332b0e874b86247c.wasm",
+        "etag": "W/\"a1a15f8de4e2c625376519b9a40aab11\""
     },
     {
         "url": "https://canary.discord.com/assets/6bd56def35bce2e8.svg",
@@ -8526,10 +8494,6 @@
     {
         "url": "https://canary.discord.com/assets/741452e67010d534.svg",
         "etag": "W/\"1b49a181ff7cdab94bd390b3d3224f63\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/74fe2c2f5a3c7981.scm",
-        "etag": "\"a4e09999767e2fb0858ccb34617a423b\""
     },
     {
         "url": "https://canary.discord.com/assets/82193c3876db5b8b.svg",
@@ -8542,14 +8506,6 @@
     {
         "url": "https://canary.discord.com/assets/f703ad20762f7727.svg",
         "etag": "W/\"89ada0142f618da282e828d07bcccfad\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/37629793d54595aa.wasm",
-        "etag": "W/\"54b730e63190f116400ea953a5764293\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/4e875a19cd1d5f9a.wasm",
-        "etag": "W/\"3dec5166665703ade887f339d7401cdf\""
     },
     {
         "url": "https://canary.discord.com/assets/faa3954d9400156e.svg",
@@ -8576,10 +8532,6 @@
         "etag": "W/\"544e21f44f747aa00bff6f0b42dd0671\""
     },
     {
-        "url": "https://canary.discord.com/assets/3da6afe347130d3e.scm",
-        "etag": "\"c9ce6dec313d8eac867599dfc7b56fd1\""
-    },
-    {
         "url": "https://canary.discord.com/assets/7ba122c696e2d432.svg",
         "etag": "W/\"7e9c28f98192ec5811981181f28ea7ac\""
     },
@@ -8590,10 +8542,6 @@
     {
         "url": "https://canary.discord.com/assets/23ab0219ca9403ac.svg",
         "etag": "W/\"fb3693a994480b97c1d7bed8a8bbdede\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/9bd4a797e174717e.wasm",
-        "etag": "W/\"2a14e75e4dcbe55a6bd2dd946e6dbe6e\""
     },
     {
         "url": "https://canary.discord.com/assets/9e302e2c0cd16c7c.svg",
@@ -8644,10 +8592,6 @@
         "etag": "W/\"68d4ca73e49096ce6a724083e632e4d8\""
     },
     {
-        "url": "https://canary.discord.com/assets/9113833583a1967a.scm",
-        "etag": "\"cd26af3c328c58d12ac48748782534ba\""
-    },
-    {
         "url": "https://canary.discord.com/assets/3e260c18c337bde6.svg",
         "etag": "W/\"c4e681296681c48b7a9be5e461fa9101\""
     },
@@ -8662,6 +8606,10 @@
     {
         "url": "https://canary.discord.com/assets/4ab812129617848d.svg",
         "etag": "W/\"b27ddde1cf4f8ae0f48aad5f4d9e6b72\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/ff4875e34b10af15.scm",
+        "etag": "\"407994c39998e4e1a6dbc2dfada8ab6b\""
     },
     {
         "url": "https://canary.discord.com/assets/4f2e5c805a0bfe09.svg",
@@ -8764,6 +8712,10 @@
         "etag": "W/\"df8b5c1e4abb97e748071aeb28f1ba38\""
     },
     {
+        "url": "https://canary.discord.com/assets/4c2fad6f8a84d5f2.scm",
+        "etag": "\"befdb4f6b5646eb1d3b18929b72591aa\""
+    },
+    {
         "url": "https://canary.discord.com/assets/7b3d21a4c883c39a.svg",
         "etag": "W/\"ef68804f725bd3d3d0b69a6e5ab93a38\""
     },
@@ -8772,8 +8724,8 @@
         "etag": "W/\"2b7bcd3d95d74df21315e947e0ab02be\""
     },
     {
-        "url": "https://canary.discord.com/assets/0be701db53325b4e.wasm",
-        "etag": "W/\"161370412841a64f24147ae6363166d9\""
+        "url": "https://canary.discord.com/assets/b62210ce632b9c7b.scm",
+        "etag": "\"f9d2180be0004e7a630f258c94cd0703\""
     },
     {
         "url": "https://canary.discord.com/assets/74f00f2978cef9b7.svg",
@@ -8816,6 +8768,10 @@
         "etag": "W/\"1c1e2b8196062cea1c70edeed44fc479\""
     },
     {
+        "url": "https://canary.discord.com/assets/150079cffc11c19f.scm",
+        "etag": "\"5944afeee10c7865049fd81e78e7359c\""
+    },
+    {
         "url": "https://canary.discord.com/assets/622b949a56292cd3.svg",
         "etag": "W/\"a786b886d349738b8e08aa4067ad5432\""
     },
@@ -8844,8 +8800,16 @@
         "etag": "W/\"19bfb1eb4390fcb078f8a833e796b2ac\""
     },
     {
+        "url": "https://canary.discord.com/assets/e8e8836f09ead3b7.wasm",
+        "etag": "W/\"6d857e1d20557c7e52b17ef9d918cec7\""
+    },
+    {
         "url": "https://canary.discord.com/assets/95daaecf41777967.svg",
         "etag": "W/\"6b0e531a93795065b69255ee93223b4c\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/880f37d7d46a1210.scm",
+        "etag": "\"2afb26775730d31e1daf07a68ec6358c\""
     },
     {
         "url": "https://canary.discord.com/assets/a66e1fd5449999ba.svg",
@@ -8890,10 +8854,6 @@
     {
         "url": "https://canary.discord.com/assets/6decadd6799732fd.svg",
         "etag": "W/\"b542a360ed4cdceeac3bca73b455ebc6\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/6000a48ad9b7b73a.wasm",
-        "etag": "W/\"798709e22549537a32b14cbd21c13f8a\""
     },
     {
         "url": "https://canary.discord.com/assets/ffd3b822c676de92.svg",
@@ -9016,6 +8976,10 @@
         "etag": "W/\"427d2c94f1e6c1b749612cc12f11df7f\""
     },
     {
+        "url": "https://canary.discord.com/assets/6d6c0c9662c02445.wasm",
+        "etag": "W/\"ca525defe120476b8422348e40ca9632\""
+    },
+    {
         "url": "https://canary.discord.com/assets/478ec0f4108b4ae4.svg",
         "etag": "W/\"16c3030a75cdc92940e5b56976b667d0\""
     },
@@ -9036,12 +9000,12 @@
         "etag": "W/\"c047791b5f0a0e09206289fbdbc19c9a\""
     },
     {
-        "url": "https://canary.discord.com/assets/2d3b24aac48706d0.scm",
-        "etag": "\"837f714051b1d58a3cd2d29d2b0d181d\""
-    },
-    {
         "url": "https://canary.discord.com/assets/dfb3740e7b2d0a65.svg",
         "etag": "W/\"193fa27d23b9840037d6f1c32ac78ad8\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/ae8158b5143b2105.scm",
+        "etag": "\"9e808c187eccc62c90b7b8e32ce88c93\""
     },
     {
         "url": "https://canary.discord.com/assets/9c776070bdce9faf.svg",
@@ -9054,6 +9018,10 @@
     {
         "url": "https://canary.discord.com/assets/43c4377ffbafe2da.svg",
         "etag": "W/\"a38a70388a9ffb9ede271e41142a8f2e\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/33f9142284a10095.scm",
+        "etag": "\"351d322d5f1a54d003dc12dfbbaf0958\""
     },
     {
         "url": "https://canary.discord.com/assets/a3a966de2d9cc454.svg",
@@ -9080,10 +9048,6 @@
         "etag": "W/\"0914ca93cc2f18917577723f5cc69b2a\""
     },
     {
-        "url": "https://canary.discord.com/assets/28047f781bb88e3a.scm",
-        "etag": "\"c8cf30626a53ca4b975ce650cf8e2381\""
-    },
-    {
         "url": "https://canary.discord.com/assets/94660b205108a49f.svg",
         "etag": "W/\"7b3a37fa249a857b0ff136db0a73f44c\""
     },
@@ -9094,6 +9058,10 @@
     {
         "url": "https://canary.discord.com/assets/3d02d1dbe07164af.svg",
         "etag": "W/\"a679c2721644edc34b150cb8821da8b2\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/68db595d8460bf97.scm",
+        "etag": "\"871ce8ff69c191bd7364c67c2ed79d2b\""
     },
     {
         "url": "https://canary.discord.com/assets/35955304467573e3.svg",
@@ -9136,10 +9104,6 @@
         "etag": "W/\"93bef14e30e0a38bbc07f733e524f652\""
     },
     {
-        "url": "https://canary.discord.com/assets/c7ac1c7e64386ef2.wasm",
-        "etag": "W/\"c914df6a28685a95e178eb2c830a67b4\""
-    },
-    {
         "url": "https://canary.discord.com/assets/db72cb1d606b4670.svg",
         "etag": "W/\"98369621e69453d613d6525e0457ac0e\""
     },
@@ -9154,6 +9118,10 @@
     {
         "url": "https://canary.discord.com/assets/7736045d9003632c.svg",
         "etag": "W/\"c8d00e4308cecc7841479e759002feca\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/fe3cea4ec886ffda.scm",
+        "etag": "\"728f92e83f202746359f45c14f037bf4\""
     },
     {
         "url": "https://canary.discord.com/assets/142ffbc6383968ae.svg",
@@ -9192,10 +9160,6 @@
         "etag": "W/\"1a7681dc245b3106404849f80f5937a0\""
     },
     {
-        "url": "https://canary.discord.com/assets/0f6cf3430264982a.scm",
-        "etag": "\"303d3d37eb9140a8232b35d2f2668abc\""
-    },
-    {
         "url": "https://canary.discord.com/assets/e1de15fcffa3f12d.lottie",
         "etag": "\"a2de4298a49af0745e32ca4d1a43dd03\""
     },
@@ -9210,6 +9174,10 @@
     {
         "url": "https://canary.discord.com/assets/9f34f40112215f5e.mp3",
         "etag": "\"def141937c5c797cc22101bd6d1a1573\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/5f17f56e87bc030f.scm",
+        "etag": "\"cd64a4464687d69b8530f3379c34b654\""
     },
     {
         "url": "https://canary.discord.com/assets/eeae4366a092f9b2.svg",
@@ -9232,8 +9200,8 @@
         "etag": "W/\"d5d060921efbed7794c0d8087ba4cf58\""
     },
     {
-        "url": "https://canary.discord.com/assets/f3d546d9757678c1.wasm",
-        "etag": "W/\"6840e50ba17e0feca4b4b14bd746a94b\""
+        "url": "https://canary.discord.com/assets/8c53a35e60332680.wasm",
+        "etag": "W/\"6edc4a523b1fb3425eccc247ebefd9b8\""
     },
     {
         "url": "https://canary.discord.com/assets/0ca1a7a6c40d6f79.svg",
@@ -9246,6 +9214,10 @@
     {
         "url": "https://canary.discord.com/assets/66478851f04dff18.svg",
         "etag": "W/\"c166700764a11c7d30026d4d825b235a\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/d6864494d8ed8678.scm",
+        "etag": "\"16f4c518172ef22b8f01f6a5d964be17\""
     },
     {
         "url": "https://canary.discord.com/assets/e9b4b6d277caf6c8.svg",
@@ -9266,10 +9238,6 @@
     {
         "url": "https://canary.discord.com/assets/3f22f134e254dc68.svg",
         "etag": "W/\"c07212f2d498c21e56d3b3f581799972\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/b79558c9fe3061d8.scm",
-        "etag": "\"9f635da7263479e5bf6f750ff95e23b2\""
     },
     {
         "url": "https://canary.discord.com/assets/2fbfe47635ba8579.svg",
@@ -9436,6 +9404,10 @@
         "etag": "W/\"e5400d0bf33f398a150be697f909dfaa\""
     },
     {
+        "url": "https://canary.discord.com/assets/bea314831a08c1ad.wasm",
+        "etag": "W/\"8aee2da616f1190fa4bb76f383cb9069\""
+    },
+    {
         "url": "https://canary.discord.com/assets/b1710f50facd310f.svg",
         "etag": "W/\"0977d24075aea9ae9e84d5d4e102d2c6\""
     },
@@ -9478,10 +9450,6 @@
     {
         "url": "https://canary.discord.com/assets/15522480866a3e11.svg",
         "etag": "W/\"cbce1272869a42215ef4a4afad1cd85e\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/26f3233db8fd35cc.scm",
-        "etag": "\"20fef67c146c182a4a3c938ac896e147\""
     },
     {
         "url": "https://canary.discord.com/assets/e1a50e2d7925ce98.mp3",
@@ -9556,6 +9524,10 @@
         "etag": "W/\"0e3649e174bc3392b5b9bc46545ebb33\""
     },
     {
+        "url": "https://canary.discord.com/assets/534b88d8e16028e3.wasm",
+        "etag": "W/\"42fb9d76c466db979b9604331d8b62e9\""
+    },
+    {
         "url": "https://canary.discord.com/assets/72eff930a251bce8.svg",
         "etag": "W/\"2f5331445a4647af2bb317862b38502a\""
     },
@@ -9618,10 +9590,6 @@
     {
         "url": "https://canary.discord.com/assets/26eafe176b5b3454.svg",
         "etag": "W/\"6f248b6c51cc4b35c7dd4766ff20fba7\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/1969a3392e618b26.wasm",
-        "etag": "W/\"d3ecab48c8ca01c1473b28bd5ff983b2\""
     },
     {
         "url": "https://canary.discord.com/assets/9db8a35e3ca5576a.svg",
@@ -9696,16 +9664,20 @@
         "etag": "W/\"5ac85f0d02866dbce56973ac87224a7d\""
     },
     {
+        "url": "https://canary.discord.com/assets/a8fd53282d0dd6c1.wasm",
+        "etag": "W/\"c59701c511f02f3d7480069f76f33dae\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/27f2b7e9f1c3c033.scm",
+        "etag": "\"ecd94ab2537912a12086a4d594b75414\""
+    },
+    {
         "url": "https://canary.discord.com/assets/90d1d6d07c92e0e6.svg",
         "etag": "W/\"9aed4befbf07fca5047eda5e2d461292\""
     },
     {
         "url": "https://canary.discord.com/assets/a383e820ea44eeb6.svg",
         "etag": "W/\"5b26bd4103fbb765c7329d41a3df7075\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/ff4875e34b10af15.scm",
-        "etag": "\"407994c39998e4e1a6dbc2dfada8ab6b\""
     },
     {
         "url": "https://canary.discord.com/assets/72e20814575930e3.svg",
@@ -9848,6 +9820,10 @@
         "etag": "W/\"a8de0d11b5a6ee9d8a28a6ab38884160\""
     },
     {
+        "url": "https://canary.discord.com/assets/c74b8f4de42fb2da.scm",
+        "etag": "\"5746046872d0147da1be2a9ea8736974\""
+    },
+    {
         "url": "https://canary.discord.com/assets/bf60eeabbc35ac0c.svg",
         "etag": "W/\"509c4f6bb9b71c5d9551357942e11f12\""
     },
@@ -9876,10 +9852,6 @@
         "etag": "W/\"0cc1c9e5863fa49b891f84def52afd2b\""
     },
     {
-        "url": "https://canary.discord.com/assets/338c675ef087c754.scm",
-        "etag": "\"7f37449aa7602bb60a9e149861a228c3\""
-    },
-    {
         "url": "https://canary.discord.com/assets/bbcaae02da54bb69.svg",
         "etag": "W/\"f34c63197816c3e60bea4a9537c5fffa\""
     },
@@ -9898,6 +9870,10 @@
     {
         "url": "https://canary.discord.com/assets/3034c9f77720cbf2.svg",
         "etag": "W/\"a2bcfe4eee2242c2f9724d2cfdf6c45b\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/a7ae27d6022446ae.wasm",
+        "etag": "W/\"47c015dca2e1a62a0a00018bf4a9240a\""
     },
     {
         "url": "https://canary.discord.com/assets/c26baf692236dd79.svg",
@@ -9960,10 +9936,6 @@
         "etag": "W/\"d7ef13a16a7e1c7276214d5181c1f2e5\""
     },
     {
-        "url": "https://canary.discord.com/assets/ae8158b5143b2105.scm",
-        "etag": "\"9e808c187eccc62c90b7b8e32ce88c93\""
-    },
-    {
         "url": "https://canary.discord.com/assets/c54491201f6527f9.svg",
         "etag": "W/\"7d4f02f7354aee0b30e7e5a35579fff4\""
     },
@@ -10000,12 +9972,16 @@
         "etag": "W/\"5ec317cd32c4a0b2a3a906e88d702831\""
     },
     {
-        "url": "https://canary.discord.com/assets/4edda157d72b3808.scm",
-        "etag": "\"cf0bc9754091bf51106129c68eea330c\""
-    },
-    {
         "url": "https://canary.discord.com/assets/09f288f81cf769ab.svg",
         "etag": "W/\"5f6799ef67ea97133d20a1e6c2e4ee5c\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/58c9a8aed17cb1f1.scm",
+        "etag": "\"a79e3dcc0f1afba79ec39f37450afe33\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/07316eddff5889b3.scm",
+        "etag": "\"fce6152b4f37b47047e2664ed11ebde6\""
     },
     {
         "url": "https://canary.discord.com/assets/f11aff9f1c8c5f19.svg",
@@ -10014,10 +9990,6 @@
     {
         "url": "https://canary.discord.com/assets/88acc2247a72c4b8.svg",
         "etag": "W/\"d23f3adc94869d5324e319ce84aaf451\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/7555218a1309ad93.scm",
-        "etag": "\"480d6fb9860bcebe68de7edd469a954a\""
     },
     {
         "url": "https://canary.discord.com/assets/a5e638750774eb7e.svg",
@@ -10116,40 +10088,40 @@
         "etag": "W/\"b2f8f407e3ebcdaef918bd214395c0d0\""
     },
     {
+        "url": "https://canary.discord.com/assets/7035bb3a0c2b8d54.wasm",
+        "etag": "W/\"a04eb8d435fed3e8b02d734f0d698e71\""
+    },
+    {
         "url": "https://canary.discord.com/assets/80c0cba40a6fcf80.svg",
         "etag": "W/\"a355bbcce726fbba96d6a28741649669\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/3d87e0acfdf050a9.scm",
+        "etag": "\"16408131da2f9a1228df0fdd3740f7a8\""
     },
     {
         "url": "https://canary.discord.com/assets/826f10bbc8e49e5d.svg",
         "etag": "W/\"63a56f89f6b72b9ab70b82134e228363\""
     },
     {
-        "url": "https://canary.discord.com/assets/a52dbc97f447c6f8.scm",
-        "etag": "\"8bb02486e8e164716085517db0c5847b\""
+        "url": "https://canary.discord.com/assets/1291257665f1e395.scm",
+        "etag": "\"2ba0ca69b581e4cd10388e7f66c85502\""
     },
     {
         "url": "https://canary.discord.com/assets/d1c5540bf24d57be.svg",
         "etag": "W/\"8e65f23a8bd5d220ee44191dc0c8efe9\""
     },
     {
-        "url": "https://canary.discord.com/assets/5f17f56e87bc030f.scm",
-        "etag": "\"cd64a4464687d69b8530f3379c34b654\""
-    },
-    {
         "url": "https://canary.discord.com/assets/f85f2fd3cfa6eda0.svg",
         "etag": "W/\"6e9db125513715df3ec213f701b912d8\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/880f37d7d46a1210.scm",
-        "etag": "\"2afb26775730d31e1daf07a68ec6358c\""
     },
     {
         "url": "https://canary.discord.com/assets/0ddca72b9bb0ea9d.svg",
         "etag": "W/\"06a19966574248f47ac8570b6f79c992\""
     },
     {
-        "url": "https://canary.discord.com/assets/4833ddba4e3c2e41.wasm",
-        "etag": "W/\"c06df40e55e6a19986958d86431ede3d\""
+        "url": "https://canary.discord.com/assets/a781b7662011d5f8.scm",
+        "etag": "\"00a29d7e6a6fa0b337eaf7c77d9108f0\""
     },
     {
         "url": "https://canary.discord.com/assets/e999657f8ed8593b.svg",
@@ -10158,10 +10130,6 @@
     {
         "url": "https://canary.discord.com/assets/758be64a3683b16a.svg",
         "etag": "W/\"90e42e5162bcfbc3961a138d85731cf1\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/71d5da341ff42d98.scm",
-        "etag": "\"e1694af09c603d8ea0711b0a624fe267\""
     },
     {
         "url": "https://canary.discord.com/assets/772a77f084bdc6f1.svg",
@@ -10252,10 +10220,6 @@
         "etag": "W/\"ef7670e022583926d7133e2a42cc2f09\""
     },
     {
-        "url": "https://canary.discord.com/assets/bfd02fa6ec3b90f5.scm",
-        "etag": "\"3997e0d8bf7466decec49f6f8f680003\""
-    },
-    {
         "url": "https://canary.discord.com/assets/763d41e9b4d74995.svg",
         "etag": "W/\"155543fac269ac1e1a3bb1f96a57b5d7\""
     },
@@ -10300,6 +10264,10 @@
         "etag": "W/\"133b77ff9fc321682fed3cde12d6355c\""
     },
     {
+        "url": "https://canary.discord.com/assets/2a0f0d40e3e6b5f5.wasm",
+        "etag": "W/\"b3ac46251dfa0286d0f7a5d556741585\""
+    },
+    {
         "url": "https://canary.discord.com/assets/a6b1ba6fa378a731.svg",
         "etag": "W/\"f7b3f6b926cb31a17d4928d076febab4\""
     },
@@ -10318,6 +10286,10 @@
     {
         "url": "https://canary.discord.com/assets/1e90ddaa9ccd4923.jpg",
         "etag": "\"230cd026d4bfdeb914b266938cc506a1\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/631590b9281edd13.wasm",
+        "etag": "W/\"aa0e4b9c14ebc6818e75ad53c08f62bf\""
     },
     {
         "url": "https://canary.discord.com/assets/8f15e70ee42ea05c.svg",
@@ -10364,12 +10336,12 @@
         "etag": "W/\"fa968efb651ef4204c0b89c973d5666b\""
     },
     {
-        "url": "https://canary.discord.com/assets/b99a93941dea37b4.svg",
-        "etag": "W/\"7b85f8b9b4ba98e4e99b7f7165aae56d\""
+        "url": "https://canary.discord.com/assets/abf348b278af23fb.wasm",
+        "etag": "W/\"12460be6f30b76df8c7138561114c080\""
     },
     {
-        "url": "https://canary.discord.com/assets/4ba2f997145549c8.scm",
-        "etag": "\"054ac757bcea4bb4066a1f7cb0fdf603\""
+        "url": "https://canary.discord.com/assets/b99a93941dea37b4.svg",
+        "etag": "W/\"7b85f8b9b4ba98e4e99b7f7165aae56d\""
     },
     {
         "url": "https://canary.discord.com/assets/59fe342744528efd.svg",
@@ -10396,10 +10368,6 @@
         "etag": "W/\"0c6f08d5da979270ed8c598b45dd7de2\""
     },
     {
-        "url": "https://canary.discord.com/assets/9d7a1d34922edf76.scm",
-        "etag": "\"64c5c2bf720880ba65738e7510101c52\""
-    },
-    {
         "url": "https://canary.discord.com/assets/4e15d11094ac5530.svg",
         "etag": "W/\"c38b71cfa643cbb5509817dbf90f7100\""
     },
@@ -10414,14 +10382,6 @@
     {
         "url": "https://canary.discord.com/assets/a1ba0dd930cfd819.svg",
         "etag": "W/\"3547c9b25b1b9a1da8c06100fc4da900\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/61b811529d456f5f.svg",
-        "etag": "W/\"61c13cf15df588f9e48a217bb91184c3\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/e9adc32678a73c70.wasm",
-        "etag": "W/\"279db1b9bae91d2a55d0158f0c1109bd\""
     },
     {
         "url": "https://canary.discord.com/assets/b980c2c605558325.svg",
@@ -10534,10 +10494,6 @@
     {
         "url": "https://canary.discord.com/assets/302a27a2e5cc3fb6.svg",
         "etag": "W/\"07d32c275cec4eea23627ed6a4c37375\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/8c53a35e60332680.wasm",
-        "etag": "W/\"6edc4a523b1fb3425eccc247ebefd9b8\""
     },
     {
         "url": "https://canary.discord.com/assets/91c94acbdd878012.svg",
@@ -10680,6 +10636,10 @@
         "etag": "W/\"fdfbde645f16761b69a21d334ee17611\""
     },
     {
+        "url": "https://canary.discord.com/assets/4833ddba4e3c2e41.wasm",
+        "etag": "W/\"c06df40e55e6a19986958d86431ede3d\""
+    },
+    {
         "url": "https://canary.discord.com/assets/288fa52e49c71440.svg",
         "etag": "W/\"0ee88820de68e9856408ac765a57198d\""
     },
@@ -10744,8 +10704,8 @@
         "etag": "W/\"c5f722a37a7e3800b78a61c3ebd2dd74\""
     },
     {
-        "url": "https://canary.discord.com/assets/7ae5f9c324bbd8df.wasm",
-        "etag": "W/\"f5ecb84cb7e6ca08a7423390a76f48f8\""
+        "url": "https://canary.discord.com/assets/0d418e559e607820.scm",
+        "etag": "\"917cf66e5c9c44c5372adc18d0de087f\""
     },
     {
         "url": "https://canary.discord.com/assets/0db1703425e7631d.svg",
@@ -10812,16 +10772,12 @@
         "etag": "W/\"e90961ed86ef260b8fc7aea17a7235d1\""
     },
     {
-        "url": "https://canary.discord.com/assets/0d418e559e607820.scm",
-        "etag": "\"917cf66e5c9c44c5372adc18d0de087f\""
-    },
-    {
         "url": "https://canary.discord.com/assets/a123af38f776a492.svg",
         "etag": "W/\"9445b59878fd9d95fad861939d5a25a7\""
     },
     {
-        "url": "https://canary.discord.com/assets/799be48d2386aed3.wasm",
-        "etag": "W/\"bf410acaccfe43b83bae1050f84122e7\""
+        "url": "https://canary.discord.com/assets/04576dbdb98ad02f.scm",
+        "etag": "\"54aa7bfde69eb9969f9980cb75f521cf\""
     },
     {
         "url": "https://canary.discord.com/assets/adfbca0250706ef7.svg",
@@ -10932,14 +10888,6 @@
         "etag": "W/\"9fa4e8b751cc33b92608079dcb56293f\""
     },
     {
-        "url": "https://canary.discord.com/assets/2751f826ec9ebbef.wasm",
-        "etag": "W/\"f3c8a1e9c937de35d558061f36c976a1\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/9d568a1f15e8cf74.scm",
-        "etag": "\"d21f03d8873fcc1599a2237142d5f210\""
-    },
-    {
         "url": "https://canary.discord.com/assets/63cc8a7aaa61800a.svg",
         "etag": "W/\"0a68a9d6deff6861cb61bef664556d2e\""
     },
@@ -11030,10 +10978,6 @@
     {
         "url": "https://canary.discord.com/assets/4c10665fea502727.svg",
         "etag": "W/\"048f569111aa7bb39f95c4c62a1a58d1\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/08c1e3004d980a55.wasm",
-        "etag": "W/\"882ba10d9ec0bf259b778e73f2277143\""
     },
     {
         "url": "https://canary.discord.com/assets/cbdff11b41c5ffa7.svg",
@@ -11160,8 +11104,16 @@
         "etag": "W/\"fde233b6899a1a0fac64c419724e668b\""
     },
     {
+        "url": "https://canary.discord.com/assets/180b17205c422875.scm",
+        "etag": "\"d316c3012c1a6dff2f973ef04dfe852b\""
+    },
+    {
         "url": "https://canary.discord.com/assets/7e7737233555d549.svg",
         "etag": "W/\"3f0179c8a166b821969a153781d8d0f2\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/e0b7a2d0c737a42b.scm",
+        "etag": "\"9c7129856eae78337de5fa51fe3ae903\""
     },
     {
         "url": "https://canary.discord.com/assets/24b2a218eeb1ff9e.svg",
@@ -11220,16 +11172,16 @@
         "etag": "W/\"a53c5c63b050e1ee14b9b1b4684df369\""
     },
     {
-        "url": "https://canary.discord.com/assets/9659a56d1febda1f.scm",
-        "etag": "\"ba3e7d140bbc742c2495b1e5c42ab052\""
-    },
-    {
         "url": "https://canary.discord.com/assets/abb50adf2e70716d.svg",
         "etag": "W/\"c295768cb769c87a33214cd5248eff8d\""
     },
     {
         "url": "https://canary.discord.com/assets/848831678b5f500f.svg",
         "etag": "W/\"6beea364b9ff84ef3050b82901915c77\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/a4bc55505fc9536f.scm",
+        "etag": "\"f0c1527e0ff87c18e3fd47429d06dd32\""
     },
     {
         "url": "https://canary.discord.com/assets/8ae7ca9bbac47c60.svg",
@@ -11244,12 +11196,12 @@
         "etag": "W/\"442dd1525062b91820d91cf99dd645e5\""
     },
     {
-        "url": "https://canary.discord.com/assets/75b3fe2d77170b85.svg",
-        "etag": "W/\"84a4b0f9fe39b3a7a9b11bbaf532d8cf\""
+        "url": "https://canary.discord.com/assets/67b407c2a35b083c.scm",
+        "etag": "\"73eb8785224ad270001d9ac9f3e61e34\""
     },
     {
-        "url": "https://canary.discord.com/assets/5bac5070b554561d.scm",
-        "etag": "\"ea9d89b7f82f24b45b641cbc4046e78e\""
+        "url": "https://canary.discord.com/assets/75b3fe2d77170b85.svg",
+        "etag": "W/\"84a4b0f9fe39b3a7a9b11bbaf532d8cf\""
     },
     {
         "url": "https://canary.discord.com/assets/b3cdcfc08920ba35.svg",
@@ -11260,12 +11212,16 @@
         "etag": "W/\"979eda077154e01c720eba386173ca36\""
     },
     {
+        "url": "https://canary.discord.com/assets/f3d546d9757678c1.wasm",
+        "etag": "W/\"6840e50ba17e0feca4b4b14bd746a94b\""
+    },
+    {
         "url": "https://canary.discord.com/assets/784116d1391e4659.svg",
         "etag": "W/\"01168c2a8a272ce9c6ea534b60b558a9\""
     },
     {
-        "url": "https://canary.discord.com/assets/fe3cea4ec886ffda.scm",
-        "etag": "\"728f92e83f202746359f45c14f037bf4\""
+        "url": "https://canary.discord.com/assets/7aaa4791a7108ef1.scm",
+        "etag": "\"b263f8592d70955bca68e9eda34fa44a\""
     },
     {
         "url": "https://canary.discord.com/assets/b4b31af39374d156.svg",
@@ -11308,6 +11264,10 @@
         "etag": "W/\"7c309737c9a3ccda2f7448ef0abe001f\""
     },
     {
+        "url": "https://canary.discord.com/assets/7ae5f9c324bbd8df.wasm",
+        "etag": "W/\"f5ecb84cb7e6ca08a7423390a76f48f8\""
+    },
+    {
         "url": "https://canary.discord.com/assets/9b6c8d1d1957656d.svg",
         "etag": "W/\"9f5efa2378393854163b617cfe4f3b69\""
     },
@@ -11340,10 +11300,6 @@
         "etag": "W/\"c0a07e3d35d8a9170dc1ea7c8823372e\""
     },
     {
-        "url": "https://canary.discord.com/assets/93e51b74e13d1db3.scm",
-        "etag": "\"35dee2cb0bb15b7a2f3f1a0d09464471\""
-    },
-    {
         "url": "https://canary.discord.com/assets/a70f9e8e58dbad46.svg",
         "etag": "W/\"ec51ae340dc3e445302637ee8b15874e\""
     },
@@ -11354,10 +11310,6 @@
     {
         "url": "https://canary.discord.com/assets/bd5e5eca11a11a9a.svg",
         "etag": "W/\"0dab5baf287852974ae3636011a155af\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/8f7666f15b118b59.scm",
-        "etag": "\"030e4d10711585e3919208e7c767a9be\""
     },
     {
         "url": "https://canary.discord.com/assets/15ec4c4f5705e920.svg",
@@ -11388,6 +11340,10 @@
         "etag": "W/\"52228f7fb4c77e37381b40b593dcd41a\""
     },
     {
+        "url": "https://canary.discord.com/assets/4f098f595413c750.scm",
+        "etag": "\"782d4aa25b808983916ec1e4bd4974ab\""
+    },
+    {
         "url": "https://canary.discord.com/assets/148996c9a0f6166a.svg",
         "etag": "W/\"7e9bc42d9d71b2e0680b36281655a46d\""
     },
@@ -11408,10 +11364,6 @@
         "etag": "W/\"deccb080c23f9ba053f0ac89fc0fda84\""
     },
     {
-        "url": "https://canary.discord.com/assets/268bf37036a7000e.scm",
-        "etag": "\"1651e262bfa817fdd8db0fb0b3d766b7\""
-    },
-    {
         "url": "https://canary.discord.com/assets/a674e7d0da99d47d.svg",
         "etag": "W/\"d963d0ebb1bc7743dc37568e3b7c5cfb\""
     },
@@ -11430,10 +11382,6 @@
     {
         "url": "https://canary.discord.com/assets/75c384ff8602de3c.svg",
         "etag": "W/\"b384d800b30858897bb8b79951828517\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/a781b7662011d5f8.scm",
-        "etag": "\"00a29d7e6a6fa0b337eaf7c77d9108f0\""
     },
     {
         "url": "https://canary.discord.com/assets/04b0e0d9af3c0ba7.svg",
@@ -11548,6 +11496,10 @@
         "etag": "W/\"f90f568565bb6721ca07c30f1c9f54b7\""
     },
     {
+        "url": "https://canary.discord.com/assets/b95a3d59c6e54c5a.scm",
+        "etag": "\"563ca080c3f37f0c8dfd972f21f4d9a9\""
+    },
+    {
         "url": "https://canary.discord.com/assets/65983510b8bab584.svg",
         "etag": "W/\"946471265b328f30c4140e1770aae3a8\""
     },
@@ -11574,10 +11526,6 @@
     {
         "url": "https://canary.discord.com/assets/7da85a8d2566c0f8.svg",
         "etag": "W/\"089aef33603e32cfb0408c97244972bb\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/14ec376fdb114a1a.scm",
-        "etag": "\"d2af8aca9ecedd9407c9eef19b239492\""
     },
     {
         "url": "https://canary.discord.com/assets/3dcf4097634ec95e.svg",
@@ -11636,10 +11584,6 @@
         "etag": "W/\"8c4cedc551e2f84cdffa591b3d573f97\""
     },
     {
-        "url": "https://canary.discord.com/assets/ab4ac798e39bc361.wasm",
-        "etag": "W/\"a862a219672935d79e480a79327712b9\""
-    },
-    {
         "url": "https://canary.discord.com/assets/1a97b7fbe2244f9c.svg",
         "etag": "W/\"d513a0299008d22ea75c208be21af20b\""
     },
@@ -11652,6 +11596,10 @@
         "etag": "W/\"e53b759073d7c416ab6414f17560bfaa\""
     },
     {
+        "url": "https://canary.discord.com/assets/e3d7d085f023429c.wasm",
+        "etag": "W/\"71322212a2eb5f1dea405602b3e2fa95\""
+    },
+    {
         "url": "https://canary.discord.com/assets/374d8b1f1ca1a4f7.svg",
         "etag": "W/\"673d9936cd86abc0f48e36d86950cc81\""
     },
@@ -11662,6 +11610,10 @@
     {
         "url": "https://canary.discord.com/assets/a43975191e64282e.svg",
         "etag": "W/\"b3f45308df051ef73d8cf63ffe0976c3\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/0d0a5d0e2c94fe47.scm",
+        "etag": "\"542cd402bd6435708539bfb7b8a5d9a6\""
     },
     {
         "url": "https://canary.discord.com/assets/b95c71e6fea2171c.svg",
@@ -11688,16 +11640,16 @@
         "etag": "W/\"b1b98f44f621fc902b43b6253f27bb7b\""
     },
     {
-        "url": "https://canary.discord.com/assets/631590b9281edd13.wasm",
-        "etag": "W/\"aa0e4b9c14ebc6818e75ad53c08f62bf\""
-    },
-    {
         "url": "https://canary.discord.com/assets/e191f538a68c2435.svg",
         "etag": "W/\"4074c31ae3588a394a7a78c5e80c7d98\""
     },
     {
         "url": "https://canary.discord.com/assets/f5b7ef739967d9ec.svg",
         "etag": "W/\"a840470f230f4af61a7f19c289030d51\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/faf2d1d701ca26a4.wasm",
+        "etag": "W/\"464a48a16bda0945118b5ec90e92f8ec\""
     },
     {
         "url": "https://canary.discord.com/assets/d21ea6339c177d4d.svg",
@@ -11868,10 +11820,6 @@
         "etag": "W/\"ffa9dc366506fcfe529cc5ce3859776c\""
     },
     {
-        "url": "https://canary.discord.com/assets/17a02aa0e9d4b682.scm",
-        "etag": "\"06be25436fab69166907a88ff6cf5943\""
-    },
-    {
         "url": "https://canary.discord.com/assets/8fdacb90228989fd.svg",
         "etag": "W/\"90016e00fd4d9381ff6bd2d1d2a24a3b\""
     },
@@ -11888,8 +11836,8 @@
         "etag": "W/\"617c1718e07ad475bacecb7e5e401dd3\""
     },
     {
-        "url": "https://canary.discord.com/assets/1f8dd043494ee1f1.scm",
-        "etag": "\"4dc96ca8b70a220f5cf7b39bfa61069e\""
+        "url": "https://canary.discord.com/assets/17a02aa0e9d4b682.scm",
+        "etag": "\"06be25436fab69166907a88ff6cf5943\""
     },
     {
         "url": "https://canary.discord.com/assets/d5afb20e42f4e780.svg",
@@ -11972,32 +11920,28 @@
         "etag": "W/\"66e3cbf517993ee5261f23687a2bc032\""
     },
     {
-        "url": "https://canary.discord.com/assets/07316eddff5889b3.scm",
-        "etag": "\"fce6152b4f37b47047e2664ed11ebde6\""
-    },
-    {
         "url": "https://canary.discord.com/assets/30e0ec940b29decf.svg",
         "etag": "W/\"59af5a1ce4b7a389384bc7c1290fc888\""
     },
     {
-        "url": "https://canary.discord.com/assets/1291257665f1e395.scm",
-        "etag": "\"2ba0ca69b581e4cd10388e7f66c85502\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/3ee26a92ffe4084e.wasm",
-        "etag": "W/\"ed02e33a68d73ca0e33b0982c9218855\""
+        "url": "https://canary.discord.com/assets/b4673c9c89418881.scm",
+        "etag": "\"797f044269023d59b6eca60ab37c6266\""
     },
     {
         "url": "https://canary.discord.com/assets/79a57637f20ce914.svg",
         "etag": "W/\"fc049048fa5f8d8a28da7917a2e3c7ae\""
     },
     {
-        "url": "https://canary.discord.com/assets/b62210ce632b9c7b.scm",
-        "etag": "\"f9d2180be0004e7a630f258c94cd0703\""
+        "url": "https://canary.discord.com/assets/c6441c8ee959613a.wasm",
+        "etag": "W/\"c480fc8b4613671ac6c19f8619f0cb1e\""
     },
     {
         "url": "https://canary.discord.com/assets/68e7bf4ba89ab577.svg",
         "etag": "W/\"c47155ce36a3818b1296b7a380654160\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/9659a56d1febda1f.scm",
+        "etag": "\"ba3e7d140bbc742c2495b1e5c42ab052\""
     },
     {
         "url": "https://canary.discord.com/assets/ceb159409f818f96.svg",
@@ -12062,10 +12006,6 @@
     {
         "url": "https://canary.discord.com/assets/2563a6e1c8258cf8.svg",
         "etag": "W/\"449fd96e28f8d1f3d3a3b06c4b4595c9\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/b95a3d59c6e54c5a.scm",
-        "etag": "\"563ca080c3f37f0c8dfd972f21f4d9a9\""
     },
     {
         "url": "https://canary.discord.com/assets/9feba19336b5c82e.lottie",
@@ -12156,6 +12096,10 @@
         "etag": "W/\"7385d261e70b0cc9566ca77e048c821d\""
     },
     {
+        "url": "https://canary.discord.com/assets/38b49511c25620a4.scm",
+        "etag": "\"c449142524356a0074da91644f2932c5\""
+    },
+    {
         "url": "https://canary.discord.com/assets/94a283ebb7d79f44.svg",
         "etag": "W/\"6e5dad11ea0c40923ea9420c7e1f511a\""
     },
@@ -12176,24 +12120,12 @@
         "etag": "W/\"aa383d4f83ca500164ebe970318158de\""
     },
     {
-        "url": "https://canary.discord.com/assets/71e40836c4f58bd2.scm",
-        "etag": "\"67350c7308bc47a21647e08ec84f4013\""
-    },
-    {
         "url": "https://canary.discord.com/assets/1f9f5da2f7e5fa02.svg",
         "etag": "W/\"2d24eb6ab8545bd17e66af014500f1ed\""
     },
     {
-        "url": "https://canary.discord.com/assets/f515f5466b3799e7.wasm",
-        "etag": "W/\"7e08b01379fab0a0f00c065294ff3a46\""
-    },
-    {
         "url": "https://canary.discord.com/assets/efd6a7288f526150.svg",
         "etag": "W/\"4a8440d0f005eb46ed688d214a7f8792\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/ceb6f797636a2e63.scm",
-        "etag": "\"2a8fbef98f04ed76aebc047821226d17\""
     },
     {
         "url": "https://canary.discord.com/assets/b566cd1a085f2f2e.svg",
@@ -12210,10 +12142,6 @@
     {
         "url": "https://canary.discord.com/assets/77a73cba6ee1ba36.svg",
         "etag": "W/\"c36f404ef43affe7525784b28dce16ff\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/76f51e4120a63fe4.wasm",
-        "etag": "W/\"3c02effc556d6a98d6f8a399d34e3d57\""
     },
     {
         "url": "https://canary.discord.com/assets/e0ef8ccc6246b119.svg",
@@ -12262,10 +12190,6 @@
     {
         "url": "https://canary.discord.com/assets/f06fe824e8ad1f6d.svg",
         "etag": "W/\"6b5cc40c5791ebe8d2f1983ecd8345e7\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/5493a714075a72c6.wasm",
-        "etag": "W/\"9a62c2d12ffb31e94ce3f716e3ffded2\""
     },
     {
         "url": "https://canary.discord.com/assets/110e79c79791da76.svg",
@@ -12326,6 +12250,10 @@
     {
         "url": "https://canary.discord.com/assets/60280fb6c3788e37.svg",
         "etag": "W/\"f54a3d5d5c70cf0d13fd778bcaf1f297\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/9d7a1d34922edf76.scm",
+        "etag": "\"64c5c2bf720880ba65738e7510101c52\""
     },
     {
         "url": "https://canary.discord.com/assets/ade68fbdbafae941.svg",
@@ -12420,10 +12348,6 @@
         "etag": "W/\"e12889fc24ecaf74a65a1d1eae8f4f67\""
     },
     {
-        "url": "https://canary.discord.com/assets/89a7618d9c5a0636.scm",
-        "etag": "\"89d78c267f493182acd9c80db9f38536\""
-    },
-    {
         "url": "https://canary.discord.com/assets/5800882047a89a6a.svg",
         "etag": "W/\"8c998f8fb62016fcfb4901e424ff378b\""
     },
@@ -12432,16 +12356,8 @@
         "etag": "W/\"908fc08aa976dd4e41eff1e2a2a1dffd\""
     },
     {
-        "url": "https://canary.discord.com/assets/d838a86863f4f0dd.scm",
-        "etag": "\"1580fb33f050999f5a2511aeb7ed9cdc\""
-    },
-    {
         "url": "https://canary.discord.com/assets/08ea56ff473d718f.svg",
         "etag": "W/\"6780beb7cfe20de23129773da786d186\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/180b17205c422875.scm",
-        "etag": "\"d316c3012c1a6dff2f973ef04dfe852b\""
     },
     {
         "url": "https://canary.discord.com/assets/85dcccc0e0a8812b.svg",
@@ -12450,10 +12366,6 @@
     {
         "url": "https://canary.discord.com/assets/84913d6627a0eca3.svg",
         "etag": "W/\"ae7b80cbcc619fab7cffd626d89812a3\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/ceb6f797636a2e63.scm",
-        "etag": "\"2a8fbef98f04ed76aebc047821226d17\""
     },
     {
         "url": "https://canary.discord.com/assets/97ba379985b9d99a.svg",
@@ -12484,12 +12396,12 @@
         "etag": "W/\"ab686ee048676cb10ef6bed31028bbbb\""
     },
     {
-        "url": "https://canary.discord.com/assets/e2e4ffe9446b9430.scm",
-        "etag": "\"3dca0ca49e586a62668c228317b2675f\""
-    },
-    {
         "url": "https://canary.discord.com/assets/82954088613583bc.mp3",
         "etag": "\"d852a25731f8ee41d574f5f8844f86d1\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/2ee8111376e6effe.wasm",
+        "etag": "W/\"a156ca96f074aade0c1962ecdb693149\""
     },
     {
         "url": "https://canary.discord.com/assets/1845bce1f619ed8f.svg",
@@ -12500,20 +12412,12 @@
         "etag": "W/\"59bdcc534c0d1adc1fb7575a1a4785a6\""
     },
     {
-        "url": "https://canary.discord.com/assets/27cb89098c8d5aef.wasm",
-        "etag": "W/\"8596fc8ec86ad63223f4ca2dc680e2d9\""
-    },
-    {
         "url": "https://canary.discord.com/assets/5297b6252ddf06e0.svg",
         "etag": "W/\"21bc8accea0c4f7737b4e621778d4482\""
     },
     {
         "url": "https://canary.discord.com/assets/2b956f3414fcf17b.svg",
         "etag": "W/\"e0bb10124eba68a2f07886b86403b6fe\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/9f40a4e483656d8e.wasm",
-        "etag": "W/\"71fb6e5b0be94f0a5226de131d22be3c\""
     },
     {
         "url": "https://canary.discord.com/assets/ae74d3de4958bf78.png",
@@ -12530,10 +12434,6 @@
     {
         "url": "https://canary.discord.com/assets/d4019ef8ee067b45.svg",
         "etag": "W/\"3cd3cc8a4bf73ab84643240493ef345e\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/c74b8f4de42fb2da.scm",
-        "etag": "\"5746046872d0147da1be2a9ea8736974\""
     },
     {
         "url": "https://canary.discord.com/assets/9bdea48256daba53.svg",
@@ -12574,6 +12474,10 @@
     {
         "url": "https://canary.discord.com/assets/339a006319d83b7f.svg",
         "etag": "W/\"85ea65fa7910b449da793663ad09a695\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/93e9ab38b759fa94.scm",
+        "etag": "\"01ea143876ae4f1456211fa903b8f361\""
     },
     {
         "url": "https://canary.discord.com/assets/2996d7155a5b6cea.svg",
@@ -12660,10 +12564,6 @@
         "etag": "\"df3228db1e67e406cba743551d2b055e\""
     },
     {
-        "url": "https://canary.discord.com/assets/ba3ff33752bdeb90.scm",
-        "etag": "\"14994f7349f7af8e4ca5e9ab6094adaf\""
-    },
-    {
         "url": "https://canary.discord.com/assets/12564cd19cb78ce9.svg",
         "etag": "W/\"d541826138980a5f4381317c342137f2\""
     },
@@ -12704,12 +12604,12 @@
         "etag": "W/\"0998ac3a974b9becd7a6e733b7bfc608\""
     },
     {
-        "url": "https://canary.discord.com/assets/9fa401196cb2d528.svg",
-        "etag": "W/\"6bdc7fbe1d1895ee1ae6f10d8b7ff014\""
+        "url": "https://canary.discord.com/assets/63f5ace618a1849b.wasm",
+        "etag": "W/\"33f950723ba19fe0d2687b16031f1973\""
     },
     {
-        "url": "https://canary.discord.com/assets/0c9a67f1d13189e9.wasm",
-        "etag": "W/\"97da1aece49e79560b31bcf013e07eae\""
+        "url": "https://canary.discord.com/assets/9fa401196cb2d528.svg",
+        "etag": "W/\"6bdc7fbe1d1895ee1ae6f10d8b7ff014\""
     },
     {
         "url": "https://canary.discord.com/assets/4261355196740dab.mp3",
@@ -12762,10 +12662,6 @@
     {
         "url": "https://canary.discord.com/assets/992ff02397893732.svg",
         "etag": "W/\"f35938865ef20adb89f8351eaee128f6\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/b5d39ce99749cca1.scm",
-        "etag": "\"98ac90d10224781c35c278587478c6c7\""
     },
     {
         "url": "https://canary.discord.com/assets/a6d75398f7b37bd0.svg",
@@ -12834,6 +12730,10 @@
     {
         "url": "https://canary.discord.com/assets/6b460c98179534b7.svg",
         "etag": "W/\"c7c25b7c8f5ba0422921e078d9338ea2\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/4ba2f997145549c8.scm",
+        "etag": "\"054ac757bcea4bb4066a1f7cb0fdf603\""
     },
     {
         "url": "https://canary.discord.com/assets/30edc3f4941924bb.svg",
@@ -12908,8 +12808,8 @@
         "etag": "W/\"49c4729bd700e4ca9c119451ecb54b6c\""
     },
     {
-        "url": "https://canary.discord.com/assets/ab244c7915a4882a.scm",
-        "etag": "\"6e8bb235a9acbe18a24fc1ef0df91638\""
+        "url": "https://canary.discord.com/assets/1d57cb39bf3f26f1.scm",
+        "etag": "\"d0623cdf3ab68f884258c16203696930\""
     },
     {
         "url": "https://canary.discord.com/assets/0bf43112d718c599.svg",
@@ -12922,10 +12822,6 @@
     {
         "url": "https://canary.discord.com/assets/e5bddb2a9171637d.svg",
         "etag": "W/\"567230faa19ec889fad5613630597049\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/4ea891f9226208e1.wasm",
-        "etag": "W/\"4bcc14799c0d3bfe80153fdc279166b1\""
     },
     {
         "url": "https://canary.discord.com/assets/8a98d40877bb9b56.svg",
@@ -12988,20 +12884,12 @@
         "etag": "\"43a01bb0fa7bd2e9d7fb4172be185309\""
     },
     {
-        "url": "https://canary.discord.com/assets/06e27614a1e70bce.wasm",
-        "etag": "W/\"cba7ffd57868489691ff1b2891d0dc5f\""
-    },
-    {
         "url": "https://canary.discord.com/assets/c3df1c781cb672de.svg",
         "etag": "W/\"fae946cef8df100ee735e694ab58d19e\""
     },
     {
         "url": "https://canary.discord.com/assets/03ec7beae41b1f59.svg",
         "etag": "W/\"bfd9b9dfa58a53fca7de8242b2e4d3d7\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/6a47e50cddd6b30f.scm",
-        "etag": "\"87bb2d1b7c31508f26b9916a12058d0d\""
     },
     {
         "url": "https://canary.discord.com/assets/8cab83716b4a2531.svg",
@@ -13084,10 +12972,6 @@
         "etag": "W/\"21d94abcaf7e2f614bb2264aa14f01e4\""
     },
     {
-        "url": "https://canary.discord.com/assets/7035bb3a0c2b8d54.wasm",
-        "etag": "W/\"a04eb8d435fed3e8b02d734f0d698e71\""
-    },
-    {
         "url": "https://canary.discord.com/assets/6dc68483a3a47c8a.svg",
         "etag": "W/\"c7187bc733565edcc179626010040af7\""
     },
@@ -13122,14 +13006,6 @@
     {
         "url": "https://canary.discord.com/assets/bbf059a1609827de.svg",
         "etag": "W/\"19700558aa106149d34d7056932d0e29\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/6bb16753a126b209.wasm",
-        "etag": "W/\"b46ee3b5e003e53bfd0624a27fcee3b7\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/b4673c9c89418881.scm",
-        "etag": "\"797f044269023d59b6eca60ab37c6266\""
     },
     {
         "url": "https://canary.discord.com/assets/cf0969a3bbbae37d.lottie",
@@ -13214,6 +13090,10 @@
     {
         "url": "https://canary.discord.com/assets/4b991cdaa5e407a4.svg",
         "etag": "W/\"ca339caee3a5018d531f70039a8e47ab\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/1d975cf88cd6d438.scm",
+        "etag": "\"e7ab6c577af2d0c9f176495497f28195\""
     },
     {
         "url": "https://canary.discord.com/assets/0690e1748a736880.lottie",
@@ -13348,10 +13228,6 @@
         "etag": "W/\"09612863c6c52ec54862dedbcbfd00db\""
     },
     {
-        "url": "https://canary.discord.com/assets/0490603e9d0d01cd.scm",
-        "etag": "\"efc8359161440538c6b0c453abc45142\""
-    },
-    {
         "url": "https://canary.discord.com/assets/6b85904c052ce6c7.svg",
         "etag": "W/\"ba5be176ff3630e7bd154623ebac6522\""
     },
@@ -13400,6 +13276,10 @@
         "etag": "W/\"acac0429f723f2ac52d03b7b00de7a50\""
     },
     {
+        "url": "https://canary.discord.com/assets/ed86889d600477cb.wasm",
+        "etag": "W/\"0113aed1231bc21bbf1a5d6c82b64d5a\""
+    },
+    {
         "url": "https://canary.discord.com/assets/719855bfb2e98b7b.svg",
         "etag": "W/\"78ee9dac01fd40a3d1a22b5ee20c0710\""
     },
@@ -13436,10 +13316,6 @@
         "etag": "W/\"46436dabe2908b75088f509c3f91b03c\""
     },
     {
-        "url": "https://canary.discord.com/assets/3d87e0acfdf050a9.scm",
-        "etag": "\"16408131da2f9a1228df0fdd3740f7a8\""
-    },
-    {
         "url": "https://canary.discord.com/assets/f364f11357746c87.svg",
         "etag": "W/\"f467d08bfa67807c2b3dc6e0d1495fe1\""
     },
@@ -13462,10 +13338,6 @@
     {
         "url": "https://canary.discord.com/assets/e5fec5f0db63eb8f.svg",
         "etag": "W/\"92a2ca0b8a4ec9474a0b1e1a953262a9\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/49df8c4579e595cf.scm",
-        "etag": "\"1db88a293c4638c24fd17f33ba743516\""
     },
     {
         "url": "https://canary.discord.com/assets/8dc288af49722a51.svg",
@@ -13494,6 +13366,10 @@
     {
         "url": "https://canary.discord.com/assets/bb4191fb5a5a8553.svg",
         "etag": "W/\"aa2e827a8b3c78ded1a842fa19f89326\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/40e543a27ba17f75.wasm",
+        "etag": "W/\"4b17fff5d8f7a744002f93267d6b9361\""
     },
     {
         "url": "https://canary.discord.com/assets/784df8d69787cd90.svg",
@@ -13556,16 +13432,16 @@
         "etag": "W/\"1025d4b9d4660b5e4e243bf0faa5620c\""
     },
     {
-        "url": "https://canary.discord.com/assets/904fd0ea84eebf55.wasm",
-        "etag": "W/\"17a03c3ccccc6e09b36705bb997975e5\""
-    },
-    {
         "url": "https://canary.discord.com/assets/ec126d1a278576a4.svg",
         "etag": "W/\"b8b2df1bc4d274b5c1dfb4cee08d65c7\""
     },
     {
         "url": "https://canary.discord.com/assets/d5d80459b37f5188.svg",
         "etag": "W/\"b4c362308f7e586b97c5155337ad2ea5\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/a7fe368b1af4bff9.scm",
+        "etag": "\"6760626a22e9d783365eff969b60d0b8\""
     },
     {
         "url": "https://canary.discord.com/assets/24ada8036a5bd2e3.svg",
@@ -13588,8 +13464,8 @@
         "etag": "W/\"8643fdde81d97361abf9f07a83ba9715\""
     },
     {
-        "url": "https://canary.discord.com/assets/a7fe368b1af4bff9.scm",
-        "etag": "\"6760626a22e9d783365eff969b60d0b8\""
+        "url": "https://canary.discord.com/assets/a95d1640af0ddcec.wasm",
+        "etag": "W/\"fd6f9df7fb4f630fb98ec00e50c8761a\""
     },
     {
         "url": "https://canary.discord.com/assets/7206e4d78cd171a0.svg",
@@ -13608,6 +13484,10 @@
         "etag": "W/\"645df33d735507f39c78ce0cac7437f0\""
     },
     {
+        "url": "https://canary.discord.com/assets/25c677b3c2f23d03.scm",
+        "etag": "\"13292f1d5e8e6c7155a4dc66585005f1\""
+    },
+    {
         "url": "https://canary.discord.com/assets/86f7504de835d20e.svg",
         "etag": "W/\"8d3134ef31d10935beb0141f9918c41f\""
     },
@@ -13624,8 +13504,8 @@
         "etag": "W/\"7dec34a9deb5ed78911fdee5b06f0df3\""
     },
     {
-        "url": "https://canary.discord.com/assets/d617404a9721adaa.wasm",
-        "etag": "W/\"824fc4091a6b7b194937ec1a4aa27d77\""
+        "url": "https://canary.discord.com/assets/3da6afe347130d3e.scm",
+        "etag": "\"c9ce6dec313d8eac867599dfc7b56fd1\""
     },
     {
         "url": "https://canary.discord.com/assets/099cd81cf3b4cc98.svg",
@@ -13666,6 +13546,10 @@
     {
         "url": "https://canary.discord.com/assets/d5cbbbeef04f0c64.svg",
         "etag": "W/\"5a1a231bd56982c69c29ccc058d4b627\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/ceb6f797636a2e63.scm",
+        "etag": "\"2a8fbef98f04ed76aebc047821226d17\""
     },
     {
         "url": "https://canary.discord.com/assets/2ffcb786ed649bf4.svg",
@@ -13732,6 +13616,10 @@
         "etag": "W/\"e130325f5506a5031c8d5a2b9924977f\""
     },
     {
+        "url": "https://canary.discord.com/assets/0490603e9d0d01cd.scm",
+        "etag": "\"efc8359161440538c6b0c453abc45142\""
+    },
+    {
         "url": "https://canary.discord.com/assets/f0122472d698eec1.svg",
         "etag": "W/\"0ea19f09eaae8075f4cfa0771796c819\""
     },
@@ -13742,10 +13630,6 @@
     {
         "url": "https://canary.discord.com/assets/d3d81276d0376c4a.svg",
         "etag": "W/\"1d33c9a8fc7131c4d64796f046ec5a31\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/e78f39b14c762f4e.wasm",
-        "etag": "W/\"fc7715fbc7b3ab148f41f9e64ccdaba8\""
     },
     {
         "url": "https://canary.discord.com/assets/52a01b0238a10b8a.svg",
@@ -13880,6 +13764,10 @@
         "etag": "W/\"0fa69ee0fa238cfbcf010550e5ed0b9f\""
     },
     {
+        "url": "https://canary.discord.com/assets/0b59c2275238d17c.scm",
+        "etag": "\"952a10d2c38e389621761d89c80738c4\""
+    },
+    {
         "url": "https://canary.discord.com/assets/079b2330ebff7fe5.svg",
         "etag": "W/\"e3ac8efbcee5e39759424b9a71205082\""
     },
@@ -13940,12 +13828,16 @@
         "etag": "W/\"1a2f71d7e6eabca6b8c1cb62f3acbad4\""
     },
     {
-        "url": "https://canary.discord.com/assets/e3d7d085f023429c.wasm",
-        "etag": "W/\"71322212a2eb5f1dea405602b3e2fa95\""
+        "url": "https://canary.discord.com/assets/08c1e3004d980a55.wasm",
+        "etag": "W/\"882ba10d9ec0bf259b778e73f2277143\""
     },
     {
         "url": "https://canary.discord.com/assets/9b8609096983ca11.svg",
         "etag": "W/\"805f3106b7ca4c1fe8ba76543124b017\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/b5d39ce99749cca1.scm",
+        "etag": "\"98ac90d10224781c35c278587478c6c7\""
     },
     {
         "url": "https://canary.discord.com/assets/34e25047e9c6c701.svg",
@@ -13968,6 +13860,10 @@
         "etag": "W/\"c3b6bfe6efe3d61d1e9198fe347ca06c\""
     },
     {
+        "url": "https://canary.discord.com/assets/4a85db0adc3763c8.wasm",
+        "etag": "W/\"07e3476dca3000ba032382bcc8769181\""
+    },
+    {
         "url": "https://canary.discord.com/assets/2aaac82eb4c38b4f.svg",
         "etag": "W/\"6ea8666882589830dd40b86f950081bf\""
     },
@@ -13978,6 +13874,10 @@
     {
         "url": "https://canary.discord.com/assets/ed9261f37111ae0d.svg",
         "etag": "W/\"ef8b3f983e1fd97efb395ceafa78d714\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/0e68dac0c0691a0c.scm",
+        "etag": "\"c952c7efd183b77ffc81053fc988e6d7\""
     },
     {
         "url": "https://canary.discord.com/assets/9c2282bf315746a4.svg",
@@ -13998,6 +13898,10 @@
     {
         "url": "https://canary.discord.com/assets/257ec15cc9b253f4.svg",
         "etag": "W/\"4d9908dec47fccd0dee025bd4b1f3ca8\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/72a6ca901c9c4591.wasm",
+        "etag": "W/\"edfb68b290e8281ff3f8c6eda3c08115\""
     },
     {
         "url": "https://canary.discord.com/assets/9a517b7adde4ca54.svg",
@@ -14024,8 +13928,16 @@
         "etag": "W/\"054ec4de28473a5bcfdf1e7dc20a6711\""
     },
     {
+        "url": "https://canary.discord.com/assets/108f8fe5b2d7ba7b.wasm",
+        "etag": "W/\"6cfda5c081c11e3bcd0cd35cab4b9057\""
+    },
+    {
         "url": "https://canary.discord.com/assets/8f364cf7b294c573.svg",
         "etag": "W/\"547b9b60d8dfc97568666a168793dc73\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/e394548d74912d61.scm",
+        "etag": "\"5f9c1b0927055b9f69c43dcd3db42b68\""
     },
     {
         "url": "https://canary.discord.com/assets/33d6b2d582446035.svg",
@@ -14034,6 +13946,10 @@
     {
         "url": "https://canary.discord.com/assets/a5c5a3ea7781761a.svg",
         "etag": "W/\"898dee1d7461139f2cac3259def418ab\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/2666b65494736dbc.scm",
+        "etag": "\"9f514199990c458b652bbcbabb959574\""
     },
     {
         "url": "https://canary.discord.com/assets/e933c74869ad2e0d.wasm",
@@ -14058,6 +13974,10 @@
     {
         "url": "https://canary.discord.com/assets/3241045be18f43f0.svg",
         "etag": "W/\"3af67fd06e7c5cf136c22654eaa51962\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/ffc648b27cbf1caf.scm",
+        "etag": "\"20f3a68b538edd4589449761c621757c\""
     },
     {
         "url": "https://canary.discord.com/assets/d5e69d2c2aac0a27.mp3",
@@ -14112,6 +14032,10 @@
         "etag": "W/\"dea442643ec94fc96dbe8b1a9d5ec172\""
     },
     {
+        "url": "https://canary.discord.com/assets/4f098f595413c750.scm",
+        "etag": "\"782d4aa25b808983916ec1e4bd4974ab\""
+    },
+    {
         "url": "https://canary.discord.com/assets/f8551ca1f5a2a64d.svg",
         "etag": "W/\"8a65b03dadf4f5142be5e0c6cef5356a\""
     },
@@ -14130,6 +14054,10 @@
     {
         "url": "https://canary.discord.com/assets/10571e70deaef159.svg",
         "etag": "W/\"29f253f2116a4ba58987ec4768634dbc\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/4ea891f9226208e1.wasm",
+        "etag": "W/\"4bcc14799c0d3bfe80153fdc279166b1\""
     },
     {
         "url": "https://canary.discord.com/assets/470e0f476fc81cf1.svg",
@@ -14216,6 +14144,10 @@
         "etag": "W/\"a286d7a1a5c1f92786bdd48244b50add\""
     },
     {
+        "url": "https://canary.discord.com/assets/f11ea8e873f2ad7a.scm",
+        "etag": "\"e3f8cec734f268994f7d2e52021f67a1\""
+    },
+    {
         "url": "https://canary.discord.com/assets/073004ca57f4523c.svg",
         "etag": "W/\"576142ba81a59e5fad77d2529316c56e\""
     },
@@ -14260,6 +14192,10 @@
         "etag": "W/\"0e7fc4b6265bd336e8fe4dca75417ee7\""
     },
     {
+        "url": "https://canary.discord.com/assets/378d2e61a0746a96.scm",
+        "etag": "\"42c94527997ad803f8474d89430221c1\""
+    },
+    {
         "url": "https://canary.discord.com/assets/3a3d693939d84fea.svg",
         "etag": "W/\"8ad04dbb11c573c22adf06a81995dbcd\""
     },
@@ -14278,10 +14214,6 @@
     {
         "url": "https://canary.discord.com/assets/e938d726e46d946a.png",
         "etag": "\"665fb7ab43f458f1e2e4d5c788dac4b4\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/1d57cb39bf3f26f1.scm",
-        "etag": "\"d0623cdf3ab68f884258c16203696930\""
     },
     {
         "url": "https://canary.discord.com/assets/d78cf8129bd3893e.svg",
@@ -14320,16 +14252,12 @@
         "etag": "W/\"d0657b7d9a16d462de04fa4369f92690\""
     },
     {
-        "url": "https://canary.discord.com/assets/da7d7d6c7def34f0.wasm",
-        "etag": "W/\"63f597a58ab11b853d3ff99a9a451a60\""
-    },
-    {
         "url": "https://canary.discord.com/assets/a10da7aad261ac72.svg",
         "etag": "W/\"2d1f96f2bb72af799af9833af1877b8f\""
     },
     {
-        "url": "https://canary.discord.com/assets/7aaa4791a7108ef1.scm",
-        "etag": "\"b263f8592d70955bca68e9eda34fa44a\""
+        "url": "https://canary.discord.com/assets/764b4de9bc9cc7c4.wasm",
+        "etag": "W/\"cfaec9cda337485304f08fed32c282a3\""
     },
     {
         "url": "https://canary.discord.com/assets/078fa1c3f2b417f6.svg",
@@ -14364,10 +14292,6 @@
         "etag": "W/\"17192d3fe939ecf404e8cdd64b340469\""
     },
     {
-        "url": "https://canary.discord.com/assets/e9591638fc2a87af.scm",
-        "etag": "\"ed1872fb901f591e534bce795f5a7d73\""
-    },
-    {
         "url": "https://canary.discord.com/assets/9fef6f57ac5cfc8a.svg",
         "etag": "W/\"e048d897c44345a409d66888bf61f72d\""
     },
@@ -14378,14 +14302,6 @@
     {
         "url": "https://canary.discord.com/assets/8c01b18c49b9a764.svg",
         "etag": "W/\"3d663bbe9d97bc976c24ec4d125fe2b3\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/31a797c4177b7453.scm",
-        "etag": "\"4b2df29fb0ff04112fb94c4064c2e8da\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/dc589b1488adf4e7.svg",
-        "etag": "W/\"52c9931988653698edae9baec7b4d9f0\""
     },
     {
         "url": "https://canary.discord.com/assets/f8ea8accd1675f7c.svg",
@@ -14400,6 +14316,10 @@
         "etag": "W/\"579bfc60bdd93580f90ccebe4dc03bbf\""
     },
     {
+        "url": "https://canary.discord.com/assets/d1978ec42eed74f6.scm",
+        "etag": "\"7103f5e3c8b10e58f3a321bd8571f264\""
+    },
+    {
         "url": "https://canary.discord.com/assets/0b0fa2eef6c48cc7.svg",
         "etag": "W/\"7c34233236b5365782a8b697d05144c3\""
     },
@@ -14408,8 +14328,8 @@
         "etag": "W/\"e6bf45e664dc5e37cf7414ecba378138\""
     },
     {
-        "url": "https://canary.discord.com/assets/ca7b1a42047fd4a7.scm",
-        "etag": "\"490c0fa50ad1c62ee10c4934ddca57f3\""
+        "url": "https://canary.discord.com/assets/de82efe956afcfd0.scm",
+        "etag": "\"f551d637c4fba00eead5b703e83ca51d\""
     },
     {
         "url": "https://canary.discord.com/assets/6c906a1acd4928b7.svg",
@@ -14468,8 +14388,8 @@
         "etag": "W/\"5d2ee680b892bd185c41f0a846c316d8\""
     },
     {
-        "url": "https://canary.discord.com/assets/1a395c1d440d9bb5.scm",
-        "etag": "\"7e0a14b5fe7c128dd20aa3b3548704d0\""
+        "url": "https://canary.discord.com/assets/4edda157d72b3808.scm",
+        "etag": "\"cf0bc9754091bf51106129c68eea330c\""
     },
     {
         "url": "https://canary.discord.com/assets/15947e7d889325d9.svg",
@@ -14520,10 +14440,6 @@
         "etag": "W/\"531adcd0cd883e35973652e748bd68c4\""
     },
     {
-        "url": "https://canary.discord.com/assets/378d2e61a0746a96.scm",
-        "etag": "\"42c94527997ad803f8474d89430221c1\""
-    },
-    {
         "url": "https://canary.discord.com/assets/26c61c1ac309c2bc.svg",
         "etag": "W/\"be71475205180432aaa6a89bd8ee306c\""
     },
@@ -14534,6 +14450,10 @@
     {
         "url": "https://canary.discord.com/assets/7401aa22d4169631.svg",
         "etag": "W/\"0634b5f01a88a0121bed072779e81bd6\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/c6e91b47ab586842.scm",
+        "etag": "\"250447ad4331e00abf2b5f533d41a891\""
     },
     {
         "url": "https://canary.discord.com/assets/8189f8341d6f2794.svg",
@@ -14560,10 +14480,6 @@
         "etag": "W/\"57c12e6d051f42c27babaf0b431395ab\""
     },
     {
-        "url": "https://canary.discord.com/assets/20d59b30c0bcd07b.scm",
-        "etag": "\"4271e55fb410a70a2ab427dfe4bd41e6\""
-    },
-    {
         "url": "https://canary.discord.com/assets/dccad8cf97557b16.svg",
         "etag": "W/\"572d02aaf3b8ec9697b8a9c649dc2205\""
     },
@@ -14586,10 +14502,6 @@
     {
         "url": "https://canary.discord.com/assets/de08746dade55ba6.svg",
         "etag": "W/\"39c113ca451fa1a8f6f8626b2a246c8b\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/fd49a79b78478dc4.wasm",
-        "etag": "W/\"a8c071177cc2b4537fc8fe331d0baab5\""
     },
     {
         "url": "https://canary.discord.com/assets/003b20501e13a062.svg",
@@ -14632,20 +14544,12 @@
         "etag": "W/\"1904291ab1aa5d14b2adaaff23a578dd\""
     },
     {
-        "url": "https://canary.discord.com/assets/6edd364cd748a297.scm",
-        "etag": "\"d988b994bfd2dbbf3cd300d38513d5c1\""
-    },
-    {
         "url": "https://canary.discord.com/assets/1f784818c26ef863.svg",
         "etag": "W/\"bd766f88fab518680708df9935b50e85\""
     },
     {
         "url": "https://canary.discord.com/assets/aaab62ccb3ea075e.svg",
         "etag": "W/\"f7b28657f23a942ed82d45ed23094d63\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/f81d26c65b6725c8.scm",
-        "etag": "\"f46c5530da8f22f0d695c9a2a5ce1b6f\""
     },
     {
         "url": "https://canary.discord.com/assets/8cbedd712a92bddf.svg",
@@ -14688,10 +14592,6 @@
         "etag": "W/\"e12380ed13d4f1c0633d0166042bbea1\""
     },
     {
-        "url": "https://canary.discord.com/assets/be32378ca5aa9001.wasm",
-        "etag": "W/\"0138eab08db5ca4a8968c0db9fcf3102\""
-    },
-    {
         "url": "https://canary.discord.com/assets/7bc07248904adb0b.svg",
         "etag": "W/\"13a0dd7c7af7524a16a5206fae7c1839\""
     },
@@ -14728,12 +14628,12 @@
         "etag": "W/\"fd0dd759c1ed1e0a044fa6882e95fd02\""
     },
     {
-        "url": "https://canary.discord.com/assets/047fd0573d7d4cef.svg",
-        "etag": "W/\"ff63bac8b064e04d31a32eeae8ccd7dc\""
+        "url": "https://canary.discord.com/assets/8233178e2772b0b2.wasm",
+        "etag": "W/\"21dadfef604d8bfb7e7d454b4a427c52\""
     },
     {
-        "url": "https://canary.discord.com/assets/395bc20ec051f76a.wasm",
-        "etag": "W/\"750c45661b4cc706385a1a4a254b6067\""
+        "url": "https://canary.discord.com/assets/047fd0573d7d4cef.svg",
+        "etag": "W/\"ff63bac8b064e04d31a32eeae8ccd7dc\""
     },
     {
         "url": "https://canary.discord.com/assets/59207d38dd4f83bc.svg",
@@ -14750,6 +14650,10 @@
     {
         "url": "https://canary.discord.com/assets/f5c8ec31889c5317.mp3",
         "etag": "\"8b63833c8d252fedba6b9c4f2517c705\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/d6b89e5231d97f5a.wasm",
+        "etag": "W/\"67e12b27278ba8da3694c3b5733543b1\""
     },
     {
         "url": "https://canary.discord.com/assets/b839043090064a1b.svg",
@@ -14804,6 +14708,10 @@
         "etag": "W/\"ee7ab3e4108affca02838adc522ae314\""
     },
     {
+        "url": "https://canary.discord.com/assets/76f51e4120a63fe4.wasm",
+        "etag": "W/\"3c02effc556d6a98d6f8a399d34e3d57\""
+    },
+    {
         "url": "https://canary.discord.com/assets/7f5073cde97e0f7d.svg",
         "etag": "W/\"acd4b1d13abe3afc215d6a8d52835711\""
     },
@@ -14832,8 +14740,8 @@
         "etag": "W/\"4ae5a2db74c037605703cc837078683e\""
     },
     {
-        "url": "https://canary.discord.com/assets/f43f7dedfee334eb.scm",
-        "etag": "\"643d4b539666fe78ca21df6e23b5e98a\""
+        "url": "https://canary.discord.com/assets/0c9a67f1d13189e9.wasm",
+        "etag": "W/\"97da1aece49e79560b31bcf013e07eae\""
     },
     {
         "url": "https://canary.discord.com/assets/504bb5b94fc7ec54.svg",
@@ -14868,8 +14776,8 @@
         "etag": "W/\"d0af777a290a6f80b63aedfd99ee6c3f\""
     },
     {
-        "url": "https://canary.discord.com/assets/db8bd23fc1c2625c.wasm",
-        "etag": "W/\"8b15c124fdeed9cb17f453d0d3658a7b\""
+        "url": "https://canary.discord.com/assets/4bd633ad81400c98.scm",
+        "etag": "\"e60429c916d3da559709b09cbf1987a4\""
     },
     {
         "url": "https://canary.discord.com/assets/0133fed7d4dc775c.svg",
@@ -14968,6 +14876,10 @@
         "etag": "W/\"465e60222d0d83fd1f6ed99ba2942dc1\""
     },
     {
+        "url": "https://canary.discord.com/assets/982ab3c69af96dda.scm",
+        "etag": "\"8a101b1893c131f40428750b54e96796\""
+    },
+    {
         "url": "https://canary.discord.com/assets/3ded52a8b5bed1a0.svg",
         "etag": "W/\"2208e758eb9340d80189c75ad21563b0\""
     },
@@ -15004,6 +14916,10 @@
         "etag": "W/\"06054e507640fe08208a805a880bd57b\""
     },
     {
+        "url": "https://canary.discord.com/assets/be32378ca5aa9001.wasm",
+        "etag": "W/\"0138eab08db5ca4a8968c0db9fcf3102\""
+    },
+    {
         "url": "https://canary.discord.com/assets/a8546d03debd645f.svg",
         "etag": "W/\"3093c4e6a3ee8ef9d6ee62ffea283603\""
     },
@@ -15020,12 +14936,12 @@
         "etag": "W/\"bcf31add4e99af68aefc1ad8c68bd8f5\""
     },
     {
-        "url": "https://canary.discord.com/assets/11be26819e947a7e.wasm",
-        "etag": "W/\"7a24dc74d0ab747e45bb5274b798c12a\""
-    },
-    {
         "url": "https://canary.discord.com/assets/35f4a0e299d40b24.svg",
         "etag": "W/\"3b3e939ba7ea5b17641973605fb3c367\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/bd9bde68cb2a04f0.scm",
+        "etag": "\"ed6811b1c4f73522925106ebaa9d13c9\""
     },
     {
         "url": "https://canary.discord.com/assets/1a3e5bc356c4308b.svg",
@@ -15038,6 +14954,10 @@
     {
         "url": "https://canary.discord.com/assets/92f799fe0e2b2c6e.svg",
         "etag": "W/\"fb85748cbf6237665a63d0be4a86e87f\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/14ec376fdb114a1a.scm",
+        "etag": "\"d2af8aca9ecedd9407c9eef19b239492\""
     },
     {
         "url": "https://canary.discord.com/assets/7d9fdcf720530f49.mp3",
@@ -15064,20 +14984,12 @@
         "etag": "W/\"4cba08d51c9b544526914a81674d4670\""
     },
     {
-        "url": "https://canary.discord.com/assets/89689369445eca3b.scm",
-        "etag": "\"39d5d965e6abdd3c97099514b3fedd3e\""
-    },
-    {
         "url": "https://canary.discord.com/assets/cded93b2aefe13c6.svg",
         "etag": "W/\"cba3943cf437ace539cf137343c080d6\""
     },
     {
         "url": "https://canary.discord.com/assets/02d426f812319d08.svg",
         "etag": "W/\"fc69f60455ab04068f88cebea3bc235f\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/4a85db0adc3763c8.wasm",
-        "etag": "W/\"07e3476dca3000ba032382bcc8769181\""
     },
     {
         "url": "https://canary.discord.com/assets/e90728250951f902.svg",
@@ -15096,6 +15008,10 @@
         "etag": "W/\"dbb5e0a5ac7fcd8f801730e2e3498977\""
     },
     {
+        "url": "https://canary.discord.com/assets/6e18f7a201cbaf97.scm",
+        "etag": "\"19297282def59034076d0e0c2c3ec456\""
+    },
+    {
         "url": "https://canary.discord.com/assets/cb9e3e91bc851510.svg",
         "etag": "W/\"015c49a74a101354b978606d56ae8d4f\""
     },
@@ -15104,8 +15020,8 @@
         "etag": "W/\"c6ce0010471b65c0faeda6c53ab297bd\""
     },
     {
-        "url": "https://canary.discord.com/assets/764b4de9bc9cc7c4.wasm",
-        "etag": "W/\"cfaec9cda337485304f08fed32c282a3\""
+        "url": "https://canary.discord.com/assets/0af059d1dd61fef3.scm",
+        "etag": "\"687fc1153c32265048aa5c483efb959b\""
     },
     {
         "url": "https://canary.discord.com/assets/fdb63e24e6de4388.svg",
@@ -15148,6 +15064,14 @@
         "etag": "W/\"b820b6002cb6ff7c3c2fb123d72c7866\""
     },
     {
+        "url": "https://canary.discord.com/assets/77cca439b48681fd.scm",
+        "etag": "\"b2df5d07a1d0e73acd98c190630dcf6e\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/ffc798ce19d71d0a.scm",
+        "etag": "\"c49422f56388a4d715e9225b36c2c480\""
+    },
+    {
         "url": "https://canary.discord.com/assets/84bd918703790d55.svg",
         "etag": "W/\"b3875912b2c72107671c851e72c9fb13\""
     },
@@ -15156,8 +15080,8 @@
         "etag": "W/\"9b3d0c9513525e7fb3298ad7a4157b8c\""
     },
     {
-        "url": "https://canary.discord.com/assets/e8e8836f09ead3b7.wasm",
-        "etag": "W/\"6d857e1d20557c7e52b17ef9d918cec7\""
+        "url": "https://canary.discord.com/assets/57fb6c3a61cd37dd.wasm",
+        "etag": "W/\"7b3905ffb0546996916bb2729b12ca72\""
     },
     {
         "url": "https://canary.discord.com/assets/13beccb1b0582363.svg",
@@ -15198,6 +15122,10 @@
     {
         "url": "https://canary.discord.com/assets/02f3757fb5f17809.svg",
         "etag": "W/\"020efad3516a39bc3c1c2895d409bae0\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/cbaed2f8abecb5b8.scm",
+        "etag": "\"47e8d556bd9cd0b5b8029fed85630e7f\""
     },
     {
         "url": "https://canary.discord.com/assets/4f0abdae5bc9947f.svg",
@@ -15260,16 +15188,12 @@
         "etag": "W/\"8412469510e8a64554aa7a66b2a6e504\""
     },
     {
+        "url": "https://canary.discord.com/assets/2d3b24aac48706d0.scm",
+        "etag": "\"837f714051b1d58a3cd2d29d2b0d181d\""
+    },
+    {
         "url": "https://canary.discord.com/assets/be6425e949550a54.svg",
         "etag": "W/\"59fb4cc978d2e9304a7a4c731ff5cfcc\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/9fa7b99795cad999.scm",
-        "etag": "\"248db8a9d9ae9900777769ae29473757\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/be3f7e92e07ca1fd.scm",
-        "etag": "\"1d08293972b7d7ac995e6d64a9a90e6c\""
     },
     {
         "url": "https://canary.discord.com/assets/dc49aa27916bdaf8.svg",
@@ -15286,10 +15210,6 @@
     {
         "url": "https://canary.discord.com/assets/744deec4104c34a5.svg",
         "etag": "W/\"cb91d362742dcc886e4a4c3f981f3365\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/ffc648b27cbf1caf.scm",
-        "etag": "\"20f3a68b538edd4589449761c621757c\""
     },
     {
         "url": "https://canary.discord.com/assets/592ab3a658675019.svg",
@@ -15324,6 +15244,10 @@
         "etag": "W/\"08cf46d4be10cd96a7f69a8b372d1425\""
     },
     {
+        "url": "https://canary.discord.com/assets/11be26819e947a7e.wasm",
+        "etag": "W/\"7a24dc74d0ab747e45bb5274b798c12a\""
+    },
+    {
         "url": "https://canary.discord.com/assets/15ceafd31db70eef.svg",
         "etag": "W/\"c7f258a5332b1fa52a5dfc5ae05ad76c\""
     },
@@ -15338,6 +15262,10 @@
     {
         "url": "https://canary.discord.com/assets/191a10f3cb4656e3.svg",
         "etag": "W/\"7b3ff12d16d96ca77345da9450986dc7\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/68c3eb950dcf165a.scm",
+        "etag": "\"c6906093e8545224f658067ed5c91a19\""
     },
     {
         "url": "https://canary.discord.com/assets/b4c9143b6d3d5e30.svg",
@@ -15378,6 +15306,10 @@
     {
         "url": "https://canary.discord.com/assets/d8680b1c1576ecc8.svg",
         "etag": "W/\"e05640582e20f17e0f1797160b67dcd4\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/4fe2bf339f9bcf80.wasm",
+        "etag": "W/\"be75163be01954f06b0cf255b23a4d17\""
     },
     {
         "url": "https://canary.discord.com/assets/67369280553c9f0a.svg",
@@ -15444,6 +15376,10 @@
         "etag": "W/\"f13471dbe9cb24fd6685d0ceb54ccff4\""
     },
     {
+        "url": "https://canary.discord.com/assets/f5ddb267044c6931.wasm",
+        "etag": "W/\"0a5da6e83968c775a1f4cc77ef29e4a7\""
+    },
+    {
         "url": "https://canary.discord.com/assets/9a22dbcd0589a709.svg",
         "etag": "W/\"850acd4515b313c418cf1d06bda6d552\""
     },
@@ -15508,16 +15444,16 @@
         "etag": "\"a5f42064e8120e381528b14fd3188b72\""
     },
     {
-        "url": "https://canary.discord.com/assets/30e0c6c9ec034936.scm",
-        "etag": "\"234292104bc7b3f43f3c94cb8fc33a9e\""
-    },
-    {
         "url": "https://canary.discord.com/assets/d36c05add1831e91.svg",
         "etag": "W/\"e1d2ae13fd4dd03d7ae81a48ea4ea424\""
     },
     {
         "url": "https://canary.discord.com/assets/a67140ace6feca67.svg",
         "etag": "W/\"1e3b6d27bfb21f04dc9e00c7bc965c55\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/d838a86863f4f0dd.scm",
+        "etag": "\"1580fb33f050999f5a2511aeb7ed9cdc\""
     },
     {
         "url": "https://canary.discord.com/assets/65e38691f7c05321.png",
@@ -15568,6 +15504,10 @@
         "etag": "W/\"f8e0fddf1beffd3a4c15c309e57143f6\""
     },
     {
+        "url": "https://canary.discord.com/assets/89a7618d9c5a0636.scm",
+        "etag": "\"89d78c267f493182acd9c80db9f38536\""
+    },
+    {
         "url": "https://canary.discord.com/assets/c79b290f23c1f158.svg",
         "etag": "W/\"5d8898dd9356f25901bae20fc8c980d9\""
     },
@@ -15590,10 +15530,6 @@
     {
         "url": "https://canary.discord.com/assets/ee5f981c3c32cc4f.png",
         "etag": "\"a3f3002b04ef160e95cf684a02c6531a\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/e394548d74912d61.scm",
-        "etag": "\"5f9c1b0927055b9f69c43dcd3db42b68\""
     },
     {
         "url": "https://canary.discord.com/assets/9e4ce7cda2d5ef18.svg",
@@ -15664,10 +15600,6 @@
         "etag": "W/\"73133b26661cf0f992d5dde9385605b3\""
     },
     {
-        "url": "https://canary.discord.com/assets/5abb4709a74efb87.scm",
-        "etag": "\"1a669fc7adfa67c2fee3763c15d853db\""
-    },
-    {
         "url": "https://canary.discord.com/assets/4d8782a78bd2afaf.svg",
         "etag": "W/\"5f84d46b37e0b88c473a024ff0347300\""
     },
@@ -15704,10 +15636,6 @@
         "etag": "W/\"4454f0242e959d3b63cc7de9e2597a15\""
     },
     {
-        "url": "https://canary.discord.com/assets/3477e34e77ae4659.scm",
-        "etag": "\"ff9919b0771ad7157ecab01effa69d30\""
-    },
-    {
         "url": "https://canary.discord.com/assets/5c85dcd1c8eeaeb3.svg",
         "etag": "W/\"e5b30015e2486a1f5bad689892d72c6a\""
     },
@@ -15732,12 +15660,20 @@
         "etag": "W/\"8b29c19c33ef185cc5fe9fba05389257\""
     },
     {
+        "url": "https://canary.discord.com/assets/437b321becdb7f7a.wasm",
+        "etag": "W/\"7f89600155ccecc49295a424c66e294c\""
+    },
+    {
         "url": "https://canary.discord.com/assets/53da2619fb64af9c.svg",
         "etag": "W/\"31a53c15df6b4ab7eba039e42b3f0314\""
     },
     {
         "url": "https://canary.discord.com/assets/0141287d78a6894a.svg",
         "etag": "W/\"806ce1822cd982fb5cca464fc728d7cc\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/bf7803ec51ec3253.scm",
+        "etag": "\"67d0dce0b6b44c4733eea2920a06d0fe\""
     },
     {
         "url": "https://canary.discord.com/assets/abe52a3c92953edb.mp3",
@@ -15816,6 +15752,10 @@
         "etag": "W/\"b9cd193b23b2d0d0f878f992ef8a6b26\""
     },
     {
+        "url": "https://canary.discord.com/assets/5b5a0771de70c994.wasm",
+        "etag": "W/\"c3bdf40a61662fdd72a6c7dc4cb20c6c\""
+    },
+    {
         "url": "https://canary.discord.com/assets/453654b9f13ea463.svg",
         "etag": "W/\"4bfb4661aa2746510f9e9ddcc990ccae\""
     },
@@ -15876,8 +15816,8 @@
         "etag": "W/\"29c89cbbf4bf442ddf27fe1bc39b0e83\""
     },
     {
-        "url": "https://canary.discord.com/assets/a8fd53282d0dd6c1.wasm",
-        "etag": "W/\"c59701c511f02f3d7480069f76f33dae\""
+        "url": "https://canary.discord.com/assets/5bac5070b554561d.scm",
+        "etag": "\"ea9d89b7f82f24b45b641cbc4046e78e\""
     },
     {
         "url": "https://canary.discord.com/assets/866cef70036f2f2a.svg",
@@ -15894,6 +15834,10 @@
     {
         "url": "https://canary.discord.com/assets/fc3646af3ee101f7.svg",
         "etag": "W/\"c1a36c711f0ae0ab46c7dce06f63a723\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/bfd02fa6ec3b90f5.scm",
+        "etag": "\"3997e0d8bf7466decec49f6f8f680003\""
     },
     {
         "url": "https://canary.discord.com/assets/9aafd9b6c037ce6f.svg",
@@ -15916,6 +15860,10 @@
         "etag": "W/\"f483d0c3ce87afe27007a9b8fcad4547\""
     },
     {
+        "url": "https://canary.discord.com/assets/8f7666f15b118b59.scm",
+        "etag": "\"030e4d10711585e3919208e7c767a9be\""
+    },
+    {
         "url": "https://canary.discord.com/assets/47377ab0f9909c0b.svg",
         "etag": "W/\"888bf94a4d5db30a4c7f1f92e9ac469d\""
     },
@@ -15926,6 +15874,10 @@
     {
         "url": "https://canary.discord.com/assets/7c4da2661e70c110.svg",
         "etag": "W/\"e89210e40f25ad35aeadbd2c204025e5\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/93e51b74e13d1db3.scm",
+        "etag": "\"35dee2cb0bb15b7a2f3f1a0d09464471\""
     },
     {
         "url": "https://canary.discord.com/assets/7504750907e02c2d.svg",
@@ -15944,6 +15896,10 @@
         "etag": "W/\"d9cec66b0fb892f43d64f620d70c5d21\""
     },
     {
+        "url": "https://canary.discord.com/assets/5862f376888a8350.scm",
+        "etag": "\"7aaf349a22d3e00b4059fac001fda442\""
+    },
+    {
         "url": "https://canary.discord.com/assets/9b1f59a879cc2b9c.mp3",
         "etag": "\"b4264c0ff4bab8b78b02d67454083b50\""
     },
@@ -15954,10 +15910,6 @@
     {
         "url": "https://canary.discord.com/assets/59172bbc744832a5.svg",
         "etag": "W/\"197cdfb70e6835c81cbb1af86ab7e01e\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/c6441c8ee959613a.wasm",
-        "etag": "W/\"c480fc8b4613671ac6c19f8619f0cb1e\""
     },
     {
         "url": "https://canary.discord.com/assets/82860cf32002f53c.svg",
@@ -16032,12 +15984,12 @@
         "etag": "W/\"d842cbb9aa8106059c54eb0cbb5d03ba\""
     },
     {
-        "url": "https://canary.discord.com/assets/4a729f367c729fff.svg",
-        "etag": "W/\"3bcd1e25c2b2121d601b81f41d8c8133\""
+        "url": "https://canary.discord.com/assets/ca7b1a42047fd4a7.scm",
+        "etag": "\"490c0fa50ad1c62ee10c4934ddca57f3\""
     },
     {
-        "url": "https://canary.discord.com/assets/598b355cd5c61ada.wasm",
-        "etag": "W/\"4647b3fa5035d2a7c5cb5e5ae04fce35\""
+        "url": "https://canary.discord.com/assets/4a729f367c729fff.svg",
+        "etag": "W/\"3bcd1e25c2b2121d601b81f41d8c8133\""
     },
     {
         "url": "https://canary.discord.com/assets/2714509af6d39df5.svg",
@@ -16082,6 +16034,10 @@
     {
         "url": "https://canary.discord.com/assets/a5d169821adcd493.svg",
         "etag": "W/\"f70b9bba067a9d6a02d73385aff6449c\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/c5a069d4906465eb.wasm",
+        "etag": "W/\"3095a1d7f9a9a85bab5bb05631ed2f4c\""
     },
     {
         "url": "https://canary.discord.com/assets/52bcd050d517e7ec.svg",
@@ -16208,10 +16164,6 @@
         "etag": "W/\"a371c029978be85615dad4038d42e8e6\""
     },
     {
-        "url": "https://canary.discord.com/assets/2666b65494736dbc.scm",
-        "etag": "\"9f514199990c458b652bbcbabb959574\""
-    },
-    {
         "url": "https://canary.discord.com/assets/6e6818d602adac8a.png",
         "etag": "\"f1ddf309c7c2db629a6deae0590fef7d\""
     },
@@ -16316,6 +16268,10 @@
         "etag": "W/\"f8bae833e841f69bd5d5bd23568f9a09\""
     },
     {
+        "url": "https://canary.discord.com/assets/e78f39b14c762f4e.wasm",
+        "etag": "W/\"fc7715fbc7b3ab148f41f9e64ccdaba8\""
+    },
+    {
         "url": "https://canary.discord.com/assets/547f174af2352cdf.svg",
         "etag": "W/\"5d1624b5fabf365a639f3c1426d0b9da\""
     },
@@ -16344,10 +16300,6 @@
         "etag": "W/\"c991627955c3f8924c5066256e3c7e47\""
     },
     {
-        "url": "https://canary.discord.com/assets/48aa74bea3fcda40.scm",
-        "etag": "\"0eda69edc2bece58aad825e3c01d3267\""
-    },
-    {
         "url": "https://canary.discord.com/assets/350b5a230c2f5aa5.svg",
         "etag": "W/\"ea887e7960cb2d5c876c910bdf55d068\""
     },
@@ -16370,6 +16322,10 @@
     {
         "url": "https://canary.discord.com/assets/53dc2d1cdb8d22f0.svg",
         "etag": "W/\"df0b84caccd7c506a224e12879bd169a\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/7692b169a722ff31.scm",
+        "etag": "\"2ed075d858a8e99be66b8b3e22002604\""
     },
     {
         "url": "https://canary.discord.com/assets/772307b7d902b47b.svg",
@@ -16448,8 +16404,16 @@
         "etag": "W/\"baa3c27e05395ca8012cadcf0b05b774\""
     },
     {
+        "url": "https://canary.discord.com/assets/3d801259b9a61d70.scm",
+        "etag": "\"13b3ae9b028b5daad9fc40bdd350d564\""
+    },
+    {
         "url": "https://canary.discord.com/assets/104101f38efe0c05.svg",
         "etag": "W/\"449d43d80485af99d50d7876f1ec8295\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/0f6cf3430264982a.scm",
+        "etag": "\"303d3d37eb9140a8232b35d2f2668abc\""
     },
     {
         "url": "https://canary.discord.com/assets/24912004d94108ab.svg",
@@ -16500,10 +16464,6 @@
         "etag": "W/\"a114d57f38f4921991a16893f9525421\""
     },
     {
-        "url": "https://canary.discord.com/assets/04576dbdb98ad02f.scm",
-        "etag": "\"54aa7bfde69eb9969f9980cb75f521cf\""
-    },
-    {
         "url": "https://canary.discord.com/assets/a92c14f1723dc083.svg",
         "etag": "W/\"2d9099197cb69de9afb3e9066dbc617e\""
     },
@@ -16522,6 +16482,10 @@
     {
         "url": "https://canary.discord.com/assets/dd0911025fe00b2e.mp3",
         "etag": "\"7e125dc075ec6e5ae796e4c3ab83abb3\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/74fe2c2f5a3c7981.scm",
+        "etag": "\"a4e09999767e2fb0858ccb34617a423b\""
     },
     {
         "url": "https://canary.discord.com/assets/274b48958d142d00.svg",
@@ -16596,10 +16560,6 @@
         "etag": "W/\"c8a34a6a05436624f8c1579871333c72\""
     },
     {
-        "url": "https://canary.discord.com/assets/d5a5dd5a59b729c1.scm",
-        "etag": "\"38d77ab6edba9570fa6f1f103e311fb6\""
-    },
-    {
         "url": "https://canary.discord.com/assets/31a0bf418483943d.svg",
         "etag": "W/\"8c5799448fe6fcf7dc00bb7703b08dcf\""
     },
@@ -16660,6 +16620,10 @@
         "etag": "W/\"cb3b40981cf6d9b96f8187cb59ef0eb3\""
     },
     {
+        "url": "https://canary.discord.com/assets/1bd9a135dae6ed53.scm",
+        "etag": "\"059037e17ab0585fa4b6e274844f8da3\""
+    },
+    {
         "url": "https://canary.discord.com/assets/d3870759d7507cfe.svg",
         "etag": "W/\"b839169ecf4b7b147129f96e369e055a\""
     },
@@ -16692,10 +16656,6 @@
         "etag": "W/\"a679c2721644edc34b150cb8821da8b2\""
     },
     {
-        "url": "https://canary.discord.com/assets/27f2b7e9f1c3c033.scm",
-        "etag": "\"ecd94ab2537912a12086a4d594b75414\""
-    },
-    {
         "url": "https://canary.discord.com/assets/60e47d70943c01ac.svg",
         "etag": "W/\"2267c3f0fe7bb99da85539696c3fec6e\""
     },
@@ -16710,6 +16670,10 @@
     {
         "url": "https://canary.discord.com/assets/dd23f2f04c9d875c.svg",
         "etag": "W/\"04488c3c5879bcd80e920faa8e3fcd1f\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/27f2b7e9f1c3c033.scm",
+        "etag": "\"ecd94ab2537912a12086a4d594b75414\""
     },
     {
         "url": "https://canary.discord.com/assets/e8f204a7b09c5f1d.svg",
@@ -16742,6 +16706,10 @@
     {
         "url": "https://canary.discord.com/assets/3ae4aac929b19d37.svg",
         "etag": "W/\"1560d8478e10e92775645092798e3ce0\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/06e27614a1e70bce.wasm",
+        "etag": "W/\"cba7ffd57868489691ff1b2891d0dc5f\""
     },
     {
         "url": "https://canary.discord.com/assets/a25df787e66f376a.svg",
@@ -16804,12 +16772,12 @@
         "etag": "W/\"5d1ed4f41b1e9a9a7f68686e1449bf61\""
     },
     {
-        "url": "https://canary.discord.com/assets/ff32678d88643c9a.scm",
-        "etag": "\"080aeb35872679afa4f61f42950136eb\""
-    },
-    {
         "url": "https://canary.discord.com/assets/8a01673cc71569ae.svg",
         "etag": "W/\"d9b5c45899c71032c16bb042ea1de7ec\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/d46e056967ea88c7.wasm",
+        "etag": "W/\"49917ee0c39251a6b77d6aa4c7660b4b\""
     },
     {
         "url": "https://canary.discord.com/assets/7fff0841b901c035.svg",
@@ -16864,16 +16832,8 @@
         "etag": "W/\"4c7308bb73721199c0b23c3f230931fc\""
     },
     {
-        "url": "https://canary.discord.com/assets/33e83790d5f96c7c.scm",
-        "etag": "\"bda6eb1966cdb3fdfb6189080ab923f2\""
-    },
-    {
         "url": "https://canary.discord.com/assets/8d90132289f4cf0d.svg",
         "etag": "W/\"2e805b0262e744aff373281b82830bde\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/108f8fe5b2d7ba7b.wasm",
-        "etag": "W/\"6cfda5c081c11e3bcd0cd35cab4b9057\""
     },
     {
         "url": "https://canary.discord.com/assets/3f583ce2a939f9e5.svg",
@@ -16894,10 +16854,6 @@
     {
         "url": "https://canary.discord.com/assets/0d957b2196191e61.svg",
         "etag": "W/\"da92b34fa8f50c1295e125b3e5e1c55c\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/6926cd0c58ac1bf3.scm",
-        "etag": "\"24e7b351dd1385c609f3472e8c42b8bf\""
     },
     {
         "url": "https://canary.discord.com/assets/585effa1b1c0adb6.mp3",
@@ -16932,16 +16888,8 @@
         "etag": "W/\"0b1a767d6aaf6a1974ea44b5db36c021\""
     },
     {
-        "url": "https://canary.discord.com/assets/17d9fb955684e54c.wasm",
-        "etag": "W/\"68490a1ded8a9b27596aef1e9d4b0b36\""
-    },
-    {
         "url": "https://canary.discord.com/assets/283e45688f752eae.svg",
         "etag": "W/\"457e90908912e9aa3c8241a1b399b9f8\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/58c9a8aed17cb1f1.scm",
-        "etag": "\"a79e3dcc0f1afba79ec39f37450afe33\""
     },
     {
         "url": "https://canary.discord.com/assets/6f0d538ed066a1a6.mp3",
@@ -16950,6 +16898,10 @@
     {
         "url": "https://canary.discord.com/assets/aca26c229671c1a3.svg",
         "etag": "W/\"8d8ccdc88a34d7344c66558f99d89d6d\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/71d5da341ff42d98.scm",
+        "etag": "\"e1694af09c603d8ea0711b0a624fe267\""
     },
     {
         "url": "https://canary.discord.com/assets/91bf3f2ef94aa412.svg",
@@ -16970,6 +16922,10 @@
     {
         "url": "https://canary.discord.com/assets/934c3bb9b9762074.svg",
         "etag": "W/\"d85a08e19ad76674c11c2833010c53ad\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/11b24f67a9d6689c.wasm",
+        "etag": "\"ef2a16e9455eac19c9c38107840470cd\""
     },
     {
         "url": "https://canary.discord.com/assets/3ef95a54423cc1ae.svg",
@@ -17012,6 +16968,10 @@
         "etag": "W/\"5f71ab6be9935e2075bc6c4cbde05161\""
     },
     {
+        "url": "https://canary.discord.com/assets/2335f8474959e079.wasm",
+        "etag": "W/\"18fff9ebc946667dd795fc4995f538e6\""
+    },
+    {
         "url": "https://canary.discord.com/assets/278f707840fad8b9.svg",
         "etag": "W/\"d21f8df460c7ae40a61e7fe5e0426512\""
     },
@@ -17022,10 +16982,6 @@
     {
         "url": "https://canary.discord.com/assets/8ad827d7dad91d44.svg",
         "etag": "W/\"2ea1f6bba4448fa4e8d9504fe976095d\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/d6b89e5231d97f5a.wasm",
-        "etag": "W/\"67e12b27278ba8da3694c3b5733543b1\""
     },
     {
         "url": "https://canary.discord.com/assets/b298efa3160a17df.svg",
@@ -17100,6 +17056,10 @@
         "etag": "W/\"24494e7542e5cb86e1821f11bcdad52e\""
     },
     {
+        "url": "https://canary.discord.com/assets/30e0c6c9ec034936.scm",
+        "etag": "\"234292104bc7b3f43f3c94cb8fc33a9e\""
+    },
+    {
         "url": "https://canary.discord.com/assets/0ddb31be760ce2cd.svg",
         "etag": "W/\"f3dd95bf2c4f3a87f4e562760ab8082a\""
     },
@@ -17152,8 +17112,8 @@
         "etag": "W/\"f74bfb2a28c708ed3c3832c720ee5e0e\""
     },
     {
-        "url": "https://canary.discord.com/assets/d46e056967ea88c7.wasm",
-        "etag": "W/\"49917ee0c39251a6b77d6aa4c7660b4b\""
+        "url": "https://canary.discord.com/assets/395bc20ec051f76a.wasm",
+        "etag": "W/\"750c45661b4cc706385a1a4a254b6067\""
     },
     {
         "url": "https://canary.discord.com/assets/4db130ec60ac0303.svg",
@@ -17190,10 +17150,6 @@
     {
         "url": "https://canary.discord.com/assets/783f084abb097497.svg",
         "etag": "W/\"6f35b2fc488e26dc1d56b253d01c7b75\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/ed86889d600477cb.wasm",
-        "etag": "W/\"0113aed1231bc21bbf1a5d6c82b64d5a\""
     },
     {
         "url": "https://canary.discord.com/assets/01733dcecf4daf41.svg",
@@ -17328,10 +17284,6 @@
         "etag": "W/\"b7fbe619e9e01d7dacdf3a80ea2283c9\""
     },
     {
-        "url": "https://canary.discord.com/assets/0b59c2275238d17c.scm",
-        "etag": "\"952a10d2c38e389621761d89c80738c4\""
-    },
-    {
         "url": "https://canary.discord.com/assets/535b1441a4166f9f.svg",
         "etag": "W/\"05c923c314f34767d8fe3407539fafd7\""
     },
@@ -17350,6 +17302,10 @@
     {
         "url": "https://canary.discord.com/assets/6631f65d206722e7.svg",
         "etag": "W/\"97547ca6617ddc8ef3a45d5c8e2de96d\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/7ba428bf85f7b5c6.wasm",
+        "etag": "W/\"714b6fa64600b9877d28a7a2d46058e2\""
     },
     {
         "url": "https://canary.discord.com/assets/6350a9e2256b7cb4.svg",
@@ -17372,12 +17328,20 @@
         "etag": "W/\"d9a6bac016e1c405fe737691c8cc084b\""
     },
     {
+        "url": "https://canary.discord.com/assets/5002d3c2fa5919d9.scm",
+        "etag": "\"23a8d510ecd2655136225293838a4ed1\""
+    },
+    {
         "url": "https://canary.discord.com/assets/b00e3f0a7090b61f.svg",
         "etag": "W/\"a556cb9faf60aa71e24664926e6afcae\""
     },
     {
         "url": "https://canary.discord.com/assets/4b55fcd70469c1d9.svg",
         "etag": "W/\"90355331d422ce8a686dee722ed2f90c\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/b46002b17c746471.scm",
+        "etag": "\"cc45513f96a0d08c929a774ed50543c7\""
     },
     {
         "url": "https://canary.discord.com/assets/ce082efe56182d37.svg",
@@ -17460,10 +17424,6 @@
         "etag": "W/\"a7ce025edb4144559b99c87c29d55312\""
     },
     {
-        "url": "https://canary.discord.com/assets/55072d0bf912d0a2.scm",
-        "etag": "\"72bb74a7592a3f4ac140d5450c417c65\""
-    },
-    {
         "url": "https://canary.discord.com/assets/e6c45ebabdae3967.png",
         "etag": "\"64f37efd5319b9b581557604864f042a\""
     },
@@ -17498,10 +17458,6 @@
     {
         "url": "https://canary.discord.com/assets/707bef4ed1579ef2.svg",
         "etag": "W/\"2bf3289b57c30a2d80d8bb814190f471\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/bf7803ec51ec3253.scm",
-        "etag": "\"67d0dce0b6b44c4733eea2920a06d0fe\""
     },
     {
         "url": "https://canary.discord.com/assets/c8a71a885363c4cf.svg",
@@ -17552,6 +17508,14 @@
         "etag": "W/\"130cad87f3ef6550482c39ad4c67d729\""
     },
     {
+        "url": "https://canary.discord.com/assets/20d59b30c0bcd07b.scm",
+        "etag": "\"4271e55fb410a70a2ab427dfe4bd41e6\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/764d203016a287be.scm",
+        "etag": "\"92c049dd118bfaca498329462f15d014\""
+    },
+    {
         "url": "https://canary.discord.com/assets/b6f152ee96a6f362.svg",
         "etag": "W/\"13a4210298dfc7e57883c733259bda0a\""
     },
@@ -17578,10 +17542,6 @@
     {
         "url": "https://canary.discord.com/assets/dd83b8e8e271e30f.svg",
         "etag": "W/\"21c832e86d9f919dd2dcb24f554f669f\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/1bd9a135dae6ed53.scm",
-        "etag": "\"059037e17ab0585fa4b6e274844f8da3\""
     },
     {
         "url": "https://canary.discord.com/assets/1c713a6cf24a7040.svg",
@@ -17648,6 +17608,10 @@
         "etag": "W/\"4e5c39b2653bdcbb7021443b051094b4\""
     },
     {
+        "url": "https://canary.discord.com/assets/bdb130d897717272.wasm",
+        "etag": "W/\"74829ca896ff236ee1d29aab3480234a\""
+    },
+    {
         "url": "https://canary.discord.com/assets/a9b55a036b0a50cb.svg",
         "etag": "W/\"a4aefde30a114312b44782f724a6842b\""
     },
@@ -17668,16 +17632,16 @@
         "etag": "W/\"02207416446aa886a5381f88f3182059\""
     },
     {
-        "url": "https://canary.discord.com/assets/4bd633ad81400c98.scm",
-        "etag": "\"e60429c916d3da559709b09cbf1987a4\""
-    },
-    {
         "url": "https://canary.discord.com/assets/15fc9bd5e077eaf6.svg",
         "etag": "W/\"42b83fa035b51cc78967d6397b30f112\""
     },
     {
         "url": "https://canary.discord.com/assets/b1bc2e0ff6b95674.svg",
         "etag": "W/\"24fae84cc6ac78c31f1aa9a6ab5043ac\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/a509605565cd4809.wasm",
+        "etag": "W/\"c903331e5a9a315d921f01a2a2c02ab8\""
     },
     {
         "url": "https://canary.discord.com/assets/a4d8e9b0404a2d00.svg",
@@ -17724,10 +17688,6 @@
         "etag": "W/\"9db1206a2ccb12d67bea2d47cc3e0d07\""
     },
     {
-        "url": "https://canary.discord.com/assets/8af7eb58f684abcb.wasm",
-        "etag": "W/\"02d4f85a95fb07f5a4c47ebe3d46dabf\""
-    },
-    {
         "url": "https://canary.discord.com/assets/4403bad88ac7a247.svg",
         "etag": "W/\"bbb481984b99a48678f9284de8860b36\""
     },
@@ -17736,12 +17696,12 @@
         "etag": "W/\"123a3f509aa65a7253b00b5c8642f1ab\""
     },
     {
-        "url": "https://canary.discord.com/assets/a4bc55505fc9536f.scm",
-        "etag": "\"f0c1527e0ff87c18e3fd47429d06dd32\""
-    },
-    {
         "url": "https://canary.discord.com/assets/24f19df3c3a641d3.svg",
         "etag": "W/\"a2c91146f71b1ef6d2cf8d0e76b7016e\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/d59ec0d928765c62.scm",
+        "etag": "\"ec565352c5b6b6c99a733cf9300349b0\""
     },
     {
         "url": "https://canary.discord.com/assets/bb2483a775c3d319.svg",
@@ -17856,6 +17816,10 @@
         "etag": "W/\"5056e757024fbc919e0c8faa96116cf5\""
     },
     {
+        "url": "https://canary.discord.com/assets/9113833583a1967a.scm",
+        "etag": "\"cd26af3c328c58d12ac48748782534ba\""
+    },
+    {
         "url": "https://canary.discord.com/assets/be9878f0382f8dfa.svg",
         "etag": "W/\"f39d880f51c2c1fdc68b43fa8ffe86b2\""
     },
@@ -17936,6 +17900,10 @@
         "etag": "W/\"0cd96fdfb7508de5110a75c63e013ed3\""
     },
     {
+        "url": "https://canary.discord.com/assets/ab244c7915a4882a.scm",
+        "etag": "\"6e8bb235a9acbe18a24fc1ef0df91638\""
+    },
+    {
         "url": "https://canary.discord.com/assets/189422196a4f8b53.woff2",
         "etag": "\"ff5eccde83f118cea0224ebbb9dc3179\""
     },
@@ -17956,6 +17924,10 @@
         "etag": "W/\"ff1a0335ce80419b159d6ce93ace23b4\""
     },
     {
+        "url": "https://canary.discord.com/assets/91d438d370df2fb9.scm",
+        "etag": "\"c5439f15284c0f0e7957c6fa2935bcc1\""
+    },
+    {
         "url": "https://canary.discord.com/assets/5a55201d3325459d.svg",
         "etag": "W/\"f21c159ba9b0ea3952c61b6b7922a812\""
     },
@@ -17966,6 +17938,10 @@
     {
         "url": "https://canary.discord.com/assets/74a521009f919e4d.svg",
         "etag": "W/\"6e014f8c0b0641b4aa08366c1ee33e7f\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/e79699056cd1115f.scm",
+        "etag": "\"d8c200f3011cd16ced719c0f2f03d4bd\""
     },
     {
         "url": "https://canary.discord.com/assets/1ecee536e6d9b83b.svg",
@@ -18016,12 +17992,16 @@
         "etag": "W/\"4d1301ea90bf99fb9318a9b8438ff628\""
     },
     {
-        "url": "https://canary.discord.com/assets/7692b169a722ff31.scm",
-        "etag": "\"2ed075d858a8e99be66b8b3e22002604\""
-    },
-    {
         "url": "https://canary.discord.com/assets/3b5dd37427c276dc.svg",
         "etag": "W/\"ba581ef02424c465a38145e65f8f1d58\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/7cb3d6186d2f3829.wasm",
+        "etag": "W/\"813ec6194cfbcd81ff99a6ac7e2a8d6d\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/52db42441d27d4a4.wasm",
+        "etag": "W/\"564295ce08abc628a93652013a27f245\""
     },
     {
         "url": "https://canary.discord.com/assets/d8ed080e91b1b7d7.png",
@@ -18050,6 +18030,10 @@
     {
         "url": "https://canary.discord.com/assets/0ba35734ebd55cee.svg",
         "etag": "W/\"9c1de015477307258713626405331986\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/7bbbd663402a67c4.scm",
+        "etag": "\"1a65203b65359afc47d1b57d3fc96507\""
     },
     {
         "url": "https://canary.discord.com/assets/be0d484501e95a2d.svg",
@@ -18140,8 +18124,8 @@
         "etag": "W/\"b2c89245297a34cfa210ead56b7e13d8\""
     },
     {
-        "url": "https://canary.discord.com/assets/f5ddb267044c6931.wasm",
-        "etag": "W/\"0a5da6e83968c775a1f4cc77ef29e4a7\""
+        "url": "https://canary.discord.com/assets/e7880f9ee99e8b17.wasm",
+        "etag": "W/\"43362c9253945c6ad7406be057adaf7f\""
     },
     {
         "url": "https://canary.discord.com/assets/1df1509c6c0516a2.svg",
@@ -18184,10 +18168,6 @@
         "etag": "W/\"05ace4106e5e1af6afbea0fa339e557c\""
     },
     {
-        "url": "https://canary.discord.com/assets/b46742dbee67e756.wasm",
-        "etag": "W/\"3aa3f880a2cfb3e01b7dafe860722bd6\""
-    },
-    {
         "url": "https://canary.discord.com/assets/0668ca7859b5ab1a.svg",
         "etag": "W/\"5e5ab6737c6e2b6a9aa7a1e7295d1b41\""
     },
@@ -18198,6 +18178,10 @@
     {
         "url": "https://canary.discord.com/assets/709563a23303e337.svg",
         "etag": "W/\"6397a81d13d9b1cac66c1afefb072f3d\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/15c8ec64f2ae513e.wasm",
+        "etag": "W/\"110e8580597b1b8d4926e45ed52e11e5\""
     },
     {
         "url": "https://canary.discord.com/assets/7b1e22b240436b34.svg",
@@ -18268,8 +18252,16 @@
         "etag": "\"71f048f8aa7d4b24bf4268a87cbbb192\""
     },
     {
+        "url": "https://canary.discord.com/assets/c7ac1c7e64386ef2.wasm",
+        "etag": "W/\"c914df6a28685a95e178eb2c830a67b4\""
+    },
+    {
         "url": "https://canary.discord.com/assets/f18edb2eaff22b9b.svg",
         "etag": "W/\"8ae21900410d5310d5697a36de1aa5ea\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/0649ea5400fabaf9.wasm",
+        "etag": "W/\"d15ab097b1b00fd014b7b210195438be\""
     },
     {
         "url": "https://canary.discord.com/assets/99fca900378cc8e4.svg",
@@ -18298,10 +18290,6 @@
     {
         "url": "https://canary.discord.com/assets/06990382fa810640.svg",
         "etag": "W/\"62460650701e8429f22dfb75d45a8a8f\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/6d6c0c9662c02445.wasm",
-        "etag": "W/\"ca525defe120476b8422348e40ca9632\""
     },
     {
         "url": "https://canary.discord.com/assets/2c9b317628e83951.svg",
@@ -18376,10 +18364,6 @@
         "etag": "W/\"48f16c7d6b5c4731e50c4a2f4abdd32d\""
     },
     {
-        "url": "https://canary.discord.com/assets/0d972285fed61c3a.wasm",
-        "etag": "W/\"e3ec3bb765f2f4b497e04cb883782bb8\""
-    },
-    {
         "url": "https://canary.discord.com/assets/08636438eb5b1030.svg",
         "etag": "W/\"284a5960c3fb6d80d0e02bc8ed2f2a2d\""
     },
@@ -18418,10 +18402,6 @@
     {
         "url": "https://canary.discord.com/assets/868bd08be239685d.svg",
         "etag": "W/\"3d1325998ccf6e8874185a82aa2a7d64\""
-    },
-    {
-        "url": "https://canary.discord.com/assets/7a1bfe86553551a2.scm",
-        "etag": "\"59ea75d51f1a4e8764300af99130aef8\""
     },
     {
         "url": "https://canary.discord.com/assets/f46649b10bc6b209.svg",
@@ -18576,12 +18556,20 @@
         "etag": "W/\"38fadb5ec7c550dd3c3a513f2135dadc\""
     },
     {
+        "url": "https://canary.discord.com/assets/e2e4ffe9446b9430.scm",
+        "etag": "\"3dca0ca49e586a62668c228317b2675f\""
+    },
+    {
         "url": "https://canary.discord.com/assets/b4002d11fb3b5c1c.png",
         "etag": "\"924c5a5eda5a5885b3a2345095a2f59c\""
     },
     {
         "url": "https://canary.discord.com/assets/6fc4902b8a6be85f.svg",
         "etag": "W/\"de9e8041ce007578d6cb70a50b643a39\""
+    },
+    {
+        "url": "https://canary.discord.com/assets/0298ed9734c0f49b.scm",
+        "etag": "\"73b29b95d89267b278714442d26cc690\""
     },
     {
         "url": "https://canary.discord.com/assets/1aa3b161a3b5d58c.lottie",
