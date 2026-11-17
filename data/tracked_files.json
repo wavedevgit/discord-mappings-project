@@ -1,6 +1,6 @@
 {
-  "build": "35520500000000",
-  "commit": "dc3c76a96a53769f9e98f49f3ddf285dff726ea6",
+  "build": "35620100000000",
+  "commit": "10d8dd3a1be46be5cda28b2d6f1885ab6ada2a5e",
   "files": {
     "app/actions/ActivitiesActionCreators.tsx": 18677,
     "app/actions/AlertActionCreators.tsx": 726,
@@ -10424,6 +10424,7 @@
     "app/src/main/res/drawable-mdpi/modules_activities_images_announcement_birb.png",
     "app/src/main/res/drawable-mdpi/modules_auth_native_images_loginbgsquare.webp",
     "app/src/main/res/drawable-mdpi/modules_auth_native_images_loginbgtall.webp",
+    "app/src/main/res/drawable-mdpi/modules_checkpoint_images_checkpoint_2026_intro_graphic.webp",
     "app/src/main/res/drawable-mdpi/modules_collectibles_native_images_featured_page_footer_dark.png",
     "app/src/main/res/drawable-mdpi/modules_collectibles_native_images_featured_page_footer_light.png",
     "app/src/main/res/drawable-mdpi/modules_conjure_chat_native_images_conjure_agent_avatar.png",
@@ -10893,6 +10894,7 @@
     "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_videoselfieicon.png",
     "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_videoslashicon.png",
     "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_voicelockicon.png",
+    "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_voicelowicon.png",
     "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_voicenormalicon.png",
     "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_voicenormalspoilericon.png",
     "app/src/main/res/drawable-xhdpi/design_components_icon_native_redesign_generated_images_voicewarningicon.png",
@@ -11451,6 +11453,7 @@
     "app/src/main/res/drawable-xhdpi/modules_build_overrides_native_images_codeillustrationdark.png",
     "app/src/main/res/drawable-xhdpi/modules_build_overrides_native_images_codeillustrationlight.png",
     "app/src/main/res/drawable-xhdpi/modules_chat_input_native_images_omnibutton_coachmark_static.png",
+    "app/src/main/res/drawable-xhdpi/modules_checkpoint_images_checkpoint_2026_intro_graphic.webp",
     "app/src/main/res/drawable-xhdpi/modules_collectibles_native_images_img_collectibles_shop.png",
     "app/src/main/res/drawable-xhdpi/modules_collectibles_native_images_img_none.png",
     "app/src/main/res/drawable-xhdpi/modules_conjure_chat_native_images_conjure_agent_avatar.png",
@@ -12040,6 +12043,7 @@
     "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_videoselfieicon.png",
     "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_videoslashicon.png",
     "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_voicelockicon.png",
+    "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_voicelowicon.png",
     "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_voicenormalicon.png",
     "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_voicenormalspoilericon.png",
     "app/src/main/res/drawable-xxhdpi/design_components_icon_native_redesign_generated_images_voicewarningicon.png",
@@ -12593,6 +12597,7 @@
     "app/src/main/res/drawable-xxhdpi/modules_build_overrides_native_images_codeillustrationdark.png",
     "app/src/main/res/drawable-xxhdpi/modules_build_overrides_native_images_codeillustrationlight.png",
     "app/src/main/res/drawable-xxhdpi/modules_chat_input_native_images_omnibutton_coachmark_static.png",
+    "app/src/main/res/drawable-xxhdpi/modules_checkpoint_images_checkpoint_2026_intro_graphic.webp",
     "app/src/main/res/drawable-xxhdpi/modules_collectibles_native_images_img_collectibles_shop.png",
     "app/src/main/res/drawable-xxhdpi/modules_collectibles_native_images_img_none.png",
     "app/src/main/res/drawable-xxhdpi/modules_conjure_chat_native_images_conjure_agent_avatar.png",
@@ -15237,6 +15242,7 @@
     "app/src/main/res/raw/modules_premium_promotions_third_party_macaron_macaronphase1compiledmessages.jsona",
     "app/src/main/res/raw/modules_premium_promotions_third_party_macaron_macaronphase2compiledmessages.jsona",
     "app/src/main/res/raw/modules_premium_promotions_third_party_thirdpartypromotioncompiledmessages.jsona",
+    "app/src/main/res/raw/modules_premium_promotions_third_party_voicemod_voicemodcompiledmessages.jsona",
     "app/src/main/res/raw/modules_premium_rust_3pp_rust3ppcompiledmessages.jsona",
     "app/src/main/res/raw/modules_premium_tenure_reward_norbscompiledmessages.jsona",
     "app/src/main/res/raw/modules_premium_tenure_reward_tenurerewardcompiledmessages.jsona",
@@ -15259,6 +15265,7 @@
     "app/src/main/res/raw/modules_virtual_currency_native_orb_wallet_svgs_nitro_upsell_graphic.svg",
     "app/src/main/res/raw/modules_voice_channel_apps_voicechannelappscompiledmessages.jsona",
     "app/src/main/res/raw/modules_voice_panel_native_dock_voicepaneldockcompiledmessages.jsona",
+    "app/src/main/res/raw/modules_waterwheels_waterwheelscompiledmessages.jsona",
     "app/src/main/res/raw/modules_waterwheels_waterwheelsuntranslatedcompiledmessages.jsona"
   ]
 }
